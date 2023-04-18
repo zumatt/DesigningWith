@@ -1,0 +1,91 @@
+/* FONT */
+@font-face {
+    font-family: EditorialNew;
+    src: url("/assets/font/EditorialNew-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: EditorialNew-Italic;
+    src: url("/assets/font/EditorialNew-Italic.otf") format("opentype");
+}
+
+@font-face {
+    font-family: SuisseIntl;
+    src: url("/assets/font/SuisseIntl-Regular.otf") format("opentype");
+}
+
+/* STYLE */
+
+body {
+    font-family: "EditorialNew";
+    margin: 0 1vw 0 1vw;
+}
+
+.title{
+    height: 60vh;
+}
+
+.title h1{
+    font-size: 4vw; /* 58px */
+    font-weight: normal;
+    margin: 2vh 0 0 0;
+}
+
+.titleItalic{
+    font-family: EditorialNew-Italic;
+}
+
+.description{
+    font-family: SuisseIntl;
+    font-size: 2vw; /* 32px */
+    height: 40vh;
+}
+
+.description p{
+    margin: 0 0 2vh 0;
+    position: absolute;
+    bottom: 0;
+}
+
+.descriptionUnderlined{
+    text-decoration: underline;
+}
+
+/* RESPONSIVE CSS */
+
+@media only screen and (max-width: 1024px) {
+    .description{
+        font-size: 2.5vw;
+    }
+    .title h1{
+        font-size: 5vw;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .description{
+        font-size: 3vw;
+    }
+    .title h1{
+        font-size: 6vw;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .description{
+        font-size: 3.8vw;
+    }
+    .title h1{
+        font-size: 7.6vw;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .description{
+        font-size: 4vw;
+    }
+    .title h1{
+        font-size: 8vw;
+    }
+}
+
