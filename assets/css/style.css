@@ -1,4 +1,12 @@
-/* FONT */
+/* -------------------> COLORs <------------------- */
+
+:root{
+    --firstColor: black;
+    --secondColor: white;
+    --thirdColor: blue;
+}
+
+/* -------------------> FONT <------------------- */
 @font-face {
     font-family: EditorialNew;
     src: url("../font/EditorialNewRegular.otf") format("opentype");
@@ -14,11 +22,27 @@
     src: url("../font/SuisseIntlRegular.otf") format("opentype");
 }
 
-/* STYLE */
+/* -------------------> STYLE <------------------- */
 
 body {
     font-family: "EditorialNew";
     margin: 0 1vw 0 1vw;
+    color: var(--firstColor);
+    background-color: var(--secondColor);
+}
+
+a{
+    color: var(--firstColor);
+}
+
+a:hover{
+    background-color: var(--thirdColor);
+    color: var(--secondColor);
+}
+
+::selection {
+    color: var(--secondColor);
+    background: var(--firstColor);
 }
 
 .title{
@@ -36,56 +60,167 @@ body {
 }
 
 .description{
-    font-family: SuisseIntl;
-    font-size: 2vw; /* 32px */
     height: 40vh;
+/*PROPOSTA    margin-left: 20vw;*/
 }
 
 .description p{
-    margin: 0 0 2vh 0;
     position: absolute;
     bottom: 0;
 }
 
-.descriptionUnderlined{
-    text-decoration: underline;
+.textBody{
+    font-family: SuisseIntl;
+    font-size: 2vw; /* 32px */
 }
 
-/* RESPONSIVE CSS */
+.textBody p{
+    margin: 0 0 2vh 0;
+}
+
+.row{
+    margin: 4vh 3vw 0 3vw; 
+}
+
+.column {
+    float: left;
+  }
+
+.column h2{
+    font-size: 2vw; /* 32px */
+    font-weight: normal;
+  }
+
+.column h3{
+    font-size: 1.8vw;
+    font-weight: normal;
+  }
+
+.column p{
+    font-family: SuisseIntl;
+    font-size: 1.2vw;
+    font-weight: normal;
+  }
+  
+  .wideColumn {
+    width: 25%;
+  }
+  
+  .smallColumn {
+    width: 12.5%;
+  }
+
+  .smallColumn h2{
+    text-align: center;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .plus{
+    width: 3vw;
+    height: 3vw;
+    margin-top: 22px;
+  }
+
+  .plusH{
+    position: relative;
+    width: 2px;
+    left: 50%;
+    height: 100%;
+    background-color: black;
+  }
+
+  .plusV{
+    position: relative;
+    height: 2px;
+    bottom: 50%;
+    width: 100%;
+    background-color: black;
+  }
+
+/*  -------------------> RESPONSIVE <------------------- */
 
 @media only screen and (max-width: 1024px) {
-    .description{
+    .textBody{
         font-size: 2.5vw;
     }
     .title h1{
         font-size: 5vw;
     }
+    .column h2{
+        font-size: 2.5vw; /* 32px */
+      }
+    
+    .column h3{
+        font-size: 2.3vw;
+      }
+    
+    .column p{
+        font-size: 1.7vw;
+      }
 }
 
 @media only screen and (max-width: 768px) {
-    .description{
+    .textBody{
         font-size: 3vw;
     }
     .title h1{
         font-size: 6vw;
     }
+    .column h2{
+        font-size: 3vw; /* 32px */
+      }
+    
+    .column h3{
+        font-size: 2.8vw;
+      }
+    
+    .column p{
+        font-size: 2.2vw;
+      }
 }
 
 @media only screen and (max-width: 425px) {
-    .description{
+    .textBody{
         font-size: 3.8vw;
     }
     .title h1{
         font-size: 7.6vw;
     }
+    .column h2{
+        font-size: 3.8vw; /* 32px */
+      }
+    
+    .column h3{
+        font-size: 3.6vw;
+      }
+    
+    .column p{
+        font-size: 3vw;
+      }
 }
 
 @media only screen and (max-width: 320px) {
-    .description{
-        font-size: 4vw;
+    .textBody{
+        font-size: 3vw;
     }
     .title h1{
         font-size: 8vw;
     }
+    .column h2{
+        font-size: 3vw; /* 32px */
+      }
+    
+    .column h3{
+        font-size: 1.8vw;
+      }
+    
+    .column p{
+        font-size: 1.2vw;
+      }
 }
 
