@@ -1,17 +1,17 @@
 /* FONT */
 @font-face {
     font-family: EditorialNew;
-    src: url("/assets/EditorialNew-Regular.otf") format("opentype");
+    src: url("/assets/EditorialNewRegular.otf") format("opentype");
 }
 
 @font-face {
     font-family: EditorialNew-Italic;
-    src: url("/assets/EditorialNew-Italic.otf") format("opentype");
+    src: url("/assets/EditorialNewItalic.otf") format("opentype");
 }
 
 @font-face {
     font-family: SuisseIntl;
-    src: url("/assets/SuisseIntl-Regular.otf") format("opentype");
+    src: url("/assets/SuisseIntlRegular.otf") format("opentype");
 }
 
 /* STYLE */
