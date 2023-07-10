@@ -1,0 +1,34 @@
+.node circle {        
+    fill: #ffffff;             
+    stroke-width: 1.5px;  
+}
+.designPhase {             
+    stroke: rgb(249, 119, 50);
+}   
+.aiActivities {             
+    stroke: rgb(113, 50, 249);
+}  
+.node circle#Freemium{          
+    fill: #ff0202; 
+    stroke: #000000;
+}
+.node circle#Free{          
+    fill: #49ff5f; 
+    stroke: #000000; 
+}
+.node circle#Premium{          
+    fill: #f534ff; 
+    stroke: #000000; 
+}
+.node {       
+    font: 16px sans-serif;
+    text-shadow: 0 2px 0 #fff, 0 -2px 0 #fff, 2px 0 0 #fff, -2px 0 0 #fff;
+}
+.firstNode {       
+    display: none;  
+} 
+.link {       
+    fill: none;       
+    stroke: #dfdfdf;       
+    stroke-width: 1.5px;  
+} 

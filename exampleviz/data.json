@@ -1,0 +1,17 @@
+{   "name": "AI/DV/ML Toolmap",   
+    "children": [     
+            {   "name": "Research",      
+                "children": [        
+                        {   "name": "Collect",
+                            "children": [
+                                    {   "name": "Text",
+                                        "children": [
+                                                {   "name": "Text",
+                                                    "children": [
+                                                            {   "name": "ChatGPT",
+                                                                "cost": "Freemium"}
+                                                    ]}
+                                        ]}
+                            ]}
+                ]}
+    ]}
