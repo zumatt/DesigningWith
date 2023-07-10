@@ -233,3 +233,10 @@ a:hover{
       }
 }
 
+.nodeVisible{
+  display: block;
+}
+
+.nodeInvisible{
+  display: none;
+}
