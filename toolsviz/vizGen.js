@@ -9,35 +9,41 @@
 */
 
 //Declare dimensions for the viewport of the dendrogram
-if (screen.width <= 1500){var width = 2000;}else{var width = screen.width;}
+if (screen.width <= 1500){var width = 1500;}else{var width = screen.width;}
 var height = 9000;
 
-var legend = d3.select("body").append("div")
-    .attr("width", width)
-    .attr("style", "height:" + (height+134) + "px;" + " display: flex;");
+if(screen.width > 2000){
+    var legend = d3.select("body").append("div")
+        .attr("width", width)
+        .attr("style", "height:" + (height+134) + "px;" + " display: flex;");
 
-legend.append("div")
-    .attr("class", "box")
-    .html("Design Phase");
-legend.append("div")
-    .attr("class", "box")
-    .html("AI Activity");
-legend.append("div")
-    .attr("class", "box")
-    .html("Input");
-legend.append("div")
-    .attr("class", "box")
-    .html("Output");
-legend.append("div")
-    .attr("class", "box")
-    .html("Tool");
+    legend.append("div")
+        .attr("class", "box")
+        .html("Design Phase");
+    legend.append("div")
+        .attr("class", "box")
+        .html("AI Activity");
+    legend.append("div")
+        .attr("class", "box")
+        .html("Input");
+    legend.append("div")
+        .attr("class", "box")
+        .html("Output");
+    legend.append("div")
+        .attr("class", "box")
+        .html("Tool");
+}
 
 //Create the html elements to visualize the dataset
 var svg = d3.select("body").append("svg")
     .attr("id", "toolsViz")        
     .attr("width",width)        
-    .attr("height",height)
-    .attr("style", "position: absolute; left: 0; top: 100px; border-top:1px solid #aaaaaa; border-bottom:1px solid #aaaaaa; padding-top:40px; padding-bottom:40px; margin-top: -40px;");                
+    .attr("height",height);
+    if(screen.width <= 2000){
+        svg.attr("style", "position: absolute; left: 0; top: 100px; margin-top: -40px;");
+    }else{
+        svg.attr("style", "z-index: 2; position: absolute; left: 0; top: 100px; border-top:1px solid #aaaaaa; border-bottom:1px solid #aaaaaa;");
+    };                
 g = svg.append("g").attr("transform", "translate(-180,0)");
 
 var cluster = d3.cluster()
@@ -72,7 +78,8 @@ d3.csv("tools.csv", function(error, data) {
             .style("line-height", "32px")
             .style("border-width", "2px")
             .style("min-width", "200px")
-            .style("padding", "30px");   
+            .style("padding", "30px")
+            .style("z-index", "3");   
 
         var mouseover = function(d) {
             Tooltip
@@ -95,11 +102,14 @@ d3.csv("tools.csv", function(error, data) {
             .enter().append("g")
             .style("display", function(d) { return d.parent ? "" : "none"; })
             .attr("class", function(d) {if(d.data.cost == "Free, waiting list"){return "node freeWl" + (d.children ? " node--internal" : " node--leaf");}else if(d.data.cost == "Free"){return "node free" + (d.children ? " node--internal" : " node--leaf");}else if(d.data.cost == "Premium"){return "node premium" + (d.children ? " node--internal" : " node--leaf");}else if(d.data.cost == "Freemium"){return "node freemium" + (d.children ? " node--internal" : " node--leaf");}else{return "node" + (d.children ? " node--internal" : " node--leaf");}})
-            .attr("transform", function(d) { return "translate(" + d.y + "," + d.x + ")"; })
+            .attr("transform", function(d) {return "translate(" + d.y + "," + d.x + ")"; })
             .on("mouseover", function(d){if(d.data.cost){mouseover(d);}})
             .on("mousemove", function(d){if(screen.width >= 1000){if(d.data.cost){mousemove(d);}}})
             .on("mouseleave", function(d){if(d.data.cost){mouseleave(d);}});
         
+        g.selectAll(".box")
+        .attr("transform", function(d){return "translate(" + d.y + "," + 0 + ")"; });
+
         node.append("rect")
           .attr("display", function(d){if(d.depth != 1){return "none"}else{return "block"}})
           .attr("x", -5)
