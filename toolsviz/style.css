@@ -15,25 +15,30 @@
 }
 
 /* -------------------> STYLE <------------------- */
-.node circle {
+
+
+.node.free circle{
   fill: #ffffff;
+  stroke: #ff3636;
   stroke-width: 1.5px;
 }
 
-.node.free circle{
-  stroke: #ff3636;
-}
-
 .node.premium circle{
+  fill: #ffffff;
   stroke: #36c6ff;
+  stroke-width: 1.5px;
 }
 
 .node.freemium circle{
+  fill: #ffffff;
   stroke: #c936ff;
+  stroke-width: 1.5px;
 }
 
 .node.freeWl circle{
+  fill: #ffffff;
   stroke: #ffa536;
+  stroke-width: 1.5px;
 }
   
 .node text {
@@ -72,4 +77,12 @@
 label {
   display: block;
 }
-  
+
+.box{
+  font: 16px "SuisseIntl", sans-serif;
+  width: 20%;
+  text-align: center;
+  padding: 10px;
+  border-left: 1px solid #aaaaaa;
+  z-index: 2;
+}

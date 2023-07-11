@@ -10,13 +10,34 @@
 
 //Declare dimensions for the viewport of the dendrogram
 if (screen.width <= 1500){var width = 2000;}else{var width = screen.width;}
-var height = 9000;  
+var height = 9000;
+
+var legend = d3.select("body").append("div")
+    .attr("width", width)
+    .attr("style", "height:" + (height+134) + "px;" + " display: flex;");
+
+legend.append("div")
+    .attr("class", "box")
+    .html("Design Phase");
+legend.append("div")
+    .attr("class", "box")
+    .html("AI Activity");
+legend.append("div")
+    .attr("class", "box")
+    .html("Input");
+legend.append("div")
+    .attr("class", "box")
+    .html("Output");
+legend.append("div")
+    .attr("class", "box")
+    .html("Tool");
 
 //Create the html elements to visualize the dataset
 var svg = d3.select("body").append("svg")
     .attr("id", "toolsViz")        
     .attr("width",width)        
-    .attr("height",height);                
+    .attr("height",height)
+    .attr("style", "position: absolute; left: 0; top: 100px; border-top:1px solid #aaaaaa; border-bottom:1px solid #aaaaaa; padding-top:40px; padding-bottom:40px; margin-top: -40px;");                
 g = svg.append("g").attr("transform", "translate(-180,0)");
 
 var cluster = d3.cluster()
@@ -78,8 +99,40 @@ d3.csv("tools.csv", function(error, data) {
             .on("mouseover", function(d){if(d.data.cost){mouseover(d);}})
             .on("mousemove", function(d){if(screen.width >= 1000){if(d.data.cost){mousemove(d);}}})
             .on("mouseleave", function(d){if(d.data.cost){mouseleave(d);}});
+        
+        node.append("rect")
+          .attr("display", function(d){if(d.depth != 1){return "none"}else{return "block"}})
+          .attr("x", -5)
+          .attr("y", -5)
+          .attr("width", 10)
+          .attr("height", 10)
+          .attr("fill", "white")
+          .attr("stroke", "black")
+          .attr("stroke-width", "1.5");
+
+        node.append("rect")
+          .attr("display", function(d){if(d.depth != 2){return "none"}else{return "block"}})
+          .attr("x", -5)
+          .attr("y", -5 )
+          .attr("width", 10)
+          .attr("height", 10)
+          .attr("fill", "white")
+          .attr("stroke", "black")
+          .attr("stroke-width", "1.5")
+          .attr("style", "transform: rotate(45deg);");
 
         node.append("circle")
+            .attr("display", function(d){if(d.depth != 3){return "none"}else{return "block"}})
+            .attr("style", "stroke:#000000; stroke-width:1.5px; fill: #ffffff;")
+            .attr("r", 3.5);
+        
+        node.append("circle")
+            .attr("display", function(d){if(d.depth != 4){return "none"}else{return "block"}})
+            .attr("style", "stroke:#000000; stroke-width:1.5px; fill: #000000;")
+            .attr("r", 3.5);
+
+        node.append("circle")
+            .attr("display", function(d){if(d.depth != 5){return "none"}else{return "block"}})
             .attr("r", 3.5);
 
         node.append("text")
