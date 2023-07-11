@@ -1,554 +1,554 @@
-id,value,cost
-AI/DV/ML Toolmap,,
-AI/DV/ML Toolmap.Research,,
-AI/DV/ML Toolmap.Research.Collect,,
-AI/DV/ML Toolmap.Research.Collect.Audio,,
-AI/DV/ML Toolmap.Research.Collect.Audio.Text,,
-AI/DV/ML Toolmap.Research.Collect.Audio.Text.parrot ai,5,Freemium
-AI/DV/ML Toolmap.Research.Collect.Text,,
-AI/DV/ML Toolmap.Research.Collect.Text.Book,,
-AI/DV/ML Toolmap.Research.Collect.Text.Book.BookAbout,8,Free
-AI/DV/ML Toolmap.Research.Collect.Text.Book.Bookclub ai,9,Free
-AI/DV/ML Toolmap.Research.Collect.Text.Book.Next Three Books,10,Free
-AI/DV/ML Toolmap.Research.Collect.Text.Literature,,
-AI/DV/ML Toolmap.Research.Collect.Text.Literature.Elicit,12,Free
-AI/DV/ML Toolmap.Research.Collect.Text.Literature.Typeset,13,Free
-AI/DV/ML Toolmap.Research.Collect.Text.Table,,
-AI/DV/ML Toolmap.Research.Collect.Text.Table.Apify,16,Freemium
-AI/DV/ML Toolmap.Research.Collect.Text.Table.Crowdtangle,17,Free
-AI/DV/ML Toolmap.Research.Collect.Text.Table.Google Play Scraper,18,Free
-AI/DV/ML Toolmap.Research.Collect.Text.Table.TumblrTool,19,Free
-AI/DV/ML Toolmap.Research.Collect.Text.Table.Youtube Data Tools,20,Free
-AI/DV/ML Toolmap.Research.Collect.Text.Text,,
-AI/DV/ML Toolmap.Research.Collect.Text.Text.ChatGPT,22,Freemium
-AI/DV/ML Toolmap.Research.Collect.Text.Visualization,,
-AI/DV/ML Toolmap.Research.Collect.Text.Visualization.Wikipedia Cross-lingual Image Analysis,24,Free
-AI/DV/ML Toolmap.Research.Collect.Text.Visualization.Wikiview net,25,Free
-AI/DV/ML Toolmap.Research.Collect.Video,,
-AI/DV/ML Toolmap.Research.Collect.Video.Text,,
-AI/DV/ML Toolmap.Research.Collect.Video.Text.parrot ai,28,Freemium
-AI/DV/ML Toolmap.Research.Collect.Website,,
-AI/DV/ML Toolmap.Research.Collect.Website.Table,,
-AI/DV/ML Toolmap.Research.Collect.Website.Table.Browse AI,31,Freemium
-AI/DV/ML Toolmap.Research.Translate,,
-AI/DV/ML Toolmap.Research.Translate.Text,,
-AI/DV/ML Toolmap.Research.Translate.Text.Text,,
-AI/DV/ML Toolmap.Research.Translate.Text.Text.ChatGPT,35,Freemium
-AI/DV/ML Toolmap.Research.Translate.Text.Text.jasper ai,36,Premium
-AI/DV/ML Toolmap.Research.Translate.Text.Text.Notion AI,37,Premium
-AI/DV/ML Toolmap.Research.Translate.Text.Text.Open AI in Spreadsheet,38,Free
-AI/DV/ML Toolmap.Synthesize,,
-AI/DV/ML Toolmap.Synthesize.Classify,,
-AI/DV/ML Toolmap.Synthesize.Classify.Audio,,
-AI/DV/ML Toolmap.Synthesize.Classify.Audio.Label,,
-AI/DV/ML Toolmap.Synthesize.Classify.Audio.Label.Edge Impulse,43,Free
-AI/DV/ML Toolmap.Synthesize.Classify.Audio.Label.Label Studio,44,Free
-AI/DV/ML Toolmap.Synthesize.Classify.Gesture,,
-AI/DV/ML Toolmap.Synthesize.Classify.Gesture.Instruction,,
-AI/DV/ML Toolmap.Synthesize.Classify.Gesture.Instruction.Tiny Motion Trainer,47,Free
-AI/DV/ML Toolmap.Synthesize.Classify.Image,,
-AI/DV/ML Toolmap.Synthesize.Classify.Image.Label,,
-AI/DV/ML Toolmap.Synthesize.Classify.Image.Label.Edge Impulse,50,Free
-AI/DV/ML Toolmap.Synthesize.Classify.Image.Label.Label Studio,51,Free
-AI/DV/ML Toolmap.Synthesize.Classify.Image.Label.ML5,52,Free
-AI/DV/ML Toolmap.Synthesize.Classify.Image.Visualization,,
-AI/DV/ML Toolmap.Synthesize.Classify.Image.Visualization.Image Sorter,54,Free
-AI/DV/ML Toolmap.Synthesize.Classify.Image.Visualization.ImagePlot,55,Free
-AI/DV/ML Toolmap.Synthesize.Classify.Image.Visualization.ImageX,56,Free
-AI/DV/ML Toolmap.Synthesize.Classify.Image.Visualization.Kiano,57,Free
-AI/DV/ML Toolmap.Synthesize.Classify.Image.Visualization.Pic Arrange,58,Free
-AI/DV/ML Toolmap.Synthesize.Classify.Table,,
-AI/DV/ML Toolmap.Synthesize.Classify.Table.Visualization,,
-AI/DV/ML Toolmap.Synthesize.Classify.Table.Visualization.Nomic AI,61,Free
-AI/DV/ML Toolmap.Synthesize.Classify.Text,,
-AI/DV/ML Toolmap.Synthesize.Classify.Text.Label,,
-AI/DV/ML Toolmap.Synthesize.Classify.Text.Label.Edge Impulse,64,Free
-AI/DV/ML Toolmap.Synthesize.Classify.Text.Label.Label Studio,65,Free
-AI/DV/ML Toolmap.Synthesize.Classify.Text.Literature,,
-AI/DV/ML Toolmap.Synthesize.Classify.Text.Literature.Elicit,67,Free
-AI/DV/ML Toolmap.Synthesize.Classify.Text.Visualization,,
-AI/DV/ML Toolmap.Synthesize.Classify.Text.Visualization.Textometrica,69,Free
-AI/DV/ML Toolmap.Synthesize.Classify.Text.Visualization.WordWanderer,70,Free
-AI/DV/ML Toolmap.Synthesize.Classify.Video,,
-AI/DV/ML Toolmap.Synthesize.Classify.Video.Label,,
-AI/DV/ML Toolmap.Synthesize.Classify.Video.Label.Label Studio,73,Free
-AI/DV/ML Toolmap.Synthesize.Collect,,
-AI/DV/ML Toolmap.Synthesize.Collect.Audio,,
-AI/DV/ML Toolmap.Synthesize.Collect.Audio.Text,,
-AI/DV/ML Toolmap.Synthesize.Collect.Audio.Text.parrot ai,77,Freemium
-AI/DV/ML Toolmap.Synthesize.Collect.Text,,
-AI/DV/ML Toolmap.Synthesize.Collect.Text.Text,,
-AI/DV/ML Toolmap.Synthesize.Collect.Text.Text.Bot Sheets,80,Free
-AI/DV/ML Toolmap.Synthesize.Collect.Video,,
-AI/DV/ML Toolmap.Synthesize.Collect.Video.Text,,
-AI/DV/ML Toolmap.Synthesize.Collect.Video.Text.parrot ai,83,Freemium
-AI/DV/ML Toolmap.Synthesize.Collect.Video.Text.Transvibe,84,Free
-AI/DV/ML Toolmap.Synthesize.Collect.Website,,
-AI/DV/ML Toolmap.Synthesize.Collect.Website.Table,,
-AI/DV/ML Toolmap.Synthesize.Collect.Website.Table.Browse AI,87,Freemium
-AI/DV/ML Toolmap.Synthesize.Generate,,
-AI/DV/ML Toolmap.Synthesize.Generate.Audio,,
-AI/DV/ML Toolmap.Synthesize.Generate.Audio.Text,,
-AI/DV/ML Toolmap.Synthesize.Generate.Audio.Text.Deciphr AI,91,Freemium
-AI/DV/ML Toolmap.Synthesize.Generate.Audio.Text.Ermine ai,92,Free
-AI/DV/ML Toolmap.Synthesize.Generate.Audio.Text.Good Tape,93,Free
-AI/DV/ML Toolmap.Synthesize.Rank,,
-AI/DV/ML Toolmap.Synthesize.Rank.Image,,
-AI/DV/ML Toolmap.Synthesize.Rank.Image.Visualization,,
-AI/DV/ML Toolmap.Synthesize.Rank.Image.Visualization.Image Sorter,97,Free
-AI/DV/ML Toolmap.Synthesize.Rank.Image.Visualization.ImagePlot,98,Free
-AI/DV/ML Toolmap.Synthesize.Rank.Image.Visualization.ImageX,99,Free
-AI/DV/ML Toolmap.Synthesize.Rank.Image.Visualization.Kiano,100,Free
-AI/DV/ML Toolmap.Synthesize.Rank.Image.Visualization.Pic Arrange,101,Free
-AI/DV/ML Toolmap.Synthesize.Rank.Table,,
-AI/DV/ML Toolmap.Synthesize.Rank.Table.Visualization,,
-AI/DV/ML Toolmap.Synthesize.Rank.Table.Visualization.Gephi,104,Free
-AI/DV/ML Toolmap.Synthesize.Rank.Table.Visualization.Kumu,105,Free
-AI/DV/ML Toolmap.Synthesize.Rank.Text,,
-AI/DV/ML Toolmap.Synthesize.Rank.Text.Visualization,,
-AI/DV/ML Toolmap.Synthesize.Rank.Text.Visualization.Tag Crowd,108,Free
-AI/DV/ML Toolmap.Synthesize.Rank.Text.Visualization.Textometrica,109,Free
-AI/DV/ML Toolmap.Synthesize.Rank.Text.Visualization.Voynat Tool,110,Free
-AI/DV/ML Toolmap.Synthesize.Rank.Text.Visualization.Word Tree,111,Free
-AI/DV/ML Toolmap.Synthesize.Rank.Text.Visualization.WordWanderer,112,Free
-AI/DV/ML Toolmap.Synthesize.Recognise,,
-AI/DV/ML Toolmap.Synthesize.Recognise.Image,,
-AI/DV/ML Toolmap.Synthesize.Recognise.Image.Image,,
-AI/DV/ML Toolmap.Synthesize.Recognise.Image.Image.RUNWAY ML,116,Freemium
-AI/DV/ML Toolmap.Synthesize.Recognise.Image.Label,,
-AI/DV/ML Toolmap.Synthesize.Recognise.Image.Label.Akiwi,118,Free
-AI/DV/ML Toolmap.Synthesize.Recognise.Image.Label.Datature,119,Freemium
-AI/DV/ML Toolmap.Synthesize.Recognise.Image.Label.Label Studio,120,Free
-AI/DV/ML Toolmap.Synthesize.Recognise.Image.Label.Lobe,121,Free
-AI/DV/ML Toolmap.Synthesize.Recognise.Image.Label.ML5,122,Free
-AI/DV/ML Toolmap.Synthesize.Recognise.Image.Label.RUNWAY ML,123,Freemium
-AI/DV/ML Toolmap.Synthesize.Recognise.Image.Table,,
-AI/DV/ML Toolmap.Synthesize.Recognise.Image.Table.Immaging Tagging Tool Interface,124,Free
-AI/DV/ML Toolmap.Synthesize.Recognise.Image.Table.Memespector,125,Free
-AI/DV/ML Toolmap.Synthesize.Recognise.Text,,
-AI/DV/ML Toolmap.Synthesize.Recognise.Text.Label,,
-AI/DV/ML Toolmap.Synthesize.Recognise.Text.Label.GPTzero,128,Free
-AI/DV/ML Toolmap.Synthesize.Recognise.Text.Label.Label Studio,129,Free
-AI/DV/ML Toolmap.Synthesize.Recognise.Video,,
-AI/DV/ML Toolmap.Synthesize.Recognise.Video.Label,,
-AI/DV/ML Toolmap.Synthesize.Recognise.Video.Label.Label Studio,132,Free
-AI/DV/ML Toolmap.Synthesize.Summarize,,
-AI/DV/ML Toolmap.Synthesize.Summarize.Audio,,
-AI/DV/ML Toolmap.Synthesize.Summarize.Audio.Text,,
-AI/DV/ML Toolmap.Synthesize.Summarize.Audio.Text.parrot ai,136,Freemium
-AI/DV/ML Toolmap.Synthesize.Summarize.Literature,,
-AI/DV/ML Toolmap.Synthesize.Summarize.Literature.Text,,
-AI/DV/ML Toolmap.Synthesize.Summarize.Literature.Text.Arxiv Summary Generator,139,Free
-AI/DV/ML Toolmap.Synthesize.Summarize.Literature.Text.Typeset,140,Free
-AI/DV/ML Toolmap.Synthesize.Summarize.Literature.Text.Typeset,141,Free
-AI/DV/ML Toolmap.Synthesize.Summarize.Text,,
-AI/DV/ML Toolmap.Synthesize.Summarize.Text.Copy,,
-AI/DV/ML Toolmap.Synthesize.Summarize.Text.Copy.Fig GPT Figma Plugin,144,Free
-AI/DV/ML Toolmap.Synthesize.Summarize.Text.Copy.Tweetify it,145,Freemium
-AI/DV/ML Toolmap.Synthesize.Summarize.Text.Literature,,
-AI/DV/ML Toolmap.Synthesize.Summarize.Text.Literature.Elicit,147,Free
-AI/DV/ML Toolmap.Synthesize.Summarize.Text.Text,,
-AI/DV/ML Toolmap.Synthesize.Summarize.Text.Text.BLUF,149,Freemium
-AI/DV/ML Toolmap.Synthesize.Summarize.Text.Text.ChatGPT,150,Freemium
-AI/DV/ML Toolmap.Synthesize.Summarize.Text.Text.Notion AI,151,Premium
-AI/DV/ML Toolmap.Synthesize.Summarize.Text.Text.WebMagicAI,152,Freemium
-AI/DV/ML Toolmap.Synthesize.Summarize.Video,,
-AI/DV/ML Toolmap.Synthesize.Summarize.Video.Text,,
-AI/DV/ML Toolmap.Synthesize.Summarize.Video.Text.Eightify,155,Free
-AI/DV/ML Toolmap.Synthesize.Summarize.Video.Text.GLASP - Youtube summary with Chatgpt,156,Free
-AI/DV/ML Toolmap.Synthesize.Summarize.Video.Text.parrot ai,157,Freemium
-AI/DV/ML Toolmap.Synthesize.Summarize.Video.Text.TLDR  Youtube,158,Free
-AI/DV/ML Toolmap.Synthesize.Summarize.Video.Text.You-tldr,159,Free
-AI/DV/ML Toolmap.Synthesize.Summarize.Video.Text.You-tldr,160,Free
-AI/DV/ML Toolmap.Synthesize.Summarize.Video.Text.Youtube Summarized,161,Free
-AI/DV/ML Toolmap.Synthesize.Summarize.Video.Video,,
-AI/DV/ML Toolmap.Synthesize.Summarize.Video.Video.MagicBrief,162,Premium
-AI/DV/ML Toolmap.Synthesize.Summarize.Website,,
-AI/DV/ML Toolmap.Synthesize.Summarize.Website.Text,,
-AI/DV/ML Toolmap.Synthesize.Summarize.Website.Text.SiteExplainer,165,Freemium
-AI/DV/ML Toolmap.Synthesize.Translate,,
-AI/DV/ML Toolmap.Synthesize.Translate.Text,,
-AI/DV/ML Toolmap.Synthesize.Translate.Text.Text,,
-AI/DV/ML Toolmap.Synthesize.Translate.Text.Text.Open AI in Spreadsheet,169,Free
-AI/DV/ML Toolmap.Synthesize.Visualize,,
-AI/DV/ML Toolmap.Synthesize.Visualize.Table,,
-AI/DV/ML Toolmap.Synthesize.Visualize.Table.Visualization,,
-AI/DV/ML Toolmap.Synthesize.Visualize.Table.Visualization.Gephi,173,Free
-AI/DV/ML Toolmap.Synthesize.Visualize.Table.Visualization.Kumu,174,Free
-AI/DV/ML Toolmap.Synthesize.Visualize.Table.Visualization.Nomic AI,175,Free
-AI/DV/ML Toolmap.Synthesize.Visualize.Text,,
-AI/DV/ML Toolmap.Synthesize.Visualize.Text.Visualization,,
-AI/DV/ML Toolmap.Synthesize.Visualize.Text.Visualization.Tag Crowd,178,Free
-AI/DV/ML Toolmap.Synthesize.Visualize.Text.Visualization.Textometrica,179,Free
-AI/DV/ML Toolmap.Synthesize.Visualize.Text.Visualization.Voynat Tool,180,Free
-AI/DV/ML Toolmap.Synthesize.Visualize.Text.Visualization.Word Tree,181,Free
-AI/DV/ML Toolmap.Ideate,,
-AI/DV/ML Toolmap.Ideate.Generate,,
-AI/DV/ML Toolmap.Ideate.Generate.Audio,,
-AI/DV/ML Toolmap.Ideate.Generate.Audio.Video,,
-AI/DV/ML Toolmap.Ideate.Generate.Audio.Video.WZRD ai,186,Free
-AI/DV/ML Toolmap.Ideate.Generate.Drawings,,
-AI/DV/ML Toolmap.Ideate.Generate.Drawings.Icons,,
-AI/DV/ML Toolmap.Ideate.Generate.Drawings.Icons.AutoDraw,189,Free
-AI/DV/ML Toolmap.Ideate.Generate.Drawings.Website,,
-AI/DV/ML Toolmap.Ideate.Generate.Drawings.Website.TeleportHQ,191,Freemium
-AI/DV/ML Toolmap.Ideate.Generate.Image,,
-AI/DV/ML Toolmap.Ideate.Generate.Image.Design System Components,,
-AI/DV/ML Toolmap.Ideate.Generate.Image.Design System Components.Visily AI,194,Free
-AI/DV/ML Toolmap.Ideate.Generate.Image.Image,,
-AI/DV/ML Toolmap.Ideate.Generate.Image.Image.RUNWAY ML,196,Freemium
-AI/DV/ML Toolmap.Ideate.Generate.Image.Image.TrainEngine ai,197,Free
-AI/DV/ML Toolmap.Ideate.Generate.Image.Render,,
-AI/DV/ML Toolmap.Ideate.Generate.Image.Render.Interior AI,199,Free
-AI/DV/ML Toolmap.Ideate.Generate.Image.Video,,
-AI/DV/ML Toolmap.Ideate.Generate.Image.Video.Midjouney,201,Premium
-AI/DV/ML Toolmap.Ideate.Generate.Image.Website,,
-AI/DV/ML Toolmap.Ideate.Generate.Image.Website.Visily AI,203,Free
-AI/DV/ML Toolmap.Ideate.Generate.Instructions,,
-AI/DV/ML Toolmap.Ideate.Generate.Instructions.Avatar,,
-AI/DV/ML Toolmap.Ideate.Generate.Instructions.Avatar.Generated Photos,206,Freemium
-AI/DV/ML Toolmap.Ideate.Generate.None,,
-AI/DV/ML Toolmap.Ideate.Generate.None.Image,,
-AI/DV/ML Toolmap.Ideate.Generate.None.Image.Text To Book Cover,209,Freemium
-AI/DV/ML Toolmap.Ideate.Generate.Text,,
-AI/DV/ML Toolmap.Ideate.Generate.Text.360 images,,
-AI/DV/ML Toolmap.Ideate.Generate.Text.360 images.SkyBox Lab - Blockade ,212,Free
-AI/DV/ML Toolmap.Ideate.Generate.Text.3D,,
-AI/DV/ML Toolmap.Ideate.Generate.Text.3D.Masterpiece studio,214,"Free, waiting list"
-AI/DV/ML Toolmap.Ideate.Generate.Text.3D.Ponzu gg,215,Free
-AI/DV/ML Toolmap.Ideate.Generate.Text.Audio,,
-AI/DV/ML Toolmap.Ideate.Generate.Text.Audio.Soundraw,217,Freemium
-AI/DV/ML Toolmap.Ideate.Generate.Text.Blog,,
-AI/DV/ML Toolmap.Ideate.Generate.Text.Blog.Autoblogger ai,219,Free
-AI/DV/ML Toolmap.Ideate.Generate.Text.Blog.Reword,220,Freemium
-AI/DV/ML Toolmap.Ideate.Generate.Text.Copy,,
-AI/DV/ML Toolmap.Ideate.Generate.Text.Copy.Copy ai,222,Freemium
-AI/DV/ML Toolmap.Ideate.Generate.Text.Copy.DayDrm,223,Premium
-AI/DV/ML Toolmap.Ideate.Generate.Text.Copy.Fact GPT ,224,Premium
-AI/DV/ML Toolmap.Ideate.Generate.Text.Copy.Fig GPT Figma Plugin,225,Free
-AI/DV/ML Toolmap.Ideate.Generate.Text.Copy.Jot - AI Ad Copy,226,Premium
-AI/DV/ML Toolmap.Ideate.Generate.Text.Copy.Moonbeam,227,Free
-AI/DV/ML Toolmap.Ideate.Generate.Text.Design System Components,,
-AI/DV/ML Toolmap.Ideate.Generate.Text.Design System Components.Components ai,229,Freemium
-AI/DV/ML Toolmap.Ideate.Generate.Text.Design System Components.Flutterflow AI Gen,230,Freemium
-AI/DV/ML Toolmap.Ideate.Generate.Text.Icons,,
-AI/DV/ML Toolmap.Ideate.Generate.Text.Icons. AppIcons ai,232,Premium
-AI/DV/ML Toolmap.Ideate.Generate.Text.Icons.Iconify,233,Free
-AI/DV/ML Toolmap.Ideate.Generate.Text.Image,,
-AI/DV/ML Toolmap.Ideate.Generate.Text.Image.Adobe Firefly,235,Premium
-AI/DV/ML Toolmap.Ideate.Generate.Text.Image.DALL-e,236,Freemium
-AI/DV/ML Toolmap.Ideate.Generate.Text.Image.DreamStudio,237,Free
-AI/DV/ML Toolmap.Ideate.Generate.Text.Image.jasper ai,238,Premium
-AI/DV/ML Toolmap.Ideate.Generate.Text.Image.Looka,239,Freemium
-AI/DV/ML Toolmap.Ideate.Generate.Text.Image.Lunacy,240,Free
-AI/DV/ML Toolmap.Ideate.Generate.Text.Image.Midjouney,241,Premium
-AI/DV/ML Toolmap.Ideate.Generate.Text.Image.Plask ai,242,Free
-AI/DV/ML Toolmap.Ideate.Generate.Text.Image.Playform io,243,Freemium
-AI/DV/ML Toolmap.Ideate.Generate.Text.Image.RUNWAY ML,244,Freemium
-AI/DV/ML Toolmap.Ideate.Generate.Text.Image.Stable Diffusion,245,Free
-AI/DV/ML Toolmap.Ideate.Generate.Text.Image.Unstock ai,246,Free
-AI/DV/ML Toolmap.Ideate.Generate.Text.Presentation,,
-AI/DV/ML Toolmap.Ideate.Generate.Text.Presentation.Dektopus,248,Premium
-AI/DV/ML Toolmap.Ideate.Generate.Text.Presentation.PitchBob,249,Premium
-AI/DV/ML Toolmap.Ideate.Generate.Text.Text,,
-AI/DV/ML Toolmap.Ideate.Generate.Text.Text.ChatGPT,251,Freemium
-AI/DV/ML Toolmap.Ideate.Generate.Text.Text.Magician,252,Free
-AI/DV/ML Toolmap.Ideate.Generate.Text.Text.Notion AI,253,Premium
-AI/DV/ML Toolmap.Ideate.Generate.Text.Text.Open AI in Spreadsheet,254,Free
-AI/DV/ML Toolmap.Ideate.Generate.Text.Texture,,
-AI/DV/ML Toolmap.Ideate.Generate.Text.Texture.WithPoly,256,Free
-AI/DV/ML Toolmap.Ideate.Generate.Text.Video,,
-AI/DV/ML Toolmap.Ideate.Generate.Text.Video.Artflow,258,Freemium
-AI/DV/ML Toolmap.Ideate.Generate.Text.Website,,
-AI/DV/ML Toolmap.Ideate.Generate.Text.Website.Batternut AI,260,Freemium
-AI/DV/ML Toolmap.Ideate.Generate.Text.Website.Durable,261,Premium
-AI/DV/ML Toolmap.Ideate.Recommend,,
-AI/DV/ML Toolmap.Ideate.Recommend.Drawings,,
-AI/DV/ML Toolmap.Ideate.Recommend.Drawings.Icons,,
-AI/DV/ML Toolmap.Ideate.Recommend.Drawings.Icons.AutoDraw,265,Free
-AI/DV/ML Toolmap.Ideate.Recommend.Instructions,,
-AI/DV/ML Toolmap.Ideate.Recommend.Instructions.Design System Components,,
-AI/DV/ML Toolmap.Ideate.Recommend.Instructions.Design System Components.FontJoy,268,Free
-AI/DV/ML Toolmap.Ideate.Recommend.None,,
-AI/DV/ML Toolmap.Ideate.Recommend.None.Web Interface,,
-AI/DV/ML Toolmap.Ideate.Recommend.None.Web Interface.UIBot,271,Free
-AI/DV/ML Toolmap.Ideate.Recommend.Text,,
-AI/DV/ML Toolmap.Ideate.Recommend.Text.3D,,
-AI/DV/ML Toolmap.Ideate.Recommend.Text.3D.Ponzu gg,274,Free
-AI/DV/ML Toolmap.Ideate.Recommend.Text.Copy,,
-AI/DV/ML Toolmap.Ideate.Recommend.Text.Copy.DayDrm,276,Premium
-AI/DV/ML Toolmap.Ideate.Recommend.Text.Copy.TuneTheAds,277,Premium
-AI/DV/ML Toolmap.Ideate.Recommend.Text.FloorPlans,,
-AI/DV/ML Toolmap.Ideate.Recommend.Text.FloorPlans.Maket,279,Freemium
-AI/DV/ML Toolmap.Ideate.Recommend.Text.Visualization,,
-AI/DV/ML Toolmap.Ideate.Recommend.Text.Visualization.Wikiview net,281,Free
-AI/DV/ML Toolmap.Ideate.Translate,,
-AI/DV/ML Toolmap.Ideate.Translate.Image,,
-AI/DV/ML Toolmap.Ideate.Translate.Image.Image,,
-AI/DV/ML Toolmap.Ideate.Translate.Image.Image.Adobe Firefly,285,Premium
-AI/DV/ML Toolmap.Ideate.Translate.Image.Image.ML5,286,Free
-AI/DV/ML Toolmap.Ideate.Translate.Image.Image.Pix2Pix,287,Free
-AI/DV/ML Toolmap.Ideate.Translate.Image.Image.Playform io,288,Freemium
-AI/DV/ML Toolmap.Ideate.Translate.Image.Image.RUNWAY ML,289,Freemium
-AI/DV/ML Toolmap.Ideate.Translate.Image.Render,,
-AI/DV/ML Toolmap.Ideate.Translate.Image.Render.Maket,291,Freemium
-AI/DV/ML Toolmap.Ideate.Translate.Text,,
-AI/DV/ML Toolmap.Ideate.Translate.Text.Text,,
-AI/DV/ML Toolmap.Ideate.Translate.Text.Text.ChatGPT,293,Freemium
-AI/DV/ML Toolmap.Ideate.Translate.Text.Text.Open AI in Spreadsheet,294,Free
-AI/DV/ML Toolmap.Prototype,,
-AI/DV/ML Toolmap.Prototype.Debug,,
-AI/DV/ML Toolmap.Prototype.Debug.Code,,
-AI/DV/ML Toolmap.Prototype.Debug.Code.Code,,
-AI/DV/ML Toolmap.Prototype.Debug.Code.Code.ChatGPT,299,Freemium
-AI/DV/ML Toolmap.Prototype.Debug.Text,,
-AI/DV/ML Toolmap.Prototype.Debug.Text.Text,,
-AI/DV/ML Toolmap.Prototype.Debug.Text.Text.Open AI in Spreadsheet,302,Free
-AI/DV/ML Toolmap.Prototype.Generate,,
-AI/DV/ML Toolmap.Prototype.Generate.Audio,,
-AI/DV/ML Toolmap.Prototype.Generate.Audio.Video,,
-AI/DV/ML Toolmap.Prototype.Generate.Audio.Video.WZRD ai,306,Free
-AI/DV/ML Toolmap.Prototype.Generate.Drawings,,
-AI/DV/ML Toolmap.Prototype.Generate.Drawings.Website,,
-AI/DV/ML Toolmap.Prototype.Generate.Drawings.Website.TeleportHQ,309,Freemium
-AI/DV/ML Toolmap.Prototype.Generate.Gesture,,
-AI/DV/ML Toolmap.Prototype.Generate.Gesture.Instruction,,
-AI/DV/ML Toolmap.Prototype.Generate.Gesture.Instruction.Wekinator,312,Free
-AI/DV/ML Toolmap.Prototype.Generate.Image,,
-AI/DV/ML Toolmap.Prototype.Generate.Image.3D,,
-AI/DV/ML Toolmap.Prototype.Generate.Image.3D.Luma AI,315,"Free, waiting list"
-AI/DV/ML Toolmap.Prototype.Generate.Image.3D.Make3d App,316,Free
-AI/DV/ML Toolmap.Prototype.Generate.Image.Image,,
-AI/DV/ML Toolmap.Prototype.Generate.Image.Image.RUNWAY ML,318,Freemium
-AI/DV/ML Toolmap.Prototype.Generate.Image.Image.TrainEngine ai,319,Free
-AI/DV/ML Toolmap.Prototype.Generate.Instructions,,
-AI/DV/ML Toolmap.Prototype.Generate.Instructions.Avatar,,
-AI/DV/ML Toolmap.Prototype.Generate.Instructions.Avatar.Generated Photos,322,Freemium
-AI/DV/ML Toolmap.Prototype.Generate.Table,,
-AI/DV/ML Toolmap.Prototype.Generate.Table.Audio,,
-AI/DV/ML Toolmap.Prototype.Generate.Table.Audio.Two Tone,325,Free
-AI/DV/ML Toolmap.Prototype.Generate.Text,,
-AI/DV/ML Toolmap.Prototype.Generate.Text.360 images,,
-AI/DV/ML Toolmap.Prototype.Generate.Text.360 images.SkyBox Lab - Blockade ,328,Free
-AI/DV/ML Toolmap.Prototype.Generate.Text.3D,,
-AI/DV/ML Toolmap.Prototype.Generate.Text.3D.3dfy ai,330,Premium
-AI/DV/ML Toolmap.Prototype.Generate.Text.3D.Masterpiece studio,331,"Free, waiting list"
-AI/DV/ML Toolmap.Prototype.Generate.Text.3D.Ponzu gg,332,Free
-AI/DV/ML Toolmap.Prototype.Generate.Text.3D.Spline AI,333,"Free, waiting list"
-AI/DV/ML Toolmap.Prototype.Generate.Text.Animation,,
-AI/DV/ML Toolmap.Prototype.Generate.Text.Animation.Krikey AI,335,Freemium
-AI/DV/ML Toolmap.Prototype.Generate.Text.App,,
-AI/DV/ML Toolmap.Prototype.Generate.Text.App.Sutro,337,Free
-AI/DV/ML Toolmap.Prototype.Generate.Text.App.weTune,338,Free
-AI/DV/ML Toolmap.Prototype.Generate.Text.Audio,,
-AI/DV/ML Toolmap.Prototype.Generate.Text.Audio.Eleven Labs,340,Freemium
-AI/DV/ML Toolmap.Prototype.Generate.Text.Code,,
-AI/DV/ML Toolmap.Prototype.Generate.Text.Code.Code Generator for Arduino,342,Free
-AI/DV/ML Toolmap.Prototype.Generate.Text.Code.Codex,343,Free
-AI/DV/ML Toolmap.Prototype.Generate.Text.Copy,,
-AI/DV/ML Toolmap.Prototype.Generate.Text.Copy.DayDrm,345,Premium
-AI/DV/ML Toolmap.Prototype.Generate.Text.Copy.Fact GPT ,346,Premium
-AI/DV/ML Toolmap.Prototype.Generate.Text.Copy.Fig GPT Figma Plugin,347,Free
-AI/DV/ML Toolmap.Prototype.Generate.Text.Copy.Jot AI,348,Premium
-AI/DV/ML Toolmap.Prototype.Generate.Text.Design System Components,,
-AI/DV/ML Toolmap.Prototype.Generate.Text.Design System Components.Components ai,350,Freemium
-AI/DV/ML Toolmap.Prototype.Generate.Text.Design System Components.DeBuild,351,Free
-AI/DV/ML Toolmap.Prototype.Generate.Text.Design System Components.Flutterflow AI Gen,352,Freemium
-AI/DV/ML Toolmap.Prototype.Generate.Text.Design System Components.Magician,353,Free
-AI/DV/ML Toolmap.Prototype.Generate.Text.Icons,,
-AI/DV/ML Toolmap.Prototype.Generate.Text.Icons. AppIcons ai,355,Premium
-AI/DV/ML Toolmap.Prototype.Generate.Text.Icons.Iconify,356,Free
-AI/DV/ML Toolmap.Prototype.Generate.Text.Image,,
-AI/DV/ML Toolmap.Prototype.Generate.Text.Image.Adobe Firefly,358,Premium
-AI/DV/ML Toolmap.Prototype.Generate.Text.Image.DALL-e,359,Freemium
-AI/DV/ML Toolmap.Prototype.Generate.Text.Image.DreamStudio,360,Free
-AI/DV/ML Toolmap.Prototype.Generate.Text.Image.Midjouney,361,Premium
-AI/DV/ML Toolmap.Prototype.Generate.Text.Image.Playform io,362,Freemium
-AI/DV/ML Toolmap.Prototype.Generate.Text.Image.RUNWAY ML,363,Freemium
-AI/DV/ML Toolmap.Prototype.Generate.Text.Image.Stable Diffusion,364,Free
-AI/DV/ML Toolmap.Prototype.Generate.Text.Image.Unstock ai,365,Free
-AI/DV/ML Toolmap.Prototype.Generate.Text.Presentation,,
-AI/DV/ML Toolmap.Prototype.Generate.Text.Presentation.Dektopus,367,Premium
-AI/DV/ML Toolmap.Prototype.Generate.Text.Text,,
-AI/DV/ML Toolmap.Prototype.Generate.Text.Text.ChatGPT,369,Freemium
-AI/DV/ML Toolmap.Prototype.Generate.Text.Text.Open AI in Spreadsheet,370,Free
-AI/DV/ML Toolmap.Prototype.Generate.Text.Texture,,
-AI/DV/ML Toolmap.Prototype.Generate.Text.Texture.WithPoly,372,Free
-AI/DV/ML Toolmap.Prototype.Generate.Text.Video,,
-AI/DV/ML Toolmap.Prototype.Generate.Text.Video.Artflow,374,Freemium
-AI/DV/ML Toolmap.Prototype.Generate.Text.Video.RUNWAY ML,375,Freemium
-AI/DV/ML Toolmap.Prototype.Generate.Text.Website,,
-AI/DV/ML Toolmap.Prototype.Generate.Text.Website.Batternut AI,377,Freemium
-AI/DV/ML Toolmap.Prototype.Generate.Text.Website.Durable,378,Premium
-AI/DV/ML Toolmap.Prototype.Generate.Video,,
-AI/DV/ML Toolmap.Prototype.Generate.Video.3D,,
-AI/DV/ML Toolmap.Prototype.Generate.Video.3D.Luma AI,380,"Free, waiting list"
-AI/DV/ML Toolmap.Prototype.Generate.Video.Text,,
-AI/DV/ML Toolmap.Prototype.Generate.Video.Text.RUNWAY ML,382,Freemium
-AI/DV/ML Toolmap.Prototype.Optimize,,
-AI/DV/ML Toolmap.Prototype.Optimize.Audio,,
-AI/DV/ML Toolmap.Prototype.Optimize.Audio.Audio,,
-AI/DV/ML Toolmap.Prototype.Optimize.Audio.Audio.Adobe Speech Enhancer,386,Free
-AI/DV/ML Toolmap.Prototype.Optimize.Audio.Audio.Audo Studio,387,Freemium
-AI/DV/ML Toolmap.Prototype.Optimize.Audio.Audio.LALAL ai,388,Premium
-AI/DV/ML Toolmap.Prototype.Optimize.Audio.Audio.Noise Eraser,389,Freemium
-AI/DV/ML Toolmap.Prototype.Optimize.Audio.Audio.Nonoisy,390,Freemium
-AI/DV/ML Toolmap.Prototype.Optimize.Image,,
-AI/DV/ML Toolmap.Prototype.Optimize.Image.Image,,
-AI/DV/ML Toolmap.Prototype.Optimize.Image.Image.Lunacy,393,Free
-AI/DV/ML Toolmap.Prototype.Optimize.Image.Image.Remove bg,394,Free
-AI/DV/ML Toolmap.Prototype.Recognise,,
-AI/DV/ML Toolmap.Prototype.Recognise.Audio,,
-AI/DV/ML Toolmap.Prototype.Recognise.Audio.Instruction,,
-AI/DV/ML Toolmap.Prototype.Recognise.Audio.Instruction.Edge Impulse,398,Free
-AI/DV/ML Toolmap.Prototype.Recognise.Gesture,,
-AI/DV/ML Toolmap.Prototype.Recognise.Gesture.Instruction,,
-AI/DV/ML Toolmap.Prototype.Recognise.Gesture.Instruction.ML5,401,Free
-AI/DV/ML Toolmap.Prototype.Recognise.Image,,
-AI/DV/ML Toolmap.Prototype.Recognise.Image.Image,,
-AI/DV/ML Toolmap.Prototype.Recognise.Image.Image.RUNWAY ML,404,Freemium
-AI/DV/ML Toolmap.Prototype.Recognise.Image.Instruction,,
-AI/DV/ML Toolmap.Prototype.Recognise.Image.Instruction.Edge Impulse,406,Free
-AI/DV/ML Toolmap.Prototype.Recognise.Image.Label,,
-AI/DV/ML Toolmap.Prototype.Recognise.Image.Label.Akiwi,408,Free
-AI/DV/ML Toolmap.Prototype.Recognise.Image.Label.Datature,409,Freemium
-AI/DV/ML Toolmap.Prototype.Recognise.Image.Label.Lobe,410,Free
-AI/DV/ML Toolmap.Prototype.Recognise.Image.Label.ML5,411,Free
-AI/DV/ML Toolmap.Prototype.Recognise.Image.Label.RUNWAY ML,412,Freemium
-AI/DV/ML Toolmap.Prototype.Recognise.Image.Label.Teachable Machine,413,Free
-AI/DV/ML Toolmap.Prototype.Recognise.Text,,
-AI/DV/ML Toolmap.Prototype.Recognise.Text.Label,,
-AI/DV/ML Toolmap.Prototype.Recognise.Text.Label.GPTzero,416,Free
-AI/DV/ML Toolmap.Prototype.Recognise.Video,,
-AI/DV/ML Toolmap.Prototype.Recognise.Video.3D,,
-AI/DV/ML Toolmap.Prototype.Recognise.Video.3D.DeepMotion,419,Freemium
-AI/DV/ML Toolmap.Prototype.Test,,
-AI/DV/ML Toolmap.Prototype.Test.Image,,
-AI/DV/ML Toolmap.Prototype.Test.Image.Instruction,,
-AI/DV/ML Toolmap.Prototype.Test.Image.Instruction.Visily AI,423,Free
-AI/DV/ML Toolmap.Prototype.Translate,,
-AI/DV/ML Toolmap.Prototype.Translate.Image,,
-AI/DV/ML Toolmap.Prototype.Translate.Image.Image,,
-AI/DV/ML Toolmap.Prototype.Translate.Image.Image.Pix2Pix,427,Free
-AI/DV/ML Toolmap.Prototype.Translate.Text,,
-AI/DV/ML Toolmap.Prototype.Translate.Text.Audio,,
-AI/DV/ML Toolmap.Prototype.Translate.Text.Audio.Sonantic,430,Freemium
-AI/DV/ML Toolmap.Implement,,
-AI/DV/ML Toolmap.Implement.Debug,,
-AI/DV/ML Toolmap.Implement.Debug.Code,,
-AI/DV/ML Toolmap.Implement.Debug.Code.Code,,
-AI/DV/ML Toolmap.Implement.Debug.Code.Code.ChatGPT,435,Freemium
-AI/DV/ML Toolmap.Implement.Debug.Text,,
-AI/DV/ML Toolmap.Implement.Debug.Text.Text,,
-AI/DV/ML Toolmap.Implement.Debug.Text.Text.Notion AI,438,Premium
-AI/DV/ML Toolmap.Implement.Debug.Text.Text.Open AI in Spreadsheet,439,Free
-AI/DV/ML Toolmap.Implement.Generate,,
-AI/DV/ML Toolmap.Implement.Generate.Design System Component,,
-AI/DV/ML Toolmap.Implement.Generate.Design System Component.Code,,
-AI/DV/ML Toolmap.Implement.Generate.Design System Component.Code.Vivid,443,Free
-AI/DV/ML Toolmap.Implement.Generate.Text,,
-AI/DV/ML Toolmap.Implement.Generate.Text.Code,,
-AI/DV/ML Toolmap.Implement.Generate.Text.Code.Code Generator for Arduino,446,Free
-AI/DV/ML Toolmap.Implement.Generate.Text.Code.Components ai,447,Freemium
-AI/DV/ML Toolmap.Implement.Optimize,,
-AI/DV/ML Toolmap.Implement.Optimize.Image,,
-AI/DV/ML Toolmap.Implement.Optimize.Image.Image,,
-AI/DV/ML Toolmap.Implement.Optimize.Image.Image.Colourlab ai,451,Premium
-AI/DV/ML Toolmap.Implement.Optimize.Text,,
-AI/DV/ML Toolmap.Implement.Optimize.Text.Video,,
-AI/DV/ML Toolmap.Implement.Optimize.Text.Video.Fylm ai,454,Freemium
-AI/DV/ML Toolmap.Implement.Optimize.Video,,
-AI/DV/ML Toolmap.Implement.Optimize.Video.Video,,
-AI/DV/ML Toolmap.Implement.Optimize.Video.Video.Colourlab ai,457,Premium
-AI/DV/ML Toolmap.Implement.Test,,
-AI/DV/ML Toolmap.Implement.Test.Text,,
-AI/DV/ML Toolmap.Implement.Test.Text.Design System Components,,
-AI/DV/ML Toolmap.Implement.Test.Text.Design System Components.Components ai,460,Freemium
-AI/DV/ML Toolmap.Deliver,,
-AI/DV/ML Toolmap.Deliver.Debug,,
-AI/DV/ML Toolmap.Deliver.Debug.Text,,
-AI/DV/ML Toolmap.Deliver.Debug.Text.Text,,
-AI/DV/ML Toolmap.Deliver.Debug.Text.Text.Penelope ai,465,Premium
-AI/DV/ML Toolmap.Deliver.Generate,,
-AI/DV/ML Toolmap.Deliver.Generate.Audio,,
-AI/DV/ML Toolmap.Deliver.Generate.Audio.Text,,
-AI/DV/ML Toolmap.Deliver.Generate.Audio.Text.Ermine ai,469,Free
-AI/DV/ML Toolmap.Deliver.Generate.Audio.Text.Good Tape,470,Free
-AI/DV/ML Toolmap.Deliver.Generate.Audio.Text.Subly,471,Premium
-AI/DV/ML Toolmap.Deliver.Generate.Image,,
-AI/DV/ML Toolmap.Deliver.Generate.Image.Image,,
-AI/DV/ML Toolmap.Deliver.Generate.Image.Image.TrainEngine ai,474,Free
-AI/DV/ML Toolmap.Deliver.Generate.Image.Mockups,,
-AI/DV/ML Toolmap.Deliver.Generate.Image.Mockups.Visily AI,477,Free
-AI/DV/ML Toolmap.Deliver.Generate.Instructions,,
-AI/DV/ML Toolmap.Deliver.Generate.Instructions.Avatar,,
-AI/DV/ML Toolmap.Deliver.Generate.Instructions.Avatar.Generated Photos,480,Freemium
-AI/DV/ML Toolmap.Deliver.Generate.Text,,
-AI/DV/ML Toolmap.Deliver.Generate.Text.Blog,,
-AI/DV/ML Toolmap.Deliver.Generate.Text.Blog.Autoblogger ai,483,Free
-AI/DV/ML Toolmap.Deliver.Generate.Text.Blog.Reword,484,Freemium
-AI/DV/ML Toolmap.Deliver.Generate.Text.Code,,
-AI/DV/ML Toolmap.Deliver.Generate.Text.Code.Codex,486,Free
-AI/DV/ML Toolmap.Deliver.Generate.Text.Copy,,
-AI/DV/ML Toolmap.Deliver.Generate.Text.Copy.Copy ai,488,Freemium
-AI/DV/ML Toolmap.Deliver.Generate.Text.Copy.DayDrm,489,Premium
-AI/DV/ML Toolmap.Deliver.Generate.Text.Copy.Fact GPT ,490,Premium
-AI/DV/ML Toolmap.Deliver.Generate.Text.Copy.Fig GPT Figma Plugin,491,Free
-AI/DV/ML Toolmap.Deliver.Generate.Text.Copy.Jot AI,492,Premium
-AI/DV/ML Toolmap.Deliver.Generate.Text.Design System Components,,
-AI/DV/ML Toolmap.Deliver.Generate.Text.Design System Components.Components ai,494,Freemium
-AI/DV/ML Toolmap.Deliver.Generate.Text.Design System Components.DeBuild,495,Free
-AI/DV/ML Toolmap.Deliver.Generate.Text.Image,,
-AI/DV/ML Toolmap.Deliver.Generate.Text.Image.Midjouney,497,Premium
-AI/DV/ML Toolmap.Deliver.Generate.Text.Text,,
-AI/DV/ML Toolmap.Deliver.Generate.Text.Text.ChatGPT,499,Freemium
-AI/DV/ML Toolmap.Deliver.Generate.Text.Text.jasper ai,500,Premium
-AI/DV/ML Toolmap.Deliver.Generate.Text.Text.Notion AI,501,Premium
-AI/DV/ML Toolmap.Deliver.Generate.Text.Text.Open AI in Spreadsheet,502,Free
-AI/DV/ML Toolmap.Deliver.Generate.Video,,
-AI/DV/ML Toolmap.Deliver.Generate.Video.Text,,
-AI/DV/ML Toolmap.Deliver.Generate.Video.Text.Subly,505,Premium
-AI/DV/ML Toolmap.Deliver.Optimize,,
-AI/DV/ML Toolmap.Deliver.Optimize.Audio,,
-AI/DV/ML Toolmap.Deliver.Optimize.Audio.Audio,,
-AI/DV/ML Toolmap.Deliver.Optimize.Audio.Audio.Adobe Speech Enhancer,509,Free
-AI/DV/ML Toolmap.Deliver.Optimize.Audio.Audio.Audo Studio,510,Freemium
-AI/DV/ML Toolmap.Deliver.Optimize.Audio.Audio.LALAL ai,511,Premium
-AI/DV/ML Toolmap.Deliver.Optimize.Audio.Audio.Noise Eraser,512,Freemium
-AI/DV/ML Toolmap.Deliver.Optimize.Audio.Audio.Nonoisy,513,Freemium
-AI/DV/ML Toolmap.Deliver.Optimize.Image,,
-AI/DV/ML Toolmap.Deliver.Optimize.Image.Image,,
-AI/DV/ML Toolmap.Deliver.Optimize.Image.Image.Colourlab ai,516,Premium
-AI/DV/ML Toolmap.Deliver.Optimize.Image.Image.Lunacy,517,Free
-AI/DV/ML Toolmap.Deliver.Optimize.Image.Image.Playform io,518,Freemium
-AI/DV/ML Toolmap.Deliver.Optimize.Image.Image.Remove bg,519,Free
-AI/DV/ML Toolmap.Deliver.Optimize.Image.Image.Topaz Lab,520,Premium
-AI/DV/ML Toolmap.Deliver.Optimize.Text,,
-AI/DV/ML Toolmap.Deliver.Optimize.Text.Blog,,
-AI/DV/ML Toolmap.Deliver.Optimize.Text.Blog.Reword,523,Freemium
-AI/DV/ML Toolmap.Deliver.Optimize.Text.Text,,
-AI/DV/ML Toolmap.Deliver.Optimize.Text.Text.Crystal Knows,525,Free
-AI/DV/ML Toolmap.Deliver.Optimize.Text.Text.Deciphr AI,526,Freemium
-AI/DV/ML Toolmap.Deliver.Optimize.Text.Text.Notion AI,527,Premium
-AI/DV/ML Toolmap.Deliver.Optimize.Text.Video,,
-AI/DV/ML Toolmap.Deliver.Optimize.Text.Video.Fylm ai,529,Freemium
-AI/DV/ML Toolmap.Deliver.Optimize.Video,,
-AI/DV/ML Toolmap.Deliver.Optimize.Video.Video,,
-AI/DV/ML Toolmap.Deliver.Optimize.Video.Video.Colourlab ai,532,Premium
-AI/DV/ML Toolmap.Deliver.Summarize,,
-AI/DV/ML Toolmap.Deliver.Summarize.Video,,
-AI/DV/ML Toolmap.Deliver.Summarize.Video.Video,,
-AI/DV/ML Toolmap.Deliver.Summarize.Video.Video.2short ai,536,Free
-AI/DV/ML Toolmap.Deliver.Translate,,
-AI/DV/ML Toolmap.Deliver.Translate.Text,,
-AI/DV/ML Toolmap.Deliver.Translate.Text.Text,,
-AI/DV/ML Toolmap.Deliver.Translate.Text.Text.ChatGPT,540,Freemium
-AI/DV/ML Toolmap.Deliver.Translate.Text.Text.jasper ai,541,Premium
-AI/DV/ML Toolmap.Deliver.Translate.Text.Text.Lunacy,542,Free
-AI/DV/ML Toolmap.Deliver.Translate.Text.Text.Notion AI,543,Premium
-AI/DV/ML Toolmap.Deliver.Translate.Text.Text.Open AI in Spreadsheet,544,Free
-AI/DV/ML Toolmap.Deliver.Translate.Text.Text.Subly,545,Premium
-AI/DV/ML Toolmap.Deliver.Visualize,,
-AI/DV/ML Toolmap.Deliver.Visualize.Table,,
-AI/DV/ML Toolmap.Deliver.Visualize.Table.Visualization,,
-AI/DV/ML Toolmap.Deliver.Visualize.Table.Visualization.Kumu,549,Free
+id,value,cost,Link
+AI/DV/ML Toolmap,,,
+AI/DV/ML Toolmap.Research,,,
+AI/DV/ML Toolmap.Research.Collect,,,
+AI/DV/ML Toolmap.Research.Collect.Audio,,,
+AI/DV/ML Toolmap.Research.Collect.Audio.Text,,,
+AI/DV/ML Toolmap.Research.Collect.Audio.Text.Parrot ai,5,Freemium,
+AI/DV/ML Toolmap.Research.Collect.Text,,,
+AI/DV/ML Toolmap.Research.Collect.Text.Book,,,
+AI/DV/ML Toolmap.Research.Collect.Text.Book.BookAbout,8,Free,
+AI/DV/ML Toolmap.Research.Collect.Text.Book.Bookclub ai,9,Free,
+AI/DV/ML Toolmap.Research.Collect.Text.Book.Next Three Books,10,Free,
+AI/DV/ML Toolmap.Research.Collect.Text.Literature,,,
+AI/DV/ML Toolmap.Research.Collect.Text.Literature.Elicit,12,Free,
+AI/DV/ML Toolmap.Research.Collect.Text.Literature.Typeset,13,Free,
+AI/DV/ML Toolmap.Research.Collect.Text.Table,,,
+AI/DV/ML Toolmap.Research.Collect.Text.Table.Apify,16,Freemium,
+AI/DV/ML Toolmap.Research.Collect.Text.Table.Crowdtangle,17,Free,
+AI/DV/ML Toolmap.Research.Collect.Text.Table.Google Play Scraper,18,Free,
+AI/DV/ML Toolmap.Research.Collect.Text.Table.TumblrTool,19,Free,
+AI/DV/ML Toolmap.Research.Collect.Text.Table.Youtube Data Tools,20,Free,
+AI/DV/ML Toolmap.Research.Collect.Text.Text,,,
+AI/DV/ML Toolmap.Research.Collect.Text.Text.ChatGPT,22,Freemium,https://chat.openai.com/
+AI/DV/ML Toolmap.Research.Collect.Text.Visualization,,,
+AI/DV/ML Toolmap.Research.Collect.Text.Visualization.Wikipedia Cross-lingual Image Analysis,24,Free,
+AI/DV/ML Toolmap.Research.Collect.Text.Visualization.Wikiview net,25,Free,
+AI/DV/ML Toolmap.Research.Collect.Video,,,
+AI/DV/ML Toolmap.Research.Collect.Video.Text,,,
+AI/DV/ML Toolmap.Research.Collect.Video.Text.Parrot ai,28,Freemium,
+AI/DV/ML Toolmap.Research.Collect.Website,,,
+AI/DV/ML Toolmap.Research.Collect.Website.Table,,,
+AI/DV/ML Toolmap.Research.Collect.Website.Table.Browse AI,31,Freemium,
+AI/DV/ML Toolmap.Research.Translate,,,
+AI/DV/ML Toolmap.Research.Translate.Text,,,
+AI/DV/ML Toolmap.Research.Translate.Text.Text,,,
+AI/DV/ML Toolmap.Research.Translate.Text.Text.ChatGPT,35,Freemium,https://chat.openai.com/
+AI/DV/ML Toolmap.Research.Translate.Text.Text.Jasper ai,36,Premium,
+AI/DV/ML Toolmap.Research.Translate.Text.Text.Notion AI,37,Premium,
+AI/DV/ML Toolmap.Research.Translate.Text.Text.Open AI in Spreadsheet,38,Free,
+AI/DV/ML Toolmap.Synthesize,,,
+AI/DV/ML Toolmap.Synthesize.Classify,,,
+AI/DV/ML Toolmap.Synthesize.Classify.Audio,,,
+AI/DV/ML Toolmap.Synthesize.Classify.Audio.Label,,,
+AI/DV/ML Toolmap.Synthesize.Classify.Audio.Label.Edge Impulse,43,Free,
+AI/DV/ML Toolmap.Synthesize.Classify.Audio.Label.Label Studio,44,Free,
+AI/DV/ML Toolmap.Synthesize.Classify.Gesture,,,
+AI/DV/ML Toolmap.Synthesize.Classify.Gesture.Instruction,,,
+AI/DV/ML Toolmap.Synthesize.Classify.Gesture.Instruction.Tiny Motion Trainer,47,Free,
+AI/DV/ML Toolmap.Synthesize.Classify.Image,,,
+AI/DV/ML Toolmap.Synthesize.Classify.Image.Label,,,
+AI/DV/ML Toolmap.Synthesize.Classify.Image.Label.Edge Impulse,50,Free,
+AI/DV/ML Toolmap.Synthesize.Classify.Image.Label.Label Studio,51,Free,
+AI/DV/ML Toolmap.Synthesize.Classify.Image.Label.ML5,52,Free,
+AI/DV/ML Toolmap.Synthesize.Classify.Image.Visualization,,,
+AI/DV/ML Toolmap.Synthesize.Classify.Image.Visualization.Image Sorter,54,Free,
+AI/DV/ML Toolmap.Synthesize.Classify.Image.Visualization.ImagePlot,55,Free,
+AI/DV/ML Toolmap.Synthesize.Classify.Image.Visualization.ImageX,56,Free,
+AI/DV/ML Toolmap.Synthesize.Classify.Image.Visualization.Kiano,57,Free,
+AI/DV/ML Toolmap.Synthesize.Classify.Image.Visualization.Pic Arrange,58,Free,
+AI/DV/ML Toolmap.Synthesize.Classify.Table,,,
+AI/DV/ML Toolmap.Synthesize.Classify.Table.Visualization,,,
+AI/DV/ML Toolmap.Synthesize.Classify.Table.Visualization.Nomic AI,61,Free,
+AI/DV/ML Toolmap.Synthesize.Classify.Text,,,
+AI/DV/ML Toolmap.Synthesize.Classify.Text.Label,,,
+AI/DV/ML Toolmap.Synthesize.Classify.Text.Label.Edge Impulse,64,Free,
+AI/DV/ML Toolmap.Synthesize.Classify.Text.Label.Label Studio,65,Free,
+AI/DV/ML Toolmap.Synthesize.Classify.Text.Literature,,,
+AI/DV/ML Toolmap.Synthesize.Classify.Text.Literature.Elicit,67,Free,
+AI/DV/ML Toolmap.Synthesize.Classify.Text.Visualization,,,
+AI/DV/ML Toolmap.Synthesize.Classify.Text.Visualization.Textometrica,69,Free,
+AI/DV/ML Toolmap.Synthesize.Classify.Text.Visualization.WordWanderer,70,Free,
+AI/DV/ML Toolmap.Synthesize.Classify.Video,,,
+AI/DV/ML Toolmap.Synthesize.Classify.Video.Label,,,
+AI/DV/ML Toolmap.Synthesize.Classify.Video.Label.Label Studio,73,Free,
+AI/DV/ML Toolmap.Synthesize.Collect,,,
+AI/DV/ML Toolmap.Synthesize.Collect.Audio,,,
+AI/DV/ML Toolmap.Synthesize.Collect.Audio.Text,,,
+AI/DV/ML Toolmap.Synthesize.Collect.Audio.Text.Parrot ai,77,Freemium,
+AI/DV/ML Toolmap.Synthesize.Collect.Text,,,
+AI/DV/ML Toolmap.Synthesize.Collect.Text.Text,,,
+AI/DV/ML Toolmap.Synthesize.Collect.Text.Text.Bot Sheets,80,Free,
+AI/DV/ML Toolmap.Synthesize.Collect.Video,,,
+AI/DV/ML Toolmap.Synthesize.Collect.Video.Text,,,
+AI/DV/ML Toolmap.Synthesize.Collect.Video.Text.Parrot ai,83,Freemium,
+AI/DV/ML Toolmap.Synthesize.Collect.Video.Text.Transvibe,84,Free,
+AI/DV/ML Toolmap.Synthesize.Collect.Website,,,
+AI/DV/ML Toolmap.Synthesize.Collect.Website.Table,,,
+AI/DV/ML Toolmap.Synthesize.Collect.Website.Table.Browse AI,87,Freemium,
+AI/DV/ML Toolmap.Synthesize.Generate,,,
+AI/DV/ML Toolmap.Synthesize.Generate.Audio,,,
+AI/DV/ML Toolmap.Synthesize.Generate.Audio.Text,,,
+AI/DV/ML Toolmap.Synthesize.Generate.Audio.Text.Deciphr AI,91,Freemium,
+AI/DV/ML Toolmap.Synthesize.Generate.Audio.Text.Ermine ai,92,Free,
+AI/DV/ML Toolmap.Synthesize.Generate.Audio.Text.Good Tape,93,Free,
+AI/DV/ML Toolmap.Synthesize.Rank,,,
+AI/DV/ML Toolmap.Synthesize.Rank.Image,,,
+AI/DV/ML Toolmap.Synthesize.Rank.Image.Visualization,,,
+AI/DV/ML Toolmap.Synthesize.Rank.Image.Visualization.Image Sorter,97,Free,
+AI/DV/ML Toolmap.Synthesize.Rank.Image.Visualization.ImagePlot,98,Free,
+AI/DV/ML Toolmap.Synthesize.Rank.Image.Visualization.ImageX,99,Free,
+AI/DV/ML Toolmap.Synthesize.Rank.Image.Visualization.Kiano,100,Free,
+AI/DV/ML Toolmap.Synthesize.Rank.Image.Visualization.Pic Arrange,101,Free,
+AI/DV/ML Toolmap.Synthesize.Rank.Table,,,
+AI/DV/ML Toolmap.Synthesize.Rank.Table.Visualization,,,
+AI/DV/ML Toolmap.Synthesize.Rank.Table.Visualization.Gephi,104,Free,
+AI/DV/ML Toolmap.Synthesize.Rank.Table.Visualization.Kumu,105,Free,
+AI/DV/ML Toolmap.Synthesize.Rank.Text,,,
+AI/DV/ML Toolmap.Synthesize.Rank.Text.Visualization,,,
+AI/DV/ML Toolmap.Synthesize.Rank.Text.Visualization.Tag Crowd,108,Free,
+AI/DV/ML Toolmap.Synthesize.Rank.Text.Visualization.Textometrica,109,Free,
+AI/DV/ML Toolmap.Synthesize.Rank.Text.Visualization.Voynat Tool,110,Free,
+AI/DV/ML Toolmap.Synthesize.Rank.Text.Visualization.Word Tree,111,Free,
+AI/DV/ML Toolmap.Synthesize.Rank.Text.Visualization.WordWanderer,112,Free,
+AI/DV/ML Toolmap.Synthesize.Recognise,,,
+AI/DV/ML Toolmap.Synthesize.Recognise.Image,,,
+AI/DV/ML Toolmap.Synthesize.Recognise.Image.Image,,,
+AI/DV/ML Toolmap.Synthesize.Recognise.Image.Image.RUNWAY ML,116,Freemium,
+AI/DV/ML Toolmap.Synthesize.Recognise.Image.Label,,,
+AI/DV/ML Toolmap.Synthesize.Recognise.Image.Label.Akiwi,118,Free,
+AI/DV/ML Toolmap.Synthesize.Recognise.Image.Label.Datature,119,Freemium,
+AI/DV/ML Toolmap.Synthesize.Recognise.Image.Label.Label Studio,120,Free,
+AI/DV/ML Toolmap.Synthesize.Recognise.Image.Label.Lobe,121,Free,
+AI/DV/ML Toolmap.Synthesize.Recognise.Image.Label.ML5,122,Free,
+AI/DV/ML Toolmap.Synthesize.Recognise.Image.Label.RUNWAY ML,123,Freemium,
+AI/DV/ML Toolmap.Synthesize.Recognise.Image.Table,,,
+AI/DV/ML Toolmap.Synthesize.Recognise.Image.Table.Immaging Tagging Tool Interface,124,Free,
+AI/DV/ML Toolmap.Synthesize.Recognise.Image.Table.Memespector,125,Free,
+AI/DV/ML Toolmap.Synthesize.Recognise.Text,,,
+AI/DV/ML Toolmap.Synthesize.Recognise.Text.Label,,,
+AI/DV/ML Toolmap.Synthesize.Recognise.Text.Label.GPTzero,128,Free,
+AI/DV/ML Toolmap.Synthesize.Recognise.Text.Label.Label Studio,129,Free,
+AI/DV/ML Toolmap.Synthesize.Recognise.Video,,,
+AI/DV/ML Toolmap.Synthesize.Recognise.Video.Label,,,
+AI/DV/ML Toolmap.Synthesize.Recognise.Video.Label.Label Studio,132,Free,
+AI/DV/ML Toolmap.Synthesize.Summarize,,,
+AI/DV/ML Toolmap.Synthesize.Summarize.Audio,,,
+AI/DV/ML Toolmap.Synthesize.Summarize.Audio.Text,,,
+AI/DV/ML Toolmap.Synthesize.Summarize.Audio.Text.Parrot ai,136,Freemium,
+AI/DV/ML Toolmap.Synthesize.Summarize.Literature,,,
+AI/DV/ML Toolmap.Synthesize.Summarize.Literature.Text,,,
+AI/DV/ML Toolmap.Synthesize.Summarize.Literature.Text.Arxiv Summary Generator,139,Free,
+AI/DV/ML Toolmap.Synthesize.Summarize.Literature.Text.Typeset,140,Free,
+AI/DV/ML Toolmap.Synthesize.Summarize.Literature.Text.Typeset,141,Free,
+AI/DV/ML Toolmap.Synthesize.Summarize.Text,,,
+AI/DV/ML Toolmap.Synthesize.Summarize.Text.Copy,,,
+AI/DV/ML Toolmap.Synthesize.Summarize.Text.Copy.Fig GPT Figma Plugin,144,Free,
+AI/DV/ML Toolmap.Synthesize.Summarize.Text.Copy.Tweetify it,145,Freemium,
+AI/DV/ML Toolmap.Synthesize.Summarize.Text.Literature,,,
+AI/DV/ML Toolmap.Synthesize.Summarize.Text.Literature.Elicit,147,Free,
+AI/DV/ML Toolmap.Synthesize.Summarize.Text.Text,,,
+AI/DV/ML Toolmap.Synthesize.Summarize.Text.Text.BLUF,149,Freemium,
+AI/DV/ML Toolmap.Synthesize.Summarize.Text.Text.ChatGPT,150,Freemium,https://chat.openai.com/
+AI/DV/ML Toolmap.Synthesize.Summarize.Text.Text.Notion AI,151,Premium,
+AI/DV/ML Toolmap.Synthesize.Summarize.Text.Text.WebMagicAI,152,Freemium,
+AI/DV/ML Toolmap.Synthesize.Summarize.Video,,,
+AI/DV/ML Toolmap.Synthesize.Summarize.Video.Text,,,
+AI/DV/ML Toolmap.Synthesize.Summarize.Video.Text.Eightify,155,Free,
+AI/DV/ML Toolmap.Synthesize.Summarize.Video.Text.GLASP - Youtube summary with Chatgpt,156,Free,
+AI/DV/ML Toolmap.Synthesize.Summarize.Video.Text.Parrot ai,157,Freemium,
+AI/DV/ML Toolmap.Synthesize.Summarize.Video.Text.TLDR  Youtube,158,Free,
+AI/DV/ML Toolmap.Synthesize.Summarize.Video.Text.You-tldr,159,Free,
+AI/DV/ML Toolmap.Synthesize.Summarize.Video.Text.You-tldr,160,Free,
+AI/DV/ML Toolmap.Synthesize.Summarize.Video.Text.Youtube Summarized,161,Free,
+AI/DV/ML Toolmap.Synthesize.Summarize.Video.Video,,,
+AI/DV/ML Toolmap.Synthesize.Summarize.Video.Video.MagicBrief,162,Premium,
+AI/DV/ML Toolmap.Synthesize.Summarize.Website,,,
+AI/DV/ML Toolmap.Synthesize.Summarize.Website.Text,,,
+AI/DV/ML Toolmap.Synthesize.Summarize.Website.Text.SiteExplainer,165,Freemium,
+AI/DV/ML Toolmap.Synthesize.Translate,,,
+AI/DV/ML Toolmap.Synthesize.Translate.Text,,,
+AI/DV/ML Toolmap.Synthesize.Translate.Text.Text,,,
+AI/DV/ML Toolmap.Synthesize.Translate.Text.Text.Open AI in Spreadsheet,169,Free,
+AI/DV/ML Toolmap.Synthesize.Visualize,,,
+AI/DV/ML Toolmap.Synthesize.Visualize.Table,,,
+AI/DV/ML Toolmap.Synthesize.Visualize.Table.Visualization,,,
+AI/DV/ML Toolmap.Synthesize.Visualize.Table.Visualization.Gephi,173,Free,
+AI/DV/ML Toolmap.Synthesize.Visualize.Table.Visualization.Kumu,174,Free,
+AI/DV/ML Toolmap.Synthesize.Visualize.Table.Visualization.Nomic AI,175,Free,
+AI/DV/ML Toolmap.Synthesize.Visualize.Text,,,
+AI/DV/ML Toolmap.Synthesize.Visualize.Text.Visualization,,,
+AI/DV/ML Toolmap.Synthesize.Visualize.Text.Visualization.Tag Crowd,178,Free,
+AI/DV/ML Toolmap.Synthesize.Visualize.Text.Visualization.Textometrica,179,Free,
+AI/DV/ML Toolmap.Synthesize.Visualize.Text.Visualization.Voynat Tool,180,Free,
+AI/DV/ML Toolmap.Synthesize.Visualize.Text.Visualization.Word Tree,181,Free,
+AI/DV/ML Toolmap.Ideate,,,
+AI/DV/ML Toolmap.Ideate.Generate,,,
+AI/DV/ML Toolmap.Ideate.Generate.Audio,,,
+AI/DV/ML Toolmap.Ideate.Generate.Audio.Video,,,
+AI/DV/ML Toolmap.Ideate.Generate.Audio.Video.WZRD ai,186,Free,
+AI/DV/ML Toolmap.Ideate.Generate.Drawings,,,
+AI/DV/ML Toolmap.Ideate.Generate.Drawings.Icons,,,
+AI/DV/ML Toolmap.Ideate.Generate.Drawings.Icons.AutoDraw,189,Free,
+AI/DV/ML Toolmap.Ideate.Generate.Drawings.Website,,,
+AI/DV/ML Toolmap.Ideate.Generate.Drawings.Website.TeleportHQ,191,Freemium,
+AI/DV/ML Toolmap.Ideate.Generate.Image,,,
+AI/DV/ML Toolmap.Ideate.Generate.Image.Design System Components,,,
+AI/DV/ML Toolmap.Ideate.Generate.Image.Design System Components.Visily AI,194,Free,
+AI/DV/ML Toolmap.Ideate.Generate.Image.Image,,,
+AI/DV/ML Toolmap.Ideate.Generate.Image.Image.RUNWAY ML,196,Freemium,
+AI/DV/ML Toolmap.Ideate.Generate.Image.Image.TrainEngine ai,197,Free,
+AI/DV/ML Toolmap.Ideate.Generate.Image.Render,,,
+AI/DV/ML Toolmap.Ideate.Generate.Image.Render.Interior AI,199,Free,
+AI/DV/ML Toolmap.Ideate.Generate.Image.Video,,,
+AI/DV/ML Toolmap.Ideate.Generate.Image.Video.Midjouney,201,Premium,
+AI/DV/ML Toolmap.Ideate.Generate.Image.Website,,,
+AI/DV/ML Toolmap.Ideate.Generate.Image.Website.Visily AI,203,Free,
+AI/DV/ML Toolmap.Ideate.Generate.Instructions,,,
+AI/DV/ML Toolmap.Ideate.Generate.Instructions.Avatar,,,
+AI/DV/ML Toolmap.Ideate.Generate.Instructions.Avatar.Generated Photos,206,Freemium,
+AI/DV/ML Toolmap.Ideate.Generate.None,,,
+AI/DV/ML Toolmap.Ideate.Generate.None.Image,,,
+AI/DV/ML Toolmap.Ideate.Generate.None.Image.Text To Book Cover,209,Freemium,
+AI/DV/ML Toolmap.Ideate.Generate.Text,,,
+AI/DV/ML Toolmap.Ideate.Generate.Text.360 images,,,
+AI/DV/ML Toolmap.Ideate.Generate.Text.360 images.SkyBox Lab - Blockade,212,Free,
+AI/DV/ML Toolmap.Ideate.Generate.Text.3D,,,
+AI/DV/ML Toolmap.Ideate.Generate.Text.3D.Masterpiece studio,214,"Free, waiting list",
+AI/DV/ML Toolmap.Ideate.Generate.Text.3D.Ponzu gg,215,Free,
+AI/DV/ML Toolmap.Ideate.Generate.Text.Audio,,,
+AI/DV/ML Toolmap.Ideate.Generate.Text.Audio.Soundraw,217,Freemium,
+AI/DV/ML Toolmap.Ideate.Generate.Text.Blog,,,
+AI/DV/ML Toolmap.Ideate.Generate.Text.Blog.Autoblogger ai,219,Free,
+AI/DV/ML Toolmap.Ideate.Generate.Text.Blog.Reword,220,Freemium,
+AI/DV/ML Toolmap.Ideate.Generate.Text.Copy,,,
+AI/DV/ML Toolmap.Ideate.Generate.Text.Copy.Copy ai,222,Freemium,
+AI/DV/ML Toolmap.Ideate.Generate.Text.Copy.DayDrm,223,Premium,
+AI/DV/ML Toolmap.Ideate.Generate.Text.Copy.Fact GPT ,224,Premium,
+AI/DV/ML Toolmap.Ideate.Generate.Text.Copy.Fig GPT Figma Plugin,225,Free,
+AI/DV/ML Toolmap.Ideate.Generate.Text.Copy.Jot - AI Ad Copy,226,Premium,
+AI/DV/ML Toolmap.Ideate.Generate.Text.Copy.Moonbeam,227,Free,
+AI/DV/ML Toolmap.Ideate.Generate.Text.Design System Components,,,
+AI/DV/ML Toolmap.Ideate.Generate.Text.Design System Components.Components ai,229,Freemium,
+AI/DV/ML Toolmap.Ideate.Generate.Text.Design System Components.Flutterflow AI Gen,230,Freemium,
+AI/DV/ML Toolmap.Ideate.Generate.Text.Icons,,,
+AI/DV/ML Toolmap.Ideate.Generate.Text.Icons. AppIcons ai,232,Premium,
+AI/DV/ML Toolmap.Ideate.Generate.Text.Icons.Iconify,233,Free,
+AI/DV/ML Toolmap.Ideate.Generate.Text.Image,,,
+AI/DV/ML Toolmap.Ideate.Generate.Text.Image.Adobe Firefly,235,Premium,
+AI/DV/ML Toolmap.Ideate.Generate.Text.Image.DALL-e,236,Freemium,
+AI/DV/ML Toolmap.Ideate.Generate.Text.Image.DreamStudio,237,Free,
+AI/DV/ML Toolmap.Ideate.Generate.Text.Image.Jasper ai,238,Premium,
+AI/DV/ML Toolmap.Ideate.Generate.Text.Image.Looka,239,Freemium,
+AI/DV/ML Toolmap.Ideate.Generate.Text.Image.Lunacy,240,Free,
+AI/DV/ML Toolmap.Ideate.Generate.Text.Image.Midjouney,241,Premium,
+AI/DV/ML Toolmap.Ideate.Generate.Text.Image.Plask ai,242,Free,
+AI/DV/ML Toolmap.Ideate.Generate.Text.Image.Playform io,243,Freemium,
+AI/DV/ML Toolmap.Ideate.Generate.Text.Image.RUNWAY ML,244,Freemium,
+AI/DV/ML Toolmap.Ideate.Generate.Text.Image.Stable Diffusion,245,Free,
+AI/DV/ML Toolmap.Ideate.Generate.Text.Image.Unstock ai,246,Free,
+AI/DV/ML Toolmap.Ideate.Generate.Text.Presentation,,,
+AI/DV/ML Toolmap.Ideate.Generate.Text.Presentation.Dektopus,248,Premium,
+AI/DV/ML Toolmap.Ideate.Generate.Text.Presentation.PitchBob,249,Premium,
+AI/DV/ML Toolmap.Ideate.Generate.Text.Text,,,
+AI/DV/ML Toolmap.Ideate.Generate.Text.Text.ChatGPT,251,Freemium,https://chat.openai.com/
+AI/DV/ML Toolmap.Ideate.Generate.Text.Text.Magician,252,Free,
+AI/DV/ML Toolmap.Ideate.Generate.Text.Text.Notion AI,253,Premium,
+AI/DV/ML Toolmap.Ideate.Generate.Text.Text.Open AI in Spreadsheet,254,Free,
+AI/DV/ML Toolmap.Ideate.Generate.Text.Texture,,,
+AI/DV/ML Toolmap.Ideate.Generate.Text.Texture.WithPoly,256,Free,
+AI/DV/ML Toolmap.Ideate.Generate.Text.Video,,,
+AI/DV/ML Toolmap.Ideate.Generate.Text.Video.Artflow,258,Freemium,
+AI/DV/ML Toolmap.Ideate.Generate.Text.Website,,,
+AI/DV/ML Toolmap.Ideate.Generate.Text.Website.Batternut AI,260,Freemium,
+AI/DV/ML Toolmap.Ideate.Generate.Text.Website.Durable,261,Premium,
+AI/DV/ML Toolmap.Ideate.Recommend,,,
+AI/DV/ML Toolmap.Ideate.Recommend.Drawings,,,
+AI/DV/ML Toolmap.Ideate.Recommend.Drawings.Icons,,,
+AI/DV/ML Toolmap.Ideate.Recommend.Drawings.Icons.AutoDraw,265,Free,
+AI/DV/ML Toolmap.Ideate.Recommend.Instructions,,,
+AI/DV/ML Toolmap.Ideate.Recommend.Instructions.Design System Components,,,
+AI/DV/ML Toolmap.Ideate.Recommend.Instructions.Design System Components.FontJoy,268,Free,
+AI/DV/ML Toolmap.Ideate.Recommend.None,,,
+AI/DV/ML Toolmap.Ideate.Recommend.None.Web Interface,,,
+AI/DV/ML Toolmap.Ideate.Recommend.None.Web Interface.UIBot,271,Free,
+AI/DV/ML Toolmap.Ideate.Recommend.Text,,,
+AI/DV/ML Toolmap.Ideate.Recommend.Text.3D,,,
+AI/DV/ML Toolmap.Ideate.Recommend.Text.3D.Ponzu gg,274,Free,
+AI/DV/ML Toolmap.Ideate.Recommend.Text.Copy,,,
+AI/DV/ML Toolmap.Ideate.Recommend.Text.Copy.DayDrm,276,Premium,
+AI/DV/ML Toolmap.Ideate.Recommend.Text.Copy.TuneTheAds,277,Premium,
+AI/DV/ML Toolmap.Ideate.Recommend.Text.FloorPlans,,,
+AI/DV/ML Toolmap.Ideate.Recommend.Text.FloorPlans.Maket,279,Freemium,
+AI/DV/ML Toolmap.Ideate.Recommend.Text.Visualization,,,
+AI/DV/ML Toolmap.Ideate.Recommend.Text.Visualization.Wikiview net,281,Free,
+AI/DV/ML Toolmap.Ideate.Translate,,,
+AI/DV/ML Toolmap.Ideate.Translate.Image,,,
+AI/DV/ML Toolmap.Ideate.Translate.Image.Image,,,
+AI/DV/ML Toolmap.Ideate.Translate.Image.Image.Adobe Firefly,285,Premium,
+AI/DV/ML Toolmap.Ideate.Translate.Image.Image.ML5,286,Free,
+AI/DV/ML Toolmap.Ideate.Translate.Image.Image.Pix2Pix,287,Free,
+AI/DV/ML Toolmap.Ideate.Translate.Image.Image.Playform io,288,Freemium,
+AI/DV/ML Toolmap.Ideate.Translate.Image.Image.RUNWAY ML,289,Freemium,
+AI/DV/ML Toolmap.Ideate.Translate.Image.Render,,,
+AI/DV/ML Toolmap.Ideate.Translate.Image.Render.Maket,291,Freemium,
+AI/DV/ML Toolmap.Ideate.Translate.Text,,,
+AI/DV/ML Toolmap.Ideate.Translate.Text.Text,,,
+AI/DV/ML Toolmap.Ideate.Translate.Text.Text.ChatGPT,293,Freemium,https://chat.openai.com/
+AI/DV/ML Toolmap.Ideate.Translate.Text.Text.Open AI in Spreadsheet,294,Free,
+AI/DV/ML Toolmap.Prototype,,,
+AI/DV/ML Toolmap.Prototype.Debug,,,
+AI/DV/ML Toolmap.Prototype.Debug.Code,,,
+AI/DV/ML Toolmap.Prototype.Debug.Code.Code,,,
+AI/DV/ML Toolmap.Prototype.Debug.Code.Code.ChatGPT,299,Freemium,https://chat.openai.com/
+AI/DV/ML Toolmap.Prototype.Debug.Text,,,
+AI/DV/ML Toolmap.Prototype.Debug.Text.Text,,,
+AI/DV/ML Toolmap.Prototype.Debug.Text.Text.Open AI in Spreadsheet,302,Free,
+AI/DV/ML Toolmap.Prototype.Generate,,,
+AI/DV/ML Toolmap.Prototype.Generate.Audio,,,
+AI/DV/ML Toolmap.Prototype.Generate.Audio.Video,,,
+AI/DV/ML Toolmap.Prototype.Generate.Audio.Video.WZRD ai,306,Free,
+AI/DV/ML Toolmap.Prototype.Generate.Drawings,,,
+AI/DV/ML Toolmap.Prototype.Generate.Drawings.Website,,,
+AI/DV/ML Toolmap.Prototype.Generate.Drawings.Website.TeleportHQ,309,Freemium,
+AI/DV/ML Toolmap.Prototype.Generate.Gesture,,,
+AI/DV/ML Toolmap.Prototype.Generate.Gesture.Instruction,,,
+AI/DV/ML Toolmap.Prototype.Generate.Gesture.Instruction.Wekinator,312,Free,
+AI/DV/ML Toolmap.Prototype.Generate.Image,,,
+AI/DV/ML Toolmap.Prototype.Generate.Image.3D,,,
+AI/DV/ML Toolmap.Prototype.Generate.Image.3D.Luma AI,315,"Free, waiting list",
+AI/DV/ML Toolmap.Prototype.Generate.Image.3D.Make3d App,316,Free,
+AI/DV/ML Toolmap.Prototype.Generate.Image.Image,,,
+AI/DV/ML Toolmap.Prototype.Generate.Image.Image.RUNWAY ML,318,Freemium,
+AI/DV/ML Toolmap.Prototype.Generate.Image.Image.TrainEngine ai,319,Free,
+AI/DV/ML Toolmap.Prototype.Generate.Instructions,,,
+AI/DV/ML Toolmap.Prototype.Generate.Instructions.Avatar,,,
+AI/DV/ML Toolmap.Prototype.Generate.Instructions.Avatar.Generated Photos,322,Freemium,
+AI/DV/ML Toolmap.Prototype.Generate.Table,,,
+AI/DV/ML Toolmap.Prototype.Generate.Table.Audio,,,
+AI/DV/ML Toolmap.Prototype.Generate.Table.Audio.Two Tone,325,Free,
+AI/DV/ML Toolmap.Prototype.Generate.Text,,,
+AI/DV/ML Toolmap.Prototype.Generate.Text.360 images,,,
+AI/DV/ML Toolmap.Prototype.Generate.Text.360 images.SkyBox Lab - Blockade,328,Free,
+AI/DV/ML Toolmap.Prototype.Generate.Text.3D,,,
+AI/DV/ML Toolmap.Prototype.Generate.Text.3D.3dfy ai,330,Premium,
+AI/DV/ML Toolmap.Prototype.Generate.Text.3D.Masterpiece studio,331,"Free, waiting list",
+AI/DV/ML Toolmap.Prototype.Generate.Text.3D.Ponzu gg,332,Free,
+AI/DV/ML Toolmap.Prototype.Generate.Text.3D.Spline AI,333,"Free, waiting list",
+AI/DV/ML Toolmap.Prototype.Generate.Text.Animation,,,
+AI/DV/ML Toolmap.Prototype.Generate.Text.Animation.Krikey AI,335,Freemium,
+AI/DV/ML Toolmap.Prototype.Generate.Text.App,,,
+AI/DV/ML Toolmap.Prototype.Generate.Text.App.Sutro,337,Free,
+AI/DV/ML Toolmap.Prototype.Generate.Text.App.weTune,338,Free,
+AI/DV/ML Toolmap.Prototype.Generate.Text.Audio,,,
+AI/DV/ML Toolmap.Prototype.Generate.Text.Audio.Eleven Labs,340,Freemium,
+AI/DV/ML Toolmap.Prototype.Generate.Text.Code,,,
+AI/DV/ML Toolmap.Prototype.Generate.Text.Code.Code Generator for Arduino,342,Free,
+AI/DV/ML Toolmap.Prototype.Generate.Text.Code.Codex,343,Free,
+AI/DV/ML Toolmap.Prototype.Generate.Text.Copy,,,
+AI/DV/ML Toolmap.Prototype.Generate.Text.Copy.DayDrm,345,Premium,
+AI/DV/ML Toolmap.Prototype.Generate.Text.Copy.Fact GPT ,346,Premium,
+AI/DV/ML Toolmap.Prototype.Generate.Text.Copy.Fig GPT Figma Plugin,347,Free,
+AI/DV/ML Toolmap.Prototype.Generate.Text.Copy.Jot AI,348,Premium,
+AI/DV/ML Toolmap.Prototype.Generate.Text.Design System Components,,,
+AI/DV/ML Toolmap.Prototype.Generate.Text.Design System Components.Components ai,350,Freemium,
+AI/DV/ML Toolmap.Prototype.Generate.Text.Design System Components.DeBuild,351,Free,
+AI/DV/ML Toolmap.Prototype.Generate.Text.Design System Components.Flutterflow AI Gen,352,Freemium,
+AI/DV/ML Toolmap.Prototype.Generate.Text.Design System Components.Magician,353,Free,
+AI/DV/ML Toolmap.Prototype.Generate.Text.Icons,,,
+AI/DV/ML Toolmap.Prototype.Generate.Text.Icons. AppIcons ai,355,Premium,
+AI/DV/ML Toolmap.Prototype.Generate.Text.Icons.Iconify,356,Free,
+AI/DV/ML Toolmap.Prototype.Generate.Text.Image,,,
+AI/DV/ML Toolmap.Prototype.Generate.Text.Image.Adobe Firefly,358,Premium,
+AI/DV/ML Toolmap.Prototype.Generate.Text.Image.DALL-e,359,Freemium,
+AI/DV/ML Toolmap.Prototype.Generate.Text.Image.DreamStudio,360,Free,
+AI/DV/ML Toolmap.Prototype.Generate.Text.Image.Midjouney,361,Premium,
+AI/DV/ML Toolmap.Prototype.Generate.Text.Image.Playform io,362,Freemium,
+AI/DV/ML Toolmap.Prototype.Generate.Text.Image.RUNWAY ML,363,Freemium,
+AI/DV/ML Toolmap.Prototype.Generate.Text.Image.Stable Diffusion,364,Free,
+AI/DV/ML Toolmap.Prototype.Generate.Text.Image.Unstock ai,365,Free,
+AI/DV/ML Toolmap.Prototype.Generate.Text.Presentation,,,
+AI/DV/ML Toolmap.Prototype.Generate.Text.Presentation.Dektopus,367,Premium,
+AI/DV/ML Toolmap.Prototype.Generate.Text.Text,,,
+AI/DV/ML Toolmap.Prototype.Generate.Text.Text.ChatGPT,369,Freemium,https://chat.openai.com/
+AI/DV/ML Toolmap.Prototype.Generate.Text.Text.Open AI in Spreadsheet,370,Free,
+AI/DV/ML Toolmap.Prototype.Generate.Text.Texture,,,
+AI/DV/ML Toolmap.Prototype.Generate.Text.Texture.WithPoly,372,Free,
+AI/DV/ML Toolmap.Prototype.Generate.Text.Video,,,
+AI/DV/ML Toolmap.Prototype.Generate.Text.Video.Artflow,374,Freemium,
+AI/DV/ML Toolmap.Prototype.Generate.Text.Video.RUNWAY ML,375,Freemium,
+AI/DV/ML Toolmap.Prototype.Generate.Text.Website,,,
+AI/DV/ML Toolmap.Prototype.Generate.Text.Website.Batternut AI,377,Freemium,
+AI/DV/ML Toolmap.Prototype.Generate.Text.Website.Durable,378,Premium,
+AI/DV/ML Toolmap.Prototype.Generate.Video,,,
+AI/DV/ML Toolmap.Prototype.Generate.Video.3D,,,
+AI/DV/ML Toolmap.Prototype.Generate.Video.3D.Luma AI,380,"Free, waiting list",
+AI/DV/ML Toolmap.Prototype.Generate.Video.Text,,,
+AI/DV/ML Toolmap.Prototype.Generate.Video.Text.RUNWAY ML,382,Freemium,
+AI/DV/ML Toolmap.Prototype.Optimize,,,
+AI/DV/ML Toolmap.Prototype.Optimize.Audio,,,
+AI/DV/ML Toolmap.Prototype.Optimize.Audio.Audio,,,
+AI/DV/ML Toolmap.Prototype.Optimize.Audio.Audio.Adobe Speech Enhancer,386,Free,
+AI/DV/ML Toolmap.Prototype.Optimize.Audio.Audio.Audo Studio,387,Freemium,
+AI/DV/ML Toolmap.Prototype.Optimize.Audio.Audio.LALAL ai,388,Premium,
+AI/DV/ML Toolmap.Prototype.Optimize.Audio.Audio.Noise Eraser,389,Freemium,
+AI/DV/ML Toolmap.Prototype.Optimize.Audio.Audio.Nonoisy,390,Freemium,
+AI/DV/ML Toolmap.Prototype.Optimize.Image,,,
+AI/DV/ML Toolmap.Prototype.Optimize.Image.Image,,,
+AI/DV/ML Toolmap.Prototype.Optimize.Image.Image.Lunacy,393,Free,
+AI/DV/ML Toolmap.Prototype.Optimize.Image.Image.Remove bg,394,Free,
+AI/DV/ML Toolmap.Prototype.Recognise,,,
+AI/DV/ML Toolmap.Prototype.Recognise.Audio,,,
+AI/DV/ML Toolmap.Prototype.Recognise.Audio.Instruction,,,
+AI/DV/ML Toolmap.Prototype.Recognise.Audio.Instruction.Edge Impulse,398,Free,
+AI/DV/ML Toolmap.Prototype.Recognise.Gesture,,,
+AI/DV/ML Toolmap.Prototype.Recognise.Gesture.Instruction,,,
+AI/DV/ML Toolmap.Prototype.Recognise.Gesture.Instruction.ML5,401,Free,
+AI/DV/ML Toolmap.Prototype.Recognise.Image,,,
+AI/DV/ML Toolmap.Prototype.Recognise.Image.Image,,,
+AI/DV/ML Toolmap.Prototype.Recognise.Image.Image.RUNWAY ML,404,Freemium,
+AI/DV/ML Toolmap.Prototype.Recognise.Image.Instruction,,,
+AI/DV/ML Toolmap.Prototype.Recognise.Image.Instruction.Edge Impulse,406,Free,
+AI/DV/ML Toolmap.Prototype.Recognise.Image.Label,,,
+AI/DV/ML Toolmap.Prototype.Recognise.Image.Label.Akiwi,408,Free,
+AI/DV/ML Toolmap.Prototype.Recognise.Image.Label.Datature,409,Freemium,
+AI/DV/ML Toolmap.Prototype.Recognise.Image.Label.Lobe,410,Free,
+AI/DV/ML Toolmap.Prototype.Recognise.Image.Label.ML5,411,Free,
+AI/DV/ML Toolmap.Prototype.Recognise.Image.Label.RUNWAY ML,412,Freemium,
+AI/DV/ML Toolmap.Prototype.Recognise.Image.Label.Teachable Machine,413,Free,
+AI/DV/ML Toolmap.Prototype.Recognise.Text,,,
+AI/DV/ML Toolmap.Prototype.Recognise.Text.Label,,,
+AI/DV/ML Toolmap.Prototype.Recognise.Text.Label.GPTzero,416,Free,
+AI/DV/ML Toolmap.Prototype.Recognise.Video,,,
+AI/DV/ML Toolmap.Prototype.Recognise.Video.3D,,,
+AI/DV/ML Toolmap.Prototype.Recognise.Video.3D.DeepMotion,419,Freemium,
+AI/DV/ML Toolmap.Prototype.Test,,,
+AI/DV/ML Toolmap.Prototype.Test.Image,,,
+AI/DV/ML Toolmap.Prototype.Test.Image.Instruction,,,
+AI/DV/ML Toolmap.Prototype.Test.Image.Instruction.Visily AI,423,Free,
+AI/DV/ML Toolmap.Prototype.Translate,,,
+AI/DV/ML Toolmap.Prototype.Translate.Image,,,
+AI/DV/ML Toolmap.Prototype.Translate.Image.Image,,,
+AI/DV/ML Toolmap.Prototype.Translate.Image.Image.Pix2Pix,427,Free,
+AI/DV/ML Toolmap.Prototype.Translate.Text,,,
+AI/DV/ML Toolmap.Prototype.Translate.Text.Audio,,,
+AI/DV/ML Toolmap.Prototype.Translate.Text.Audio.Sonantic,430,Freemium,
+AI/DV/ML Toolmap.Implement,,,
+AI/DV/ML Toolmap.Implement.Debug,,,
+AI/DV/ML Toolmap.Implement.Debug.Code,,,
+AI/DV/ML Toolmap.Implement.Debug.Code.Code,,,
+AI/DV/ML Toolmap.Implement.Debug.Code.Code.ChatGPT,435,Freemium,https://chat.openai.com/
+AI/DV/ML Toolmap.Implement.Debug.Text,,,
+AI/DV/ML Toolmap.Implement.Debug.Text.Text,,,
+AI/DV/ML Toolmap.Implement.Debug.Text.Text.Notion AI,438,Premium,
+AI/DV/ML Toolmap.Implement.Debug.Text.Text.Open AI in Spreadsheet,439,Free,
+AI/DV/ML Toolmap.Implement.Generate,,,
+AI/DV/ML Toolmap.Implement.Generate.Design System Component,,,
+AI/DV/ML Toolmap.Implement.Generate.Design System Component.Code,,,
+AI/DV/ML Toolmap.Implement.Generate.Design System Component.Code.Vivid,443,Free,
+AI/DV/ML Toolmap.Implement.Generate.Text,,,
+AI/DV/ML Toolmap.Implement.Generate.Text.Code,,,
+AI/DV/ML Toolmap.Implement.Generate.Text.Code.Code Generator for Arduino,446,Free,
+AI/DV/ML Toolmap.Implement.Generate.Text.Code.Components ai,447,Freemium,
+AI/DV/ML Toolmap.Implement.Optimize,,,
+AI/DV/ML Toolmap.Implement.Optimize.Image,,,
+AI/DV/ML Toolmap.Implement.Optimize.Image.Image,,,
+AI/DV/ML Toolmap.Implement.Optimize.Image.Image.Colourlab ai,451,Premium,
+AI/DV/ML Toolmap.Implement.Optimize.Text,,,
+AI/DV/ML Toolmap.Implement.Optimize.Text.Video,,,
+AI/DV/ML Toolmap.Implement.Optimize.Text.Video.Fylm ai,454,Freemium,
+AI/DV/ML Toolmap.Implement.Optimize.Video,,,
+AI/DV/ML Toolmap.Implement.Optimize.Video.Video,,,
+AI/DV/ML Toolmap.Implement.Optimize.Video.Video.Colourlab ai,457,Premium,
+AI/DV/ML Toolmap.Implement.Test,,,
+AI/DV/ML Toolmap.Implement.Test.Text,,,
+AI/DV/ML Toolmap.Implement.Test.Text.Design System Components,,,
+AI/DV/ML Toolmap.Implement.Test.Text.Design System Components.Components ai,460,Freemium,
+AI/DV/ML Toolmap.Deliver,,,
+AI/DV/ML Toolmap.Deliver.Debug,,,
+AI/DV/ML Toolmap.Deliver.Debug.Text,,,
+AI/DV/ML Toolmap.Deliver.Debug.Text.Text,,,
+AI/DV/ML Toolmap.Deliver.Debug.Text.Text.Penelope ai,465,Premium,
+AI/DV/ML Toolmap.Deliver.Generate,,,
+AI/DV/ML Toolmap.Deliver.Generate.Audio,,,
+AI/DV/ML Toolmap.Deliver.Generate.Audio.Text,,,
+AI/DV/ML Toolmap.Deliver.Generate.Audio.Text.Ermine ai,469,Free,
+AI/DV/ML Toolmap.Deliver.Generate.Audio.Text.Good Tape,470,Free,
+AI/DV/ML Toolmap.Deliver.Generate.Audio.Text.Subly,471,Premium,
+AI/DV/ML Toolmap.Deliver.Generate.Image,,,
+AI/DV/ML Toolmap.Deliver.Generate.Image.Image,,,
+AI/DV/ML Toolmap.Deliver.Generate.Image.Image.TrainEngine ai,474,Free,
+AI/DV/ML Toolmap.Deliver.Generate.Image.Mockups,,,
+AI/DV/ML Toolmap.Deliver.Generate.Image.Mockups.Visily AI,477,Free,
+AI/DV/ML Toolmap.Deliver.Generate.Instructions,,,
+AI/DV/ML Toolmap.Deliver.Generate.Instructions.Avatar,,,
+AI/DV/ML Toolmap.Deliver.Generate.Instructions.Avatar.Generated Photos,480,Freemium,
+AI/DV/ML Toolmap.Deliver.Generate.Text,,,
+AI/DV/ML Toolmap.Deliver.Generate.Text.Blog,,,
+AI/DV/ML Toolmap.Deliver.Generate.Text.Blog.Autoblogger ai,483,Free,
+AI/DV/ML Toolmap.Deliver.Generate.Text.Blog.Reword,484,Freemium,
+AI/DV/ML Toolmap.Deliver.Generate.Text.Code,,,
+AI/DV/ML Toolmap.Deliver.Generate.Text.Code.Codex,486,Free,
+AI/DV/ML Toolmap.Deliver.Generate.Text.Copy,,,
+AI/DV/ML Toolmap.Deliver.Generate.Text.Copy.Copy ai,488,Freemium,
+AI/DV/ML Toolmap.Deliver.Generate.Text.Copy.DayDrm,489,Premium,
+AI/DV/ML Toolmap.Deliver.Generate.Text.Copy.Fact GPT ,490,Premium,
+AI/DV/ML Toolmap.Deliver.Generate.Text.Copy.Fig GPT Figma Plugin,491,Free,
+AI/DV/ML Toolmap.Deliver.Generate.Text.Copy.Jot AI,492,Premium,
+AI/DV/ML Toolmap.Deliver.Generate.Text.Design System Components,,,
+AI/DV/ML Toolmap.Deliver.Generate.Text.Design System Components.Components ai,494,Freemium,
+AI/DV/ML Toolmap.Deliver.Generate.Text.Design System Components.DeBuild,495,Free,
+AI/DV/ML Toolmap.Deliver.Generate.Text.Image,,,
+AI/DV/ML Toolmap.Deliver.Generate.Text.Image.Midjouney,497,Premium,
+AI/DV/ML Toolmap.Deliver.Generate.Text.Text,,,
+AI/DV/ML Toolmap.Deliver.Generate.Text.Text.ChatGPT,499,Freemium,https://chat.openai.com/
+AI/DV/ML Toolmap.Deliver.Generate.Text.Text.Jasper ai,500,Premium,
+AI/DV/ML Toolmap.Deliver.Generate.Text.Text.Notion AI,501,Premium,
+AI/DV/ML Toolmap.Deliver.Generate.Text.Text.Open AI in Spreadsheet,502,Free,
+AI/DV/ML Toolmap.Deliver.Generate.Video,,,
+AI/DV/ML Toolmap.Deliver.Generate.Video.Text,,,
+AI/DV/ML Toolmap.Deliver.Generate.Video.Text.Subly,505,Premium,
+AI/DV/ML Toolmap.Deliver.Optimize,,,
+AI/DV/ML Toolmap.Deliver.Optimize.Audio,,,
+AI/DV/ML Toolmap.Deliver.Optimize.Audio.Audio,,,
+AI/DV/ML Toolmap.Deliver.Optimize.Audio.Audio.Adobe Speech Enhancer,509,Free,
+AI/DV/ML Toolmap.Deliver.Optimize.Audio.Audio.Audo Studio,510,Freemium,
+AI/DV/ML Toolmap.Deliver.Optimize.Audio.Audio.LALAL ai,511,Premium,
+AI/DV/ML Toolmap.Deliver.Optimize.Audio.Audio.Noise Eraser,512,Freemium,
+AI/DV/ML Toolmap.Deliver.Optimize.Audio.Audio.Nonoisy,513,Freemium,
+AI/DV/ML Toolmap.Deliver.Optimize.Image,,,
+AI/DV/ML Toolmap.Deliver.Optimize.Image.Image,,,
+AI/DV/ML Toolmap.Deliver.Optimize.Image.Image.Colourlab ai,516,Premium,
+AI/DV/ML Toolmap.Deliver.Optimize.Image.Image.Lunacy,517,Free,
+AI/DV/ML Toolmap.Deliver.Optimize.Image.Image.Playform io,518,Freemium,
+AI/DV/ML Toolmap.Deliver.Optimize.Image.Image.Remove bg,519,Free,
+AI/DV/ML Toolmap.Deliver.Optimize.Image.Image.Topaz Lab,520,Premium,
+AI/DV/ML Toolmap.Deliver.Optimize.Text,,,
+AI/DV/ML Toolmap.Deliver.Optimize.Text.Blog,,,
+AI/DV/ML Toolmap.Deliver.Optimize.Text.Blog.Reword,523,Freemium,
+AI/DV/ML Toolmap.Deliver.Optimize.Text.Text,,,
+AI/DV/ML Toolmap.Deliver.Optimize.Text.Text.Crystal Knows,525,Free,
+AI/DV/ML Toolmap.Deliver.Optimize.Text.Text.Deciphr AI,526,Freemium,
+AI/DV/ML Toolmap.Deliver.Optimize.Text.Text.Notion AI,527,Premium,
+AI/DV/ML Toolmap.Deliver.Optimize.Text.Video,,,
+AI/DV/ML Toolmap.Deliver.Optimize.Text.Video.Fylm ai,529,Freemium,
+AI/DV/ML Toolmap.Deliver.Optimize.Video,,,
+AI/DV/ML Toolmap.Deliver.Optimize.Video.Video,,,
+AI/DV/ML Toolmap.Deliver.Optimize.Video.Video.Colourlab ai,532,Premium,
+AI/DV/ML Toolmap.Deliver.Summarize,,,
+AI/DV/ML Toolmap.Deliver.Summarize.Video,,,
+AI/DV/ML Toolmap.Deliver.Summarize.Video.Video,,,
+AI/DV/ML Toolmap.Deliver.Summarize.Video.Video.2short ai,536,Free,
+AI/DV/ML Toolmap.Deliver.Translate,,,
+AI/DV/ML Toolmap.Deliver.Translate.Text,,,
+AI/DV/ML Toolmap.Deliver.Translate.Text.Text,,,
+AI/DV/ML Toolmap.Deliver.Translate.Text.Text.ChatGPT,540,Freemium,https://chat.openai.com/
+AI/DV/ML Toolmap.Deliver.Translate.Text.Text.Jasper ai,541,Premium,
+AI/DV/ML Toolmap.Deliver.Translate.Text.Text.Lunacy,542,Free,
+AI/DV/ML Toolmap.Deliver.Translate.Text.Text.Notion AI,543,Premium,
+AI/DV/ML Toolmap.Deliver.Translate.Text.Text.Open AI in Spreadsheet,544,Free,
+AI/DV/ML Toolmap.Deliver.Translate.Text.Text.Subly,545,Premium,
+AI/DV/ML Toolmap.Deliver.Visualize,,,
+AI/DV/ML Toolmap.Deliver.Visualize.Table,,,
+AI/DV/ML Toolmap.Deliver.Visualize.Table.Visualization,,,
+AI/DV/ML Toolmap.Deliver.Visualize.Table.Visualization.Kumu,549,Free,

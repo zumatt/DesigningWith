@@ -1,48 +1,75 @@
+/* -------------------> FONT <------------------- */
+@font-face {
+  font-family: EditorialNew;
+  src: url("../assets/font/EditorialNewRegular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: EditorialNew-Italic;
+  src: url("../assets/font/EditorialNewItalic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: SuisseIntl;
+  src: url("../assets/font/SuisseIntlRegular.otf") format("opentype");
+}
+
+/* -------------------> STYLE <------------------- */
 .node circle {
-    fill: #ffffff;
-    stroke-width: 1.5px;
-  }
+  fill: #ffffff;
+  stroke-width: 1.5px;
+}
 
 .node.free circle{
-    stroke: #ff3636;
+  stroke: #ff3636;
 }
-.node.premium circle{
-    stroke: #36c6ff;
-}
-.node.freemium circle{
-    stroke: #c936ff;
-}
-.node.freeWl circle{
-    stroke: #ffa536;
-}
-  
-  .node text {
-    font: 16px sans-serif;
-  }
-  
-  .node--internal circle {
-    fill: #ffffff;
-    stroke-width: 1.5px;
-    stroke: #000000;
-  }
-  
-  .node--internal text {
-    text-shadow: 0 2px 0 #fff, 0 -2px 0 #fff, 2px 0 0 #fff, -2px 0 0 #fff;
-  }
 
-  .node--leaf :hover {
-    cursor: pointer;
-    text-decoration: underline;
+.node.premium circle{
+  stroke: #36c6ff;
+}
+
+.node.freemium circle{
+  stroke: #c936ff;
+}
+
+.node.freeWl circle{
+  stroke: #ffa536;
 }
   
-  .link {
-    fill: none;
-    stroke: #555;
-    stroke-opacity: 0.4;
-    stroke-width: 1.5px;
-  }
+.node text {
+  font: 16px "SuisseIntl", sans-serif;
+}
   
-  label {
-    display: block;
-  }
+.node--internal circle {
+  fill: #ffffff;
+  stroke-width: 1.5px;
+  stroke: #000000;
+}
+  
+.node--internal text {
+  text-shadow: 0 2px 0 #fff, 0 -2px 0 #fff, 2px 0 0 #fff, -2px 0 0 #fff;
+}
+
+.node--leaf text a{
+  text-decoration: underline;
+}
+
+.node--leaf text a:hover{
+  fill: blue;
+  text-decoration: underline;
+}
+
+.tooltip p{
+  margin: 0px;
+}
+
+.link {
+  fill: none;
+  stroke: #e3e3e3;
+  stroke-width: 1.5px;
+}
+  
+label {
+  display: block;
+}
   

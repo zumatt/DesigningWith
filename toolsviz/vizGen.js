@@ -6,7 +6,6 @@
    SUPSI - Scuola Universitaria della Svizzera Italiana
    DACD  - Dipartimento Architettura Costruzioni e Design
    IDe   - Istituto di Design
-
 */
 
 //Declare dimensions for the viewport of the dendrogram
@@ -17,7 +16,7 @@ var height = 8500;
 var svg = d3.select("body").append("svg")
     .attr("id", "toolsViz")        
     .attr("width",width)        
-    .attr("height",height)                
+    .attr("height",height);                
 g = svg.append("g").attr("transform", "translate(-180,0)");
 
 var cluster = d3.cluster()
@@ -51,7 +50,8 @@ d3.csv("tools.csv", function(error, data) {
             .style("font", "16px sans-serif")
             .style("line-height", "32px")
             .style("border-width", "2px")
-            .style("padding", "12px");   
+            .style("min-width", "200px")
+            .style("padding", "30px");   
 
         var mouseover = function(d) {
             Tooltip
@@ -59,9 +59,9 @@ d3.csv("tools.csv", function(error, data) {
           }
           var mousemove = function(d) {
             Tooltip
-              .html("Design Phase: " + d.id.split(".")[1] + "<br>AI Activity: " + d.id.split(".")[2] + "<br>From " + d.id.split(".")[3] + " to " + d.id.split(".")[4] + "<br>Cost: " + d.data.cost)
-              .style("left", (event.pageX+20) + "px")
-              .style("top", (event.pageY+10) + "px")
+              .html("<p><span style='font-weight: bold;'>" + d.id.substring(d.id.lastIndexOf(".") + 1) + "</span><br><span style='text-decoration: underline;'>Design Phase:</span> " + d.id.split(".")[1] + "<br><span style='text-decoration: underline;'>AI Activity:</span> " + d.id.split(".")[2] + "<br><span style='text-decoration: underline;'>From</span> " + d.id.split(".")[3] + " <span style='text-decoration: underline;'>to</span> " + d.id.split(".")[4] + "<br><span style='text-decoration: underline;'>Cost:</span> " + d.data.cost + "</p>")
+              .style("left", (event.pageX+15) + "px")
+              .style("top", (event.pageY+15) + "px")
           }
           var mouseleave = function(d) {
             Tooltip
@@ -76,7 +76,7 @@ d3.csv("tools.csv", function(error, data) {
             .attr("class", function(d) {if(d.data.cost == "Free, waiting list"){return "node freeWl" + (d.children ? " node--internal" : " node--leaf");}else if(d.data.cost == "Free"){return "node free" + (d.children ? " node--internal" : " node--leaf");}else if(d.data.cost == "Premium"){return "node premium" + (d.children ? " node--internal" : " node--leaf");}else if(d.data.cost == "Freemium"){return "node freemium" + (d.children ? " node--internal" : " node--leaf");}else{return "node" + (d.children ? " node--internal" : " node--leaf");}})
             .attr("transform", function(d) { return "translate(" + d.y + "," + d.x + ")"; })
             .on("mouseover", function(d){if(d.data.cost){mouseover(d);}})
-            .on("mousemove", function(d){if(d.data.cost){mousemove(d);}})
+            .on("mousemove", function(d){if(screen.width >= 1000){if(d.data.cost){mousemove(d);}}})
             .on("mouseleave", function(d){if(d.data.cost){mouseleave(d);}});
 
         node.append("circle")
@@ -86,8 +86,9 @@ d3.csv("tools.csv", function(error, data) {
             .attr("dy", 3)
             .attr("x", function(d) { return d.children ? -8 : 8; })
             .style("text-anchor", function(d) { return d.children ? "end" : "start"; })
-            .text(function(d) { return d.id.substring(d.id.lastIndexOf(".") + 1); });
-
+            .html(function(d) {return "<a" + (d.children ? ">" : " href='" + d.data.Link + "' target='_blank'>") + d.id.substring(d.id.lastIndexOf(".") + 1); + "</a>"});
+        
+        
 });
 
 function diagonal(d) {
