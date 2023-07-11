@@ -10,7 +10,7 @@
 
 //Declare dimensions for the viewport of the dendrogram
 if (screen.width <= 1500){var width = 2000;}else{var width = screen.width;}
-var height = 8500;  
+var height = 9000;  
 
 //Create the html elements to visualize the dataset
 var svg = d3.select("body").append("svg")
@@ -59,7 +59,7 @@ d3.csv("tools.csv", function(error, data) {
           }
           var mousemove = function(d) {
             Tooltip
-              .html("<p><span style='font-weight: bold;'>" + d.id.substring(d.id.lastIndexOf(".") + 1) + "</span><br><span style='text-decoration: underline;'>Design Phase:</span> " + d.id.split(".")[1] + "<br><span style='text-decoration: underline;'>AI Activity:</span> " + d.id.split(".")[2] + "<br><span style='text-decoration: underline;'>From</span> " + d.id.split(".")[3] + " <span style='text-decoration: underline;'>to</span> " + d.id.split(".")[4] + "<br><span style='text-decoration: underline;'>Cost:</span> " + d.data.cost + "</p>")
+              .html("<p><span style='font-weight: bold;'>" + d.id.substring(d.id.lastIndexOf(".") + 1) + "</span><br><span style='text-decoration: underline;'>Design Phase:</span> " + d.id.split(".")[1] + "<br><span style='text-decoration: underline;'>AI Activity:</span> " + d.id.split(".")[2] + "<br><span style='text-decoration: underline;'>From</span> " + d.id.split(".")[3] + " <span style='text-decoration: underline;'>to</span> " + d.id.split(".")[4] + "<br><span style='text-decoration: underline;'>Access:</span> " + d.data.cost + "</p>")
               .style("left", (event.pageX+15) + "px")
               .style("top", (event.pageY+15) + "px")
           }
