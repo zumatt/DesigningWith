@@ -70,7 +70,7 @@
 
 .link {
   fill: none;
-  stroke: #f2f2f2;
+  stroke: #e1e1e1;
   stroke-width: 1.5px;
 }
   
@@ -82,7 +82,69 @@ label {
   font: 16px "SuisseIntl", sans-serif;
   width: 20%;
   text-align: center;
-  padding: 10px;
+  padding: 25px 10px 10px 10px;
   border-left: 1px solid #aaaaaa;
   z-index: 2;
+}
+
+.free-legend{
+  width: 6px;
+  height: 6px;
+  background-color: white;
+  border-radius: 50%;
+  border: 1.5px solid #ff3636;
+  display: inline-block;
+  margin-right: 2px;
+}
+
+.freemium-legend{
+  width: 6px;
+  height: 6px;
+  background-color: white;
+  border-radius: 50%;
+  border: 1.5px solid #c936ff;
+  display: inline-block;
+  margin-right: 2px;
+}
+
+.premium-legend{
+  width: 6px;
+  height: 6px;
+  background-color: white;
+  border-radius: 50%;
+  border: 1.5px solid #36c6ff;
+  display: inline-block;
+  margin-right: 2px;
+}
+
+.freeWl-legend{
+  width: 6px;
+  height: 6px;
+  background-color: white;
+  border-radius: 50%;
+  border: 1.5px solid #ffa536;
+  display: inline-block;
+  margin-right: 2px;
+}
+
+.text-legend{
+  font: 14px "SuisseIntl", sans-serif;
+  margin-right: 5px;
+}
+
+.sticky-legend{
+  height: 2vh;
+}
+
+.sticky-legend-fixed{
+  top: 0px;
+}
+
+a{
+  color: black;
+}
+
+a:hover{
+  color: white;
+  background-color: blue;
 }

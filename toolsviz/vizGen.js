@@ -12,10 +12,11 @@
 if (screen.width <= 1500){var width = 1500;}else{var width = screen.width;}
 var height = 9000;
 
+
 if(screen.width > 2000){
     var legend = d3.select("body").append("div")
         .attr("width", width)
-        .attr("style", "height:" + (height+134) + "px;" + " display: flex;");
+        .attr("style", "z-index: 1; height:" + (height+134) + "px;" + " display: flex;");
 
     legend.append("div")
         .attr("class", "box")
@@ -33,6 +34,87 @@ if(screen.width > 2000){
         .attr("class", "box")
         .html("Tool");
 }
+if(screen.width > 500){
+    var legend = d3.select("body").append("div")
+            .attr("width", width)
+            .attr("class", "sticky-legend")
+            .attr("style", "background-color: white; z-index: 2; float: left; position:fixed; top: 0px; left: 0px; padding-left: 10px;");
+
+        legend.append("text")
+            .attr("style", "margin-right:10px")
+            .attr("class", "text-legend")
+            .html("Designing With Tools Map");
+}
+
+var legend = d3.select("body").append("div")
+        .attr("width", width)
+        .attr("class", "sticky-legend")
+        .attr("style", "background-color: white; z-index: 2; float: left; position:fixed; bottom: 0px; left: 0px; padding-bottom:5px; padding-left: 10px;");
+    
+    legend.append("text")
+        .attr("style", "margin-right:10px")
+        .attr("class", "text-legend")
+        .html("<a href='designingwithai.ch'>Back to the main website</a>");
+
+if(screen.width > 500){
+    var legend = d3.select("body").append("div")
+            .attr("width", width)
+            .attr("class", "sticky-legend")
+            .attr("style", "background-color: white; z-index: 2; float: left; position:fixed; bottom: 0px; right: 0px; padding-bottom:5px; padding-left: 10px;");
+        
+        legend.append("text")
+            .attr("style", "margin-right:10px")
+            .attr("class", "text-legend")
+            .html("Visualization made by <a href='https://www.linkedin.com/in/antonella-autuori-b37913178/' target='_blank'>Antonella Autuori</a>, <a href='https://www.linkedin.com/in/zumat/' target='_blank'>Matteo Subet</a> and <a href='https://www.linkedin.com/in/ginevra-terenghi-b530b21ab/' target='_blank'>Ginevra Terenghi</a> - <a href='https://www.supsi.ch' target='_blank'>SUPSI</a> <a href='https://maind.supsi.ch' target='_blank'>MAInD</a>");
+}
+
+var legend = d3.select("body").append("div")
+        .attr("width", width)
+        .attr("class", "sticky-legend")
+        .attr("style", "background-color: white; z-index: 2; float: right; position:fixed; top: 0px; right: 0px; padding-right: 10px;");
+    
+    legend.append("text")
+        .attr("style", "margin-right:10px")
+        .attr("class", "text-legend")
+        .html("Tools access legend ->");
+    
+    legend.append("div")
+        .attr("class", "free-legend");
+    legend.append("text")
+        .attr("class", "text-legend")
+        .html("Free");
+
+    legend.append("div")
+        .attr("class", "freeWl-legend");
+    legend.append("text")
+        .attr("class", "text-legend")
+        .html("Free - Waiting List");
+
+        legend.append("div")
+            .attr("class", "freemium-legend");
+        legend.append("text")
+            .attr("class", "text-legend")
+            .html("Freemium");
+
+            legend.append("div")
+                .attr("class", "premium-legend");
+            legend.append("text")
+                .attr("class", "text-legend")
+                .html("Premium");
+
+// Add a scroll event listener
+window.addEventListener("scroll", function() {
+    var legendDiv = document.querySelector(".sticky-legend");
+    var rect = legendDiv.getBoundingClientRect();
+    
+    if (rect.top <= 0) {
+      // When the top of the div touches or goes above the top of the screen
+      legendDiv.classList.add("sticky-legend-fixed");
+    } else {
+      // When the div is below the top of the screen
+      legendDiv.classList.remove("sticky-legend-fixed");
+    }
+  });
 
 //Create the html elements to visualize the dataset
 var svg = d3.select("body").append("svg")
@@ -40,9 +122,9 @@ var svg = d3.select("body").append("svg")
     .attr("width",width)        
     .attr("height",height);
     if(screen.width <= 2000){
-        svg.attr("style", "position: absolute; left: 0; top: 100px; margin-top: -40px;");
+        svg.attr("style", "position: absolute; left: 0; top: 100px; margin-top: -20px;");
     }else{
-        svg.attr("style", "z-index: 2; position: absolute; left: 0; top: 100px; border-top:1px solid #aaaaaa; border-bottom:1px solid #aaaaaa;");
+        svg.attr("style", "z-index: 3; position: absolute; left: 0; top: 100px; border-top:1px solid #aaaaaa; border-bottom:1px solid #aaaaaa;");
     };                
 g = svg.append("g").attr("transform", "translate(-180,0)");
 
@@ -88,7 +170,7 @@ d3.csv("tools.csv", function(error, data) {
           var mousemove = function(d) {
             Tooltip
               .html("<p><span style='font-weight: bold;'>" + d.id.substring(d.id.lastIndexOf(".") + 1) + "</span><br><span style='text-decoration: underline;'>Design Phase:</span> " + d.id.split(".")[1] + "<br><span style='text-decoration: underline;'>AI Activity:</span> " + d.id.split(".")[2] + "<br><span style='text-decoration: underline;'>From</span> " + d.id.split(".")[3] + " <span style='text-decoration: underline;'>to</span> " + d.id.split(".")[4] + "<br><span style='text-decoration: underline;'>Access:</span> " + d.data.cost + "</p>")
-              .style("left", (event.pageX+15) + "px")
+              .style("left", (event.pageX - Tooltip.node().offsetWidth - 15) + "px")
               .style("top", (event.pageY+15) + "px")
           }
           var mouseleave = function(d) {
