@@ -54,7 +54,7 @@ var legend = d3.select("body").append("div")
     legend.append("text")
         .attr("style", "margin-right:10px")
         .attr("class", "text-legend")
-        .html("<a href='designingwithai.ch'>Back to the main website</a>");
+        .html("<a href='http://www.designingwithai.ch'>Back to the main website</a>");
 
 if(screen.width > 500){
     var legend = d3.select("body").append("div")
