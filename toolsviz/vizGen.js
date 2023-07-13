@@ -60,7 +60,7 @@ if(screen.width > 500){
     var legend = d3.select("body").append("div")
             .attr("width", width)
             .attr("class", "sticky-legend")
-            .attr("style", "background-color: white; z-index: 2; float: left; position:fixed; bottom: 0px; right: 0px; padding-bottom:5px; padding-left: 10px;");
+            .attr("style", "background-color: white; z-index: 4; float: left; position:fixed; bottom: 0px; right: 0px; padding-bottom:5px; padding-left: 10px;");
         
         legend.append("text")
             .attr("style", "margin-right:10px")
@@ -71,7 +71,7 @@ if(screen.width > 500){
 var legend = d3.select("body").append("div")
         .attr("width", width)
         .attr("class", "sticky-legend")
-        .attr("style", "background-color: white; z-index: 2; float: right; position:fixed; top: 0px; right: 0px; padding-right: 10px;");
+        .attr("style", "background-color: white; z-index: 4; float: right; position:fixed; top: 0px; right: 0px; padding-right: 10px;");
     
     legend.append("text")
         .attr("style", "margin-right:10px")
