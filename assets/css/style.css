@@ -198,7 +198,7 @@ a:hover{
         font-size: 3.8vw;
     }
     .title h1{
-        font-size: 7.6vw;
+        font-size: 7vw;
     }
     .column h2{
         font-size: 3.8vw; /* 32px */
@@ -211,6 +211,10 @@ a:hover{
     .column p{
         font-size: 3vw;
       }
+
+    .textViz{
+      font-size: 4vw !important;
+    }
 }
 
 @media only screen and (max-width: 320px) {
