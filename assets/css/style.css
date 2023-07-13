@@ -10,16 +10,19 @@
 @font-face {
     font-family: EditorialNew;
     src: url("../font/EditorialNewRegular.otf") format("opentype");
+    font-display: swap;
 }
 
 @font-face {
     font-family: EditorialNew-Italic;
     src: url("../font/EditorialNewItalic.otf") format("opentype");
+    font-display: swap;
 }
 
 @font-face {
     font-family: SuisseIntl;
     src: url("../font/SuisseIntlRegular.otf") format("opentype");
+    font-display: swap;
 }
 
 /* -------------------> STYLE <------------------- */
