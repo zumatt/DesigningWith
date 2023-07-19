@@ -122,7 +122,7 @@ var svg = d3.select("body").append("svg")
     .attr("width",width)        
     .attr("height",height);
     if(screen.width <= 2000){
-        svg.attr("style", "position: absolute; left: 0; top: 100px; margin-top: -20px;");
+        svg.attr("style", "position: absolute; left: 0; top: 100px; margin-top: -20px; padding-bottom: 40px;");
     }else{
         svg.attr("style", "z-index: 3; position: absolute; left: 0; top: 100px; border-top:1px solid #aaaaaa; border-bottom:1px solid #aaaaaa;");
     };                
