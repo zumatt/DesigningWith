@@ -2,16 +2,19 @@
 @font-face {
   font-family: EditorialNew;
   src: url("../assets/font/EditorialNewRegular.otf") format("opentype");
+  font-display: swap;
 }
 
 @font-face {
   font-family: EditorialNew-Italic;
   src: url("../assets/font/EditorialNewItalic.otf") format("opentype");
+  font-display: swap;
 }
 
 @font-face {
   font-family: SuisseIntl;
   src: url("../assets/font/SuisseIntlRegular.otf") format("opentype");
+  font-display: swap;
 }
 
 /* -------------------> STYLE <------------------- */
@@ -147,4 +150,35 @@ a{
 a:hover{
   color: white;
   background-color: blue;
+}
+
+.container{
+  margin: 0vw -1vw 0vw -1vw;
+  width: calc(100% + 2vw);
+  border-top: 1px solid black;
+}
+
+.textBody{
+  font-family: SuisseIntl;
+  font-size: 16px; /* 32px */
+}
+
+.movetiaImg{
+  width: 20%;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 425px){
+  .movetiaImg {
+      width: 40%;
+  }
+}
+
+.movetiaLink{
+  color: red;
+}
+
+.movetiaLink:hover{
+  background-color: red;
+  color: white;
 }
