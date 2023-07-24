@@ -154,6 +154,12 @@ a:hover{
     color: white;
   }
 
+  .movetiaImg{
+    width: 20%;
+    padding-bottom: 30px;
+    margin-top: 10px;
+  }
+
 /*  -------------------> RESPONSIVE <------------------- */
 
 @media only screen and (max-width: 1024px) {
@@ -238,6 +244,12 @@ a:hover{
     .column p{
         font-size: 1.2vw;
       }
+}
+
+@media only screen and (max-width: 425px){
+  .movetiaImg {
+      width: 40%;
+  }
 }
 
 .nodeVisible{
