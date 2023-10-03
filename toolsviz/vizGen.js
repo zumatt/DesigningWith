@@ -271,9 +271,21 @@ if (screen.width <= 1500) {
                     <img class="movetiaImg" src="https://www.movetia.ch/fileadmin/user_upload/Dokumente/Bereich_4/Movetia_Logos/Logo_Movetia_RGB_Red_Green.png" alt="Movetia Logo">
                 `;
 
+                // Create the third div element with the provided HTML
+                const div3 = document.createElement("div");
+                div3.className = "textBody";
+                div3.style.margin = "0vw 1vw 0vw 1vw";
+                div3.innerHTML = `
+                    <br>
+                    <p><span style="font-weight: bold;">Project Coordination</span><br><a href="https://www.supsi.ch/home_en.html" target="_blank">SUPSI</a> - University of Applied Sciences and Arts of Southern Switzerland</p>
+                    <p><span style="font-weight: bold;">Project Partners</span><br><a href="https://www.unl.pt/en" target="_blank">NOVA</a> - Universidade NOVA de Lisboa<br><a href="https://www.epfl.ch/en/" target="_blank">EPFL</a> - École polytechnique fédérale de Lausanne</p>
+                    <p>© 2022. This project is licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>.</p>
+                `;
+
                 // Find the location where you want to insert the new elements (e.g., a parent element with class "container")
                 const container = document.querySelector(".container");
 
                 // Append the newly created div elements to the container
                 container.appendChild(div1);
                 container.appendChild(div2);
+                container.appendChild(div3);
