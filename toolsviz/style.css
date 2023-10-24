@@ -76,6 +76,13 @@
   stroke: #e1e1e1;
   stroke-width: 1.5px;
 }
+
+.vertical-line{
+    fill: none;
+    stroke: #000000;
+    stroke-width: 1.5px;
+    stroke-dasharray: 20px;
+}
   
 label {
   display: block;
@@ -141,6 +148,13 @@ label {
 
 .sticky-legend-fixed{
   top: 0px;
+}
+
+.columnDPhase{
+  font: 26px "SuisseIntl", sans-serif;
+  position: absolute;
+  bottom: 30px;
+  text-align: center;
 }
 
 a{
