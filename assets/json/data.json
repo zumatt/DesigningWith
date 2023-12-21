@@ -1,0 +1,38 @@
+{
+	"name": "AI/ML/DV Framework",
+	"children": [
+		{
+			"name": "Understand",
+			"children": [
+				{
+					"name": "Collect",
+					"children": [
+						{
+							"name": "Prompt",
+							"children": [
+								{
+									"name": "Table",
+									"children": [
+										{
+											"name": "Apify",
+											"value": 1
+										}
+									]
+								},
+								{
+									"name": "TextFile",
+									"children": [
+										{
+											"name": "ChatGPT",
+											"value": 1
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
