@@ -4,6 +4,7 @@ function icicleGen(){
     const width  = window.innerWidth
     const mapDepth = 5
     let rootNode
+    let bookCover
   
     format = d3.format(",d")
   
@@ -33,7 +34,7 @@ function icicleGen(){
   
       const rect = cell
         .append('rect')
-        .attr("width", d => d.y1 - d.y0 - 1)
+        .attr("width", d => rectWidth(d))
         .attr("height", d => rectHeight(d))
         .attr("fill", "#D9D9D9")
         .style("cursor", "pointer")
@@ -54,14 +55,13 @@ function icicleGen(){
         .attr('dx', 4)
         .attr('dy', 25)
         .attr('fill-opacity',0)
-        .text(d => +labelVisible(d))
   
       text.append("tspan")
         .text(d => d.data.name)
-        .attr("fill-opacity", d => labelVisible(d) * 0.7)
+        .attr("fill-opacity", d => 1)
   
       const tspan = text.append("tspan")
-        .attr("fill-opacity", d => labelVisible(d) * 0.7)
+        .attr("fill-opacity", d => 1)
         //.text(d => ` ${format(d.value)}`);
   
   
@@ -71,37 +71,46 @@ function icicleGen(){
   
       function clicked(p) {
         if(p.depth != 0){focus = focus === p ? p = p.parent : p}
-
-        console.log(p.x0);
-        console.log("---");
-        rootNode.each(d => console.log(d.x1));
-        console.log("---");
-  
-        rootNode.each(d => d.target = {
+        //if(p.depth == 0){bookCover = 0} else {bookCover = (p.y1 - p.y0)*0.2}
+        rootNode.each(d => d.target = { //X e Y sono invertiti
           x0: (d.x0 - p.x0) / (p.x1 - p.x0) * height,
           x1: (d.x1 - p.x0) / (p.x1 - p.x0) * height,
-          y0: d.y0 - p.y0,
-          y1: d.y1 - p.y0
+          y0: (d.y0 - p.y0) / (p.y1 - p.y0) * width / (mapDepth - p.depth),
+          y1: (d.y1 - p.y0) / (p.y1 - p.y0) * width / (mapDepth - p.depth)
         });
-  
-        const t = cell.transition().duration(750)
-            .attr("transform", d => `translate(${d.target.y0},${d.target.x0})`)
-        
-        rect.attr("width", d => d.y1 - d.y0 + 1);
 
-        rect.transition(t).attr("height", d => rectHeight(d.target))
-  
-        text
-          .transition(t)
-          .attr("fill-opacity", d => +labelVisible(d.target))
-          .text(d => d.data.name)
-        tspan.transition(t).attr("fill-opacity", d => labelVisible(d.target) * 0.7)
+        rootNode.each(d => {
+          console.log(d.data.name, " y0 original:", d.y0, " y0 new:", d.target.y0, " y1 original:", d.y1, " y1 new:", d.target.y1);
+        })
+
+        const t = cell.transition().duration(750)
+          .attr("transform", d => `translate(${d.target.y0},${d.target.x0})`)
+
+        rect.transition(t)
+          .attr("height", d => rectHeight(d.target))
+          .attr("width", d => rectWidth(d.target))
       }
   
     });
   
     const rectHeight = d => d.x1 - d.x0 - Math.min(1, (d.x1 - d.x0) / 2)
-  
-    const labelVisible = d => d.y1 <= width && d.y0 >= 0 && d.x1 - d.x0 > 16
+    const rectWidth = d => d.y1 - d.y0 - Math.min(1, (d.y1 - d.y0) / 2)
   
 }
+
+function resizeOnReload() {
+  let svg = d3.select("svg");
+  let newWidth = window.innerWidth;
+  let newHeight = window.innerHeight - (window.innerHeight * 0.2);
+  
+  svg.attr("width", newWidth);
+  svg.attr("height", newHeight);
+
+  // Clear the SVG
+  svg.selectAll("*").remove();
+
+  // Call the function to regenerate the diagram
+  icicleGen();
+}
+
+window.addEventListener("resize", resizeOnReload);
