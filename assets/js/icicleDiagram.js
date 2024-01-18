@@ -72,16 +72,28 @@ function icicleGen(){
       function clicked(p) {
         if(p.depth != 0){focus = focus === p ? p = p.parent : p}
         //if(p.depth == 0){bookCover = 0} else {bookCover = (p.y1 - p.y0)*0.2}
-        rootNode.each(d => d.target = { //X e Y sono invertiti
-          x0: (d.x0 - p.x0) / (p.x1 - p.x0) * height,
-          x1: (d.x1 - p.x0) / (p.x1 - p.x0) * height,
-          y0: (d.y0 - p.y0) / (p.y1 - p.y0) * width / (mapDepth - p.depth),
-          y1: (d.y1 - p.y0) / (p.y1 - p.y0) * width / (mapDepth - p.depth)
-        });
-
         rootNode.each(d => {
-          console.log(d.data.name, " y0 original:", d.y0, " y0 new:", d.target.y0, " y1 original:", d.y1, " y1 new:", d.target.y1);
-        })
+          //Creare nuovo calcolo d.target seguendo l'if sotto
+          if(p.depth > d.depth){ //Rettangoli chiusi
+
+            d.target = { //X e Y sono invertiti
+              x0: (d.x0 - p.x0) / (p.x1 - p.x0) * height,
+              x1: (d.x1 - p.x0) / (p.x1 - p.x0) * height,
+              y0: (d.y0 - p.y0) / (p.y1 - p.y0) * width / (mapDepth - p.depth),
+              y1: (d.y1 - p.y0) / (p.y1 - p.y0) * width / (mapDepth - p.depth)
+            };
+
+          } else { //Rettangoli aperti
+
+            d.target = { //X e Y sono invertiti
+              x0: (d.x0 - p.x0) / (p.x1 - p.x0) * height,
+              x1: (d.x1 - p.x0) / (p.x1 - p.x0) * height,
+              y0: (d.y0 - p.y0) / (p.y1 - p.y0) * width / (mapDepth - p.depth),
+              y1: (d.y1 - p.y0) / (p.y1 - p.y0) * width / (mapDepth - p.depth)
+            };
+            
+          }
+      });
 
         const t = cell.transition().duration(750)
           .attr("transform", d => `translate(${d.target.y0},${d.target.x0})`)
