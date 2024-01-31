@@ -1,9 +1,11 @@
+/* -------------------> LOCAL VARIABLEs <------------------- */
 :root{
     --gapGrid: 8px;
     --fontHomeSizeTitle: 2.8vw; /* 45 px */
     --fontHomeSizeDescription: 1.5vw; /* 29 px */
 }
 
+/* -------------------> STYLE <------------------- */
 .wrapper{
     display: grid;
     grid-template-columns: repeat(3, 1fr);

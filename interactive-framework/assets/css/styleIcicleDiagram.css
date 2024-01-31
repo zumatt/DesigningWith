@@ -1,14 +1,1 @@
-/* -------------------> FONT <------------------- */
-@font-face {
-    font-family: SuisseIntl;
-    src: url("../font/SuisseIntlRegular.otf") format("opentype");
-    font-display: swap;
-  }
-
 /* -------------------> STYLE <------------------- */
-body{
-    margin: 0;
-    background-color: #EDEDED;
-    font: 20px "SuisseIntl", sans-serif;
-    font-weight: 300;
-}
