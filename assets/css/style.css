@@ -1,8 +1,12 @@
 /* -------------------> LOCAL VARIABLEs <------------------- */
 :root{
     --gapGrid: 8px;
+    /* Font size desktop */
     --fontHomeSizeTitle: 2.8vw; /* 45 px */
     --fontHomeSizeDescription: 1.5vw; /* 29 px */
+    /* Font size desktop */
+    --fontHomeSizeTitleMobile: 25px;
+    --fontHomeSizeDescriptionMobile: 25px;
 }
 
 /* -------------------> STYLE DESKTOP <------------------- */
@@ -177,5 +181,43 @@ a {
         grid-column-end: 1;
         grid-row-start: 8;
         grid-row-end: 8;
+    }
+
+    .titleHome{
+        margin: 0 0 var(--fontHomeSizeTitleMobile) 0;
+        font-size: var(--fontHomeSizeTitleMobile);
+    }
+    
+    .subtitleHome{
+        font-size: var(--fontHomeSizeTitleMobile);
+        line-height: calc(var(--fontHomeSizeTitleMobile) * 1.1);
+    }
+    
+    .pagesInfo{
+        font-size: var(--fontHomeSizeTitleMobile);
+        line-height: var(--fontHomeSizeDescriptionMobile);
+    }
+    
+    .pagesInfo .pagesTitle{
+        font-size: var(--fontHomeSizeTitleMobile);
+        line-height: var(--fontHomeSizeTitleMobile);
+    }
+    
+    .pagesInfo .pagesDescription{
+        font-size: var(--fontHomeSizeDescriptionMobile);
+    }
+
+    .box:hover{
+        span:first-of-type + span {
+          visibility: hidden;
+          opacity: 0;
+        }
+      }
+    
+    .box:hover{
+      span:first-of-type {
+        display: block;
+        opacity: 1;
+      }
     }
 }
