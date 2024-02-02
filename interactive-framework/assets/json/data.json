@@ -15,6 +15,11 @@
 									"children": [
 										{
 											"name": "Apify",
+											"description": "Apify is the platform where developers build, deploy, and monitor web scraping and browser automation tools.",
+											"payment": "Freemium",
+											"type": "Online tool",
+											"skills": "Medium",
+											"tooldiagram": "apify.json",
 											"value": 1
 										}
 									]
@@ -24,6 +29,11 @@
 									"children": [
 										{
 											"name": "ChatGPT",
+											"description": "ChatGPT is a free-to-use AI system. Use it for engaging conversations, gain insights, automate tasks, and witness the future of AI, all in one place.",
+											"payment": "Freemium",
+											"type": "Online tool",
+											"skills": "Low",
+											"tooldiagram": "chatgpt.json",
 											"value": 1
 										}
 									]
@@ -33,6 +43,11 @@
 									"children": [
 										{
 											"name": "Dall-E",
+											"description": "DALL·E 2 is an AI system that can create realistic images and art from a description in natural language.",
+											"payment": "Freemium",
+											"type": "Online tool",
+											"skills": "Low",
+											"tooldiagram": "dalle.json",
 											"value": 1
 										}
 									]
