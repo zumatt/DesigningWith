@@ -8,6 +8,7 @@ import About from "./pages/About";
 import Resources from "./pages/Resources";
 import DidacticGuidelines from "./pages/DidacticGuidelines";
 import AIForDesigners from "./pages/AIForDesigners";
+import InteractiveFramework from "./pages/InteractiveFramework";
 
 const router = createBrowserRouter([
   {
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
   {
     path: "/ai-for-designers",
     element: <AIForDesigners />,
+  },
+  {
+    path: "/interactive-framework",
+    element: <InteractiveFramework />,
   },
   {
     path: "*",

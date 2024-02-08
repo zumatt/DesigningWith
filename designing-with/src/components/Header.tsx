@@ -28,13 +28,22 @@ const Results = () => (
     <a className="flex justify-center bg-purple rounded-lg px-2" href="/about">
       About
     </a>
-    <a className="flex justify-center bg-blue rounded-lg px-2" href="/">
+    <a
+      className="flex justify-center bg-blue rounded-lg px-2"
+      href="/ai-for-designers"
+    >
       AI for Designers
     </a>
-    <a className="flex justify-center bg-grey rounded-lg px-2" href="/">
+    <a
+      className="flex justify-center bg-grey rounded-lg px-2"
+      href="/interactive-framework"
+    >
       Interactive Framework
     </a>
-    <a className="flex justify-center bg-green rounded-lg px-2" href="/">
+    <a
+      className="flex justify-center bg-green rounded-lg px-2"
+      href="/didactic-guidelines"
+    >
       Didactic Guidelines
     </a>
     <a
