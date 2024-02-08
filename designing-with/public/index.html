@@ -2,14 +2,23 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon_DesigningWithAi.ico" />
+    <link
+      rel="shortcut icon"
+      href="%PUBLIC_URL%/favicon_DesigningWithAi.ico"
+      type="image/x-icon"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
-      content="Web site created using create-react-app"
+      content="Research project in collaboration between the Institute of Design, SUPSI; the EPFL and the INova Media Lab. The aim of Designing With: is to develop an experimental approach and collaborate on the definition of a new educational module suitable to be applied in multidisciplinary environments."
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <meta
+      name="keywords"
+      content="designing with ai, design ai, artificial intelligence, design with artificial intelligence, machine learning design"
+    />
+    <!-- <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" /> -->
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -24,7 +33,32 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>
+      Designing With: A New Educational Module to Integrate Artificial
+      Intelligence and Machine Learning in Design Curricula
+    </title>
+  </head>
+  <head>
+    <!-- Matomo -->
+    <script>
+      var _paq = (window._paq = window._paq || []);
+      _paq.push(["trackPageView"]),
+        _paq.push(["enableLinkTracking"]),
+        (function () {
+          var a = "//maind.supsi.ch/master-interaction-design/analytics/";
+          _paq.push(["setTrackerUrl", a + "matomo.php"]),
+            _paq.push(["setSiteId", "2"]);
+          var e = document,
+            t = e.createElement("script"),
+            n = e.getElementsByTagName("script")[0];
+          (t.async = !0),
+            (t.src = a + "matomo.js"),
+            n.parentNode.insertBefore(t, n);
+        })();
+    </script>
+    <!-- End Matomo Code -->
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>

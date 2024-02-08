@@ -2,16 +2,129 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* -------------------> VARIABLEs <------------------- */
+
+:root {
+  /* Colors */
+  --mainTextColor: black;
+  --backgroundColor: #f5f5f5;
+  --violetColor: #b777f7;
+  --darkGreyColor: #a1a1a1;
+  --lightBlueColor: #72dafb;
+  --greenColor: #8cd782;
+  --yellowColor: #edab2c;
+  --redColor: #ed672c;
+  --blueColor: #5b99f4;
+  --whiteColor: #ffffff;
+  /* Font size */
+  --mainTextSize: 29px;
+  --h2TextSize: 48px;
+  --pTextSize: 29px;
+  --captionFontSize: 22px;
+  --menuFontSize: 29px;
+  /* Font size mobile */
+  --mainTextSizeMobile: 16px;
+  --h2TextSizeMobile: 25px;
+  --pTextSizeMobile: 16px;
+  --captionFontSizeMobile: 16px;
+  --menuFontSizeMobile: 22px;
+  /* Inner Glow sizes */
+  --blur: 60px;
+  --spread: 2px;
+  --blurHover: 80px;
+  --spreadHover: 40px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+/* -------------------> FONT <------------------- */
+@font-face {
+  font-family: EditorialNew;
+  src: url("../font/EditorialNewRegular.otf") format("opentype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: SuisseIntl;
+  src: url("../font/SuisseIntlRegular.otf") format("opentype");
+  font-display: swap;
+}
+
+/* Font not used */
+@font-face {
+  font-family: EditorialNew-Italic;
+  src: url("../font/EditorialNewItalic.otf") format("opentype");
+  font-display: swap;
+}
+
+/* -------------------> STYLE DESKTOP <------------------- */
+
+body {
+  margin: 10px;
+  font-size: 15px;
+  font-family: "SuisseIntl", "Helvetica", sans-serif;
+  color: var(--mainTextColor);
+  background-color: var(--backgroundColor);
+}
+
+::selection {
+  color: var(--backgroundColor);
+  background: var(--mainTextColor);
+}
+
+/* START -- Font size and family */
+h1 {
+  font-size: var(--mainTextSize);
+  font-family: "SuisseIntl", "Helvetica", sans-serif;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: var(--h2TextSize);
+  font-weight: normal;
+  font-family: "EditorialNew", "Garamond", serif;
+}
+
+h3 {
+  font-size: var(--h2TextSize);
+  font-weight: normal;
+  font-family: "EditorialNew", "Garamond", serif;
+}
+
+p {
+  font-size: var(--pTextSize);
+  font-family: "SuisseIntl", "Helvetica", sans-serif;
+}
+
+/* -------------------> STYLE MOBILE <------------------- */
+
+@media screen and (max-width: 820px) {
+  body {
+    margin: 5px;
+    font-size: 8px;
+  }
+
+  /* START -- Font size and family */
+  h1 {
+    font-size: var(--mainTextSizeMobile);
+  }
+
+  h2 {
+    font-size: var(--h2TextSizeMobile);
+  }
+
+  h3 {
+    font-size: var(--h2TextSizeMobile);
+  }
+
+  p {
+    font-size: var(--pTextSizeMobile);
+  }
+
+  .captionFont {
+    font-size: var(--captionFontSizeMobile);
+  }
+
+  .menuFont {
+    font-size: var(--menuFontSizeMobile);
+  }
+  /* END -- Font size and family */
 }
