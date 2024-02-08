@@ -36,7 +36,7 @@
 }
 
 /* -------------------> FONT <------------------- */
-@font-face {
+/* @font-face {
   font-family: EditorialNew;
   src: url("../font/EditorialNewRegular.otf") format("opentype");
   font-display: swap;
@@ -48,12 +48,12 @@
   font-display: swap;
 }
 
-/* Font not used */
+/* Font not used 
 @font-face {
   font-family: EditorialNew-Italic;
   src: url("../font/EditorialNewItalic.otf") format("opentype");
   font-display: swap;
-}
+} */
 
 /* -------------------> STYLE DESKTOP <------------------- */
 
