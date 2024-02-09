@@ -3,7 +3,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import Header from "./components/Header";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Homepage from "./pages/Homepage";
+import Homepage from "./pages/homepage/Homepage";
 import About from "./pages/About";
 import Resources from "./pages/Resources";
 import DidacticGuidelines from "./pages/DidacticGuidelines";

@@ -33,18 +33,26 @@
   --spread: 2px;
   --blurHover: 80px;
   --spreadHover: 40px;
+
+  --gapGrid: 8px;
+  /* Font size desktop */
+  --fontHomeSizeTitle: 2.8vw; /* 45 px */
+  --fontHomeSizeDescription: 1.5vw; /* 29 px */
+  /* Font size desktop */
+  --fontHomeSizeTitleMobile: 25px;
+  --fontHomeSizeDescriptionMobile: 25px;
 }
 
 /* -------------------> FONT <------------------- */
-/* @font-face {
+@font-face {
   font-family: EditorialNew;
-  src: url("../font/EditorialNewRegular.otf") format("opentype");
+  src: url("assets/font/EditorialNewRegular.otf") format("opentype");
   font-display: swap;
 }
 
 @font-face {
   font-family: SuisseIntl;
-  src: url("../font/SuisseIntlRegular.otf") format("opentype");
+  src: url("assets/font/SuisseIntlRegular.otf") format("opentype");
   font-display: swap;
 }
 
@@ -53,12 +61,12 @@
   font-family: EditorialNew-Italic;
   src: url("../font/EditorialNewItalic.otf") format("opentype");
   font-display: swap;
-} */
+}
 
 /* -------------------> STYLE DESKTOP <------------------- */
 
 body {
-  margin: 10px;
+  margin: 0;
   font-size: 15px;
   font-family: "SuisseIntl", "Helvetica", sans-serif;
   color: var(--mainTextColor);
@@ -92,6 +100,18 @@ h3 {
 p {
   font-size: var(--pTextSize);
   font-family: "SuisseIntl", "Helvetica", sans-serif;
+}
+
+a {
+  div.box {
+    color: var(--mainTextColor);
+  }
+  text-decoration: none;
+  display: flex;
+}
+
+.captionFont {
+  font-size: var(--captionFontSize);
 }
 
 /* -------------------> STYLE MOBILE <------------------- */
