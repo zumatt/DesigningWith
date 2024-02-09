@@ -2,6 +2,7 @@ import React from "react";
 import Layout from "../components/Layout";
 import GuidelinesAccordeon from "../components/GuidelinesAccordeon";
 import AdditionalInformations from "../components/AdditionalInformations";
+import TabDisplay from "../components/TabsDisplay";
 
 const DidacticGuidelines = () => {
   return (
@@ -21,6 +22,47 @@ const DidacticGuidelines = () => {
       <div className="h-[800px] bg-grey w-full mt-[20px] flex justify-center items-center rounded-xl">
         SVG Graph goes here
       </div>
+      <TabDisplay
+        tabs={[
+          {
+            title: "Didactic Guidelines",
+            elements: (
+              <>
+                <div className="flex flex-row justify-between gap-[14px] mt-[20px]">
+                  <p className="flex-1">
+                    The didactic guidelines are based on the following modular
+                    infrastructure which is composed of two main modules and
+                    their relative sub-modules. The first module (“Getting
+                    Familiar”) combines the disciplines of Machine Learning,
+                    Generative Artificial Intelligence, and Data Visualization
+                    and it is intended to provide basic literacy, guided
+                    tutorials, and hands-on experiences.
+                  </p>
+                  <p className="flex-1">
+                    The second module supports students in selecting and
+                    employing AI, ML, and CV tools for the design process,
+                    addressing a defined project brief to foster the acquisition
+                    of a method in designing with AI.
+                  </p>
+                </div>
+                <a
+                  href="/assets/data/pdf/example.pdf"
+                  download="Example"
+                  className="w-full bg-[#8CD782] rounded-2xl mt-[50px] p-[10px]"
+                >
+                  <p className="w-full text-center text-[50px]">
+                    Download the Didactic Guidelines
+                  </p>
+                </a>
+              </>
+            ),
+          },
+          {
+            title: "About didactic guidelines",
+            elements: <></>,
+          },
+        ]}
+      />
       <GuidelinesAccordeon title="Getting Familiar with - Module 1">
         <h1 className="mt-[40px]">Overall Objective</h1>
         <h2 className="mt-[15px]">

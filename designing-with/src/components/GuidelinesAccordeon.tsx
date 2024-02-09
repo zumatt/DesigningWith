@@ -14,7 +14,7 @@ const GuidelinesAccordeon = ({
   };
 
   return (
-    <div className="px-4 py-6 mt-[10px] bg-[#D9D9D988] rounded-lg">
+    <div className="px-4 py-6 mt-[10px] bg-[#D9D9D988] rounded-2xl">
       {" "}
       {/* shadow-[0px_0px_100px_5px_#FFF_inset]"> */}
       <div
