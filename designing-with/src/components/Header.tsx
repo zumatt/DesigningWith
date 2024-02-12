@@ -13,7 +13,7 @@ const Header = () => {
           onClick={onClick}
           className="flex justify-start bg-white rounded-xl px-3"
         >
-          <p>{showResults ? "⨯" : "+"}</p>
+          <p>{showResults ? "x" : "+"}</p>
         </button>
         {showResults ? <Results /> : null}
       </div>
