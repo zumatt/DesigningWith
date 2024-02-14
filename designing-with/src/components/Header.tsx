@@ -5,23 +5,30 @@ const Header = () => {
   const onClick = () => setShowResults(!showResults);
   return (
     <div className="h-full w-full z-0">
-      <div className="flex flex-row gap-2">
-        <a className="flex justify-center bg-white rounded-xl px-3" href="/">
-          <p>Designing With AI</p>
-        </a>
-        <button
-          onClick={onClick}
-          className="flex justify-start bg-white rounded-xl px-3"
-        >
-          <p>{showResults ? "x" : "+"}</p>
-        </button>
-        {showResults ? <Results /> : null}
-      </div>
+        {showResults ? <BlurredBack /> : null}
+        <div className="flex flex-row gap-2">
+            <a className="flex justify-center bg-white rounded-xl px-3" href="/">
+            <p>Designing With AI</p>
+            </a>
+            <button
+            onClick={onClick}
+            className="flex justify-start bg-white rounded-xl px-3"
+            >
+            <p>{showResults ? "x" : "+"}</p>
+            </button>
+            {showResults ? <Results /> : null}
+        </div>
     </div>
   );
 };
 
 export default Header;
+
+const BlurredBack = () => (
+    <div className=" h-full w-full bg-grey opacity-25 z-10">
+        <></>
+    </div>
+);
 
 const Results = () => (
   <div className="flex flex-col h-4 gap-2">
