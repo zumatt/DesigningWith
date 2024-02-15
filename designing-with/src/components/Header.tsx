@@ -4,20 +4,25 @@ const Header = () => {
   const [showResults, setShowResults] = React.useState(false);
   const onClick = () => setShowResults(!showResults);
   return (
-    <div className="h-full w-full z-0">
-      <div className="flex flex-row gap-2">
-        <a className="flex justify-center bg-white rounded-xl px-3" href="/">
-          <p>Designing With AI</p>
-        </a>
-        <button
-          onClick={onClick}
-          className="flex justify-start bg-white rounded-xl px-3"
-        >
-          <p>{showResults ? "⨯" : "+"}</p>
-        </button>
-        {showResults ? <Results /> : null}
+    <>
+      <div className="w-full z-20">
+        <div className="flex flex-row gap-2">
+          <a className="flex justify-center bg-white rounded-xl px-3" href="/">
+            <p>Designing With AI</p>
+          </a>
+          <button
+            onClick={onClick}
+            className="flex justify-start bg-white rounded-xl px-3"
+          >
+            <p>{showResults ? "⨯" : "+"}</p>
+          </button>
+          {showResults ? <Results /> : null}
+        </div>
       </div>
-    </div>
+      {showResults && (
+        <div className="bg-white w-screen h-screen fixed top-0 left-0 opacity-50 z-10" />
+      )}
+    </>
   );
 };
 

@@ -6,7 +6,7 @@ const Layout = ({
   children: React.ReactNode[] | React.ReactNode;
 }) => {
   return (
-    <div className=" flex flex-col p-10">
+    <div className=" flex flex-col relative p-10">
       <Header />
       {children}
     </div>

@@ -41,6 +41,8 @@
   /* Font size desktop */
   --fontHomeSizeTitleMobile: 25px;
   --fontHomeSizeDescriptionMobile: 25px;
+
+  position: relative;
 }
 
 /* -------------------> FONT <------------------- */
