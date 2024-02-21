@@ -3,11 +3,19 @@ import Layout from "../components/Layout";
 import Filter from "../components/Filter";
 import FilterDesignName from "../components/FilterDesignPhase";
 import FilterAICapability from "../components/FilterAICapability";
-import IcicleDiagram from "../components/IcicleDiagram";
+import { useState } from "react";
+import InteractiveDiagram from "../components/InteractiveDiagram";
+//import IcicleDiagram from "../components/IcicleDiagram";
 
 const InteractiveFramework = () => {
   const [showResults, setShowResults] = React.useState(false);
   const onClick = () => setShowResults(!showResults);
+  const [selectedChild, setselectedChild] = useState(false);
+  // const handleChildData = (dataFromChild) => {
+  //   // Do something with the data received from the child component
+  //   setChildData(dataFromChild);
+  // };
+
   return (
     <Layout>
       <a className="mt-[33px] underline cursor-pointer text-xl">
@@ -22,7 +30,8 @@ const InteractiveFramework = () => {
       <button className={` flex w-full rounded my-2 bg-opacity-45  ${showResults ? 'bg-gray-200' : ''} `} onClick={onClick}>Filter by ({showResults ? '-' : '+' })</button>
       {showResults ? <Results /> : null}
       <div className="flex flex-row">
-        <IcicleDiagram />
+        <InteractiveDiagram/>
+        {/* <IcicleDiagram /> */}
       </div>
     </Layout>
   );
