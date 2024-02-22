@@ -5,6 +5,7 @@ import FilterDesignName from "../components/FilterDesignPhase";
 import FilterAICapability from "../components/FilterAICapability";
 import { useState } from "react";
 import InteractiveDiagram from "../components/InteractiveDiagram";
+import IcicleDiagram from "../components/IcicleDiagram";
 //import IcicleDiagram from "../components/IcicleDiagram";
 
 const InteractiveFramework = () => {
@@ -27,11 +28,18 @@ const InteractiveFramework = () => {
         <Filter name="Free" color="border-beige" />
         <Filter name="Free-Waiting List" color="border-orange" />
       </div>
-      <button className={` flex w-full rounded my-2 bg-opacity-45  ${showResults ? 'bg-gray-200' : ''} `} onClick={onClick}>Filter by ({showResults ? '-' : '+' })</button>
+      <button
+        className={` flex w-full rounded my-2 bg-opacity-45  ${
+          showResults ? "bg-gray-200" : ""
+        } `}
+        onClick={onClick}
+      >
+        Filter by ({showResults ? "-" : "+"})
+      </button>
       {showResults ? <Results /> : null}
       <div className="flex flex-row">
-        <InteractiveDiagram/>
-        {/* <IcicleDiagram /> */}
+        {/* <InteractiveDiagram/> */}
+        <IcicleDiagram />
       </div>
     </Layout>
   );
@@ -41,141 +49,141 @@ export default InteractiveFramework;
 
 const Results = () => (
   <div className=" overflow-auto flex-col h-64 w-full space-y-2">
-    <FilterDesignName name="Design Phase"/>
+    <FilterDesignName name="Design Phase" />
     <div className="  pl-2 w-full flex flex-row py-2 bg-white bg-opacity-50 rounded">
       <div className=" flex flex-col w-1/5 gap-2">
-        <FilterAICapability name='Understand'/>
-        <FilterAICapability name='Define'/>
+        <FilterAICapability name="Understand" />
+        <FilterAICapability name="Define" />
       </div>
       <div className=" flex flex-col w-1/5 gap-2">
-        <FilterAICapability name='Ideate'/>
-        <FilterAICapability name='Prototype'/>
+        <FilterAICapability name="Ideate" />
+        <FilterAICapability name="Prototype" />
       </div>
       <div className=" flex flex-col w-1/5 gap-2">
-        <FilterAICapability name='Develop'/>
-        <FilterAICapability name='Release'/>
+        <FilterAICapability name="Develop" />
+        <FilterAICapability name="Release" />
       </div>
     </div>
-    <FilterDesignName name="AI Capability"/>
+    <FilterDesignName name="AI Capability" />
     <div className="  pl-2 w-full flex flex-row py-2 bg-white bg-opacity-50 rounded">
       <div className=" flex flex-col w-1/5 gap-2">
-        <FilterAICapability name='Classify'/>
-        <FilterAICapability name='Collect'/>
-        <FilterAICapability name='Debug'/>
+        <FilterAICapability name="Classify" />
+        <FilterAICapability name="Collect" />
+        <FilterAICapability name="Debug" />
       </div>
       <div className=" flex flex-col w-1/5 gap-2">
-        <FilterAICapability name='Generate'/>
-        <FilterAICapability name='Optimise'/>
-        <FilterAICapability name='Rank'/>
+        <FilterAICapability name="Generate" />
+        <FilterAICapability name="Optimise" />
+        <FilterAICapability name="Rank" />
       </div>
       <div className=" flex flex-col w-1/5 gap-2">
-        <FilterAICapability name='Recognise'/>
-        <FilterAICapability name='Recommend'/>
-        <FilterAICapability name='Summarise'/>
+        <FilterAICapability name="Recognise" />
+        <FilterAICapability name="Recommend" />
+        <FilterAICapability name="Summarise" />
       </div>
       <div className=" flex flex-col w-1/5 gap-2">
-        <FilterAICapability name='Test'/>
-        <FilterAICapability name='Translate'/>
-        <FilterAICapability name='Visualise'/>
+        <FilterAICapability name="Test" />
+        <FilterAICapability name="Translate" />
+        <FilterAICapability name="Visualise" />
       </div>
     </div>
-    <FilterDesignName name="Input"/>
+    <FilterDesignName name="Input" />
     <div className="  pl-2 w-full flex flex-row py-2 bg-white bg-opacity-50 rounded">
       <div className=" flex flex-col w-1/5 gap-2">
-        <FilterAICapability name='Code'/>
-        <FilterAICapability name='Drawing'/>
-        <FilterAICapability name='Gesture'/>
+        <FilterAICapability name="Code" />
+        <FilterAICapability name="Drawing" />
+        <FilterAICapability name="Gesture" />
       </div>
       <div className=" flex flex-col w-1/5 gap-2">
-        <FilterAICapability name='Image File'/>
-        <FilterAICapability name='Instruction'/>
-        <FilterAICapability name='Interface Component'/>
+        <FilterAICapability name="Image File" />
+        <FilterAICapability name="Instruction" />
+        <FilterAICapability name="Interface Component" />
       </div>
       <div className=" flex flex-col w-1/5 gap-2">
-        <FilterAICapability name='Litterature Reference'/>
-        <FilterAICapability name='Prompt'/>
-        <FilterAICapability name='Recording'/>
+        <FilterAICapability name="Litterature Reference" />
+        <FilterAICapability name="Prompt" />
+        <FilterAICapability name="Recording" />
       </div>
       <div className=" flex flex-col w-1/5 gap-2">
-        <FilterAICapability name='Soundtrack'/>
-        <FilterAICapability name='Table'/>
-        <FilterAICapability name='Text File'/>
+        <FilterAICapability name="Soundtrack" />
+        <FilterAICapability name="Table" />
+        <FilterAICapability name="Text File" />
       </div>
       <div className=" flex flex-col w-1/5 gap-2">
-        <FilterAICapability name='Video File'/>
-        <FilterAICapability name='Voice'/>
-        <FilterAICapability name='Website'/>
+        <FilterAICapability name="Video File" />
+        <FilterAICapability name="Voice" />
+        <FilterAICapability name="Website" />
       </div>
     </div>
-    <FilterDesignName name="Output"/>
+    <FilterDesignName name="Output" />
     <div className="  pl-2 w-full flex flex-row py-2 bg-white bg-opacity-50 rounded">
       <div className=" flex flex-col w-1/5 gap-2">
-        <FilterAICapability name='360 Image'/>
-        <FilterAICapability name='3D'/>
-        <FilterAICapability name='Animation'/>
-        <FilterAICapability name='App'/>
-        <FilterAICapability name='Avatar'/>
-        <FilterAICapability name='Code'/>
+        <FilterAICapability name="360 Image" />
+        <FilterAICapability name="3D" />
+        <FilterAICapability name="Animation" />
+        <FilterAICapability name="App" />
+        <FilterAICapability name="Avatar" />
+        <FilterAICapability name="Code" />
       </div>
       <div className=" flex flex-col w-1/5 gap-2">
-        <FilterAICapability name='Copy'/>
-        <FilterAICapability name='Floorplans'/>
-        <FilterAICapability name='Icon'/>
-        <FilterAICapability name='Illustration'/>
-        <FilterAICapability name='Image File'/>
-        <FilterAICapability name='Instruction'/>
+        <FilterAICapability name="Copy" />
+        <FilterAICapability name="Floorplans" />
+        <FilterAICapability name="Icon" />
+        <FilterAICapability name="Illustration" />
+        <FilterAICapability name="Image File" />
+        <FilterAICapability name="Instruction" />
       </div>
       <div className=" flex flex-col w-1/5 gap-2">
-        <FilterAICapability name='Interface Component'/>
-        <FilterAICapability name='Label'/>
-        <FilterAICapability name='Literature Reference'/>
-        <FilterAICapability name='Soundtrack'/>
-        <FilterAICapability name='Video File'/>
-        <FilterAICapability name='Table'/>
+        <FilterAICapability name="Interface Component" />
+        <FilterAICapability name="Label" />
+        <FilterAICapability name="Literature Reference" />
+        <FilterAICapability name="Soundtrack" />
+        <FilterAICapability name="Video File" />
+        <FilterAICapability name="Table" />
       </div>
       <div className=" flex flex-col w-1/5 gap-2">
-        <FilterAICapability name='Visualisation'/>
-        <FilterAICapability name='Mockup'/>
-        <FilterAICapability name='Text File'/>
-        <FilterAICapability name='Voice'/>
-        <FilterAICapability name='News Article'/>
-        <FilterAICapability name='Website'/>
+        <FilterAICapability name="Visualisation" />
+        <FilterAICapability name="Mockup" />
+        <FilterAICapability name="Text File" />
+        <FilterAICapability name="Voice" />
+        <FilterAICapability name="News Article" />
+        <FilterAICapability name="Website" />
       </div>
       <div className=" flex flex-col w-1/5 gap-2">
-        <FilterAICapability name='Presentation'/>
-        <FilterAICapability name='Texture'/>
-        <FilterAICapability name='Render'/>
+        <FilterAICapability name="Presentation" />
+        <FilterAICapability name="Texture" />
+        <FilterAICapability name="Render" />
       </div>
     </div>
-    <FilterDesignName name="Tool"/>
+    <FilterDesignName name="Tool" />
     <div className="  pl-2 w-full flex flex-row py-2 bg-white bg-opacity-50 rounded">
       <div className=" flex flex-col w-1/5 gap-2">
-        <FilterAICapability name='360 Image'/>
-        <FilterAICapability name='3D'/>
-        <FilterAICapability name='Animation'/>
-        <FilterAICapability name='App'/>
-        <FilterAICapability name='Avatar'/>
-        <FilterAICapability name='Code'/>
-        <FilterAICapability name='360 Image'/>
-        <FilterAICapability name='3D'/>
-        <FilterAICapability name='Animation'/>
-        <FilterAICapability name='App'/>
-        <FilterAICapability name='Avatar'/>
-        <FilterAICapability name='Code'/>
-        <FilterAICapability name='360 Image'/>
-        <FilterAICapability name='3D'/>
-        <FilterAICapability name='Animation'/>
-        <FilterAICapability name='App'/>
-        <FilterAICapability name='Avatar'/>
-        <FilterAICapability name='Code'/>
-        <FilterAICapability name='360 Image'/>
-        <FilterAICapability name='3D'/>
-        <FilterAICapability name='Animation'/>
-        <FilterAICapability name='App'/>
-        <FilterAICapability name='Avatar'/>
-        <FilterAICapability name='Code'/>
-        <FilterAICapability name='360 Image'/>
-        <FilterAICapability name='3D'/>
+        <FilterAICapability name="360 Image" />
+        <FilterAICapability name="3D" />
+        <FilterAICapability name="Animation" />
+        <FilterAICapability name="App" />
+        <FilterAICapability name="Avatar" />
+        <FilterAICapability name="Code" />
+        <FilterAICapability name="360 Image" />
+        <FilterAICapability name="3D" />
+        <FilterAICapability name="Animation" />
+        <FilterAICapability name="App" />
+        <FilterAICapability name="Avatar" />
+        <FilterAICapability name="Code" />
+        <FilterAICapability name="360 Image" />
+        <FilterAICapability name="3D" />
+        <FilterAICapability name="Animation" />
+        <FilterAICapability name="App" />
+        <FilterAICapability name="Avatar" />
+        <FilterAICapability name="Code" />
+        <FilterAICapability name="360 Image" />
+        <FilterAICapability name="3D" />
+        <FilterAICapability name="Animation" />
+        <FilterAICapability name="App" />
+        <FilterAICapability name="Avatar" />
+        <FilterAICapability name="Code" />
+        <FilterAICapability name="360 Image" />
+        <FilterAICapability name="3D" />
       </div>
     </div>
   </div>
