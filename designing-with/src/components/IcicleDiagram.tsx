@@ -14,7 +14,7 @@ export type IcicleData = {
 
 const IcicleDiagram = ({ data = dataJson }: { data?: IcicleData }) => {
   const [activeStages, setActiveStages] = useState<IcicleData[]>([]);
-  const toggleStage = (stage: IcicleData) => {
+  const toggleStage = (stage: IcicleData, parents: IcicleData[]) => {
     // Get the index of the stage in the activeStages array
     console.log(stage);
     const index = activeStages.findIndex(
@@ -25,24 +25,9 @@ const IcicleDiagram = ({ data = dataJson }: { data?: IcicleData }) => {
       setActiveStages((prev) => prev.slice(0, index));
     } else {
       // If the stage is not active, add it to the array
-      setActiveStages([...activeStages, stage]);
+      setActiveStages([...parents, stage]);
     }
   };
-
-  const renderCards = (stage: IcicleData) => (
-    <div className="flex flex-row">
-      <button
-        key={stage.name}
-        onClick={() => toggleStage(stage)}
-        className="flex bg-white rounded h-full px-2"
-      >
-        {stage.name}
-      </button>
-      <div className="flex flex-col">
-        {stage.children?.map((subStage) => renderCards(subStage))}
-      </div>
-    </div>
-  );
 
   console.log(dataJson.children);
 
@@ -51,8 +36,8 @@ const IcicleDiagram = ({ data = dataJson }: { data?: IcicleData }) => {
       {activeStages.map((stage) => (
         <button
           key={stage.name}
-          onClick={() => toggleStage(stage)}
-          className="flex bg-white rounded justify-center [writing-mode:vertical-rl] rotate-180 w-6 left-0"
+          onClick={() => toggleStage(stage, [])}
+          className="flex bg-white rounded justify-center [writing-mode:vertical-rl] rotate-180 w-6 left-0 m-1"
         >
           {stage.name}
         </button>
@@ -60,13 +45,94 @@ const IcicleDiagram = ({ data = dataJson }: { data?: IcicleData }) => {
 
       <div className="flex flex-col h-full">
         {activeStages.length === 0
-          ? dataJson.children?.map((stage) => renderCards(stage))
-          : activeStages[activeStages.length - 1].children?.map((subStage) =>
-              renderCards(subStage)
-            )}
+          ? dataJson.children?.map((stage) => (
+              <RenderCards
+                stage={stage}
+                parents={[]}
+                toggleStage={toggleStage}
+              />
+            ))
+          : activeStages[activeStages.length - 1].children?.map((subStage) => (
+              <RenderCards
+                stage={subStage}
+                parents={activeStages}
+                toggleStage={toggleStage}
+              />
+            ))}
       </div>
     </div>
   );
 };
 
+const RenderCards = ({
+  stage,
+  parents,
+  toggleStage,
+  parentsSelect = () => {},
+}: {
+  stage: IcicleData;
+  parents: IcicleData[];
+  toggleStage: (stage: IcicleData, parents: IcicleData[]) => void;
+  parentsSelect?: (select: boolean) => void;
+}) => {
+  const [selected, setSelected] = useState(false);
+
+  const groupSelect = (select: boolean) => {
+    parentsSelect(select);
+    setSelected(select);
+  };
+
+  const selectStroke = (select: boolean) => {
+    if (select) {
+      switch (stage.payment) {
+        case "Premium":
+          return "border-2 border-blue";
+        case "Freemium":
+          return "border-2 border-purple";
+        case "Free":
+          return "border-2 border-beige";
+        case "Free-Waiting List":
+          return "border-2 border-orange";
+        default:
+          return "border-2 border-grey";
+      }
+    }
+    return "";
+  };
+
+  return (
+    <div className="flex flex-row">
+      <button
+        key={stage.name}
+        onClick={() => toggleStage(stage, parents)}
+        className={`flex bg-white rounded w-[334px] px-2 m-1 ${selectStroke(
+          selected
+        )}`}
+        onMouseEnter={() => groupSelect(true)}
+        onMouseLeave={() => groupSelect(false)}
+      >
+        {stage.name}
+      </button>
+      <div className="flex flex-col">
+        {stage.children?.map((subStage) => (
+          <RenderCards
+            stage={subStage}
+            parents={parents.concat(stage)}
+            toggleStage={toggleStage}
+            parentsSelect={groupSelect}
+          />
+        ))}
+      </div>
+    </div>
+  );
+};
+
+type Filter = {
+  property: string;
+  values: [];
+};
+
 export default IcicleDiagram;
+
+// TODO: Filters, merge styles, add description card
+// TODO: Add last content elements, check format of data, solve edge cases.

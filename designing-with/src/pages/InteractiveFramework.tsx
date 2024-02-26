@@ -37,8 +37,15 @@ const InteractiveFramework = () => {
         Filter by ({showResults ? "-" : "+"})
       </button>
       {showResults ? <Results /> : null}
-      <div className="flex flex-row">
+      <div className="flex flex-col">
         {/* <InteractiveDiagram/> */}
+        <div className="flex flex-row">
+          <p className="text-sm w-[334px] m-1">Design Phase</p>
+          <p className="text-sm w-[334px] m-1">AI Capability</p>
+          <p className="text-sm w-[334px] m-1">AI Input (From)</p>
+          <p className="text-sm w-[334px] m-1">AI Output (To)</p>
+          <p className="text-sm w-[334px] m-1">Tool</p>
+        </div>
         <IcicleDiagram />
       </div>
     </Layout>
