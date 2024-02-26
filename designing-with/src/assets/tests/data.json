@@ -66,7 +66,31 @@
 			"name": "Define",
 			"children": [
 				{
+					"name": "Classify",
+					"children": []
+				},
+				{
 					"name": "Collect",
+					"children": []
+				},
+				{
+					"name": "Generate",
+					"children": []
+				},
+				{
+					"name": "Rank",
+					"children": []
+				},
+				{
+					"name": "Recognize",
+					"children": []
+				},
+				{
+					"name": "Summarize",
+					"children": []
+				},
+				{
+					"name": "Translate",
 					"children": []
 				}
 			]
@@ -75,22 +99,97 @@
 			"name": "Ideate",
 			"children": [
 				{
-					"name": "Understand",
+					"name": "Classify",
+					"children": []
+				},
+				{
+					"name": "Collect",
+					"children": []
+				},
+				{
+					"name": "Generate",
 					"children": []
 				}
 			]
 		},
 		{
 			"name": "Prototype",
-			"children": []
+			"children": [
+				{
+					"name": "Rank",
+					"children": []
+				},
+				{
+					"name": "Recognize",
+					"children": []
+				},
+				{
+					"name": "Summarize",
+					"children": []
+				},
+				{
+					"name": "Collect",
+					"children": []
+				},
+				{
+					"name": "Translate",
+					"children": []
+				},
+				{
+					"name": "Classify",
+					"children": []
+				}
+			]
 		},
 		{
 			"name": "Develop",
-			"children": []
+			"children": [
+				{
+					"name": "Collect",
+					"children": []
+				},
+				{
+					"name": "Generate",
+					"children": []
+				},
+				{
+					"name": "Rank",
+					"children": []
+				},
+				{
+					"name": "Recognize",
+					"children": []
+				}
+			]
 		},
 		{
 			"name": "Release",
-			"children": []
+			"children": [
+				{
+					"name": "Summarize",
+					"children": []
+				},
+				{
+					"name": "Collect",
+					"children": []
+				},
+				{
+					"name": "Translate",
+					"children": []
+				},
+				{
+					"name": "Classify",
+					"children": []
+				},
+				{
+					"name": "Generate",
+					"children": []
+				},
+				{
+					"name": "Rank",
+					"children": []
+				}
+			]
 		}
 	]
 }

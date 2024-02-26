@@ -5,17 +5,33 @@ import FilterDesignName from "../components/FilterDesignPhase";
 import FilterAICapability from "../components/FilterAICapability";
 import { useState } from "react";
 import InteractiveDiagram from "../components/InteractiveDiagram";
-import IcicleDiagram from "../components/IcicleDiagram";
-//import IcicleDiagram from "../components/IcicleDiagram";
+import IcicleDiagram, { FilterArg } from "../components/IcicleDiagram";
 
 const InteractiveFramework = () => {
   const [showResults, setShowResults] = React.useState(false);
   const onClick = () => setShowResults(!showResults);
   const [selectedChild, setselectedChild] = useState(false);
-  // const handleChildData = (dataFromChild) => {
-  //   // Do something with the data received from the child component
-  //   setChildData(dataFromChild);
-  // };
+  const [filters, setFilters] = useState<FilterArg[]>([]);
+
+  const changeFilter = (name: string) => {
+    setFilters((prev) => {
+      const index = prev.findIndex((filter) => filter.property === "name");
+      if (index === -1) {
+        return [...prev, { property: "name", values: [name] }];
+      } else if (prev[index].values.includes(name)) {
+        const newVals = prev[index].values.filter((value) => value !== name);
+        if (newVals.length === 0) return [];
+        return [
+          {
+            property: "name",
+            values: newVals,
+          },
+        ];
+      } else {
+        return [{ property: "name", values: [...prev[index].values, name] }];
+      }
+    });
+  };
 
   return (
     <Layout>
@@ -36,17 +52,10 @@ const InteractiveFramework = () => {
       >
         Filter by ({showResults ? "-" : "+"})
       </button>
-      {showResults ? <Results /> : null}
-      <div className="flex flex-col">
+      {showResults ? <Results changeFilter={changeFilter} /> : null}
+      <div className="flex flex-col w-max min-w-[100%]">
         {/* <InteractiveDiagram/> */}
-        <div className="flex flex-row">
-          <p className="text-sm w-[334px] m-1">Design Phase</p>
-          <p className="text-sm w-[334px] m-1">AI Capability</p>
-          <p className="text-sm w-[334px] m-1">AI Input (From)</p>
-          <p className="text-sm w-[334px] m-1">AI Output (To)</p>
-          <p className="text-sm w-[334px] m-1">Tool</p>
-        </div>
-        <IcicleDiagram />
+        <IcicleDiagram filters={filters} />
       </div>
     </Layout>
   );
@@ -54,143 +63,159 @@ const InteractiveFramework = () => {
 
 export default InteractiveFramework;
 
-const Results = () => (
+const Results = ({
+  changeFilter,
+}: {
+  changeFilter: (name: string) => void;
+}) => (
   <div className=" overflow-auto flex-col h-64 w-full space-y-2">
     <FilterDesignName name="Design Phase" />
     <div className="  pl-2 w-full flex flex-row py-2 bg-white bg-opacity-50 rounded">
       <div className=" flex flex-col w-1/5 gap-2">
-        <FilterAICapability name="Understand" />
-        <FilterAICapability name="Define" />
+        <FilterAICapability name="Understand" onFilter={changeFilter} />
+        <FilterAICapability name="Define" onFilter={changeFilter} />
       </div>
       <div className=" flex flex-col w-1/5 gap-2">
-        <FilterAICapability name="Ideate" />
-        <FilterAICapability name="Prototype" />
+        <FilterAICapability name="Ideate" onFilter={changeFilter} />
+        <FilterAICapability name="Prototype" onFilter={changeFilter} />
       </div>
       <div className=" flex flex-col w-1/5 gap-2">
-        <FilterAICapability name="Develop" />
-        <FilterAICapability name="Release" />
+        <FilterAICapability name="Develop" onFilter={changeFilter} />
+        <FilterAICapability name="Release" onFilter={changeFilter} />
       </div>
     </div>
     <FilterDesignName name="AI Capability" />
     <div className="  pl-2 w-full flex flex-row py-2 bg-white bg-opacity-50 rounded">
       <div className=" flex flex-col w-1/5 gap-2">
-        <FilterAICapability name="Classify" />
-        <FilterAICapability name="Collect" />
-        <FilterAICapability name="Debug" />
+        <FilterAICapability name="Classify" onFilter={changeFilter} />
+        <FilterAICapability name="Collect" onFilter={changeFilter} />
+        <FilterAICapability name="Debug" onFilter={changeFilter} />
       </div>
       <div className=" flex flex-col w-1/5 gap-2">
-        <FilterAICapability name="Generate" />
-        <FilterAICapability name="Optimise" />
-        <FilterAICapability name="Rank" />
+        <FilterAICapability name="Generate" onFilter={changeFilter} />
+        <FilterAICapability name="Optimise" onFilter={changeFilter} />
+        <FilterAICapability name="Rank" onFilter={changeFilter} />
       </div>
       <div className=" flex flex-col w-1/5 gap-2">
-        <FilterAICapability name="Recognise" />
-        <FilterAICapability name="Recommend" />
-        <FilterAICapability name="Summarise" />
+        <FilterAICapability name="Recognise" onFilter={changeFilter} />
+        <FilterAICapability name="Recommend" onFilter={changeFilter} />
+        <FilterAICapability name="Summarise" onFilter={changeFilter} />
       </div>
       <div className=" flex flex-col w-1/5 gap-2">
-        <FilterAICapability name="Test" />
-        <FilterAICapability name="Translate" />
-        <FilterAICapability name="Visualise" />
+        <FilterAICapability name="Test" onFilter={changeFilter} />
+        <FilterAICapability name="Translate" onFilter={changeFilter} />
+        <FilterAICapability name="Visualise" onFilter={changeFilter} />
       </div>
     </div>
     <FilterDesignName name="Input" />
     <div className="  pl-2 w-full flex flex-row py-2 bg-white bg-opacity-50 rounded">
       <div className=" flex flex-col w-1/5 gap-2">
-        <FilterAICapability name="Code" />
-        <FilterAICapability name="Drawing" />
-        <FilterAICapability name="Gesture" />
+        <FilterAICapability name="Code" onFilter={changeFilter} />
+        <FilterAICapability name="Drawing" onFilter={changeFilter} />
+        <FilterAICapability name="Gesture" onFilter={changeFilter} />
       </div>
       <div className=" flex flex-col w-1/5 gap-2">
-        <FilterAICapability name="Image File" />
-        <FilterAICapability name="Instruction" />
-        <FilterAICapability name="Interface Component" />
+        <FilterAICapability name="Image File" onFilter={changeFilter} />
+        <FilterAICapability name="Instruction" onFilter={changeFilter} />
+        <FilterAICapability
+          name="Interface Component"
+          onFilter={changeFilter}
+        />
       </div>
       <div className=" flex flex-col w-1/5 gap-2">
-        <FilterAICapability name="Litterature Reference" />
-        <FilterAICapability name="Prompt" />
-        <FilterAICapability name="Recording" />
+        <FilterAICapability
+          name="Litterature Reference"
+          onFilter={changeFilter}
+        />
+        <FilterAICapability name="Prompt" onFilter={changeFilter} />
+        <FilterAICapability name="Recording" onFilter={changeFilter} />
       </div>
       <div className=" flex flex-col w-1/5 gap-2">
-        <FilterAICapability name="Soundtrack" />
-        <FilterAICapability name="Table" />
-        <FilterAICapability name="Text File" />
+        <FilterAICapability name="Soundtrack" onFilter={changeFilter} />
+        <FilterAICapability name="Table" onFilter={changeFilter} />
+        <FilterAICapability name="Text File" onFilter={changeFilter} />
       </div>
       <div className=" flex flex-col w-1/5 gap-2">
-        <FilterAICapability name="Video File" />
-        <FilterAICapability name="Voice" />
-        <FilterAICapability name="Website" />
+        <FilterAICapability name="Video File" onFilter={changeFilter} />
+        <FilterAICapability name="Voice" onFilter={changeFilter} />
+        <FilterAICapability name="Website" onFilter={changeFilter} />
       </div>
     </div>
     <FilterDesignName name="Output" />
     <div className="  pl-2 w-full flex flex-row py-2 bg-white bg-opacity-50 rounded">
       <div className=" flex flex-col w-1/5 gap-2">
-        <FilterAICapability name="360 Image" />
-        <FilterAICapability name="3D" />
-        <FilterAICapability name="Animation" />
-        <FilterAICapability name="App" />
-        <FilterAICapability name="Avatar" />
-        <FilterAICapability name="Code" />
+        <FilterAICapability name="360 Image" onFilter={changeFilter} />
+        <FilterAICapability name="3D" onFilter={changeFilter} />
+        <FilterAICapability name="Animation" onFilter={changeFilter} />
+        <FilterAICapability name="App" onFilter={changeFilter} />
+        <FilterAICapability name="Avatar" onFilter={changeFilter} />
+        <FilterAICapability name="Code" onFilter={changeFilter} />
       </div>
       <div className=" flex flex-col w-1/5 gap-2">
-        <FilterAICapability name="Copy" />
-        <FilterAICapability name="Floorplans" />
-        <FilterAICapability name="Icon" />
-        <FilterAICapability name="Illustration" />
-        <FilterAICapability name="Image File" />
-        <FilterAICapability name="Instruction" />
+        <FilterAICapability name="Copy" onFilter={changeFilter} />
+        <FilterAICapability name="Floorplans" onFilter={changeFilter} />
+        <FilterAICapability name="Icon" onFilter={changeFilter} />
+        <FilterAICapability name="Illustration" onFilter={changeFilter} />
+        <FilterAICapability name="Image File" onFilter={changeFilter} />
+        <FilterAICapability name="Instruction" onFilter={changeFilter} />
       </div>
       <div className=" flex flex-col w-1/5 gap-2">
-        <FilterAICapability name="Interface Component" />
-        <FilterAICapability name="Label" />
-        <FilterAICapability name="Literature Reference" />
-        <FilterAICapability name="Soundtrack" />
-        <FilterAICapability name="Video File" />
-        <FilterAICapability name="Table" />
+        <FilterAICapability
+          name="Interface Component"
+          onFilter={changeFilter}
+        />
+        <FilterAICapability name="Label" onFilter={changeFilter} />
+        <FilterAICapability
+          name="Literature Reference"
+          onFilter={changeFilter}
+        />
+        <FilterAICapability name="Soundtrack" onFilter={changeFilter} />
+        <FilterAICapability name="Video File" onFilter={changeFilter} />
+        <FilterAICapability name="Table" onFilter={changeFilter} />
       </div>
       <div className=" flex flex-col w-1/5 gap-2">
-        <FilterAICapability name="Visualisation" />
-        <FilterAICapability name="Mockup" />
-        <FilterAICapability name="Text File" />
-        <FilterAICapability name="Voice" />
-        <FilterAICapability name="News Article" />
-        <FilterAICapability name="Website" />
+        <FilterAICapability name="Visualisation" onFilter={changeFilter} />
+        <FilterAICapability name="Mockup" onFilter={changeFilter} />
+        <FilterAICapability name="Text File" onFilter={changeFilter} />
+        <FilterAICapability name="Voice" onFilter={changeFilter} />
+        <FilterAICapability name="News Article" onFilter={changeFilter} />
+        <FilterAICapability name="Website" onFilter={changeFilter} />
       </div>
       <div className=" flex flex-col w-1/5 gap-2">
-        <FilterAICapability name="Presentation" />
-        <FilterAICapability name="Texture" />
-        <FilterAICapability name="Render" />
+        <FilterAICapability name="Presentation" onFilter={changeFilter} />
+        <FilterAICapability name="Texture" onFilter={changeFilter} />
+        <FilterAICapability name="Render" onFilter={changeFilter} />
       </div>
     </div>
     <FilterDesignName name="Tool" />
     <div className="  pl-2 w-full flex flex-row py-2 bg-white bg-opacity-50 rounded">
       <div className=" flex flex-col w-1/5 gap-2">
-        <FilterAICapability name="360 Image" />
-        <FilterAICapability name="3D" />
-        <FilterAICapability name="Animation" />
-        <FilterAICapability name="App" />
-        <FilterAICapability name="Avatar" />
-        <FilterAICapability name="Code" />
-        <FilterAICapability name="360 Image" />
-        <FilterAICapability name="3D" />
-        <FilterAICapability name="Animation" />
-        <FilterAICapability name="App" />
-        <FilterAICapability name="Avatar" />
-        <FilterAICapability name="Code" />
-        <FilterAICapability name="360 Image" />
-        <FilterAICapability name="3D" />
-        <FilterAICapability name="Animation" />
-        <FilterAICapability name="App" />
-        <FilterAICapability name="Avatar" />
-        <FilterAICapability name="Code" />
-        <FilterAICapability name="360 Image" />
-        <FilterAICapability name="3D" />
-        <FilterAICapability name="Animation" />
-        <FilterAICapability name="App" />
-        <FilterAICapability name="Avatar" />
-        <FilterAICapability name="Code" />
-        <FilterAICapability name="360 Image" />
-        <FilterAICapability name="3D" />
+        <FilterAICapability name="360 Image" onFilter={changeFilter} />
+        <FilterAICapability name="3D" onFilter={changeFilter} />
+        <FilterAICapability name="Animation" onFilter={changeFilter} />
+        <FilterAICapability name="App" onFilter={changeFilter} />
+        <FilterAICapability name="Avatar" onFilter={changeFilter} />
+        <FilterAICapability name="Code" onFilter={changeFilter} />
+        <FilterAICapability name="360 Image" onFilter={changeFilter} />
+        <FilterAICapability name="3D" onFilter={changeFilter} />
+        <FilterAICapability name="Animation" onFilter={changeFilter} />
+        <FilterAICapability name="App" onFilter={changeFilter} />
+        <FilterAICapability name="Avatar" onFilter={changeFilter} />
+        <FilterAICapability name="Code" onFilter={changeFilter} />
+        <FilterAICapability name="360 Image" onFilter={changeFilter} />
+        <FilterAICapability name="3D" onFilter={changeFilter} />
+        <FilterAICapability name="Animation" onFilter={changeFilter} />
+        <FilterAICapability name="App" onFilter={changeFilter} />
+        <FilterAICapability name="Avatar" onFilter={changeFilter} />
+        <FilterAICapability name="Code" onFilter={changeFilter} />
+        <FilterAICapability name="360 Image" onFilter={changeFilter} />
+        <FilterAICapability name="3D" onFilter={changeFilter} />
+        <FilterAICapability name="Animation" onFilter={changeFilter} />
+        <FilterAICapability name="App" onFilter={changeFilter} />
+        <FilterAICapability name="Avatar" onFilter={changeFilter} />
+        <FilterAICapability name="Code" onFilter={changeFilter} />
+        <FilterAICapability name="360 Image" onFilter={changeFilter} />
+        <FilterAICapability name="3D" onFilter={changeFilter} />
       </div>
     </div>
   </div>
