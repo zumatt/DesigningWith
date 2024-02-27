@@ -1,8 +1,12 @@
 import React from "react";
+import { useLocation } from 'react-router-dom';
+
 
 const Header = () => {
   const [showResults, setShowResults] = React.useState(false);
   const onClick = () => setShowResults(!showResults);
+  const location = useLocation();
+  const pathname = location.pathname
   return (
     <div className="h-full w-full z-0">
       {showResults ? <BlurredBack /> : null}
@@ -17,6 +21,12 @@ const Header = () => {
           <p>{showResults ? "⨯" : "+"}</p>
         </button>
         {showResults ? <Results /> : null}
+        { pathname === "/about" && <p className="w-fit bg-purple rounded-xl px-3" >About </p> }
+        { pathname === "/ai-for-designers" && <p className="w-fit bg-blue rounded-xl px-3" >AI for Designers </p> }
+        { pathname === "/interactive-framework" && <p className="w-fit bg-grey rounded-xl px-3" >Interactive Framework </p> }
+        { pathname === "/didactic-guidelines" && <p className="w-fit bg-green rounded-xl px-3" >Didactic Guidelines </p> }
+        { pathname === "/resources" && <p className="w-fit bg-orange rounded-xl px-3" >Resources </p> }
+        { pathname === "/" && <p className="w-fit bg-beige rounded-xl px-3" >Let’s talk! </p> }
       </div>
     </div>
   );
