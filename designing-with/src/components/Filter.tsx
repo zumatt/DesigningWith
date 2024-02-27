@@ -8,9 +8,9 @@ interface FilterProps {
 const Filter:React.FC<FilterProps> = (props ) => {
     return(
         <div>
-           <button className={` border px-2 rounded-xl ${props.color}`} >
+           <span className={` border px-2 rounded-xl cursor-default ${props.color}`} >
                 {props.name}
-            </button>
+            </span>
         </div>
 
 
