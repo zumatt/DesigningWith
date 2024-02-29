@@ -2547,7 +2547,7 @@
                                     "children": [
                                         {
                                             "name": "Wikiview net",
-                                            "description": "",
+                                            "description": "Wikiview net is a platform that provides a user-friendly interface for browsing and exploring Wikipedia articles. It allows users to search for specific topics, view article summaries, and navigate through related articles. With Wikiview net, users can easily access and consume information from the vast knowledge base of Wikipedia.",
                                             "payment": "Free",
                                             "link": "https://wikiview.net/",
                                             "skills": "",
@@ -2573,7 +2573,7 @@
                                     "children": [
                                         {
                                             "name": "Pix2Pix",
-                                            "description": "",
+                                            "description": "Pix2Pix is a powerful image-to-image translation model that uses deep learning techniques. It can generate realistic images by learning the mapping between input and output images. With Pix2Pix, you can transform sketches into realistic images, convert black and white images to color, and much more. It has applications in various domains such as computer vision, graphics, and image editing.",
                                             "payment": "Free",
                                             "link": "https://www.tensorflow.org/tutorials/generative/pix2pix?hl=it",
                                             "skills": "",
@@ -4035,7 +4035,7 @@
                                     "children": [
                                         {
                                             "name": "Pix2Pix",
-                                            "description": "",
+                                            "description": "Pix2Pix is a powerful image-to-image translation model that uses deep learning techniques. It can generate realistic images by learning the mapping between input and output images. With Pix2Pix, you can transform sketches into realistic images, convert black and white images to color, and much more. It has applications in various domains such as computer vision, graphics, and image editing.",
                                             "payment": "Free",
                                             "link": "https://www.tensorflow.org/tutorials/generative/pix2pix?hl=it",
                                             "skills": "",
@@ -4056,7 +4056,7 @@
                                     "children": [
                                         {
                                             "name": "Sonantic",
-                                            "description": "",
+                                            "description": "Sonantic is a cutting-edge technology company specializing in voice and speech technology. Their advanced algorithms and deep learning models enable realistic and expressive voice synthesis, making it ideal for applications such as virtual assistants, gaming, animation, and more.",
                                             "payment": "Freemium",
                                             "link": "https://app.sonantic.io/user/login?redirect=%2F",
                                             "skills": "",
