@@ -365,7 +365,7 @@
                                     "children": [
                                         {
                                             "name": "Tiny Motion Trainer",
-                                            "description": "",
+                                            "description": "Tiny Motion Trainer is an interactive tool developed by Google that allows users to create and train custom machine learning models for gesture recognition. With its user-friendly interface and intuitive features, Tiny Motion Trainer enables users to collect motion data, label gestures, and train models to recognize specific movements. It is designed to simplify the process of building gesture recognition systems and can be used for various applications, such as controlling devices through gestures or creating interactive experiences.",
                                             "payment": "Free",
                                             "type": "https://experiments.withgoogle.com/tiny-motion-trainer/view/",
                                             "skills": "",
@@ -420,7 +420,7 @@
                                     "children": [
                                         {
                                             "name": "Image Sorter",
-                                            "description": "",
+                                            "description": "Image Sorter is a tool that allows users to organize and categorize their image collections. With its intuitive interface and powerful sorting capabilities, Image Sorter enables users to easily group and arrange images based on various criteria such as date, location, or tags. It provides a convenient way to manage large image libraries and find specific images quickly. Image Sorter is designed to streamline the image organization process and improve the efficiency of managing image collections.",
                                             "payment": "Free",
                                             "type": "https://visual-computing.com/project/imagesorter/",
                                             "skills": "",
@@ -429,8 +429,9 @@
                                             "children": []
                                         },
                                         {
+                                            
                                             "name": "ImagePlot",
-                                            "description": "",
+                                            "description": "ImagePlot is a powerful visualization tool that allows users to create interactive plots and charts based on image data. With its advanced algorithms and intuitive interface, ImagePlot enables users to analyze and explore image datasets in a visual and interactive manner. It provides a wide range of visualization options, including scatter plots, heatmaps, and histograms, allowing users to gain insights and discover patterns in their image data. Whether you're a researcher, data scientist, or visual artist, ImagePlot offers a valuable tool for visualizing and understanding image datasets.",
                                             "payment": "Free",
                                             "type": "https://github.com/culturevis/imageplot",
                                             "skills": "",
@@ -440,7 +441,7 @@
                                         },
                                         {
                                             "name": "ImageX",
-                                            "description": "",
+                                            "description": "ImageX is a tool that allows users to capture and deploy images using the ImageX command-line utility. With ImageX, users can create and manage custom images of Windows operating systems, including capturing system images, applying modifications, and deploying images to multiple computers. It provides a flexible and efficient way to streamline the image deployment process and ensure consistent system configurations across multiple devices.",
                                             "payment": "Free",
                                             "type": "https://www.techthoughts.info/using-imagex-capture-deploy-image-basic-example/",
                                             "skills": "",
@@ -450,7 +451,7 @@
                                         },
                                         {
                                             "name": "Kiano",
-                                            "description": "",
+                                            "description": "Kiano is a tool that provides a user-friendly interface for creating interactive and dynamic web applications. With its intuitive drag-and-drop functionality and extensive library of pre-built components, Kiano enables users to easily design and develop interactive interfaces without writing complex code. It supports various features such as data binding, event handling, and responsive layout design, making it suitable for both beginners and experienced developers. Kiano simplifies the process of building interactive web applications and enhances the user experience.",
                                             "payment": "Free",
                                             "type": "https://visual-computing.com/project/kiano/",
                                             "skills": "",
@@ -460,7 +461,7 @@
                                         },
                                         {
                                             "name": "Pic Arrange",
-                                            "description": "",
+                                            "description": "Pic Arrange is a tool that allows users to easily arrange and organize their image collections. With its intuitive interface and drag-and-drop functionality, Pic Arrange enables users to create custom layouts and compositions of their images. It provides a convenient way to visually organize and present images for various purposes such as creating photo albums, designing collages, or planning visual projects. Pic Arrange simplifies the process of arranging images and enhances the visual aesthetics of image collections.",
                                             "payment": "Free",
                                             "type": "https://visual-computing.com/project/picarrange/",
                                             "skills": "",
@@ -480,7 +481,7 @@
                                     "children": [
                                         {
                                             "name": "Nomic AI",
-                                            "description": "",
+                                            "description": "Nomic AI is an artificial intelligence platform that offers advanced machine learning capabilities. With its powerful algorithms and extensive library of pre-trained models, Nomic AI enables users to develop and deploy AI solutions for various applications. Whether it's natural language processing, computer vision, or predictive analytics, Nomic AI provides the tools and resources to build intelligent systems. Its user-friendly interface and scalable infrastructure make it suitable for both individuals and enterprises.",
                                             "payment": "Free",
                                             "type": "https://home.nomic.ai/",
                                             "skills": "",
@@ -540,7 +541,7 @@
                                     "children": [
                                         {
                                             "name": "Textometrica",
-                                            "description": "",
+                                            "description": "Textometrica is a powerful text analysis tool that allows users to analyze and visualize large collections of text data. With its advanced algorithms and interactive visualizations, Textometrica enables users to uncover patterns, trends, and insights from their text data. Whether it's text mining, sentiment analysis, topic modeling, or network analysis, Textometrica provides a wide range of analytical techniques to support text-based research and decision-making. Its user-friendly interface and flexible customization options make it suitable for researchers, data scientists, and professionals in various domains.",
                                             "payment": "Free",
                                             "type": "http://textometrica.humlab.umu.se/",
                                             "skills": "",
@@ -550,7 +551,7 @@
                                         },
                                         {
                                             "name": "WordWanderer",
-                                            "description": "",
+                                            "description": "WordWanderer is a unique word exploration tool that allows users to discover new words, expand their vocabulary, and enhance their language skills. With its interactive interface and extensive database of words, WordWanderer provides a fun and engaging way to explore the English language. Whether you're a language enthusiast, a student, or a writer, WordWanderer offers a wide range of features and resources to help you improve your word knowledge and creativity.",
                                             "payment": "Free",
                                             "type": "https://wordwanderer.org/",
                                             "skills": "",
@@ -615,7 +616,7 @@
                                     "children": [
                                         {
                                             "name": "Bot Sheets",
-                                            "description": "",
+                                            "description": "Bot Sheets is a versatile tool that allows users to create and manage chatbots without any coding knowledge. With its user-friendly interface and drag-and-drop functionality, Bot Sheets makes it easy to design and deploy chatbots for various purposes, such as customer support, lead generation, and interactive experiences. It offers a wide range of features, including natural language processing, conversation flow management, and integration with popular messaging platforms. Whether you're a business owner, marketer, or developer, Bot Sheets provides a convenient and efficient solution for building chatbots.",
                                             "payment": "Free",
                                             "type": "https://www.botsheets.com/",
                                             "skills": "",
@@ -645,7 +646,7 @@
                                         },
                                         {
                                             "name": "Transvribe",
-                                            "description": "",
+                                            "description": "Transvribe is a transcription tool that uses advanced speech recognition technology to convert audio and video files into written text. With its accurate and efficient transcription capabilities, Transvribe helps users save time and effort in transcribing interviews, meetings, lectures, and other spoken content. It supports various file formats and offers features such as speaker identification, timestamping, and editing tools. Whether you're a journalist, researcher, or content creator, Transvribe provides a reliable solution for converting spoken content into written form.",
                                             "payment": "Free",
                                             "type": "https://www.transvribe.com/",
                                             "skills": "",
@@ -690,7 +691,7 @@
                                     "children": [
                                         {
                                             "name": "Deciphr AI",
-                                            "description": "",
+                                            "description": "Deciphr AI is an advanced artificial intelligence tool that offers powerful capabilities for data analysis and interpretation. With its sophisticated algorithms and machine learning models, Deciphr AI can uncover valuable insights from complex datasets, helping businesses make data-driven decisions. It provides a user-friendly interface and a wide range of features, including data visualization, predictive analytics, and anomaly detection. Whether you're a data scientist, analyst, or business professional, Deciphr AI provides a reliable solution for extracting meaningful information from your data.",
                                             "payment": "Freemium",
                                             "type": "https://www.deciphr.ai/",
                                             "skills": "",
@@ -700,7 +701,7 @@
                                         },
                                         {
                                             "name": "Ermine ai",
-                                            "description": "",
+                                            "description": "Ermine AI is an innovative artificial intelligence platform that offers a wide range of tools and capabilities for data analysis and decision-making. With its advanced algorithms and machine learning models, Ermine AI enables users to extract valuable insights from complex datasets and make informed business decisions. It provides a user-friendly interface and a comprehensive set of features, including data visualization, predictive analytics, and anomaly detection. Whether you're a data scientist, analyst, or business professional, Ermine AI empowers you to harness the power of AI and unlock the full potential of your data.",
                                             "payment": "Free",
                                             "type": "https://www.ermine.ai/",
                                             "skills": "",
@@ -710,7 +711,7 @@
                                         },
                                         {
                                             "name": "Good Tape",
-                                            "description": "",
+                                            "description": "Good Tape is a versatile tool that offers a wide range of features for managing and organizing digital files. With its intuitive interface and powerful capabilities, Good Tape allows users to easily store, categorize, and retrieve files of various formats. Whether you're a student, professional, or hobbyist, Good Tape provides a reliable solution for efficient file management and organization.",
                                             "payment": "Free",
                                             "type": "https://www.mygoodtape.com/",
                                             "skills": "",
@@ -735,7 +736,7 @@
                                     "children": [
                                         {
                                             "name": "Image Sorter",
-                                            "description": "",
+                                            "description": "Image Sorter is a tool that allows users to organize and categorize their image collections. With its intuitive interface and powerful sorting capabilities, Image Sorter enables users to easily group and arrange images based on various criteria such as date, location, or tags. It provides a convenient way to manage large image libraries and find specific images quickly. Image Sorter is designed to streamline the image organization process and improve the efficiency of managing image collections.",
                                             "payment": "Free",
                                             "type": "https://visual-computing.com/project/imagesorter/",
                                             "skills": "",
@@ -745,7 +746,7 @@
                                         },
                                         {
                                             "name": "ImagePlot",
-                                            "description": "",
+                                            "description": "ImagePlot is a powerful visualization tool that allows users to create interactive plots and charts based on image data. With its advanced algorithms and intuitive interface, ImagePlot enables users to analyze and explore image datasets in a visual and interactive manner. It provides a wide range of visualization options, including scatter plots, heatmaps, and histograms, allowing users to gain insights and discover patterns in their image data. Whether you're a researcher, data scientist, or visual artist, ImagePlot offers a valuable tool for visualizing and understanding image datasets.",
                                             "payment": "Free",
                                             "type": "https://github.com/culturevis/imageplot",
                                             "skills": "",
@@ -755,7 +756,7 @@
                                         },
                                         {
                                             "name": "ImageX",
-                                            "description": "",
+                                            "description": "ImageX is a tool that allows users to capture and deploy images using the ImageX command-line utility. With ImageX, users can create and manage custom images of Windows operating systems, including capturing system images, applying modifications, and deploying images to multiple computers. It provides a flexible and efficient way to streamline the image deployment process and ensure consistent system configurations across multiple devices.",
                                             "payment": "Free",
                                             "type": "https://www.techthoughts.info/using-imagex-capture-deploy-image-basic-example/",
                                             "skills": "",
@@ -765,7 +766,7 @@
                                         },
                                         {
                                             "name": "Kiano",
-                                            "description": "",
+                                            "description": "Kiano is a tool that provides a user-friendly interface for creating interactive and dynamic web applications. With its intuitive drag-and-drop functionality and extensive library of pre-built components, Kiano enables users to easily design and develop interactive interfaces without writing complex code. It supports various features such as data binding, event handling, and responsive layout design, making it suitable for both beginners and experienced developers. Kiano simplifies the process of building interactive web applications and enhances the user experience.",
                                             "payment": "Free",
                                             "type": "https://visual-computing.com/project/kiano/",
                                             "skills": "",
@@ -775,7 +776,7 @@
                                         },
                                         {
                                             "name": "Pic Arrange",
-                                            "description": "",
+                                            "description": "Pic Arrange is a tool that allows users to easily arrange and organize their image collections. With its intuitive interface and drag-and-drop functionality, Pic Arrange enables users to create custom layouts and compositions of their images. It provides a convenient way to visually organize and present images for various purposes such as creating photo albums, designing collages, or planning visual projects. Pic Arrange simplifies the process of arranging images and enhances the visual aesthetics of image collections.",
                                             "payment": "Free",
                                             "type": "https://visual-computing.com/project/picarrange/",
                                             "skills": "",
@@ -795,8 +796,7 @@
                                     "children": [
                                         {
                                             "name": "Gephi",
-                                            "description": "",
-                                            "payment": "Free",
+                                            "description": "Gephi is a powerful visualization and exploration tool for graph and network analysis. With its intuitive interface and advanced algorithms, Gephi allows users to analyze and visualize complex networks, uncovering patterns, relationships, and insights within the data. It provides a wide range of visualization options, including interactive layouts, filtering, and clustering, enabling users to explore and understand the structure and dynamics of networks. Whether you're a researcher, data scientist, or social network analyst, Gephi offers a valuable tool for visualizing and analyzing network data.",                                            "payment": "Free",
                                             "type": "https://gephi.org/",
                                             "skills": "",
                                             "tooldiagram": "",
@@ -805,7 +805,7 @@
                                         },
                                         {
                                             "name": "Kumu",
-                                            "description": "",
+                                            "description": "Kumu is a powerful visualization platform that allows users to create interactive and dynamic network diagrams. With its intuitive interface and advanced features, Kumu enables users to analyze and visualize complex relationships and connections within their data. It provides a wide range of visualization options, including interactive layouts, filtering, and clustering, allowing users to explore and understand the structure and dynamics of networks. Whether you're a researcher, data scientist, or social network analyst, Kumu offers a valuable tool for visualizing and analyzing network data.",
                                             "payment": "Free",
                                             "type": "https://kumu.io/",
                                             "skills": "",
@@ -825,7 +825,7 @@
                                     "children": [
                                         {
                                             "name": "Tag Crowd",
-                                            "description": "",
+                                            "description": "Tag Crowd is a tool that allows users to generate word clouds from text. With its simple interface and customizable options, Tag Crowd enables users to visualize the frequency of words in a given text or document. It provides a quick and easy way to identify key themes, topics, or keywords within a body of text. Whether you're analyzing a document, blog post, or website content, Tag Crowd offers a convenient tool for visualizing word frequency and gaining insights from textual data.",
                                             "payment": "Free",
                                             "type": "https://tagcrowd.com/",
                                             "skills": "",
@@ -835,7 +835,7 @@
                                         },
                                         {
                                             "name": "Textometrica",
-                                            "description": "",
+                                            "description": "Textometrica is a powerful text analysis tool that allows users to analyze and visualize large collections of text data. With its advanced algorithms and interactive visualizations, Textometrica enables users to uncover patterns, trends, and insights from their text data. Whether it's text mining, sentiment analysis, topic modeling, or network analysis, Textometrica provides a wide range of analytical techniques to support text-based research and decision-making. Its user-friendly interface and flexible customization options make it suitable for researchers, data scientists, and professionals in various domains.",
                                             "payment": "Free",
                                             "type": "http://textometrica.humlab.umu.se/",
                                             "skills": "",
@@ -845,7 +845,7 @@
                                         },
                                         {
                                             "name": "Voyant Tool",
-                                            "description": "",
+                                            "description": "Voyant Tool is a web-based text analysis and visualization tool that allows users to explore and analyze textual data. With its user-friendly interface and powerful features, Voyant Tool enables users to gain insights into the structure, patterns, and trends within their text. It provides a variety of visualization options, including word clouds, word frequencies, and interactive visualizations, making it a valuable tool for researchers, students, and professionals working with textual data.",
                                             "payment": "Free",
                                             "type": "https://voyant-tools.org/",
                                             "skills": "",
@@ -855,7 +855,7 @@
                                         },
                                         {
                                             "name": "Word Tree",
-                                            "description": "",
+                                            "description": "Word Tree is a visualization tool that allows users to explore the hierarchical structure of words and their relationships. With its interactive interface and tree-like representation, Word Tree enables users to analyze and visualize the connections between words, uncovering patterns and insights within textual data. Whether you're conducting linguistic research, analyzing language patterns, or exploring semantic relationships, Word Tree offers a valuable tool for visualizing and understanding the hierarchical nature of words.",
                                             "payment": "Free",
                                             "type": "https://www.jasondavies.com/wordtree/",
                                             "skills": "",
@@ -865,7 +865,7 @@
                                         },
                                         {
                                             "name": "WordWanderer",
-                                            "description": "",
+                                            "description": "WordWanderer is a unique word exploration tool that allows users to discover new words, expand their vocabulary, and enhance their language skills. With its interactive interface and extensive database of words, WordWanderer provides a fun and engaging way to explore the English language. Whether you're a language enthusiast, a student, or a writer, WordWanderer offers a wide range of features and resources to help you improve your word knowledge and creativity.",
                                             "payment": "Free",
                                             "type": "https://wordwanderer.org/",
                                             "skills": "",
@@ -890,7 +890,7 @@
                                     "children": [
                                         {
                                             "name": "RUNWAY ML",
-                                            "description": "",
+                                            "description": "RUNWAY ML is a powerful machine learning tool that enables users to create and explore AI models. With its intuitive interface and extensive library of pre-trained models, RUNWAY ML allows users to generate creative outputs, perform image and video analysis, and develop interactive applications. Whether you're an artist, designer, or developer, RUNWAY ML provides a user-friendly platform for experimenting with machine learning and pushing the boundaries of creative expression.",
                                             "payment": "Freemium",
                                             "type": "https://runwayml.com/",
                                             "skills": "",
@@ -905,7 +905,7 @@
                                     "children": [
                                         {
                                             "name": "RUNWAY ML",
-                                            "description": "",
+                                            "description": "RUNWAY ML is a powerful machine learning tool that enables users to create and explore AI models. With its intuitive interface and extensive library of pre-trained models, RUNWAY ML allows users to generate creative outputs, perform image and video analysis, and develop interactive applications. Whether you're an artist, designer, or developer, RUNWAY ML provides a user-friendly platform for experimenting with machine learning and pushing the boundaries of creative expression.",
                                             "payment": "Freemium",
                                             "type": "https://runwayml.com/",
                                             "skills": "",
@@ -920,7 +920,7 @@
                                     "children": [
                                         {
                                             "name": "Akiwi",
-                                            "description": "",
+                                            "description": "Akiwi is a platform that provides a comprehensive set of tools and services for data management and analysis. With its user-friendly interface and powerful features, Akiwi enables users to efficiently organize, process, and visualize their data. Whether you're a data scientist, analyst, or researcher, Akiwi offers a wide range of capabilities to support your data-driven projects and decision-making processes.",
                                             "payment": "Free",
                                             "type": "http://www.akiwi.eu/",
                                             "skills": "",
@@ -930,7 +930,7 @@
                                         },
                                         {
                                             "name": "Datature",
-                                            "description": "",
+                                            "description": "Datature is a comprehensive data management and analysis platform that empowers users to efficiently organize, process, and analyze their data. With its user-friendly interface and powerful features, Datature enables data scientists, analysts, and researchers to gain valuable insights and make data-driven decisions. Whether you're working on machine learning projects, data analysis, or research, Datature offers a wide range of capabilities to support your data workflows and drive innovation.",
                                             "payment": "Freemium",
                                             "type": "https://www.datature.io/",
                                             "skills": "",
@@ -950,7 +950,7 @@
                                         },
                                         {
                                             "name": "Lobe",
-                                            "description": "",
+                                            "description": "Lobe is a user-friendly machine learning platform that allows users to easily build, train, and deploy custom machine learning models. With its intuitive interface and drag-and-drop functionality, Lobe simplifies the process of creating AI models without requiring extensive coding knowledge. Whether you're a developer, designer, or hobbyist, Lobe provides a seamless experience for harnessing the power of machine learning in your projects.",
                                             "payment": "Free",
                                             "type": "https://www.lobe.ai/",
                                             "skills": "",
@@ -970,7 +970,7 @@
                                         },
                                         {
                                             "name": "RUNWAY ML",
-                                            "description": "",
+                                            "description": "RUNWAY ML is a powerful machine learning tool that enables users to create and explore AI models. With its intuitive interface and extensive library of pre-trained models, RUNWAY ML allows users to generate creative outputs, perform image and video analysis, and develop interactive applications. Whether you're an artist, designer, or developer, RUNWAY ML provides a user-friendly platform for experimenting with machine learning and pushing the boundaries of creative expression.",
                                             "payment": "Freemium",
                                             "type": "https://runwayml.com/",
                                             "skills": "",
@@ -985,7 +985,7 @@
                                     "children": [
                                         {
                                             "name": "Immaging Tagging Tool Interface",
-                                            "description": "",
+                                            "description": "The Imaging Tagging Tool Interface is a user-friendly tool that allows users to annotate and tag images for various purposes. With its intuitive interface and powerful annotation capabilities, this tool enables users to create labeled datasets for training machine learning models, organizing image collections, or any other image-related tasks. Whether you're a data scientist, developer, or researcher, the Imaging Tagging Tool Interface provides a convenient way to enhance image analysis and data management workflows.",
                                             "payment": "Free",
                                             "type": "https://zumatt.github.io/dd-image-tagging/",
                                             "skills": "",
@@ -995,7 +995,7 @@
                                         },
                                         {
                                             "name": "Memespector",
-                                            "description": "",
+                                            "description": "Memespector is a tool that allows users to analyze and generate memes. With its advanced algorithms and image recognition capabilities, Memespector enables users to identify and classify different types of memes, as well as create their own customized memes. Whether you're a meme enthusiast, content creator, or researcher, Memespector provides a fun and innovative way to explore the world of memes and understand their cultural significance.",
                                             "payment": "Free",
                                             "type": "https://github.com/jason-chao/memespector-GUI",
                                             "skills": "",
@@ -1015,7 +1015,7 @@
                                     "children": [
                                         {
                                             "name": "GPTzero",
-                                            "description": "",
+                                            "description": "GPTzero is a powerful language model that utilizes the GPT architecture to generate human-like text. With its advanced natural language processing capabilities, GPTzero can be used for a wide range of applications, including text generation, language translation, chatbots, and more. Whether you're a developer, writer, or researcher, GPTzero provides a versatile tool for enhancing language-related tasks and creating engaging content.",
                                             "payment": "Free",
                                             "type": "https://gptzero.me/",
                                             "skills": "",
@@ -1090,7 +1090,7 @@
                                     "children": [
                                         {
                                             "name": "Arxiv Summary Generator",
-                                            "description": "",
+                                            "description": "Arxiv Summary Generator is a tool that automatically generates concise summaries of research papers from the Arxiv database. With its advanced natural language processing algorithms, the Arxiv Summary Generator can extract key information and main findings from research papers, providing users with a quick overview of the content. This tool is particularly useful for researchers, students, and anyone who wants to stay updated with the latest research in their field.",
                                             "payment": "Free",
                                             "type": "https://chatgptai.me/?ref=futuretools.io",
                                             "skills": "",
@@ -1120,7 +1120,7 @@
                                     "children": [
                                         {
                                             "name": "Fig GPT Figma Plugin",
-                                            "description": "",
+                                            "description": "Fig GPT Figma Plugin is a powerful tool that integrates the capabilities of OpenAI's GPT-3 language model into the Figma design tool. With this plugin, designers can generate text content, create conversational interfaces, and automate repetitive tasks directly within Figma. Fig GPT Figma Plugin enhances the design workflow by providing AI-powered assistance and expanding the possibilities of what can be achieved in Figma.",
                                             "payment": "Free",
                                             "type": "https://www.figma.com/community/plugin/1207913933994957698/FigGPT",
                                             "skills": "",
@@ -1130,7 +1130,7 @@
                                         },
                                         {
                                             "name": "Tweetify it",
-                                            "description": "",
+                                            "description": "Tweetify it is a platform that allows users to transform their text into engaging and shareable social media posts. With Tweetify it, you can easily create catchy headlines, captivating captions, and attention-grabbing content for your tweets. It provides various formatting options, hashtag suggestions, and analytics to optimize your tweet performance. Whether you're a social media marketer, influencer, or simply want to enhance your online presence, Tweetify it is a valuable tool to amplify your message on Twitter.",
                                             "payment": "Freemium",
                                             "type": "https://tweetify.it/",
                                             "skills": "",
@@ -1160,7 +1160,7 @@
                                     "children": [
                                         {
                                             "name": "BLUF",
-                                            "description": "",
+                                            "description": "BLUF is a versatile platform that offers a wide range of tools and features for efficient communication and concise messaging. With BLUF, you can quickly summarize complex information and deliver key messages in a clear and concise manner. It provides advanced formatting options, collaboration features, and analytics to optimize your communication effectiveness. Whether you're a professional, student, or anyone who wants to enhance their communication skills, BLUF is a valuable tool to convey your message effectively.",
                                             "payment": "Freemium",
                                             "type": "https://bluf.ai/",
                                             "skills": "",
@@ -1190,7 +1190,7 @@
                                         },
                                         {
                                             "name": "WebMagicAI",
-                                            "description": "",
+                                            "description": "WebMagicAI is an AI-powered platform that offers a wide range of tools and features for web scraping, data extraction, and automation. With WebMagicAI, you can easily collect data from websites, extract relevant information, and automate repetitive tasks. It provides advanced algorithms and customizable options to meet your specific data needs. Whether you're a data scientist, researcher, or business professional, WebMagicAI is a valuable tool to streamline your data collection and analysis process.",
                                             "payment": "Freemium",
                                             "type": "https://www.webmagic.ai/",
                                             "skills": "",
@@ -1230,7 +1230,7 @@
                                     "children": [
                                         {
                                             "name": "Eightify",
-                                            "description": "",
+                                            "description": "Eightify is a versatile platform that offers a wide range of tools and features for enhancing and optimizing your digital content. With Eightify, you can easily transform and improve your images, videos, and designs. It provides advanced editing options, filters, and effects to enhance the visual appeal of your content. Whether you're a photographer, graphic designer, or content creator, Eightify is a valuable tool to elevate your digital creations.",
                                             "payment": "Free",
                                             "type": "https://eightify.app/",
                                             "skills": "",
@@ -1240,7 +1240,7 @@
                                         },
                                         {
                                             "name": "GLASP - Youtube summary with Chatgpt",
-                                            "description": "",
+                                            "description": "GLASP is a powerful tool that combines the capabilities of ChatGPT and YouTube to provide concise and informative summaries of YouTube videos. Using advanced natural language processing techniques, GLASP analyzes the audio and transcript of the video to generate a summary that captures the key points and highlights. It is designed to save time and provide a quick overview of the video content, making it useful for content creators, researchers, and learners.",
                                             "payment": "Free",
                                             "type": "https://glasp.co/youtube-summary",
                                             "skills": "",
@@ -1260,7 +1260,7 @@
                                         },
                                         {
                                             "name": "TLDR  Youtube",
-                                            "description": "",
+                                            "description": "TLDR Youtube is a platform that provides concise and summarized versions of YouTube videos. It aims to save time and provide quick overviews of video content by condensing the key points and highlights. TLDR Youtube is useful for individuals who want to get the main ideas of a video without watching the entire duration. It is a valuable tool for content creators, researchers, and learners.",
                                             "payment": "Free",
                                             "type": "https://designingwithai.ch/404.html",
                                             "skills": "",
@@ -1270,7 +1270,7 @@
                                         },
                                         {
                                             "name": "You-tldr",
-                                            "description": "",
+                                            "description": "You-tldr is a platform that provides concise and summarized versions of YouTube videos. It aims to save time and provide quick overviews of video content by condensing the key points and highlights. You-tldr is useful for individuals who want to get the main ideas of a video without watching the entire duration. It is a valuable tool for content creators, researchers, and learners.",
                                             "payment": "Free",
                                             "type": "https://www.you-tldr.com/",
                                             "skills": "",
@@ -1280,7 +1280,7 @@
                                         },
                                         {
                                             "name": "Youtube Summarised",
-                                            "description": "",
+                                            "description": "Youtube Summarised is a platform that provides concise and summarized versions of YouTube videos. It aims to save time and provide quick overviews of video content by condensing the key points and highlights. Youtube Summarised is useful for individuals who want to get the main ideas of a video without watching the entire duration. It is a valuable tool for content creators, researchers, and learners.",
                                             "payment": "Free",
                                             "type": "https://www.youtubeSummarised.com/",
                                             "skills": "",
@@ -1295,7 +1295,7 @@
                                     "children": [
                                         {
                                             "name": "MagicBrief",
-                                            "description": "",
+                                            "description": "MagicBrief is a premium platform that offers a comprehensive suite of tools and features for creating professional briefs and project proposals. With MagicBrief, you can easily outline project requirements, set goals and objectives, and collaborate with team members. It provides advanced templates, customization options, and integration with popular project management tools to streamline the briefing process and ensure effective communication. Whether you're a freelancer, agency, or in-house team, MagicBrief is a valuable tool to enhance your project planning and execution.",
                                             "payment": "Premium",
                                             "type": "https://magicbrief.com/",
                                             "skills": "",
@@ -1315,7 +1315,7 @@
                                     "children": [
                                         {
                                             "name": "SiteExplainer",
-                                            "description": "",
+                                            "description": "SiteExplainer is a platform that offers comprehensive tools and features for creating engaging and informative explainer videos for websites. With SiteExplainer, you can easily create animated videos that effectively communicate your website's features, benefits, and value proposition. It provides a user-friendly interface, customizable templates, and a wide range of animation styles to suit your branding and messaging. Whether you're a business owner, marketer, or designer, SiteExplainer is a valuable tool to enhance your website's user experience and drive conversions.",
                                             "payment": "Freemium",
                                             "type": "https://www.siteexplainer.com/",
                                             "skills": "",
@@ -1365,7 +1365,7 @@
                                     "children": [
                                         {
                                             "name": "Gephi",
-                                            "description": "",
+                                            "description": "Gephi is a powerful visualization and exploration tool for graph and network analysis. With its intuitive interface and advanced algorithms, Gephi allows users to analyze and visualize complex networks, uncovering patterns, relationships, and insights within the data. It provides a wide range of visualization options, including interactive layouts, filtering, and clustering, enabling users to explore and understand the structure and dynamics of networks. Whether you're a researcher, data scientist, or social network analyst, Gephi offers a valuable tool for visualizing and analyzing network data.",
                                             "payment": "Free",
                                             "type": "https://gephi.org/",
                                             "skills": "",
@@ -1375,7 +1375,7 @@
                                         },
                                         {
                                             "name": "Kumu",
-                                            "description": "",
+                                            "description": "Kumu is a powerful visualization platform that allows users to create interactive and dynamic network diagrams. With its intuitive interface and advanced features, Kumu enables users to analyze and visualize complex relationships and connections within their data. It provides a wide range of visualization options, including interactive layouts, filtering, and clustering, allowing users to explore and understand the structure and dynamics of networks. Whether you're a researcher, data scientist, or social network analyst, Kumu offers a valuable tool for visualizing and analyzing network data.",
                                             "payment": "Free",
                                             "type": "https://kumu.io/",
                                             "skills": "",
@@ -1385,7 +1385,7 @@
                                         },
                                         {
                                             "name": "Nomic AI",
-                                            "description": "",
+                                            "description": "Nomic AI is an artificial intelligence platform that offers advanced machine learning capabilities. With its powerful algorithms and extensive library of pre-trained models, Nomic AI enables users to develop and deploy AI solutions for various applications. Whether it's natural language processing, computer vision, or predictive analytics, Nomic AI provides the tools and resources to build intelligent systems. Its user-friendly interface and scalable infrastructure make it suitable for both individuals and enterprises.",
                                             "payment": "Free",
                                             "type": "https://home.nomic.ai/",
                                             "skills": "",
@@ -1405,7 +1405,7 @@
                                     "children": [
                                         {
                                             "name": "Tag Crowd",
-                                            "description": "",
+                                            "description": "Tag Crowd is a tool that allows users to generate word clouds from text. With its simple interface and customizable options, Tag Crowd enables users to visualize the frequency of words in a given text or document. It provides a quick and easy way to identify key themes, topics, or keywords within a body of text. Whether you're analyzing a document, blog post, or website content, Tag Crowd offers a convenient tool for visualizing word frequency and gaining insights from textual data.",
                                             "payment": "Free",
                                             "type": "https://tagcrowd.com/",
                                             "skills": "",
@@ -1415,7 +1415,7 @@
                                         },
                                         {
                                             "name": "Textometrica",
-                                            "description": "",
+                                            "description": "Textometrica is a powerful text analysis tool that allows users to analyze and visualize large collections of text data. With its advanced algorithms and interactive visualizations, Textometrica enables users to uncover patterns, trends, and insights from their text data. Whether it's text mining, sentiment analysis, topic modeling, or network analysis, Textometrica provides a wide range of analytical techniques to support text-based research and decision-making. Its user-friendly interface and flexible customization options make it suitable for researchers, data scientists, and professionals in various domains.",
                                             "payment": "Free",
                                             "type": "http://textometrica.humlab.umu.se/",
                                             "skills": "",
@@ -1425,7 +1425,7 @@
                                         },
                                         {
                                             "name": "Voyant Tool",
-                                            "description": "",
+                                            "description": "Voyant Tool is a web-based text analysis and visualization tool that allows users to explore and analyze textual data. With its user-friendly interface and powerful features, Voyant Tool enables users to gain insights into the structure, patterns, and trends within their text. It provides a variety of visualization options, including word clouds, word frequencies, and interactive visualizations, making it a valuable tool for researchers, students, and professionals working with textual data.",
                                             "payment": "Free",
                                             "type": "https://voyant-tools.org/",
                                             "skills": "",
@@ -1435,7 +1435,7 @@
                                         },
                                         {
                                             "name": "Word Tree",
-                                            "description": "",
+                                            "description": "Word Tree is a visualization tool that allows users to explore the hierarchical structure of words and their relationships. With its interactive interface and tree-like representation, Word Tree enables users to analyze and visualize the connections between words, uncovering patterns and insights within textual data. Whether you're conducting linguistic research, analyzing language patterns, or exploring semantic relationships, Word Tree offers a valuable tool for visualizing and understanding the hierarchical nature of words.",
                                             "payment": "Free",
                                             "type": "https://www.jasondavies.com/wordtree/",
                                             "skills": "",
@@ -1465,7 +1465,7 @@
                                     "children": [
                                         {
                                             "name": "WZRD ai",
-                                            "description": "",
+                                            "description": "WZRD ai is a powerful AI-powered design tool that allows users to create stunning visuals and graphics. With its advanced algorithms and intuitive interface, WZRD ai enables users to generate unique designs, illustrations, and artwork effortlessly. Whether you're a professional designer or a beginner, WZRD ai offers a wide range of features and customization options to bring your creative ideas to life. From logo design to social media graphics, WZRD ai provides a seamless design experience for all your visual needs.",
                                             "payment": "Free",
                                             "type": "https://wzrd.ai/",
                                             "skills": "",
@@ -1485,7 +1485,7 @@
                                     "children": [
                                         {
                                             "name": "AutoDraw",
-                                            "description": "",
+                                            "description": "AutoDraw is an intuitive drawing tool that uses machine learning to help users create professional-looking illustrations. With its AI-powered suggestions, AutoDraw can recognize and match rough sketches with more polished drawings, making it easier for users to bring their ideas to life. Whether you're a beginner or an experienced artist, AutoDraw offers a user-friendly interface and a wide range of drawing tools to enhance your creative process.", 
                                             "payment": "Free",
                                             "type": "https://www.autodraw.com/",
                                             "skills": "",
@@ -1500,7 +1500,7 @@
                                     "children": [
                                         {
                                             "name": "TeleportHQ",
-                                            "description": "",
+                                            "description": "TeleportHQ is a versatile design tool that empowers users to create stunning interfaces and prototypes. With its intuitive drag-and-drop interface and extensive library of pre-built components, TeleportHQ makes it easy to design and iterate on user interfaces. Whether you're a designer, developer, or product manager, TeleportHQ offers a seamless design experience for creating visually appealing and user-friendly interfaces.",
                                             "payment": "Freemium",
                                             "type": "https://teleporthq.io/",
                                             "skills": "",
@@ -1520,7 +1520,7 @@
                                     "children": [
                                         {
                                             "name": "Visily AI",
-                                            "description": "",
+                                            "description": "Visily AI is an innovative AI-powered design tool that revolutionizes the way users create and edit visual content. With its advanced algorithms and cutting-edge features, Visily AI offers a seamless design experience for professionals and beginners alike. Whether you're designing graphics, editing photos, or creating animations, Visily AI provides a wide range of tools and customization options to bring your creative vision to life. From intelligent image enhancement to automated design suggestions, Visily AI empowers users to unleash their creativity and achieve stunning results.",
                                             "payment": "Free",
                                             "type": "https://www.visily.ai/",
                                             "skills": "",
@@ -1535,7 +1535,7 @@
                                     "children": [
                                         {
                                             "name": "RUNWAY ML",
-                                            "description": "",
+                                            "description": "RUNWAY ML is a powerful machine learning tool that enables users to create and explore AI models. With its intuitive interface and extensive library of pre-trained models, RUNWAY ML allows users to generate creative outputs, perform image and video analysis, and develop interactive applications. Whether you're an artist, designer, or developer, RUNWAY ML provides a user-friendly platform for experimenting with machine learning and pushing the boundaries of creative expression.",
                                             "payment": "Freemium",
                                             "type": "https://runwayml.com/",
                                             "skills": "",
@@ -1545,7 +1545,7 @@
                                         },
                                         {
                                             "name": "TrainEngine ai",
-                                            "description": "",
+                                            "description": "TrainEngine ai is an AI-powered design tool that provides users with advanced capabilities for creating and editing visual content. With its cutting-edge algorithms and extensive feature set, TrainEngine ai empowers designers, artists, and developers to unleash their creativity and achieve stunning results. Whether you're designing graphics, editing photos, or creating animations, TrainEngine ai offers a wide range of tools and customization options to bring your creative vision to life.",
                                             "payment": "Free",
                                             "type": "https://trainengine.ai/",
                                             "skills": "",
@@ -1560,7 +1560,7 @@
                                     "children": [
                                         {
                                             "name": "RUNWAY ML",
-                                            "description": "",
+                                            "description": "RUNWAY ML is a powerful machine learning tool that enables users to create and explore AI models. With its intuitive interface and extensive library of pre-trained models, RUNWAY ML allows users to generate creative outputs, perform image and video analysis, and develop interactive applications. Whether you're an artist, designer, or developer, RUNWAY ML provides a user-friendly platform for experimenting with machine learning and pushing the boundaries of creative expression.",
                                             "payment": "Freemium",
                                             "type": "https://runwayml.com/",
                                             "skills": "",
@@ -1570,7 +1570,7 @@
                                         },
                                         {
                                             "name": "TrainEngine ai",
-                                            "description": "",
+                                            "description": "TrainEngine ai is an AI-powered design tool that provides users with advanced capabilities for creating and editing visual content. With its cutting-edge algorithms and extensive feature set, TrainEngine ai empowers designers, artists, and developers to unleash their creativity and achieve stunning results. Whether you're designing graphics, editing photos, or creating animations, TrainEngine ai offers a wide range of tools and customization options to bring your creative vision to life.",
                                             "payment": "Free",
                                             "type": "https://trainengine.ai/",
                                             "skills": "",
@@ -1585,7 +1585,7 @@
                                     "children": [
                                         {
                                             "name": "Interior AI",
-                                            "description": "",
+                                            "description": "Interior AI is an innovative design tool that utilizes artificial intelligence to assist users in creating stunning interior designs. With its advanced algorithms and extensive library of furniture and decor options, Interior AI offers a seamless design experience for professionals and enthusiasts alike. Whether you're designing a living room, bedroom, or kitchen, Interior AI provides a wide range of tools and customization options to bring your creative vision to life. From automated room layout suggestions to realistic 3D renderings, Interior AI empowers users to transform their spaces with ease.",
                                             "payment": "Free",
                                             "type": "https://interiorai.com/",
                                             "skills": "",
@@ -1600,7 +1600,7 @@
                                     "children": [
                                         {
                                             "name": "Midjourney",
-                                            "description": "",
+                                            "description": "Midjourney is a premium design tool that offers a comprehensive set of features for creating and editing visual content. With its advanced capabilities and user-friendly interface, Midjourney empowers designers, artists, and developers to bring their creative ideas to life. Whether you're designing graphics, editing photos, or creating animations, Midjourney provides a wide range of tools and customization options to enhance your creative workflow and achieve professional results.",
                                             "payment": "Premium",
                                             "type": "https://www.midjourney.com/app/",
                                             "skills": "",
@@ -1615,7 +1615,7 @@
                                     "children": [
                                         {
                                             "name": "Visily AI",
-                                            "description": "",
+                                            "description": "Visily AI is an innovative AI-powered design tool that revolutionizes the way users create and edit visual content. With its advanced algorithms and cutting-edge features, Visily AI offers a seamless design experience for professionals and beginners alike. Whether you're designing graphics, editing photos, or creating animations, Visily AI provides a wide range of tools and customization options to bring your creative vision to life. From intelligent image enhancement to automated design suggestions, Visily AI empowers users to unleash their creativity and achieve stunning results.",
                                             "payment": "Free",
                                             "type": "https://www.visily.ai/",
                                             "skills": "",
@@ -1635,7 +1635,7 @@
                                     "children": [
                                         {
                                             "name": "Generated Photos",
-                                            "description": "",
+                                            "description": "Generated Photos is a platform that provides users with a vast collection of high-quality, AI-generated images. With its extensive library of diverse and realistic photos, Generated Photos offers a valuable resource for designers, developers, and content creators. Whether you need images for websites, presentations, or marketing materials, Generated Photos allows you to easily find and use visually appealing visuals to enhance your projects.",
                                             "payment": "Freemium",
                                             "type": "https://generated.photos/",
                                             "skills": "",
@@ -1650,7 +1650,7 @@
                                     "children": [
                                         {
                                             "name": "Text To Book Cover",
-                                            "description": "",
+                                            "description": "Text To Book Cover is a powerful tool that allows users to transform plain text into visually stunning book covers. With its intuitive interface and extensive library of design templates, Text To Book Cover offers a seamless design experience for authors, publishers, and designers. Whether you're creating a cover for a novel, a non-fiction book, or a magazine, Text To Book Cover provides a wide range of customization options to bring your ideas to life. From choosing fonts and colors to adding images and graphics, Text To Book Cover empowers users to create eye-catching and professional book covers with ease.",
                                             "payment": "Freemium",
                                             "type": "https://stockimg.ai/text-to-book-cover",
                                             "skills": "",
@@ -1670,7 +1670,7 @@
                                     "children": [
                                         {
                                             "name": "SkyBox Lab - Blockade",
-                                            "description": "",
+                                            "description": "SkyBox Lab - Blockade is a cutting-edge 3D design tool that offers a wide range of features for creating immersive and interactive experiences. With its advanced capabilities and user-friendly interface, SkyBox Lab - Blockade empowers designers, developers, and artists to bring their creative visions to life. Whether you're designing virtual reality environments, architectural visualizations, or game assets, SkyBox Lab - Blockade provides powerful tools and customization options to enhance your 3D workflow and achieve stunning results.",
                                             "payment": "Free",
                                             "type": "https://skybox.blockadelabs.com/",
                                             "skills": "",
@@ -1685,7 +1685,7 @@
                                     "children": [
                                         {
                                             "name": "Masterpiece studio",
-                                            "description": "",
+                                            "description": "Masterpiece Studio is a creative platform that offers a wide range of tools and resources for artists, designers, and creators. With its innovative features and user-friendly interface, Masterpiece Studio empowers users to unleash their creativity and bring their artistic visions to life. Whether you're a professional artist, an aspiring designer, or simply enjoy creating digital art, Masterpiece Studio provides a comprehensive set of tools and customization options to enhance your artistic workflow and create stunning masterpieces.",
                                             "payment": "Free, waiting list",
                                             "type": "https://masterpiecestudio.com/",
                                             "skills": "",
@@ -1695,7 +1695,7 @@
                                         },
                                         {
                                             "name": "Ponzu gg",
-                                            "description": "",
+                                            "description": "Ponzu gg is a platform that provides gamers with a comprehensive set of tools and resources to enhance their gaming experience. With its innovative features and user-friendly interface, Ponzu gg offers a valuable resource for gamers, streamers, and esports enthusiasts. Whether you're looking for game guides, strategies, or community forums, Ponzu gg allows you to easily access and share gaming knowledge to level up your skills and connect with fellow gamers.",
                                             "payment": "Free",
                                             "type": "https://www.ponzu.gg/",
                                             "skills": "",
@@ -1780,7 +1780,7 @@
                                         },
                                         {
                                             "name": "Fig GPT Figma Plugin",
-                                            "description": "",
+                                            "description": "Fig GPT Figma Plugin is a powerful tool that integrates the capabilities of OpenAI's GPT-3 language model into the Figma design tool. With this plugin, designers can generate text content, create conversational interfaces, and automate repetitive tasks directly within Figma. Fig GPT Figma Plugin enhances the design workflow by providing AI-powered assistance and expanding the possibilities of what can be achieved in Figma.",
                                             "payment": "Free",
                                             "type": "https://www.figma.com/community/plugin/1207913933994957698/FigGPT",
                                             "skills": "",
@@ -1925,7 +1925,7 @@
                                         },
                                         {
                                             "name": "Midjourney",
-                                            "description": "",
+                                            "description": "Midjourney is a premium design tool that offers a comprehensive set of features for creating and editing visual content. With its advanced capabilities and user-friendly interface, Midjourney empowers designers, artists, and developers to bring their creative ideas to life. Whether you're designing graphics, editing photos, or creating animations, Midjourney provides a wide range of tools and customization options to enhance your creative workflow and achieve professional results.",
                                             "payment": "Premium",
                                             "type": "https://www.midjourney.com/app/",
                                             "skills": "",
@@ -1955,7 +1955,7 @@
                                         },
                                         {
                                             "name": "RUNWAY ML",
-                                            "description": "",
+                                            "description": "RUNWAY ML is a powerful machine learning tool that enables users to create and explore AI models. With its intuitive interface and extensive library of pre-trained models, RUNWAY ML allows users to generate creative outputs, perform image and video analysis, and develop interactive applications. Whether you're an artist, designer, or developer, RUNWAY ML provides a user-friendly platform for experimenting with machine learning and pushing the boundaries of creative expression.",
                                             "payment": "Freemium",
                                             "type": "https://runwayml.com/",
                                             "skills": "",
@@ -2050,7 +2050,7 @@
                                         },
                                         {
                                             "name": "Midjourney",
-                                            "description": "",
+                                            "description": "Midjourney is a premium design tool that offers a comprehensive set of features for creating and editing visual content. With its advanced capabilities and user-friendly interface, Midjourney empowers designers, artists, and developers to bring their creative ideas to life. Whether you're designing graphics, editing photos, or creating animations, Midjourney provides a wide range of tools and customization options to enhance your creative workflow and achieve professional results.",
                                             "payment": "Premium",
                                             "type": "https://www.midjourney.com/app/",
                                             "skills": "",
@@ -2080,7 +2080,7 @@
                                         },
                                         {
                                             "name": "RUNWAY ML",
-                                            "description": "",
+                                            "description": "RUNWAY ML is a powerful machine learning tool that enables users to create and explore AI models. With its intuitive interface and extensive library of pre-trained models, RUNWAY ML allows users to generate creative outputs, perform image and video analysis, and develop interactive applications. Whether you're an artist, designer, or developer, RUNWAY ML provides a user-friendly platform for experimenting with machine learning and pushing the boundaries of creative expression.",
                                             "payment": "Freemium",
                                             "type": "https://runwayml.com/",
                                             "skills": "",
@@ -2270,7 +2270,7 @@
                                     "children": [
                                         {
                                             "name": "AutoDraw",
-                                            "description": "",
+                                            "description": "AutoDraw is an intuitive drawing tool that uses machine learning to help users create professional-looking illustrations. With its AI-powered suggestions, AutoDraw can recognize and match rough sketches with more polished drawings, making it easier for users to bring their ideas to life. Whether you're a beginner or an experienced artist, AutoDraw offers a user-friendly interface and a wide range of drawing tools to enhance your creative process.", 
                                             "payment": "Free",
                                             "type": "https://www.autodraw.com/",
                                             "skills": "",
@@ -2450,7 +2450,7 @@
                                         },
                                         {
                                             "name": "RUNWAY ML",
-                                            "description": "",
+                                            "description": "RUNWAY ML is a powerful machine learning tool that enables users to create and explore AI models. With its intuitive interface and extensive library of pre-trained models, RUNWAY ML allows users to generate creative outputs, perform image and video analysis, and develop interactive applications. Whether you're an artist, designer, or developer, RUNWAY ML provides a user-friendly platform for experimenting with machine learning and pushing the boundaries of creative expression.",
                                             "payment": "Freemium",
                                             "type": "https://runwayml.com/",
                                             "skills": "",
@@ -2495,7 +2495,7 @@
                                         },
                                         {
                                             "name": "RUNWAY ML",
-                                            "description": "",
+                                            "description": "RUNWAY ML is a powerful machine learning tool that enables users to create and explore AI models. With its intuitive interface and extensive library of pre-trained models, RUNWAY ML allows users to generate creative outputs, perform image and video analysis, and develop interactive applications. Whether you're an artist, designer, or developer, RUNWAY ML provides a user-friendly platform for experimenting with machine learning and pushing the boundaries of creative expression.",
                                             "payment": "Freemium",
                                             "type": "https://runwayml.com/",
                                             "skills": "",
@@ -2635,7 +2635,7 @@
                                     "children": [
                                         {
                                             "name": "WZRD ai",
-                                            "description": "",
+                                            "description": "WZRD ai is a powerful AI-powered design tool that allows users to create stunning visuals and graphics. With its advanced algorithms and intuitive interface, WZRD ai enables users to generate unique designs, illustrations, and artwork effortlessly. Whether you're a professional designer or a beginner, WZRD ai offers a wide range of features and customization options to bring your creative ideas to life. From logo design to social media graphics, WZRD ai provides a seamless design experience for all your visual needs.",
                                             "payment": "Free",
                                             "type": "https://wzrd.ai/",
                                             "skills": "",
@@ -2655,7 +2655,7 @@
                                     "children": [
                                         {
                                             "name": "TeleportHQ",
-                                            "description": "",
+                                            "description": "TeleportHQ is a versatile design tool that empowers users to create stunning interfaces and prototypes. With its intuitive drag-and-drop interface and extensive library of pre-built components, TeleportHQ makes it easy to design and iterate on user interfaces. Whether you're a designer, developer, or product manager, TeleportHQ offers a seamless design experience for creating visually appealing and user-friendly interfaces.",
                                             "payment": "Freemium",
                                             "type": "https://teleporthq.io/",
                                             "skills": "",
@@ -2720,7 +2720,7 @@
                                     "children": [
                                         {
                                             "name": "RUNWAY ML",
-                                            "description": "",
+                                            "description": "RUNWAY ML is a powerful machine learning tool that enables users to create and explore AI models. With its intuitive interface and extensive library of pre-trained models, RUNWAY ML allows users to generate creative outputs, perform image and video analysis, and develop interactive applications. Whether you're an artist, designer, or developer, RUNWAY ML provides a user-friendly platform for experimenting with machine learning and pushing the boundaries of creative expression.",
                                             "payment": "Freemium",
                                             "type": "https://runwayml.com/",
                                             "skills": "",
@@ -2730,7 +2730,7 @@
                                         },
                                         {
                                             "name": "TrainEngine ai",
-                                            "description": "",
+                                            "description": "TrainEngine ai is an AI-powered design tool that provides users with advanced capabilities for creating and editing visual content. With its cutting-edge algorithms and extensive feature set, TrainEngine ai empowers designers, artists, and developers to unleash their creativity and achieve stunning results. Whether you're designing graphics, editing photos, or creating animations, TrainEngine ai offers a wide range of tools and customization options to bring your creative vision to life.",
                                             "payment": "Free",
                                             "type": "https://trainengine.ai/",
                                             "skills": "",
@@ -2745,7 +2745,7 @@
                                     "children": [
                                         {
                                             "name": "RUNWAY ML",
-                                            "description": "",
+                                            "description": "RUNWAY ML is a powerful machine learning tool that enables users to create and explore AI models. With its intuitive interface and extensive library of pre-trained models, RUNWAY ML allows users to generate creative outputs, perform image and video analysis, and develop interactive applications. Whether you're an artist, designer, or developer, RUNWAY ML provides a user-friendly platform for experimenting with machine learning and pushing the boundaries of creative expression.",
                                             "payment": "Freemium",
                                             "type": "https://runwayml.com/",
                                             "skills": "",
@@ -2755,7 +2755,7 @@
                                         },
                                         {
                                             "name": "TrainEngine ai",
-                                            "description": "",
+                                            "description": "TrainEngine ai is an AI-powered design tool that provides users with advanced capabilities for creating and editing visual content. With its cutting-edge algorithms and extensive feature set, TrainEngine ai empowers designers, artists, and developers to unleash their creativity and achieve stunning results. Whether you're designing graphics, editing photos, or creating animations, TrainEngine ai offers a wide range of tools and customization options to bring your creative vision to life.",
                                             "payment": "Free",
                                             "type": "https://trainengine.ai/",
                                             "skills": "",
@@ -2775,7 +2775,7 @@
                                     "children": [
                                         {
                                             "name": "Generated Photos",
-                                            "description": "",
+                                            "description": "Generated Photos is a platform that provides users with a vast collection of high-quality, AI-generated images. With its extensive library of diverse and realistic photos, Generated Photos offers a valuable resource for designers, developers, and content creators. Whether you need images for websites, presentations, or marketing materials, Generated Photos allows you to easily find and use visually appealing visuals to enhance your projects.",
                                             "payment": "Freemium",
                                             "type": "https://generated.photos/",
                                             "skills": "",
@@ -2815,7 +2815,7 @@
                                     "children": [
                                         {
                                             "name": "SkyBox Lab - Blockade",
-                                            "description": "",
+                                            "description": "SkyBox Lab - Blockade is a cutting-edge 3D design tool that offers a wide range of features for creating immersive and interactive experiences. With its advanced capabilities and user-friendly interface, SkyBox Lab - Blockade empowers designers, developers, and artists to bring their creative visions to life. Whether you're designing virtual reality environments, architectural visualizations, or game assets, SkyBox Lab - Blockade provides powerful tools and customization options to enhance your 3D workflow and achieve stunning results.",
                                             "payment": "Free",
                                             "type": "https://skybox.blockadelabs.com/",
                                             "skills": "",
@@ -2840,7 +2840,7 @@
                                         },
                                         {
                                             "name": "Masterpiece studio",
-                                            "description": "",
+                                            "description": "Masterpiece Studio is a creative platform that offers a wide range of tools and resources for artists, designers, and creators. With its innovative features and user-friendly interface, Masterpiece Studio empowers users to unleash their creativity and bring their artistic visions to life. Whether you're a professional artist, an aspiring designer, or simply enjoy creating digital art, Masterpiece Studio provides a comprehensive set of tools and customization options to enhance your artistic workflow and create stunning masterpieces.",
                                             "payment": "Free, waiting list",
                                             "type": "https://masterpiecestudio.com/",
                                             "skills": "",
@@ -2975,7 +2975,7 @@
                                         },
                                         {
                                             "name": "Fig GPT Figma Plugin",
-                                            "description": "",
+                                            "description": "Fig GPT Figma Plugin is a powerful tool that integrates the capabilities of OpenAI's GPT-3 language model into the Figma design tool. With this plugin, designers can generate text content, create conversational interfaces, and automate repetitive tasks directly within Figma. Fig GPT Figma Plugin enhances the design workflow by providing AI-powered assistance and expanding the possibilities of what can be achieved in Figma.",
                                             "payment": "Free",
                                             "type": "https://www.figma.com/community/plugin/1207913933994957698/FigGPT",
                                             "skills": "",
@@ -3100,7 +3100,7 @@
                                         },
                                         {
                                             "name": "Midjourney",
-                                            "description": "",
+                                            "description": "Midjourney is a premium design tool that offers a comprehensive set of features for creating and editing visual content. With its advanced capabilities and user-friendly interface, Midjourney empowers designers, artists, and developers to bring their creative ideas to life. Whether you're designing graphics, editing photos, or creating animations, Midjourney provides a wide range of tools and customization options to enhance your creative workflow and achieve professional results.",
                                             "payment": "Premium",
                                             "type": "https://www.midjourney.com/app/",
                                             "skills": "",
@@ -3120,7 +3120,7 @@
                                         },
                                         {
                                             "name": "RUNWAY ML",
-                                            "description": "",
+                                            "description": "RUNWAY ML is a powerful machine learning tool that enables users to create and explore AI models. With its intuitive interface and extensive library of pre-trained models, RUNWAY ML allows users to generate creative outputs, perform image and video analysis, and develop interactive applications. Whether you're an artist, designer, or developer, RUNWAY ML provides a user-friendly platform for experimenting with machine learning and pushing the boundaries of creative expression.",
                                             "payment": "Freemium",
                                             "type": "https://runwayml.com/",
                                             "skills": "",
@@ -3185,7 +3185,7 @@
                                         },
                                         {
                                             "name": "Midjourney",
-                                            "description": "",
+                                            "description": "Midjourney is a premium design tool that offers a comprehensive set of features for creating and editing visual content. With its advanced capabilities and user-friendly interface, Midjourney empowers designers, artists, and developers to bring their creative ideas to life. Whether you're designing graphics, editing photos, or creating animations, Midjourney provides a wide range of tools and customization options to enhance your creative workflow and achieve professional results.",
                                             "payment": "Premium",
                                             "type": "https://www.midjourney.com/app/",
                                             "skills": "",
@@ -3205,7 +3205,7 @@
                                         },
                                         {
                                             "name": "RUNWAY ML",
-                                            "description": "",
+                                            "description": "RUNWAY ML is a powerful machine learning tool that enables users to create and explore AI models. With its intuitive interface and extensive library of pre-trained models, RUNWAY ML allows users to generate creative outputs, perform image and video analysis, and develop interactive applications. Whether you're an artist, designer, or developer, RUNWAY ML provides a user-friendly platform for experimenting with machine learning and pushing the boundaries of creative expression.",
                                             "payment": "Freemium",
                                             "type": "https://runwayml.com/",
                                             "skills": "",
@@ -3295,7 +3295,7 @@
                                         },
                                         {
                                             "name": "RUNWAY ML",
-                                            "description": "",
+                                            "description": "RUNWAY ML is a powerful machine learning tool that enables users to create and explore AI models. With its intuitive interface and extensive library of pre-trained models, RUNWAY ML allows users to generate creative outputs, perform image and video analysis, and develop interactive applications. Whether you're an artist, designer, or developer, RUNWAY ML provides a user-friendly platform for experimenting with machine learning and pushing the boundaries of creative expression.",
                                             "payment": "Freemium",
                                             "type": "https://runwayml.com/",
                                             "skills": "",
@@ -3385,7 +3385,7 @@
                                     "children": [
                                         {
                                             "name": "RUNWAY ML",
-                                            "description": "",
+                                            "description": "RUNWAY ML is a powerful machine learning tool that enables users to create and explore AI models. With its intuitive interface and extensive library of pre-trained models, RUNWAY ML allows users to generate creative outputs, perform image and video analysis, and develop interactive applications. Whether you're an artist, designer, or developer, RUNWAY ML provides a user-friendly platform for experimenting with machine learning and pushing the boundaries of creative expression.",
                                             "payment": "Freemium",
                                             "type": "https://runwayml.com/",
                                             "skills": "",
@@ -3580,7 +3580,7 @@
                                     "children": [
                                         {
                                             "name": "RUNWAY ML",
-                                            "description": "",
+                                            "description": "RUNWAY ML is a powerful machine learning tool that enables users to create and explore AI models. With its intuitive interface and extensive library of pre-trained models, RUNWAY ML allows users to generate creative outputs, perform image and video analysis, and develop interactive applications. Whether you're an artist, designer, or developer, RUNWAY ML provides a user-friendly platform for experimenting with machine learning and pushing the boundaries of creative expression.",
                                             "payment": "Freemium",
                                             "type": "https://runwayml.com/",
                                             "skills": "",
@@ -3595,7 +3595,7 @@
                                     "children": [
                                         {
                                             "name": "RUNWAY ML",
-                                            "description": "",
+                                            "description": "RUNWAY ML is a powerful machine learning tool that enables users to create and explore AI models. With its intuitive interface and extensive library of pre-trained models, RUNWAY ML allows users to generate creative outputs, perform image and video analysis, and develop interactive applications. Whether you're an artist, designer, or developer, RUNWAY ML provides a user-friendly platform for experimenting with machine learning and pushing the boundaries of creative expression.",
                                             "payment": "Freemium",
                                             "type": "https://runwayml.com/",
                                             "skills": "",
@@ -3625,7 +3625,7 @@
                                     "children": [
                                         {
                                             "name": "Akiwi",
-                                            "description": "",
+                                            "description": "Akiwi is a platform that provides a comprehensive set of tools and services for data management and analysis. With its user-friendly interface and powerful features, Akiwi enables users to efficiently organize, process, and visualize their data. Whether you're a data scientist, analyst, or researcher, Akiwi offers a wide range of capabilities to support your data-driven projects and decision-making processes.",
                                             "payment": "Free",
                                             "type": "http://www.akiwi.eu/",
                                             "skills": "",
@@ -3635,7 +3635,7 @@
                                         },
                                         {
                                             "name": "Datature",
-                                            "description": "",
+                                            "description": "Datature is a comprehensive data management and analysis platform that empowers users to efficiently organize, process, and analyze their data. With its user-friendly interface and powerful features, Datature enables data scientists, analysts, and researchers to gain valuable insights and make data-driven decisions. Whether you're working on machine learning projects, data analysis, or research, Datature offers a wide range of capabilities to support your data workflows and drive innovation.",
                                             "payment": "Freemium",
                                             "type": "https://www.datature.io/",
                                             "skills": "",
@@ -3645,7 +3645,7 @@
                                         },
                                         {
                                             "name": "Lobe",
-                                            "description": "",
+                                            "description": "Lobe is a user-friendly machine learning platform that allows users to easily build, train, and deploy custom machine learning models. With its intuitive interface and drag-and-drop functionality, Lobe simplifies the process of creating AI models without requiring extensive coding knowledge. Whether you're a developer, designer, or hobbyist, Lobe provides a seamless experience for harnessing the power of machine learning in your projects.",
                                             "payment": "Free",
                                             "type": "https://www.lobe.ai/",
                                             "skills": "",
@@ -3665,7 +3665,7 @@
                                         },
                                         {
                                             "name": "RUNWAY ML",
-                                            "description": "",
+                                            "description": "RUNWAY ML is a powerful machine learning tool that enables users to create and explore AI models. With its intuitive interface and extensive library of pre-trained models, RUNWAY ML allows users to generate creative outputs, perform image and video analysis, and develop interactive applications. Whether you're an artist, designer, or developer, RUNWAY ML provides a user-friendly platform for experimenting with machine learning and pushing the boundaries of creative expression.",
                                             "payment": "Freemium",
                                             "type": "https://runwayml.com/",
                                             "skills": "",
@@ -3695,7 +3695,7 @@
                                     "children": [
                                         {
                                             "name": "GPTzero",
-                                            "description": "",
+                                            "description": "GPTzero is a powerful language model that utilizes the GPT architecture to generate human-like text. With its advanced natural language processing capabilities, GPTzero can be used for a wide range of applications, including text generation, language translation, chatbots, and more. Whether you're a developer, writer, or researcher, GPTzero provides a versatile tool for enhancing language-related tasks and creating engaging content.",
                                             "payment": "Free",
                                             "type": "https://gptzero.me/",
                                             "skills": "",
@@ -3740,7 +3740,7 @@
                                     "children": [
                                         {
                                             "name": "Visily AI",
-                                            "description": "",
+                                            "description": "Visily AI is an innovative AI-powered design tool that revolutionizes the way users create and edit visual content. With its advanced algorithms and cutting-edge features, Visily AI offers a seamless design experience for professionals and beginners alike. Whether you're designing graphics, editing photos, or creating animations, Visily AI provides a wide range of tools and customization options to bring your creative vision to life. From intelligent image enhancement to automated design suggestions, Visily AI empowers users to unleash their creativity and achieve stunning results.",
                                             "payment": "Free",
                                             "type": "https://www.visily.ai/",
                                             "skills": "",
@@ -4070,7 +4070,7 @@
                                     "children": [
                                         {
                                             "name": "Ermine ai",
-                                            "description": "",
+                                            "description": "Ermine AI is an innovative artificial intelligence platform that offers a wide range of tools and capabilities for data analysis and decision-making. With its advanced algorithms and machine learning models, Ermine AI enables users to extract valuable insights from complex datasets and make informed business decisions. It provides a user-friendly interface and a comprehensive set of features, including data visualization, predictive analytics, and anomaly detection. Whether you're a data scientist, analyst, or business professional, Ermine AI empowers you to harness the power of AI and unlock the full potential of your data.",
                                             "payment": "Free",
                                             "type": "https://www.ermine.ai/",
                                             "skills": "",
@@ -4080,7 +4080,7 @@
                                         },
                                         {
                                             "name": "Good Tape",
-                                            "description": "",
+                                            "description": "Good Tape is a versatile tool that offers a wide range of features for managing and organizing digital files. With its intuitive interface and powerful capabilities, Good Tape allows users to easily store, categorize, and retrieve files of various formats. Whether you're a student, professional, or hobbyist, Good Tape provides a reliable solution for efficient file management and organization.",
                                             "payment": "Free",
                                             "type": "https://www.mygoodtape.com/",
                                             "skills": "",
@@ -4110,7 +4110,7 @@
                                     "children": [
                                         {
                                             "name": "TrainEngine ai",
-                                            "description": "",
+                                            "description": "TrainEngine ai is an AI-powered design tool that provides users with advanced capabilities for creating and editing visual content. With its cutting-edge algorithms and extensive feature set, TrainEngine ai empowers designers, artists, and developers to unleash their creativity and achieve stunning results. Whether you're designing graphics, editing photos, or creating animations, TrainEngine ai offers a wide range of tools and customization options to bring your creative vision to life.",
                                             "payment": "Free",
                                             "type": "https://trainengine.ai/",
                                             "skills": "",
@@ -4125,7 +4125,7 @@
                                     "children": [
                                         {
                                             "name": "TrainEngine ai",
-                                            "description": "",
+                                            "description": "TrainEngine ai is an AI-powered design tool that provides users with advanced capabilities for creating and editing visual content. With its cutting-edge algorithms and extensive feature set, TrainEngine ai empowers designers, artists, and developers to unleash their creativity and achieve stunning results. Whether you're designing graphics, editing photos, or creating animations, TrainEngine ai offers a wide range of tools and customization options to bring your creative vision to life.",
                                             "payment": "Free",
                                             "type": "https://trainengine.ai/",
                                             "skills": "",
@@ -4140,7 +4140,7 @@
                                     "children": [
                                         {
                                             "name": "Visily AI",
-                                            "description": "",
+                                            "description": "Visily AI is an innovative AI-powered design tool that revolutionizes the way users create and edit visual content. With its advanced algorithms and cutting-edge features, Visily AI offers a seamless design experience for professionals and beginners alike. Whether you're designing graphics, editing photos, or creating animations, Visily AI provides a wide range of tools and customization options to bring your creative vision to life. From intelligent image enhancement to automated design suggestions, Visily AI empowers users to unleash their creativity and achieve stunning results.",
                                             "payment": "Free",
                                             "type": "https://www.visily.ai/",
                                             "skills": "",
@@ -4160,7 +4160,7 @@
                                     "children": [
                                         {
                                             "name": "Generated Photos",
-                                            "description": "",
+                                            "description": "Generated Photos is a platform that provides users with a vast collection of high-quality, AI-generated images. With its extensive library of diverse and realistic photos, Generated Photos offers a valuable resource for designers, developers, and content creators. Whether you need images for websites, presentations, or marketing materials, Generated Photos allows you to easily find and use visually appealing visuals to enhance your projects.",
                                             "payment": "Freemium",
                                             "type": "https://generated.photos/",
                                             "skills": "",
@@ -4250,7 +4250,7 @@
                                         },
                                         {
                                             "name": "Fig GPT Figma Plugin",
-                                            "description": "",
+                                            "description": "Fig GPT Figma Plugin is a powerful tool that integrates the capabilities of OpenAI's GPT-3 language model into the Figma design tool. With this plugin, designers can generate text content, create conversational interfaces, and automate repetitive tasks directly within Figma. Fig GPT Figma Plugin enhances the design workflow by providing AI-powered assistance and expanding the possibilities of what can be achieved in Figma.",
                                             "payment": "Free",
                                             "type": "https://www.figma.com/community/plugin/1207913933994957698/FigGPT",
                                             "skills": "",
@@ -4300,7 +4300,7 @@
                                     "children": [
                                         {
                                             "name": "Midjourney",
-                                            "description": "",
+                                            "description": "Midjourney is a premium design tool that offers a comprehensive set of features for creating and editing visual content. With its advanced capabilities and user-friendly interface, Midjourney empowers designers, artists, and developers to bring their creative ideas to life. Whether you're designing graphics, editing photos, or creating animations, Midjourney provides a wide range of tools and customization options to enhance your creative workflow and achieve professional results.",
                                             "payment": "Premium",
                                             "type": "https://www.midjourney.com/app/",
                                             "skills": "",
@@ -4315,7 +4315,7 @@
                                     "children": [
                                         {
                                             "name": "Midjourney",
-                                            "description": "",
+                                            "description": "Midjourney is a premium design tool that offers a comprehensive set of features for creating and editing visual content. With its advanced capabilities and user-friendly interface, Midjourney empowers designers, artists, and developers to bring their creative ideas to life. Whether you're designing graphics, editing photos, or creating animations, Midjourney provides a wide range of tools and customization options to enhance your creative workflow and achieve professional results.",
                                             "payment": "Premium",
                                             "type": "https://www.midjourney.com/app/",
                                             "skills": "",
@@ -4645,7 +4645,7 @@
                                         },
                                         {
                                             "name": "Deciphr AI",
-                                            "description": "",
+                                            "description": "Deciphr AI is an advanced artificial intelligence tool that offers powerful capabilities for data analysis and interpretation. With its sophisticated algorithms and machine learning models, Deciphr AI can uncover valuable insights from complex datasets, helping businesses make data-driven decisions. It provides a user-friendly interface and a wide range of features, including data visualization, predictive analytics, and anomaly detection. Whether you're a data scientist, analyst, or business professional, Deciphr AI provides a reliable solution for extracting meaningful information from your data.",
                                             "payment": "Freemium",
                                             "type": "https://www.deciphr.ai/",
                                             "skills": "",
@@ -4860,7 +4860,7 @@
                                     "children": [
                                         {
                                             "name": "Kumu",
-                                            "description": "",
+                                            "description": "Kumu is a powerful visualization platform that allows users to create interactive and dynamic network diagrams. With its intuitive interface and advanced features, Kumu enables users to analyze and visualize complex relationships and connections within their data. It provides a wide range of visualization options, including interactive layouts, filtering, and clustering, allowing users to explore and understand the structure and dynamics of networks. Whether you're a researcher, data scientist, or social network analyst, Kumu offers a valuable tool for visualizing and analyzing network data.",
                                             "payment": "Free",
                                             "type": "https://kumu.io/",
                                             "skills": "",
