@@ -3,7 +3,7 @@ import Layout from "../components/Layout";
 
 const Resources = () => {
   return (
-    <Layout>
+    <Layout currentPage="resources">
       <h1 className="mt-[33px]">Resources</h1>
     </Layout>
   );

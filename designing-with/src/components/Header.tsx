@@ -1,8 +1,61 @@
 import React from "react";
 
-const Header = () => {
+const Header = ({ currentPage = "home" }: { currentPage?: string }) => {
   const [showResults, setShowResults] = React.useState(false);
   const onClick = () => setShowResults(!showResults);
+
+  const getPageTitleDiv = (currentPage: string) => {
+    switch (currentPage) {
+      case "about":
+        return (
+          <a
+            className="flex justify-center bg-purple rounded-xl px-3"
+            href="/about"
+          >
+            <p>About</p>
+          </a>
+        );
+      case "ai-for-designers":
+        return (
+          <a
+            className="flex justify-center bg-blue rounded-xl px-3"
+            href="/ai-for-designers"
+          >
+            <p>AI for Designers</p>
+          </a>
+        );
+      case "interactive-framework":
+        return (
+          <a
+            className="flex justify-center bg-grey rounded-xl px-3"
+            href="/interactive-framework"
+          >
+            <p>Interactive Framework</p>
+          </a>
+        );
+      case "didactic-guidelines":
+        return (
+          <a
+            className="flex justify-center bg-green rounded-xl px-3"
+            href="/didactic-guidelines"
+          >
+            <p>Didactic Guidelines</p>
+          </a>
+        );
+      case "resources":
+        return (
+          <a
+            className="flex justify-center bg-orange rounded-xl px-3"
+            href="/resources"
+          >
+            <p>Resources</p>
+          </a>
+        );
+      default:
+        return <></>;
+    }
+  };
+
   return (
     <div className="h-full w-full z-0">
       {showResults ? <BlurredBack /> : null}
@@ -16,7 +69,7 @@ const Header = () => {
         >
           <p>{showResults ? "⨯" : "+"}</p>
         </button>
-        {showResults ? <Results /> : null}
+        {showResults ? <Results /> : getPageTitleDiv(currentPage)}
       </div>
     </div>
   );

@@ -3,10 +3,11 @@ import Layout from "../components/Layout";
 import GuidelinesAccordeon from "../components/GuidelinesAccordeon";
 import AdditionalInformations from "../components/AdditionalInformations";
 import TabDisplay from "../components/TabsDisplay";
+import DidacticGuidelineSvg from "../components/DidacticGuidelineSvg";
 
 const DidacticGuidelines = () => {
   return (
-    <Layout>
+    <Layout currentPage="didactic-guidelines">
       <h1 className="mt-[33px]">AI For Designers</h1>
       <h2 className="mt-[10px]">
         The didactic guidelines are structured to provide teachers with
@@ -19,8 +20,8 @@ const DidacticGuidelines = () => {
         for the autonomous implementation of teaching modules on AI in design
         courses.
       </h2>
-      <div className="h-[800px] bg-grey w-full mt-[20px] flex justify-center items-center rounded-xl">
-        SVG Graph goes here
+      <div className="w-full mt-[20px] flex justify-center items-center rounded-xl">
+        <DidacticGuidelineSvg />
       </div>
       <TabDisplay
         tabs={[

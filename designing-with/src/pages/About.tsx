@@ -4,7 +4,7 @@ import movetiaLogo from "../assets/images/movetia-logo.png";
 
 const About = () => {
   return (
-    <Layout>
+    <Layout currentPage="about">
       <h1 className="mt-[33px]">About</h1>
       <h2 className="mt-[10px]">
         Designing With: A New Educational Module to Integrate Artificial

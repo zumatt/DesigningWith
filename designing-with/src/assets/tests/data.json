@@ -33,7 +33,7 @@
 											"payment": "Freemium",
 											"type": "Online tool",
 											"skills": "Low",
-											"tooldiagram": "chatgpt.json",
+											"tooldiagram": "chat_gpt.json",
 											"value": 1
 										}
 									]
