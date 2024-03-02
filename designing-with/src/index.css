@@ -104,10 +104,11 @@ p {
   font-family: "SuisseIntl", "Helvetica", sans-serif;
 }
 
+a div.box {
+  color: var(--mainTextColor);
+}
+
 a {
-  div.box {
-    color: var(--mainTextColor);
-  }
   text-decoration: none;
   display: flex;
 }
