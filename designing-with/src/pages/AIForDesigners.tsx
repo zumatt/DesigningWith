@@ -6,7 +6,7 @@ import TabDisplay from "../components/TabsDisplay";
 
 const AIForDesigners = () => {
   return (
-    <Layout currentPage="ai-for-designers">
+    <Layout>
       <h1 className="mt-[33px]">AI For Designers</h1>
       <h2 className="mt-[10px]">
         To incorporate artificial intelligence{" "}

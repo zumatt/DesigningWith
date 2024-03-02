@@ -7,7 +7,7 @@ import DidacticGuidelineSvg from "../components/DidacticGuidelineSvg";
 
 const DidacticGuidelines = () => {
   return (
-    <Layout currentPage="didactic-guidelines">
+    <Layout>
       <h1 className="mt-[33px]">AI For Designers</h1>
       <h2 className="mt-[10px]">
         The didactic guidelines are structured to provide teachers with

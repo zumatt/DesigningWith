@@ -34,7 +34,7 @@ const InteractiveFramework = () => {
   };
 
   return (
-    <Layout currentPage="interactive-framework">
+    <Layout>
       <a className="mt-[33px] underline cursor-pointer text-xl">
         Recommend a tool
       </a>

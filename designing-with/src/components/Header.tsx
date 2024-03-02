@@ -21,24 +21,24 @@ const Header = () => {
           <p>{showResults ? "⨯" : "+"}</p>
         </button>
         {showResults ? <Results /> : null}
-        {pathname === "/about" && (
+        {!showResults && pathname === "/about" && (
           <p className="w-fit bg-purple rounded-xl px-3">About </p>
         )}
-        {pathname === "/ai-for-designers" && (
+        {!showResults && pathname === "/ai-for-designers" && (
           <p className="w-fit bg-blue rounded-xl px-3">AI for Designers </p>
         )}
-        {pathname === "/interactive-framework" && (
+        {!showResults && pathname === "/interactive-framework" && (
           <p className="w-fit bg-grey rounded-xl px-3">
             Interactive Framework{" "}
           </p>
         )}
-        {pathname === "/didactic-guidelines" && (
+        {!showResults && pathname === "/didactic-guidelines" && (
           <p className="w-fit bg-green rounded-xl px-3">Didactic Guidelines </p>
         )}
-        {pathname === "/resources" && (
+        {!showResults && pathname === "/resources" && (
           <p className="w-fit bg-orange rounded-xl px-3">Resources </p>
         )}
-        {pathname === "/" && (
+        {!showResults && pathname === "/" && (
           <p className="w-fit bg-beige rounded-xl px-3">Let’s talk! </p>
         )}
       </div>
