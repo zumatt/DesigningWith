@@ -1,60 +1,11 @@
 import React from "react";
+import { useLocation } from "react-router-dom";
 
-const Header = ({ currentPage = "home" }: { currentPage?: string }) => {
+const Header = () => {
   const [showResults, setShowResults] = React.useState(false);
   const onClick = () => setShowResults(!showResults);
-
-  const getPageTitleDiv = (currentPage: string) => {
-    switch (currentPage) {
-      case "about":
-        return (
-          <a
-            className="flex justify-center bg-purple rounded-xl px-3"
-            href="/about"
-          >
-            <p>About</p>
-          </a>
-        );
-      case "ai-for-designers":
-        return (
-          <a
-            className="flex justify-center bg-blue rounded-xl px-3"
-            href="/ai-for-designers"
-          >
-            <p>AI for Designers</p>
-          </a>
-        );
-      case "interactive-framework":
-        return (
-          <a
-            className="flex justify-center bg-grey rounded-xl px-3"
-            href="/interactive-framework"
-          >
-            <p>Interactive Framework</p>
-          </a>
-        );
-      case "didactic-guidelines":
-        return (
-          <a
-            className="flex justify-center bg-green rounded-xl px-3"
-            href="/didactic-guidelines"
-          >
-            <p>Didactic Guidelines</p>
-          </a>
-        );
-      case "resources":
-        return (
-          <a
-            className="flex justify-center bg-orange rounded-xl px-3"
-            href="/resources"
-          >
-            <p>Resources</p>
-          </a>
-        );
-      default:
-        return <></>;
-    }
-  };
+  const location = useLocation();
+  const pathname = location.pathname;
 
   return (
     <div className="h-full w-full z-0">
@@ -69,7 +20,27 @@ const Header = ({ currentPage = "home" }: { currentPage?: string }) => {
         >
           <p>{showResults ? "⨯" : "+"}</p>
         </button>
-        {showResults ? <Results /> : getPageTitleDiv(currentPage)}
+        {showResults ? <Results /> : null}
+        {pathname === "/about" && (
+          <p className="w-fit bg-purple rounded-xl px-3">About </p>
+        )}
+        {pathname === "/ai-for-designers" && (
+          <p className="w-fit bg-blue rounded-xl px-3">AI for Designers </p>
+        )}
+        {pathname === "/interactive-framework" && (
+          <p className="w-fit bg-grey rounded-xl px-3">
+            Interactive Framework{" "}
+          </p>
+        )}
+        {pathname === "/didactic-guidelines" && (
+          <p className="w-fit bg-green rounded-xl px-3">Didactic Guidelines </p>
+        )}
+        {pathname === "/resources" && (
+          <p className="w-fit bg-orange rounded-xl px-3">Resources </p>
+        )}
+        {pathname === "/" && (
+          <p className="w-fit bg-beige rounded-xl px-3">Let’s talk! </p>
+        )}
       </div>
     </div>
   );
