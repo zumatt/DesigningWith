@@ -4,13 +4,11 @@ import Filter from "../components/Filter";
 import FilterDesignName from "../components/FilterDesignPhase";
 import FilterAICapability from "../components/FilterAICapability";
 import { useState } from "react";
-import InteractiveDiagram from "../components/InteractiveDiagram";
 import IcicleDiagram, { FilterArg } from "../components/IcicleDiagram";
 
 const InteractiveFramework = () => {
   const [showResults, setShowResults] = React.useState(false);
   const onClick = () => setShowResults(!showResults);
-  const [selectedChild, setselectedChild] = useState(false);
   const [filters, setFilters] = useState<FilterArg[]>([]);
 
   const changeFilter = (name: string) => {
@@ -35,7 +33,10 @@ const InteractiveFramework = () => {
 
   return (
     <Layout>
-      <a className="mt-[33px] underline cursor-pointer text-xl">
+      <a
+        className="mt-[33px] underline cursor-pointer text-xl"
+        href="www.google.com"
+      >
         Recommend a tool
       </a>
       <div className="flex flex-row justify-end gap-2">

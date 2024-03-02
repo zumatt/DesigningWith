@@ -361,7 +361,7 @@ const SvgDiagram = ({
             return d.id;
           });
       });
-  }, []);
+  }, [jsonDiagramUrl]);
 
   return (
     <div className="w-full overflow-x-auto">

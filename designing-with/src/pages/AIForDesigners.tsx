@@ -1,6 +1,4 @@
-import React from "react";
 import Layout from "../components/Layout";
-import GuidelinesAccordeon from "../components/GuidelinesAccordeon";
 import AdditionalInformations from "../components/AdditionalInformations";
 import TabDisplay from "../components/TabsDisplay";
 
