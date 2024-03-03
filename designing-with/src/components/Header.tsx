@@ -11,7 +11,10 @@ const Header = () => {
     <div className="h-full w-full z-0">
       {showResults ? <BlurredBack /> : null}
       <div className="flex flex-row gap-2">
-        <a className="flex justify-center bg-white rounded-xl px-3" href="/">
+        <a className="sm:flex md:hidden justify-center bg-white rounded-xl px-3" href="/">
+          <p>DW</p>
+        </a>
+        <a className="hidden md:flex justify-center bg-white rounded-xl px-3" href="/">
           <p>Designing With AI</p>
         </a>
         <button
