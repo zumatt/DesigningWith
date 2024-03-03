@@ -69,7 +69,7 @@
   margin: 0;
   font-family: "SuisseIntl", "Helvetica", sans-serif;
   font-weight: normal;
-  font-size: var(--fontHomeSizeTitle);
+  /* font-size: var(--fontHomeSizeTitle); */
   line-height: calc(var(--fontHomeSizeTitle) * 1.1);
 }
 

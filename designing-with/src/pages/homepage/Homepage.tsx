@@ -2,13 +2,13 @@ import styles from "./styles.module.css";
 
 const Homepage = () => {
   return (
-    <div className={`${styles.wrapper} p-[10px] h-screen`}>
+    <div className={`${styles.wrapper} p-[10px] h-full`}>
       <div
         className={`${styles.box} ${styles.innerGlowMain} ${styles.innerGlowWhite}`}
         id={styles["box-1"]}
       >
         <h1 className={styles.titleHome}>Designing With AI</h1>
-        <h2 className={styles.subtitleHome}>
+        <h2 className= {styles.subtitleHome}>
           A New Educational Module to Integrate Artificial Intelligence, Machine
           Learning and Data Visualization in Design Curricula
         </h2>

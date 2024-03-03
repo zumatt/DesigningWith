@@ -20,13 +20,14 @@ const AIForDesigners = () => {
         tabs={[
           {
             title: "(a) AI capabilities",
+            mobileTitle:'(a)',
             elements: (
               <div>
                 <h2>
                   A set of 12 AI capabilities structuring a basic AI literacy
                   for designers
                 </h2>
-                <div className="flex flex-row justify-between gap-[14px] mt-[50px]">
+                <div className="flex flex-col md:flex-row justify-between md:gap-[14px] mt-[50px]">
                   <p className="flex-1">
                     To use artificial intelligence, designers need first to
                     comprehend its potential, functionality, and limitations.
@@ -49,13 +50,14 @@ const AIForDesigners = () => {
           },
           {
             title: "(b) Data types",
+            mobileTitle:'(b)',
             elements: (
               <div>
                 <h2>
                   A classification of 7 data types handled by AI tools as input
                   and output
                 </h2>
-                <div className="flex flex-row justify-between gap-[14px] mt-[50px]">
+                <div className="flex flex-col md:flex-row justify-between md:gap-[14px] mt-[50px]">
                   <p className="flex-1">
                     Input and output data play pivotal roles when working with
                     AI. Identifying the data type is fundamental to choosing the
@@ -71,13 +73,14 @@ const AIForDesigners = () => {
           },
           {
             title: "(c) Design process",
+            mobileTitle:'(c)',
             elements: (
               <div>
                 <h2>
                   The definition of a design model consisting of 6 design stages
                   suitable for bring new knowledge into the educational context
                 </h2>
-                <div className="flex flex-row justify-between gap-[14px] mt-[50px]">
+                <div className="flex flex-col md:flex-row justify-between gap-[14px] mt-[50px]">
                   <p className="flex-1">
                     To integrate the new knowledge into the educational
                     environment and support teachers and students in integrating
@@ -99,10 +102,11 @@ const AIForDesigners = () => {
           },
           {
             title: "(d) AI tool collection",
+            mobileTitle:'(d)',
             elements: (
               <div>
                 <h2>AI tool collection</h2>
-                <div className="flex flex-row justify-between gap-[14px] mt-[50px]">
+                <div className="flex flex-col md:flex-row justify-between gap-[14px] mt-[50px]">
                   <p className="flex-1">
                     To support teachers and students in familiarizing with the
                     framework and accessing the AI tools, we propose an
@@ -122,7 +126,7 @@ const AIForDesigners = () => {
                   href="/interactive-framework"
                   className="w-full bg-[#72DAFB] rounded-2xl mt-[50px] p-[10px]"
                 >
-                  <p className="w-full text-center text-[50px]">
+                  <p className="w-full text-center text-[25px] md:text-[50px]">
                     Explore the collection
                   </p>
                 </a>

@@ -27,6 +27,7 @@ const DidacticGuidelines = () => {
         tabs={[
           {
             title: "Didactic Guidelines",
+            mobileTitle:'',
             elements: (
               <>
                 <div className="flex flex-row justify-between gap-[14px] mt-[20px]">
@@ -60,6 +61,7 @@ const DidacticGuidelines = () => {
           },
           {
             title: "About didactic guidelines",
+            mobileTitle:'',
             elements: <></>,
           },
         ]}
