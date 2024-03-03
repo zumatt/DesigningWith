@@ -54,7 +54,7 @@ const IcicleDiagram = ({
         {activeStages.length > 0 ? (
           <div className="w-6 left-0 m-1"></div>
         ) : (
-          <p className="text-sm w-[334px] m-1">Design Phase</p>
+          <p className="text-sm w-full md:w-[334px] m-1">Design Phase</p>
         )}
         {activeStages.length > 1 ? (
           <div className="w-6 left-0 m-1"></div>
@@ -77,12 +77,12 @@ const IcicleDiagram = ({
           <p className="text-sm w-[334px] m-1">Tool</p>
         )}
       </div>
-      <div className="flex flex-row h-full w-full overflow-x-hidden overflow-y-visible">
+      <div className="flex flex-col md:flex-row h-full w-full md:overflow-x-hidden overflow-x-visible md:overflow-y-visible">
         {activeStages.map((stage) => (
           <button
             key={stage.name}
             onClick={() => toggleStage(stage, [])}
-            className="flex bg-white rounded justify-center [writing-mode:vertical-rl] rotate-180 w-6 h-full left-0 m-1 h-content"
+            className="hidden md:flex bg-white rounded justify-center [writing-mode:vertical-rl] rotate-180 w-6 h-full left-0 m-1 h-content"
           >
             {stage.name}
           </button>

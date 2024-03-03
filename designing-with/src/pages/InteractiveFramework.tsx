@@ -39,14 +39,14 @@ const InteractiveFramework = () => {
       >
         Recommend a tool
       </a>
-      <div className="flex flex-row justify-end gap-2">
+      <div className="md:flex flex-row justify-end gap-2 hidden">
         <Filter name="Premium" color="border-blue" />
         <Filter name="Freemium" color="border-purple" />
         <Filter name="Free" color="border-beige" />
         <Filter name="Free-Waiting List" color="border-orange" />
       </div>
       <button
-        className={` flex w-full rounded my-2 bg-opacity-45  ${
+        className={` md:flex w-full rounded my-2 bg-opacity-45 hidden   ${
           showResults ? "bg-gray-200" : ""
         } `}
         onClick={onClick}
@@ -71,7 +71,7 @@ const Results = ({
 }) => (
   <div className=" overflow-auto flex-col h-64 w-full space-y-2">
     <FilterDesignName name="Design Phase" />
-    <div className="  pl-2 w-full flex flex-row py-2 bg-white bg-opacity-50 rounded">
+    <div className="  pl-2 w-full flex flex-col md:flex-row py-2 bg-white bg-opacity-50 rounded">
       <div className=" flex flex-col w-1/5 gap-2">
         <FilterAICapability name="Understand" onFilter={changeFilter} />
         <FilterAICapability name="Define" onFilter={changeFilter} />
@@ -86,7 +86,7 @@ const Results = ({
       </div>
     </div>
     <FilterDesignName name="AI Capability" />
-    <div className="  pl-2 w-full flex flex-row py-2 bg-white bg-opacity-50 rounded">
+    <div className="  pl-2 w-full flex flex-col md:flex-row py-2 bg-white bg-opacity-50 rounded">
       <div className=" flex flex-col w-1/5 gap-2">
         <FilterAICapability name="Classify" onFilter={changeFilter} />
         <FilterAICapability name="Collect" onFilter={changeFilter} />
@@ -109,7 +109,7 @@ const Results = ({
       </div>
     </div>
     <FilterDesignName name="Input" />
-    <div className="  pl-2 w-full flex flex-row py-2 bg-white bg-opacity-50 rounded">
+    <div className="  pl-2 w-full flex flex-col md:flex-row py-2 bg-white bg-opacity-50 rounded">
       <div className=" flex flex-col w-1/5 gap-2">
         <FilterAICapability name="Code" onFilter={changeFilter} />
         <FilterAICapability name="Drawing" onFilter={changeFilter} />
@@ -143,7 +143,7 @@ const Results = ({
       </div>
     </div>
     <FilterDesignName name="Output" />
-    <div className="  pl-2 w-full flex flex-row py-2 bg-white bg-opacity-50 rounded">
+    <div className="  pl-2 w-full flex flex-col md:flex-row py-2 bg-white bg-opacity-50 rounded">
       <div className=" flex flex-col w-1/5 gap-2">
         <FilterAICapability name="360 Image" onFilter={changeFilter} />
         <FilterAICapability name="3D" onFilter={changeFilter} />
@@ -189,7 +189,7 @@ const Results = ({
       </div>
     </div>
     <FilterDesignName name="Tool" />
-    <div className="  pl-2 w-full flex flex-row py-2 bg-white bg-opacity-50 rounded">
+    <div className="  pl-2 w-full flex flex-col md:flex-row py-2 bg-white bg-opacity-50 rounded">
       <div className=" flex flex-col w-1/5 gap-2">
         <FilterAICapability name="360 Image" onFilter={changeFilter} />
         <FilterAICapability name="3D" onFilter={changeFilter} />
