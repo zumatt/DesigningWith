@@ -11,10 +11,10 @@ const TabDisplay = ({ tabs }: { tabs: TabElement[] }) => {
             className={`flex-1 max-w-[380px] px-4 py-6 bg-[#D9D9D988] rounded-t-2xl`}
             onClick={() => setActiveTab(index)}
           >
-            <p className={activeTab === index ? "underline" : "hidden md:flex"}>
+            <p className={activeTab === index ? "underline  " : "hidden md:flex"}>
               {tab.title}
             </p>
-            <p className={activeTab === index ? " hidden md:flex underline" : ""}>
+            <p className={activeTab === index ? " hidden underline" : "md:hidden"}>
               {tab.mobileTitle}
             </p>
           </button>

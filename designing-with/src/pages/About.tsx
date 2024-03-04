@@ -3,7 +3,6 @@ import Layout from "../components/Layout";
 import movetiaLogo from "../assets/images/movetia-logo.png";
 
 const About = () => {
-  var link = <a className=" underline " href="www.movetia.ch"> www.movetia.ch</a>;
   return (
     <Layout>
       <h1 className="mt-[33px]">About</h1>
@@ -22,7 +21,7 @@ const About = () => {
         was financially supported by Movetia. Movetia promotes exchange,
         mobility and cooperation within the fields of education, training and
         youth work – in Switzerland, Europe and worldwide. {' '}
-        <a className=" underline" target='_blank' href="https://www.movetia.ch">www.movetia.ch</a>
+        <a className=" underline" rel="noreferrer" target='_blank' href="https://www.movetia.ch">www.movetia.ch</a>
         <br /> The aim of the project is to develop an experimental approach and
         collaborate on the definition of a new educational module suitable to be
         applied in multidisciplinary environments that integrate Artificial
