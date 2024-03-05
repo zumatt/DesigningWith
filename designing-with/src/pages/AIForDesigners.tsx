@@ -1,6 +1,8 @@
 import Layout from "../components/Layout";
 import AdditionalInformations from "../components/AdditionalInformations";
 import TabDisplay from "../components/TabsDisplay";
+import AiTable from "../components/AITable";
+import DesignProcessTable from "../components/DesignProcessTable";
 
 const AIForDesigners = () => {
   return (
@@ -45,6 +47,22 @@ const AIForDesigners = () => {
                     practical example are provided.
                   </p>
                 </div>
+                <div className="flex flex-col w-full mt-2 gap-2">
+                  <p className=" bg-white rounded-lg p-4 md:hidden">AI Capability</p>
+                  <div className="hidden md:flex flex-col md:w-full"><AiTable aiCap="AI Capability" desc="Description" example="Example" /></div>
+                  <AiTable aiCap="Classify" desc="Identifying by or dividing data into classes based on similar features" example="Classify an item in a picture as a car " />
+                  <AiTable aiCap="Collect" desc="Gathering data from physical or digital environments driven by research interests" example="Collecting images from an online website " />
+                  <AiTable aiCap="Debug" desc="Finding and fixing errors in given data" example="Finding errors in a string of code" />
+                  <AiTable aiCap="Generate" desc="Creating new data or contents based on given instructions or parameters" example="Generate an image from a text prompt" />
+                  <AiTable aiCap="Optimise" desc="Improving data quality and performance" example="Optimise the pixel resolution of an image" />
+                  <AiTable aiCap="Rank" desc="Organising hierarchies based on data relevance within a given context" example="Classification of words according to their use in a text" />
+                  <AiTable aiCap="Recognise" desc="Detecting and identifying patterns in data based on given instruction or previous knowledge" example="Detect the presence of cars in a video" />
+                  <AiTable aiCap="Recommend" desc="Suggesting contents based on past behaviours, preferences, or relevance within a given context" example="Recommend a colour starting from existing palette" />
+                  <AiTable aiCap="Summarise" desc="Selecting and disclosing relevant data with the overall meaning" example="Summarise a text in bullet points" />
+                  <AiTable aiCap="Test" desc="Evaluating the performance and functionality based on parameters" example="Test the performance of the SEO website." />
+                  <AiTable aiCap="Translate" desc="Transforming (existing) data from one domain to another preserving context meaning" example="Translate a text from English to Spanish" />
+                  <AiTable aiCap="Visualise" desc="Transforming data into visual outputs useful for exploration or explanation." example="Visualising a table in a graph (e.g. bar charts)" />
+                </div>
               </div>
             ),
           },
@@ -66,6 +84,16 @@ const AIForDesigners = () => {
                   <p className="flex-1">
                     For the reason of supporting designers working with data, we
                     first make clear what is meant by input and output data.
+                  </p>
+                </div>
+                <h2>Input data refers to the information that is given by a designer to an AI system, model, or algorithm to be processed or analysed.</h2>
+                <h2>Output data pertains to the outcome produced by a system as a result of processing the input data. </h2>
+                <div className="flex flex-col md:flex-row justify-between md:gap-[14px] mt-[50px]">
+                  <p className="flex-1">
+                  Based on these definitions, we then introduce seven categories of data: numerical, textual, image, audio, category, video, and structured. These categories are classified as elementary data <AdditionalInformations information=" Composite data includes video data and structured data "/> representing a single unorganised data type, or composite data constituted by different elementary data types.  
+                  </p>
+                  <p className="flex-1">
+                  Furthermore, all these data types can be considered according to their status: raw data when used as input to an AI system, and cooked data when processed as output by an AI system. Based on these four formalised poles – elementary data, composite data, raw data, cooked data – and on the seven main categories of data types, we positioned all the types of data commonly managed by AI systems on a map. 
                   </p>
                 </div>
               </div>
@@ -96,6 +124,16 @@ const AIForDesigners = () => {
                     design thinking model proposed by Ideo ( Design Council,
                     n.d., 2021).
                   </p>
+                </div>
+                <div className=" flex flex-col gap-2">
+                  <p className=" bg-white rounded-lg p-4 md:hidden">Design stages</p>
+                  <div className="hidden w-full md:flex md:flex-col "><DesignProcessTable desStages="Design stages" def="Definition" /></div>
+                  <DesignProcessTable desStages="Understand" def="Investigate the context, target groups, and stakeholders through research to explore, discover and analyse needs, barriers, attitudes, and aspirations" />
+                  <DesignProcessTable desStages="Define" def="Gather insights from the research to frame key findings to outline specific design opportunities and challenges" />
+                  <DesignProcessTable desStages="Ideate" def="Generate ideas for new design solutions in response to opportunities and challenges" />
+                  <DesignProcessTable desStages="Prototype" def="Transforming ideas into a concrete solution, making samples for use, observation, and evaluation in their context" />
+                  <DesignProcessTable desStages="Develop" def="Shaping in detail the final solution after appropriate refinements and testing" />
+                  <DesignProcessTable desStages="Release" def="Communicate, distribute, publish, and make open solutions and outputs available to the target groups, stakeholders, as well as the whole society" />
                 </div>
               </div>
             ),
@@ -135,6 +173,8 @@ const AIForDesigners = () => {
           },
         ]}
       />
+      
+    <p className="text-[12px] md:text-[15px] mt-12 md:mt-32">© 2022. This project is licensed under CC BY 4.0. Supported by Movetia. Exchange and mobility.</p>
     </Layout>
   );
 };
