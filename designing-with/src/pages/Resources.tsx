@@ -21,37 +21,45 @@ const Resources = () => {
               <>
                 <div className="flex flex-row justify-between gap-[14px] mt-[20px]">
                   <p className="flex-1">
-                    The didactic guidelines are based on the following modular
-                    infrastructure which is composed of two main modules and
-                    their relative sub-modules. The first module (“Getting
-                    Familiar”) combines the disciplines of Machine Learning,
-                    Generative Artificial Intelligence, and Data Visualization
-                    and it is intended to provide basic literacy, guided
-                    tutorials, and hands-on experiences.
+                    This section serves as a comprehensive archive of the
+                    scientific bibliography that was used as background for this
+                    research work. The section brings together a selection of
+                    literature spanning the interconnected fields of design
+                    education, machine learning and artificial intelligence.
                   </p>
                   <p className="flex-1">
-                    The second module supports students in selecting and
-                    employing AI, ML, and CV tools for the design process,
-                    addressing a defined project brief to foster the acquisition
-                    of a method in designing with AI.
+                    This collection not only supports the theoretical framework
+                    of the project, but also enriches our understanding by
+                    providing a broad spectrum of perspectives and insights into
+                    these dynamic and evolving fields.
                   </p>
                 </div>
-                <a
-                  href="/assets/data/pdf/example.pdf"
-                  download="Example"
-                  className="w-full bg-[#8CD782] rounded-2xl mt-[50px] p-[10px]"
-                >
-                  <p className="w-full text-center text-[50px]">
-                    Download the Didactic Guidelines
-                  </p>
-                </a>
               </>
             ),
           },
           {
             title: "Bibliography",
             mobileTitle: "",
-            elements: <></>,
+            elements: (
+              <>
+                <div className="flex flex-row justify-between gap-[14px] mt-[20px]">
+                  <p className="flex-1">
+                    This section collects all the terms encountered during the
+                    process and aims to unpack and clarify their meaning within
+                    the specific context of this project and the purpose they
+                    have been considered for. The following definitions have
+                    been formulated based on the literature and expert
+                    interviews to be adapted to combine design and artificial
+                    intelligence fields of theory and practice.
+                  </p>
+                  <p className="flex-1">
+                    The glossary also works as a summary of the project,
+                    providing a first overview of the contents touched and faced
+                    during the process.   
+                  </p>
+                </div>
+              </>
+            ),
           },
         ]}
       />
