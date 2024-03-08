@@ -170,7 +170,7 @@ const DidacticGuidelines = () => {
             mobileTitle:'',
             elements: 
             <>
-              <div className="flex flex-row justify-between gap-[14px] mt-[20px]">
+              <div className="flex flex-row justify-between gap-[14px] mt-[20px] mb-[20px]">
                 <p className="flex-1">
                   To build the didactic guidelines aimed to systematically integrate AI tools into design curricula, we referred to Bloom’s Taxonomy, which is one of the most recognized and widely used frameworks in the field of education. More specifically we considered the Anderson & Krathwohl (2001) model revised for 21st-Century learners.
                 </p>
@@ -179,16 +179,16 @@ const DidacticGuidelines = () => {
                 </p>
               </div>
               <h2>1.1 Categories of Knowledge Dimensions</h2>
-              <div className="flex flex-row gap-4">
+              <div className="flex flex-row mt-[20px] gap-[14px]">
                 <div className="flex flex-col w-1/2">
-                  <p>Knowledge can be classified in four dimensions: </p>
+                  <p className=" text-[29px]">Knowledge can be classified in four dimensions: </p>
                   <br/>
                   <br/>
-                  <p>(a) Factual knowledge refers to the basic elements students must know to be acquainted with a discipline or solve problems in itterminology and specific details; 
+                  <p className=" text-[29px]">(a) Factual knowledge refers to the basic elements students must know to be acquainted with a discipline or solve problems in itterminology and specific details; 
                   </p>
-                  <p>(b) Conceptual knowledge, refers to classification, categories, principles and to the interrelationships among the basic elements within a larger structure that enable them to function together. </p>
-                  <p>(c) Procedural Knowledge, refers to skills algorithms, techniques and methods of inquiry; </p>
-                  <p>(d) Metacognitive Knowledge, refers to a cognitive task, strategies and self-awareness. </p>
+                  <p className=" text-[29px]">(b) Conceptual knowledge, refers to classification, categories, principles and to the interrelationships among the basic elements within a larger structure that enable them to function together. </p>
+                  <p className=" text-[29px]">(c) Procedural Knowledge, refers to skills algorithms, techniques and methods of inquiry; </p>
+                  <p className=" text-[29px]">(d) Metacognitive Knowledge, refers to a cognitive task, strategies and self-awareness. </p>
                 </div>
                 <div className=" w-1/2 flex flex-col">
                   <div className="flex flex-row">
