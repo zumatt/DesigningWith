@@ -14,7 +14,7 @@ const GuidelinesAccordeon = ({
   };
 
   return (
-    <div className="px-4 py-6 mt-[10px] bg-[#D9D9D988] rounded-2xl">
+    <div className="px-4 w-full py-6 mt-[10px] bg-[#D9D9D988] shadow-inner shadow-white rounded-2xl">
       {" "}
       {/* shadow-[0px_0px_100px_5px_#FFF_inset]"> */}
       <div
@@ -24,7 +24,7 @@ const GuidelinesAccordeon = ({
         <p>{title}</p>
         <p className="mr-[20px] select-none">{active ? "-" : "+"}</p>
       </div>
-      {active && <div className="mt-[10px] flex flex-col">{children}</div>}
+      {active && <div className="mt-[10px] w-full flex flex-col">{children}</div>}
     </div>
   );
 };
