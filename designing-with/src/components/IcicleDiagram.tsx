@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import dataJson from "../assets/tests/data.json";
+import dataJson from "../assets/tests/data_full.json";
 import Filter from "./Filter";
 import * as d3 from "d3";
 
@@ -40,13 +40,9 @@ const IcicleDiagram = ({
   useEffect(() => {
     console.log(filters);
     if (filters.length > 0)
-      setFilteredData(filterIcicleData(dataJson, filters) ?? { name: "none" });
+      setFilteredData(filterIcicleData(dataJson, filters));
     else setFilteredData(dataJson);
   }, [filters]);
-
-  useEffect(() => {
-    console.log(filteredData);
-  }, [filteredData]);
 
   return (
     <>
@@ -372,7 +368,7 @@ const SvgDiagram = ({
 };
 
 export type FilterArg = {
-  property: string;
+  depth: number;
   values: string[];
 };
 
@@ -385,42 +381,58 @@ function filterIcicleData(
 
   // Helper function to filter children recursively
   function filterChildren(
-    children: IcicleData[] | undefined,
-    filterArgs: FilterArg[]
-  ): IcicleData[] | undefined {
-    if (!children) return undefined;
-
-    return children
-      .map((child) => filterIcicleData(child, filterArgs))
-      .filter((child) => child !== null);
-  }
-
-  // Filter the current node based on filter arguments
-  for (const filterArg of filterArgs) {
-    if (
-      filterArg.property in filteredData &&
-      // @ts-ignore
-      filterArg.values.includes(filteredData[filterArg.property] as string)
-    ) {
-      // If the property exists and its value is in the filter values, keep it
-      continue;
-    } else {
-      // If the property doesn't match, remove it
-      // @ts-ignore
-      return null;
+    data: IcicleData,
+    filterArgs: FilterArg[],
+    depth = 0
+  ): IcicleData | { type: "none" } {
+    if (depth > 4) {
+      return data;
     }
+
+    // If the current depth is in the filter arguments, filter the children
+    if (
+      filterAtDepth(filterArgs, depth) &&
+      getFiltersAtDepth(filterArgs, depth).length > 0 &&
+      !getFiltersAtDepth(filterArgs, depth).includes(data.name)
+    ) {
+      return { type: "none" };
+    }
+
+    if (!data.children || data.children.length === 0) return data;
+
+    const filteredChildren = data.children
+      ?.map((child) => filterChildren(child, filterArgs, depth + 1))
+      .filter((child) => child.type !== "none");
+
+    if (filteredChildren?.length === 0) {
+      return { type: "none" };
+    }
+
+    return {
+      ...data,
+      children: filteredChildren as IcicleData[],
+    };
   }
 
-  // Recursively filter children
-  filteredData.children = filterChildren(filteredData.children, filterArgs);
-
-  // If there are no children and the current node doesn't match filter conditions, return null
-  if (!filteredData.children && Object.keys(filteredData).length === 1) {
-    // @ts-ignore
-    return null;
-  }
-
-  return filteredData;
+  return {
+    ...filteredData,
+    children: filteredData.children
+      ?.map((child) => filterChildren(child, filterArgs, 1))
+      .filter((child) => child.type !== "none") as IcicleData[],
+  };
 }
+
+const filterAtDepth = (filterArgs: FilterArg[], depth: number): boolean => {
+  const filterExist = filterArgs.some((filter) => filter.depth === depth);
+  return filterExist;
+};
+
+const getFiltersAtDepth = (
+  filterArgs: FilterArg[],
+  depth: number
+): string[] => {
+  const filter = filterArgs.find((filter) => filter.depth === depth);
+  return filter?.values ?? [];
+};
 
 export default IcicleDiagram;
