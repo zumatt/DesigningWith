@@ -36,15 +36,7 @@ const Resources = () => {
                     of a method in designing with AI.
                   </p>
                 </div>
-                <a
-                  href="/assets/data/pdf/example.pdf"
-                  download="Example"
-                  className="w-full bg-[#8CD782] rounded-2xl mt-[50px] p-[10px]"
-                >
-                  <p className="w-full text-center text-[50px]">
-                    Download the Didactic Guidelines
-                  </p>
-                </a>
+                <h1 className=" w-full flex bg-orange rounded-lg p-4">Design Phases</h1>
               </>
             ),
           },
