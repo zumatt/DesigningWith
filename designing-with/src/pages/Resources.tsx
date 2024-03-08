@@ -34,6 +34,9 @@ const Resources = () => {
                     these dynamic and evolving fields.
                   </p>
                 </div>
+                <h1 className=" w-full flex bg-orange rounded-lg p-4">
+                  Design Phases
+                </h1>
               </>
             ),
           },
