@@ -2,14 +2,15 @@ import React from "react";
 
 interface FilterAICapabilityProps {
   name: string;
-  onFilter: (name: string) => void;
+  depth: number;
+  onFilter: (name: string, depth: number, active: boolean) => void;
 }
 
 const FilterAICapability: React.FC<FilterAICapabilityProps> = (props) => {
   const [showResults, setShowResults] = React.useState(false);
   const onClick = () => {
+    props.onFilter(props.name, props.depth, !showResults);
     setShowResults(!showResults);
-    props.onFilter(props.name);
   };
   return (
     <div>
