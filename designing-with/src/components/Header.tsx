@@ -8,18 +8,23 @@ const Header = () => {
   const pathname = location.pathname;
 
   return (
-    <div className="h-full w-full z-0">
-      {showResults ? <BlurredBack /> : null}
+    <div className="h-full w-full">
       <div className="flex flex-row gap-2">
-        <a className="sm:flex md:hidden justify-center bg-white rounded-xl px-3" href="/">
+        <a
+          className="sm:flex md:hidden justify-center bg-white rounded-xl px-3 z-10"
+          href="/"
+        >
           <p>DW</p>
         </a>
-        <a className="hidden md:flex justify-center bg-white rounded-xl px-3" href="/">
+        <a
+          className="hidden md:flex justify-center bg-white rounded-xl px-3 z-10"
+          href="/"
+        >
           <p>Designing With AI</p>
         </a>
         <button
           onClick={onClick}
-          className="flex justify-start bg-white rounded-xl px-3"
+          className="flex justify-start bg-white rounded-xl px-3 z-10"
         >
           <p>{showResults ? "⨯" : "+"}</p>
         </button>
@@ -45,6 +50,7 @@ const Header = () => {
           <p className="w-fit bg-beige rounded-xl px-3">Let’s talk! </p>
         )}
       </div>
+      {showResults ? <BlurredBack /> : null}
     </div>
   );
 };
@@ -52,13 +58,13 @@ const Header = () => {
 export default Header;
 
 const BlurredBack = () => (
-  <div className=" h-full w-full bg-grey opacity-25 z-10">
+  <div className="fixed h-screen w-screen bg-[#E9E9E9] opacity-85 z-2 top-0 left-0">
     <></>
   </div>
 );
 
 const Results = () => (
-  <div className="flex flex-col h-4 gap-2">
+  <div className="flex flex-col h-4 gap-2 z-10">
     <a className="w-fit bg-purple rounded-xl px-3" href="/about">
       <p>About</p>
     </a>
@@ -74,7 +80,10 @@ const Results = () => (
     <a className="w-fit bg-orange rounded-xl px-3" href="/resources">
       <p>Resources</p>
     </a>
-    <a className="w-fit bg-beige rounded-xl px-3" href="/">
+    <a
+      className="w-fit bg-beige rounded-xl px-3"
+      href="mailto:designingwithai@supsi.ch?subject=Let’s talk! - Designing With AI Website"
+    >
       <p>Let’s talk!</p>
     </a>
   </div>

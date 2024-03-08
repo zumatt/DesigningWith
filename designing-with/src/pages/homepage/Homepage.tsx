@@ -2,16 +2,20 @@ import styles from "./styles.module.css";
 
 const Homepage = () => {
   return (
-    <div className={`${styles.wrapper} p-[10px] h-full`}>
+    <div className={`${styles.wrapper} p-[5px]`}>
       <div
-        className={`${styles.box} ${styles.innerGlowMain} ${styles.innerGlowWhite}`}
+        className={`${styles.box} ${styles.innerGlowMain} ${styles.innerGlowWhite} flex flex-col justify-between`}
         id={styles["box-1"]}
       >
         <h1 className={styles.titleHome}>Designing With AI</h1>
-        <h2 className= {styles.subtitleHome}>
+        <h2 className={styles.subtitleHome}>
           A New Educational Module to Integrate Artificial Intelligence, Machine
           Learning and Data Visualization in Design Curricula
         </h2>
+        <div className="mt-auto">
+          © 2022. This project is licensed under CC BY 4.0. Supported by
+          Movetia. Exchange and mobility.
+        </div>
       </div>
       <a href="/about">
         <div
