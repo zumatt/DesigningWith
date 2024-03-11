@@ -312,6 +312,10 @@ const DidacticGuidelines = () => {
           },
         ]}
       />
+      <p className="text-[12px] md:text-[15px] mt-12 md:mt-0">
+        © 2022. This project is licensed under CC BY 4.0. Supported by Movetia.
+        Exchange and mobility.
+      </p>
     </Layout>
   );
 };

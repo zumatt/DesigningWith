@@ -17,11 +17,11 @@
   --blueColor: #5b99f4;
   --whiteColor: #ffffff;
   /* Font size */
-  --mainTextSize: 29px;
-  --h2TextSize: 48px;
-  --pTextSize: 29px;
-  --captionFontSize: 22px;
-  --menuFontSize: 29px;
+  --mainTextSize: 24px;
+  --h2TextSize: 39px;
+  --pTextSize: 24px;
+  --captionFontSize: 18px;
+  --menuFontSize: 24px;
   /* Font size mobile */
   --mainTextSizeMobile: 16px;
   --h2TextSizeMobile: 25px;
@@ -73,6 +73,22 @@ body {
   font-family: "SuisseIntl", "Helvetica", sans-serif;
   color: var(--mainTextColor);
   background-color: var(--backgroundColor);
+  scrollbar-width: auto;
+  scrollbar-color: #7c7c7c #ffffff00;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: none;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #7c7c7c;
+  border-radius: 5px;
 }
 
 ::selection {
@@ -91,6 +107,7 @@ h2 {
   font-size: var(--h2TextSize);
   font-weight: normal;
   font-family: "EditorialNew", "Garamond", serif;
+  line-height: 1.28;
 }
 
 h3 {

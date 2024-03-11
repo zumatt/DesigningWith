@@ -1,9 +1,14 @@
 import React from "react";
 import { useLocation } from "react-router-dom";
 
-const Header = () => {
-  const [showResults, setShowResults] = React.useState(false);
-  const onClick = () => setShowResults(!showResults);
+const Header = ({
+  menuIsOpen,
+  setMenuIsOpen,
+}: {
+  menuIsOpen: boolean;
+  setMenuIsOpen: React.Dispatch<React.SetStateAction<boolean>>;
+}) => {
+  const onClick = () => setMenuIsOpen(!menuIsOpen);
   const location = useLocation();
   const pathname = location.pathname;
 
@@ -26,31 +31,31 @@ const Header = () => {
           onClick={onClick}
           className="flex justify-start bg-white rounded-xl px-3 z-10"
         >
-          <p>{showResults ? "⨯" : "+"}</p>
+          <p>{menuIsOpen ? "⨯" : "+"}</p>
         </button>
-        {showResults ? <Results /> : null}
-        {!showResults && pathname === "/about" && (
+        {menuIsOpen ? <Results /> : null}
+        {!menuIsOpen && pathname === "/about" && (
           <p className="w-fit bg-purple rounded-xl px-3">About </p>
         )}
-        {!showResults && pathname === "/ai-for-designers" && (
+        {!menuIsOpen && pathname === "/ai-for-designers" && (
           <p className="w-fit bg-blue rounded-xl px-3">AI for Designers </p>
         )}
-        {!showResults && pathname === "/interactive-framework" && (
+        {!menuIsOpen && pathname === "/interactive-framework" && (
           <p className="w-fit bg-grey rounded-xl px-3">
             Interactive Framework{" "}
           </p>
         )}
-        {!showResults && pathname === "/didactic-guidelines" && (
+        {!menuIsOpen && pathname === "/didactic-guidelines" && (
           <p className="w-fit bg-green rounded-xl px-3">Didactic Guidelines </p>
         )}
-        {!showResults && pathname === "/resources" && (
+        {!menuIsOpen && pathname === "/resources" && (
           <p className="w-fit bg-orange rounded-xl px-3">Resources </p>
         )}
-        {!showResults && pathname === "/" && (
+        {!menuIsOpen && pathname === "/" && (
           <p className="w-fit bg-beige rounded-xl px-3">Let’s talk! </p>
         )}
       </div>
-      {showResults ? <BlurredBack /> : null}
+      {menuIsOpen ? <BlurredBack /> : null}
     </div>
   );
 };

@@ -14,8 +14,8 @@ const About = () => {
       </h2>
       <br />
       <p>
-        © 2022. This project is licensed under CC BY 4.0. Supported by Movetia.{" "}
-        <br />
+        © 2022. This project is licensed under CC BY 4.0. Supported by
+        Movetia. Exchange and mobility. <br />
         <br />
         The project was founded in September 2022 and ended in February 2024. It
         was financially supported by Movetia. Movetia promotes exchange,
@@ -75,27 +75,124 @@ const About = () => {
         </div>
         <div className="flex-1 md:w-1/3">
           <p className=" text-[12px] md:text-[15px] ">
-            <u>Massimo Botta</u> - SUPSI, Project Coordinator
+            <u>
+              <a
+                href="https://www.linkedin.com/in/massimo-botta"
+                className="inline"
+              >
+                Massimo Botta
+              </a>
+            </u>{" "}
+            - SUPSI, Project Coordinator
             <br />
-            <u>Antonella Autuori</u> - SUPSI, Research & Teaching Assistant
+            <u>
+              <a
+                href="https://www.linkedin.com/in/antonella-autuori/"
+                className="inline"
+              >
+                Antonella Autuori
+              </a>
+            </u>{" "}
+            - SUPSI, Research & Teaching Assistant
             <br />
-            <u>Matteo Subet</u> - SUPSI, Research & Teaching Assistant
+            <u>
+              <a href="https://www.linkedin.com/in/zumat/" className="inline">
+                Matteo Subet
+              </a>
+            </u>{" "}
+            - SUPSI, Research & Teaching Assistant
             <br />
-            <u>Ginevra Terenghi</u> - SUPSI, PhD Student
+            <u>
+              <a
+                href="https://www.linkedin.com/in/ginevra-terenghi-b530b21ab/"
+                className="inline"
+              >
+                Ginevra Terenghi
+              </a>
+            </u>{" "}
+            - SUPSI, PhD Student
             <br />
-            <u>Desirée Veschetti</u> - SUPSI, Research & Teaching Assistant
+            <u>
+              <a
+                href="https://www.linkedin.com/in/desir%C3%A9e-veschetti-098009b3/"
+                className="inline"
+              >
+                Desirée Veschetti
+              </a>
+            </u>{" "}
+            - SUPSI, Research & Teaching Assistant
             <br />
             <br />
-            <u>Janna Joceli Omena</u> - NOVA, Researcher and Teacher
+            <u>
+              <a
+                href="https://www.linkedin.com/in/jannajoceliomena/"
+                className="inline"
+              >
+                Janna Joceli Omena
+              </a>
+            </u>{" "}
+            - NOVA, Researcher and Teacher
             <br />
-            <u>Eduardo Leite</u> - NOVA, PhD Candidate and Teacher
+            <u>
+              <a
+                href="https://www.linkedin.com/in/eduardo-leite-3a3237232/"
+                className="inline"
+              >
+                Eduardo Leite
+              </a>
+            </u>{" "}
+            - NOVA, PhD Candidate and Teacher
             <br />
             <br />
-            <u>Kim Frederick Chando</u> - EPFL, PhD Candidate and Teacher, Media
-            x<br />
-            Design Lab
+            <u>
+              <a
+                href="https://www.linkedin.com/in/huangjef/"
+                className="inline"
+              >
+                Jeffrey Huang
+              </a>
+            </u>{" "}
+            - EPFL, Full Professor, Media x Design Lab
             <br />
-            <u>Mikhael Johanes</u> - EPFL, Media x Design Lab
+            <u>
+              <a
+                href="https://people.epfl.ch/frederick.kim?lang=en"
+                className="inline"
+              >
+                Kim Frederick Chando
+              </a>
+            </u>{" "}
+            - EPFL, PhD Candidate and Teacher, Media x Design Lab
+            <br />
+            <u>
+              <a
+                href="https://www.linkedin.com/in/mikhael-johanes-8b55051a1/"
+                className="inline"
+              >
+                Mikhael Johanes
+              </a>
+            </u>{" "}
+            - EPFL, Media x Design Lab
+            <br />
+            <u>
+              <a
+                href="https://www.linkedin.com/in/ugo-balducci/"
+                className="inline"
+              >
+                Ugo Jean Mario Balducci
+              </a>
+            </u>{" "}
+            – EPFL, Student Assistant
+            <br />
+            <u>
+              <a
+                href="https://www.linkedin.com/in/gregory-malyk-54714a253/"
+                className="inline"
+              >
+                Gregory Malyk
+              </a>
+            </u>{" "}
+            – EPFL, Student Assistant
             <br />
             <br />
           </p>
@@ -109,49 +206,6 @@ const About = () => {
             />
           </a>
         </div>
-        {/* <div className="flex-1">
-          <p className="text-[15px]">
-            Project Coordination
-            <br />
-            SUPSI - University of Applied Sciences and Arts of Southern
-            Switzerland
-            <br />
-            <br />
-            Project Partners
-            <br />
-            NOVA - Universidade NOVA de Lisboa
-            <br />
-            EPFL - École polytechnique fédérale de Lausanne
-            <br />
-            <br />
-            Massimo Botta - SUPSI, Project Coordinator
-            <br />
-            Antonella Autuori - SUPSI, Research & Teaching Assistant
-            <br />
-            Matteo Subet - SUPSI, Research & Teaching Assistant
-            <br />
-            Ginevra Terenghi - SUPSI, PhD Student
-            <br />
-            Matteo Loglio - SUPSI, Teacher
-            <br />
-            Leonardo Angelucci - SUPSI, Teacher
-            <br />
-            Serena Cangiano - SUPSI, Teacher
-            <br />
-            Desirée Veschetti - SUPSI, Research & Teaching Assistant
-            <br />
-            <br />
-            Kim Frederick Chando - EPFL, PhD Candidate and Teacher, Media x
-            Design Lab
-            <br />
-            Mikhael Johanes - EPFL, Media x Design Lab
-            <br />
-            <br />
-            Janna Joceli Omena - NOVA, Researcher and Teacher
-            <br />
-            Eduardo Leite - NOVA, PhD Candidate and Teacher
-          </p>
-        </div> */}
       </div>
       <p className="text-[12px] md:text-[15px] mt-12 md:mt-0">
         © 2022. This project is licensed under CC BY 4.0. Supported by Movetia.
