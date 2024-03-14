@@ -6,6 +6,7 @@ import TabDisplay from "../components/TabsDisplay";
 import DidacticGuidelineSvg from "../components/DidacticGuidelineSvg";
 import DidacticGuidelineSvgModule1 from "../components/DidacticGuidelineSvgModule1";
 import DidacticGuidelineSvgModule2 from "../components/DidacticGuidelineSvgModule2";
+import DidacticGuidelineResources from "../components/DidacticGuidelineResources";
 
 const DidacticGuidelines = () => {
   return (
@@ -316,7 +317,53 @@ const DidacticGuidelines = () => {
           },
         ]}
       />
-      <p className="text-[12px] md:text-[15px] mt-12 md:mt-0">
+      <p className="mt-10">Didactic Resources</p>
+      <DidacticGuidelineResources
+        title="Co-designing with AI"
+        subtitle="16 Jul 2023, SUPSI, Mendrisio"
+        type="Event"
+        link="/assets/data/pdf/example.pdf"
+      />
+      <DidacticGuidelineResources
+        title="Co-designing with AI"
+        subtitle="16 Jul 2023, SUPSI, Mendrisio"
+        type="Event"
+        link="/assets/data/pdf/example.pdf"
+      />
+      <DidacticGuidelineResources
+        title="Co-designing with AI"
+        subtitle="16 Jul 2023, SUPSI, Mendrisio"
+        type="Event"
+        link="/assets/data/pdf/example.pdf"
+      />
+      <DidacticGuidelineResources
+        title="Co-designing with AI"
+        subtitle="16 Jul 2023, SUPSI, Mendrisio"
+        type="Event"
+        link="/assets/data/pdf/example.pdf"
+      />
+      <DidacticGuidelineResources
+        title="Digital Plot"
+        type="Resources"
+        link="/assets/data/pdf/example.pdf"
+      />
+      <DidacticGuidelineResources
+        title="Digital Plot"
+        type="Resources"
+        link="/assets/data/pdf/example.pdf"
+      />
+      <DidacticGuidelineResources
+        title="Digital Plot"
+        type="Resources"
+        link="/assets/data/pdf/example.pdf"
+      />
+      <DidacticGuidelineResources
+        title="Digital Plot"
+        type="Resources"
+        link="/assets/data/pdf/example.pdf"
+      />
+
+      <p className="text-[12px] md:text-[15px] mt-10">
         © 2022. This project is licensed under CC BY 4.0. Supported by Movetia.
         Exchange and mobility.
       </p>
