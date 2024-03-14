@@ -1,4 +1,3 @@
-import { useState } from "react";
 import Filter from "./Filter";
 import { IcicleData } from "./IcicleDiagram";
 import { SvgDiagram } from "./SvgDiagramTool";

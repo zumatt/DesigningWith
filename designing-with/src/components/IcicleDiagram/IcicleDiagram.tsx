@@ -12,6 +12,7 @@ export type IcicleData = {
   tooldiagram?: string;
   value?: number;
   link?: string;
+  inFilter?: boolean;
 };
 
 const IcicleDiagram = ({
@@ -154,7 +155,16 @@ const RenderCards = ({
   };
 
   return (
-    <div className="flex-1 flex flex-row min-w-[334px]">
+    <div
+      className={`flex-1 flex flex-row min-w-[334px] transition-all`}
+      style={{
+        opacity: Object.keys(stage).includes("inFilter")
+          ? stage.inFilter
+            ? 1
+            : 0.5
+          : 1,
+      }}
+    >
       <button
         key={stage.name}
         onClick={() => {
