@@ -11,6 +11,7 @@ export type IcicleData = {
   skills?: string;
   tooldiagram?: string;
   value?: number;
+  link?: string;
 };
 
 const IcicleDiagram = ({
@@ -79,14 +80,14 @@ const IcicleDiagram = ({
           <button
             key={stage.name}
             onClick={() => toggleStage(stage, [])}
-            className="hidden md:flex bg-white rounded justify-center [writing-mode:vertical-rl] rotate-180 w-6 h-full left-0 m-1 h-content"
+            className="hidden md:flex bg-white rounded justify-center item-center [writing-mode:vertical-rl] rotate-180 w-6 h-full left-0 m-1 h-content p-1"
           >
             {stage.name}
           </button>
         ))}
 
         <div
-          className="flex flex-col justify-between"
+          className="flex flex-col justify-between max-h-screen"
           style={{ width: "-webkit-fill-available" }}
         >
           {activeStages.length === 0

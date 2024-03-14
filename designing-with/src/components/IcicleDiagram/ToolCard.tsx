@@ -30,11 +30,11 @@ const RenderToolCards = ({
 
   return (
     <div
-      className={`flex bg-white rounded ${
+      className={`flex bg-white rounded-lg ${
         stage.description ? "w-[1200px]" : "w-[334px]"
       } px-2 m-1 h-content flex-col ${selectStroke(true)}`}
     >
-      <div className="flex flex-col w-full p-5">
+      <div className="flex flex-col w-full p-5  max-h-[600px] overflow-x-auto">
         <div className="flex flex-row justify-between items-center mb-5">
           <div className="flex flex-row justify-between items-center w-[60%]">
             <h1>{stage.name}</h1>
@@ -54,6 +54,11 @@ const RenderToolCards = ({
         </div>
         <h2 className="mb-10">{stage.description}</h2>
         <SvgDiagram jsonDiagramUrl={stage.tooldiagram} />
+        <div className="flex flex-row w-full justify-end mt-5">
+          <a href={stage.link}>
+            <u>Check the tool</u>
+          </a>
+        </div>
       </div>
     </div>
   );

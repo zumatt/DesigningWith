@@ -10,9 +10,9 @@ export const SvgDiagram = ({
 
   useEffect(() => {
     // set the dimensions and margins of the graph
-    var margin = { top: 10, right: 30, bottom: 30, left: 40 },
+    var margin = { top: 10, right: 10, bottom: 30, left: 10 },
       width = 1200 - margin.left - margin.right,
-      height = 800 - margin.top - margin.bottom;
+      height = 300 - margin.top - margin.bottom;
 
     // append the svg object to the body of the page
     var svg = d3
@@ -29,7 +29,7 @@ export const SvgDiagram = ({
     var columns = 4;
 
     // Calculate column width
-    var columnWidth = width / columns;
+    var columnWidth = width / columns - 30;
 
     // Upload json
     // @ts-ignore
@@ -149,7 +149,7 @@ export const SvgDiagram = ({
   }, [jsonDiagramUrl]);
 
   return (
-    <div className="w-full overflow-x-auto">
+    <div className="w-full flex flex-row justify-center">
       {/* @ts-ignore*/}
       <svg ref={ref} />
     </div>

@@ -71,12 +71,14 @@ const InteractiveFramework = () => {
       >
         Filter by ({showResults ? "-" : "+"})
       </button>
-      {showResults ? <Results changeFilter={changeFilter} /> : null}
+      {showResults ? (
+        <Results filters={filters} changeFilter={changeFilter} />
+      ) : null}
       <div className="flex flex-col w-max min-w-[100%]">
         <IcicleDiagram filters={filters} showCard={showCard} />
       </div>
       {activeCard && (
-        <div className="flex flex-row fixed bottom-0 right-0 z-10 max-h-[600px] overflow-hidden">
+        <div className="flex flex-row fixed bottom-0 right-0 z-10">
           {activeCard}
         </div>
       )}
