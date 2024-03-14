@@ -4,6 +4,7 @@ import TabDisplay from "../components/TabsDisplay";
 import AiTable from "../components/AITable";
 import DesignProcessTable from "../components/DesignProcessTable";
 import TextHighlight from "../components/TextHighlight";
+import AiForDesignersSvg from "../components/AiForDesignersSvg";
 
 const AIForDesigners = () => {
   return (
@@ -168,38 +169,158 @@ const AIForDesigners = () => {
                   />
                   <AiTable
                     aiCap="Rank"
-                    desc="Organising hierarchies based on data relevance within a given context"
-                    example="Classification of words according to their use in a text"
+                    desc={
+                      <>
+                        Organising{" "}
+                        <TextHighlight type="output">hierarchies</TextHighlight>{" "}
+                        based on{" "}
+                        <TextHighlight type="input">
+                          data relevance within a given context
+                        </TextHighlight>
+                      </>
+                    }
+                    example={
+                      <>
+                        Classification of{" "}
+                        <TextHighlight type="output">words</TextHighlight>{" "}
+                        according to their use in a{" "}
+                        <TextHighlight type="input">text</TextHighlight>
+                      </>
+                    }
                   />
                   <AiTable
                     aiCap="Recognise"
-                    desc="Detecting and identifying patterns in data based on given instruction or previous knowledge"
-                    example="Detect the presence of cars in a video"
+                    desc={
+                      <>
+                        Detecting and identifying{" "}
+                        <TextHighlight type="output">patterns</TextHighlight> in
+                        data based on{" "}
+                        <TextHighlight type="input">
+                          given instruction or previous knowledge
+                        </TextHighlight>
+                      </>
+                    }
+                    example={
+                      <>
+                        Detect the{" "}
+                        <TextHighlight type="output">
+                          presence of cars
+                        </TextHighlight>{" "}
+                        in a <TextHighlight type="input">video</TextHighlight>
+                      </>
+                    }
                   />
                   <AiTable
                     aiCap="Recommend"
-                    desc="Suggesting contents based on past behaviours, preferences, or relevance within a given context"
-                    example="Recommend a colour starting from existing palette"
+                    desc={
+                      <>
+                        Suggesting{" "}
+                        <TextHighlight type="output">contents</TextHighlight>{" "}
+                        based on{" "}
+                        <TextHighlight type="input">
+                          past behaviours, preferences,
+                        </TextHighlight>{" "}
+                        or{" "}
+                        <TextHighlight type="input">
+                          relevance within a given context
+                        </TextHighlight>
+                      </>
+                    }
+                    example={
+                      <>
+                        Recommend a{" "}
+                        <TextHighlight type="output">colour</TextHighlight>{" "}
+                        starting from{" "}
+                        <TextHighlight type="input">
+                          existing palette
+                        </TextHighlight>
+                      </>
+                    }
                   />
                   <AiTable
                     aiCap="Summarise"
-                    desc="Selecting and disclosing relevant data with the overall meaning"
-                    example="Summarise a text in bullet points"
+                    desc={
+                      <>
+                        Selecting and disclosing{" "}
+                        <TextHighlight type="output">
+                          relevant data
+                        </TextHighlight>{" "}
+                        with the{" "}
+                        <TextHighlight type="input">
+                          overall meaning
+                        </TextHighlight>
+                      </>
+                    }
+                    example={
+                      <>
+                        Summarize a{" "}
+                        <TextHighlight type="output">text</TextHighlight> in{" "}
+                        <TextHighlight type="input">
+                          bullet points
+                        </TextHighlight>
+                      </>
+                    }
                   />
                   <AiTable
                     aiCap="Test"
-                    desc="Evaluating the performance and functionality based on parameters"
-                    example="Test the performance of the SEO website."
+                    desc={
+                      <>
+                        Evaluating the{" "}
+                        <TextHighlight type="output">
+                          performance and functionality
+                        </TextHighlight>{" "}
+                        based on{" "}
+                        <TextHighlight type="input">parameters</TextHighlight>
+                      </>
+                    }
+                    example={
+                      <>
+                        Test the{" "}
+                        <TextHighlight type="output">performance</TextHighlight>{" "}
+                        of the{" "}
+                        <TextHighlight type="input">SEO website.</TextHighlight>
+                      </>
+                    }
                   />
                   <AiTable
                     aiCap="Translate"
-                    desc="Transforming (existing) data from one domain to another preserving context meaning"
-                    example="Translate a text from English to Spanish"
+                    desc={
+                      <>
+                        Transforming (existing) data from{" "}
+                        <TextHighlight type="input">one domain</TextHighlight>{" "}
+                        to <TextHighlight type="output">another</TextHighlight>{" "}
+                        preserving context meaning
+                      </>
+                    }
+                    example={
+                      <>
+                        Translate a{" "}
+                        <TextHighlight type="output">text</TextHighlight> from{" "}
+                        <TextHighlight type="input">English</TextHighlight> to{" "}
+                        <TextHighlight type="input">Spanish</TextHighlight>
+                      </>
+                    }
                   />
                   <AiTable
                     aiCap="Visualise"
-                    desc="Transforming data into visual outputs useful for exploration or explanation."
-                    example="Visualising a table in a graph (e.g. bar charts)"
+                    desc={
+                      <>
+                        Transforming{" "}
+                        <TextHighlight type="input">data</TextHighlight> into{" "}
+                        <TextHighlight type="output">
+                          visual outputs
+                        </TextHighlight>{" "}
+                        useful for exploration or explanation.
+                      </>
+                    }
+                    example={
+                      <>
+                        Visualising a{" "}
+                        <TextHighlight type="input">table</TextHighlight> in a{" "}
+                        <TextHighlight type="output">graph</TextHighlight> (e.g.
+                        bar charts)
+                      </>
+                    }
                   />
                 </div>
               </div>
@@ -254,6 +375,7 @@ const AIForDesigners = () => {
                     types of data commonly managed by AI systems on a map.
                   </p>
                 </div>
+                <AiForDesignersSvg />
               </div>
             ),
           },
@@ -266,7 +388,7 @@ const AIForDesigners = () => {
                   The definition of a design model consisting of 6 design stages
                   suitable for bring new knowledge into the educational context
                 </h2>
-                <div className="flex flex-col md:flex-row justify-between gap-[14px] mt-[50px]">
+                <div className="flex flex-col md:flex-row justify-between gap-[14px] mt-[50px] mb-[25px]">
                   <p className="flex-1">
                     To integrate the new knowledge into the educational
                     environment and support teachers and students in integrating
@@ -337,7 +459,7 @@ const AIForDesigners = () => {
                     input and output.
                   </p>
                   <p className="flex-1">
-                    Tools are selected based on their functionality and
+                    <i>Tools</i> are selected based on their functionality and
                     potential in the field of design to offer a limited and
                     qualitative number of resources suitable to support students
                     in designing with AI.
@@ -356,7 +478,7 @@ const AIForDesigners = () => {
           },
         ]}
       />
-      <p className="text-[12px] md:text-[15px] mt-12 md:mt-0">
+      <p className="text-[12px] md:text-[15px] mt-12 md:mt-[100px]">
         © 2022. This project is licensed under CC BY 4.0. Supported by Movetia.
         Exchange and mobility.
       </p>

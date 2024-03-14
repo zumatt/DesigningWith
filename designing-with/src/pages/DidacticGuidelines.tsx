@@ -4,18 +4,20 @@ import GuidelinesAccordeon from "../components/GuidelinesAccordeon";
 import AdditionalInformations from "../components/AdditionalInformations";
 import TabDisplay from "../components/TabsDisplay";
 import DidacticGuidelineSvg from "../components/DidacticGuidelineSvg";
+import DidacticGuidelineSvgModule1 from "../components/DidacticGuidelineSvgModule1";
+import DidacticGuidelineSvgModule2 from "../components/DidacticGuidelineSvgModule2";
 
 const DidacticGuidelines = () => {
   return (
     <Layout>
       <h1 className="mt-[33px]">The Guidelines</h1>
       <h2 className="mt-[10px]">
-        The didactic guidelines are structured to provide teachers with
-        Educational Objectives{" "}
+        The didactic guidelines are structured to provide teachers with{" "}
+        <i>Educational Objectives</i>{" "}
         <AdditionalInformations information="The Educational Objectives describe the knowledge and skills that students are intended to acquire" />
-        , Instructional Activities{" "}
+        , <i>Instructional Activities</i>{" "}
         <AdditionalInformations information="The Instructional Activities illustrate tasks and exercises teachers must prepare and conduct during the module to facilitate student learning" />{" "}
-        and Recommendations{" "}
+        and <i>Recommendations</i>{" "}
         <AdditionalInformations information="Recommendations suggest the students' working modalities (individual or group) and details to carry the activity on." />{" "}
         for the autonomous implementation of teaching modules on AI in design
         courses.
@@ -63,6 +65,7 @@ const DidacticGuidelines = () => {
                     will learn to employ AI to train, generate, analyze and
                     visualize data for specific design purposes.
                   </h2>
+                  <DidacticGuidelineSvgModule1 />
                   <div className="flex flex-row gap-[30px] mt-[70px]">
                     <p className=" w-1/2">
                       To promote the development of <i>personal skills</i>,
@@ -159,6 +162,7 @@ const DidacticGuidelines = () => {
                     Students will learn to choose and apply AI/ML/CV tools for
                     specific activities of the design process.
                   </h2>
+                  <DidacticGuidelineSvgModule2 />
                   <div className="flex flex-row gap-[30px] mt-[70px]">
                     <p className=" w-1/2">
                       To face this module, students need some basic knowledge of
