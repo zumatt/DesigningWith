@@ -142,7 +142,7 @@ const RenderCards = ({
   useEffect(() => {
     // @ts-ignore
     if (ref.current) setHeight(ref.current.clientHeight);
-  });
+  }, [ref]);
 
   const groupSelect = (select: string) => {
     parentsSelect(select);
