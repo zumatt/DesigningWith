@@ -170,7 +170,7 @@ const RenderCards = ({
   return (
     <div
       className={`flex flex-row transition-all ${
-        level == 1
+        level === 1
           ? "h-[30px]"
           : targetHeight > 0
           ? `h-[${height}px]`
