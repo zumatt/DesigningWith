@@ -97,6 +97,7 @@ const IcicleDiagram = ({
                   stage={stage}
                   parents={[]}
                   toggleStage={toggleStage}
+                  showCard={showCard}
                 />
               ))
             : activeStages[activeStages.length - 1].children?.map(
