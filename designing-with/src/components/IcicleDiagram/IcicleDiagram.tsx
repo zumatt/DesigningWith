@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import dataJson from "../../assets/tests/data_full.json";
 import { FilterArg, filterIcicleData } from "./FilterUtils";
 
@@ -81,14 +81,14 @@ const IcicleDiagram = ({
           <button
             key={stage.name}
             onClick={() => toggleStage(stage, [])}
-            className="hidden md:flex bg-white rounded justify-center item-center [writing-mode:vertical-rl] rotate-180 w-6 h-full left-0 m-1 h-content p-1"
+            className="hidden md:flex bg-white rounded justify-center item-center [writing-mode:vertical-rl] rotate-180 w-6 min-h-full left-0 m-1 p-1"
           >
             {stage.name}
           </button>
         ))}
 
         <div
-          className="flex flex-col justify-between max-h-screen"
+          className="flex flex-col justify-between"
           style={{ width: "-webkit-fill-available" }}
         >
           {activeStages.length === 0
@@ -107,6 +107,7 @@ const IcicleDiagram = ({
                     parents={activeStages}
                     toggleStage={toggleStage}
                     showCard={showCard}
+                    level={-activeStages.length}
                   />
                 )
               )}
@@ -122,15 +123,26 @@ const RenderCards = ({
   toggleStage,
   parentsSelect = () => {},
   showCard = () => {},
+  level = 0,
+  targetHeight = -1,
 }: {
   stage: IcicleData;
   parents: IcicleData[];
   toggleStage: (stage: IcicleData, parents: IcicleData[]) => void;
   parentsSelect?: (select: string) => void;
   showCard?: (card: IcicleData | null) => void;
+  level?: number;
+  targetHeight?: number;
 }) => {
   const [selected, setSelected] = useState<string>("");
   const [showContent, setShowContent] = useState<boolean>(false);
+  const [height, setHeight] = useState(targetHeight);
+  const ref = useRef(null);
+
+  useEffect(() => {
+    // @ts-ignore
+    if (ref.current) setHeight(ref.current.clientHeight);
+  });
 
   const groupSelect = (select: string) => {
     parentsSelect(select);
@@ -157,7 +169,13 @@ const RenderCards = ({
 
   return (
     <div
-      className={`flex-1 flex flex-row min-w-[334px] transition-all`}
+      className={`flex flex-row transition-all ${
+        level == 1
+          ? "h-[30px]"
+          : targetHeight > 0
+          ? `h-[${height}px]`
+          : "flex-1"
+      }`}
       style={{
         opacity: Object.keys(stage).includes("inFilter")
           ? stage.inFilter
@@ -165,6 +183,7 @@ const RenderCards = ({
             : 0.5
           : 1,
       }}
+      ref={ref}
     >
       <button
         key={stage.name}
@@ -178,7 +197,9 @@ const RenderCards = ({
         }}
         className={`flex bg-white rounded ${
           stage.description ? "w-[1000px]" : "w-[334px]"
-        } px-2 m-1 ${selected} h-content flex-col`}
+        } ${level < 2 ? "px-2" : "px-[0.1px]"} ${
+          level < 2 ? "m-1" : "m-[1px]"
+        } ${selected} flex-col`}
         onMouseEnter={() => {
           if (!showContent) groupSelect(selectStroke(true));
         }}
@@ -186,7 +207,7 @@ const RenderCards = ({
           if (!showContent) groupSelect(selectStroke(false));
         }}
       >
-        {stage.name}
+        {level < 2 && stage.name}
       </button>
       <div className="flex flex-col">
         {stage.children?.map((subStage) => (
@@ -196,6 +217,9 @@ const RenderCards = ({
             toggleStage={toggleStage}
             parentsSelect={groupSelect}
             showCard={showCard}
+            level={level + 1}
+            // @ts-ignore
+            targetHeight={level > 1 ? height / stage.children?.length ?? 1 : -1}
           />
         ))}
       </div>
