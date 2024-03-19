@@ -574,6 +574,7 @@ const DidacticGuidelines = () => {
                     </div>
                   </div>
                 </div>
+                <p className=" w-1/2"> Starting from this table, we established the educational objectives and the instructional activities that structure the didactic guidelines. A table for each specific teaching module is available to download from the “Didactic guidelines in practice” section.</p>
               </>
             ),
           },
