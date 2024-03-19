@@ -1,6 +1,7 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import dataJson from "../../assets/tests/data_full.json";
 import { FilterArg, filterIcicleData } from "./FilterUtils";
+import Tooltip from "@mui/material/Tooltip";
 
 export type IcicleData = {
   name: string;
@@ -26,6 +27,8 @@ const IcicleDiagram = ({
 }) => {
   const [activeStages, setActiveStages] = useState<IcicleData[]>([]);
   const [filteredData, setFilteredData] = useState<IcicleData>(dataJson);
+  const [pathTooltip, setPathTooltip] = useState<string>("");
+  const [tooltipColor, setTooltipColor] = useState<string>("");
 
   const toggleStage = (stage: IcicleData, parents: IcicleData[]) => {
     // Get the index of the stage in the activeStages array
@@ -40,6 +43,10 @@ const IcicleDiagram = ({
       setActiveStages([...parents, stage]);
     }
   };
+
+  useEffect(() => {
+    console.log(tooltipColor);
+  }, [tooltipColor]);
 
   useEffect(() => {
     if (filters.length > 0)
@@ -87,31 +94,54 @@ const IcicleDiagram = ({
           </button>
         ))}
 
-        <div
-          className="flex flex-col justify-between"
-          style={{ width: "-webkit-fill-available" }}
+        <Tooltip
+          title={pathTooltip}
+          open={pathTooltip !== ""}
+          classes={{ tooltip: tooltipColor }}
+          disableFocusListener
+          disableHoverListener
+          disableTouchListener
+          followCursor
         >
-          {activeStages.length === 0
-            ? filteredData.children?.map((stage) => (
-                <RenderCards
-                  stage={stage}
-                  parents={[]}
-                  toggleStage={toggleStage}
-                  showCard={showCard}
-                />
-              ))
-            : activeStages[activeStages.length - 1].children?.map(
-                (subStage) => (
+          <div
+            className="flex flex-col justify-between"
+            style={{ width: "-webkit-fill-available" }}
+          >
+            {activeStages.length === 0
+              ? filteredData.children?.map((stage) => (
                   <RenderCards
-                    stage={subStage}
-                    parents={activeStages}
+                    stage={stage}
+                    parents={[]}
                     toggleStage={toggleStage}
                     showCard={showCard}
-                    level={-activeStages.length}
+                    parentsSelect={(select, tree) => {
+                      setTooltipColor(select);
+                      setPathTooltip(tree.join(" / "));
+                    }}
                   />
-                )
-              )}
-        </div>
+                ))
+              : activeStages[activeStages.length - 1].children?.map(
+                  (subStage) => (
+                    <RenderCards
+                      stage={subStage}
+                      parents={activeStages}
+                      toggleStage={toggleStage}
+                      showCard={showCard}
+                      parentsSelect={(select, tree) => {
+                        if (select === "") setPathTooltip("");
+                        else {
+                          tree = [
+                            ...activeStages.map((stage) => stage.name),
+                            ...tree,
+                          ];
+                          setPathTooltip(tree.join(" / "));
+                        }
+                      }}
+                    />
+                  )
+                )}
+          </div>
+        </Tooltip>
       </div>
     </>
   );
@@ -124,28 +154,19 @@ const RenderCards = ({
   parentsSelect = () => {},
   showCard = () => {},
   level = 0,
-  targetHeight = -1,
 }: {
   stage: IcicleData;
   parents: IcicleData[];
   toggleStage: (stage: IcicleData, parents: IcicleData[]) => void;
-  parentsSelect?: (select: string) => void;
+  parentsSelect?: (select: string, tree: string[]) => void;
   showCard?: (card: IcicleData | null) => void;
   level?: number;
-  targetHeight?: number;
 }) => {
   const [selected, setSelected] = useState<string>("");
   const [showContent, setShowContent] = useState<boolean>(false);
-  const [height, setHeight] = useState(targetHeight);
-  const ref = useRef(null);
 
-  useEffect(() => {
-    // @ts-ignore
-    if (ref.current) setHeight(ref.current.clientHeight);
-  }, [ref]);
-
-  const groupSelect = (select: string) => {
-    parentsSelect(select);
+  const groupSelect = (select: string, tree: string[]) => {
+    parentsSelect(select, select === "" ? [] : [stage.name, ...tree]);
     setSelected(select);
   };
 
@@ -170,10 +191,9 @@ const RenderCards = ({
   return (
     <div
       className={`flex flex-row transition-all ${
-        level === 1
+        // @ts-ignore
+        level === 1 && !stage.description && stage.children?.length > 3
           ? "h-[30px]"
-          : targetHeight > 0
-          ? `h-[${height}px]`
           : "flex-1"
       }`}
       style={{
@@ -183,7 +203,6 @@ const RenderCards = ({
             : 0.5
           : 1,
       }}
-      ref={ref}
     >
       <button
         key={stage.name}
@@ -192,36 +211,39 @@ const RenderCards = ({
             if (!showContent) showCard(stage);
             else showCard(null);
             setShowContent((prev) => !prev);
-            groupSelect(selectStroke(false));
-          } else toggleStage(stage, parents);
+            groupSelect(selectStroke(false), []);
+          } else {
+            toggleStage(stage, parents);
+            groupSelect(selectStroke(false), []);
+          }
         }}
         className={`flex bg-white rounded ${
           stage.description ? "w-[1000px]" : "w-[334px]"
-        } ${level < 2 ? "px-2" : "px-[0.1px]"} ${
-          level < 2 ? "m-1" : "m-[1px]"
+        } ${
+          level < 2 ? "px-2 m-1" : "m-[1px] min-h-[2px]"
         } ${selected} flex-col`}
         onMouseEnter={() => {
-          if (!showContent) groupSelect(selectStroke(true));
+          if (!showContent) groupSelect(selectStroke(true), [stage.name]);
         }}
         onMouseLeave={() => {
-          if (!showContent) groupSelect(selectStroke(false));
+          if (!showContent) groupSelect(selectStroke(false), []);
         }}
       >
         {level < 2 && stage.name}
       </button>
       <div className="flex flex-col">
-        {stage.children?.map((subStage) => (
-          <RenderCards
-            stage={subStage}
-            parents={parents.concat(stage)}
-            toggleStage={toggleStage}
-            parentsSelect={groupSelect}
-            showCard={showCard}
-            level={level + 1}
-            // @ts-ignore
-            targetHeight={level > 1 ? height / stage.children?.length ?? 1 : -1}
-          />
-        ))}
+        {stage.children
+          ?.map((subStage) => (
+            <RenderCards
+              stage={subStage}
+              parents={parents.concat(stage)}
+              toggleStage={toggleStage}
+              parentsSelect={groupSelect}
+              showCard={showCard}
+              level={level + 1}
+            />
+          ))
+          .filter((elem, i) => level < 2 || i < 3)}
       </div>
     </div>
   );
