@@ -453,14 +453,126 @@ const DidacticGuidelines = () => {
                 <h2>1.3 Towards Educational Objectives and Instructional Activities</h2>
                 <div className="flex flex-row mt-[20px] gap-[14px]">
                   <div className="flex flex-col w-1/2">
-                    <p>The cognitive processes and the knowledge dimensions are combined to define the educational objectives and the instructional activities according to the following syntax.</p>
+                    <p>The cognitive processes and the knowledge dimensions are combined to define the educational objectives and the instructional activities according to the following syntax.
+                    </p>
+                    <div className=" flex flex-row">
+                      <p>statement</p>
+                      <p>+</p>
+                      <p>verb</p>
+                      <p>+</p>
+                      <p>noun</p>
+
+                    </div>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <p>Statement [EO] “Student will learn to..”</p>
+                    <p>Statement [EO] “Activity intended to..”</p>
+                    <br/>
+                    <p>The verb refers to cognitive processes  (1) Remember; (2) Understand; (3) Apply; (4) Analyze; (5) Evaluate; (6) Create. </p>
+                    <br/>
+                    <p>Nouns refer to the knowledge dimension that students are expected to acquire or build: (a) Factual Knowledge; (b) Conceptual Knowledge; (c) Procedural Knowledge; (d) Metacognitive Knowledge. </p>
+
                   </div>
+
                   <div className="flex flex-col w-1/2">
                     <p>Example</p>
                     <br/>
                     <p>Educational Objective </p>
+                    <h2>Students will learn to </h2>
+                    <h2>train a Machine Learning model to </h2>
+                    <h2>create design artefacts.</h2>
+                    <br/>
+                    <p>{'{'}AI.1{'}'} Activities intended to provide students with vocabulary knowledge of ML;</p>
+                    <br/>
+                    <p>{'{'}AI.2{'}'} Activities intended to provide students with a basic functionality of ML;</p>
+                    <br/>
+                    <p>{'{'}AI.3{'}'} Activities intended to provide students with practical examples of machine learning applied to design; </p>
+                    <br/>
+                    <p>{'{'}AI.4.1{'}'} Activities intended to explain the procedure of training a simplified machine learning model;</p>
+                    <br/>
+                    <p>{'{'}AI.4.2{'}'} Activities intended to set or align with a design goal;</p>
+                    <br/>
+                    <p>{'{'}AI.4.3{'}'} Activities intended to introduce students to familiarising, collecting or creating data;</p>
+                    <br/>
+                    <p>{'{'}AI.5{'}'} Activities intended to provide a step-by-step tool tutorial, such as RunwayML;</p>
+                    <br/>
+                    <p>{'{'}AI.6{'}'} Activities intended to allow students to individually train a simplified machine learning model for a design goal;</p>
+                    <br/>
+                    <p>{'{'}AI.7{'}'} Activities intended to provide students with a structured template for process and results documentation;</p>
+                    <br/>
                   </div>
+                </div>
+                <h2 className="flex w-full">1.4 The framework of Bloom's taxonomy table</h2>
+                <div className="flex flex-col w-full mt-4 gap-4">
+                  <div className="flex flex-row">
+                    <p className=" w-1/2">The Bloom Taxonomy proposes a table aimed to formalise and organise Educational Objectives and Instructional Activities according to knowledge dimensions and cognitive processes. The table helps educators identify instructional activities based on the educational goals of the teaching module. 
+                    </p>
+                    <p className=" w-1/2">
+                      The table is presented below. The knowledge dimension categories are organised horizontally, while cognitive process dimensions are reported in columns.
+                    </p>
+                  </div>
+                  <div className="flex flex-col w-full gap-2">
+                    <div className="flex flex-row w-full gap-2">
+                      <p className=" w-1/4 rounded-lg border text-[22px] p-4 border-green">The knowledge dimension</p>
+                      <div className="flex flex-col w-3/4 gap-2">
+                        <p className=" w-full rounded-lg border p-4 border-green">The cognitive process dimension</p>
+                        <div className="flex flex-row w-full gap-2">
+                          <p className=" w-1/6 rounded-lg border text-[22px] p-2 border-green">(1) Remember</p>
+                          <p className=" w-1/6 rounded-lg border text-[22px] p-2 border-green">(2) Understand</p>
+                          <p className=" w-1/6 rounded-lg border text-[22px] p-2 border-green">(3) Apply</p>
+                          <p className=" w-1/6 rounded-lg border text-[22px] p-2 border-green">(4) Analyze</p>
+                          <p className=" w-1/6 rounded-lg border text-[22px] p-2 border-green">(5) Evaluate</p>
+                          <p className=" w-1/6 rounded-lg border text-[22px] p-2 border-green">(6) Create</p>
+                        </div>
 
+                      </div>
+                    </div>
+                    <div className="flex flex-row w-full gap-2">
+                      <p className="w-1/4 rounded-lg border text-[22px] p-2 border-green">(a) Factual Knowledge</p>
+                      <div className="w-3/4 flex flex-row gap-2">
+                        <p className=" w-1/6 h-full rounded-lg border text-[22px] p-2 border-green"></p>
+                        <p className=" w-1/6 h-full rounded-lg border text-[22px] p-2 border-green"></p>
+                        <p className=" w-1/6 h-full rounded-lg border text-[22px] p-2 border-green"></p>
+                        <p className=" w-1/6 h-full rounded-lg border text-[22px] p-2 border-green"></p>
+                        <p className=" w-1/6 h-full rounded-lg border text-[22px] p-2 border-green"></p>
+                        <p className=" w-1/6 h-full rounded-lg border text-[22px] p-2 border-green"></p>
+                      </div>
+                    </div>
+                    <div className="flex flex-row w-full gap-2">
+                      <p className="w-1/4 rounded-lg border text-[22px] p-2 border-green">(b) Conceptual Knowledge</p>
+                      <div className="w-3/4 flex flex-row gap-2">
+                        <p className=" w-1/6 h-full rounded-lg border text-[22px] p-2 border-green"></p>
+                        <p className=" w-1/6 h-full rounded-lg border text-[22px] p-2 border-green"></p>
+                        <p className=" w-1/6 h-full rounded-lg border text-[22px] p-2 border-green"></p>
+                        <p className=" w-1/6 h-full rounded-lg border text-[22px] p-2 border-green"></p>
+                        <p className=" w-1/6 h-full rounded-lg border text-[22px] p-2 border-green"></p>
+                        <p className=" w-1/6 h-full rounded-lg border text-[22px] p-2 border-green"></p>
+                      </div>
+                    </div>
+                    <div className="flex flex-row w-full gap-2">
+                      <p className="w-1/4 rounded-lg border text-[22px] p-2 border-green">(c) Procedural Knowledge</p>
+                      <div className="w-3/4 flex flex-row gap-2">
+                        <p className=" w-1/6 h-full rounded-lg border text-[22px] p-2 border-green"></p>
+                        <p className=" w-1/6 h-full rounded-lg border text-[22px] p-2 border-green"></p>
+                        <p className=" w-1/6 h-full rounded-lg border text-[22px] p-2 border-green"></p>
+                        <p className=" w-1/6 h-full rounded-lg border text-[22px] p-2 border-green"></p>
+                        <p className=" w-1/6 h-full rounded-lg border text-[22px] p-2 border-green"></p>
+                        <p className=" w-1/6 h-full rounded-lg border text-[22px] p-2 border-green"></p>
+                      </div>
+                    </div>
+                    <div className="flex flex-row w-full gap-2">
+                      <p className="w-1/4 rounded-lg border text-[22px] p-2 border-green">(d) Meta Knowledge</p>
+                      <div className="w-3/4 flex flex-row gap-2">
+                        <p className=" w-1/6 h-full rounded-lg border text-[22px] p-2 border-green"></p>
+                        <p className=" w-1/6 h-full rounded-lg border text-[22px] p-2 border-green"></p>
+                        <p className=" w-1/6 h-full rounded-lg border text-[22px] p-2 border-green"></p>
+                        <p className=" w-1/6 h-full rounded-lg border text-[22px] p-2 border-green"></p>
+                        <p className=" w-1/6 h-full rounded-lg border text-[22px] p-2 border-green"></p>
+                        <p className=" w-1/6 h-full rounded-lg border text-[22px] p-2 border-green"></p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </>
             ),
