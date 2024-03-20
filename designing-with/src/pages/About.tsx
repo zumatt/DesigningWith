@@ -16,9 +16,8 @@ const About = () => {
       <div className="flex flex-col gap-4 md:flex-row w-full">
         <div className=" w-full md:w-1/2">
           <p>
-            © 2022. This project is licensed under CC BY 4.0. Supported by
-            Movetia. Exchange and mobility. <br />
-            <br />
+            
+            
             The project was founded in September 2022 and ended in February 2024. It
             was financially supported by Movetia. Movetia promotes exchange,
             mobility and cooperation within the fields of education, training and
