@@ -13,33 +13,46 @@ const About = () => {
         of Design, SUPSI; the EPFL and the Universidade NOVA de Lisboa.
       </h2>
       <br />
-      <p>
-        © 2022. This project is licensed under CC BY 4.0. Supported by
-        Movetia. Exchange and mobility. <br />
-        <br />
-        The project was founded in September 2022 and ended in February 2024. It
-        was financially supported by Movetia. Movetia promotes exchange,
-        mobility and cooperation within the fields of education, training and
-        youth work – in Switzerland, Europe and worldwide.{" "}
-        <a
-          className="underline inline"
-          rel="noreferrer"
-          target="_blank"
-          href="https://www.movetia.ch"
-        >
-          www.movetia.ch
-        </a>
-        <br /> The aim of the project is to develop an experimental approach and
-        collaborate on the definition of a new educational module suitable to be
-        applied in multidisciplinary environments that integrate Artificial
-        Intelligence (AI), Machine Learning (ML) and Data Visualization (DV) in
-        Design curricula.
-        <br />
-        <br /> This website collects and releases the generated knowledge and
-        pedagogical guidelines in open access to the design community, for
-        autonomous implementation of teaching activities on AI in design
-        curricula.
-      </p>
+      <div className="flex flex-row">
+        <div>
+          <p>
+            © 2022. This project is licensed under CC BY 4.0. Supported by
+            Movetia. Exchange and mobility. <br />
+            <br />
+            The project was founded in September 2022 and ended in February 2024. It
+            was financially supported by Movetia. Movetia promotes exchange,
+            mobility and cooperation within the fields of education, training and
+            youth work – in Switzerland, Europe and worldwide.{" "}
+            <a
+              className="underline inline"
+              rel="noreferrer"
+              target="_blank"
+              href="https://www.movetia.ch"
+            >
+              www.movetia.ch
+            </a>
+            <br /> The aim of the project is to develop an experimental approach and
+            collaborate on the definition of a new educational module suitable to be
+            applied in multidisciplinary environments that integrate Artificial
+            Intelligence (AI), Machine Learning (ML) and Data Visualization (DV) in
+            Design curricula.
+            <br /></p>
+          </div>
+          <div>
+            <p> This website collects and releases the generated knowledge and
+            pedagogical guidelines in open access to the design community, for
+            autonomous implementation of teaching activities on AI in design
+            curricula.
+            </p>
+            <br/>
+            <br/>
+            <p className="underline">Cite this project:</p>
+            <p> Botta, M., Autuori, A., Subet, M., Terenghi, G., (2024).<i> Designing With: A New Educational Module to Integrate Artificial Intelligence, Machine Learning and Data Visualization in Design Curricula.</i> <a href="designingwithai.ch" rel="noopener" target="_blank" className="underline">designingwithai.ch </a> 
+            </p>
+
+          </div>
+        
+      </div>
       <div className="flex flex-col md:flex-row my-[100px]">
         <div className="flex-1 md:w-1/3">
           <p className="text-[12px] md:text-[15px] ">
