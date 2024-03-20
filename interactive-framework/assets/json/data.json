@@ -20,7 +20,7 @@
                       "link": "https://parrot.ai/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "parrot_ai.json",
                       "value": 1
                     }
                   ]
@@ -40,7 +40,7 @@
                       "link": "https://bookabout.io/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "bookabout.json",
                       "value": 2
                     },
                     {
@@ -50,7 +50,7 @@
                       "link": "https://www.bookclub.ai/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "bookclub_ai.json",
                       "value": 3
                     },
                     {
@@ -60,7 +60,7 @@
                       "link": "https://www.nextthreebooks.com/",
                       "type": "Offline tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "next_three_books.json",
                       "value": 4
                     },
                     {
@@ -70,7 +70,7 @@
                       "link": "https://elicit.org/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "elicit.json",
                       "value": 5
                     },
                     {
@@ -80,7 +80,7 @@
                       "link": "https://typeset.io/",
                       "type": "Offline tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "typeset.json",
                       "value": 6
                     }
                   ]
@@ -95,7 +95,7 @@
                       "link": "https://apify.com/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "apify.json",
                       "value": 7
                     },
                     {
@@ -105,7 +105,7 @@
                       "link": "https://www.crowdtangle.com/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "crowdtangle.json",
                       "value": 8
                     },
                     {
@@ -115,7 +115,7 @@
                       "link": "https://pypi.org/project/google-play-scraper/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "google_play_scraper.json",
                       "value": 9
                     },
                     {
@@ -125,7 +125,7 @@
                       "link": "https://labs.polsys.net/tools/tumblr/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "tumblrtool.json",
                       "value": 10
                     },
                     {
@@ -135,7 +135,7 @@
                       "link": "https://github.com/bernorieder/YouTube-Data-Tools/wiki",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "youtube_data_tools.json",
                       "value": 11
                     }
                   ]
@@ -150,7 +150,7 @@
                       "link": "https://tools.digitalmethods.net/beta/wikipediaCrosslingualImageAnalysis/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "wikipedia_cross_lingual_image_analysis.json",
                       "value": 13
                     },
                     {
@@ -160,7 +160,7 @@
                       "link": "https://wikiview.net/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "wikiview_net.json",
                       "value": 14
                     }
                   ]
@@ -200,7 +200,7 @@
                       "link": "https://parrot.ai/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "parrot_ai.json",
                       "value": 15
                     }
                   ]
@@ -220,7 +220,7 @@
                       "link": "https://www.browse.ai/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "browse_ai.json",
                       "value": 16
                     }
                   ]
@@ -255,7 +255,7 @@
                       "link": "https://www.jasper.ai/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "jasper_ai.json",
                       "value": 18
                     },
                     {
@@ -265,7 +265,7 @@
                       "link": "https://www.notion.so/product/ai",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "notion_ai.json",
                       "value": 19
                     }
                   ]
@@ -295,7 +295,7 @@
                       "link": "https://foundr.ai/product/openai-in-spreadsheet",
                       "type": "Online tool",
                       "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "open_ai_in_spreadsheet.json",
                       "value": 21
                     }
                   ]
@@ -325,7 +325,7 @@
                       "link": "https://www.edgeimpulse.com/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "edge_impulse.json",
                       "value": 22
                     },
                     {
@@ -335,7 +335,7 @@
                       "link": "https://labelstud.io/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "label_studio.json",
                       "value": 23
                     }
                   ]
@@ -355,7 +355,7 @@
                       "link": "https://experiments.withgoogle.com/tiny-motion-trainer/view/",
                       "type": "Online tool",
                       "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "tiny_motion_trainer.json",
                       "value": 24
                     }
                   ]
@@ -375,7 +375,7 @@
                       "link": "https://www.edgeimpulse.com/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "edge_impulse.json",
                       "value": 25
                     },
                     {
@@ -385,7 +385,7 @@
                       "link": "https://labelstud.io/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "label_studio.json",
                       "value": 26
                     },
                     {
@@ -395,7 +395,7 @@
                       "link": "https://ml5js.org/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "ml5.js.json",
                       "value": 27
                     }
                   ]
@@ -410,7 +410,7 @@
                       "link": "https://visual-computing.com/project/imagesorter/",
                       "type": "Offline tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "image_sorter.json",
                       "value": 28
                     },
                     {
@@ -420,7 +420,7 @@
                       "link": "https://github.com/culturevis/imageplot",
                       "type": "Offline tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "imageplot.json",
                       "value": 29
                     },
                     {
@@ -430,7 +430,7 @@
                       "link": "https://www.techthoughts.info/using-imagex-capture-deploy-image-basic-example/",
                       "type": "Offline tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "imagex.json",
                       "value": 30
                     },
                     {
@@ -440,7 +440,7 @@
                       "link": "https://visual-computing.com/project/kiano/",
                       "type": "Online tool",
                       "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "kiano.json",
                       "value": 31
                     },
                     {
@@ -450,7 +450,7 @@
                       "link": "https://visual-computing.com/project/picarrange/",
                       "type": "Online tool",
                       "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "pic_arrange.json",
                       "value": 32
                     }
                   ]
@@ -470,7 +470,7 @@
                       "link": "https://home.nomic.ai/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "nomic_ai.json",
                       "value": 33
                     }
                   ]
@@ -490,7 +490,7 @@
                       "link": "https://www.edgeimpulse.com/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "edge_impulse.json",
                       "value": 34
                     },
                     {
@@ -500,7 +500,7 @@
                       "link": "https://labelstud.io/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "label_studio.json",
                       "value": 35
                     }
                   ]
@@ -515,7 +515,7 @@
                       "link": "https://elicit.org/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "elicit.json",
                       "value": 36
                     }
                   ]
@@ -530,7 +530,7 @@
                       "link": "http://textometrica.humlab.umu.se/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "textometrica.json",
                       "value": 37
                     },
                     {
@@ -540,7 +540,7 @@
                       "link": "https://wordwanderer.org/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "wordwanderer.json",
                       "value": 38
                     }
                   ]
@@ -560,7 +560,7 @@
                       "link": "https://labelstud.io/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "label_studio.json",
                       "value": 39
                     }
                   ]
@@ -585,7 +585,7 @@
                       "link": "https://parrot.ai/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "parrot_ai.json",
                       "value": 40
                     }
                   ]
@@ -605,7 +605,7 @@
                       "link": "https://www.botsheets.com/",
                       "type": "Online tool",
                       "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "bot_sheets.json",
                       "value": 41
                     }
                   ]
@@ -625,7 +625,7 @@
                       "link": "https://parrot.ai/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "parrot_ai.json",
                       "value": 42
                     },
                     {
@@ -635,7 +635,7 @@
                       "link": "https://www.transvribe.com/",
                       "type": "Online tool",
                       "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "transvribe.json",
                       "value": 43
                     }
                   ]
@@ -655,7 +655,7 @@
                       "link": "https://www.browse.ai/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "browse_ai.json",
                       "value": 44
                     }
                   ]
@@ -680,7 +680,7 @@
                       "link": "https://www.deciphr.ai/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "deciphr_ai.json",
                       "value": 45
                     },
                     {
@@ -690,7 +690,7 @@
                       "link": "https://www.ermine.ai/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "ermine_ai.json",
                       "value": 46
                     },
                     {
@@ -700,7 +700,7 @@
                       "link": "https://www.mygoodtape.com/",
                       "type": "Offline tool",
                       "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "good_tape.json",
                       "value": 47
                     }
                   ]
@@ -725,7 +725,7 @@
                       "link": "https://visual-computing.com/project/imagesorter/",
                       "type": "Offline tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "image_sorter.json",
                       "value": 48
                     },
                     {
@@ -735,7 +735,7 @@
                       "link": "https://github.com/culturevis/imageplot",
                       "type": "Offline tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "imageplot.json",
                       "value": 49
                     },
                     {
@@ -745,7 +745,7 @@
                       "link": "https://www.techthoughts.info/using-imagex-capture-deploy-image-basic-example/",
                       "type": "Offline tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "imagex.json",
                       "value": 50
                     },
                     {
@@ -755,7 +755,7 @@
                       "link": "https://visual-computing.com/project/kiano/",
                       "type": "Online tool",
                       "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "kiano.json",
                       "value": 51
                     },
                     {
@@ -765,7 +765,7 @@
                       "link": "https://visual-computing.com/project/picarrange/",
                       "type": "Online tool",
                       "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "pic_arrange.json",
                       "value": 52
                     }
                   ]
@@ -785,7 +785,7 @@
                       "link": "https://gephi.org/",
                       "type": "Offline tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "gephi.json",
                       "value": 53
                     },
                     {
@@ -795,7 +795,7 @@
                       "link": "https://kumu.io/",
                       "type": "Online tool",
                       "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "kumu.json",
                       "value": 54
                     }
                   ]
@@ -815,7 +815,7 @@
                       "link": "https://tagcrowd.com/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "tag_crowd.json",
                       "value": 55
                     },
                     {
@@ -825,7 +825,7 @@
                       "link": "http://textometrica.humlab.umu.se/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "textometrica.json",
                       "value": 56
                     },
                     {
@@ -835,7 +835,7 @@
                       "link": "https://voyant-tools.org/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "voyant_tool.json",
                       "value": 57
                     },
                     {
@@ -845,7 +845,7 @@
                       "link": "https://www.jasondavies.com/wordtree/",
                       "type": "Offline tool",
                       "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "word_tree.json",
                       "value": 58
                     },
                     {
@@ -855,7 +855,7 @@
                       "link": "https://wordwanderer.org/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "wordwanderer.json",
                       "value": 59
                     }
                   ]
@@ -880,7 +880,7 @@
                       "link": "https://runwayml.com/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "runway_ml.json",
                       "value": 60
                     }
                   ]
@@ -895,7 +895,7 @@
                       "link": "http://www.akiwi.eu/",
                       "type": "Online tool",
                       "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "akiwi.json",
                       "value": 61
                     },
                     {
@@ -905,7 +905,7 @@
                       "link": "https://www.datature.io/",
                       "type": "Online tool",
                       "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "datature.json",
                       "value": 62
                     },
                     {
@@ -915,7 +915,7 @@
                       "link": "https://labelstud.io/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "label_studio.json",
                       "value": 63
                     },
                     {
@@ -925,7 +925,7 @@
                       "link": "https://www.lobe.ai/",
                       "type": "Online tool",
                       "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "lobe.json",
                       "value": 64
                     },
                     {
@@ -935,7 +935,7 @@
                       "link": "https://ml5js.org/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "ml5.js.json",
                       "value": 65
                     },
                     {
@@ -945,7 +945,7 @@
                       "link": "https://runwayml.com/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "runway_ml.json",
                       "value": 66
                     }
                   ]
@@ -960,7 +960,7 @@
                       "link": "https://zumatt.github.io/dd-image-tagging/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "immaging_tagging_tool_interface.json",
                       "value": 67
                     },
                     {
@@ -970,7 +970,7 @@
                       "link": "https://github.com/jason-chao/memespector-GUI",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "memespector.json",
                       "value": 68
                     }
                   ]
@@ -990,7 +990,7 @@
                       "link": "https://gptzero.me/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "gptzero.json",
                       "value": 69
                     },
                     {
@@ -1000,7 +1000,7 @@
                       "link": "https://labelstud.io/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "label_studio.json",
                       "value": 70
                     }
                   ]
@@ -1020,7 +1020,7 @@
                       "link": "https://labelstud.io/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "label_studio.json",
                       "value": 71
                     }
                   ]
@@ -1045,7 +1045,7 @@
                       "link": "https://parrot.ai/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "parrot_ai.json",
                       "value": 72
                     }
                   ]
@@ -1065,7 +1065,7 @@
                       "link": "https://chatgptai.me/?ref=futuretools.io",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "arxiv_summary_generator.json",
                       "value": 73
                     },
                     {
@@ -1075,7 +1075,7 @@
                       "link": "https://typeset.io/",
                       "type": "Offline tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "typeset.json",
                       "value": 74
                     }
                   ]
@@ -1095,7 +1095,7 @@
                       "link": "https://www.figma.com/community/plugin/1207913933994957698/FigGPT",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "fig_gpt_figma_plugin.json",
                       "value": 75
                     },
                     {
@@ -1105,7 +1105,7 @@
                       "link": "https://tweetify.it/",
                       "type": "Online tool",
                       "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "tweetify_it.json",
                       "value": 76
                     }
                   ]
@@ -1120,7 +1120,7 @@
                       "link": "https://elicit.org/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "elicit.json",
                       "value": 77
                     }
                   ]
@@ -1135,7 +1135,7 @@
                       "link": "https://bluf.ai/",
                       "type": "Offline tool",
                       "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "bluf.json",
                       "value": 78
                     },
                     {
@@ -1155,7 +1155,7 @@
                       "link": "https://www.notion.so/product/ai",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "notion_ai.json",
                       "value": 80
                     },
                     {
@@ -1165,7 +1165,7 @@
                       "link": "https://www.webmagic.ai/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "webmagicai.json",
                       "value": 81
                     }
                   ]
@@ -1205,7 +1205,7 @@
                       "link": "https://eightify.app/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "eightify.json",
                       "value": 83
                     },
                     {
@@ -1215,7 +1215,7 @@
                       "link": "https://glasp.co/youtube-summary",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "glasp___youtube_summary_with_chatgpt.json",
                       "value": 84
                     },
                     {
@@ -1225,7 +1225,7 @@
                       "link": "https://parrot.ai/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "parrot_ai.json",
                       "value": 85
                     },
                     {
@@ -1235,7 +1235,7 @@
                       "link": "https://designingwithai.ch/404.html",
                       "type": "Online tool",
                       "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "tldr_youtube.json",
                       "value": 86
                     },
                     {
@@ -1245,7 +1245,7 @@
                       "link": "https://www.you-tldr.com/",
                       "type": "Online tool",
                       "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "you_tldr.json",
                       "value": 87
                     },
                     {
@@ -1255,7 +1255,7 @@
                       "link": "https://www.youtubeSummarised.com/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "youtube_summarised.json",
                       "value": 88
                     }
                   ]
@@ -1270,7 +1270,7 @@
                       "link": "https://magicbrief.com/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "magicbrief.json",
                       "value": 89
                     }
                   ]
@@ -1290,7 +1290,7 @@
                       "link": "https://www.siteexplainer.com/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "siteexplainer.json",
                       "value": 90
                     }
                   ]
@@ -1315,7 +1315,7 @@
                       "link": "https://foundr.ai/product/openai-in-spreadsheet",
                       "type": "Online tool",
                       "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "open_ai_in_spreadsheet.json",
                       "value": 91
                     }
                   ]
@@ -1340,7 +1340,7 @@
                       "link": "https://gephi.org/",
                       "type": "Offline tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "gephi.json",
                       "value": 92
                     },
                     {
@@ -1350,7 +1350,7 @@
                       "link": "https://kumu.io/",
                       "type": "Online tool",
                       "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "kumu.json",
                       "value": 93
                     },
                     {
@@ -1360,7 +1360,7 @@
                       "link": "https://home.nomic.ai/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "nomic_ai.json",
                       "value": 94
                     }
                   ]
@@ -1380,7 +1380,7 @@
                       "link": "https://tagcrowd.com/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "tag_crowd.json",
                       "value": 95
                     },
                     {
@@ -1390,7 +1390,7 @@
                       "link": "http://textometrica.humlab.umu.se/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "textometrica.json",
                       "value": 96
                     },
                     {
@@ -1400,7 +1400,7 @@
                       "link": "https://voyant-tools.org/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "voyant_tool.json",
                       "value": 97
                     },
                     {
@@ -1410,7 +1410,7 @@
                       "link": "https://www.jasondavies.com/wordtree/",
                       "type": "Offline tool",
                       "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "word_tree.json",
                       "value": 98
                     }
                   ]
@@ -1440,7 +1440,7 @@
                       "link": "https://wzrd.ai/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "wzrd_ai.json",
                       "value": 99
                     }
                   ]
@@ -1460,7 +1460,7 @@
                       "link": "https://www.autodraw.com/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "autodraw.json",
                       "value": 100
                     }
                   ]
@@ -1475,7 +1475,7 @@
                       "link": "https://teleporthq.io/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "teleporthq.json",
                       "value": 101
                     }
                   ]
@@ -1495,7 +1495,7 @@
                       "link": "https://www.visily.ai/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "visily_ai.json",
                       "value": 102
                     }
                   ]
@@ -1510,7 +1510,7 @@
                       "link": "https://runwayml.com/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "runway_ml.json",
                       "value": 103
                     },
                     {
@@ -1520,7 +1520,7 @@
                       "link": "https://trainengine.ai/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "trainengine_ai.json",
                       "value": 104
                     }
                   ]
@@ -1535,7 +1535,7 @@
                       "link": "https://runwayml.com/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "runway_ml.json",
                       "value": 106
                     },
                     {
@@ -1545,7 +1545,7 @@
                       "link": "https://trainengine.ai/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "trainengine_ai.json",
                       "value": 107
                     }
                   ]
@@ -1560,7 +1560,7 @@
                       "link": "https://interiorai.com/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "interior_ai.json",
                       "value": 108
                     }
                   ]
@@ -1575,7 +1575,7 @@
                       "link": "https://www.midjourney.com/app/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "midjourney.json",
                       "value": 109
                     }
                   ]
@@ -1590,7 +1590,7 @@
                       "link": "https://www.visily.ai/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "visily_ai.json",
                       "value": 110
                     }
                   ]
@@ -1610,7 +1610,7 @@
                       "link": "https://interiorai.com/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "interior_ai.json",
                       "value": 105
                     }
                   ]
@@ -1630,7 +1630,7 @@
                       "link": "https://generated.photos/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "generated_photos.json",
                       "value": 111
                     }
                   ]
@@ -1645,7 +1645,7 @@
                       "link": "https://stockimg.ai/text-to-book-cover",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "text_to_book_cover.json",
                       "value": 112
                     }
                   ]
@@ -1665,7 +1665,7 @@
                       "link": "https://skybox.blockadelabs.com/",
                       "type": "Offline tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "skybox_lab___blockade.json",
                       "value": 113
                     }
                   ]
@@ -1680,7 +1680,7 @@
                       "link": "https://masterpiecestudio.com/",
                       "type": "Offline tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "masterpiece_studio.json",
                       "value": 114
                     },
                     {
@@ -1690,7 +1690,7 @@
                       "link": "https://www.ponzu.gg/",
                       "type": "Online tool",
                       "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "ponzu_gg.json",
                       "value": 115
                     }
                   ]
@@ -1705,7 +1705,7 @@
                       "link": "https://soundraw.io/",
                       "type": "Online tool",
                       "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "soundraw.json",
                       "value": 116
                     }
                   ]
@@ -1720,7 +1720,7 @@
                       "link": "https://www.autoblogger.ai/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "autoblogger_ai.json",
                       "value": 117
                     },
                     {
@@ -1730,7 +1730,7 @@
                       "link": "https://reword.com/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "reword.json",
                       "value": 118
                     }
                   ]
@@ -1745,7 +1745,7 @@
                       "link": "https://www.copy.ai/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "copy_ai.json",
                       "value": 119
                     },
                     {
@@ -1755,7 +1755,7 @@
                       "link": "https://www.daydrm.ai/",
                       "type": "Online tool",
                       "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "daydrm.json",
                       "value": 120
                     },
                     {
@@ -1765,7 +1765,7 @@
                       "link": "https://www.longshot.ai/features/longshot-fact-gpt",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "fact_gpt.json",
                       "value": 121
                     },
                     {
@@ -1775,7 +1775,7 @@
                       "link": "https://www.figma.com/community/plugin/1207913933994957698/FigGPT",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "fig_gpt_figma_plugin.json",
                       "value": 122
                     },
                     {
@@ -1785,7 +1785,7 @@
                       "link": "https://adcopy.ai/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "jot___ai_ad_copy.json",
                       "value": 123
                     },
                     {
@@ -1795,7 +1795,7 @@
                       "link": "https://www.gomoonbeam.com/",
                       "type": "Offline tool",
                       "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "moonbeam.json",
                       "value": 124
                     }
                   ]
@@ -1810,7 +1810,7 @@
                       "link": "https://components.ai/",
                       "type": "Offline tool",
                       "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "components_ai.json",
                       "value": 125
                     },
                     {
@@ -1820,7 +1820,7 @@
                       "link": "https://flutterflow.io/ai-gen",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "flutterflow_ai_gen.json",
                       "value": 126
                     }
                   ]
@@ -1835,7 +1835,7 @@
                       "link": "https://appicons.ai/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "appicons_ai.json",
                       "value": 127
                     },
                     {
@@ -1845,7 +1845,7 @@
                       "link": "https://iconify.design/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "iconify.json",
                       "value": 128
                     }
                   ]
@@ -1860,7 +1860,7 @@
                       "link": "https://firefly.adobe.com/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "adobe_firefly.json",
                       "value": 129
                     },
                     {
@@ -1870,7 +1870,7 @@
                       "link": "https://openai.com/dall-e-2",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "dall_e.json",
                       "value": 130
                     },
                     {
@@ -1880,7 +1880,7 @@
                       "link": "https://beta.dreamstudio.ai/generate",
                       "type": "Offline tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "dreamstudio.json",
                       "value": 131
                     },
                     {
@@ -1890,7 +1890,7 @@
                       "link": "https://www.jasper.ai/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "jasper_ai.json",
                       "value": 132
                     },
                     {
@@ -1900,7 +1900,7 @@
                       "link": "https://looka.com/",
                       "type": "Online tool",
                       "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "looka.json",
                       "value": 133
                     },
                     {
@@ -1910,7 +1910,7 @@
                       "link": "https://icons8.com/lunacy",
                       "type": "Offline tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "lunacy.json",
                       "value": 134
                     },
                     {
@@ -1920,7 +1920,7 @@
                       "link": "https://www.midjourney.com/app/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "midjourney.json",
                       "value": 135
                     },
                     {
@@ -1930,7 +1930,7 @@
                       "link": "https://plask.ai/",
                       "type": "Online tool",
                       "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "plask_ai.json",
                       "value": 136
                     },
                     {
@@ -1940,7 +1940,7 @@
                       "link": "https://www.playform.io/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "playform_io.json",
                       "value": 137
                     },
                     {
@@ -1950,7 +1950,7 @@
                       "link": "https://runwayml.com/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "runway_ml.json",
                       "value": 138
                     },
                     {
@@ -1960,7 +1960,7 @@
                       "link": "https://stablediffusionweb.com/",
                       "type": "Offline tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "stable_diffusion.json",
                       "value": 139
                     },
                     {
@@ -1970,7 +1970,7 @@
                       "link": "http://unstock.ai/",
                       "type": "Online tool",
                       "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "unstock_ai.json",
                       "value": 140
                     }
                   ]
@@ -1985,7 +1985,7 @@
                       "link": "https://firefly.adobe.com/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "adobe_firefly.json",
                       "value": 141
                     },
                     {
@@ -1995,7 +1995,7 @@
                       "link": "https://openai.com/dall-e-2",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "dall_e.json",
                       "value": 142
                     },
                     {
@@ -2005,7 +2005,7 @@
                       "link": "https://beta.dreamstudio.ai/generate",
                       "type": "Offline tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "dreamstudio.json",
                       "value": 143
                     },
                     {
@@ -2015,7 +2015,7 @@
                       "link": "https://www.jasper.ai/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "jasper_ai.json",
                       "value": 144
                     },
                     {
@@ -2025,7 +2025,7 @@
                       "link": "https://looka.com/",
                       "type": "Online tool",
                       "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "looka.json",
                       "value": 145
                     },
                     {
@@ -2035,7 +2035,7 @@
                       "link": "https://icons8.com/lunacy",
                       "type": "Offline tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "lunacy.json",
                       "value": 146
                     },
                     {
@@ -2045,7 +2045,7 @@
                       "link": "https://www.midjourney.com/app/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "midjourney.json",
                       "value": 147
                     },
                     {
@@ -2055,7 +2055,7 @@
                       "link": "https://plask.ai/",
                       "type": "Online tool",
                       "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "plask_ai.json",
                       "value": 148
                     },
                     {
@@ -2065,7 +2065,7 @@
                       "link": "https://www.playform.io/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "playform_io.json",
                       "value": 149
                     },
                     {
@@ -2075,7 +2075,7 @@
                       "link": "https://runwayml.com/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "runway_ml.json",
                       "value": 150
                     },
                     {
@@ -2085,7 +2085,7 @@
                       "link": "https://stablediffusionweb.com/",
                       "type": "Offline tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "stable_diffusion.json",
                       "value": 151
                     },
                     {
@@ -2095,7 +2095,7 @@
                       "link": "http://unstock.ai/",
                       "type": "Online tool",
                       "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "unstock_ai.json",
                       "value": 152
                     }
                   ]
@@ -2110,7 +2110,7 @@
                       "link": "https://www.decktopus.com/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "decktopus.json",
                       "value": 153
                     },
                     {
@@ -2120,7 +2120,7 @@
                       "link": "https://pitchbob.io/",
                       "type": "Online tool",
                       "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "pitchbob.json",
                       "value": 154
                     }
                   ]
@@ -2145,7 +2145,7 @@
                       "link": "https://magician.design/",
                       "type": "Offline tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "magician.json",
                       "value": 156
                     },
                     {
@@ -2155,7 +2155,7 @@
                       "link": "https://www.notion.so/product/ai",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "notion_ai.json",
                       "value": 157
                     }
                   ]
@@ -2170,7 +2170,7 @@
                       "link": "https://withpoly.com/browse/textures",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "withpoly.json",
                       "value": 158
                     }
                   ]
@@ -2185,7 +2185,7 @@
                       "link": "https://app.artflow.ai/",
                       "type": "Online tool",
                       "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "artflow.json",
                       "value": 159
                     }
                   ]
@@ -2200,7 +2200,7 @@
                       "link": "https://butternut.ai/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "batternut_ai.json",
                       "value": 160
                     },
                     {
@@ -2210,7 +2210,7 @@
                       "link": "https://durable.co/",
                       "type": "Offline tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "durable.json",
                       "value": 161
                     }
                   ]
@@ -2240,7 +2240,7 @@
                       "link": "https://foundr.ai/product/openai-in-spreadsheet",
                       "type": "Online tool",
                       "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "open_ai_in_spreadsheet.json",
                       "value": 163
                     }
                   ]
@@ -2265,7 +2265,7 @@
                       "link": "https://www.autodraw.com/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "autodraw.json",
                       "value": 164
                     }
                   ]
@@ -2285,7 +2285,7 @@
                       "link": "https://fontjoy.com/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "fontjoy.json",
                       "value": 165
                     },
                     {
@@ -2295,7 +2295,7 @@
                       "link": "https://www.uibot.app/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "uibot.json",
                       "value": 166
                     }
                   ]
@@ -2315,7 +2315,7 @@
                       "link": "https://www.ponzu.gg/",
                       "type": "Online tool",
                       "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "ponzu_gg.json",
                       "value": 167
                     }
                   ]
@@ -2330,7 +2330,7 @@
                       "link": "https://www.daydrm.ai/",
                       "type": "Online tool",
                       "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "daydrm.json",
                       "value": 168
                     },
                     {
@@ -2340,7 +2340,7 @@
                       "link": "https://tunetheads.com/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "tunetheads.json",
                       "value": 169
                     }
                   ]
@@ -2355,7 +2355,7 @@
                       "link": "https://www.maket.ai/",
                       "type": "Offline tool",
                       "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "maket.json",
                       "value": 170
                     }
                   ]
@@ -2370,7 +2370,7 @@
                       "link": "https://wikiview.net/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "wikiview_net.json",
                       "value": 171
                     }
                   ]
@@ -2395,7 +2395,7 @@
                       "link": "https://www.tensorflow.org/tutorials/generative/pix2pix?hl=it",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "pix2pix.json",
                       "value": 172
                     }
                   ]
@@ -2415,7 +2415,7 @@
                       "link": "https://firefly.adobe.com/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "adobe_firefly.json",
                       "value": 173
                     },
                     {
@@ -2425,7 +2425,7 @@
                       "link": "https://ml5js.org/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "ml5.js.json",
                       "value": 174
                     },
                     {
@@ -2435,7 +2435,7 @@
                       "link": "https://www.playform.io/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "playform_io.json",
                       "value": 175
                     },
                     {
@@ -2445,7 +2445,7 @@
                       "link": "https://runwayml.com/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "runway_ml.json",
                       "value": 176
                     }
                   ]
@@ -2460,7 +2460,7 @@
                       "link": "https://firefly.adobe.com/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "adobe_firefly.json",
                       "value": 177
                     },
                     {
@@ -2470,7 +2470,7 @@
                       "link": "https://ml5js.org/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "ml5.js.json",
                       "value": 178
                     },
                     {
@@ -2480,7 +2480,7 @@
                       "link": "https://www.playform.io/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "playform_io.json",
                       "value": 179
                     },
                     {
@@ -2490,7 +2490,7 @@
                       "link": "https://runwayml.com/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "runway_ml.json",
                       "value": 180
                     }
                   ]
@@ -2505,7 +2505,7 @@
                       "link": "https://www.maket.ai/",
                       "type": "Offline tool",
                       "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "maket.json",
                       "value": 181
                     }
                   ]
@@ -2555,7 +2555,7 @@
                       "link": "https://foundr.ai/product/openai-in-spreadsheet",
                       "type": "Online tool",
                       "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "open_ai_in_spreadsheet.json",
                       "value": 184
                     }
                   ]
@@ -2605,7 +2605,7 @@
                       "link": "https://foundr.ai/product/openai-in-spreadsheet",
                       "type": "Online tool",
                       "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "open_ai_in_spreadsheet.json",
                       "value": 186
                     }
                   ]
@@ -2630,7 +2630,7 @@
                       "link": "https://wzrd.ai/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "wzrd_ai.json",
                       "value": 187
                     }
                   ]
@@ -2650,7 +2650,7 @@
                       "link": "https://teleporthq.io/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "teleporthq.json",
                       "value": 188
                     }
                   ]
@@ -2670,7 +2670,7 @@
                       "link": "http://www.wekinator.org/",
                       "type": "Offline tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "wekinator.json",
                       "value": 189
                     }
                   ]
@@ -2690,7 +2690,7 @@
                       "link": "https://lumalabs.ai/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "luma_ai.json",
                       "value": 190
                     },
                     {
@@ -2700,7 +2700,7 @@
                       "link": "https://make3d.app/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "make3d_app.json",
                       "value": 191
                     }
                   ]
@@ -2715,7 +2715,7 @@
                       "link": "https://runwayml.com/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "runway_ml.json",
                       "value": 192
                     },
                     {
@@ -2725,7 +2725,7 @@
                       "link": "https://trainengine.ai/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "trainengine_ai.json",
                       "value": 193
                     }
                   ]
@@ -2740,7 +2740,7 @@
                       "link": "https://runwayml.com/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "runway_ml.json",
                       "value": 194
                     },
                     {
@@ -2750,7 +2750,7 @@
                       "link": "https://trainengine.ai/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "trainengine_ai.json",
                       "value": 195
                     }
                   ]
@@ -2770,7 +2770,7 @@
                       "link": "https://generated.photos/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "generated_photos.json",
                       "value": 196
                     }
                   ]
@@ -2790,7 +2790,7 @@
                       "link": "https://twotone.io/",
                       "type": "Offline tool",
                       "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "two_tone.json",
                       "value": 197
                     }
                   ]
@@ -2810,7 +2810,7 @@
                       "link": "https://skybox.blockadelabs.com/",
                       "type": "Offline tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "skybox_lab___blockade.json",
                       "value": 198
                     }
                   ]
@@ -2825,7 +2825,7 @@
                       "link": "https://3dfy.ai/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "3dfy_ai.json",
                       "value": 199
                     },
                     {
@@ -2835,7 +2835,7 @@
                       "link": "https://masterpiecestudio.com/",
                       "type": "Offline tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "masterpiece_studio.json",
                       "value": 200
                     },
                     {
@@ -2845,7 +2845,7 @@
                       "link": "https://www.ponzu.gg/",
                       "type": "Online tool",
                       "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "ponzu_gg.json",
                       "value": 201
                     },
                     {
@@ -2855,7 +2855,7 @@
                       "link": "https://spline.design/ai",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "spline_ai.json",
                       "value": 202
                     }
                   ]
@@ -2870,7 +2870,7 @@
                       "link": "https://www.krikey.ai/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "krikey_ai.json",
                       "value": 203
                     }
                   ]
@@ -2885,7 +2885,7 @@
                       "link": "https://withsutro.com/",
                       "type": "Online tool",
                       "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "sutro.json",
                       "value": 204
                     },
                     {
@@ -2895,7 +2895,7 @@
                       "link": "https://www.wetune.chat/",
                       "type": "Online tool",
                       "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "wetune.json",
                       "value": 205
                     }
                   ]
@@ -2910,7 +2910,7 @@
                       "link": "https://beta.elevenlabs.io/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "eleven_labs.json",
                       "value": 206
                     }
                   ]
@@ -2925,7 +2925,7 @@
                       "link": "https://www.duinocodegenerator.com/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "code_generator_for_arduino.json",
                       "value": 207
                     },
                     {
@@ -2935,7 +2935,7 @@
                       "link": "https://openai.com/blog/openai-codex",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "codex.json",
                       "value": 208
                     }
                   ]
@@ -2950,7 +2950,7 @@
                       "link": "https://www.daydrm.ai/",
                       "type": "Online tool",
                       "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "daydrm.json",
                       "value": 209
                     },
                     {
@@ -2960,7 +2960,7 @@
                       "link": "https://www.longshot.ai/features/longshot-fact-gpt",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "fact_gpt_.json",
                       "value": 210
                     },
                     {
@@ -2970,7 +2970,7 @@
                       "link": "https://www.figma.com/community/plugin/1207913933994957698/FigGPT",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "fig_gpt_figma_plugin.json",
                       "value": 211
                     },
                     {
@@ -2980,7 +2980,7 @@
                       "link": "https://www.jot.ai/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "jot_ai.json",
                       "value": 212
                     }
                   ]
@@ -2995,7 +2995,7 @@
                       "link": "https://components.ai/",
                       "type": "Offline tool",
                       "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "components_ai.json",
                       "value": 213
                     },
                     {
@@ -3005,7 +3005,7 @@
                       "link": "https://debuild.app/waitlist",
                       "type": "Offline tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "debuild.json",
                       "value": 214
                     },
                     {
@@ -3015,7 +3015,7 @@
                       "link": "https://flutterflow.io/ai-gen",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "flutterflow_ai_gen.json",
                       "value": 215
                     },
                     {
@@ -3025,7 +3025,7 @@
                       "link": "https://magician.design/",
                       "type": "Offline tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "magician.json",
                       "value": 216
                     }
                   ]
@@ -3040,7 +3040,7 @@
                       "link": "https://appicons.ai/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "appicons_ai.json",
                       "value": 217
                     },
                     {
@@ -3050,7 +3050,7 @@
                       "link": "https://iconify.design/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "iconify.json",
                       "value": 218
                     }
                   ]
@@ -3065,7 +3065,7 @@
                       "link": "https://firefly.adobe.com/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "adobe_firefly.json",
                       "value": 219
                     },
                     {
@@ -3075,7 +3075,7 @@
                       "link": "https://openai.com/dall-e-2",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "dall_e.json",
                       "value": 220
                     },
                     {
@@ -3085,7 +3085,7 @@
                       "link": "https://beta.dreamstudio.ai/generate",
                       "type": "Offline tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "dreamstudio.json",
                       "value": 221
                     },
                     {
@@ -3095,7 +3095,7 @@
                       "link": "https://www.midjourney.com/app/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "midjourney.json",
                       "value": 222
                     },
                     {
@@ -3105,7 +3105,7 @@
                       "link": "https://www.playform.io/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "playform_io.json",
                       "value": 223
                     },
                     {
@@ -3115,7 +3115,7 @@
                       "link": "https://runwayml.com/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "runway_ml.json",
                       "value": 224
                     },
                     {
@@ -3125,7 +3125,7 @@
                       "link": "https://stablediffusionweb.com/",
                       "type": "Offline tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "stable_diffusion.json",
                       "value": 225
                     },
                     {
@@ -3135,7 +3135,7 @@
                       "link": "http://unstock.ai/",
                       "type": "Online tool",
                       "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "unstock_ai.json",
                       "value": 226
                     }
                   ]
@@ -3150,7 +3150,7 @@
                       "link": "https://firefly.adobe.com/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "adobe_firefly.json",
                       "value": 227
                     },
                     {
@@ -3160,7 +3160,7 @@
                       "link": "https://openai.com/dall-e-2",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "dall_e.json",
                       "value": 228
                     },
                     {
@@ -3170,7 +3170,7 @@
                       "link": "https://beta.dreamstudio.ai/generate",
                       "type": "Offline tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "dreamstudio.json",
                       "value": 229
                     },
                     {
@@ -3180,7 +3180,7 @@
                       "link": "https://www.midjourney.com/app/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "midjourney.json",
                       "value": 230
                     },
                     {
@@ -3190,7 +3190,7 @@
                       "link": "https://www.playform.io/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "playform_io.json",
                       "value": 231
                     },
                     {
@@ -3200,7 +3200,7 @@
                       "link": "https://runwayml.com/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "runway_ml.json",
                       "value": 232
                     },
                     {
@@ -3210,7 +3210,7 @@
                       "link": "https://stablediffusionweb.com/",
                       "type": "Offline tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "stable_diffusion.json",
                       "value": 233
                     },
                     {
@@ -3220,7 +3220,7 @@
                       "link": "http://unstock.ai/",
                       "type": "Online tool",
                       "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "unstock_ai.json",
                       "value": 234
                     }
                   ]
@@ -3235,7 +3235,7 @@
                       "link": "https://www.decktopus.com/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "decktopus.json",
                       "value": 235
                     }
                   ]
@@ -3265,7 +3265,7 @@
                       "link": "https://withpoly.com/browse/textures",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "withpoly.json",
                       "value": 237
                     }
                   ]
@@ -3280,7 +3280,7 @@
                       "link": "https://app.artflow.ai/",
                       "type": "Online tool",
                       "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "artflow.json",
                       "value": 238
                     },
                     {
@@ -3290,7 +3290,7 @@
                       "link": "https://runwayml.com/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "runway_ml.json",
                       "value": 239
                     }
                   ]
@@ -3305,7 +3305,7 @@
                       "link": "https://butternut.ai/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "batternut_ai.json",
                       "value": 240
                     },
                     {
@@ -3315,7 +3315,7 @@
                       "link": "https://durable.co/",
                       "type": "Offline tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "durable.json",
                       "value": 243
                     }
                   ]
@@ -3345,7 +3345,7 @@
                       "link": "https://foundr.ai/product/openai-in-spreadsheet",
                       "type": "Online tool",
                       "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "open_ai_in_spreadsheet.json",
                       "value": 242
                     }
                   ]
@@ -3365,7 +3365,7 @@
                       "link": "https://lumalabs.ai/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "luma_ai.json",
                       "value": 244
                     }
                   ]
@@ -3380,7 +3380,7 @@
                       "link": "https://runwayml.com/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "runway_ml.json",
                       "value": 245
                     }
                   ]
@@ -3405,7 +3405,7 @@
                       "link": "https://podcast.adobe.com/enhance",
                       "type": "Offline tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "adobe_speech_enhancer.json",
                       "value": 246
                     },
                     {
@@ -3415,7 +3415,7 @@
                       "link": "https://audo.ai/",
                       "type": "Offline tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "audo_studio.json",
                       "value": 247
                     },
                     {
@@ -3425,7 +3425,7 @@
                       "link": "https://www.lalal.ai/",
                       "type": "Online tool",
                       "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "lalal_ai.json",
                       "value": 248
                     },
                     {
@@ -3435,7 +3435,7 @@
                       "link": "https://eraser.dwave.cc/",
                       "type": "Offline tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "noise_eraser.json",
                       "value": 249
                     },
                     {
@@ -3445,7 +3445,7 @@
                       "link": "https://www.nonoisy.com/",
                       "type": "Online tool",
                       "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "nonoisy.json",
                       "value": 250
                     }
                   ]
@@ -3465,7 +3465,7 @@
                       "link": "https://www.lalal.ai/",
                       "type": "Online tool",
                       "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "lalal_ai.json",
                       "value": 251
                     }
                   ]
@@ -3485,7 +3485,7 @@
                       "link": "https://icons8.com/lunacy",
                       "type": "Offline tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "lunacy.json",
                       "value": 252
                     },
                     {
@@ -3495,7 +3495,7 @@
                       "link": "https://www.remove.bg/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "remove_bg.json",
                       "value": 253
                     }
                   ]
@@ -3510,7 +3510,7 @@
                       "link": "https://icons8.com/lunacy",
                       "type": "Offline tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "lunacy.json",
                       "value": 254
                     }
                   ]
@@ -3535,7 +3535,7 @@
                       "link": "https://www.edgeimpulse.com/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "edge_impulse.json",
                       "value": 255
                     }
                   ]
@@ -3555,7 +3555,7 @@
                       "link": "https://ml5js.org/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "ml5.js.json",
                       "value": 256
                     }
                   ]
@@ -3575,7 +3575,7 @@
                       "link": "https://runwayml.com/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "runway_ml.json",
                       "value": 257
                     }
                   ]
@@ -3590,7 +3590,7 @@
                       "link": "https://runwayml.com/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "runway_ml.json",
                       "value": 258
                     }
                   ]
@@ -3605,7 +3605,7 @@
                       "link": "https://www.edgeimpulse.com/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "edge_impulse.json",
                       "value": 259
                     }
                   ]
@@ -3620,7 +3620,7 @@
                       "link": "http://www.akiwi.eu/",
                       "type": "Online tool",
                       "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "akiwi.json",
                       "value": 260
                     },
                     {
@@ -3630,7 +3630,7 @@
                       "link": "https://www.datature.io/",
                       "type": "Online tool",
                       "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "datature.json",
                       "value": 261
                     },
                     {
@@ -3640,7 +3640,7 @@
                       "link": "https://www.lobe.ai/",
                       "type": "Online tool",
                       "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "lobe.json",
                       "value": 262
                     },
                     {
@@ -3650,7 +3650,7 @@
                       "link": "https://ml5js.org/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "ml5.js.json",
                       "value": 263
                     },
                     {
@@ -3660,7 +3660,7 @@
                       "link": "https://runwayml.com/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "runway_ml.json",
                       "value": 264
                     },
                     {
@@ -3670,7 +3670,7 @@
                       "link": "https://teachablemachine.withgoogle.com/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "teachable_machine.json",
                       "value": 265
                     }
                   ]
@@ -3690,7 +3690,7 @@
                       "link": "https://gptzero.me/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "gptzero.json",
                       "value": 266
                     }
                   ]
@@ -3710,7 +3710,7 @@
                       "link": "https://www.deepmotion.com/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "deepmotion.json",
                       "value": 267
                     }
                   ]
@@ -3735,7 +3735,7 @@
                       "link": "https://www.visily.ai/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "visily_ai.json",
                       "value": 268
                     }
                   ]
@@ -3760,7 +3760,7 @@
                       "link": "https://www.tensorflow.org/tutorials/generative/pix2pix?hl=it",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "pix2pix.json",
                       "value": 269
                     }
                   ]
@@ -3780,7 +3780,7 @@
                       "link": "https://app.sonantic.io/user/login?redirect=%2F",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "sonantic.json",
                       "value": 270
                     }
                   ]
@@ -3830,7 +3830,7 @@
                       "link": "https://www.notion.so/product/ai",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "notion_ai.json",
                       "value": 272
                     }
                   ]
@@ -3850,7 +3850,7 @@
                       "link": "https://foundr.ai/product/openai-in-spreadsheet",
                       "type": "Online tool",
                       "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "open_ai_in_spreadsheet.json",
                       "value": 273
                     }
                   ]
@@ -3875,7 +3875,7 @@
                       "link": "https://www.vivid.lol/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "vivid.json",
                       "value": 274
                     }
                   ]
@@ -3895,7 +3895,7 @@
                       "link": "https://www.duinocodegenerator.com/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "code_generator_for_arduino.json",
                       "value": 275
                     },
                     {
@@ -3905,7 +3905,7 @@
                       "link": "https://components.ai/",
                       "type": "Offline tool",
                       "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "components_ai.json",
                       "value": 276
                     }
                   ]
@@ -3930,7 +3930,7 @@
                       "link": "https://colourlab.ai/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "colourlab_ai.json",
                       "value": 277
                     }
                   ]
@@ -3945,7 +3945,7 @@
                       "link": "https://colourlab.ai/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "colourlab_ai.json",
                       "value": 278
                     }
                   ]
@@ -3965,7 +3965,7 @@
                       "link": "https://fylm.ai/",
                       "type": "Online tool",
                       "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "fylm_ai.json",
                       "value": 279
                     }
                   ]
@@ -3985,7 +3985,7 @@
                       "link": "https://colourlab.ai/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "colourlab_ai.json",
                       "value": 280
                     }
                   ]
@@ -4010,7 +4010,7 @@
                       "link": "https://components.ai/",
                       "type": "Offline tool",
                       "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "components_ai.json",
                       "value": 281
                     }
                   ]
@@ -4040,7 +4040,7 @@
                       "link": "https://www.penelope.ai/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "penelope_ai.json",
                       "value": 282
                     }
                   ]
@@ -4065,7 +4065,7 @@
                       "link": "https://www.ermine.ai/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "ermine_ai.json",
                       "value": 283
                     },
                     {
@@ -4075,7 +4075,7 @@
                       "link": "https://www.mygoodtape.com/",
                       "type": "Offline tool",
                       "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "good_tape.json",
                       "value": 284
                     },
                     {
@@ -4085,7 +4085,7 @@
                       "link": "https://www.getsubly.com/",
                       "type": "Online tool",
                       "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "subly.json",
                       "value": 285
                     }
                   ]
@@ -4105,7 +4105,7 @@
                       "link": "https://trainengine.ai/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "trainengine_ai.json",
                       "value": 286
                     }
                   ]
@@ -4120,7 +4120,7 @@
                       "link": "https://trainengine.ai/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "trainengine_ai.json",
                       "value": 287
                     }
                   ]
@@ -4135,7 +4135,7 @@
                       "link": "https://www.visily.ai/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "visily_ai.json",
                       "value": 288
                     }
                   ]
@@ -4155,7 +4155,7 @@
                       "link": "https://generated.photos/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "generated_photos.json",
                       "value": 289
                     }
                   ]
@@ -4175,7 +4175,7 @@
                       "link": "https://www.autoblogger.ai/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "autoblogger_ai.json",
                       "value": 290
                     },
                     {
@@ -4185,7 +4185,7 @@
                       "link": "https://reword.com/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "reword.json",
                       "value": 291
                     }
                   ]
@@ -4200,7 +4200,7 @@
                       "link": "https://openai.com/blog/openai-codex",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "codex.json",
                       "value": 292
                     }
                   ]
@@ -4215,7 +4215,7 @@
                       "link": "https://www.copy.ai/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "copy_ai.json",
                       "value": 293
                     },
                     {
@@ -4225,7 +4225,7 @@
                       "link": "https://www.daydrm.ai/",
                       "type": "Online tool",
                       "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "daydrm.json",
                       "value": 294
                     },
                     {
@@ -4235,7 +4235,7 @@
                       "link": "https://www.longshot.ai/features/longshot-fact-gpt",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "fact_gpt_.json",
                       "value": 295
                     },
                     {
@@ -4245,7 +4245,7 @@
                       "link": "https://www.figma.com/community/plugin/1207913933994957698/FigGPT",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "fig_gpt_figma_plugin.json",
                       "value": 296
                     },
                     {
@@ -4255,7 +4255,7 @@
                       "link": "https://www.jot.ai/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "jot_ai.json",
                       "value": 297
                     }
                   ]
@@ -4270,7 +4270,7 @@
                       "link": "https://components.ai/",
                       "type": "Offline tool",
                       "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "components_ai.json",
                       "value": 298
                     },
                     {
@@ -4280,7 +4280,7 @@
                       "link": "https://debuild.app/waitlist",
                       "type": "Offline tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "debuild.json",
                       "value": 299
                     }
                   ]
@@ -4295,7 +4295,7 @@
                       "link": "https://www.midjourney.com/app/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "midjourney.json",
                       "value": 300
                     }
                   ]
@@ -4310,7 +4310,7 @@
                       "link": "https://www.midjourney.com/app/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "midjourney.json",
                       "value": 301
                     }
                   ]
@@ -4335,7 +4335,7 @@
                       "link": "https://www.jasper.ai/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "jasper_ai.json",
                       "value": 303
                     },
                     {
@@ -4345,7 +4345,7 @@
                       "link": "https://www.notion.so/product/ai",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "notion_ai.json",
                       "value": 304
                     }
                   ]
@@ -4375,7 +4375,7 @@
                       "link": "https://foundr.ai/product/openai-in-spreadsheet",
                       "type": "Online tool",
                       "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "open_ai_in_spreadsheet.json",
                       "value": 306
                     }
                   ]
@@ -4395,7 +4395,7 @@
                       "link": "https://www.getsubly.com/",
                       "type": "Online tool",
                       "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "subly.json",
                       "value": 307
                     }
                   ]
@@ -4420,7 +4420,7 @@
                       "link": "https://podcast.adobe.com/enhance",
                       "type": "Offline tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "adobe_speech_enhancer.json",
                       "value": 308
                     },
                     {
@@ -4430,7 +4430,7 @@
                       "link": "https://audo.ai/",
                       "type": "Offline tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "audo_studio.json",
                       "value": 309
                     },
                     {
@@ -4440,7 +4440,7 @@
                       "link": "https://www.lalal.ai/",
                       "type": "Online tool",
                       "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "lalal_ai.json",
                       "value": 310
                     },
                     {
@@ -4450,7 +4450,7 @@
                       "link": "https://eraser.dwave.cc/",
                       "type": "Offline tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "noise_eraser.json",
                       "value": 311
                     },
                     {
@@ -4460,7 +4460,7 @@
                       "link": "https://www.nonoisy.com/",
                       "type": "Online tool",
                       "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "nonoisy.json",
                       "value": 312
                     }
                   ]
@@ -4480,7 +4480,7 @@
                       "link": "https://www.lalal.ai/",
                       "type": "Online tool",
                       "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "lalal_ai.json",
                       "value": 313
                     }
                   ]
@@ -4500,7 +4500,7 @@
                       "link": "https://colourlab.ai/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "colourlab_ai.json",
                       "value": 314
                     },
                     {
@@ -4510,7 +4510,7 @@
                       "link": "https://icons8.com/lunacy",
                       "type": "Offline tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "lunacy.json",
                       "value": 315
                     },
                     {
@@ -4520,7 +4520,7 @@
                       "link": "https://www.playform.io/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "playform_io.json",
                       "value": 316
                     },
                     {
@@ -4530,7 +4530,7 @@
                       "link": "https://www.remove.bg/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "remove_bg.json",
                       "value": 317
                     },
                     {
@@ -4540,7 +4540,7 @@
                       "link": "https://www.topazlabs.com/",
                       "type": "Offline tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "topaz_lab.json",
                       "value": 318
                     }
                   ]
@@ -4555,7 +4555,7 @@
                       "link": "https://colourlab.ai/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "colourlab_ai.json",
                       "value": 319
                     },
                     {
@@ -4565,7 +4565,7 @@
                       "link": "https://icons8.com/lunacy",
                       "type": "Offline tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "lunacy.json",
                       "value": 320
                     },
                     {
@@ -4575,7 +4575,7 @@
                       "link": "https://www.playform.io/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "playform_io.json",
                       "value": 321
                     },
                     {
@@ -4585,7 +4585,7 @@
                       "link": "https://www.remove.bg/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "remove_bg.json",
                       "value": 322
                     },
                     {
@@ -4595,7 +4595,7 @@
                       "link": "https://www.topazlabs.com/",
                       "type": "Offline tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "topaz_lab.json",
                       "value": 323
                     }
                   ]
@@ -4615,7 +4615,7 @@
                       "link": "https://reword.com/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "reword.json",
                       "value": 324
                     }
                   ]
@@ -4630,7 +4630,7 @@
                       "link": "https://www.crystalknows.com/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "crystal_knows.json",
                       "value": 325
                     },
                     {
@@ -4640,7 +4640,7 @@
                       "link": "https://www.deciphr.ai/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "deciphr_ai.json",
                       "value": 326
                     },
                     {
@@ -4650,7 +4650,7 @@
                       "link": "https://www.notion.so/product/ai",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "notion_ai.json",
                       "value": 327
                     }
                   ]
@@ -4665,7 +4665,7 @@
                       "link": "https://fylm.ai/",
                       "type": "Online tool",
                       "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "fylm_ai.json",
                       "value": 328
                     }
                   ]
@@ -4685,7 +4685,7 @@
                       "link": "https://colourlab.ai/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "colourlab_ai.json",
                       "value": 329
                     }
                   ]
@@ -4710,7 +4710,7 @@
                       "link": "https://aescripts.com/blace/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "blace_ai_face_detection_&_blurring.json",
                       "value": 330
                     }
                   ]
@@ -4735,7 +4735,7 @@
                       "link": "https://2short.ai/",
                       "type": "Online tool",
                       "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "2short_ai.json",
                       "value": 331
                     }
                   ]
@@ -4770,7 +4770,7 @@
                       "link": "https://www.jasper.ai/",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "jasper_ai.json",
                       "value": 333
                     },
                     {
@@ -4780,7 +4780,7 @@
                       "link": "https://icons8.com/lunacy",
                       "type": "Offline tool",
                       "skills": "Medium",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "lunacy.json",
                       "value": 334
                     },
                     {
@@ -4790,7 +4790,7 @@
                       "link": "https://www.notion.so/product/ai",
                       "type": "Online tool",
                       "skills": "Advanced",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "notion_ai.json",
                       "value": 335
                     },
                     {
@@ -4800,7 +4800,7 @@
                       "link": "https://www.getsubly.com/",
                       "type": "Online tool",
                       "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "subly.json",
                       "value": 336
                     }
                   ]
@@ -4830,7 +4830,7 @@
                       "link": "https://foundr.ai/product/openai-in-spreadsheet",
                       "type": "Online tool",
                       "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "open_ai_in_spreadsheet.json",
                       "value": 338
                     }
                   ]
@@ -4855,7 +4855,7 @@
                       "link": "https://kumu.io/",
                       "type": "Online tool",
                       "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
+                      "tooldiagram": "kumu.json",
                       "value": 339
                     }
                   ]
