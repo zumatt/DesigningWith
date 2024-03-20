@@ -1,0 +1,38 @@
+{
+    "nodes": [
+        {
+            "id": "Prototype",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Recognise",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
+            "id": "Image File (From)",
+            "group": 3,
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Label (To)",
+            "group": 4,
+            "step": "AI Output (To)"
+        }
+    ],
+    "links": [
+        {
+            "source": "Prototype",
+            "target": "Recognise"
+        },
+        {
+            "source": "Recognise",
+            "target": "Image File (From)"
+        },
+        {
+            "source": "Image File (From)",
+            "target": "Label (To)"
+        }
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "nodes": [
+        {
+            "id": "Release",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Generate",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
+            "id": "Translate",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
+            "id": "Voice (From)",
+            "group": 3,
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Video File (From)",
+            "group": 3,
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Prompt (From)",
+            "group": 3,
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Text File (To)",
+            "group": 4,
+            "step": "AI Output (To)"
+        }
+    ],
+    "links": [
+        {
+            "source": "Release",
+            "target": "Generate"
+        },
+        {
+            "source": "Generate",
+            "target": "Voice (From)"
+        },
+        {
+            "source": "Voice (From)",
+            "target": "Text File (To)"
+        },
+        {
+            "source": "Generate",
+            "target": "Video File (From)"
+        },
+        {
+            "source": "Video File (From)",
+            "target": "Text File (To)"
+        },
+        {
+            "source": "Release",
+            "target": "Translate"
+        },
+        {
+            "source": "Translate",
+            "target": "Prompt (From)"
+        },
+        {
+            "source": "Prompt (From)",
+            "target": "Text File (To)"
+        }
+    ]
+}

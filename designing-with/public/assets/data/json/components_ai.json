@@ -1,0 +1,87 @@
+{
+    "nodes": [
+        {
+            "id": "Ideate",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Prototype",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Develop",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Release",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Generate",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
+            "id": "Test",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
+            "id": "Prompt (From)",
+            "group": 3,
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Interface Component (To)",
+            "group": 4,
+            "step": "AI Output (To)"
+        },
+        {
+            "id": "Code (To)",
+            "group": 4,
+            "step": "AI Output (To)"
+        }
+    ],
+    "links": [
+        {
+            "source": "Ideate",
+            "target": "Generate"
+        },
+        {
+            "source": "Generate",
+            "target": "Prompt (From)"
+        },
+        {
+            "source": "Prompt (From)",
+            "target": "Interface Component (To)"
+        },
+        {
+            "source": "Prototype",
+            "target": "Generate"
+        },
+        {
+            "source": "Develop",
+            "target": "Generate"
+        },
+        {
+            "source": "Prompt (From)",
+            "target": "Code (To)"
+        },
+        {
+            "source": "Develop",
+            "target": "Test"
+        },
+        {
+            "source": "Test",
+            "target": "Prompt (From)"
+        },
+        {
+            "source": "Release",
+            "target": "Generate"
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "nodes": [
+        {
+            "id": "Define",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Classify",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
+            "id": "Gesture (From)",
+            "group": 3,
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Instructions (To)",
+            "group": 4,
+            "step": "AI Output (To)"
+        }
+    ],
+    "links": [
+        {
+            "source": "Define",
+            "target": "Classify"
+        },
+        {
+            "source": "Classify",
+            "target": "Gesture (From)"
+        },
+        {
+            "source": "Gesture (From)",
+            "target": "Instructions (To)"
+        }
+    ]
+}

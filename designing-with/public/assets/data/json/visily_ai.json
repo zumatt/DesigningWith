@@ -1,0 +1,92 @@
+{
+    "nodes": [
+        {
+            "id": "Ideate",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Prototype",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Release",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Generate",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
+            "id": "Test",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
+            "id": "Image File (From)",
+            "group": 3,
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Interface Component (To)",
+            "group": 4,
+            "step": "AI Output (To)"
+        },
+        {
+            "id": "Website (To)",
+            "group": 4,
+            "step": "AI Output (To)"
+        },
+        {
+            "id": "Instructions (To)",
+            "group": 4,
+            "step": "AI Output (To)"
+        },
+        {
+            "id": "Mockup (To)",
+            "group": 4,
+            "step": "AI Output (To)"
+        }
+    ],
+    "links": [
+        {
+            "source": "Ideate",
+            "target": "Generate"
+        },
+        {
+            "source": "Generate",
+            "target": "Image File (From)"
+        },
+        {
+            "source": "Image File (From)",
+            "target": "Interface Component (To)"
+        },
+        {
+            "source": "Image File (From)",
+            "target": "Website (To)"
+        },
+        {
+            "source": "Prototype",
+            "target": "Test"
+        },
+        {
+            "source": "Test",
+            "target": "Image File (From)"
+        },
+        {
+            "source": "Image File (From)",
+            "target": "Instructions (To)"
+        },
+        {
+            "source": "Release",
+            "target": "Generate"
+        },
+        {
+            "source": "Image File (From)",
+            "target": "Mockup (To)"
+        }
+    ]
+}

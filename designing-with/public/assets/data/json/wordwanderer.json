@@ -1,0 +1,51 @@
+{
+    "nodes": [
+        {
+            "id": "Define",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Classify",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
+            "id": "Rank",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
+            "id": "Prompt (From)",
+            "group": 3,
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Visualization (To)",
+            "group": 4,
+            "step": "AI Output (To)"
+        }
+    ],
+    "links": [
+        {
+            "source": "Define",
+            "target": "Classify"
+        },
+        {
+            "source": "Classify",
+            "target": "Prompt (From)"
+        },
+        {
+            "source": "Prompt (From)",
+            "target": "Visualization (To)"
+        },
+        {
+            "source": "Define",
+            "target": "Rank"
+        },
+        {
+            "source": "Rank",
+            "target": "Prompt (From)"
+        }
+    ]
+}

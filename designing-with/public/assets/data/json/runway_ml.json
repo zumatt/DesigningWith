@@ -1,0 +1,144 @@
+{
+    "nodes": [
+        {
+            "id": "Define",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Ideate",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Prototype",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Recognise",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
+            "id": "Generate",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
+            "id": "Translate",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
+            "id": "Image File (From)",
+            "group": 3,
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Prompt (From)",
+            "group": 3,
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Video File (From)",
+            "group": 3,
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Image File (To)",
+            "group": 4,
+            "step": "AI Output (To)"
+        },
+        {
+            "id": "Label (To)",
+            "group": 4,
+            "step": "AI Output (To)"
+        },
+        {
+            "id": "Illustration (To)",
+            "group": 4,
+            "step": "AI Output (To)"
+        },
+        {
+            "id": "Video File (To)",
+            "group": 4,
+            "step": "AI Output (To)"
+        },
+        {
+            "id": "Text File (To)",
+            "group": 4,
+            "step": "AI Output (To)"
+        }
+    ],
+    "links": [
+        {
+            "source": "Define",
+            "target": "Recognise"
+        },
+        {
+            "source": "Recognise",
+            "target": "Image File (From)"
+        },
+        {
+            "source": "Image File (From)",
+            "target": "Image File (To)"
+        },
+        {
+            "source": "Image File (From)",
+            "target": "Label (To)"
+        },
+        {
+            "source": "Ideate",
+            "target": "Generate"
+        },
+        {
+            "source": "Generate",
+            "target": "Image File (From)"
+        },
+        {
+            "source": "Image File (From)",
+            "target": "Illustration (To)"
+        },
+        {
+            "source": "Generate",
+            "target": "Prompt (From)"
+        },
+        {
+            "source": "Prompt (From)",
+            "target": "Image File (To)"
+        },
+        {
+            "source": "Prompt (From)",
+            "target": "Illustration (To)"
+        },
+        {
+            "source": "Ideate",
+            "target": "Translate"
+        },
+        {
+            "source": "Translate",
+            "target": "Image File (From)"
+        },
+        {
+            "source": "Prototype",
+            "target": "Generate"
+        },
+        {
+            "source": "Prompt (From)",
+            "target": "Video File (To)"
+        },
+        {
+            "source": "Generate",
+            "target": "Video File (From)"
+        },
+        {
+            "source": "Video File (From)",
+            "target": "Text File (To)"
+        },
+        {
+            "source": "Prototype",
+            "target": "Recognise"
+        }
+    ]
+}

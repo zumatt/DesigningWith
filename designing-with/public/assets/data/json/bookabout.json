@@ -1,0 +1,38 @@
+{
+    "nodes": [
+        {
+            "id": "Understand",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Collect",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
+            "id": "Prompt (From)",
+            "group": 3,
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Literature Reference (To)",
+            "group": 4,
+            "step": "AI Output (To)"
+        }
+    ],
+    "links": [
+        {
+            "source": "Understand",
+            "target": "Collect"
+        },
+        {
+            "source": "Collect",
+            "target": "Prompt (From)"
+        },
+        {
+            "source": "Prompt (From)",
+            "target": "Literature Reference (To)"
+        }
+    ]
+}

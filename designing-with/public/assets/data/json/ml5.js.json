@@ -1,0 +1,114 @@
+{
+    "nodes": [
+        {
+            "id": "Define",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Ideate",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Prototype",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Classify",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
+            "id": "Recognise",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
+            "id": "Translate",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
+            "id": "Image File (From)",
+            "group": 3,
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Gesture (From)",
+            "group": 3,
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Label (To)",
+            "group": 4,
+            "step": "AI Output (To)"
+        },
+        {
+            "id": "Image File (To)",
+            "group": 4,
+            "step": "AI Output (To)"
+        },
+        {
+            "id": "Illustration (To)",
+            "group": 4,
+            "step": "AI Output (To)"
+        },
+        {
+            "id": "Instructions (To)",
+            "group": 4,
+            "step": "AI Output (To)"
+        }
+    ],
+    "links": [
+        {
+            "source": "Define",
+            "target": "Classify"
+        },
+        {
+            "source": "Classify",
+            "target": "Image File (From)"
+        },
+        {
+            "source": "Image File (From)",
+            "target": "Label (To)"
+        },
+        {
+            "source": "Define",
+            "target": "Recognise"
+        },
+        {
+            "source": "Recognise",
+            "target": "Image File (From)"
+        },
+        {
+            "source": "Ideate",
+            "target": "Translate"
+        },
+        {
+            "source": "Translate",
+            "target": "Image File (From)"
+        },
+        {
+            "source": "Image File (From)",
+            "target": "Image File (To)"
+        },
+        {
+            "source": "Image File (From)",
+            "target": "Illustration (To)"
+        },
+        {
+            "source": "Prototype",
+            "target": "Recognise"
+        },
+        {
+            "source": "Recognise",
+            "target": "Gesture (From)"
+        },
+        {
+            "source": "Gesture (From)",
+            "target": "Instructions (To)"
+        }
+    ]
+}

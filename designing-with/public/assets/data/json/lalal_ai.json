@@ -1,0 +1,65 @@
+{
+    "nodes": [
+        {
+            "id": "Prototype",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Release",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Optimise",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
+            "id": "Voice (From)",
+            "group": 3,
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Soundtrack (From)",
+            "group": 3,
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Voice (To)",
+            "group": 4,
+            "step": "AI Output (To)"
+        },
+        {
+            "id": "Soundtrack (To)",
+            "group": 4,
+            "step": "AI Output (To)"
+        }
+    ],
+    "links": [
+        {
+            "source": "Prototype",
+            "target": "Optimise"
+        },
+        {
+            "source": "Optimise",
+            "target": "Voice (From)"
+        },
+        {
+            "source": "Voice (From)",
+            "target": "Voice (To)"
+        },
+        {
+            "source": "Optimise",
+            "target": "Soundtrack (From)"
+        },
+        {
+            "source": "Soundtrack (From)",
+            "target": "Soundtrack (To)"
+        },
+        {
+            "source": "Release",
+            "target": "Optimise"
+        }
+    ]
+}

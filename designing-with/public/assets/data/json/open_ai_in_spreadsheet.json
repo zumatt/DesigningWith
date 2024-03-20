@@ -31,17 +31,7 @@
             "step": "Design Phase"
         },
         {
-            "id": "Collect",
-            "group": 2,
-            "step": "AI Capability"
-        },
-        {
             "id": "Translate",
-            "group": 2,
-            "step": "AI Capability"
-        },
-        {
-            "id": "Summarise",
             "group": 2,
             "step": "AI Capability"
         },
@@ -61,22 +51,7 @@
             "step": "AI Input (From)"
         },
         {
-            "id": "Prompt (From)",
-            "group": 3,
-            "step": "AI Input (From)"
-        },
-        {
-            "id": "Code (From)",
-            "group": 3,
-            "step": "AI Input (From)"
-        },
-        {
             "id": "Text File (To)",
-            "group": 4,
-            "step": "AI Output (To)"
-        },
-        {
-            "id": "Code (To)",
             "group": 4,
             "step": "AI Output (To)"
         }
@@ -84,10 +59,10 @@
     "links": [
         {
             "source": "Understand",
-            "target": "Collect"
+            "target": "Translate"
         },
         {
-            "source": "Collect",
+            "source": "Translate",
             "target": "Text File (From)"
         },
         {
@@ -95,40 +70,12 @@
             "target": "Text File (To)"
         },
         {
-            "source": "Understand",
-            "target": "Translate"
-        },
-        {
-            "source": "Translate",
-            "target": "Prompt (From)"
-        },
-        {
-            "source": "Prompt (From)",
-            "target": "Text File (To)"
-        },
-        {
-            "source": "Translate",
-            "target": "Text File (From)"
-        },
-        {
             "source": "Define",
-            "target": "Summarise"
-        },
-        {
-            "source": "Summarise",
-            "target": "Prompt (From)"
-        },
-        {
-            "source": "Summarise",
-            "target": "Text File (From)"
+            "target": "Translate"
         },
         {
             "source": "Ideate",
             "target": "Generate"
-        },
-        {
-            "source": "Generate",
-            "target": "Prompt (From)"
         },
         {
             "source": "Generate",
@@ -144,11 +91,7 @@
         },
         {
             "source": "Debug",
-            "target": "Code (From)"
-        },
-        {
-            "source": "Code (From)",
-            "target": "Code (To)"
+            "target": "Text File (From)"
         },
         {
             "source": "Prototype",

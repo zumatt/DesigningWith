@@ -1,0 +1,77 @@
+{
+    "nodes": [
+        {
+            "id": "Understand",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Define",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Collect",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
+            "id": "Summarise",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
+            "id": "Voice (From)",
+            "group": 3,
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Video File (From)",
+            "group": 3,
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Text File (To)",
+            "group": 4,
+            "step": "AI Output (To)"
+        }
+    ],
+    "links": [
+        {
+            "source": "Understand",
+            "target": "Collect"
+        },
+        {
+            "source": "Collect",
+            "target": "Voice (From)"
+        },
+        {
+            "source": "Voice (From)",
+            "target": "Text File (To)"
+        },
+        {
+            "source": "Collect",
+            "target": "Video File (From)"
+        },
+        {
+            "source": "Video File (From)",
+            "target": "Text File (To)"
+        },
+        {
+            "source": "Define",
+            "target": "Collect"
+        },
+        {
+            "source": "Define",
+            "target": "Summarise"
+        },
+        {
+            "source": "Summarise",
+            "target": "Voice (From)"
+        },
+        {
+            "source": "Summarise",
+            "target": "Video File (From)"
+        }
+    ]
+}
