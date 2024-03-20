@@ -1,0 +1,51 @@
+{
+    "nodes": [
+        {
+            "id": "Ideate",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Generate",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
+            "id": "Image File (From)",
+            "group": 3,
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Image (From)",
+            "group": 3,
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Render (To)",
+            "group": 4,
+            "step": "AI Output (To)"
+        }
+    ],
+    "links": [
+        {
+            "source": "Ideate",
+            "target": "Generate"
+        },
+        {
+            "source": "Generate",
+            "target": "Image File (From)"
+        },
+        {
+            "source": "Image File (From)",
+            "target": "Render (To)"
+        },
+        {
+            "source": "Generate",
+            "target": "Image (From)"
+        },
+        {
+            "source": "Image (From)",
+            "target": "Render (To)"
+        }
+    ]
+}

@@ -1,0 +1,98 @@
+{
+    "nodes": [
+        {
+            "id": "Define",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Classify",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
+            "id": "Recognise",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
+            "id": "Recording (From)",
+            "group": 3,
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Image File (From)",
+            "group": 3,
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Prompt (From)",
+            "group": 3,
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Video File (From)",
+            "group": 3,
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Label (To)",
+            "group": 4,
+            "step": "AI Output (To)"
+        }
+    ],
+    "links": [
+        {
+            "source": "Define",
+            "target": "Classify"
+        },
+        {
+            "source": "Classify",
+            "target": "Recording (From)"
+        },
+        {
+            "source": "Recording (From)",
+            "target": "Label (To)"
+        },
+        {
+            "source": "Classify",
+            "target": "Image File (From)"
+        },
+        {
+            "source": "Image File (From)",
+            "target": "Label (To)"
+        },
+        {
+            "source": "Classify",
+            "target": "Prompt (From)"
+        },
+        {
+            "source": "Prompt (From)",
+            "target": "Label (To)"
+        },
+        {
+            "source": "Classify",
+            "target": "Video File (From)"
+        },
+        {
+            "source": "Video File (From)",
+            "target": "Label (To)"
+        },
+        {
+            "source": "Define",
+            "target": "Recognise"
+        },
+        {
+            "source": "Recognise",
+            "target": "Image File (From)"
+        },
+        {
+            "source": "Recognise",
+            "target": "Prompt (From)"
+        },
+        {
+            "source": "Recognise",
+            "target": "Video File (From)"
+        }
+    ]
+}
