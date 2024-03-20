@@ -7,10 +7,10 @@ interface BibliographyProps {
 
 const Bibliography: React.FC<BibliographyProps> = (props) => {
   return (
-    <div className="flex flex-col rounded-lg border p-4 bg-grey bg-opacity-10 shadow-inner w-1/4 overflow-hidden">
+    <div className="flex flex-col rounded-lg border p-4 bg-grey bg-opacity-10 shadow-inner w-1/4 h-64 aspect-square">
       <p className=" text-[16px]">{props.title}</p>
       <a
-        className="text-[16px] underline w-full text-pretty"
+        className="text-[16px] underline truncate"
         href={props.link}
         target="_blank"
         rel="noreferrer"
