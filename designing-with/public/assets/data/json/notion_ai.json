@@ -16,11 +16,6 @@
             "step": "Design Phase"
         },
         {
-            "id": "Prototype",
-            "group": 1,
-            "step": "Design Phase"
-        },
-        {
             "id": "Develop",
             "group": 1,
             "step": "Design Phase"
@@ -29,11 +24,6 @@
             "id": "Release",
             "group": 1,
             "step": "Design Phase"
-        },
-        {
-            "id": "Collect",
-            "group": 2,
-            "step": "AI Capability"
         },
         {
             "id": "Translate",
@@ -56,9 +46,9 @@
             "step": "AI Capability"
         },
         {
-            "id": "Text File (From)",
-            "group": 3,
-            "step": "AI Input (From)"
+            "id": "Optimise",
+            "group": 2,
+            "step": "AI Capability"
         },
         {
             "id": "Prompt (From)",
@@ -66,34 +56,12 @@
             "step": "AI Input (From)"
         },
         {
-            "id": "Code (From)",
-            "group": 3,
-            "step": "AI Input (From)"
-        },
-        {
             "id": "Text File (To)",
-            "group": 4,
-            "step": "AI Output (To)"
-        },
-        {
-            "id": "Code (To)",
             "group": 4,
             "step": "AI Output (To)"
         }
     ],
     "links": [
-        {
-            "source": "Understand",
-            "target": "Collect"
-        },
-        {
-            "source": "Collect",
-            "target": "Text File (From)"
-        },
-        {
-            "source": "Text File (From)",
-            "target": "Text File (To)"
-        },
         {
             "source": "Understand",
             "target": "Translate"
@@ -107,10 +75,6 @@
             "target": "Text File (To)"
         },
         {
-            "source": "Translate",
-            "target": "Text File (From)"
-        },
-        {
             "source": "Define",
             "target": "Summarise"
         },
@@ -119,10 +83,6 @@
             "target": "Prompt (From)"
         },
         {
-            "source": "Summarise",
-            "target": "Text File (From)"
-        },
-        {
             "source": "Ideate",
             "target": "Generate"
         },
@@ -131,36 +91,24 @@
             "target": "Prompt (From)"
         },
         {
-            "source": "Generate",
-            "target": "Text File (From)"
-        },
-        {
-            "source": "Ideate",
-            "target": "Translate"
-        },
-        {
-            "source": "Prototype",
-            "target": "Debug"
-        },
-        {
-            "source": "Debug",
-            "target": "Code (From)"
-        },
-        {
-            "source": "Code (From)",
-            "target": "Code (To)"
-        },
-        {
-            "source": "Prototype",
-            "target": "Generate"
-        },
-        {
             "source": "Develop",
             "target": "Debug"
         },
         {
+            "source": "Debug",
+            "target": "Prompt (From)"
+        },
+        {
             "source": "Release",
             "target": "Generate"
+        },
+        {
+            "source": "Release",
+            "target": "Optimise"
+        },
+        {
+            "source": "Optimise",
+            "target": "Prompt (From)"
         },
         {
             "source": "Release",

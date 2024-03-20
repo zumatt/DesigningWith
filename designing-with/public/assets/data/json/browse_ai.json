@@ -1,0 +1,47 @@
+{
+    "nodes": [
+        {
+            "id": "Understand",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Define",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Collect",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
+            "id": "Website (From)",
+            "group": 3,
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Table (To)",
+            "group": 4,
+            "step": "AI Output (To)"
+        }
+    ],
+    "links": [
+        {
+            "source": "Understand",
+            "target": "Collect"
+        },
+        {
+            "source": "Collect",
+            "target": "Website (From)"
+        },
+        {
+            "source": "Website (From)",
+            "target": "Table (To)"
+        },
+        {
+            "source": "Define",
+            "target": "Collect"
+        }
+    ]
+}

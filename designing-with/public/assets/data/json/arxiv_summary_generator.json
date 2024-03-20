@@ -1,0 +1,38 @@
+{
+    "nodes": [
+        {
+            "id": "Define",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Summarise",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
+            "id": "Literature Reference (From)",
+            "group": 3,
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Text File (To)",
+            "group": 4,
+            "step": "AI Output (To)"
+        }
+    ],
+    "links": [
+        {
+            "source": "Define",
+            "target": "Summarise"
+        },
+        {
+            "source": "Summarise",
+            "target": "Literature Reference (From)"
+        },
+        {
+            "source": "Literature Reference (From)",
+            "target": "Text File (To)"
+        }
+    ]
+}

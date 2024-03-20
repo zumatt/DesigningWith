@@ -1,0 +1,51 @@
+{
+    "nodes": [
+        {
+            "id": "Ideate",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Generate",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
+            "id": "Recommend",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
+            "id": "Drawing (From)",
+            "group": 3,
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Icon (To)",
+            "group": 4,
+            "step": "AI Output (To)"
+        }
+    ],
+    "links": [
+        {
+            "source": "Ideate",
+            "target": "Generate"
+        },
+        {
+            "source": "Generate",
+            "target": "Drawing (From)"
+        },
+        {
+            "source": "Drawing (From)",
+            "target": "Icon (To)"
+        },
+        {
+            "source": "Ideate",
+            "target": "Recommend"
+        },
+        {
+            "source": "Recommend",
+            "target": "Drawing (From)"
+        }
+    ]
+}

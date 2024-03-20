@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import dataJson from "../../assets/tests/data_full.json";
+import dataJson from "../../assets/data/data.json";
 import { FilterArg, filterIcicleData } from "./FilterUtils";
 import Tooltip from "@mui/material/Tooltip";
 

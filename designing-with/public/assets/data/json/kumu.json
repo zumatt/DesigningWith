@@ -1,0 +1,60 @@
+{
+    "nodes": [
+        {
+            "id": "Define",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Release",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Rank",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
+            "id": "Visualise",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
+            "id": "Table (From)",
+            "group": 3,
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Visualization (To)",
+            "group": 4,
+            "step": "AI Output (To)"
+        }
+    ],
+    "links": [
+        {
+            "source": "Define",
+            "target": "Rank"
+        },
+        {
+            "source": "Rank",
+            "target": "Table (From)"
+        },
+        {
+            "source": "Table (From)",
+            "target": "Visualization (To)"
+        },
+        {
+            "source": "Define",
+            "target": "Visualise"
+        },
+        {
+            "source": "Visualise",
+            "target": "Table (From)"
+        },
+        {
+            "source": "Release",
+            "target": "Visualise"
+        }
+    ]
+}
