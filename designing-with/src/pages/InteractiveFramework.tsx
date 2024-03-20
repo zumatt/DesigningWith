@@ -63,14 +63,34 @@ const InteractiveFramework = () => {
         <Filter name="Free" color="border-beige" />
         <Filter name="Free-Waiting List" color="border-orange" />
       </div>
-      <button
-        className={` md:flex w-full rounded my-2 bg-opacity-45 hidden   ${
+      <div
+        className={` md:flex w-full rounded my-2 bg-opacity-45 hidden flex-row justify-between  ${
           showResults ? "bg-gray-200" : ""
         } `}
-        onClick={onClick}
       >
-        Filter by ({showResults ? "-" : "+"})
-      </button>
+        <button onClick={onClick}>Filter by ({showResults ? "-" : "+"})</button>
+        <div className="flex flex-row gap-2 overflow-hidden">
+          {filters.map((filter, index) => (
+            <button
+              key={index}
+              onClick={() =>
+                changeFilter(filter.values[0], filter.depth, false)
+              }
+              className="bg-black text-white rounded-xl px-2"
+            >
+              {filter.values[0]} ⨯
+            </button>
+          ))}
+          {filters.length > 0 && (
+            <button
+              onClick={() => setFilters([])}
+              className="bg-black text-white rounded-xl px-2"
+            >
+              Clear all filters ⨯
+            </button>
+          )}
+        </div>
+      </div>
       {showResults ? (
         <Results filters={filters} changeFilter={changeFilter} />
       ) : null}

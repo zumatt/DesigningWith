@@ -174,15 +174,15 @@ const RenderCards = ({
     if (select) {
       switch (stage.payment) {
         case "Premium":
-          return "border-2 border-blue";
+          return "box-border border-2 border-blue";
         case "Freemium":
-          return "border-2 border-purple";
+          return "box-border border-2 border-purple";
         case "Free":
-          return "border-2 border-beige";
+          return "box-border border-2 border-beige";
         case "Free-Waiting List":
-          return "border-2 border-orange";
+          return "box-border border-2 border-orange";
         default:
-          return "border-2 border-grey";
+          return "box-border border-2 border-grey";
       }
     }
     return "";
