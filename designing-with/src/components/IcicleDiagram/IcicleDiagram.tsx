@@ -208,8 +208,10 @@ const RenderCards = ({
         key={stage.name}
         onClick={() => {
           if (stage.description) {
-            if (!showContent) showCard(stage);
-            else showCard(null);
+            if (!showContent) {
+              showCard(stage);
+              toggleStage(parents[parents.length - 1], parents.slice(0, -1));
+            } else showCard(null);
             setShowContent((prev) => !prev);
             groupSelect(selectStroke(false), []);
           } else {
@@ -217,16 +219,20 @@ const RenderCards = ({
             groupSelect(selectStroke(false), []);
           }
         }}
-        className={`flex bg-white rounded ${
+        className={`flex rounded ${
           stage.description ? "w-[1000px]" : "w-[334px]"
         } ${
           level < 2 ? "px-2 m-1" : "m-[1px] min-h-[2px]"
         } ${selected} flex-col`}
+        style={{
+          boxShadow: "0px 0px 100px 5px #FFFFFF inset",
+          background: "#D9D9D980",
+        }}
         onMouseEnter={() => {
-          if (!showContent) groupSelect(selectStroke(true), [stage.name]);
+          groupSelect(selectStroke(true), [stage.name]);
         }}
         onMouseLeave={() => {
-          if (!showContent) groupSelect(selectStroke(false), []);
+          groupSelect(selectStroke(false), []);
         }}
       >
         {level < 2 && stage.name}
