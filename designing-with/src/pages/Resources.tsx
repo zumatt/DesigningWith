@@ -21,7 +21,7 @@ const Resources = () => {
             mobileTitle: "",
             elements: (
               <>
-                <div className="flex flex-row justify-between gap-[14px] my-[20px]">
+                <div className="flex flex-col md:flex-row justify-between gap-[14px] my-[20px]">
                   <p className="flex-1">
                     This section serves as a comprehensive archive of the
                     scientific bibliography that was used as background for this
@@ -86,7 +86,7 @@ const Resources = () => {
             mobileTitle: "",
             elements: (
               <>
-                <div className="flex flex-row justify-between gap-[14px] mt-[20px]">
+                <div className="flex flex-col md:flex-row justify-between gap-[14px] mt-[20px]">
                   <p className="flex-1">
                     This section collects all the terms encountered during the
                     process and aims to unpack and clarify their meaning within
@@ -147,6 +147,10 @@ const Resources = () => {
           },
         ]}
       />
+      <p className="text-[12px] md:text-[15px] mt-10">
+        © 2022. This project is licensed under CC BY 4.0. Supported by Movetia.
+        Exchange and mobility.
+      </p>
     </Layout>
   );
 };
