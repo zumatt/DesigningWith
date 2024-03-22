@@ -35,7 +35,7 @@ const DidacticGuidelines = () => {
             mobileTitle: "",
             elements: (
               <>
-                <div className="flex flex-row justify-between gap-[14px] mt-[20px]">
+                <div className="flex flex-col md:flex-row justify-between gap-[14px] mt-[20px]">
                   <p className="flex-1">
                     The didactic guidelines are based on the following modular
                     infrastructure which is composed of two main modules and
@@ -55,9 +55,9 @@ const DidacticGuidelines = () => {
                 <a
                   href="/assets/data/pdf/example.pdf"
                   download="Example"
-                  className="w-full bg-[#8CD782] rounded-2xl mt-[50px] p-[10px]"
+                  className="w-full bg-[#8CD782] rounded-2xl mt-4 md:mt-[50px] p-[10px]"
                 >
-                  <p className="w-full text-center text-[50px]">
+                  <p className="w-full text-center md:text-[50px]">
                     Download the Didactic Guidelines
                   </p>
                 </a>
@@ -69,8 +69,8 @@ const DidacticGuidelines = () => {
                     visualize data for specific design purposes.
                   </h2>
                   <DidacticGuidelineSvgModule1 />
-                  <div className="flex flex-row gap-[30px] mt-[70px]">
-                    <p className=" w-1/2">
+                  <div className="flex flex-col md:flex-row gap-[30px] mt-[70px]">
+                    <p className=" md:w-1/2">
                       To promote the development of <i>personal skills</i>,
                       students are suggested to <i>work individually</i>.
                       Teachers can arrange the duration of each activity based
@@ -78,7 +78,7 @@ const DidacticGuidelines = () => {
                       example{"]"}. Sub-modules are not strictly related to each
                       other.
                     </p>
-                    <p className=" w-1/2">
+                    <p className=" md:w-1/2">
                       The application of all of them is not mandatory, teachers
                       can make a selection based on needs and interests. The
                       structure of the sub-modules is not designed based on the
@@ -90,9 +90,9 @@ const DidacticGuidelines = () => {
                   <a
                     href="/assets/data/pdf/example.pdf"
                     download="Example"
-                    className="w-1/2 bg-[#8CD782] rounded-2xl mt-[50px]"
+                    className="md:w-1/2 hidden md:flex bg-[#8CD782] rounded-2xl md:mt-[50px]"
                   >
-                    <p className="w-full text-[29px] p-2">
+                    <p className="w-full md:text-[29px] p-2">
                       Download the Didactic Guidelines - Module 1
                     </p>
                   </a>
@@ -102,20 +102,20 @@ const DidacticGuidelines = () => {
                       Students will learn to train simplified ML models to
                       create design artefacts
                     </h2>
-                    <div className=" w-full flex flex-row gap-[30px] mt-[70px]">
-                      <p className=" w-1/2">
+                    <div className=" w-full flex flex-col md:flex-row gap-[30px] mt-[70px]">
+                      <p className=" md:w-1/2">
                         Students develop procedural knowledge through practical
                         guided activities (e.g. RunwayML step-by-step tool
                         tutorials)
                       </p>
-                      <p className=" w-1/2">
+                      <p className=" md:w-1/2">
                         and they are asked to apply the acquired procedure to a
                         familiar task (e.g. creating a logo).
                       </p>
                     </div>
                     <h1 className="mt-[40px]">Instructional Activities</h1>
-                    <div className=" flex flex-row gap-[30px] mt-[70px]">
-                      <p className=" w-1/2">
+                    <div className=" flex flex-col md:flex-row gap-[30px] mt-[70px]">
+                      <p className=" md:w-1/2">
                         Students are first provided with a basic literacy of ML
                         including technical vocabulary ML-Act1 and primary
                         functionalities ML-Act2. This activity is meant to
@@ -133,7 +133,7 @@ const DidacticGuidelines = () => {
                         activities intended to introduce students in
                         familiarising, collecting or creating data .
                       </p>
-                      <p className=" w-1/2">
+                      <p className=" md:w-1/2">
                         Then, to familiarise themselves with the procedure,
                         students individually apply what they learned by
                         training an ML model aligned with the design goal
@@ -149,7 +149,7 @@ const DidacticGuidelines = () => {
                     <a
                       href="/assets/data/pdf/example.pdf"
                       download="Example"
-                      className="w-1/2 bg-[#8CD782] rounded-2xl mt-[50px]"
+                      className="w-1/2 hidden md:flex bg-[#8CD782] rounded-2xl mt-[50px]"
                     >
                       <p className="w-full text-[29px] p-2">
                         Download the Didactic Guidelines - Sub-module 1
@@ -161,21 +161,21 @@ const DidacticGuidelines = () => {
                     <h2 className="mt-[15px]">
                     Students will learn to produce content with generative AI tools to create design artefacts [GenAI-Obj].
                     </h2>
-                    <div className=" w-full flex flex-row gap-[30px] mt-[70px]">
-                      <p className=" w-1/2">
+                    <div className=" w-full flex flex-col md:flex-row gap-[30px] mt-[70px]">
+                      <p className=" md:w-1/2">
                       Students develop procedural knowledge through practical guided activities (e.g. Midjourney step-by-step tool tutorials) and they are asked 
                       </p>
-                      <p className=" w-1/2">
+                      <p className=" md:w-1/2">
                         to apply the acquired procedure to a familiar task (e.g. creating an original shape for a lamp inspired by nature). 
                      </p>
                     </div>
                     <h1 className="mt-[40px]">Instructional Activities</h1>
-                    <div className=" flex flex-row gap-[30px] mt-[70px]">
-                      <p className=" w-1/2">
+                    <div className=" flex flex-col md:flex-row gap-[30px] mt-[70px]">
+                      <p className=" md:w-1/2">
                       Students are first provided with a basic literacy of AI including technical vocabulary (GenAI-Act1) and primary functionalities (GenAI-Act2). This activity is meant to promote factual and conceptual knowledge by teaching the basic elements of the discipline and their interrelationship to explain the functionality of AI tools. Once basic literacy is introduced, specific case studies are provided to contextualise the application of AI within the design practice (GenAI-Act3). At this point, the teaching moves from a theoretical to a procedural level. In this direction, students are first introduced to a guided tutorial (GenAI-Act4.3) on how to use a Generative AI tool (e.g. Midjourney) starting from setting a design goal (GenAI-Act4.1) and experimenting with relative prompts (GenAI-Act4.2). Then, to familiarise themselves with the procedure, students individually apply what they learned by refining selected prompts and generating content based on the design goal (GenAI-Act5). Lastly, moving the focus to meta-cognitive knowledge, students are asked to analyse and document the process by breaking down the steps and selecting the relevant results (GenAI-Act6). This activity aims to create awareness and knowledge of cognition. To foster participation and sharing of results, students are asked to present their work and question others (GenAI-Act7).
 
                       </p>
-                      <p className=" w-1/2">
+                      <p className=" md:w-1/2">
                         Then, to familiarise themselves with the procedure,
                         students individually apply what they learned by
                         training an ML model aligned with the design goal
@@ -191,7 +191,7 @@ const DidacticGuidelines = () => {
                     <a
                       href="/assets/data/pdf/example.pdf"
                       download="Example"
-                      className="w-1/2 bg-[#8CD782] rounded-2xl mt-[50px]"
+                      className="w-1/2 hidden md:flex bg-[#8CD782] rounded-2xl mt-[50px]"
                     >
                       <p className="w-full text-[29px] p-2">
                         Download the Didactic Guidelines - Sub-module 2
@@ -204,20 +204,20 @@ const DidacticGuidelines = () => {
                     <h2 className="mt-[15px]">
                     Students will learn to apply Computer Vision (CV) algorithms to analyse and visualise data [CV-Obj]. 
                     </h2>
-                    <div className=" w-full flex flex-row gap-[30px] mt-[70px]">
-                      <p className=" w-1/2">
+                    <div className=" w-full flex flex-col md:flex-row gap-[30px] mt-[70px]">
+                      <p className=" md:w-1/2">
                       Students develop procedural knowledge through practical guided activities (e.g. Midjourney step-by-step tool tutorials) 
                       </p>
-                      <p className=" w-1/2">
+                      <p className=" md:w-1/2">
                       and they are asked to apply the acquired procedure to a familiar task (e.g. creating an infographic).
                       </p>
                     </div>
                     <h1 className="mt-[40px]">Instructional Activities</h1>
-                    <div className=" flex flex-row gap-[30px] mt-[70px]">
-                      <p className=" w-1/2">
+                    <div className=" flex flex-col md:flex-row gap-[30px] mt-[70px]">
+                      <p className=" md:w-1/2">
                       Students are first provided with a basic literacy of CV algorithms and data visualisation (CV) techniques including technical vocabulary (CV-Act1) and primary functionalities (CV-Act2). This activity is meant to promote factual and conceptual knowledge by teaching the basic elements of the disciplines (CV and CV) and their interrelationship in analysing and visualising complex phenomena (Omena, 2021). Once basic literacy is introduced, specific case studies are provided to contextualise the application of CV within the design research (CV-Act3). At this point, the teaching moves from a theoretical to a procedural level. In this direction, students are first introduced to a guided tutorial (CV-Act4.3) on how to analyse data with CV algorithms (e.g. Meme Spector) and visualise the results (e.g. Gephi) starting from setting a research question (CV-Act4.1) and collecting and organising data related to the phenomena (CV-Act4.2). Then, to familiarise themselves with the procedure, students individually apply what they learned by investigating the dataset to answer the research question (CV-Act5). Lastly, moving the focus to meta-cognitive knowledge, students are asked to analyse and document the process by breaking down the steps and selecting the relevant results (CV-Act6). This activity aims to create awareness and knowledge of cognition. To foster participation and sharing of results, students are asked to present their work and question others (CV-Act7).
                       </p>
-                      <p className=" w-1/2">
+                      <p className=" md:w-1/2">
                       [CV-Act1] activities intended to provide students with vocabulary knowledge of Computer Vision
 [CV-Act2] activities intended to provide students with a basic functionality of Computer Vision Algorithms and Data Visualization technniques 
 [CV-Act3] activities intended to provide students with practical examples of computer vision applied to design research
@@ -234,7 +234,7 @@ const DidacticGuidelines = () => {
                     <a
                       href="/assets/data/pdf/example.pdf"
                       download="Example"
-                      className="w-1/2 bg-[#8CD782] rounded-2xl mt-[50px]"
+                      className="w-1/2 hidden md:flex bg-[#8CD782] rounded-2xl mt-[50px]"
                     >
                       <p className="w-full text-[29px] p-2">
                         Download the Didactic Guidelines - Sub-module 3
@@ -250,15 +250,15 @@ const DidacticGuidelines = () => {
                     specific activities of the design process.
                   </h2>
                   <DidacticGuidelineSvgModule2 />
-                  <div className="flex flex-row gap-[30px] mt-[70px]">
-                    <p className=" w-1/2">
+                  <div className="flex flex-col md:flex-row gap-[30px] mt-[70px]">
+                    <p className=" md:w-1/2">
                       To face this module, students need some basic knowledge of
                       the disciplines involved and some practice of tools. For
                       this reason, the selection of tools provided to students
                       within this module depends on the skills acquired during
                       the first module or prior knowledge.
                     </p>
-                    <p className=" w-1/2">
+                    <p className=" md:w-1/2">
                       To define the set of tools suitable, refer to the
                       DesigningW/ framework. Working in groups (5-6 people) is
                       recommended for this module, as collaboration facilitates
@@ -268,8 +268,8 @@ const DidacticGuidelines = () => {
                     </p>
                   </div>
                   <h1 className="mt-[40px]">Instructional Activities</h1>
-                  <div className="flex flex-row gap-[30px] mt-[10px]">
-                    <p className=" w-1/2">
+                  <div className="flex flex-col md:flex-row gap-[30px] mt-[10px]">
+                    <p className=" md:w-1/2">
                       Students are first provided with a design challenge to
                       drive the activity {"{"} Module2-Act1{"}"}. The design
                       challenge provides a macro area for students to experiment
@@ -297,7 +297,7 @@ const DidacticGuidelines = () => {
                       of tools through the framework aims to infuse in students
                       a method of design with AI.
                     </p>
-                    <p className=" w-1/2">
+                    <p className=" md:w-1/2">
                       During the process, students are asked to document this
                       method. For this purpose, a structured template [ example
                       ] is introduced {"{"} Module2-Act3{"}"}. While in Module 1
@@ -330,7 +330,7 @@ const DidacticGuidelines = () => {
                   <a
                     href="/assets/data/pdf/example.pdf"
                     download="Example"
-                    className="w-1/2 bg-[#8CD782] rounded-2xl mt-[50px]"
+                    className="w-1/2 hidden md:flex bg-[#8CD782] rounded-2xl mt-[50px]"
                   >
                     <p className="w-full text-[29px] p-2">
                       Download the Didactic Guidelines - Module 2
@@ -345,7 +345,7 @@ const DidacticGuidelines = () => {
             mobileTitle: "",
             elements: (
               <>
-                <div className="flex flex-row justify-between gap-[14px] mt-[20px] mb-[20px]">
+                <div className="flex flex-col md:flex-row justify-between gap-[14px] mt-[20px] mb-[20px]">
                   <p className="flex-1">
                     To build the didactic guidelines aimed to systematically
                     integrate AI tools into design curricula, we referred to
@@ -362,39 +362,39 @@ const DidacticGuidelines = () => {
                   </p>
                 </div>
                 <h2>1.1 Categories of Knowledge Dimensions</h2>
-                <div className="flex flex-row mt-[20px] gap-[14px]">
-                  <div className="flex flex-col w-1/2">
-                    <p className=" text-[29px]">
+                <div className="flex flex-col md:flex-row mt-[20px] gap-[14px]">
+                  <div className="flex flex-col md:w-1/2">
+                    <p className=" md:text-[29px]">
                       Knowledge can be classified in four dimensions: 
                     </p>
                     <br />
                     <br />
-                    <p className=" text-[29px]">
+                    <p className=" md:text-[29px]">
                       (a) Factual knowledge refers to the basic elements
                       students must know to be acquainted with a discipline or
                       solve problems in itterminology and specific details; 
                     </p>
-                    <p className=" text-[29px]">
+                    <p className=" md:text-[29px]">
                       (b) Conceptual knowledge, refers to classification,
                       categories, principles and to the interrelationships among
                       the basic elements within a larger structure that enable
                       them to function together.{" "}
                     </p>
-                    <p className=" text-[29px]">
+                    <p className=" md:text-[29px]">
                       (c) Procedural Knowledge, refers to skills algorithms,
                       techniques and methods of inquiry; 
                     </p>
-                    <p className=" text-[29px]">
+                    <p className=" md:text-[29px]">
                       (d) Metacognitive Knowledge, refers to a cognitive task,
                       strategies and self-awareness.{" "}
                     </p>
                   </div>
-                  <div className=" w-1/2 flex flex-col">
+                  <div className=" md:w-1/2 flex flex-col">
                     <div className="flex flex-row">
-                      <p className="w-1/2 text-[16px]">
+                      <p className="md:w-1/2 text-[12px] md:text-[16px]">
                         Major types and subtypes
                       </p>
-                      <p className="w-1/2 text-[16px]">Examples</p>
+                      <p className="hidden md:flex w-1/2 text-[16px]">Examples</p>
                     </div>
                     <div className="flex flex-col gap-4 mt-4">
                       <Categories title="(a) Factual Knowledge " majTypes1="(a.a) Knowledge of terminology" majTypes2="(a.b) Knowledge of specific details and elements" majTypes3="" ex1="Technical vocabulary, music symbols" ex2="Major natural resources, reliable sources of informations" ex3="" />
@@ -406,38 +406,38 @@ const DidacticGuidelines = () => {
                   </div>
                 </div>
                 <h2>1.2 Categories of Cognitive Processes</h2>
-                <div className="flex flex-row mt-[20px] gap-[14px]">
-                  <div className="flex flex-col w-1/2">
-                    <p className=" text-[29px]">
+                <div className="flex flex-col md:flex-row mt-[20px] gap-[14px]">
+                  <div className="flex flex-col md:w-1/2">
+                    <p className=" md:text-[29px]">
                     The cognitive process dimensions comprise six major categories, each associated with specific cognitive processes, totalling 19. 
                     </p>
                     <br />
                     <br />
-                    <p className=" text-[29px]">
+                    <p className=" md:text-[29px]">
                     These categories, arranged in increasing order of complexity, are:  
                     </p>
-                    <p className=" text-[29px]">
+                    <p className=" md:text-[29px]">
                       (1) Remember, involves retrieving knowledge from long-term memory. Specific processes include recognizing and recalling.
                     </p>
-                    <p className=" text-[29px]">
+                    <p className=" md:text-[29px]">
                       (2) Understand: It entails constructing meaning from instructional messages (oral, written, graphic). It encompasses interpreting, exemplifying, classifying, summarizing, inferring, comparing, and explaining.
                     </p>
-                    <p className=" text-[29px]">
+                    <p className=" md:text-[29px]">
                       (3) Apply: About carrying out or using a procedure in a given situation. This includes executing and implementing.
                     </p>
-                    <p className=" text-[29px]">
+                    <p className=" md:text-[29px]">
                       (4) Analyze: It involves breaking material into parts and understanding their interrelations and the overall structure or purpose. It includes differentiating, organizing and attributing.                     </p>
-                    <p className=" text-[29px]">
+                    <p className=" md:text-[29px]">
                       (5) Evaluate: It concerns making judgments based on criteria and standards. It encompasses checking and critiquing.                     </p>
-                    <p className=" text-[29px]">
+                    <p className=" md:text-[29px]">
                       (6) Create: It entails combining or reorganizing elements to form a novel, coherent, original or functional whole. It involves generating, planning and producing.                    </p>
                   </div>
-                  <div className=" w-1/2 flex flex-col">
-                    <div className="flex flex-row">
-                      <p className="w-1/4 text-[16px]">
+                  <div className=" md:w-1/2 flex flex-col">
+                    <div className="flex flex-col md:flex-row">
+                      <p className="md:w-1/4 text-[12px] md:text-[16px]">
                         Process categories
                       </p>
-                      <p className="w-3/4 text-[16px]">Cognitive processes and examples</p>
+                      <p className="md:w-3/4 text-[12px] md:text-[16px]">Cognitive processes and examples</p>
                     </div>
                     <div className="flex flex-col w-full gap-4 mt-4">
                       <CategoriesKnowDim title="(1) Remember" majTypes1="1.1 Recognizing" majTypes2="1.2 Recalling" majTypes3="" majTypes4='' majTypes5='' majTypes6='' majTypes7='' ex1="(e.g., Recognize the dates of important events in U.S. history)" ex2="(e.g., Recall the dates of important events in U.S. history)" ex3="" ex4="" ex5="" ex6="" ex7="" />
@@ -451,11 +451,11 @@ const DidacticGuidelines = () => {
                   </div>
                 </div>
                 <h2>1.3 Towards Educational Objectives and Instructional Activities</h2>
-                <div className="flex flex-row mt-[20px] gap-[14px]">
-                  <div className="flex flex-col w-1/2">
+                <div className="flex flex-col md:flex-row mt-[20px] gap-[14px]">
+                  <div className="flex flex-col md:w-1/2">
                     <p>The cognitive processes and the knowledge dimensions are combined to define the educational objectives and the instructional activities according to the following syntax.
                     </p>
-                    <div className=" flex flex-row">
+                    <div className=" flex flex-col md:flex-row w-full text-center">
                       <p>statement</p>
                       <p>+</p>
                       <p>verb</p>
@@ -475,7 +475,7 @@ const DidacticGuidelines = () => {
 
                   </div>
 
-                  <div className="flex flex-col w-1/2">
+                  <div className="flex flex-col md:w-1/2">
                     <p>Example</p>
                     <br/>
                     <p>Educational Objective </p>
@@ -505,19 +505,19 @@ const DidacticGuidelines = () => {
                 </div>
                 <h2 className="flex w-full">1.4 The framework of Bloom's taxonomy table</h2>
                 <div className="flex flex-col w-full mt-4 gap-4">
-                  <div className="flex flex-row">
-                    <p className=" w-1/2">The Bloom Taxonomy proposes a table aimed to formalise and organise Educational Objectives and Instructional Activities according to knowledge dimensions and cognitive processes. The table helps educators identify instructional activities based on the educational goals of the teaching module. 
+                  <div className="flex flex-col gap-4 md:flex-row">
+                    <p className=" md:w-1/2">The Bloom Taxonomy proposes a table aimed to formalise and organise Educational Objectives and Instructional Activities according to knowledge dimensions and cognitive processes. The table helps educators identify instructional activities based on the educational goals of the teaching module. 
                     </p>
-                    <p className=" w-1/2">
+                    <p className=" md:w-1/2">
                       The table is presented below. The knowledge dimension categories are organised horizontally, while cognitive process dimensions are reported in columns.
                     </p>
                   </div>
                   <div className="flex flex-col w-full gap-2">
                     <div className="flex flex-row w-full gap-2">
-                      <p className=" w-1/4 rounded-lg border text-[22px] p-4 border-green">The knowledge dimension</p>
-                      <div className="flex flex-col w-3/4 gap-2">
-                        <p className=" w-full rounded-lg border p-4 border-green">The cognitive process dimension</p>
-                        <div className="flex flex-row w-full gap-2">
+                      <p className=" w-2/5 h-full md:h-auto md:w-1/4 rounded-lg border md:text-[22px] p-4 md:p-4 border-green">The knowledge dimension</p>
+                      <div className="flex flex-col w-3/5 md:w-3/4 gap-2">
+                        <p className=" w-full sm:h-full md:h-auto rounded-lg border p-4 border-green">The cognitive process dimension</p>
+                        <div className="hidden md:flex flex-row w-full gap-2">
                           <p className=" w-1/6 rounded-lg border text-[22px] p-2 border-green">(1) Remember</p>
                           <p className=" w-1/6 rounded-lg border text-[22px] p-2 border-green">(2) Understand</p>
                           <p className=" w-1/6 rounded-lg border text-[22px] p-2 border-green">(3) Apply</p>
@@ -528,53 +528,65 @@ const DidacticGuidelines = () => {
 
                       </div>
                     </div>
-                    <div className="flex flex-row w-full gap-2">
-                      <p className="w-1/4 rounded-lg border text-[22px] p-2 border-green">(a) Factual Knowledge</p>
-                      <div className="w-3/4 flex flex-row gap-2">
-                        <p className=" w-1/6 h-full rounded-lg border text-[22px] p-2 border-green"></p>
-                        <p className=" w-1/6 h-full rounded-lg border text-[22px] p-2 border-green"></p>
-                        <p className=" w-1/6 h-full rounded-lg border text-[22px] p-2 border-green"></p>
-                        <p className=" w-1/6 h-full rounded-lg border text-[22px] p-2 border-green"></p>
-                        <p className=" w-1/6 h-full rounded-lg border text-[22px] p-2 border-green"></p>
-                        <p className=" w-1/6 h-full rounded-lg border text-[22px] p-2 border-green"></p>
+                    <div className="flex flex-row gap-2 w-full">
+                      <div className="flex flex-col gap-2 w-full">
+                        <div className="flex flex-row w-full gap-2">
+                          <p className="w-2/5 md:w-1/4 rounded-lg border md:text-[22px] p-2 border-green">(a) Factual Knowledge</p>
+                          <div className="hidden md:flex w-3/5 md:w-3/4 flex flex-row gap-2">
+                            <p className=" w-1/6 h-full rounded-lg border text-[22px] p-2 border-green"></p>
+                            <p className=" w-1/6 h-full rounded-lg border text-[22px] p-2 border-green"></p>
+                            <p className=" w-1/6 h-full rounded-lg border text-[22px] p-2 border-green"></p>
+                            <p className=" w-1/6 h-full rounded-lg border text-[22px] p-2 border-green"></p>
+                            <p className=" w-1/6 h-full rounded-lg border text-[22px] p-2 border-green"></p>
+                            <p className=" w-1/6 h-full rounded-lg border text-[22px] p-2 border-green"></p>
+                          </div>
+                        </div>
+                        <div className="flex flex-row w-full gap-2">
+                          <p className="w-2/5 md:w-1/4 rounded-lg border md:text-[22px] p-2 border-green">(b) Conceptual Knowledge</p>
+                          <div className="hidden md:flex w-3/5 md:w-3/4 flex flex-row gap-2">
+                            <p className=" w-1/6 h-full rounded-lg border text-[22px] p-2 border-green"></p>
+                            <p className=" w-1/6 h-full rounded-lg border text-[22px] p-2 border-green"></p>
+                            <p className=" w-1/6 h-full rounded-lg border text-[22px] p-2 border-green"></p>
+                            <p className=" w-1/6 h-full rounded-lg border text-[22px] p-2 border-green"></p>
+                            <p className=" w-1/6 h-full rounded-lg border text-[22px] p-2 border-green"></p>
+                            <p className=" w-1/6 h-full rounded-lg border text-[22px] p-2 border-green"></p>
+                          </div>
+                        </div>
+                        <div className="flex flex-row w-full gap-2">
+                          <p className="w-2/5 md:w-1/4 rounded-lg border md:text-[22px] p-2 border-green">(c) Procedural Knowledge</p>
+                          <div className="hidden md:flex w-3/5 md:w-3/4 flex flex-row gap-2">
+                            <p className=" w-1/6 h-full rounded-lg border text-[22px] p-2 border-green"></p>
+                            <p className=" w-1/6 h-full rounded-lg border text-[22px] p-2 border-green"></p>
+                            <p className=" w-1/6 h-full rounded-lg border text-[22px] p-2 border-green"></p>
+                            <p className=" w-1/6 h-full rounded-lg border text-[22px] p-2 border-green"></p>
+                            <p className=" w-1/6 h-full rounded-lg border text-[22px] p-2 border-green"></p>
+                            <p className=" w-1/6 h-full rounded-lg border text-[22px] p-2 border-green"></p>
+                          </div>
+                        </div>
+                        <div className="flex flex-row w-full gap-2">
+                          <p className="w-2/5 md:w-1/4 rounded-lg border md:text-[22px] p-2 border-green">(d) Meta Knowledge</p>
+                          <div className="hidden md:flex w-3/5 md:w-3/4 flex flex-row gap-2">
+                            <p className=" w-1/6 h-full rounded-lg border text-[22px] p-2 border-green"></p>
+                            <p className=" w-1/6 h-full rounded-lg border text-[22px] p-2 border-green"></p>
+                            <p className=" w-1/6 h-full rounded-lg border text-[22px] p-2 border-green"></p>
+                            <p className=" w-1/6 h-full rounded-lg border text-[22px] p-2 border-green"></p>
+                            <p className=" w-1/6 h-full rounded-lg border text-[22px] p-2 border-green"></p>
+                            <p className=" w-1/6 h-full rounded-lg border text-[22px] p-2 border-green"></p>
+                          </div>
+                        </div>
                       </div>
-                    </div>
-                    <div className="flex flex-row w-full gap-2">
-                      <p className="w-1/4 rounded-lg border text-[22px] p-2 border-green">(b) Conceptual Knowledge</p>
-                      <div className="w-3/4 flex flex-row gap-2">
-                        <p className=" w-1/6 h-full rounded-lg border text-[22px] p-2 border-green"></p>
-                        <p className=" w-1/6 h-full rounded-lg border text-[22px] p-2 border-green"></p>
-                        <p className=" w-1/6 h-full rounded-lg border text-[22px] p-2 border-green"></p>
-                        <p className=" w-1/6 h-full rounded-lg border text-[22px] p-2 border-green"></p>
-                        <p className=" w-1/6 h-full rounded-lg border text-[22px] p-2 border-green"></p>
-                        <p className=" w-1/6 h-full rounded-lg border text-[22px] p-2 border-green"></p>
-                      </div>
-                    </div>
-                    <div className="flex flex-row w-full gap-2">
-                      <p className="w-1/4 rounded-lg border text-[22px] p-2 border-green">(c) Procedural Knowledge</p>
-                      <div className="w-3/4 flex flex-row gap-2">
-                        <p className=" w-1/6 h-full rounded-lg border text-[22px] p-2 border-green"></p>
-                        <p className=" w-1/6 h-full rounded-lg border text-[22px] p-2 border-green"></p>
-                        <p className=" w-1/6 h-full rounded-lg border text-[22px] p-2 border-green"></p>
-                        <p className=" w-1/6 h-full rounded-lg border text-[22px] p-2 border-green"></p>
-                        <p className=" w-1/6 h-full rounded-lg border text-[22px] p-2 border-green"></p>
-                        <p className=" w-1/6 h-full rounded-lg border text-[22px] p-2 border-green"></p>
-                      </div>
-                    </div>
-                    <div className="flex flex-row w-full gap-2">
-                      <p className="w-1/4 rounded-lg border text-[22px] p-2 border-green">(d) Meta Knowledge</p>
-                      <div className="w-3/4 flex flex-row gap-2">
-                        <p className=" w-1/6 h-full rounded-lg border text-[22px] p-2 border-green"></p>
-                        <p className=" w-1/6 h-full rounded-lg border text-[22px] p-2 border-green"></p>
-                        <p className=" w-1/6 h-full rounded-lg border text-[22px] p-2 border-green"></p>
-                        <p className=" w-1/6 h-full rounded-lg border text-[22px] p-2 border-green"></p>
-                        <p className=" w-1/6 h-full rounded-lg border text-[22px] p-2 border-green"></p>
-                        <p className=" w-1/6 h-full rounded-lg border text-[22px] p-2 border-green"></p>
+                      <div className="flex md:hidden flex-col w-full -rotate-90 gap-2">
+                          <p className=" w-full rounded-lg border md:text-[22px] p-2 border-green">(1) Remember</p>
+                          <p className=" w-full rounded-lg border md:text-[22px] p-2 border-green">(2) Understand</p>
+                          <p className=" w-full rounded-lg border md:text-[22px] p-2 border-green">(3) Apply</p>
+                          <p className=" w-full rounded-lg border md:text-[22px] p-2 border-green">(4) Analyze</p>
+                          <p className=" w-full rounded-lg border md:text-[22px] p-2 border-green">(5) Evaluate</p>
+                          <p className=" w-full rounded-lg border md:text-[22px] p-2 border-green">(6) Create</p>
                       </div>
                     </div>
                   </div>
                 </div>
-                <p className=" w-1/2"> Starting from this table, we established the educational objectives and the instructional activities that structure the didactic guidelines. A table for each specific teaching module is available to download from the “Didactic guidelines in practice” section.</p>
+                <p className=" md:w-1/2"> Starting from this table, we established the educational objectives and the instructional activities that structure the didactic guidelines. A table for each specific teaching module is available to download from the “Didactic guidelines in practice” section.</p>
               </>
             ),
           },
