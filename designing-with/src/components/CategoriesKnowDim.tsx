@@ -22,7 +22,7 @@ interface CategoriesKnowProps {
 
 const CategoriesKnowDim: React.FC<CategoriesKnowProps> = (props) => {
   return (
-    <div className="flex flex-col gap-4 w-full rounded-lg border p-4 border-green">
+    <div className="flex flex-col gap-4 w-full bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white rounded-lg border p-4 border-green">
         <p className=" md:w-1/4 ">{props.title}</p>
         <div className="flex flex-row gap-4 w-full">
             <p className=" w-full md:w-1/4 text-[12px] md:text-[16px]">{props.majTypes1}</p>
@@ -46,7 +46,7 @@ const CategoriesKnowDim: React.FC<CategoriesKnowProps> = (props) => {
         </div>
         <div className="flex flex-row gap-4">
             <p className=" w-full md:w-1/4 text-[12px] md:text-[16px]">{props.majTypes6}</p>
-            <p className=" w-full md:w-3/4 ttext-[12px] md:ext-[16px]">{props.ex6}</p>
+            <p className=" w-full md:w-3/4 ttext-[12px] md:text-[16px]">{props.ex6}</p>
         </div>
         <div className="flex flex-row gap-4">
             <p className=" w-full md:w-1/4 text-[12px] md:text-[16px]">{props.majTypes7}</p>

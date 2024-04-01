@@ -33,7 +33,7 @@ const TabDisplay = ({ tabs }: { tabs: TabElement[] }) => {
           </button>
         ))}
       </div>
-      <div className="px-4 py-6 glassBox rounded-b-2xl">
+      <div className="">
         {tabs[activeTab].elements}
       </div>
     </div>
