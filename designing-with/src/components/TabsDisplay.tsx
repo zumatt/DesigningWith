@@ -8,7 +8,7 @@ const TabDisplay = ({ tabs }: { tabs: TabElement[] }) => {
         {tabs.map((tab, index) => (
           <button
             key={index}
-            className={`flex-1 max-w-[380px] px-4 py-6 bg-[#D9D9D988] rounded-t-2xl text-left`}
+            className={`flex-1 max-w-[380px] px-4 py-6 bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white rounded-t-2xl text-left`}
             onClick={() => setActiveTab(index)}
           >
             <p
@@ -32,7 +32,7 @@ const TabDisplay = ({ tabs }: { tabs: TabElement[] }) => {
           </button>
         ))}
       </div>
-      <div className="px-4 py-6 bg-[#D9D9D988] rounded-b-2xl">
+      <div className="">
         {tabs[activeTab].elements}
       </div>
     </div>

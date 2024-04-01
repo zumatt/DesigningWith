@@ -27,29 +27,31 @@ const AIForDesigners = () => {
             mobileTitle: "(a)",
             elements: (
               <div>
-                <h2>
-                  A set of 12 AI capabilities structuring a basic AI literacy
-                  for designers
-                </h2>
-                <div className="flex flex-col md:flex-row justify-between md:gap-[14px] mt-[50px]">
-                  <p className="flex-1">
-                    To use artificial intelligence, designers need first to
-                    comprehend its potential, functionality, and limitations.
-                    Basic AI literacy empowers designers to integrate these
-                    technologies into the design process, optimising outcomes
-                    and establishing a synergistic relationship between human
-                    intelligence and artificial intelligence.
-                  </p>
-                  <p className="flex-1">
-                    To introduce AI literacy and support designers, we have
-                    defined a list of AI capabilities that represent the
-                    fundamental functionality of AI systems. For each
-                    capability, a theoretical description, structured according
-                    to the principles of{" "}
-                    <TextHighlight type="input">input</TextHighlight> and{" "}
-                    <TextHighlight type="output">output</TextHighlight> data,
-                    and a practical example are provided.
-                  </p>
+                <div className="bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white px-4 py-6 rounded-b-2xl">
+                  <h2>
+                    A set of 12 AI capabilities structuring a basic AI literacy
+                    for designers
+                  </h2>
+                  <div className="flex flex-col md:flex-row justify-between md:gap-[14px] mt-[50px]">
+                    <p className="flex-1">
+                      To use artificial intelligence, designers need first to
+                      comprehend its potential, functionality, and limitations.
+                      Basic AI literacy empowers designers to integrate these
+                      technologies into the design process, optimising outcomes
+                      and establishing a synergistic relationship between human
+                      intelligence and artificial intelligence.
+                    </p>
+                    <p className="flex-1">
+                      To introduce AI literacy and support designers, we have
+                      defined a list of AI capabilities that represent the
+                      fundamental functionality of AI systems. For each
+                      capability, a theoretical description, structured according
+                      to the principles of{" "}
+                      <TextHighlight type="input">input</TextHighlight> and{" "}
+                      <TextHighlight type="output">output</TextHighlight> data,
+                      and a practical example are provided.
+                    </p>
+                  </div>
                 </div>
                 <div className="flex flex-col w-full mt-2 gap-2">
                   <p className=" bg-white rounded-lg p-4 md:hidden">
@@ -330,32 +332,34 @@ const AIForDesigners = () => {
             title: "(b) Data types",
             mobileTitle: "(b)",
             elements: (
-              <div>
-                <h2>
-                  A classification of 7 data types handled by AI tools as input
-                  and output
-                </h2>
-                <div className="flex flex-col md:flex-row justify-between md:gap-[14px] mt-[50px]">
-                  <p className="flex-1">
-                    Input and output data play pivotal roles when working with
-                    AI. Identifying the data type is fundamental to choosing the
-                    most suitable tool and producing the expected outcome.
-                  </p>
-                  <p className="flex-1">
-                    For the reason of supporting designers working with data, we
-                    first make clear what is meant by input and output data.
-                  </p>
+              <div className=" flex flex-col gap-2">
+                <div className="bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white px-4 py-6 rounded-b-2xl">
+                  <h2>
+                    A classification of 7 data types handled by AI tools as input
+                    and output
+                  </h2>
+                  <div className="flex flex-col md:flex-row justify-between md:gap-[14px] mt-[50px]">
+                    <p className="flex-1">
+                      Input and output data play pivotal roles when working with
+                      AI. Identifying the data type is fundamental to choosing the
+                      most suitable tool and producing the expected outcome.
+                    </p>
+                    <p className="flex-1">
+                      For the reason of supporting designers working with data, we
+                      first make clear what is meant by input and output data.
+                    </p>
+                  </div>
                 </div>
-                <h2>
+                <h2 className="bg-[#72DAFB] px-4 py-6 rounded-2xl shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white">
                   Input data refers to the information that is given by a
                   designer to an AI system, model, or algorithm to be processed
                   or analysed.
                 </h2>
-                <h2>
+                <h2 className="bg-[#5B99F4] px-4 py-6 rounded-2xl shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white">
                   Output data pertains to the outcome produced by a system as a
                   result of processing the input data.{" "}
                 </h2>
-                <div className="flex flex-col md:flex-row justify-between md:gap-[14px] mt-[50px]">
+                <div className="flex flex-col md:flex-row justify-between md:gap-[14px] bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white px-4 py-6 rounded-2xl">
                   <p className="flex-1">
                     Based on these definitions, we then introduce seven
                     categories of data: numerical, textual, image, audio,
@@ -383,27 +387,29 @@ const AIForDesigners = () => {
             title: "(c) Design process",
             mobileTitle: "(c)",
             elements: (
-              <div>
-                <h2>
-                  The definition of a design model consisting of 6 design stages
-                  suitable for bring new knowledge into the educational context
-                </h2>
-                <div className="flex flex-col md:flex-row justify-between gap-[14px] mt-[50px] mb-[25px]">
-                  <p className="flex-1">
-                    To integrate the new knowledge into the educational
-                    environment and support teachers and students in integrating
-                    AI during the design practice, we defined a new design model
-                    based on six stages: Understand, define, ideate, prototype,
-                    develop, and release.
-                  </p>
-                  <p className="flex-1">
-                    The definition of these stages takes into account the
-                    reference models produced by academic institutions,
-                    professional organisations and design practices, such as the
-                    Double Diamond model ( IDEO, 2009, 2012, 2015) and the
-                    design thinking model proposed by Ideo ( Design Council,
-                    n.d., 2021).
-                  </p>
+              <div className="flex flex-col gap-2">
+                <div className="bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white px-4 py-6 rounded-b-2xl">
+                  <h2>
+                    The definition of a design model consisting of 6 design stages
+                    suitable for bring new knowledge into the educational context
+                  </h2>
+                  <div className="flex flex-col md:flex-row justify-between gap-[14px] mt-[50px] mb-[25px]">
+                    <p className="flex-1">
+                      To integrate the new knowledge into the educational
+                      environment and support teachers and students in integrating
+                      AI during the design practice, we defined a new design model
+                      based on six stages: Understand, define, ideate, prototype,
+                      develop, and release.
+                    </p>
+                    <p className="flex-1">
+                      The definition of these stages takes into account the
+                      reference models produced by academic institutions,
+                      professional organisations and design practices, such as the
+                      Double Diamond model ( IDEO, 2009, 2012, 2015) and the
+                      design thinking model proposed by Ideo ( Design Council,
+                      n.d., 2021).
+                    </p>
+                  </div>
                 </div>
                 <div className=" flex flex-col gap-2">
                   <p className=" bg-white rounded-lg p-4 md:hidden">
@@ -447,27 +453,29 @@ const AIForDesigners = () => {
             title: "(d) AI tool collection",
             mobileTitle: "(d)",
             elements: (
-              <div>
-                <h2>AI tool collection</h2>
-                <div className="flex flex-col md:flex-row justify-between gap-[14px] mt-[50px]">
-                  <p className="flex-1">
-                    To support teachers and students in familiarizing with the
-                    framework and accessing the AI tools, we propose an
-                    interactive dendrogram. The dendrogram collects about 130
-                    tools which are organised based on the four components of
-                    the framework: design stages, AI capabilities, data types -
-                    input and output.
-                  </p>
-                  <p className="flex-1">
-                    <i>Tools</i> are selected based on their functionality and
-                    potential in the field of design to offer a limited and
-                    qualitative number of resources suitable to support students
-                    in designing with AI.
-                  </p>
+              <div className="flex flex-col gap-2">
+                <div className="bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white px-4 py-6 rounded-b-2xl">
+                  <h2>AI tool collection</h2>
+                  <div className="flex flex-col md:flex-row justify-between gap-[14px] mt-[50px]">
+                    <p className="flex-1">
+                      To support teachers and students in familiarizing with the
+                      framework and accessing the AI tools, we propose an
+                      interactive dendrogram. The dendrogram collects about 130
+                      tools which are organised based on the four components of
+                      the framework: design stages, AI capabilities, data types -
+                      input and output.
+                    </p>
+                    <p className="flex-1">
+                      <i>Tools</i> are selected based on their functionality and
+                      potential in the field of design to offer a limited and
+                      qualitative number of resources suitable to support students
+                      in designing with AI.
+                    </p>
+                  </div>
                 </div>
                 <a
                   href="/interactive-framework"
-                  className="w-full bg-[#72DAFB] rounded-2xl mt-[50px] p-[10px]"
+                  className="w-full bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_35px_20px_rgba(1,1,1,0)] shadow-[#72DAFB] rounded-2xl p-[10px]"
                 >
                   <p className="w-full text-center text-[25px] md:text-[50px]">
                     Explore the collection

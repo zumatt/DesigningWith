@@ -119,6 +119,7 @@ h3 {
 p {
   font-size: var(--pTextSize);
   font-family: "SuisseIntl", "Helvetica", sans-serif;
+  line-height: normal;
 }
 
 a div.box {
@@ -137,6 +138,12 @@ a {
 
 .captionFont {
   font-size: var(--captionFontSize);
+}
+
+@media (min-width: 768px) {
+  .md\:gap-\[14px\] {
+    gap: 35px;
+  }
 }
 
 /* -------------------> STYLE MOBILE <------------------- */

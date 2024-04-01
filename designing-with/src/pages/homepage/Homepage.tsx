@@ -12,7 +12,7 @@ const Homepage = () => {
           A New Educational Module to Integrate Artificial Intelligence, Machine
           Learning and Data Visualization in Design Curricula
         </h2>
-        <div className="mt-auto">
+        <div className="mt-auto leading-[17px]">
           © 2022. This project is licensed under CC BY 4.0. Supported by
           Movetia. Exchange and mobility.
         </div>
