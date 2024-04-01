@@ -3,16 +3,20 @@ import * as d3 from "d3";
 
 export const SvgDiagram = ({
   jsonDiagramUrl,
+  desiredWidth = 1200,
+  desiredHeight = 300,
 }: {
   jsonDiagramUrl: string | undefined;
+  desiredWidth?: number;
+  desiredHeight?: number;
 }) => {
   const ref = useRef();
 
   useEffect(() => {
     // set the dimensions and margins of the graph
     var margin = { top: 10, right: 10, bottom: 30, left: 10 },
-      width = 1200 - margin.left - margin.right,
-      height = 300 - margin.top - margin.bottom;
+      width = desiredWidth - margin.left - margin.right,
+      height = desiredHeight - margin.top - margin.bottom;
 
     // append the svg object to the body of the page
     var svg = d3
@@ -146,7 +150,7 @@ export const SvgDiagram = ({
             return d.id;
           });
       });
-  }, [jsonDiagramUrl]);
+  }, [jsonDiagramUrl, desiredWidth, desiredHeight]);
 
   return (
     <div className="w-full flex flex-row justify-center">

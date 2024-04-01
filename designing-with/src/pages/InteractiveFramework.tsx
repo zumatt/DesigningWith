@@ -1,22 +1,50 @@
-import React, { ReactNode } from "react";
+import React, { ReactNode, useEffect } from "react";
 import Layout from "../components/Layout";
 import Filter from "../components/IcicleDiagram/Filter";
 import { useState } from "react";
-import IcicleDiagram, {
-  IcicleData,
-} from "../components/IcicleDiagram/IcicleDiagram";
+import IcicleDiagram from "../components/IcicleDiagram/IcicleDiagram";
 import { FilterArg } from "../components/IcicleDiagram/FilterUtils";
 import { Results } from "../components/IcicleDiagram/Filters";
 import RenderToolCards from "../components/IcicleDiagram/ToolCard";
+import IcicleData from "../components/IcicleDiagram/IcicleData";
+import MobileIcicleDiagram from "../components/IcicleDiagram/MobileIcycleDiagram";
 
+/**
+ * Component that renders the Interactive Framework page
+ * @returns The Interactive Framework page depending on the screen size
+ */
 const InteractiveFramework = () => {
+  const [isMobile, setIsMobile] = useState(
+    window.innerWidth / window.innerHeight < 1
+  );
+
+  const updateScreenRatio = () => {
+    setIsMobile(window.innerWidth / window.innerHeight < 1);
+  };
+
+  useEffect(() => {
+    window.addEventListener("resize", updateScreenRatio);
+    return () => window.removeEventListener("resize", updateScreenRatio);
+  }, []);
+
+  return isMobile ? (
+    <InteractiveFrameworkMobile />
+  ) : (
+    <InteractiveFrameworkDesktop />
+  );
+};
+
+/**
+ * Component that renders the Interactive Framework page for desktop
+ * @returns The Interactive Framework page for desktop
+ */
+const InteractiveFrameworkDesktop = () => {
   const [showResults, setShowResults] = React.useState(false);
   const onClick = () => setShowResults(!showResults);
   const [filters, setFilters] = useState<FilterArg[]>([]);
   const [activeCard, setActiveCard] = useState<ReactNode>(null);
 
   const showCard = (card: IcicleData | null) => {
-    console.log(card);
     if (card) {
       setActiveCard(<RenderToolCards stage={card} showCard={showCard} />);
     } else {
@@ -102,6 +130,33 @@ const InteractiveFramework = () => {
           {activeCard}
         </div>
       )}
+    </Layout>
+  );
+};
+
+/**
+ * Component that renders the Interactive Framework page for mobile
+ * @returns The Interactive Framework page for mobile
+ */
+const InteractiveFrameworkMobile = () => {
+  const [activeCard, setActiveCard] = useState<IcicleData | null>(null);
+
+  return (
+    <Layout>
+      {activeCard === null && (
+        <a
+          className="mt-2 underline cursor-pointer text-lg"
+          href="mailto:designingwithai@supsi.ch?subject=Recommend a Tool - Designing With AI Website"
+        >
+          Recommend a tool
+        </a>
+      )}
+      <div className="flex flex-col w-full flex-1">
+        <MobileIcicleDiagram
+          showCard={activeCard}
+          setShowCard={setActiveCard}
+        />
+      </div>
     </Layout>
   );
 };

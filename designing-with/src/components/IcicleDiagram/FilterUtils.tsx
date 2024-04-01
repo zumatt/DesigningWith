@@ -1,4 +1,5 @@
-import { IcicleData } from "./IcicleDiagram";
+import IcicleData from "./IcicleData";
+
 
 export type FilterArg = {
   depth: number;

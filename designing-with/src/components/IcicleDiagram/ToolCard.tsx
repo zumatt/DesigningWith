@@ -1,5 +1,5 @@
 import Filter from "./Filter";
-import { IcicleData } from "./IcicleDiagram";
+import IcicleData from "./IcicleData";
 import { SvgDiagram } from "./SvgDiagramTool";
 
 const RenderToolCards = ({

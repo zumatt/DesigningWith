@@ -2,19 +2,7 @@ import { useEffect, useState } from "react";
 import dataJson from "../../assets/data/data.json";
 import { FilterArg, filterIcicleData } from "./FilterUtils";
 import Tooltip from "@mui/material/Tooltip";
-
-export type IcicleData = {
-  name: string;
-  children?: IcicleData[];
-  description?: string;
-  payment?: string;
-  type?: string;
-  skills?: string;
-  tooldiagram?: string;
-  value?: number;
-  link?: string;
-  inFilter?: boolean;
-};
+import IcicleData from "./IcicleData";
 
 const IcicleDiagram = ({
   data = dataJson,
@@ -26,9 +14,16 @@ const IcicleDiagram = ({
   showCard?: (card: IcicleData | null) => void;
 }) => {
   const [activeStages, setActiveStages] = useState<IcicleData[]>([]);
-  const [filteredData, setFilteredData] = useState<IcicleData>(dataJson);
+  const [filteredData, setFilteredData] = useState<IcicleData>(data);
   const [pathTooltip, setPathTooltip] = useState<string>("");
   const [tooltipColor, setTooltipColor] = useState<string>("");
+  const steps = [
+    "Design Phase",
+    "AI Capability",
+    "AI Input (From)",
+    "AI Output (To)",
+    "Tool",
+  ];
 
   const toggleStage = (stage: IcicleData, parents: IcicleData[]) => {
     // Get the index of the stage in the activeStages array
@@ -49,39 +44,16 @@ const IcicleDiagram = ({
   }, [tooltipColor]);
 
   useEffect(() => {
-    if (filters.length > 0)
-      setFilteredData(filterIcicleData(dataJson, filters));
-    else setFilteredData(dataJson);
-  }, [filters]);
+    if (filters.length > 0) setFilteredData(filterIcicleData(data, filters));
+    else setFilteredData(data);
+  }, [filters, data]);
 
   return (
     <>
       <div className="flex flex-row min-w-[100%]">
-        {activeStages.length > 0 ? (
-          <div className="w-6 left-0 m-1"></div>
-        ) : (
-          <p className="text-sm w-full md:w-[334px] m-1">Design Phase</p>
-        )}
-        {activeStages.length > 1 ? (
-          <div className="w-6 left-0 m-1"></div>
-        ) : (
-          <p className="text-sm w-[334px] m-1">AI Capability</p>
-        )}
-        {activeStages.length > 2 ? (
-          <div className="w-6 left-0 m-1"></div>
-        ) : (
-          <p className="text-sm w-[334px] m-1">AI Input (From)</p>
-        )}
-        {activeStages.length > 3 ? (
-          <div className="w-6 left-0 m-1"></div>
-        ) : (
-          <p className="text-sm w-[334px] m-1">AI Output (To)</p>
-        )}
-        {activeStages.length > 4 ? (
-          <div className="w-6 left-0 m-1"></div>
-        ) : (
-          <p className="text-sm w-[334px] m-1">Tool</p>
-        )}
+        <p className="text-sm w-full md:w-[334px] m-1">
+          {steps[activeStages.length]}
+        </p>
       </div>
       <div className="flex flex-col md:flex-row h-full w-full md:overflow-x-hidden overflow-x-visible md:overflow-y-visible">
         {activeStages.map((stage) => (
