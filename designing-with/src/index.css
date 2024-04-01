@@ -119,6 +119,7 @@ h3 {
 p {
   font-size: var(--pTextSize);
   font-family: "SuisseIntl", "Helvetica", sans-serif;
+  line-height: normal;
 }
 
 a div.box {
