@@ -156,27 +156,27 @@ const RenderToolCards = ({
 
   return (
     <div
-      className={`flex bg-white rounded-lg px-2 m-1 w-full h-full flex-col ${selectStroke(
+      className={`flex glassBox rounded-lg px-2 m-1 w-full h-full flex-col ${selectStroke(
         true
       )}`}
     >
       <div className="flex flex-col w-full p-5 h-full overflow-x-auto">
         <div className="flex flex-row justify-between items-center mb-5">
           <h1>{tool.name}</h1>
-          <div className="flex flex-row justify-between items-center w-[60%]">
-            <Filter name={tool.payment ?? ""} color={selectStroke(true)} />
-            <Filter name={"Type - " + tool.type} color={selectStroke(false)} />
-            <Filter
-              name={"Skills - " + tool.skills}
-              color={selectStroke(false)}
-            />
-          </div>
           <button
             onClick={onClose}
-            className="flex bg-white rounded h-full justify-center left-0"
+            className="flex rounded h-full justify-center left-0"
           >
             Close X
           </button>
+        </div>
+        <div className="flex flex-row flex-wrap justify-start gap-2 items-center w-full mb-5">
+          <Filter name={tool.payment ?? ""} color={selectStroke(true)} />
+          <Filter name={"Type - " + tool.type} color={selectStroke(false)} />
+          <Filter
+            name={"Skills - " + tool.skills}
+            color={selectStroke(false)}
+          />
         </div>
         <h2 className="mb-10">{tool.description}</h2>
         <SvgDiagram
