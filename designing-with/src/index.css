@@ -139,6 +139,11 @@ a {
   font-size: var(--captionFontSize);
 }
 
+.glassBox {
+  box-shadow: 0px 0px 100px 5px #FFFFFF inset;
+  background-color: #D9D9D980;
+}
+
 /* -------------------> STYLE MOBILE <------------------- */
 
 @media screen and (max-width: 820px) {

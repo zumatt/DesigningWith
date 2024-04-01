@@ -31,7 +31,7 @@ const Header = ({
           onClick={onClick}
           className="flex justify-start bg-white rounded-xl px-3 z-10"
         >
-          <p>{menuIsOpen ? "⨯" : "+"}</p>
+          <p style={ {transition: "all 300ms", transform: menuIsOpen ? "rotate(45deg)" : ""}}>+</p>
         </button>
         {menuIsOpen ? <Results /> : null}
         {!menuIsOpen && pathname === "/about" && (

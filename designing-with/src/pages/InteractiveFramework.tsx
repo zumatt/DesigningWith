@@ -53,7 +53,7 @@ const InteractiveFramework = () => {
     <Layout>
       <a
         className="mt-[33px] underline cursor-pointer text-xl"
-        href="www.google.com"
+        href="mailto:designingwithai@supsi.ch?subject=Recommend a Tool - Designing With AI Website"
       >
         Recommend a tool
       </a>

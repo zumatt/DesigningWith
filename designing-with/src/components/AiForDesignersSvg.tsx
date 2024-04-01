@@ -3,7 +3,7 @@ import React from "react";
 function AiForDesignersSvg() {
   return (
     <svg
-      className="w-full h-auto mt-6"
+      className="w-full h-auto mt-2"
       viewBox="0 0 1708 835"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
