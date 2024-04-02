@@ -4,6 +4,7 @@ import { FilterArg, filterIcicleData } from "./FilterUtils";
 import Tooltip from "@mui/material/Tooltip";
 import IcicleData from "./IcicleData";
 import { selectStroke, steps, toggleStage } from "./DiagramUtils";
+import React from "react";
 
 const IcicleDiagram = ({
   data = dataJson,
@@ -18,6 +19,19 @@ const IcicleDiagram = ({
   const [filteredData, setFilteredData] = useState<IcicleData>(data);
   const [pathTooltip, setPathTooltip] = useState<string>("");
   const [tooltipColor, setTooltipColor] = useState<string>("");
+  const [height, setHeight] = useState(0);
+  const [width, setWidth] = useState(0);
+
+  const updateScreenRatio = () => {
+    setHeight(window.innerHeight * 0.8);
+    setWidth(window.innerWidth);
+  };
+
+  useEffect(() => {
+    window.addEventListener("resize", updateScreenRatio);
+    updateScreenRatio();
+    return () => window.removeEventListener("resize", updateScreenRatio);
+  }, []);
 
   const toggleStageDiagram = (
     stage: IcicleData,
@@ -38,27 +52,52 @@ const IcicleDiagram = ({
         {activeStages.length > 0 ? (
           <div className="w-6 left-0 m-1"></div>
         ) : (
-          <p className="text-sm w-full md:w-[334px] m-1">Design Phase</p>
+          <p
+            className="text-sm m-1"
+            style={{ width: getColumnWidth(width, activeStages.length) }}
+          >
+            Design Phase
+          </p>
         )}
         {activeStages.length > 1 ? (
           <div className="w-6 left-0 m-1"></div>
         ) : (
-          <p className="text-sm w-[334px] m-1">AI Capability</p>
+          <p
+            className="text-sm m-1"
+            style={{ width: getColumnWidth(width, activeStages.length) }}
+          >
+            AI Capability
+          </p>
         )}
         {activeStages.length > 2 ? (
           <div className="w-6 left-0 m-1"></div>
         ) : (
-          <p className="text-sm w-[334px] m-1">AI Input (From)</p>
+          <p
+            className="text-sm m-1"
+            style={{ width: getColumnWidth(width, activeStages.length) }}
+          >
+            AI Input (From)
+          </p>
         )}
         {activeStages.length > 3 ? (
           <div className="w-6 left-0 m-1"></div>
         ) : (
-          <p className="text-sm w-[334px] m-1">AI Output (To)</p>
+          <p
+            className="text-sm m-1"
+            style={{ width: getColumnWidth(width, activeStages.length) }}
+          >
+            AI Output (To)
+          </p>
         )}
         {activeStages.length > 4 ? (
           <div className="w-6 left-0 m-1"></div>
         ) : (
-          <p className="text-sm w-[334px] m-1">Tool</p>
+          <p
+            className="text-sm m-1"
+            style={{ width: getColumnWidth(width, activeStages.length) }}
+          >
+            Tool
+          </p>
         )}
       </div>
       <div className="flex flex-col md:flex-row h-full w-full md:overflow-x-hidden overflow-x-visible md:overflow-y-visible">
@@ -66,7 +105,7 @@ const IcicleDiagram = ({
           <button
             key={stage.name}
             onClick={() => toggleStageDiagram(stage, [])}
-            className="hidden md:flex bg-white rounded justify-center item-center [writing-mode:vertical-rl] rotate-180 w-6 min-h-full left-0 m-1 p-1"
+            className="hidden md:flex bg-white rounded justify-center item-center [writing-mode:vertical-rl] rotate-180 w-6 min-h-[80vh] left-0 m-1 p-1"
           >
             {stage.name}
           </button>
@@ -96,6 +135,7 @@ const IcicleDiagram = ({
                       setTooltipColor(select);
                       setPathTooltip(tree.join(" / "));
                     }}
+                    width={getColumnWidth(width, activeStages.length)}
                   />
                 ))
               : activeStages[activeStages.length - 1].children?.map(
@@ -115,6 +155,15 @@ const IcicleDiagram = ({
                           setPathTooltip(tree.join(" / "));
                         }
                       }}
+                      width={getColumnWidth(width, activeStages.length)}
+                      heightConstraint={
+                        height /
+                        getNumberChildren(
+                          // @ts-ignore
+                          activeStages[activeStages.length - 1].children,
+                          1
+                        )
+                      }
                     />
                   )
                 )}
@@ -132,6 +181,8 @@ const RenderCards = ({
   parentsSelect = () => {},
   showCard = () => {},
   level = 0,
+  width,
+  heightConstraint = 30,
 }: {
   stage: IcicleData;
   parents: IcicleData[];
@@ -143,29 +194,53 @@ const RenderCards = ({
   parentsSelect?: (select: string, tree: string[]) => void;
   showCard?: (card: IcicleData | null) => void;
   level?: number;
+  width?: number;
+  heightConstraint?: number;
 }) => {
   const [selected, setSelected] = useState<string>("");
+  const ref = React.useRef<HTMLDivElement>(null);
 
   const groupSelect = (select: string, tree: string[]) => {
     parentsSelect(select, select === "" ? [] : [stage.name, ...tree]);
     setSelected(select);
   };
 
-  return (
-    <div
-      className={`flex flex-row transition-all ${
-        // @ts-ignore
-        level === 1 && !stage.description && stage.children?.length > 3
-          ? "h-[30px]"
-          : "flex-1"
-      }`}
-      style={{
+  const getStyleRow = (isFixed: boolean) => {
+    if (!isFixed) {
+      return {
         opacity: Object.keys(stage).includes("inFilter")
           ? stage.inFilter
             ? 1
             : 0.5
           : 1,
-      }}
+        flex: 1,
+      };
+    } else if (heightConstraint > 0) {
+      return {
+        opacity: Object.keys(stage).includes("inFilter")
+          ? stage.inFilter
+            ? 1
+            : 0.5
+          : 1,
+        height: heightConstraint,
+      };
+    }
+    return {
+      opacity: Object.keys(stage).includes("inFilter")
+        ? stage.inFilter
+          ? 1
+          : 0.5
+        : 1,
+    };
+  };
+
+  return (
+    <div
+      className={`flex flex-row transition-all ${
+        heightConstraint < 0 ? "flex-1" : ""
+      }`}
+      style={getStyleRow(level > 0)}
+      ref={ref}
     >
       <button
         key={stage.name}
@@ -184,13 +259,12 @@ const RenderCards = ({
           }
         }}
         className={`flex rounded ${
-          stage.description ? "w-[1000px]" : "w-[334px]"
-        } ${
           level < 2 ? "px-2 m-1" : "m-[1px] min-h-[2px]"
         } ${selected} flex-col`}
         style={{
           boxShadow: "0px 0px 100px 5px #FFFFFF inset",
           background: "#D9D9D980",
+          width: width,
         }}
         onMouseEnter={() => {
           groupSelect(selectStroke(true, stage), [stage.name]);
@@ -199,7 +273,8 @@ const RenderCards = ({
           groupSelect(selectStroke(false, stage), []);
         }}
       >
-        {level < 2 && stage.name}
+        {(heightConstraint < 0 || heightConstraint > 22 || level < 2) &&
+          stage.name}
       </button>
       <div className="flex flex-col">
         {stage.children
@@ -211,11 +286,33 @@ const RenderCards = ({
               parentsSelect={groupSelect}
               showCard={showCard}
               level={level + 1}
+              width={width}
+              heightConstraint={
+                level === 0
+                  ? heightConstraint / getNumberChildren(stage, 1) > 30
+                    ? -1
+                    : 30
+                  : heightConstraint / getNumberChildren(stage, 1)
+              }
             />
           ))
           .filter((elem, i) => level < 2 || i < 3)}
       </div>
     </div>
+  );
+};
+
+const getColumnWidth = (width: number, activeStages: number) => {
+  return width / (5 - activeStages) - 24 * activeStages - 15;
+};
+
+const getNumberChildren = (stage: IcicleData, depth: number): number => {
+  if (depth === 0) return 1;
+  return (
+    stage.children?.reduce(
+      (acc, child) => acc + getNumberChildren(child, depth - 1),
+      0
+    ) ?? 0
   );
 };
 

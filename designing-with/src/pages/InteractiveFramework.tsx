@@ -79,12 +79,12 @@ const InteractiveFrameworkDesktop = () => {
 
   return (
     <Layout>
-      <a
+      {/* <a
         className="mt-[33px] underline cursor-pointer text-xl"
         href="mailto:designingwithai@supsi.ch?subject=Recommend a Tool - Designing With AI Website"
       >
         Recommend a tool
-      </a>
+      </a> */}
       <div className="md:flex flex-row justify-end gap-2 hidden">
         <Filter name="Premium" color="border-blue" />
         <Filter name="Freemium" color="border-purple" />
@@ -144,12 +144,13 @@ const InteractiveFrameworkMobile = () => {
   return (
     <Layout>
       {activeCard === null && (
-        <a
-          className="mt-2 underline cursor-pointer text-lg"
-          href="mailto:designingwithai@supsi.ch?subject=Recommend a Tool - Designing With AI Website"
-        >
-          Recommend a tool
-        </a>
+        <></>
+        // <a
+        //   className="mt-2 underline cursor-pointer text-lg"
+        //   href="mailto:designingwithai@supsi.ch?subject=Recommend a Tool - Designing With AI Website"
+        // >
+        //   Recommend a tool
+        // </a>
       )}
       <div className="flex flex-col w-full flex-1">
         <MobileIcicleDiagram
