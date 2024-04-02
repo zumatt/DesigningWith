@@ -3,7 +3,15 @@ import IcicleData from "./IcicleData";
 import dataJson from "../../assets/data/data.json";
 import Filter from "./Filter";
 import { SvgDiagram } from "./SvgDiagramTool";
+import { selectStroke, steps, toggleStage } from "./DiagramUtils";
 
+/**
+ * Component that renders the mobile version of the Icicle Diagram
+ * @param data The data to render
+ * @param showCard The card to show
+ * @param setShowCard The function to set the card to show
+ * @returns The mobile version of the Icicle Diagram
+ */
 const MobileIcicleDiagram = ({
   data = dataJson,
   showCard,
@@ -14,26 +22,9 @@ const MobileIcicleDiagram = ({
   setShowCard?: (card: IcicleData | null) => void;
 }) => {
   const [activeStages, setActiveStages] = useState<IcicleData[]>([]);
-  const steps = [
-    "Design Phase",
-    "AI Capability",
-    "AI Input (From)",
-    "AI Output (To)",
-    "Tool",
-  ];
 
-  const toggleStage = (stage: IcicleData, parents: IcicleData[]) => {
-    // Get the index of the stage in the activeStages array
-    const index = activeStages.findIndex(
-      (activeStage) => activeStage.name === stage.name
-    );
-    // If the stage is already active, remove it from the array
-    if (index !== -1) {
-      setActiveStages((prev) => prev.slice(0, index));
-    } else {
-      // If the stage is not active, add it to the array
-      setActiveStages([...parents, stage]);
-    }
+  const toggleStageDiagram = (stage: IcicleData, parents: IcicleData[]) => {
+    return toggleStage(stage, parents, activeStages, setActiveStages);
   };
 
   const displayDiagram = () => {
@@ -49,7 +40,7 @@ const MobileIcicleDiagram = ({
               <RenderCards
                 stage={stage}
                 parents={activeStages}
-                toggleStage={toggleStage}
+                toggleStage={toggleStageDiagram}
                 showCard={setShowCard}
               />
             )
@@ -63,7 +54,7 @@ const MobileIcicleDiagram = ({
             <RenderCards
               stage={stage}
               parents={[]}
-              toggleStage={toggleStage}
+              toggleStage={toggleStageDiagram}
               showCard={setShowCard}
             />
           ))}
@@ -83,7 +74,7 @@ const MobileIcicleDiagram = ({
                 color="border-grey"
                 onClick={() => {
                   setShowCard(null);
-                  toggleStage(stage, []);
+                  toggleStageDiagram(stage, []);
                 }}
               />
               {index < activeStages.length - 1 && <p>/</p>}
@@ -104,6 +95,14 @@ const MobileIcicleDiagram = ({
   );
 };
 
+/**
+ * Component that renders the cards in the Icicle Diagram
+ * @param stage The stage to render
+ * @param parents The parents of the stage
+ * @param toggleStage The function to focus the stage
+ * @param showCard The function to show the card
+ * @returns The card
+ */
 const RenderCards = ({
   stage,
   parents,
@@ -129,6 +128,11 @@ const RenderCards = ({
   );
 };
 
+/**
+ * Component that renders the tool cards
+ * @param tool The tool to render
+ * @returns The tool card
+ */
 const RenderToolCards = ({
   tool,
   onClose,
@@ -136,28 +140,11 @@ const RenderToolCards = ({
   tool: IcicleData;
   onClose: () => void;
 }) => {
-  const selectStroke = (select: boolean) => {
-    if (select) {
-      switch (tool.payment) {
-        case "Premium":
-          return "border-2 border-blue";
-        case "Freemium":
-          return "border-2 border-purple";
-        case "Free":
-          return "border-2 border-beige";
-        case "Free-Waiting List":
-          return "border-2 border-orange";
-        default:
-          return "border-2 border-grey";
-      }
-    }
-    return "";
-  };
-
   return (
     <div
       className={`flex glassBox rounded-lg px-2 m-1 w-full h-full flex-col ${selectStroke(
-        true
+        true,
+        tool
       )}`}
     >
       <div className="flex flex-col w-full p-5 h-full overflow-x-auto">
@@ -171,11 +158,14 @@ const RenderToolCards = ({
           </button>
         </div>
         <div className="flex flex-row flex-wrap justify-start gap-2 items-center w-full mb-5">
-          <Filter name={tool.payment ?? ""} color={selectStroke(true)} />
-          <Filter name={"Type - " + tool.type} color={selectStroke(false)} />
+          <Filter name={tool.payment ?? ""} color={selectStroke(true, tool)} />
+          <Filter
+            name={"Type - " + tool.type}
+            color={selectStroke(false, tool)}
+          />
           <Filter
             name={"Skills - " + tool.skills}
-            color={selectStroke(false)}
+            color={selectStroke(false, tool)}
           />
         </div>
         <h2 className="mb-10">{tool.description}</h2>

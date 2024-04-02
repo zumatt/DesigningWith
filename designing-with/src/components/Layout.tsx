@@ -9,8 +9,8 @@ const Layout = ({
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
     <div
-      className={`flex flex-col relative p-4 w-screen min-h-screen overflow-x-hidden${
-        isMenuOpen ? " overflow-hidden max-h-screen" : ""
+      className={`flex flex-col relative p-4 w-screen min-h-screen overflow-x-hidden ${
+        isMenuOpen ? "overflow-hidden max-h-screen" : ""
       }`}
     >
       <Header menuIsOpen={isMenuOpen} setMenuIsOpen={setIsMenuOpen} />

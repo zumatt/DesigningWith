@@ -3,6 +3,7 @@ import dataJson from "../../assets/data/data.json";
 import { FilterArg, filterIcicleData } from "./FilterUtils";
 import Tooltip from "@mui/material/Tooltip";
 import IcicleData from "./IcicleData";
+import { selectStroke, steps, toggleStage } from "./DiagramUtils";
 
 const IcicleDiagram = ({
   data = dataJson,
@@ -17,31 +18,14 @@ const IcicleDiagram = ({
   const [filteredData, setFilteredData] = useState<IcicleData>(data);
   const [pathTooltip, setPathTooltip] = useState<string>("");
   const [tooltipColor, setTooltipColor] = useState<string>("");
-  const steps = [
-    "Design Phase",
-    "AI Capability",
-    "AI Input (From)",
-    "AI Output (To)",
-    "Tool",
-  ];
 
-  const toggleStage = (stage: IcicleData, parents: IcicleData[]) => {
-    // Get the index of the stage in the activeStages array
-    const index = activeStages.findIndex(
-      (activeStage) => activeStage.name === stage.name
-    );
-    // If the stage is already active, remove it from the array
-    if (index !== -1) {
-      setActiveStages((prev) => prev.slice(0, index));
-    } else {
-      // If the stage is not active, add it to the array
-      setActiveStages([...parents, stage]);
-    }
+  const toggleStageDiagram = (
+    stage: IcicleData,
+    parents: IcicleData[],
+    isLeave = false
+  ) => {
+    return toggleStage(stage, parents, activeStages, setActiveStages, isLeave);
   };
-
-  useEffect(() => {
-    console.log(tooltipColor);
-  }, [tooltipColor]);
 
   useEffect(() => {
     if (filters.length > 0) setFilteredData(filterIcicleData(data, filters));
@@ -51,15 +35,37 @@ const IcicleDiagram = ({
   return (
     <>
       <div className="flex flex-row min-w-[100%]">
-        <p className="text-sm w-full md:w-[334px] m-1">
-          {steps[activeStages.length]}
-        </p>
+        {activeStages.length > 0 ? (
+          <div className="w-6 left-0 m-1"></div>
+        ) : (
+          <p className="text-sm w-full md:w-[334px] m-1">Design Phase</p>
+        )}
+        {activeStages.length > 1 ? (
+          <div className="w-6 left-0 m-1"></div>
+        ) : (
+          <p className="text-sm w-[334px] m-1">AI Capability</p>
+        )}
+        {activeStages.length > 2 ? (
+          <div className="w-6 left-0 m-1"></div>
+        ) : (
+          <p className="text-sm w-[334px] m-1">AI Input (From)</p>
+        )}
+        {activeStages.length > 3 ? (
+          <div className="w-6 left-0 m-1"></div>
+        ) : (
+          <p className="text-sm w-[334px] m-1">AI Output (To)</p>
+        )}
+        {activeStages.length > 4 ? (
+          <div className="w-6 left-0 m-1"></div>
+        ) : (
+          <p className="text-sm w-[334px] m-1">Tool</p>
+        )}
       </div>
       <div className="flex flex-col md:flex-row h-full w-full md:overflow-x-hidden overflow-x-visible md:overflow-y-visible">
         {activeStages.map((stage) => (
           <button
             key={stage.name}
-            onClick={() => toggleStage(stage, [])}
+            onClick={() => toggleStageDiagram(stage, [])}
             className="hidden md:flex bg-white rounded justify-center item-center [writing-mode:vertical-rl] rotate-180 w-6 min-h-full left-0 m-1 p-1"
           >
             {stage.name}
@@ -84,7 +90,7 @@ const IcicleDiagram = ({
                   <RenderCards
                     stage={stage}
                     parents={[]}
-                    toggleStage={toggleStage}
+                    toggleStage={toggleStageDiagram}
                     showCard={showCard}
                     parentsSelect={(select, tree) => {
                       setTooltipColor(select);
@@ -97,7 +103,7 @@ const IcicleDiagram = ({
                     <RenderCards
                       stage={subStage}
                       parents={activeStages}
-                      toggleStage={toggleStage}
+                      toggleStage={toggleStageDiagram}
                       showCard={showCard}
                       parentsSelect={(select, tree) => {
                         if (select === "") setPathTooltip("");
@@ -129,35 +135,20 @@ const RenderCards = ({
 }: {
   stage: IcicleData;
   parents: IcicleData[];
-  toggleStage: (stage: IcicleData, parents: IcicleData[]) => void;
+  toggleStage: (
+    stage: IcicleData,
+    parents: IcicleData[],
+    isLeave?: boolean
+  ) => void;
   parentsSelect?: (select: string, tree: string[]) => void;
   showCard?: (card: IcicleData | null) => void;
   level?: number;
 }) => {
   const [selected, setSelected] = useState<string>("");
-  const [showContent, setShowContent] = useState<boolean>(false);
 
   const groupSelect = (select: string, tree: string[]) => {
     parentsSelect(select, select === "" ? [] : [stage.name, ...tree]);
     setSelected(select);
-  };
-
-  const selectStroke = (select: boolean) => {
-    if (select) {
-      switch (stage.payment) {
-        case "Premium":
-          return "box-border border-2 border-blue";
-        case "Freemium":
-          return "box-border border-2 border-purple";
-        case "Free":
-          return "box-border border-2 border-beige";
-        case "Free-Waiting List":
-          return "box-border border-2 border-orange";
-        default:
-          return "box-border border-2 border-grey";
-      }
-    }
-    return "";
   };
 
   return (
@@ -180,15 +171,16 @@ const RenderCards = ({
         key={stage.name}
         onClick={() => {
           if (stage.description) {
-            if (!showContent) {
-              showCard(stage);
-              toggleStage(parents[parents.length - 1], parents.slice(0, -1));
-            } else showCard(null);
-            setShowContent((prev) => !prev);
-            groupSelect(selectStroke(false), []);
+            showCard(stage);
+            toggleStage(
+              parents[parents.length - 1],
+              parents.slice(0, -1),
+              true
+            );
+            groupSelect(selectStroke(false, stage), []);
           } else {
             toggleStage(stage, parents);
-            groupSelect(selectStroke(false), []);
+            groupSelect(selectStroke(false, stage), []);
           }
         }}
         className={`flex rounded ${
@@ -201,10 +193,10 @@ const RenderCards = ({
           background: "#D9D9D980",
         }}
         onMouseEnter={() => {
-          groupSelect(selectStroke(true), [stage.name]);
+          groupSelect(selectStroke(true, stage), [stage.name]);
         }}
         onMouseLeave={() => {
-          groupSelect(selectStroke(false), []);
+          groupSelect(selectStroke(false, stage), []);
         }}
       >
         {level < 2 && stage.name}
