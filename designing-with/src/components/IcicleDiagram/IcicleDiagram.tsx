@@ -56,7 +56,7 @@ const IcicleDiagram = ({
             className="text-sm m-1"
             style={{ width: getColumnWidth(width, activeStages.length) }}
           >
-            Design Phase
+            {steps[0]}
           </p>
         )}
         {activeStages.length > 1 ? (
@@ -66,7 +66,7 @@ const IcicleDiagram = ({
             className="text-sm m-1"
             style={{ width: getColumnWidth(width, activeStages.length) }}
           >
-            AI Capability
+            {steps[1]}
           </p>
         )}
         {activeStages.length > 2 ? (
@@ -76,7 +76,7 @@ const IcicleDiagram = ({
             className="text-sm m-1"
             style={{ width: getColumnWidth(width, activeStages.length) }}
           >
-            AI Input (From)
+            {steps[2]}
           </p>
         )}
         {activeStages.length > 3 ? (
@@ -86,7 +86,7 @@ const IcicleDiagram = ({
             className="text-sm m-1"
             style={{ width: getColumnWidth(width, activeStages.length) }}
           >
-            AI Output (To)
+            {steps[3]}
           </p>
         )}
         {activeStages.length > 4 ? (
@@ -96,7 +96,7 @@ const IcicleDiagram = ({
             className="text-sm m-1"
             style={{ width: getColumnWidth(width, activeStages.length) }}
           >
-            Tool
+            {steps[4]}
           </p>
         )}
       </div>
