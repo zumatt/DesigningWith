@@ -6,34 +6,37 @@ const CapabilitiesTab: TabElement = {
         title: "(a) AI capabilities",
         mobileTitle: "(a)",
         elements: (
-          <div>
-            <h2>
-              A set of 12 AI capabilities structuring a basic AI literacy
-              for designers
-            </h2>
-            <div className="flex flex-col md:flex-row justify-between md:gap-[14px] mt-[50px]">
-              <p className="flex-1">
-                To use artificial intelligence, designers need first to
-                comprehend its potential, functionality, and limitations.
-                Basic AI literacy empowers designers to integrate these
-                technologies into the design process, optimising outcomes
-                and establishing a synergistic relationship between human
-                intelligence and artificial intelligence.
-              </p>
-              <p className="flex-1">
-                To introduce AI literacy and support designers, we have
-                defined a list of AI capabilities that represent the
-                fundamental functionality of AI systems. For each
-                capability, a theoretical description, structured according
-                to the principles of{" "}
-                <TextHighlight type="input">input</TextHighlight> and{" "}
-                <TextHighlight type="output">output</TextHighlight> data,
-                and a practical example are provided.
-              </p>
-            </div>
+          <div className="flex flex-col gap-2">
+            <div className="bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white px-4 py-6 rounded-b-2xl rounded-tr-2xl">
+       
+              <h2>
+                A set of 12 AI capabilities structuring a basic AI literacy
+                for designers
+              </h2>
+              <div className="flex flex-col md:flex-row justify-between md:gap-[14px] mt-[50px]">
+                <p className="flex-1">
+                  To use artificial intelligence, designers need first to
+                  comprehend its potential, functionality, and limitations.
+                  Basic AI literacy empowers designers to integrate these
+                  technologies into the design process, optimising outcomes
+                  and establishing a synergistic relationship between human
+                  intelligence and artificial intelligence.
+                </p>
+                <p className="flex-1">
+                  To introduce AI literacy and support designers, we have
+                  defined a list of AI capabilities that represent the
+                  fundamental functionality of AI systems. For each
+                  capability, a theoretical description, structured according
+                  to the principles of{" "}
+                  <TextHighlight type="input">input</TextHighlight> and{" "}
+                  <TextHighlight type="output">output</TextHighlight> data,
+                  and a practical example are provided.
+                </p>
+              </div>
+              </div>
             </div>),
             extra: (
-            <div className="flex flex-col w-full mt-2 gap-2">
+            <div className="flex flex-col w-full gap-2">
               <p className=" bg-white rounded-lg p-4 md:hidden">
                 AI Capability
               </p>

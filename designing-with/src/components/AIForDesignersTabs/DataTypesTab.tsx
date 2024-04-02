@@ -6,21 +6,24 @@ const DataTypesTab: TabElement = {
   title: "(b) Data types",
   mobileTitle: "(b)",
   elements: (
-    <div>
-      <h2>
-        A classification of 7 data types handled by AI tools as input
-        and output
-      </h2>
-      <div className="flex flex-col md:flex-row justify-between md:gap-[14px] mt-[50px]">
-        <p className="flex-1">
-          Input and output data play pivotal roles when working with
-          AI. Identifying the data type is fundamental to choosing the
-          most suitable tool and producing the expected outcome.
-        </p>
-        <p className="flex-1">
-          For the reason of supporting designers working with data, we
-          first make clear what is meant by input and output data.
-        </p>
+    <div className="flex flex-col gap-2">
+      <div className="bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white px-4 py-6 rounded-b-2xl rounded-tr-2xl">
+       
+        <h2>
+          A classification of 7 data types handled by AI tools as input
+          and output
+        </h2>
+        <div className="flex flex-col md:flex-row justify-between md:gap-[14px] mt-[50px]">
+          <p className="flex-1">
+            Input and output data play pivotal roles when working with
+            AI. Identifying the data type is fundamental to choosing the
+            most suitable tool and producing the expected outcome.
+          </p>
+          <p className="flex-1">
+            For the reason of supporting designers working with data, we
+            first make clear what is meant by input and output data.
+          </p>
+        </div>
       </div>
     </div>
   ),
