@@ -133,7 +133,9 @@ const IcicleDiagram = ({
                     showCard={showCard}
                     parentsSelect={(select, tree) => {
                       setTooltipColor(select);
-                      setPathTooltip(tree.join(" / "));
+                      setPathTooltip(
+                        tree.slice(0, tree.length - 1).join(" / ")
+                      );
                     }}
                     width={getColumnWidth(width, activeStages.length)}
                   />
