@@ -28,61 +28,63 @@ const Resources = () => {
             mobileTitle: "",
             elements: (
               <>
-                <div className="flex flex-col md:flex-row justify-between gap-[14px] my-[20px]">
-                  <p className="flex-1">
-                    This section serves as a comprehensive archive of the
-                    scientific bibliography that was used as background for this
-                    research work. The section brings together a selection of
-                    literature spanning the interconnected fields of design
-                    education, machine learning and artificial intelligence.
-                  </p>
-                  <p className="flex-1">
-                    This collection not only supports the theoretical framework
-                    of the project, but also enriches our understanding by
-                    providing a broad spectrum of perspectives and insights into
-                    these dynamic and evolving fields.
-                  </p>
-                </div>
-                <div className=" flex flex-col gap-2">
-                  <h1 className=" w-full flex bg-orange rounded-lg p-4 my-4 bg-opacity-50 shadow-inner">
-                    Design Phases
-                  </h1>
-                  <Glossary title="Understand" explaination="Investigate the context, target groups, and stakeholders through research to explore, discover and analyse needs, barriers, attitudes, and aspirations"/>
-                  <Glossary title="Define" explaination="Gather insights from the research to frame key findings to outline specific design opportunities and challenges" />
-                  <Glossary title="Ideate" explaination="Generate ideas for new design solutions in response to opportunities and challenges" />
-                  <Glossary title="Prototype" explaination="Transforming ideas into a concrete solution, making samples for use, observation, and evaluation in their context" />
-                  <Glossary title="Develop" explaination="Shaping in detail the final solution after appropriate refinements and testing" />
-                  <Glossary title="Release" explaination="Communicate, distribute, publish, and make open solutions and outputs available to the target groups, stakeholders, as well as the whole society" />
-                  <h1 className=" w-full flex bg-orange rounded-lg p-4 my-4 bg-opacity-50 shadow-inner">
-                  AI Capabilities
-                  </h1>
-                  <Glossary title="Classify" explaination="Identifying by or dividing data into classes based on similar features" />
-                  <Glossary title="Collect" explaination="Gathering data from physical or digital environments driven by research interests" />
-                  <Glossary title="Debug" explaination="Finding and fixing errors in given data" />
-                  <Glossary title="Generate" explaination="Creating new data or content based on given instructions or parameters" />
-                  <Glossary title="Optimise" explaination="Improving data quality and performance" />
-                  <Glossary title="Rank" explaination="Organising hierarchies based on data relevance within a given context" />
-                  <Glossary title="Recognise" explaination="Detecting and identifying patterns in data based on given instruction or previous knowledge" />
-                  <Glossary title="Recommend" explaination="Suggesting contents based on past behaviours, preferences, or relevance within a given context" />
-                  <Glossary title="Summarise" explaination="Selecting and disclosing relevant data with the overall meaning" />
-                  <Glossary title="Test" explaination="Evaluating the performance and functionality based on parameters" />
-                  <Glossary title="Translate" explaination="Transforming (existing) data from one domain to another preserving context meaning" />
-                  <Glossary title="Visualise" explaination="Transforming data into visual outputs useful for exploration or explanation." />
-                  <h1 className=" w-full flex bg-orange rounded-lg p-4 my-4 bg-opacity-50 shadow-inner">
-                  Data Types
-                  </h1>
-                  <Glossary title="Raw Data" explaination="Data used as input to an AI system by users" />
-                  <Glossary title="Cooked Data" explaination="Data processed as output by an AI system" />
-                  <Glossary title="Elementary Data" explaination="A single data type that lacks structure or organization" />
-                  <Glossary title="Composite Data" explaination="A data type constituted by organised elementary data types. " />
-                  <h1 className=" w-full flex bg-orange rounded-lg p-4 my-4 bg-opacity-50 shadow-inner">
-                  Educational Framework
-                  </h1>
-                  <Glossary title="Educational Objective
-" explaination="Description of the expected results in terms of knowledge and skills students should acquire from an educational module." />
-                  <Glossary title="Instructional Activities
-" explaination="Description of how educational objectives are accomplished, providing tasks and exercises teachers must prepare and conduct during the module to facilitate student learning.
-" />
+                <div className="flex flex-col gap-2">
+                  <div className="flex flex-col bg-[#E5B75D] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-[#EBB64F] rounded-b-2xl rounded-tr-2xl  px-4 py-6 md:flex-row justify-between gap-[14px]">
+                    <p className="flex-1">
+                      This section serves as a comprehensive archive of the
+                      scientific bibliography that was used as background for this
+                      research work. The section brings together a selection of
+                      literature spanning the interconnected fields of design
+                      education, machine learning and artificial intelligence.
+                    </p>
+                    <p className="flex-1">
+                      This collection not only supports the theoretical framework
+                      of the project, but also enriches our understanding by
+                      providing a broad spectrum of perspectives and insights into
+                      these dynamic and evolving fields.
+                    </p>
+                  </div>
+                  <div className=" flex flex-col gap-2">
+                    <h1 className=" w-full flex bg-orange rounded-lg p-4 bg-opacity-50 shadow-inner">
+                      Design Phases
+                    </h1>
+                    <Glossary title="Understand" explaination="Investigate the context, target groups, and stakeholders through research to explore, discover and analyse needs, barriers, attitudes, and aspirations"/>
+                    <Glossary title="Define" explaination="Gather insights from the research to frame key findings to outline specific design opportunities and challenges" />
+                    <Glossary title="Ideate" explaination="Generate ideas for new design solutions in response to opportunities and challenges" />
+                    <Glossary title="Prototype" explaination="Transforming ideas into a concrete solution, making samples for use, observation, and evaluation in their context" />
+                    <Glossary title="Develop" explaination="Shaping in detail the final solution after appropriate refinements and testing" />
+                    <Glossary title="Release" explaination="Communicate, distribute, publish, and make open solutions and outputs available to the target groups, stakeholders, as well as the whole society" />
+                    <h1 className=" w-full flex bg-orange rounded-lg p-4 my-4 bg-opacity-50 shadow-inner">
+                    AI Capabilities
+                    </h1>
+                    <Glossary title="Classify" explaination="Identifying by or dividing data into classes based on similar features" />
+                    <Glossary title="Collect" explaination="Gathering data from physical or digital environments driven by research interests" />
+                    <Glossary title="Debug" explaination="Finding and fixing errors in given data" />
+                    <Glossary title="Generate" explaination="Creating new data or content based on given instructions or parameters" />
+                    <Glossary title="Optimise" explaination="Improving data quality and performance" />
+                    <Glossary title="Rank" explaination="Organising hierarchies based on data relevance within a given context" />
+                    <Glossary title="Recognise" explaination="Detecting and identifying patterns in data based on given instruction or previous knowledge" />
+                    <Glossary title="Recommend" explaination="Suggesting contents based on past behaviours, preferences, or relevance within a given context" />
+                    <Glossary title="Summarise" explaination="Selecting and disclosing relevant data with the overall meaning" />
+                    <Glossary title="Test" explaination="Evaluating the performance and functionality based on parameters" />
+                    <Glossary title="Translate" explaination="Transforming (existing) data from one domain to another preserving context meaning" />
+                    <Glossary title="Visualise" explaination="Transforming data into visual outputs useful for exploration or explanation." />
+                    <h1 className=" w-full flex bg-orange rounded-lg p-4 my-4 bg-opacity-50 shadow-inner">
+                    Data Types
+                    </h1>
+                    <Glossary title="Raw Data" explaination="Data used as input to an AI system by users" />
+                    <Glossary title="Cooked Data" explaination="Data processed as output by an AI system" />
+                    <Glossary title="Elementary Data" explaination="A single data type that lacks structure or organization" />
+                    <Glossary title="Composite Data" explaination="A data type constituted by organised elementary data types. " />
+                    <h1 className=" w-full flex bg-orange rounded-lg p-4 my-4 bg-opacity-50 shadow-inner">
+                    Educational Framework
+                    </h1>
+                    <Glossary title="Educational Objective
+  " explaination="Description of the expected results in terms of knowledge and skills students should acquire from an educational module." />
+                    <Glossary title="Instructional Activities
+  " explaination="Description of how educational objectives are accomplished, providing tasks and exercises teachers must prepare and conduct during the module to facilitate student learning.
+  " />
+  </div>
                 </div>
 
               </>
@@ -93,7 +95,8 @@ const Resources = () => {
             mobileTitle: "",
             elements: (
               <>
-                <div className="flex flex-col md:flex-row justify-between gap-[14px] mt-[20px]">
+              <div className="flex flex-col gap-2">
+                <div className="flex flex-col md:flex-row bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white rounded-b-2xl rounded-tr-2xl  px-4 py-6 justify-between gap-[14px]">
                   <p className="flex-1">
                     This section collects all the terms encountered during the
                     process and aims to unpack and clarify their meaning within
@@ -140,6 +143,7 @@ const Resources = () => {
                     <Bibliography title="IDEO. (2015). Field Guide to Human-Centered Design (1st ed.). " link="https://design-kit-production.s3.us-west-1.amazonaws.com/Field_Guides/Field+Guide+to+Human-Centered+Design_IDEOorg_English.pdf"/>
                     <Bibliography title="Interaction Design Foundation - IxDF. (2016, May 25). What is Design Thinking?. Interaction Design Foundation - IxDF." link="https://www.interaction-design.org/literature/topics/design-thinking"/>
                   </div>
+                </div>
                   
                   {isToggled ? <button onClick={toggleVariable} className="w-full text-center text-[25px] bg-orange bg-opacity-50 rounded-2xl mt-[50px] p-[10px] md:text-[50px]">
                     Explore more
@@ -186,6 +190,7 @@ const Resources = () => {
                       Explore less
                     </button>
                   </div>
+                  
                   }
                   
                   
