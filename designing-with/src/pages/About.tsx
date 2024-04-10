@@ -54,7 +54,7 @@ const About = () => {
           </div>
         
       </div>
-      <div className="flex flex-col md:flex-row my-[100px]">
+      <div className="flex flex-col md:flex-row mt-12 md:my-[100px]">
         <div className="flex-1 md:w-1/4">
           <p className="text-[12px] md:text-[15px] ">
             Project Coordination
@@ -67,6 +67,7 @@ const About = () => {
             - University of Applied Sciences and Arts of Southern Switzerland 
             <br />
             <br />
+            <p className="flex md:hidden text-[12px]">People Involved</p>
             <u>
               <a
                 href="https://www.linkedin.com/in/massimo-botta"
@@ -128,6 +129,7 @@ const About = () => {
             <br />
             <br />
             <br />
+            <p className="flex md:hidden text-[12px]">People Involved</p>
             <u>
               <a
                 href="https://www.linkedin.com/in/jannajoceliomena/"
@@ -156,6 +158,7 @@ const About = () => {
         <div className="flex-1 md:w-1/4">
           <p className=" text-[12px] md:text-[15px] ">
           <br />
+          <p className="flex md:hidden text-[12px]">Project Partner</p>
           <u>
               <a href="https://www.epfl.ch/" className="inline">
                 EPFL
@@ -166,6 +169,7 @@ const About = () => {
             <br />
             <br />
             <br />
+            <p className="flex md:hidden text-[12px]">People Involved</p>
           <u>
               <a
                 href="https://www.linkedin.com/in/huangjef/"
@@ -230,7 +234,7 @@ const About = () => {
           </a>
         </div>
       </div>
-      <p className="text-[12px] md:text-[15px] mt-12 md:mt-0">
+      <p className="text-[12px] md:text-[15px] mt-12">
         © 2022. This project is licensed under CC BY 4.0. Supported by Movetia.
         Exchange and mobility.
       </p>
