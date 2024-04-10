@@ -2,7 +2,9 @@ import React from "react";
 import Layout from "../components/Layout";
 import movetiaLogo from "../assets/images/movetia-logo.png";
 
+
 const About = () => {
+  
   return (
     <Layout>
       <h1 className="mt-[33px]">About</h1>
@@ -28,7 +30,7 @@ const About = () => {
               target="_blank"
               href="https://www.movetia.ch"
             >
-              www.movetia.ch
+              www.movetia.ch.
             </a>
             <br /> The aim of the project is to develop an experimental approach and
             collaborate on the definition of a new educational module suitable to be
@@ -45,7 +47,7 @@ const About = () => {
             </p>
             <br/>
             <br/>
-            <p className="underline">Cite this project:</p>
+            <button onClick={() =>  navigator.clipboard.writeText('Botta, M., Autuori, A., Subet, M., Terenghi, G., (2024). Designing With: A New Educational Module to Integrate Artificial Intelligence, Machine Learning and Data Visualization in Design Curricula. designingwithai.ch')} className=" text-[17px] md:text-[24px] underline">Cite this project:</button>
             <p> Botta, M., Autuori, A., Subet, M., Terenghi, G., (2024).<i> Designing With: A New Educational Module to Integrate Artificial Intelligence, Machine Learning and Data Visualization in Design Curricula.</i> <a href="designingwithai.ch" rel="noopener" target="_blank" className="underline">designingwithai.ch </a> 
             </p>
 
@@ -53,40 +55,18 @@ const About = () => {
         
       </div>
       <div className="flex flex-col md:flex-row my-[100px]">
-        <div className="flex-1 md:w-1/3">
+        <div className="flex-1 md:w-1/4">
           <p className="text-[12px] md:text-[15px] ">
             Project Coordination
             <br />
             <u>
               <a href="https://www.supsi.ch/" className="inline">
-                SUPSI
+                SUPSI 
               </a>
-            </u>{" "}
-            - University of Applied Sciences and Arts of Southern
-            <br />
-            Switzerland
-            <br />
-            Project Partners
-            <br />
-            <u>
-              <a href="https://www.unl.pt/" className="inline">
-                NOVA
-              </a>
-            </u>{" "}
-            - Universidade NOVA de Lisboa
-            <br />
-            <u>
-              <a href="https://www.epfl.ch/" className="inline">
-                EPFL
-              </a>
-            </u>{" "}
-            - École polytechnique fédérale de Lausanne
+            </u>
+            - University of Applied Sciences and Arts of Southern Switzerland 
             <br />
             <br />
-          </p>
-        </div>
-        <div className="flex-1 md:w-1/3">
-          <p className=" text-[12px] md:text-[15px] ">
             <u>
               <a
                 href="https://www.linkedin.com/in/massimo-botta"
@@ -95,7 +75,7 @@ const About = () => {
                 Massimo Botta
               </a>
             </u>{" "}
-            - SUPSI, Project Coordinator
+            - Project Coordinator
             <br />
             <u>
               <a
@@ -105,14 +85,14 @@ const About = () => {
                 Antonella Autuori
               </a>
             </u>{" "}
-            - SUPSI, Research & Teaching Assistant
+            - Research & Teaching Assistant
             <br />
             <u>
               <a href="https://www.linkedin.com/in/zumat/" className="inline">
                 Matteo Subet
               </a>
             </u>{" "}
-            - SUPSI, Research & Teaching Assistant
+            - Research & Teaching Assistant
             <br />
             <u>
               <a
@@ -122,7 +102,7 @@ const About = () => {
                 Ginevra Terenghi
               </a>
             </u>{" "}
-            - SUPSI, PhD Student
+            - PhD Student
             <br />
             <u>
               <a
@@ -132,7 +112,20 @@ const About = () => {
                 Desirée Veschetti
               </a>
             </u>{" "}
-            - SUPSI, Research & Teaching Assistant
+            - Research & Teaching Assistant
+          </p>
+        </div>
+        <div className="flex-1 md:w-1/4">
+          <p className="text-[12px] md:text-[15px] ">
+            Project Partners
+            <br />
+            <u>
+              <a href="https://www.unl.pt/" className="inline">
+                NOVA
+              </a>
+            </u>{" "}
+            - Universidade NOVA de Lisboa
+            <br />
             <br />
             <br />
             <u>
@@ -143,7 +136,7 @@ const About = () => {
                 Janna Joceli Omena
               </a>
             </u>{" "}
-            - NOVA, Researcher and Teacher
+            - Researcher and Teacher
             <br />
             <u>
               <a
@@ -153,10 +146,27 @@ const About = () => {
                 Eduardo Leite
               </a>
             </u>{" "}
-            - NOVA, PhD Candidate and Teacher
+            - PhD Candidate and Teacher
             <br />
             <br />
-            <u>
+            
+            
+          </p>
+        </div>
+        <div className="flex-1 md:w-1/4">
+          <p className=" text-[12px] md:text-[15px] ">
+          <br />
+          <u>
+              <a href="https://www.epfl.ch/" className="inline">
+                EPFL
+              </a>
+            </u>{" "}
+            -  École Polytechnique Fédérale de Lausanne
+            <br />
+            <br />
+            <br />
+            <br />
+          <u>
               <a
                 href="https://www.linkedin.com/in/huangjef/"
                 className="inline"
@@ -164,6 +174,7 @@ const About = () => {
                 Jeffrey Huang
               </a>
             </u>{" "}
+            
             - EPFL, Full Professor, Media x Design Lab
             <br />
             <u>
@@ -209,7 +220,7 @@ const About = () => {
             <br />
           </p>
         </div>
-        <div className="flex md:w-1/3 ">
+        <div className="flex md:w-1/4 ">
           <a href="https://www.movetia.ch/">
             <img
               src={movetiaLogo}
