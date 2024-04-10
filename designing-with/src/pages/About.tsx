@@ -3,13 +3,6 @@ import Layout from "../components/Layout";
 import movetiaLogo from "../assets/images/movetia-logo.png";
 
 const About = () => {
-  function citationCopy() {
-    navigator.clipboard.writeText(
-      "Botta, M., Autuori, A., Subet, M., Terenghi, G., (2024). Designing With: A New Educational Module to Integrate Artificial Intelligence, Machine Learning and Data Visualization in Design Curricula. designingwithai.ch"
-    );
-    alert("Copied the citation text");
-  }
-
   return (
     <Layout>
       <h1 className="mt-[33px]">About</h1>
@@ -33,7 +26,7 @@ const About = () => {
               target="_blank"
               href="https://www.movetia.ch"
             >
-              www.movetia.ch
+              www.movetia.ch.
             </a>
             <br /> The aim of the project is to develop an experimental approach
             and collaborate on the definition of a new educational module
@@ -53,9 +46,16 @@ const About = () => {
           </p>
           <br />
           <br />
-          <p className="underline" onClick={citationCopy}>
+          <button
+            onClick={() =>
+              navigator.clipboard.writeText(
+                "Botta, M., Autuori, A., Subet, M., Terenghi, G., (2024). Designing With: A New Educational Module to Integrate Artificial Intelligence, Machine Learning and Data Visualization in Design Curricula. designingwithai.ch"
+              )
+            }
+            className=" text-[17px] md:text-[24px] underline"
+          >
             Cite this project:
-          </p>
+          </button>
           <p>
             {" "}
             Botta, M., Autuori, A., Subet, M., Terenghi, G., (2024).
@@ -76,8 +76,8 @@ const About = () => {
           </p>
         </div>
       </div>
-      <div className="flex flex-col md:flex-row my-[100px]">
-        <div className="flex-1 md:w-1/3">
+      <div className="flex flex-col md:flex-row mt-12 md:my-[100px]">
+        <div className="flex-1 md:w-1/4">
           <p className="text-[12px] md:text-[15px] ">
             Project Coordination
             <br />
@@ -85,32 +85,11 @@ const About = () => {
               <a href="https://www.supsi.ch/" className="inline">
                 SUPSI
               </a>
-            </u>{" "}
-            - University of Applied Sciences and Arts of Southern
-            <br />
-            Switzerland
-            <br />
-            Project Partners
-            <br />
-            <u>
-              <a href="https://www.unl.pt/" className="inline">
-                NOVA
-              </a>
-            </u>{" "}
-            - Universidade NOVA de Lisboa
-            <br />
-            <u>
-              <a href="https://www.epfl.ch/" className="inline">
-                EPFL
-              </a>
-            </u>{" "}
-            - École polytechnique fédérale de Lausanne
+            </u>
+            - University of Applied Sciences and Arts of Southern Switzerland 
             <br />
             <br />
-          </p>
-        </div>
-        <div className="flex-1 md:w-1/3">
-          <p className=" text-[12px] md:text-[15px] ">
+            <p className="flex md:hidden text-[12px]">People Involved</p>
             <u>
               <a
                 href="https://www.linkedin.com/in/massimo-botta"
@@ -119,7 +98,7 @@ const About = () => {
                 Massimo Botta
               </a>
             </u>{" "}
-            - SUPSI, Project Coordinator
+            - Project Coordinator
             <br />
             <u>
               <a
@@ -129,14 +108,14 @@ const About = () => {
                 Antonella Autuori
               </a>
             </u>{" "}
-            - SUPSI, Research & Teaching Assistant
+            - Research & Teaching Assistant
             <br />
             <u>
               <a href="https://www.linkedin.com/in/zumat/" className="inline">
                 Matteo Subet
               </a>
             </u>{" "}
-            - SUPSI, Research & Teaching Assistant
+            - Research & Teaching Assistant
             <br />
             <u>
               <a
@@ -146,7 +125,7 @@ const About = () => {
                 Ginevra Terenghi
               </a>
             </u>{" "}
-            - SUPSI, PhD Student
+            - PhD Student
             <br />
             <u>
               <a
@@ -156,9 +135,23 @@ const About = () => {
                 Desirée Veschetti
               </a>
             </u>{" "}
-            - SUPSI, Research & Teaching Assistant
+            - Research & Teaching Assistant
+          </p>
+        </div>
+        <div className="flex-1 md:w-1/4">
+          <p className="text-[12px] md:text-[15px] ">
+            Project Partners
+            <br />
+            <u>
+              <a href="https://www.unl.pt/" className="inline">
+                NOVA
+              </a>
+            </u>{" "}
+            - Universidade NOVA de Lisboa
             <br />
             <br />
+            <br />
+            <p className="flex md:hidden text-[12px]">People Involved</p>
             <u>
               <a
                 href="https://www.linkedin.com/in/jannajoceliomena/"
@@ -167,7 +160,7 @@ const About = () => {
                 Janna Joceli Omena
               </a>
             </u>{" "}
-            - NOVA, Researcher and Teacher
+            - Researcher and Teacher
             <br />
             <u>
               <a
@@ -177,9 +170,26 @@ const About = () => {
                 Eduardo Leite
               </a>
             </u>{" "}
-            - NOVA, PhD Candidate and Teacher
+            - PhD Candidate and Teacher
             <br />
             <br />
+          </p>
+        </div>
+        <div className="flex-1 md:w-1/4">
+          <p className=" text-[12px] md:text-[15px] ">
+            <br />
+            <p className="flex md:hidden text-[12px]">Project Partner</p>
+            <u>
+              <a href="https://www.epfl.ch/" className="inline">
+                EPFL
+              </a>
+            </u>{" "}
+            - École Polytechnique Fédérale de Lausanne
+            <br />
+            <br />
+            <br />
+            <br />
+            <p className="flex md:hidden text-[12px]">People Involved</p>
             <u>
               <a
                 href="https://www.linkedin.com/in/huangjef/"
@@ -233,7 +243,7 @@ const About = () => {
             <br />
           </p>
         </div>
-        <div className="flex md:w-1/3 ">
+        <div className="flex md:w-1/4 ">
           <a href="https://www.movetia.ch/">
             <img
               src={movetiaLogo}
@@ -243,7 +253,7 @@ const About = () => {
           </a>
         </div>
       </div>
-      <p className="text-[12px] md:text-[15px] mt-12 md:mt-0">
+      <p className="text-[12px] md:text-[15px] mt-12">
         © 2022. This project is licensed under CC BY 4.0. Supported by Movetia.
         Exchange and mobility.
       </p>

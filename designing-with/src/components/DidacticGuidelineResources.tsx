@@ -13,8 +13,8 @@ const DidacticGuidelineResources = ({
 }) => {
   return (
     <div
-      className={`flex flex-row items-center rounded-xl mt-3 w-full p-3 bg-${
-        type === "Resources" ? "green" : "[#D9D9D988]"
+      className={`flex flex-row items-center rounded-xl mt-3 w-full p-3 bg-opacity-50 shadow-[inset_0_0_30px_5px_rgba(1,1,1,0)] shadow-white ${
+        type === "Resources" ? "bg-[#8CD782]" : "bg-[#A1A1A1]"
       }`}
     >
       <div className="hidden md:flex flex-row items-center w-full">

@@ -9,6 +9,7 @@ import DidacticGuidelineSvgModule2 from "../components/DidacticGuidelinesContent
 import DidacticGuidelineResources from "../components/DidacticGuidelineResources";
 import Categories from "../components/Categories";
 import CategoriesKnowDim from "../components/CategoriesKnowDim";
+import TextHighlight2 from "../components/TextHighlight2";
 
 const DidacticGuidelines = () => {
   return (
@@ -25,7 +26,7 @@ const DidacticGuidelines = () => {
         for the autonomous implementation of teaching modules on AI in design
         courses.
       </h2>
-      <div className="w-full mt-[20px] flex justify-center items-center rounded-xl">
+      <div className="w-full p-[30px] flex justify-center items-center rounded-xl">
         <DidacticGuidelineSvg />
       </div>
       <TabDisplay
@@ -102,9 +103,8 @@ const DidacticGuidelines = () => {
                     <div className="flex flex-col gap-2">
                       <GuidelinesAccordeon title="Getting Familiar with Machine Learning (ML) – Sub-module 1">
                         <h1 className="mt-[40px]">Educational Objective</h1>
-                        <h2 className="mt-[15px]">
-                          Students will learn to train simplified ML models to
-                          create design artefacts
+                        <h2 className="mt-[15px] flex-1">
+                          <TextHighlight2>Students will learn</TextHighlight2> to <TextHighlight2> train simplified ML models</TextHighlight2> to <TextHighlight2>create design artefacts</TextHighlight2>
                         </h2>
                         <div className=" w-full flex flex-col md:flex-row gap-[30px] mt-[70px]">
                           <p className=" md:w-1/2">
@@ -251,8 +251,7 @@ const DidacticGuidelines = () => {
                   <GuidelinesAccordeon title="Get in Depth– Module 2">
                     <h1 className="mt-[40px]">Educational Objective</h1>
                     <h2 className="mt-[15px]">
-                      Students will learn to choose and apply AI/ML/CV tools for
-                      specific activities of the design process.
+                      <TextHighlight2>Students will learn</TextHighlight2> to <TextHighlight2>choose and apply AI/ML/CV tools</TextHighlight2> for <TextHighlight2>specific activities</TextHighlight2> of the <TextHighlight2>design process.</TextHighlight2> 
                     </h2>
                     <DidacticGuidelineSvgModule2 />
                     <div className="flex flex-col md:flex-row gap-[30px] mt-[70px]">
@@ -602,28 +601,31 @@ const DidacticGuidelines = () => {
       />
       <p className="mt-10">Didactic Resources</p>
       <DidacticGuidelineResources
-        title="Co-designing with AI"
-        subtitle="16 Jul 2023, SUPSI, Mendrisio"
+        title="Designing With AI + ML + DV - Pilot
+        "
+        subtitle="16 - 21 Jul 2023, SUPSI, Mendrisio"
         type="Event"
-        link="/assets/data/pdf/example.pdf"
+        link="https://pilotworkshop.designingwithai.ch/"
       />
       <DidacticGuidelineResources
         title="Co-designing with AI"
-        subtitle="16 Jul 2023, SUPSI, Mendrisio"
+        subtitle="12 - 16 Feb 2024, SUPSI, Mendrisio"
         type="Event"
-        link="/assets/data/pdf/example.pdf"
+        link="workshop.designingwithai.ch"
       />
       <DidacticGuidelineResources
-        title="Co-designing with AI"
-        subtitle="16 Jul 2023, SUPSI, Mendrisio"
+        title="Generative AI as research methods
+        "
+        subtitle="October 2023, NOVA, Lisbon"
         type="Event"
-        link="/assets/data/pdf/example.pdf"
+        link="http://dx.doi.org/10.5281/zenodo.10475202"
       />
       <DidacticGuidelineResources
-        title="Co-designing with AI"
-        subtitle="16 Jul 2023, SUPSI, Mendrisio"
+        title="Network Vision Methodology
+        "
+        subtitle="November 2023, NOVA, Lisbon"
         type="Event"
-        link="/assets/data/pdf/example.pdf"
+        link="http://dx.doi.org/10.5281/zenodo.10475202"
       />
       <DidacticGuidelineResources
         title="Digital Plot"
