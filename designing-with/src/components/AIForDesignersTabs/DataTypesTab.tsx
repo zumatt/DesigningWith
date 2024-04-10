@@ -46,7 +46,9 @@ const DataTypesTab: TabElement = {
           classified as elementary data{" "}
           <AdditionalInformations information=" Composite data includes video data and structured data " />{" "}
           representing a single unorganised data type, or composite
-          data constituted by different elementary data types. 
+          data{" "}
+          <AdditionalInformations information=" Composite data includes video data and structured data " />{" "}
+           constituted by different elementary data types. 
         </p>
         <p className="flex-1">
           Furthermore, all these data types can be considered

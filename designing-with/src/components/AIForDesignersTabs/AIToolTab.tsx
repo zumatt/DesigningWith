@@ -23,11 +23,7 @@ const AIToolTab: TabElement = {
         </div>
         <a
       href="/interactive-framework"
-      className="w-full md:hidden flex rounded-2xl p-[10px] mt-6"
-      style={{
-        boxShadow: "0px 0px 100px 5px #72DAFB inset",
-        backgroundColor: "#D9D9D980",
-      }}
+      className="w-full md:hidden flex rounded-2xl p-[10px] mt-6 bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_35px_20px_rgba(1,1,1,0)] shadow-[#72DAFB]"
     >
       <p className="w-full text-center text-[25px] md:text-[50px]">
         Explore the collection
@@ -39,11 +35,8 @@ const AIToolTab: TabElement = {
   extra: (
     <a
       href="/interactive-framework"
-      className="w-full hidden md:flex rounded-2xl p-[10px]"
-      style={{
-        boxShadow: "0px 0px 100px 5px #72DAFB inset",
-        backgroundColor: "#D9D9D980",
-      }}
+      className="w-full hidden md:flex rounded-2xl p-[10px] bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_35px_20px_rgba(1,1,1,0)] shadow-[#72DAFB]"
+      
     >
       <p className="w-full text-center text-[25px] md:text-[50px]">
         Explore the collection
