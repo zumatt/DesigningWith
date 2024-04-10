@@ -194,17 +194,23 @@ const RenderCards = ({
     isLeave?: boolean
   ) => void;
   parentsSelect?: (select: string, tree: string[]) => void;
-  showCard?: (card: IcicleData | null) => void;
+  showCard?: (card: IcicleData | null, leftConstraint?: number) => void;
   level?: number;
   width?: number;
   heightConstraint?: number;
 }) => {
-  const [selected, setSelected] = useState<string>("");
+  const baseBorder =
+    heightConstraint < 22 && heightConstraint > 0
+      ? "border-white"
+      : "border-[#ededed]";
+  const [selected, setSelected] = useState<string>(
+    "box-border border-2 " + baseBorder
+  );
   const ref = React.useRef<HTMLDivElement>(null);
 
   const groupSelect = (select: string, tree: string[]) => {
     parentsSelect(select, select === "" ? [] : [stage.name, ...tree]);
-    setSelected(select);
+    setSelected(select === "" ? "box-border border-2 " + baseBorder : select);
   };
 
   const getStyleRow = (isFixed: boolean) => {
@@ -248,7 +254,12 @@ const RenderCards = ({
         key={stage.name}
         onClick={() => {
           if (stage.description) {
-            showCard(stage);
+            if (ref.current) {
+              const rect = ref.current.getBoundingClientRect();
+              showCard(stage, rect.left);
+            } else {
+              showCard(stage);
+            }
             toggleStage(
               parents[parents.length - 1],
               parents.slice(0, -1),

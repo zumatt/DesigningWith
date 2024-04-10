@@ -3,6 +3,13 @@ import Layout from "../components/Layout";
 import movetiaLogo from "../assets/images/movetia-logo.png";
 
 const About = () => {
+  function citationCopy() {
+    navigator.clipboard.writeText(
+      "Botta, M., Autuori, A., Subet, M., Terenghi, G., (2024). Designing With: A New Educational Module to Integrate Artificial Intelligence, Machine Learning and Data Visualization in Design Curricula. designingwithai.ch"
+    );
+    alert("Copied the citation text");
+  }
+
   return (
     <Layout>
       <h1 className="mt-[33px]">About</h1>
@@ -16,12 +23,10 @@ const About = () => {
       <div className="flex flex-col gap-4 md:flex-row w-full">
         <div className=" w-full md:w-1/2">
           <p>
-            
-            
-            The project was founded in September 2022 and ended in February 2024. It
-            was financially supported by Movetia. Movetia promotes exchange,
-            mobility and cooperation within the fields of education, training and
-            youth work – in Switzerland, Europe and worldwide.{" "}
+            The project was founded in September 2022 and ended in February
+            2024. It was financially supported by Movetia. Movetia promotes
+            exchange, mobility and cooperation within the fields of education,
+            training and youth work – in Switzerland, Europe and worldwide.{" "}
             <a
               className="underline inline"
               rel="noreferrer"
@@ -30,27 +35,46 @@ const About = () => {
             >
               www.movetia.ch
             </a>
-            <br /> The aim of the project is to develop an experimental approach and
-            collaborate on the definition of a new educational module suitable to be
-            applied in multidisciplinary environments that integrate Artificial
-            Intelligence (AI), Machine Learning (ML) and Data Visualization (DV) in
-            Design curricula.
-            <br /></p>
-          </div>
-          <div className=" w-full md:w-1/2">
-            <p> This website collects and releases the generated knowledge and
+            <br /> The aim of the project is to develop an experimental approach
+            and collaborate on the definition of a new educational module
+            suitable to be applied in multidisciplinary environments that
+            integrate Artificial Intelligence (AI), Machine Learning (ML) and
+            Data Visualization (DV) in Design curricula.
+            <br />
+          </p>
+        </div>
+        <div className=" w-full md:w-1/2">
+          <p>
+            {" "}
+            This website collects and releases the generated knowledge and
             pedagogical guidelines in open access to the design community, for
             autonomous implementation of teaching activities on AI in design
             curricula.
-            </p>
-            <br/>
-            <br/>
-            <p className="underline">Cite this project:</p>
-            <p> Botta, M., Autuori, A., Subet, M., Terenghi, G., (2024).<i> Designing With: A New Educational Module to Integrate Artificial Intelligence, Machine Learning and Data Visualization in Design Curricula.</i> <a href="designingwithai.ch" rel="noopener" target="_blank" className="underline">designingwithai.ch </a> 
-            </p>
-
-          </div>
-        
+          </p>
+          <br />
+          <br />
+          <p className="underline" onClick={citationCopy}>
+            Cite this project:
+          </p>
+          <p>
+            {" "}
+            Botta, M., Autuori, A., Subet, M., Terenghi, G., (2024).
+            <i>
+              {" "}
+              Designing With: A New Educational Module to Integrate Artificial
+              Intelligence, Machine Learning and Data Visualization in Design
+              Curricula.
+            </i>{" "}
+            <a
+              href="designingwithai.ch"
+              rel="noopener"
+              target="_blank"
+              className="underline"
+            >
+              designingwithai.ch{" "}
+            </a>
+          </p>
+        </div>
       </div>
       <div className="flex flex-col md:flex-row my-[100px]">
         <div className="flex-1 md:w-1/3">

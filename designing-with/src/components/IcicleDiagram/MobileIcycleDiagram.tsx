@@ -149,10 +149,11 @@ const RenderToolCards = ({
     >
       <div className="flex flex-col w-full p-5 h-full overflow-x-auto">
         <div className="flex flex-row justify-between items-center mb-5">
-          <h1>{tool.name}</h1>
+          <h1 style={{ fontSize: 25 }}>{tool.name}</h1>
           <button
             onClick={onClose}
             className="flex rounded h-full justify-center left-0"
+            style={{ fontSize: 15 }}
           >
             Close X
           </button>
@@ -176,7 +177,7 @@ const RenderToolCards = ({
         />
         <div className="flex flex-row w-full justify-end mt-5">
           <a href={tool.link}>
-            <u>Check the tool</u>
+            <u style={{ fontSize: 15 }}>Check the tool</u>
           </a>
         </div>
       </div>

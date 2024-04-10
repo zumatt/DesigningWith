@@ -44,9 +44,15 @@ const InteractiveFrameworkDesktop = () => {
   const [filters, setFilters] = useState<FilterArg[]>([]);
   const [activeCard, setActiveCard] = useState<ReactNode>(null);
 
-  const showCard = (card: IcicleData | null) => {
+  const showCard = (card: IcicleData | null, leftConstraint = -1) => {
     if (card) {
-      setActiveCard(<RenderToolCards stage={card} showCard={showCard} />);
+      setActiveCard(
+        <RenderToolCards
+          stage={card}
+          showCard={showCard}
+          leftConstraint={leftConstraint}
+        />
+      );
     } else {
       setActiveCard(null);
     }
@@ -125,11 +131,7 @@ const InteractiveFrameworkDesktop = () => {
       <div className="flex flex-col w-max min-w-[100%]">
         <IcicleDiagram filters={filters} showCard={showCard} />
       </div>
-      {activeCard && (
-        <div className="flex flex-row fixed bottom-0 right-0 z-10">
-          {activeCard}
-        </div>
-      )}
+      {activeCard}
     </Layout>
   );
 };

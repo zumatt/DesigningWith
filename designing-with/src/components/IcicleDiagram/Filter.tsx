@@ -9,11 +9,12 @@ interface FilterProps {
 const Filter: React.FC<FilterProps> = (props) => {
   return (
     <div onClick={props.onClick}>
-      <span
+      <p
         className={`border px-2 py-1 rounded-xl cursor-default ${props.color}`}
+        style={{ fontSize: 13 }}
       >
         {props.name}
-      </span>
+      </p>
     </div>
   );
 };
