@@ -1,3 +1,4 @@
+import { RefObject, useEffect, useState } from "react";
 import { selectStroke } from "./DiagramUtils";
 import Filter from "./Filter";
 import IcicleData from "./IcicleData";
@@ -6,12 +7,20 @@ import { SvgDiagram } from "./SvgDiagramTool";
 const RenderToolCards = ({
   stage,
   showCard = () => {},
-  leftConstraint = -1,
+  initialCardRef,
 }: {
   stage: IcicleData;
   showCard?: (card: IcicleData | null) => void;
-  leftConstraint?: number;
+  initialCardRef?: RefObject<HTMLDivElement>;
 }) => {
+  const [leftConstraint, setLeftConstraint] = useState(-1);
+
+  useEffect(() => {
+    if (initialCardRef && initialCardRef.current) {
+      setLeftConstraint(initialCardRef.current.getBoundingClientRect().left);
+    }
+  }, [initialCardRef, initialCardRef?.current?.clientWidth]);
+
   return (
     <div
       className={`flex flex-row fixed bottom-0 right-0 z-10`}

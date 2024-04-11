@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { RefObject, useEffect, useState } from "react";
 import dataJson from "../../assets/data/data.json";
 import { FilterArg, filterIcicleData } from "./FilterUtils";
 import Tooltip from "@mui/material/Tooltip";
@@ -194,7 +194,10 @@ const RenderCards = ({
     isLeave?: boolean
   ) => void;
   parentsSelect?: (select: string, tree: string[]) => void;
-  showCard?: (card: IcicleData | null, leftConstraint?: number) => void;
+  showCard?: (
+    card: IcicleData | null,
+    initialCardRef?: RefObject<HTMLDivElement>
+  ) => void;
   level?: number;
   width?: number;
   heightConstraint?: number;
@@ -255,8 +258,7 @@ const RenderCards = ({
         onClick={() => {
           if (stage.description) {
             if (ref.current) {
-              const rect = ref.current.getBoundingClientRect();
-              showCard(stage, rect.left);
+              showCard(stage, ref);
             } else {
               showCard(stage);
             }

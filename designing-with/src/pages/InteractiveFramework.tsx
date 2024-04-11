@@ -1,4 +1,4 @@
-import React, { ReactNode, useEffect } from "react";
+import React, { ReactNode, RefObject, useEffect } from "react";
 import Layout from "../components/Layout";
 import Filter from "../components/IcicleDiagram/Filter";
 import { useState } from "react";
@@ -44,13 +44,16 @@ const InteractiveFrameworkDesktop = () => {
   const [filters, setFilters] = useState<FilterArg[]>([]);
   const [activeCard, setActiveCard] = useState<ReactNode>(null);
 
-  const showCard = (card: IcicleData | null, leftConstraint = -1) => {
+  const showCard = (
+    card: IcicleData | null,
+    initialCardRef?: RefObject<HTMLDivElement>
+  ) => {
     if (card) {
       setActiveCard(
         <RenderToolCards
           stage={card}
           showCard={showCard}
-          leftConstraint={leftConstraint}
+          initialCardRef={initialCardRef}
         />
       );
     } else {
