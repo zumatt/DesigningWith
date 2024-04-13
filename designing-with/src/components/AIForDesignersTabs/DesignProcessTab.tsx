@@ -6,7 +6,7 @@ const DesignProcessTab: TabElement = {
   mobileTitle: "(c)",
   elements: (
     <div className="flex flex-col gap-2">
-      <div className="bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white px-4 py-6 rounded-b-2xl rounded-tr-2xl">
+      <div className="bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white px-4 py-6 rounded-b-2xl">
         <h2>
           The definition of a design model consisting of 6 design stages
           suitable for bring new knowledge into the educational context

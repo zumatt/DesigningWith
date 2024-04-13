@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const TabDisplay = ({ tabs }: { tabs: TabElement[] }) => {
+const TabsDidactic = ({ tabs }: { tabs: TabElement[] }) => {
   const [activeTab, setActiveTab] = useState<number>(0);
   return (
     <>
@@ -9,7 +9,7 @@ const TabDisplay = ({ tabs }: { tabs: TabElement[] }) => {
           {tabs.map((tab, index) => (
             <button
               key={index}
-              className={`flex-1 w-full px-4 py-6 glassBox rounded-t-2xl text-left`}
+              className={` ${tab.title === 'About didactic guidelines' ? 'shadow-[#8CD782]' : 'shadow-white'}  shadow-[inset_0_0_35px_25px_rgba(1,1,1,0)] flex-1 w-full px-4 py-6 rounded-t-2xl text-left`}
               onClick={() => setActiveTab(index)}
             >
               <p
@@ -33,9 +33,10 @@ const TabDisplay = ({ tabs }: { tabs: TabElement[] }) => {
             </button>
           ))}
         </div>
-        <div className="">
+        {tabs.map((tab, index) => (
+        <div className={`  `}>
           {tabs[activeTab].elements}
-        </div>
+        </div>))}
       </div>
       {tabs[activeTab].extra}
     </>
@@ -49,4 +50,4 @@ export type TabElement = {
   extra?: React.ReactNode[] | React.ReactNode;
 };
 
-export default TabDisplay;
+export default TabsDidactic;

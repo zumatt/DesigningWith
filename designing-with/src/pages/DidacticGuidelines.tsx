@@ -2,7 +2,7 @@ import React from "react";
 import Layout from "../components/Layout";
 import GuidelinesAccordeon from "../components/GuidelinesAccordeon";
 import AdditionalInformations from "../components/AdditionalInformations";
-import TabDisplay from "../components/TabsDisplay";
+import TabDidactic from "../components/TabsDidactic";
 import DidacticGuidelineSvg from "../components/DidacticGuidelinesContent/DidacticGuidelineSvg";
 import DidacticGuidelineSvgModule1 from "../components/DidacticGuidelinesContent/DidacticGuidelineSvgModule1";
 import DidacticGuidelineSvgModule2 from "../components/DidacticGuidelinesContent/DidacticGuidelineSvgModule2";
@@ -29,7 +29,7 @@ const DidacticGuidelines = () => {
       <div className="w-full p-[30px] flex justify-center items-center rounded-xl">
         <DidacticGuidelineSvg />
       </div>
-      <TabDisplay
+      <TabDidactic
         tabs={[
           {
             title: "Didactic Guidelines",
