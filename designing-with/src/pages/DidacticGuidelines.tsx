@@ -37,7 +37,7 @@ const DidacticGuidelines = () => {
             elements: (
               <>
                 <div className="flex flex-col gap-2">
-                  <div className="bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white px-4 py-6 rounded-b-2xl rounded-tr-2xl">
+                  <div className="bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white px-4 py-6 rounded-b-2xl md:rounded-tr-2xl">
                     <div className="flex flex-col md:flex-row justify-between gap-[14px] mt-[20px]">
                       <p className="flex-1">
                         The didactic guidelines are based on the following modular
@@ -351,7 +351,7 @@ const DidacticGuidelines = () => {
             elements: (
               <>
                 <div className="flex flex-col gap-2">
-                  <div className="flex flex-col bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_95px_60px_rgba(1,1,1,0)] shadow-[#8CD782] rounded-b-2xl rounded-tr-2xl md:flex-row justify-between px-4 py-6 gap-[14px]">
+                  <div className="flex flex-col bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_95px_60px_rgba(1,1,1,0)] shadow-[#8CD782] rounded-b-2xl md:rounded-tr-2xl md:flex-row justify-between px-4 py-6 gap-[14px]">
                     <p className="flex-1">
                       To build the didactic guidelines aimed to systematically
                       integrate AI tools into design curricula, we referred to

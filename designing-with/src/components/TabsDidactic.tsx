@@ -33,10 +33,9 @@ const TabsDidactic = ({ tabs }: { tabs: TabElement[] }) => {
             </button>
           ))}
         </div>
-        {tabs.map((tab, index) => (
         <div className={`  `}>
           {tabs[activeTab].elements}
-        </div>))}
+        </div>
       </div>
       {tabs[activeTab].extra}
     </>

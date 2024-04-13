@@ -9,14 +9,14 @@ const TabDisplay = ({ tabs }: { tabs: TabElement[] }) => {
           {tabs.map((tab, index) => (
             <button
               key={index}
-              className={`flex-1 w-full px-4 py-6 glassBox rounded-t-2xl text-left`}
+              className={` ${activeTab === index ? 'w-1/2' : 'w-1/6'}  md:flex-1  px-4 py-6 glassBox rounded-t-2xl`}
               onClick={() => setActiveTab(index)}
             >
               <p
                 className={
                   activeTab === index
-                    ? "underline text-left"
-                    : "hidden md:flex text-left"
+                    ? "underline md:text-left w-full text-center"
+                    : "hidden text-center md:flex md:text-left"
                 }
               >
                 {tab.title}
@@ -24,8 +24,8 @@ const TabDisplay = ({ tabs }: { tabs: TabElement[] }) => {
               <p
                 className={
                   activeTab === index
-                    ? " hidden underline text-left"
-                    : "md:hidden text-left"
+                    ? " hidden underline md:text-left text-center"
+                    : "md:hidden text-center md:text-left"
                 }
               >
                 {tab.mobileTitle}
