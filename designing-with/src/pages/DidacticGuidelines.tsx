@@ -33,7 +33,7 @@ const DidacticGuidelines = () => {
         tabs={[
           {
             title: "Didactic Guidelines",
-            mobileTitle: "",
+            mobileTitle: "Didactic...",
             elements: (
               <>
                 <div className="flex flex-col gap-2">
@@ -347,7 +347,7 @@ const DidacticGuidelines = () => {
           },
           {
             title: "About didactic guidelines",
-            mobileTitle: "",
+            mobileTitle: "About...",
             elements: (
               <>
                 <div className="flex flex-col gap-2">

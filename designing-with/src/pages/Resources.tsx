@@ -25,7 +25,7 @@ const Resources = () => {
         tabs={[
           {
             title: "Glossary",
-            mobileTitle: "",
+            mobileTitle: "Glossary",
             elements: (
               <>
                 <div className="flex flex-col gap-2">
@@ -165,7 +165,7 @@ const Resources = () => {
           },
           {
             title: "Bibliography",
-            mobileTitle: "",
+            mobileTitle: "Bibliography",
             elements: (
               <>
                 <div className="flex flex-col gap-2">

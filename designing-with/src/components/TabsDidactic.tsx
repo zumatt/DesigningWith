@@ -9,14 +9,14 @@ const TabsDidactic = ({ tabs }: { tabs: TabElement[] }) => {
           {tabs.map((tab, index) => (
             <button
               key={index}
-              className={` ${tab.title === 'About didactic guidelines' ? 'shadow-[#8CD782]' : tab.title === 'Glossary' ? 'shadow-[#EBB64F]' : 'shadow-white'}   shadow-[inset_0_0_35px_25px_rgba(1,1,1,0)] flex-1 max-w-[380px] px-4 py-6 rounded-t-2xl text-left`}
+              className={` ${tab.title === 'About didactic guidelines' ? 'shadow-[#8CD782]' : tab.title === 'Glossary' ? 'shadow-[#EBB64F]' : 'shadow-white'}   shadow-[inset_0_0_35px_25px_rgba(1,1,1,0)] md:flex-1 ${activeTab === index ? 'w-2/3' : 'w-1/3'} md:max-w-[380px] px-4 py-6 rounded-t-2xl text-left`}
               onClick={() => setActiveTab(index)}
             >
               <p
                 className={
                   activeTab === index
-                    ? "underline text-left"
-                    : "hidden md:flex text-left"
+                    ? "underline text-center md:text-left"
+                    : "hidden md:flex text-center md:text-left"
                 }
               >
                 {tab.title}
@@ -24,8 +24,8 @@ const TabsDidactic = ({ tabs }: { tabs: TabElement[] }) => {
               <p
                 className={
                   activeTab === index
-                    ? " hidden underline text-left"
-                    : "md:hidden text-left"
+                    ? " hidden underline text-center md:text-left"
+                    : "md:hidden text-center md:text-left"
                 }
               >
                 {tab.mobileTitle}
