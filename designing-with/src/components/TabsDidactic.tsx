@@ -9,7 +9,7 @@ const TabsDidactic = ({ tabs }: { tabs: TabElement[] }) => {
           {tabs.map((tab, index) => (
             <button
               key={index}
-              className={` ${tab.title === 'About didactic guidelines' ? 'shadow-[#8CD782]' : 'shadow-white'}  shadow-[inset_0_0_35px_25px_rgba(1,1,1,0)] flex-1 w-full px-4 py-6 rounded-t-2xl text-left`}
+              className={` ${tab.title === 'About didactic guidelines' ? 'shadow-[#8CD782]' : tab.title === 'Glossary' ? 'shadow-[#EBB64F]' : 'shadow-white'}   shadow-[inset_0_0_35px_25px_rgba(1,1,1,0)] flex-1 max-w-[380px] px-4 py-6 rounded-t-2xl text-left`}
               onClick={() => setActiveTab(index)}
             >
               <p

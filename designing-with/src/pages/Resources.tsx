@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../components/Layout";
-import TabDisplay from "../components/TabsDisplay";
+import TabsDidactic from "../components/TabsDidactic";
 import Glossary from "../components/Glossary";
 import Bibliography from "../components/Bibliography";
 import { useState } from "react";
@@ -21,7 +21,7 @@ const Resources = () => {
         literature, useful for those seeking to delve deeper into theoretical
         aspects.
       </h2>
-      <TabDisplay
+      <TabsDidactic
         tabs={[
           {
             title: "Glossary",
