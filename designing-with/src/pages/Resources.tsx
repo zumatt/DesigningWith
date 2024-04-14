@@ -26,10 +26,12 @@ const Resources = () => {
           {
             title: "Glossary",
             mobileTitle: "",
+            style:
+              "bg-[##D9D9D9] bg-opacity-50 shadow-[inset_0_0_35px_20px_rgba(1,1,1,0)] shadow-[#EBB64F]",
             elements: (
               <>
                 <div className="flex flex-col gap-2">
-                  <div className="flex flex-col bg-[#E5B75D] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-[#EBB64F] rounded-b-2xl rounded-tr-2xl  px-4 py-6 md:flex-row justify-between gap-[14px]">
+                  <div className="flex flex-col bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_95px_60px_rgba(1,1,1,0)] shadow-[#EBB64F] rounded-b-2xl rounded-tr-2xl  px-4 py-6 md:flex-row justify-between gap-[14px]">
                     <p className="flex-1">
                       This section serves as a comprehensive archive of the
                       scientific bibliography that was used as background for
@@ -47,7 +49,7 @@ const Resources = () => {
                     </p>
                   </div>
                   <div className=" flex flex-col gap-2">
-                    <h1 className=" w-full flex bg-orange rounded-lg p-4 bg-opacity-50 shadow-inner">
+                    <h1 className="w-full flex bg-[##D9D9D9] bg-opacity-50 shadow-[inset_0_0_35px_20px_rgba(1,1,1,0)] shadow-[#EBB64F] rounded-lg p-4">
                       Design Phases
                     </h1>
                     <Glossary
@@ -74,7 +76,7 @@ const Resources = () => {
                       title="Release"
                       explaination="Communicate, distribute, publish, and make open solutions and outputs available to the target groups, stakeholders, as well as the whole society"
                     />
-                    <h1 className=" w-full flex bg-orange rounded-lg p-4 my-4 bg-opacity-50 shadow-inner">
+                    <h1 className="w-full flex bg-[##D9D9D9] bg-opacity-50 shadow-[inset_0_0_35px_20px_rgba(1,1,1,0)] shadow-[#EBB64F] rounded-lg p-4">
                       AI Capabilities
                     </h1>
                     <Glossary
@@ -125,7 +127,7 @@ const Resources = () => {
                       title="Visualise"
                       explaination="Transforming data into visual outputs useful for exploration or explanation."
                     />
-                    <h1 className=" w-full flex bg-orange rounded-lg p-4 my-4 bg-opacity-50 shadow-inner">
+                    <h1 className="w-full flex bg-[##D9D9D9] bg-opacity-50 shadow-[inset_0_0_35px_20px_rgba(1,1,1,0)] shadow-[#EBB64F] rounded-lg p-4">
                       Data Types
                     </h1>
                     <Glossary
@@ -144,7 +146,7 @@ const Resources = () => {
                       title="Composite Data"
                       explaination="A data type constituted by organised elementary data types. "
                     />
-                    <h1 className=" w-full flex bg-orange rounded-lg p-4 my-4 bg-opacity-50 shadow-inner">
+                    <h1 className="w-full flex bg-[##D9D9D9] bg-opacity-50 shadow-[inset_0_0_35px_20px_rgba(1,1,1,0)] shadow-[#EBB64F] rounded-lg p-4">
                       Educational Framework
                     </h1>
                     <Glossary

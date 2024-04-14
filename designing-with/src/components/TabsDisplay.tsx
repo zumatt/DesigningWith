@@ -9,7 +9,9 @@ const TabDisplay = ({ tabs }: { tabs: TabElement[] }) => {
           {tabs.map((tab, index) => (
             <button
               key={index}
-              className={`flex-1 max-w-[380px] px-4 py-6 glassBox rounded-t-2xl text-left`}
+              className={`flex-1 max-w-[380px] px-4 py-6 rounded-t-2xl text-left ${
+                tab.style ? tab.style : "glassBox"
+              }`}
               onClick={() => setActiveTab(index)}
             >
               <p
@@ -33,9 +35,7 @@ const TabDisplay = ({ tabs }: { tabs: TabElement[] }) => {
             </button>
           ))}
         </div>
-        <div className="">
-          {tabs[activeTab].elements}
-        </div>
+        <div className="">{tabs[activeTab].elements}</div>
       </div>
       {tabs[activeTab].extra}
     </>
@@ -46,6 +46,7 @@ export type TabElement = {
   title: string;
   mobileTitle: string;
   elements: React.ReactNode[] | React.ReactNode;
+  style?: string;
   extra?: React.ReactNode[] | React.ReactNode;
 };
 
