@@ -1,7 +1,7 @@
 import Layout from "../components/Layout";
 import GuidelinesAccordeon from "../components/GuidelinesAccordeon";
 import AdditionalInformations from "../components/AdditionalInformations";
-import TabDisplay from "../components/TabsDisplay";
+import TabDidactic from "../components/TabsDidactic";
 import DidacticGuidelineSvg from "../components/DidacticGuidelinesContent/DidacticGuidelineSvg";
 import DidacticGuidelineSvgModule1 from "../components/DidacticGuidelinesContent/DidacticGuidelineSvgModule1";
 import DidacticGuidelineSvgModule2 from "../components/DidacticGuidelinesContent/DidacticGuidelineSvgModule2";
@@ -28,15 +28,15 @@ const DidacticGuidelines = () => {
       <div className="w-full p-[30px] flex justify-center items-center rounded-xl">
         <DidacticGuidelineSvg />
       </div>
-      <TabDisplay
+      <TabDidactic
         tabs={[
           {
             title: "Didactic Guidelines",
-            mobileTitle: "",
+            mobileTitle: "Didactic...",
             elements: (
               <>
                 <div className="flex flex-col gap-2">
-                  <div className="bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white px-4 py-6 rounded-b-2xl rounded-tr-2xl">
+                  <div className="bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white px-4 py-6 rounded-b-2xl md:rounded-tr-2xl">
                     <div className="flex flex-col md:flex-row justify-between gap-[14px] mt-[20px]">
                       <p className="flex-1">
                         The didactic guidelines are based on the following
@@ -453,13 +453,11 @@ const DidacticGuidelines = () => {
           },
           {
             title: "About didactic guidelines",
-            mobileTitle: "",
-            style:
-              "bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_35px_20px_rgba(1,1,1,0)] shadow-[#8CD782]",
+            mobileTitle: "About...",
             elements: (
               <>
                 <div className="flex flex-col gap-2">
-                  <div className="flex flex-col bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_95px_60px_rgba(1,1,1,0)] shadow-[#8CD782] rounded-b-2xl rounded-tr-2xl md:flex-row justify-between px-4 py-6 gap-[14px]">
+                  <div className="flex flex-col bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_95px_60px_rgba(1,1,1,0)] shadow-[#8CD782] rounded-b-2xl md:rounded-tr-2xl md:flex-row justify-between px-4 py-6 gap-[14px]">
                     <p className="flex-1">
                       To build the didactic guidelines aimed to systematically
                       integrate AI tools into design curricula, we referred to

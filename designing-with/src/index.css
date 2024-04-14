@@ -80,6 +80,8 @@ body {
   background-color: var(--backgroundColor);
   scrollbar-width: auto;
   scrollbar-color: #7c7c7c #ffffff00;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 /* Chrome, Edge, and Safari */

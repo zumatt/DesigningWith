@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../components/Layout";
-import TabDisplay from "../components/TabsDisplay";
+import TabsDidactic from "../components/TabsDidactic";
 import Glossary from "../components/Glossary";
 import Bibliography from "../components/Bibliography";
 import { useState } from "react";
@@ -21,17 +21,15 @@ const Resources = () => {
         literature, useful for those seeking to delve deeper into theoretical
         aspects.
       </h2>
-      <TabDisplay
+      <TabsDidactic
         tabs={[
           {
             title: "Glossary",
-            mobileTitle: "",
-            style:
-              "bg-[##D9D9D9] bg-opacity-50 shadow-[inset_0_0_35px_20px_rgba(1,1,1,0)] shadow-[#EBB64F]",
+            mobileTitle: "Glossary",
             elements: (
               <>
                 <div className="flex flex-col gap-2">
-                  <div className="flex flex-col bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_95px_60px_rgba(1,1,1,0)] shadow-[#EBB64F] rounded-b-2xl rounded-tr-2xl  px-4 py-6 md:flex-row justify-between gap-[14px]">
+                  <div className="flex flex-col bg-[#E5B75D] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-[#EBB64F] rounded-b-2xl md:rounded-tr-2xl  px-4 py-6 md:flex-row justify-between gap-[14px]">
                     <p className="flex-1">
                       This section serves as a comprehensive archive of the
                       scientific bibliography that was used as background for
@@ -167,11 +165,11 @@ const Resources = () => {
           },
           {
             title: "Bibliography",
-            mobileTitle: "",
+            mobileTitle: "Bibliography",
             elements: (
               <>
                 <div className="flex flex-col gap-2">
-                  <div className="flex flex-col md:flex-row bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white rounded-b-2xl rounded-tr-2xl  px-4 py-6 justify-between gap-[14px]">
+                  <div className="flex flex-col md:flex-row bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white rounded-b-2xl md:rounded-tr-2xl  px-4 py-6 justify-between gap-[14px]">
                     <p className="flex-1">
                       This section collects all the terms encountered during the
                       process and aims to unpack and clarify their meaning

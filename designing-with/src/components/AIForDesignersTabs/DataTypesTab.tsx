@@ -7,7 +7,7 @@ const DataTypesTab: TabElement = {
   mobileTitle: "(b)",
   elements: (
     <div className="flex flex-col gap-2">
-      <div className="bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white px-4 py-6 rounded-b-2xl rounded-tr-2xl">
+      <div className="bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white px-4 py-6 rounded-b-2xl">
        
         <h2>
           A classification of 7 data types handled by AI tools as input
