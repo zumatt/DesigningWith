@@ -11,7 +11,6 @@ const DidacticGuidelineSvgModule2Mobile = () => {
       xmlns="http://www.w3.org/2000/svg"
     >
       <g clip-path="url(#clip0_1236_4965)">
-        <rect width="390" height="672" fill="#EDEDED" />
         <g filter="url(#filter0_i_1236_4965)">
           <rect
             x="205"
