@@ -36,11 +36,11 @@
 
   --gapGrid: 8px;
   /* Font size desktop */
-  --fontHomeSizeTitle: 2.8vw; /* 45 px */
-  --fontHomeSizeDescription: 1.5vw; /* 29 px */
+  --fontHomeSizeTitle: 45px; /* 45 px */
+  --fontHomeSizeDescription: 29px; /* 29 px */
   /* Font size desktop */
-  --fontHomeSizeTitleMobile: 25px;
-  --fontHomeSizeDescriptionMobile: 25px;
+  --fontHomeSizeTitleMobile: 2.5vh;
+  --fontHomeSizeDescriptionMobile: 2.5vh;
 
   position: relative;
 }
@@ -80,8 +80,6 @@ body {
   background-color: var(--backgroundColor);
   scrollbar-width: auto;
   scrollbar-color: #7c7c7c #ffffff00;
-  max-width: 100%;
-  overflow-x: hidden;
 }
 
 /* Chrome, Edge, and Safari */
