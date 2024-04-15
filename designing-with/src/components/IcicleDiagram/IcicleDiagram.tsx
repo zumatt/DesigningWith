@@ -138,6 +138,7 @@ const IcicleDiagram = ({
                       );
                     }}
                     width={getColumnWidth(width, activeStages.length)}
+                    height={height}
                   />
                 ))
               : activeStages[activeStages.length - 1].children?.map(
@@ -166,6 +167,7 @@ const IcicleDiagram = ({
                           1
                         )
                       }
+                      height={height}
                     />
                   )
                 )}
@@ -184,6 +186,7 @@ const RenderCards = ({
   showCard = () => {},
   level = 0,
   width,
+  height = 1080,
   heightConstraint = 30,
 }: {
   stage: IcicleData;
@@ -200,6 +203,7 @@ const RenderCards = ({
   ) => void;
   level?: number;
   width?: number;
+  height?: number;
   heightConstraint?: number;
 }) => {
   const baseBorder =
@@ -306,9 +310,12 @@ const RenderCards = ({
                 level === 0
                   ? heightConstraint / getNumberChildren(stage, 1) > 30
                     ? -1
+                    : height > 1100
+                    ? (30 * height) / 1100
                     : 30
                   : heightConstraint / getNumberChildren(stage, 1)
               }
+              height={height}
             />
           ))
           .filter((elem, i) => level < 2 || i < 3)}
