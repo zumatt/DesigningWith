@@ -1,19 +1,35 @@
-import { useState } from "react";
+import { ReactNode, useState } from "react";
 
-const AdditionalInformations = ({ information }: { information: string }) => {
+const AdditionalInformations = ({
+  information,
+  children,
+  small = false,
+}: {
+  information: string;
+  children?: ReactNode | ReactNode[];
+  small?: boolean;
+}) => {
   const [open, setOpen] = useState(false);
   return (
-    <>
+    <div
+      className="inline cursor-pointer transition-all select-none"
+      style={{
+        fontFamily: '"EditorialNew", "Garamond", serif',
+      }}
+      onClick={() => setOpen((open) => !open)}
+    >
       <div
         className="inline cursor-pointer transition-all select-none"
-        onClick={() => setOpen((open) => !open)}
-        style={{ color: open ? "#A1A1A1" : "black" }}
+        style={{
+          color: open ? "#A1A1A1" : "black",
+          fontFamily: '"EditorialNew", "Garamond", serif',
+        }}
       >
         &#123;
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          width="30"
-          height="31"
+          width={small ? "20" : "30"}
+          height={small ? "21" : "31"}
           viewBox="0 0 40 42"
           fill="none"
           className="inline"
@@ -24,6 +40,7 @@ const AdditionalInformations = ({ information }: { information: string }) => {
           />
         </svg>
       </div>
+      {!open && children !== undefined && " " + children + " "}
       {open && " " + information + " "}
       <div
         className="inline cursor-pointer transition-all select-none"
@@ -32,7 +49,7 @@ const AdditionalInformations = ({ information }: { information: string }) => {
       >
         &#125;
       </div>
-    </>
+    </div>
   );
 };
 

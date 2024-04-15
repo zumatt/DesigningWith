@@ -9,24 +9,38 @@ import DidacticGuidelineResources from "../components/DidacticGuidelineResources
 import Categories from "../components/Categories";
 import CategoriesKnowDim from "../components/CategoriesKnowDim";
 import TextHighlight2 from "../components/TextHighlight2";
+import { useEffect, useState } from "react";
+import DidacticGuidelineSvgMobile from "../components/DidacticGuidelinesContent/DidacticGuidelineSvgMobile";
+import DidacticGuidelineSvgModule2Mobile from "../components/DidacticGuidelinesContent/DidacticGuidelineSvgModule2Mobile";
 
 const DidacticGuidelines = () => {
+  const isMobile = useCheckMobileScreen();
+
   return (
     <Layout>
       <h1 className="mt-[33px]">The Guidelines</h1>
       <h2 className="mt-[10px]">
         The didactic guidelines are structured to provide teachers with{" "}
         <i>Educational Objectives</i>{" "}
-        <AdditionalInformations information="The Educational Objectives describe the knowledge and skills that students are intended to acquire" />
+        <AdditionalInformations
+          small={isMobile}
+          information="The Educational Objectives describe the knowledge and skills that students are intended to acquire"
+        />
         , <i>Instructional Activities</i>{" "}
-        <AdditionalInformations information="The Instructional Activities illustrate tasks and exercises teachers must prepare and conduct during the module to facilitate student learning" />{" "}
+        <AdditionalInformations
+          small={isMobile}
+          information="The Instructional Activities illustrate tasks and exercises teachers must prepare and conduct during the module to facilitate student learning"
+        />{" "}
         and <i>Recommendations</i>{" "}
-        <AdditionalInformations information="Recommendations suggest the students' working modalities (individual or group) and details to carry the activity on." />{" "}
+        <AdditionalInformations
+          small={isMobile}
+          information="Recommendations suggest the students' working modalities (individual or group) and details to carry the activity on."
+        />{" "}
         for the autonomous implementation of teaching modules on AI in design
         courses.
       </h2>
       <div className="w-full p-[30px] flex justify-center items-center rounded-xl">
-        <DidacticGuidelineSvg />
+        {isMobile ? <DidacticGuidelineSvgMobile /> : <DidacticGuidelineSvg />}
       </div>
       <TabDidactic
         tabs={[
@@ -130,20 +144,70 @@ const DidacticGuidelines = () => {
                         <div className=" flex flex-col md:flex-row gap-[30px] mt-[70px]">
                           <p className=" md:w-1/2">
                             Students are first provided with a basic literacy of
-                            ML including technical vocabulary ML-Act1 and
-                            primary functionalities ML-Act2. This activity is
-                            meant to promote factual and conceptual knowledge by
-                            teaching the basic elements of the discipline and
-                            their interrelationship to explain the functionality
-                            of ML tools. Once basic literacy is introduced,
-                            specific case studies are provided to contextualise
-                            the application of ML within the design practice
-                            ML-Act3. At this point, the teaching moves from a
+                            ML including technical vocabulary{" "}
+                            <AdditionalInformations
+                              small={true}
+                              information={
+                                "activities intended to provide students with vocabulary knowledge of ML"
+                              }
+                            >
+                              ML-Act1
+                            </AdditionalInformations>{" "}
+                            and primary functionalities{" "}
+                            <AdditionalInformations
+                              small={true}
+                              information={
+                                "activities intended to provide students with a basic functionality of ML"
+                              }
+                            >
+                              ML-Act2
+                            </AdditionalInformations>
+                            . This activity is meant to promote factual and
+                            conceptual knowledge by teaching the basic elements
+                            of the discipline and their interrelationship to
+                            explain the functionality of ML tools. Once basic
+                            literacy is introduced, specific case studies are
+                            provided to contextualise the application of ML
+                            within the design practice{" "}
+                            <AdditionalInformations
+                              small={true}
+                              information={
+                                "activities intended to provide students with practical examples of machine learning applied to design"
+                              }
+                            >
+                              ML-Act3
+                            </AdditionalInformations>
+                            . At this point, the teaching moves from a
                             theoretical to a procedural level. In this
                             direction, students are first introduced to a guided
-                            tutorial ML-Act4.3 on how to use an ML tool (e.g.
-                            runway) starting from setting a design goal
-                            ML-Act4.1 and creating their dataset ML-Act4.2
+                            tutorial{" "}
+                            <AdditionalInformations
+                              small={true}
+                              information={
+                                "activities intended to provide a step-by-step tool tutorial, such as RunwayML"
+                              }
+                            >
+                              ML-Act4.3
+                            </AdditionalInformations>{" "}
+                            on how to use an ML tool (e.g. runway) starting from
+                            setting a design goal{" "}
+                            <AdditionalInformations
+                              small={true}
+                              information={
+                                "activities intended to set or aligning with a design goal"
+                              }
+                            >
+                              ML-Act4.1
+                            </AdditionalInformations>{" "}
+                            and creating their dataset{" "}
+                            <AdditionalInformations
+                              small={true}
+                              information={
+                                "activities intended to introduce students in familiarising, collecting or creating data"
+                              }
+                            >
+                              ML-Act4.2
+                            </AdditionalInformations>{" "}
                             activities intended to introduce students in
                             familiarising, collecting or creating data .
                           </p>
@@ -151,14 +215,39 @@ const DidacticGuidelines = () => {
                             Then, to familiarise themselves with the procedure,
                             students individually apply what they learned by
                             training an ML model aligned with the design goal
-                            ML-Act5. Lastly, moving the focus to meta-cognitive
+                            <AdditionalInformations
+                              small={true}
+                              information={
+                                "activities intended to allow students to individually train a simplified machine learning model for a design goal"
+                              }
+                            >
+                              ML-Act5
+                            </AdditionalInformations>
+                            . Lastly, moving the focus to meta-cognitive
                             knowledge, students are asked to analyse and
                             document the process by breaking down the steps and
-                            selecting the relevant results ML-Act6. This
-                            activity aims to create awareness and knowledge of
-                            cognition. To foster participation and sharing of
-                            results, students are asked to present their work
-                            and question others ML-Act7.
+                            selecting the relevant results{" "}
+                            <AdditionalInformations
+                              small={true}
+                              information={
+                                "activities intended to provide students with a structured template for process and results documentation"
+                              }
+                            >
+                              ML-Act6
+                            </AdditionalInformations>
+                            . This activity aims to create awareness and
+                            knowledge of cognition. To foster participation and
+                            sharing of results, students are asked to present
+                            their work and question others{" "}
+                            <AdditionalInformations
+                              small={true}
+                              information={
+                                "activities intended to make students explaining and questioning the process"
+                              }
+                            >
+                              ML-Act7
+                            </AdditionalInformations>
+                            .
                           </p>
                         </div>
                         <a
@@ -201,32 +290,107 @@ const DidacticGuidelines = () => {
                         <div className=" flex flex-col md:flex-row gap-[30px] mt-[70px]">
                           <p className=" md:w-1/2">
                             Students are first provided with a basic literacy of
-                            AI including technical vocabulary (GenAI-Act1) and
-                            primary functionalities (GenAI-Act2). This activity
-                            is meant to promote factual and conceptual knowledge
-                            by teaching the basic elements of the discipline and
-                            their interrelationship to explain the functionality
-                            of AI tools. Once basic literacy is introduced,
-                            specific case studies are provided to contextualise
-                            the application of AI within the design practice
-                            (GenAI-Act3). At this point, the teaching moves from
-                            a theoretical to a procedural level. In this
+                            AI including technical vocabulary{" "}
+                            <AdditionalInformations
+                              small={true}
+                              information={
+                                "activities intended to provide students with vocabulary knowledge of GenAI"
+                              }
+                            >
+                              GenAI-Act1
+                            </AdditionalInformations>{" "}
+                            and primary functionalities{" "}
+                            <AdditionalInformations
+                              small={true}
+                              information={
+                                "activities intended to provide students with a basic functionality of GenAI"
+                              }
+                            >
+                              GenAI-Act2
+                            </AdditionalInformations>
+                            . This activity is meant to promote factual and
+                            conceptual knowledge by teaching the basic elements
+                            of the discipline and their interrelationship to
+                            explain the functionality of AI tools. Once basic
+                            literacy is introduced, specific case studies are
+                            provided to contextualise the application of AI
+                            within the design practice{" "}
+                            <AdditionalInformations
+                              small={true}
+                              information={
+                                "activities intended to provide students with practical examples of GenAI applied to design"
+                              }
+                            >
+                              GenAI-Act3
+                            </AdditionalInformations>
+                            . At this point, the teaching moves from a
+                            theoretical to a procedural level. In this
                             direction, students are first introduced to a guided
-                            tutorial (GenAI-Act4.3) on how to use a Generative
-                            AI tool (e.g. Midjourney) starting from setting a
-                            design goal (GenAI-Act4.1) and experimenting with
-                            relative prompts (GenAI-Act4.2). Then, to
-                            familiarise themselves with the procedure, students
-                            individually apply what they learned by refining
-                            selected prompts and generating content based on the
-                            design goal (GenAI-Act5). Lastly, moving the focus
-                            to meta-cognitive knowledge, students are asked to
-                            analyse and document the process by breaking down
-                            the steps and selecting the relevant results
-                            (GenAI-Act6). This activity aims to create awareness
-                            and knowledge of cognition. To foster participation
-                            and sharing of results, students are asked to
-                            present their work and question others (GenAI-Act7).
+                            tutorial{" "}
+                            <AdditionalInformations
+                              small={true}
+                              information={
+                                "activities intended to provide a step-by-step tool tutorial, such as Midjourney, Dall-E"
+                              }
+                            >
+                              GenAI-Act4.3
+                            </AdditionalInformations>{" "}
+                            on how to use a Generative AI tool (e.g. Midjourney)
+                            starting from setting a design goal{" "}
+                            <AdditionalInformations
+                              small={true}
+                              information={
+                                "activities intended to set or aligning with a design goal"
+                              }
+                            >
+                              GenAI-Act4.1
+                            </AdditionalInformations>{" "}
+                            and experimenting with relative prompts
+                            <AdditionalInformations
+                              small={true}
+                              information={
+                                "activities intended to introduce students in familiarising, collecting or creating prompts(data)"
+                              }
+                            >
+                              GenAI-Act4.2
+                            </AdditionalInformations>
+                            . Then, to familiarise themselves with the
+                            procedure, students individually apply what they
+                            learned by refining selected prompts and generating
+                            content based on the design goal{" "}
+                            <AdditionalInformations
+                              small={true}
+                              information={
+                                "activities intended to allow students to individually generate contents with GenAI for a design goal"
+                              }
+                            >
+                              GenAI-Act5
+                            </AdditionalInformations>
+                            . Lastly, moving the focus to meta-cognitive
+                            knowledge, students are asked to analyse and
+                            document the process by breaking down the steps and
+                            selecting the relevant results{" "}
+                            <AdditionalInformations
+                              small={true}
+                              information={
+                                "activities intended to provide students with a structured template for process and results documentation"
+                              }
+                            >
+                              GenAI-Act6
+                            </AdditionalInformations>
+                            . This activity aims to create awareness and
+                            knowledge of cognition. To foster participation and
+                            sharing of results, students are asked to present
+                            their work and question others{" "}
+                            <AdditionalInformations
+                              small={true}
+                              information={
+                                "activities intended to make students explaining and questioning the process"
+                              }
+                            >
+                              GenAI-Act7
+                            </AdditionalInformations>
+                            .
                           </p>
                           <p className=" md:w-1/2">
                             Then, to familiarise themselves with the procedure,
@@ -282,34 +446,110 @@ const DidacticGuidelines = () => {
                           <p className=" md:w-1/2">
                             Students are first provided with a basic literacy of
                             CV algorithms and data visualisation (CV) techniques
-                            including technical vocabulary (CV-Act1) and primary
-                            functionalities (CV-Act2). This activity is meant to
-                            promote factual and conceptual knowledge by teaching
-                            the basic elements of the disciplines (CV and CV)
-                            and their interrelationship in analysing and
-                            visualising complex phenomena (Omena, 2021). Once
-                            basic literacy is introduced, specific case studies
-                            are provided to contextualise the application of CV
-                            within the design research (CV-Act3). At this point,
-                            the teaching moves from a theoretical to a
-                            procedural level. In this direction, students are
-                            first introduced to a guided tutorial (CV-Act4.3) on
-                            how to analyse data with CV algorithms (e.g. Meme
+                            including technical vocabulary{" "}
+                            <AdditionalInformations
+                              small={true}
+                              information={
+                                "activities intended to provide students with vocabulary knowledge of Computer Vision"
+                              }
+                            >
+                              CV-Act1
+                            </AdditionalInformations>{" "}
+                            and primary functionalities{" "}
+                            <AdditionalInformations
+                              small={true}
+                              information={
+                                "activities intended to provide students with a basic functionality of Computer Vision Algorithms and Data Visualization technniques"
+                              }
+                            >
+                              CV-Act2
+                            </AdditionalInformations>
+                            . This activity is meant to promote factual and
+                            conceptual knowledge by teaching the basic elements
+                            of the disciplines (CV and CV) and their
+                            interrelationship in analysing and visualising
+                            complex phenomena (Omena, 2021). Once basic literacy
+                            is introduced, specific case studies are provided to
+                            contextualise the application of CV within the
+                            design research{" "}
+                            <AdditionalInformations
+                              small={true}
+                              information={
+                                "activities intended to provide students with practical examples of computer vision applied to design research"
+                              }
+                            >
+                              CV-Act3
+                            </AdditionalInformations>
+                            . At this point, the teaching moves from a
+                            theoretical to a procedural level. In this
+                            direction, students are first introduced to a guided
+                            tutorial{" "}
+                            <AdditionalInformations
+                              small={true}
+                              information={
+                                "activities intended to provide a step-by-step tool tutorial, such as Memespecotor, Gephi"
+                              }
+                            >
+                              CV-Act4.3
+                            </AdditionalInformations>{" "}
+                            on how to analyse data with CV algorithms (e.g. Meme
                             Spector) and visualise the results (e.g. Gephi)
                             starting from setting a research question
-                            (CV-Act4.1) and collecting and organising data
-                            related to the phenomena (CV-Act4.2). Then, to
-                            familiarise themselves with the procedure, students
-                            individually apply what they learned by
-                            investigating the dataset to answer the research
-                            question (CV-Act5). Lastly, moving the focus to
-                            meta-cognitive knowledge, students are asked to
-                            analyse and document the process by breaking down
-                            the steps and selecting the relevant results
-                            (CV-Act6). This activity aims to create awareness
-                            and knowledge of cognition. To foster participation
-                            and sharing of results, students are asked to
-                            present their work and question others (CV-Act7).
+                            <AdditionalInformations
+                              small={true}
+                              information={
+                                "activities intended to introduce students in familiarising, collecting or creating data"
+                              }
+                            >
+                              CV-Act4.1
+                            </AdditionalInformations>{" "}
+                            and collecting and organising data related to the
+                            phenomena{" "}
+                            <AdditionalInformations
+                              small={true}
+                              information={
+                                "aactivities intended to set or aligning with a research question"
+                              }
+                            >
+                              CV-Act4.2
+                            </AdditionalInformations>
+                            . Then, to familiarise themselves with the
+                            procedure, students individually apply what they
+                            learned by investigating the dataset to answer the
+                            research question{" "}
+                            <AdditionalInformations
+                              small={true}
+                              information={
+                                "activities intended to allow students to individually analyzes data with computer vision for a research goal"
+                              }
+                            >
+                              CV-Act5
+                            </AdditionalInformations>
+                            . Lastly, moving the focus to meta-cognitive
+                            knowledge, students are asked to analyse and
+                            document the process by breaking down the steps and
+                            selecting the relevant results{" "}
+                            <AdditionalInformations
+                              small={true}
+                              information={
+                                "activities intended to provide students with a structured template for process and results documentation"
+                              }
+                            >
+                              CV-Act6
+                            </AdditionalInformations>
+                            . This activity aims to create awareness and
+                            knowledge of cognition. To foster participation and
+                            sharing of results, students are asked to present
+                            their work and question others{" "}
+                            <AdditionalInformations
+                              small={true}
+                              information={
+                                "activities intended to make students explaining and questioning the process"
+                              }
+                            >
+                              CV-Act7
+                            </AdditionalInformations>
+                            .
                           </p>
                           <p className=" md:w-1/2">
                             [CV-Act1] activities intended to provide students
@@ -358,7 +598,11 @@ const DidacticGuidelines = () => {
                       for <TextHighlight2>specific activities</TextHighlight2>{" "}
                       of the <TextHighlight2>design process.</TextHighlight2>
                     </h2>
-                    <DidacticGuidelineSvgModule2 />
+                    {isMobile ? (
+                      <DidacticGuidelineSvgModule2Mobile />
+                    ) : (
+                      <DidacticGuidelineSvgModule2 />
+                    )}
                     <div className="flex flex-col md:flex-row gap-[30px] mt-[70px]">
                       <p className=" md:w-1/2">
                         To face this module, students need some basic knowledge
@@ -380,61 +624,126 @@ const DidacticGuidelines = () => {
                     <div className="flex flex-col md:flex-row gap-[30px] mt-[10px]">
                       <p className=" md:w-1/2">
                         Students are first provided with a design challenge to
-                        drive the activity {"{"} Module2-Act1{"}"}. The design
-                        challenge provides a macro area for students to
-                        experiment with tools based on specific research
-                        questions and tasks. Examples of these challenges are
-                        designing for climate change and designing for twin
-                        cities. A detailed description is available from the
-                        Designing With Workshop repository [ example ]. To help
-                        students understand the challenge, case studies are
-                        provided. Working on challenges contributes to
-                        developing a knowledge dimension as students are asked
-                        to understand the interrelationship of basic elements
-                        (acquired in Module 1) and make them function together
-                        within a larger structure. Once the context is set,
-                        tools are introduced through the Designing With
-                        Framework
-                        {"{"} Module2-Act1 {"}"}. The framework aims to
-                        introduce students to exploring tools of AI/ML/CV,
-                        understanding their capabilities, and applying them
-                        within a design process. Additionally, the framework
-                        promotes a data-based approach, bringing students closer
-                        to a design practice led by data input and output. The
-                        data-based approach is useful, especially in promoting
-                        the method of inquiry, which is part of the procedural
-                        knowledge dimension developed within this activity.
-                        Fostering the exploration of tools through the framework
-                        aims to infuse in students a method of design with AI.
+                        drive the activity{" "}
+                        <AdditionalInformations
+                          information={
+                            "activities intended to provide students with a design challenge"
+                          }
+                        >
+                          Module2-Act1
+                        </AdditionalInformations>
+                        . The design challenge provides a macro area for
+                        students to experiment with tools based on specific
+                        research questions and tasks. Examples of these
+                        challenges are designing for climate change and
+                        designing for twin cities. A detailed description is
+                        available from the Designing With Workshop repository [
+                        example ]. To help students understand the challenge,
+                        case studies are provided. Working on challenges
+                        contributes to developing a knowledge dimension as
+                        students are asked to understand the interrelationship
+                        of basic elements (acquired in Module 1) and make them
+                        function together within a larger structure. Once the
+                        context is set, tools are introduced through the
+                        Designing With Framework
+                        <AdditionalInformations
+                          information={
+                            "activities intended to support students in understanding, exploring and using the Framework (from a practical-application point of view, which implies that the literacy phase ref. module1 first occurs)"
+                          }
+                        >
+                          Module2-Act2
+                        </AdditionalInformations>
+                        . The framework aims to introduce students to exploring
+                        tools of AI/ML/CV, understanding their capabilities, and
+                        applying them within a design process. Additionally, the
+                        framework promotes a data-based approach, bringing
+                        students closer to a design practice led by data input
+                        and output. The data-based approach is useful,
+                        especially in promoting the method of inquiry, which is
+                        part of the procedural knowledge dimension developed
+                        within this activity. Fostering the exploration of tools
+                        through the framework aims to infuse in students a
+                        method of design with AI.
                       </p>
                       <p className=" md:w-1/2">
                         During the process, students are asked to document this
                         method. For this purpose, a structured template [
-                        example ] is introduced {"{"} Module2-Act3{"}"}. While
-                        in Module 1 documentation is one of the final
+                        example ] is introduced{" "}
+                        <AdditionalInformations
+                          information={
+                            "activities intended to provide students with a structured template for the process and results documentation"
+                          }
+                        >
+                          Module2-Act3
+                        </AdditionalInformations>
+                        . While in Module 1 documentation is one of the final
                         activities, for the second module, keeping track of the
                         steps, tools and choices at each of the design phases is
                         encouraged to foster the acquisition of the method.
                         During these activities, supervision from tutors and
-                        experts in the field is useful for choosing {"{"}{" "}
-                        Module2-Act4{"}"} and properly applying AI tools
-                        {"{"} Module2-Act5{"}"} for specific tasks defined based
-                        on the initial challenge. Two rounds of revisions are
-                        planned: the first one {"{"} Module2-Act4{"}"} aims to
-                        support students in choosing the appropriate tools and
-                        refining the design concept; while the second one {"{"}{" "}
-                        Module2-Act5 {"}"} focuses on providing technical
-                        support in using the tools, as this second revision
-                        comes later when students are supposed to have the
-                        concept already defined and move to the prototyping and
-                        implementing phase. To allow teachers to assess the
-                        activities and future implementation of the module,
-                        students are asked for feedback. {"{"} Module2-Act6{"}"}{" "}
+                        experts in the field is useful for choosing{" "}
+                        <AdditionalInformations
+                          information={
+                            "activities intended to supervise students in choosing AI tools for specific design phases (rev.1)"
+                          }
+                        >
+                          Module2-Act4
+                        </AdditionalInformations>{" "}
+                        and properly applying AI tools
+                        <AdditionalInformations
+                          information={
+                            "activities intended to supervise students in applying AI tools for specific design phases (rev.2)"
+                          }
+                        >
+                          Module2-Act5
+                        </AdditionalInformations>{" "}
+                        for specific tasks defined based on the initial
+                        challenge. Two rounds of revisions are planned: the
+                        first one{" "}
+                        <AdditionalInformations
+                          information={
+                            "activities intended to supervise students in choosing AI tools for specific design phases (rev.1)"
+                          }
+                        >
+                          Module2-Act4
+                        </AdditionalInformations>{" "}
+                        aims to support students in choosing the appropriate
+                        tools and refining the design concept; while the second
+                        one{" "}
+                        <AdditionalInformations
+                          information={
+                            "activities intended to supervise students in applying AI tools for specific design phases (rev.2)"
+                          }
+                        >
+                          Module2-Act5
+                        </AdditionalInformations>{" "}
+                        focuses on providing technical support in using the
+                        tools, as this second revision comes later when students
+                        are supposed to have the concept already defined and
+                        move to the prototyping and implementing phase. To allow
+                        teachers to assess the activities and future
+                        implementation of the module, students are asked for
+                        feedback.{" "}
+                        <AdditionalInformations
+                          information={
+                            "activities intended to ask students for feedback on the teaching module"
+                          }
+                        >
+                          Module2-Act6
+                        </AdditionalInformations>{" "}
                         This activity contributes to creating awareness and
                         knowledge of cognition, improving the meta-cognitive
                         knowledge of students. Lastly, to foster participation
                         and sharing of results, students are asked to present
-                        their work and question others {"{"} Module2-Act6{"}"} .
+                        their work and question others{" "}
+                        <AdditionalInformations
+                          information={
+                            "activities intended to make students explaining and questioning the process and results"
+                          }
+                        >
+                          Module2-Act7
+                        </AdditionalInformations>
+                        .
                       </p>
                     </div>
                     <a
@@ -890,7 +1199,7 @@ const DidacticGuidelines = () => {
                       <div className="flex flex-row gap-2 w-full">
                         <div className="flex flex-col gap-2 w-full">
                           <div className="flex flex-row w-full gap-2">
-                            <p className="w-2/5 md:w-1/4 rounded-lg border bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white md:text-[22px] p-2 border-green">
+                            <p className="w-4/5 md:w-1/4 rounded-lg border bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white md:text-[22px] p-2 border-green">
                               (a) Factual Knowledge
                             </p>
                             <div className="hidden md:flex w-3/5 md:w-3/4 flex flex-row gap-2">
@@ -903,7 +1212,7 @@ const DidacticGuidelines = () => {
                             </div>
                           </div>
                           <div className="flex flex-row w-full gap-2">
-                            <p className="w-2/5 md:w-1/4 rounded-lg border md:text-[22px] bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white p-2 border-green">
+                            <p className="w-4/5 md:w-1/4 rounded-lg border md:text-[22px] bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white p-2 border-green">
                               (b) Conceptual Knowledge
                             </p>
                             <div className="hidden md:flex w-3/5 md:w-3/4 flex flex-row gap-2">
@@ -916,7 +1225,7 @@ const DidacticGuidelines = () => {
                             </div>
                           </div>
                           <div className="flex flex-row w-full gap-2">
-                            <p className="w-2/5 md:w-1/4 rounded-lg border md:text-[22px] bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white p-2 border-green">
+                            <p className="w-4/5 md:w-1/4 rounded-lg border md:text-[22px] bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white p-2 border-green">
                               (c) Procedural Knowledge
                             </p>
                             <div className="hidden md:flex w-3/5 md:w-3/4 flex flex-row gap-2">
@@ -929,7 +1238,7 @@ const DidacticGuidelines = () => {
                             </div>
                           </div>
                           <div className="flex flex-row w-full gap-2">
-                            <p className="w-2/5 md:w-1/4 rounded-lg border md:text-[22px] bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white p-2 border-green">
+                            <p className="w-4/5 md:w-1/4 rounded-lg border md:text-[22px] bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white p-2 border-green">
                               (d) Meta Knowledge
                             </p>
                             <div className="hidden md:flex w-3/5 md:w-3/4 flex flex-row gap-2">
@@ -1034,6 +1343,24 @@ const DidacticGuidelines = () => {
       </p>
     </Layout>
   );
+};
+
+const useCheckMobileScreen = () => {
+  const [width, setWidth] = useState(window.innerWidth);
+  const [height, setHeight] = useState(window.innerHeight);
+  const handleWindowSizeChange = () => {
+    setWidth(window.innerWidth);
+    setHeight(window.innerHeight);
+  };
+
+  useEffect(() => {
+    window.addEventListener("resize", handleWindowSizeChange);
+    return () => {
+      window.removeEventListener("resize", handleWindowSizeChange);
+    };
+  }, []);
+
+  return width < height;
 };
 
 export default DidacticGuidelines;
