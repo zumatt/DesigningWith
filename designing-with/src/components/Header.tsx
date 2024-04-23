@@ -38,7 +38,7 @@ const Header = ({
           <p className="w-fit text-[2.4vh] md:text-[29px] bg-purple rounded-xl px-3">About </p>
         )}
         {!menuIsOpen && pathname === "/ai-for-designers" && (
-          <p className="w-fit text-[2.4vh] bg-blue rounded-xl px-3">AI for Designers </p>
+          <p className="w-fit text-[2.4vh] md:text-[29px] bg-blue rounded-xl px-3">AI for Designers </p>
         )}
         {!menuIsOpen && pathname === "/interactive-framework" && (
           <p className="w-fit text-[2.4vh] md:text-[29px] bg-grey rounded-xl px-3">
