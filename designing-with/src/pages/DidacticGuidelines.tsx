@@ -12,6 +12,7 @@ import TextHighlight2 from "../components/TextHighlight2";
 import { useEffect, useState } from "react";
 import DidacticGuidelineSvgMobile from "../components/DidacticGuidelinesContent/DidacticGuidelineSvgMobile";
 import DidacticGuidelineSvgModule2Mobile from "../components/DidacticGuidelinesContent/DidacticGuidelineSvgModule2Mobile";
+import TextIncircle from "../components/TextIncirle";
 
 const DidacticGuidelines = () => {
   const isMobile = useCheckMobileScreen();
@@ -1058,17 +1059,17 @@ const DidacticGuidelines = () => {
                       <br />
                       <br />
                       <br />
-                      <p>Statement [EO] “Student will learn to..”</p>
-                      <p>Statement [EO] “Activity intended to..”</p>
+                      <p className="mb-1"><TextIncircle color="border-[#A1A1A1]">Statement [EO]</TextIncircle> “Student will learn to..”</p>
+                      <p><TextIncircle color="border-[#A1A1A1]">Statement [EO]</TextIncircle> “Activity intended to..”</p>
                       <br />
                       <p>
-                        The verb refers to cognitive processes  (1) Remember;
+                        The verb refers to <TextIncircle color="border-[#75D668]">cognitive processes</TextIncircle>  (1) Remember;
                         (2) Understand; (3) Apply; (4) Analyze; (5) Evaluate;
                         (6) Create. 
                       </p>
                       <br />
                       <p>
-                        Nouns refer to the knowledge dimension that students are
+                        Nouns refer to the <TextIncircle color="border-[#73EB14]"> knowledge dimension </TextIncircle>  that students are
                         expected to acquire or build: (a) Factual Knowledge; (b)
                         Conceptual Knowledge; (c) Procedural Knowledge; (d)
                         Metacognitive Knowledge.{" "}
@@ -1095,53 +1096,53 @@ const DidacticGuidelines = () => {
                         .
                       </h2>
                       <br />
-                      <p>
-                        {"{"}AI.1{"}"} Activities intended to provide students
-                        with vocabulary knowledge of ML;
+                      <p className="leading-relaxed">
+                        {"{"}AI.1{"}"} <TextIncircle color="border-[#A1A1A1]">Activities intended</TextIncircle> to  <TextIncircle color="border-[#75D668]">provide students</TextIncircle>
+                        with <TextIncircle color="border-[#73EB14]">vocabulary knowledge of ML;</TextIncircle>
                       </p>
                       <br />
-                      <p>
-                        {"{"}AI.2{"}"} Activities intended to provide students
-                        with a basic functionality of ML;
+                      <p className="leading-relaxed">
+                        {"{"}AI.2{"}"} <TextIncircle color="border-[#A1A1A1]">Activities intended</TextIncircle> to  <TextIncircle color="border-[#75D668]">provide students</TextIncircle>
+                        with <TextIncircle color="border-[#73EB14]">a basic functionality of ML;</TextIncircle>
                       </p>
                       <br />
-                      <p>
-                        {"{"}AI.3{"}"} Activities intended to provide students
-                        with practical examples of machine learning applied to
-                        design;{" "}
+                      <p className="leading-relaxed">
+                        {"{"}AI.3{"}"} <TextIncircle color="border-[#A1A1A1]">Activities intended</TextIncircle> to  <TextIncircle color="border-[#75D668]">provide students</TextIncircle>
+                        with <TextIncircle color="border-[#73EB14]">practical examples of machine learning applied to
+                        design;</TextIncircle>{" "}
                       </p>
                       <br />
-                      <p>
-                        {"{"}AI.4.1{"}"} Activities intended to explain the
-                        procedure of training a simplified machine learning
-                        model;
+                      <p className="leading-relaxed">
+                        {"{"}AI.4.1{"}"} <TextIncircle color="border-[#A1A1A1]">Activities intended</TextIncircle> to  <TextIncircle color="border-[#75D668]">explain</TextIncircle> the
+                        <TextIncircle color="border-[#73EB14]">procedure of training a simplified machine learning model;</TextIncircle>
+                        
                       </p>
                       <br />
-                      <p>
-                        {"{"}AI.4.2{"}"} Activities intended to set or align
-                        with a design goal;
+                      <p className="leading-relaxed">
+                        {"{"}AI.4.2{"}"} <TextIncircle color="border-[#A1A1A1]">Activities intended</TextIncircle> to  <TextIncircle color="border-[#75D668]">set or align</TextIncircle>
+                        with <TextIncircle color="border-[#73EB14]">a design goal;</TextIncircle>
                       </p>
                       <br />
-                      <p>
-                        {"{"}AI.4.3{"}"} Activities intended to introduce
-                        students to familiarising, collecting or creating data;
+                      <p className="leading-relaxed">
+                        {"{"}AI.4.3{"}"} <TextIncircle color="border-[#A1A1A1]">Activities intended</TextIncircle> to  <TextIncircle color="border-[#75D668]">introduce
+                        students</TextIncircle> to <TextIncircle color="border-[#73EB14]">familiarising, collecting or creating data;</TextIncircle>
                       </p>
                       <br />
-                      <p>
-                        {"{"}AI.5{"}"} Activities intended to provide a
-                        step-by-step tool tutorial, such as RunwayML;
+                      <p className="leading-relaxed">
+                        {"{"}AI.5{"}"} <TextIncircle color="border-[#A1A1A1]">Activities intended</TextIncircle> to  <TextIncircle color="border-[#75D668]">provide</TextIncircle> a
+                        <TextIncircle color="border-[#73EB14]">step-by-step tool tutorial, such as RunwayML;</TextIncircle>
                       </p>
                       <br />
-                      <p>
-                        {"{"}AI.6{"}"} Activities intended to allow students to
-                        individually train a simplified machine learning model
-                        for a design goal;
+                      <p className="leading-relaxed">
+                        {"{"}AI.6{"}"} <TextIncircle color="border-[#A1A1A1]">Activities intended</TextIncircle> to  <TextIncircle color="border-[#75D668]">allow students</TextIncircle> to
+                        <TextIncircle color="border-[#73EB14]">individually train a simplified machine learning model
+                        for a design goal;</TextIncircle>
                       </p>
                       <br />
-                      <p>
-                        {"{"}AI.7{"}"} Activities intended to provide students
-                        with a structured template for process and results
-                        documentation;
+                      <p className="leading-relaxed">
+                        {"{"}AI.7{"}"} <TextIncircle color="border-[#A1A1A1]">Activities intended</TextIncircle> to  <TextIncircle color="border-[#75D668]">provide students</TextIncircle>
+                        with a <TextIncircle color="border-[#73EB14]">structured template for process and results
+                        documentation;</TextIncircle>
                       </p>
                       <br />
                     </div>
@@ -1167,11 +1168,11 @@ const DidacticGuidelines = () => {
                     </div>
                     <div className="flex flex-col w-full gap-2">
                       <div className="flex flex-row w-full gap-2">
-                        <p className=" w-[44.5%] md:h-auto md:w-1/4 rounded-lg text-[16px] border bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white md:text-[22px] p-2 md:p-4 border-green">
+                        <p className=" w-[44.5%] md:h-auto md:w-1/4 rounded-lg text-[16px]  border bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white md:text-[22px] p-2 md:p-4 border-green">
                           The knowledge dimension
                         </p>
                         <div className="flex flex-col w-[55.5%] md:w-3/4 gap-2">
-                          <p className=" w-full md:w-full sm:h-full md:h-auto text-[16px] rounded-lg border bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white p-2 md:p-4 border-green">
+                          <p className=" w-full md:w-full sm:h-full md:h-auto text-[16px] md:text-[22px] rounded-lg border bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white p-2 md:p-4 border-green">
                             The cognitive process dimension
                           </p>
                           <div className="hidden md:flex flex-row w-full gap-2">
@@ -1197,7 +1198,7 @@ const DidacticGuidelines = () => {
                         </div>
                       </div>
                       <div className="flex flex-row gap-2 w-full">
-                        <div className="flex flex-col gap-2 w-[44.5%]">
+                        <div className="flex flex-col gap-2 w-[44.5%] md:w-full">
                           <div className="flex flex-row w-full gap-2">
                             <p className="w-full md:w-1/4 rounded-lg text-[16px]  border bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white md:text-[22px] p-2 border-green">
                               (a) Factual Knowledge
@@ -1251,7 +1252,7 @@ const DidacticGuidelines = () => {
                             </div>
                           </div>
                         </div>
-                        <div className=" flex w-[55.5%]">
+                        <div className=" flex md:hidden w-[55.5%]">
                           <div className=" flex md:hidden flex-row w-full gap-2">
                             <div className="relative flex w-1/6 rounded-lg border text-[16px] md:text-[22px] bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white p-1 border-green">
                               <div className=" bg-transparent absolute bottom-[80px] w-40 -rotate-90 -ml-[75px]">
