@@ -1254,32 +1254,32 @@ const DidacticGuidelines = () => {
                         <div className=" flex w-[55.5%]">
                           <div className=" flex md:hidden flex-row w-full gap-2">
                             <div className="relative flex w-1/6 rounded-lg border text-[16px] md:text-[22px] bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white p-1 border-green">
-                              <div className=" bg-transparent absolute bottom-[70px] w-40 -rotate-90 -ml-[75px]">
+                              <div className=" bg-transparent absolute bottom-[80px] w-40 -rotate-90 -ml-[75px]">
                               (1) Remember
                               </div>
                             </div>
                             <div className="relative flex w-1/6 rounded-lg border text-[16px] md:text-[22px] bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white p-1 border-green">
-                              <div className="bg-transparent absolute bottom-[70px] w-40 -rotate-90 -ml-[75px]">
+                              <div className="bg-transparent absolute bottom-[80px] w-40 -rotate-90 -ml-[75px]">
                               (2) Understand
                               </div>
                             </div>
                             <div className="relative flex w-1/6 rounded-lg border text-[16px] md:text-[22px] bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white p-1 border-green">
-                              <div className="bg-transparent absolute bottom-[70px] w-40 -rotate-90 -ml-[75px]">
+                              <div className="bg-transparent absolute bottom-[80px] w-40 -rotate-90 -ml-[75px]">
                               (3) Apply
                               </div>
                             </div>
                             <div className="relative flex w-1/6 rounded-lg border text-[16px] md:text-[22px] bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white p-1 border-green">
-                              <div className="bg-transparent absolute bottom-[70px] w-40 -rotate-90 -ml-[75px]">
+                              <div className="bg-transparent absolute bottom-[80px] w-40 -rotate-90 -ml-[75px]">
                               (4) Analyse
                               </div>
                             </div>
                             <div className="relative flex w-1/6 rounded-lg border text-[16px] md:text-[22px] bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white p-1 border-green">
-                              <div className="bg-transparent absolute bottom-[70px] w-40 -rotate-90 -ml-[75px]">
+                              <div className="bg-transparent absolute bottom-[80px] w-40 -rotate-90 -ml-[75px]">
                               (5) Evaluate
                               </div>
                             </div>
                             <div className="relative flex w-1/6 rounded-lg border text-[16px] md:text-[22px] bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white p-1 border-green">
-                              <div className="bg-transparent absolute bottom-[70px] w-40 -rotate-90 -ml-[75px]">
+                              <div className="bg-transparent absolute bottom-[80px] w-40 -rotate-90 -ml-[75px]">
                               (6) Create
                               </div>
                             </div>
