@@ -1167,55 +1167,55 @@ const DidacticGuidelines = () => {
                     </div>
                     <div className="flex flex-col w-full gap-2">
                       <div className="flex flex-row w-full gap-2">
-                        <p className=" w-2/5 h-full md:h-auto md:w-1/4 rounded-lg border bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white md:text-[22px] p-4 md:p-4 border-green">
+                        <p className=" w-[44.5%] md:h-auto md:w-1/4 rounded-lg text-[16px] border bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white md:text-[22px] p-2 md:p-4 border-green">
                           The knowledge dimension
                         </p>
-                        <div className="flex flex-col w-3/5 md:w-3/4 gap-2">
-                          <p className=" w-full sm:h-full md:h-auto rounded-lg border bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white p-4 border-green">
+                        <div className="flex flex-col w-[55.5%] md:w-3/4 gap-2">
+                          <p className=" w-full md:w-full sm:h-full md:h-auto text-[16px] rounded-lg border bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white p-2 md:p-4 border-green">
                             The cognitive process dimension
                           </p>
                           <div className="hidden md:flex flex-row w-full gap-2">
-                            <p className=" w-1/6 rounded-lg border text-[22px] bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white p-2 border-green">
+                            <p className=" w-1/6 rounded-lg border text-[16px] md:text-[22px] bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white p-2 border-green">
                               (1) Remember
                             </p>
-                            <p className=" w-1/6 rounded-lg border text-[22px] bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white p-2 border-green">
+                            <p className=" w-1/6 rounded-lg border text-[16px] md:text-[22px] bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white p-2 border-green">
                               (2) Understand
                             </p>
-                            <p className=" w-1/6 rounded-lg border text-[22px] bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white p-2 border-green">
+                            <p className=" w-1/6 rounded-lg border text-[16px] md:text-[22px] bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white p-2 border-green">
                               (3) Apply
                             </p>
-                            <p className=" w-1/6 rounded-lg border text-[22px] bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white p-2 border-green">
+                            <p className=" w-1/6 rounded-lg border text-[16px] md:text-[22px] bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white p-2 border-green">
                               (4) Analyze
                             </p>
-                            <p className=" w-1/6 rounded-lg border text-[22px] bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white p-2 border-green">
+                            <p className=" w-1/6 rounded-lg border text-[16px] md:text-[22px] bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white p-2 border-green">
                               (5) Evaluate
                             </p>
-                            <p className=" w-1/6 rounded-lg border text-[22px] bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white  p-2 border-green">
+                            <p className=" w-1/6 rounded-lg border text-[16px] md:text-[22px] bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white  p-2 border-green">
                               (6) Create
                             </p>
                           </div>
                         </div>
                       </div>
                       <div className="flex flex-row gap-2 w-full">
-                        <div className="flex flex-col gap-2 w-full">
+                        <div className="flex flex-col gap-2 w-[44.5%]">
                           <div className="flex flex-row w-full gap-2">
-                            <p className="w-4/5 md:w-1/4 rounded-lg border bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white md:text-[22px] p-2 border-green">
+                            <p className="w-full md:w-1/4 rounded-lg text-[16px]  border bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white md:text-[22px] p-2 border-green">
                               (a) Factual Knowledge
                             </p>
-                            <div className="hidden md:flex w-3/5 md:w-3/4 flex flex-row gap-2">
-                              <p className=" w-1/6 h-full rounded-lg border text-[22px] bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white p-2 border-green"></p>
-                              <p className=" w-1/6 h-full rounded-lg border text-[22px] bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white p-2 border-green"></p>
-                              <p className=" w-1/6 h-full rounded-lg border text-[22px]  bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white p-2 border-green"></p>
-                              <p className=" w-1/6 h-full rounded-lg border text-[22px] bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white p-2 border-green"></p>
-                              <p className=" w-1/6 h-full rounded-lg border text-[22px] bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white p-2 border-green"></p>
-                              <p className=" w-1/6 h-full rounded-lg border text-[22px] bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white p-2 border-green"></p>
+                            <div className="hidden md:flex w-3/5 md:w-3/4 flex-row gap-2">
+                              <p className=" w-1/6 h-full rounded-lg border text-[16px] md:text-[22px] bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white p-2 border-green"></p>
+                              <p className=" w-1/6 h-full rounded-lg border text-[16px] md:text-[22px] bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white p-2 border-green"></p>
+                              <p className=" w-1/6 h-full rounded-lg border text-[16px] md:text-[22px]  bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white p-2 border-green"></p>
+                              <p className=" w-1/6 h-full rounded-lg border text-[16px] md:text-[22px] bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white p-2 border-green"></p>
+                              <p className=" w-1/6 h-full rounded-lg border text-[16px] md:text-[22px] bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white p-2 border-green"></p>
+                              <p className=" w-1/6 h-full rounded-lg border ttext-[16px] md:ext-[22px] bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white p-2 border-green"></p>
                             </div>
                           </div>
                           <div className="flex flex-row w-full gap-2">
-                            <p className="w-4/5 md:w-1/4 rounded-lg border md:text-[22px] bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white p-2 border-green">
+                            <p className="w-full md:w-1/4 rounded-lg border text-[16px] md:text-[22px] bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white p-2 border-green">
                               (b) Conceptual Knowledge
                             </p>
-                            <div className="hidden md:flex w-3/5 md:w-3/4 flex flex-row gap-2">
+                            <div className="hidden md:flex w-3/5 md:w-3/4  flex-row gap-2">
                               <p className=" w-1/6 h-full rounded-lg border text-[22px] bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white p-2 border-green"></p>
                               <p className=" w-1/6 h-full rounded-lg border text-[22px] bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white p-2 border-green"></p>
                               <p className=" w-1/6 h-full rounded-lg border text-[22px] bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white p-2 border-green"></p>
@@ -1225,10 +1225,10 @@ const DidacticGuidelines = () => {
                             </div>
                           </div>
                           <div className="flex flex-row w-full gap-2">
-                            <p className="w-4/5 md:w-1/4 rounded-lg border md:text-[22px] bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white p-2 border-green">
+                            <p className="w-full md:w-1/4 rounded-lg border text-[16px]  md:text-[22px] bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white p-2 border-green">
                               (c) Procedural Knowledge
                             </p>
-                            <div className="hidden md:flex w-3/5 md:w-3/4 flex flex-row gap-2">
+                            <div className="hidden md:flex w-3/5 md:w-3/4  flex-row gap-2">
                               <p className=" w-1/6 h-full rounded-lg border text-[22px] bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white p-2 border-green"></p>
                               <p className=" w-1/6 h-full rounded-lg border text-[22px] bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white p-2 border-green"></p>
                               <p className=" w-1/6 h-full rounded-lg border text-[22px] bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white p-2 border-green"></p>
@@ -1238,10 +1238,10 @@ const DidacticGuidelines = () => {
                             </div>
                           </div>
                           <div className="flex flex-row w-full gap-2">
-                            <p className="w-4/5 md:w-1/4 rounded-lg border md:text-[22px] bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white p-2 border-green">
+                            <p className="w-full md:w-1/4 rounded-lg border text-[16px] md:text-[22px] bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white p-2 border-green">
                               (d) Meta Knowledge
                             </p>
-                            <div className="hidden md:flex w-3/5 md:w-3/4 flex flex-row gap-2">
+                            <div className="hidden md:flex w-3/5 md:w-3/4  flex-row gap-2">
                               <p className=" w-1/6 h-full rounded-lg border text-[22px] bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white p-2 border-green"></p>
                               <p className=" w-1/6 h-full rounded-lg border text-[22px] bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white p-2 border-green"></p>
                               <p className=" w-1/6 h-full rounded-lg border text-[22px] bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white p-2 border-green"></p>
@@ -1251,25 +1251,54 @@ const DidacticGuidelines = () => {
                             </div>
                           </div>
                         </div>
-                        <div className="flex md:hidden flex-col w-full -rotate-90 gap-2">
-                          <p className=" w-full rounded-lg border md:text-[22px] bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white p-2 border-green">
-                            (1) Remember
-                          </p>
-                          <p className=" w-full rounded-lg border md:text-[22px] bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white p-2 border-green">
-                            (2) Understand
-                          </p>
-                          <p className=" w-full rounded-lg border md:text-[22px] bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white p-2 border-green">
-                            (3) Apply
-                          </p>
-                          <p className=" w-full rounded-lg border md:text-[22px] bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white p-2 border-green">
-                            (4) Analyze
-                          </p>
-                          <p className=" w-full rounded-lg border md:text-[22px] bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white p-2 border-green">
-                            (5) Evaluate
-                          </p>
-                          <p className=" w-full rounded-lg border md:text-[22px] bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white p-2 border-green">
-                            (6) Create
-                          </p>
+                        <div className=" flex w-[55.5%]">
+                          <div className=" flex md:hidden flex-row w-full gap-2">
+                            <div className="relative flex w-1/6 rounded-lg border text-[16px] md:text-[22px] bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white p-1 border-green">
+                              <div className=" bg-transparent absolute bottom-[70px] w-40 -rotate-90 -ml-[75px]">
+                              (1) Remember
+                              </div>
+                            </div>
+                            <div className="relative flex w-1/6 rounded-lg border text-[16px] md:text-[22px] bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white p-1 border-green">
+                              <div className="bg-transparent absolute bottom-[70px] w-40 -rotate-90 -ml-[75px]">
+                              (2) Understand
+                              </div>
+                            </div>
+                            <div className="relative flex w-1/6 rounded-lg border text-[16px] md:text-[22px] bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white p-1 border-green">
+                              <div className="bg-transparent absolute bottom-[70px] w-40 -rotate-90 -ml-[75px]">
+                              (3) Apply
+                              </div>
+                            </div>
+                            <div className="relative flex w-1/6 rounded-lg border text-[16px] md:text-[22px] bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white p-1 border-green">
+                              <div className="bg-transparent absolute bottom-[70px] w-40 -rotate-90 -ml-[75px]">
+                              (4) Analyse
+                              </div>
+                            </div>
+                            <div className="relative flex w-1/6 rounded-lg border text-[16px] md:text-[22px] bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white p-1 border-green">
+                              <div className="bg-transparent absolute bottom-[70px] w-40 -rotate-90 -ml-[75px]">
+                              (5) Evaluate
+                              </div>
+                            </div>
+                            <div className="relative flex w-1/6 rounded-lg border text-[16px] md:text-[22px] bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white p-1 border-green">
+                              <div className="bg-transparent absolute bottom-[70px] w-40 -rotate-90 -ml-[75px]">
+                              (6) Create
+                              </div>
+                            </div>
+                            {/* <p className=" w-full rounded-lg border -rotate-90 text-[16px] md:text-[22px] bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white p-1 border-green">
+                              (2) Understand
+                            </p>
+                            <p className=" w-full rounded-lg border -rotate-90 text-[16px] md:text-[22px] bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white p-1 border-green">
+                              (3) Apply
+                            </p>
+                            <p className=" w-full rounded-lg border -rotate-90 text-[16px] md:text-[22px] bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white p-1 border-green">
+                              (4) Analyze
+                            </p>
+                            <p className=" w-full rounded-lg border -rotate-90 text-[16px] md:text-[22px] bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white p-1 border-green">
+                              (5) Evaluate
+                            </p>
+                            <p className=" w-full rounded-lg border -rotate-90 text-[16px] md:text-[22px] bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white p-1 border-green">
+                              (6) Create
+                            </p> */}
+                          </div>
                         </div>
                       </div>
                     </div>
