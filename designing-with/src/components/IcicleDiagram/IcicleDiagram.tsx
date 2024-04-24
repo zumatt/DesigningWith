@@ -155,7 +155,9 @@ const IcicleDiagram = ({
                             ...activeStages.map((stage) => stage.name),
                             ...tree,
                           ];
-                          setPathTooltip(tree.join(" / "));
+                          setPathTooltip(
+                            tree.slice(0, tree.length - 1).join(" / ")
+                          );
                         }
                       }}
                       width={getColumnWidth(width, activeStages.length)}

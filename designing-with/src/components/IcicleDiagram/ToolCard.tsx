@@ -24,13 +24,14 @@ const RenderToolCards = ({
   return (
     <div
       className={`flex flex-row fixed bottom-0 right-0 z-10`}
-      style={{ left: leftConstraint > 0 ? leftConstraint : 130 }}
+      style={{ left: leftConstraint > 0 ? leftConstraint : 145 }}
     >
       <div
         className={`absolute bottom-0 left-[${
           leftConstraint > 0 ? -leftConstraint : -130
         }px] w-screen h-screen bg-opacity-50`}
         onClick={() => showCard(null)}
+        style={{ left: leftConstraint > 0 ? -leftConstraint : -145 }}
       />
       <div
         className={`flex bg-white rounded-lg w-full px-2 m-1 h-content flex-col z-20 ${selectStroke(
