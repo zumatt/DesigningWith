@@ -12,6 +12,7 @@ import TextHighlight2 from "../components/TextHighlight2";
 import { useEffect, useState } from "react";
 import DidacticGuidelineSvgMobile from "../components/DidacticGuidelinesContent/DidacticGuidelineSvgMobile";
 import DidacticGuidelineSvgModule2Mobile from "../components/DidacticGuidelinesContent/DidacticGuidelineSvgModule2Mobile";
+import DidacticGuidelineSvgModule1Mobile from "../components/DidacticGuidelinesContent/DidacticGuidelineSvgModule1Mobile";
 
 const DidacticGuidelines = () => {
   const isMobile = useCheckMobileScreen();
@@ -85,7 +86,11 @@ const DidacticGuidelines = () => {
                       will learn to employ AI to train, generate, analyze and
                       visualize data for specific design purposes.
                     </h2>
-                    <DidacticGuidelineSvgModule1 />
+                    {isMobile ? (
+                      <DidacticGuidelineSvgModule1Mobile />
+                    ) : (
+                      <DidacticGuidelineSvgModule1 />
+                    )}
                     <div className="flex flex-col md:flex-row gap-[30px] mt-[70px]">
                       <p className=" md:w-1/2">
                         To promote the development of <i>personal skills</i>,
