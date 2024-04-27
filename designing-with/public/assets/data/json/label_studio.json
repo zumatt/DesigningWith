@@ -18,27 +18,27 @@
         {
             "id": "Recording (From)",
             "group": 3,
-            "step": "AI Input (From)"
+            "step": "Data Input (From)"
         },
         {
             "id": "Image File (From)",
             "group": 3,
-            "step": "AI Input (From)"
+            "step": "Data Input (From)"
         },
         {
             "id": "Prompt (From)",
             "group": 3,
-            "step": "AI Input (From)"
+            "step": "Data Input (From)"
         },
         {
             "id": "Video File (From)",
             "group": 3,
-            "step": "AI Input (From)"
+            "step": "Data Input (From)"
         },
         {
             "id": "Label (To)",
             "group": 4,
-            "step": "AI Output (To)"
+            "step": "Data Output (To)"
         }
     ],
     "links": [

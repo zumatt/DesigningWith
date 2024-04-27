@@ -1459,23 +1459,8 @@ const DidacticGuidelines = () => {
         link="http://dx.doi.org/10.5281/zenodo.10475202"
       />
       <DidacticGuidelineResources
-        title="Digital Plot"
-        type="Resources"
-        link="/assets/data/pdf/example.pdf"
-      />
-      <DidacticGuidelineResources
-        title="Digital Plot"
-        type="Resources"
-        link="/assets/data/pdf/example.pdf"
-      />
-      <DidacticGuidelineResources
-        title="Digital Plot"
-        type="Resources"
-        link="/assets/data/pdf/example.pdf"
-      />
-      <DidacticGuidelineResources
-        title="Digital Plot"
-        type="Resources"
+        title="Icebreaking Digital Plot"
+        type="Resources"  
         link="/assets/data/pdf/example.pdf"
       />
 

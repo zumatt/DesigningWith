@@ -25,9 +25,9 @@ const AIForDesigners = () => {
       </p>
       <TabDisplay
         tabs={[
+          DesignProcessTab,
           CapabilitiesTab,
           DataTypesTab,
-          DesignProcessTab,
           AIToolTab,
         ]}
       />

@@ -47,11 +47,12 @@ const About = () => {
           <br />
           <br />
           <button
-            onClick={() =>
+            onClick={() => {
               navigator.clipboard.writeText(
-                "Botta, M., Autuori, A., Subet, M., Terenghi, G., (2024). Designing With: A New Educational Module to Integrate Artificial Intelligence, Machine Learning and Data Visualization in Design Curricula. designingwithai.ch"
-              )
-            }
+                "Botta, M., Autuori, A., Subet, M., Terenghi, G., (2024). Designing With: A New Educational Module to Integrate Artificial Intelligence, Machine Learning, and Data Visualization in Design Curricula. designingwithai.ch"
+              );
+              alert("Reference has been copied to the clipboard!");
+            }}
             className=" text-[17px] md:text-[24px] underline"
           >
             Cite this project:
@@ -65,14 +66,11 @@ const About = () => {
               Intelligence, Machine Learning and Data Visualization in Design
               Curricula.
             </i>{" "}
-            <a
-              href="designingwithai.ch"
-              rel="noopener"
-              target="_blank"
+            <p
               className="underline"
             >
               designingwithai.ch{" "}
-            </a>
+            </p>
           </p>
         </div>
       </div>

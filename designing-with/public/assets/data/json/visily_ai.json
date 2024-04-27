@@ -28,27 +28,27 @@
         {
             "id": "Image File (From)",
             "group": 3,
-            "step": "AI Input (From)"
+            "step": "Data Input (From)"
         },
         {
             "id": "Interface Component (To)",
             "group": 4,
-            "step": "AI Output (To)"
+            "step": "Data Output (To)"
         },
         {
             "id": "Website (To)",
             "group": 4,
-            "step": "AI Output (To)"
+            "step": "Data Output (To)"
         },
         {
             "id": "Instructions (To)",
             "group": 4,
-            "step": "AI Output (To)"
+            "step": "Data Output (To)"
         },
         {
             "id": "Mockup (To)",
             "group": 4,
-            "step": "AI Output (To)"
+            "step": "Data Output (To)"
         }
     ],
     "links": [

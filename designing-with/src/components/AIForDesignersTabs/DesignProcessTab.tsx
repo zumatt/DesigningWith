@@ -2,8 +2,8 @@ import { TabElement } from "../TabsDisplay";
 import DesignProcessTable from "../DesignProcessTable";
 
 const DesignProcessTab: TabElement = {
-  title: "(c) Design process",
-  mobileTitle: "(c)",
+  title: "(a) Design process",
+  mobileTitle: "(a)",
   elements: (
     <div className="flex flex-col gap-2">
       <div className="bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white px-4 py-6 rounded-b-2xl">
