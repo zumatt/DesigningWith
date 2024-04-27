@@ -14,6 +14,7 @@ import DidacticGuidelineSvgMobile from "../components/DidacticGuidelinesContent/
 import DidacticGuidelineSvgModule2Mobile from "../components/DidacticGuidelinesContent/DidacticGuidelineSvgModule2Mobile";
 import DidacticGuidelineSvgModule1Mobile from "../components/DidacticGuidelinesContent/DidacticGuidelineSvgModule1Mobile";
 import TextIncircle from "../components/TextIncirle";
+import TextHighlight3 from "../components/TextHighlight3";
 
 const DidacticGuidelines = () => {
   const isMobile = useCheckMobileScreen();
@@ -1065,33 +1066,33 @@ const DidacticGuidelines = () => {
                       <br />
                       <br />
                       <p className="mb-1">
-                        <TextIncircle color="border-[#A1A1A1]">
+                        <TextHighlight3 color="bg-[#A1A1A1]">
                           Statement [EO]
-                        </TextIncircle>{" "}
+                        </TextHighlight3>{" "}
                         “Student will learn to..”
                       </p>
                       <p>
-                        <TextIncircle color="border-[#A1A1A1]">
+                        <TextHighlight3 color="bg-[#A1A1A1]">
                           Statement [EO]
-                        </TextIncircle>{" "}
+                        </TextHighlight3>{" "}
                         “Activity intended to..”
                       </p>
                       <br />
                       <p>
                         The verb refers to{" "}
-                        <TextIncircle color="border-[#75D668]">
+                        <TextHighlight3 color="bg-[#75D668]">
                           cognitive processes
-                        </TextIncircle>
+                        </TextHighlight3>
                           (1) Remember; (2) Understand; (3) Apply; (4) Analyze;
                         (5) Evaluate; (6) Create. 
                       </p>
                       <br />
                       <p>
                         Nouns refer to the{" "}
-                        <TextIncircle color="border-[#73EB14]">
+                        <TextHighlight3 color="bg-[#73EB14]">
                           {" "}
                           knowledge dimension{" "}
-                        </TextIncircle>{" "}
+                        </TextHighlight3>{" "}
                         that students are expected to acquire or build: (a)
                         Factual Knowledge; (b) Conceptual Knowledge; (c)
                         Procedural Knowledge; (d) Metacognitive Knowledge.{" "}
@@ -1120,141 +1121,141 @@ const DidacticGuidelines = () => {
                       <br />
                       <p className="leading-relaxed">
                         {"{"}AI.1{"}"}{" "}
-                        <TextIncircle color="border-[#A1A1A1]">
+                        <TextHighlight3 color="bg-[#A1A1A1] ">
                           Activities intended
-                        </TextIncircle>{" "}
+                        </TextHighlight3>{" "}
                         to{" "}
-                        <TextIncircle color="border-[#75D668]">
+                        <TextHighlight3 color="bg-[#75D668] ">
                           provide students
-                        </TextIncircle>
+                        </TextHighlight3>
                         with{" "}
-                        <TextIncircle color="border-[#73EB14]">
+                        <TextHighlight3 color="bg-[#73EB14] ">
                           vocabulary knowledge of ML;
-                        </TextIncircle>
+                        </TextHighlight3>
                       </p>
                       <br />
                       <p className="leading-relaxed">
                         {"{"}AI.2{"}"}{" "}
-                        <TextIncircle color="border-[#A1A1A1]">
+                        <TextHighlight3 color="bg-[#A1A1A1] ">
                           Activities intended
-                        </TextIncircle>{" "}
+                        </TextHighlight3>{" "}
                         to{" "}
-                        <TextIncircle color="border-[#75D668]">
+                        <TextHighlight3 color="bg-[#75D668] ">
                           provide students
-                        </TextIncircle>
+                        </TextHighlight3>
                         with{" "}
-                        <TextIncircle color="border-[#73EB14]">
+                        <TextHighlight3 color="bg-[#73EB14] ">
                           a basic functionality of ML;
-                        </TextIncircle>
+                        </TextHighlight3>
                       </p>
                       <br />
                       <p className="leading-relaxed">
                         {"{"}AI.3{"}"}{" "}
-                        <TextIncircle color="border-[#A1A1A1]">
+                        <TextHighlight3 color="bg-[#A1A1A1] ">
                           Activities intended
-                        </TextIncircle>{" "}
+                        </TextHighlight3>{" "}
                         to{" "}
-                        <TextIncircle color="border-[#75D668]">
+                        <TextHighlight3 color="bg-[#75D668] ">
                           provide students
-                        </TextIncircle>
+                        </TextHighlight3>
                         with{" "}
-                        <TextIncircle color="border-[#73EB14]">
+                        <TextHighlight3 color="bg-[#73EB14] ">
                           practical examples of machine learning applied to
                           design;
-                        </TextIncircle>{" "}
+                        </TextHighlight3>{" "}
                       </p>
                       <br />
                       <p className="leading-relaxed">
                         {"{"}AI.4.1{"}"}{" "}
-                        <TextIncircle color="border-[#A1A1A1]">
+                        <TextHighlight3 color="bg-[#A1A1A1] ">
                           Activities intended
-                        </TextIncircle>{" "}
+                        </TextHighlight3>{" "}
                         to{" "}
-                        <TextIncircle color="border-[#75D668]">
+                        <TextHighlight3 color="bg-[#75D668] ">
                           explain
-                        </TextIncircle>{" "}
+                        </TextHighlight3>{" "}
                         the
-                        <TextIncircle color="border-[#73EB14]">
+                        <TextHighlight3 color="bg-[#73EB14] ">
                           procedure of training a simplified machine learning
                           model;
-                        </TextIncircle>
+                        </TextHighlight3>
                       </p>
                       <br />
                       <p className="leading-relaxed">
                         {"{"}AI.4.2{"}"}{" "}
-                        <TextIncircle color="border-[#A1A1A1]">
+                        <TextHighlight3 color="bg-[#A1A1A1] ">
                           Activities intended
-                        </TextIncircle>{" "}
+                        </TextHighlight3>{" "}
                         to{" "}
-                        <TextIncircle color="border-[#75D668]">
+                        <TextHighlight3 color="bg-[#75D668] ">
                           set or align
-                        </TextIncircle>
+                        </TextHighlight3>
                         with{" "}
-                        <TextIncircle color="border-[#73EB14]">
+                        <TextHighlight3 color="bg-[#73EB14] ">
                           a design goal;
-                        </TextIncircle>
+                        </TextHighlight3>
                       </p>
                       <br />
                       <p className="leading-relaxed">
                         {"{"}AI.4.3{"}"}{" "}
-                        <TextIncircle color="border-[#A1A1A1]">
+                        <TextHighlight3 color="bg-[#A1A1A1] ">
                           Activities intended
-                        </TextIncircle>{" "}
+                        </TextHighlight3>{" "}
                         to{" "}
-                        <TextIncircle color="border-[#75D668]">
+                        <TextHighlight3 color="bg-[#75D668] ">
                           introduce students
-                        </TextIncircle>{" "}
+                        </TextHighlight3>{" "}
                         to{" "}
-                        <TextIncircle color="border-[#73EB14]">
+                        <TextHighlight3 color="bg-[#73EB14]">
                           familiarising, collecting or creating data;
-                        </TextIncircle>
+                        </TextHighlight3>
                       </p>
                       <br />
                       <p className="leading-relaxed">
                         {"{"}AI.5{"}"}{" "}
-                        <TextIncircle color="border-[#A1A1A1]">
+                        <TextHighlight3 color="bg-[#A1A1A1]">
                           Activities intended
-                        </TextIncircle>{" "}
+                        </TextHighlight3>{" "}
                         to{" "}
-                        <TextIncircle color="border-[#75D668]">
+                        <TextHighlight3 color="bg-[#75D668]">
                           provide
-                        </TextIncircle>{" "}
+                        </TextHighlight3>{" "}
                         a
-                        <TextIncircle color="border-[#73EB14]">
+                        <TextHighlight3 color="bg-[#73EB14]">
                           step-by-step tool tutorial, such as RunwayML;
-                        </TextIncircle>
+                        </TextHighlight3>
                       </p>
                       <br />
                       <p className="leading-relaxed">
                         {"{"}AI.6{"}"}{" "}
-                        <TextIncircle color="border-[#A1A1A1]">
+                        <TextHighlight3 color="bg-[#A1A1A1]">
                           Activities intended
-                        </TextIncircle>{" "}
+                        </TextHighlight3>{" "}
                         to{" "}
-                        <TextIncircle color="border-[#75D668]">
+                        <TextHighlight3 color="bg-[#75D668]">
                           allow students
-                        </TextIncircle>{" "}
+                        </TextHighlight3>{" "}
                         to
-                        <TextIncircle color="border-[#73EB14]">
+                        <TextHighlight3 color="bg-[#73EB14]">
                           individually train a simplified machine learning model
                           for a design goal;
-                        </TextIncircle>
+                        </TextHighlight3>
                       </p>
                       <br />
                       <p className="leading-relaxed">
                         {"{"}AI.7{"}"}{" "}
-                        <TextIncircle color="border-[#A1A1A1]">
+                        <TextHighlight3 color="bg-[#A1A1A1]">
                           Activities intended
-                        </TextIncircle>{" "}
+                        </TextHighlight3>{" "}
                         to{" "}
-                        <TextIncircle color="border-[#75D668]">
+                        <TextHighlight3 color="bg-[#75D668]">
                           provide students
-                        </TextIncircle>
+                        </TextHighlight3>
                         with a{" "}
-                        <TextIncircle color="border-[#73EB14]">
+                        <TextHighlight3 color="bg-[#73EB14]">
                           structured template for process and results
                           documentation;
-                        </TextIncircle>
+                        </TextHighlight3>
                       </p>
                       <br />
                     </div>
