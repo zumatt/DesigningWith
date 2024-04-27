@@ -1120,8 +1120,7 @@ const DidacticGuidelines = () => {
                       </h2>
                       <br />
                       <p className="leading-relaxed">
-                        {"{"}AI.1{"}"}{" "}
-                        <TextHighlight3 color="bg-[#A1A1A1] ">
+                      <h2 className="inline text-[16px] md:text-[24px]">{"{"}AI.1{"}"}{" "}</h2>                        <TextHighlight3 color="bg-[#A1A1A1] ">
                           Activities intended
                         </TextHighlight3>{" "}
                         to{" "}
@@ -1135,8 +1134,7 @@ const DidacticGuidelines = () => {
                       </p>
                       <br />
                       <p className="leading-relaxed">
-                        {"{"}AI.2{"}"}{" "}
-                        <TextHighlight3 color="bg-[#A1A1A1] ">
+                      <h2 className="inline text-[16px] md:text-[24px]">{"{"}AI.2{"}"}{" "}</h2>                        <TextHighlight3 color="bg-[#A1A1A1] ">
                           Activities intended
                         </TextHighlight3>{" "}
                         to{" "}
@@ -1150,8 +1148,7 @@ const DidacticGuidelines = () => {
                       </p>
                       <br />
                       <p className="leading-relaxed">
-                        {"{"}AI.3{"}"}{" "}
-                        <TextHighlight3 color="bg-[#A1A1A1] ">
+                      <h2 className="inline text-[16px] md:text-[24px]">{"{"}AI.3{"}"}{" "}</h2>                        <TextHighlight3 color="bg-[#A1A1A1] ">
                           Activities intended
                         </TextHighlight3>{" "}
                         to{" "}
@@ -1166,8 +1163,7 @@ const DidacticGuidelines = () => {
                       </p>
                       <br />
                       <p className="leading-relaxed">
-                        {"{"}AI.4.1{"}"}{" "}
-                        <TextHighlight3 color="bg-[#A1A1A1] ">
+                      <h2 className="inline text-[16px] md:text-[24px]">{"{"}AI.4{"}"}{" "}</h2>                        <TextHighlight3 color="bg-[#A1A1A1] ">
                           Activities intended
                         </TextHighlight3>{" "}
                         to{" "}
@@ -1182,7 +1178,7 @@ const DidacticGuidelines = () => {
                       </p>
                       <br />
                       <p className="leading-relaxed">
-                        {"{"}AI.4.2{"}"}{" "}
+                        <h2 className="inline text-[16px] md:text-[24px]">{"{"}AI.4.1{"}"}{" "}</h2>
                         <TextHighlight3 color="bg-[#A1A1A1] ">
                           Activities intended
                         </TextHighlight3>{" "}
@@ -1197,8 +1193,7 @@ const DidacticGuidelines = () => {
                       </p>
                       <br />
                       <p className="leading-relaxed">
-                        {"{"}AI.4.3{"}"}{" "}
-                        <TextHighlight3 color="bg-[#A1A1A1] ">
+                      <h2 className="inline text-[16px] md:text-[24px]">{"{"}AI.4.2{"}"}{" "}</h2>                        <TextHighlight3 color="bg-[#A1A1A1] ">
                           Activities intended
                         </TextHighlight3>{" "}
                         to{" "}
@@ -1212,8 +1207,7 @@ const DidacticGuidelines = () => {
                       </p>
                       <br />
                       <p className="leading-relaxed">
-                        {"{"}AI.5{"}"}{" "}
-                        <TextHighlight3 color="bg-[#A1A1A1]">
+                      <h2 className="inline text-[16px] md:text-[24px]">{"{"}AI.4.3{"}"}{" "}</h2>                        <TextHighlight3 color="bg-[#A1A1A1]">
                           Activities intended
                         </TextHighlight3>{" "}
                         to{" "}
@@ -1227,8 +1221,7 @@ const DidacticGuidelines = () => {
                       </p>
                       <br />
                       <p className="leading-relaxed">
-                        {"{"}AI.6{"}"}{" "}
-                        <TextHighlight3 color="bg-[#A1A1A1]">
+                      <h2 className="inline text-[16px] md:text-[24px]">{"{"}AI.5{"}"}{" "}</h2>                        <TextHighlight3 color="bg-[#A1A1A1]">
                           Activities intended
                         </TextHighlight3>{" "}
                         to{" "}
@@ -1243,8 +1236,7 @@ const DidacticGuidelines = () => {
                       </p>
                       <br />
                       <p className="leading-relaxed">
-                        {"{"}AI.7{"}"}{" "}
-                        <TextHighlight3 color="bg-[#A1A1A1]">
+                      <h2 className="inline text-[16px] md:text-[24px]">{"{"}AI.6{"}"}{" "}</h2>                        <TextHighlight3 color="bg-[#A1A1A1]">
                           Activities intended
                         </TextHighlight3>{" "}
                         to{" "}
