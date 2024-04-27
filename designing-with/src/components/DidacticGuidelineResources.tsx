@@ -5,11 +5,13 @@ const DidacticGuidelineResources = ({
   type,
   subtitle = "",
   link,
+  filename,
 }: {
   title: string;
   type: string;
   subtitle?: string;
   link: string;
+  filename?: string;
 }) => {
   return (
     <div
@@ -25,9 +27,10 @@ const DidacticGuidelineResources = ({
         <p className="text-sm">{subtitle}</p>
         <a
           href={link}
-          target="_blank"
-          rel="noreferrer"
-          className="text-[29px] underline ml-auto"
+          target={`${type === "Resources" ? "" : "_blank"}`}
+          rel={`${type === "Resources" ? "" : "noreferrer"}`}
+          download={`${type === "Resources" ? `${filename}` : ""}`}
+          className="text-[16px] md:text-[29px] underline ml-auto"
         >
           {type === "Resources" ? "Download" : "Go to link"}
         </a>
@@ -45,8 +48,9 @@ const DidacticGuidelineResources = ({
         </div>
         <a
           href={link}
-          target="_blank"
-          rel="noreferrer"
+          target={`${type === "Resources" ? "" : "_blank"}`}
+          rel={`${type === "Resources" ? "" : "noreferrer"}`}
+          download={`${type === "Resources" ? `${filename}` : ""}`}
           className="text-[16px] md:text-[29px] underline ml-auto"
         >
           {type === "Resources" ? "Download" : "Go to link"}

@@ -1459,9 +1459,10 @@ const DidacticGuidelines = () => {
         link="http://dx.doi.org/10.5281/zenodo.10475202"
       />
       <DidacticGuidelineResources
-        title="Icebreaking Digital Plot"
+        title="Icebreaking Plot"
         type="Resources"  
-        link="/assets/data/pdf/example.pdf"
+        link="/assets/data/files/Download-Didactic-Guidelines/DesigningWithAI-IcebreakingPlot/DesigningWithAI-IcebreakingPlot.pdf"
+        filename="DidacticResource-IcebreakingTool"
       />
 
       <p className="text-[12px] md:text-[15px] mt-10">
