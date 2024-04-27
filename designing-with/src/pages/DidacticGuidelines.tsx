@@ -127,12 +127,12 @@ const DidacticGuidelines = () => {
                         <h2 className="mt-[15px] flex-1">
                           <TextHighlight2>Students will learn</TextHighlight2>{" "}
                           to{" "}
-                          <TextHighlight2>
+                          <TextHighlight2 color="bg-[#75D668] bg-opacity-50 shadow-[#75D668]" >
                             {" "}
                             train simplified ML models
                           </TextHighlight2>{" "}
                           to{" "}
-                          <TextHighlight2>
+                          <TextHighlight2 color="bg-[#73EB14] bg-opacity-60 shadow-[#73EB14]">
                             create design artefacts
                           </TextHighlight2>
                         </h2>
