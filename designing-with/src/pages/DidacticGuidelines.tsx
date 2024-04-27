@@ -15,6 +15,8 @@ import DidacticGuidelineSvgModule2Mobile from "../components/DidacticGuidelinesC
 import DidacticGuidelineSvgModule1Mobile from "../components/DidacticGuidelinesContent/DidacticGuidelineSvgModule1Mobile";
 import TextIncircle from "../components/TextIncirle";
 import TextHighlight3 from "../components/TextHighlight3";
+import TextHighlight4 from "../components/TextHighlight4";
+
 
 const DidacticGuidelines = () => {
   const isMobile = useCheckMobileScreen();
@@ -1046,20 +1048,20 @@ const DidacticGuidelines = () => {
                         syntax.
                       </p>
                       <div className=" flex flex-col md:flex-row w-full text-center">
-                        <p className="blur-sm">
-                          <TextHighlight2>statement</TextHighlight2>
+                        <p className="">
+                          <TextHighlight4>statement</TextHighlight4>
                         </p>
                         <p>+</p>
-                        <p className="blur-sm">
-                          <TextHighlight2 color="bg-[#75D668] bg-opacity-50">
+                        <p className=" px-5">
+                          <TextHighlight4 color="shadow-[#75D668] bg-opacity-50">
                             verb
-                          </TextHighlight2>
+                          </TextHighlight4>
                         </p>
                         <p>+</p>
-                        <p className="blur-sm">
-                          <TextHighlight2 color="bg-[#73EB14] bg-opacity-60">
+                        <p className="">
+                          <TextHighlight4 color="shadow-[#73EB14] bg-opacity-60">
                             noun
-                          </TextHighlight2>
+                          </TextHighlight4>
                         </p>
                       </div>
                       <br />
