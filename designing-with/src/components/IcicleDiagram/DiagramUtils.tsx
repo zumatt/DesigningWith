@@ -32,8 +32,8 @@ const toggleStage = (
 const steps = [
   "Design Phase",
   "AI Capability",
-  "AI Input (From)",
-  "AI Output (To)",
+  "Data Input (From)",
+  "Data Output (To)",
   "Tool",
 ];
 

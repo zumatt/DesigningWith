@@ -18,12 +18,12 @@
         {
             "id": "Website (From)",
             "group": 3,
-            "step": "AI Input (From)"
+            "step": "Data Input (From)"
         },
         {
             "id": "Table (To)",
             "group": 4,
-            "step": "AI Output (To)"
+            "step": "Data Output (To)"
         }
     ],
     "links": [

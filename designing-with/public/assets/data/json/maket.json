@@ -18,22 +18,22 @@
         {
             "id": "Prompt (From)",
             "group": 3,
-            "step": "AI Input (From)"
+            "step": "Data Input (From)"
         },
         {
             "id": "Image File (From)",
             "group": 3,
-            "step": "AI Input (From)"
+            "step": "Data Input (From)"
         },
         {
             "id": "FloorPlans (To)",
             "group": 4,
-            "step": "AI Output (To)"
+            "step": "Data Output (To)"
         },
         {
             "id": "Render (To)",
             "group": 4,
-            "step": "AI Output (To)"
+            "step": "Data Output (To)"
         }
     ],
     "links": [

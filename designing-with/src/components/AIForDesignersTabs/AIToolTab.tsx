@@ -26,7 +26,7 @@ const AIToolTab: TabElement = {
       className="w-full md:hidden flex rounded-2xl p-[10px] mt-6 bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_35px_20px_rgba(1,1,1,0)] shadow-[#72DAFB]"
     >
       <p className="w-full text-center text-[25px] md:text-[50px]">
-        Explore the collection
+        Explore the interactive tool collection
       </p>
     </a>
       </div>
@@ -39,7 +39,7 @@ const AIToolTab: TabElement = {
       
     >
       <p className="w-full text-center text-[25px] md:text-[50px]">
-        Explore the collection
+        Explore the interactive tool collection
       </p>
     </a>
   ),

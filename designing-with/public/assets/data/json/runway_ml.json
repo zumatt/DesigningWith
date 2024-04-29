@@ -33,42 +33,42 @@
         {
             "id": "Image File (From)",
             "group": 3,
-            "step": "AI Input (From)"
+            "step": "Data Input (From)"
         },
         {
             "id": "Prompt (From)",
             "group": 3,
-            "step": "AI Input (From)"
+            "step": "Data Input (From)"
         },
         {
             "id": "Video File (From)",
             "group": 3,
-            "step": "AI Input (From)"
+            "step": "Data Input (From)"
         },
         {
             "id": "Image File (To)",
             "group": 4,
-            "step": "AI Output (To)"
+            "step": "Data Output (To)"
         },
         {
             "id": "Label (To)",
             "group": 4,
-            "step": "AI Output (To)"
+            "step": "Data Output (To)"
         },
         {
             "id": "Illustration (To)",
             "group": 4,
-            "step": "AI Output (To)"
+            "step": "Data Output (To)"
         },
         {
             "id": "Video File (To)",
             "group": 4,
-            "step": "AI Output (To)"
+            "step": "Data Output (To)"
         },
         {
             "id": "Text File (To)",
             "group": 4,
-            "step": "AI Output (To)"
+            "step": "Data Output (To)"
         }
     ],
     "links": [
