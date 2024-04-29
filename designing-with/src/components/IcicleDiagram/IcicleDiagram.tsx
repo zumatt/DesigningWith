@@ -165,11 +165,12 @@ const IcicleDiagram = ({
                         height /
                         getNumberChildren(
                           // @ts-ignore
-                          activeStages[activeStages.length - 1].children,
+                          activeStages[activeStages.length - 1],
                           1
                         )
                       }
                       height={height}
+                      level={1}
                     />
                   )
                 )}
@@ -248,14 +249,13 @@ const RenderCards = ({
           ? 1
           : 0.5
         : 1,
+      flex: 1,
     };
   };
 
   return (
     <div
-      className={`flex flex-row transition-all ${
-        heightConstraint < 0 ? "flex-1" : ""
-      }`}
+      className={`flex flex-row transition-all`}
       style={getStyleRow(level > 0)}
       ref={ref}
     >
