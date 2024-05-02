@@ -40,8 +40,12 @@ const AdditionalInformations = ({
           />
         </svg>
       </div>
-      {!open && children !== undefined && " " + children + " "}
-      {open && " " + information + " "}
+      <div className="inline" style={{
+        fontSize: small ? "" : "30px",
+      }}>
+        {!open && children !== undefined && " " + children + " "}
+        {open && " " + information + " "}
+      </div>
       <div
         className="inline cursor-pointer transition-all select-none"
         onClick={() => setOpen((open) => !open)}

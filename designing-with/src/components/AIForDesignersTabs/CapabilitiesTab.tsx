@@ -10,17 +10,15 @@ const CapabilitiesTab: TabElement = {
             <div className="bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white px-4 py-6 rounded-b-2xl">
        
               <h2>
-                A set of 12 AI capabilities structuring a basic AI literacy
-                for designers
+                A set of 12 AI capabilities structuring a basic AI literacy for designers.
               </h2>
               <div className="flex flex-col md:flex-row justify-between md:gap-[14px] mt-[50px]">
                 <p className="flex-1">
-                  To use artificial intelligence, designers need first to
-                  comprehend its potential, functionality, and limitations.
-                  Basic AI literacy empowers designers to integrate these
-                  technologies into the design process, optimising outcomes
-                  and establishing a synergistic relationship between human
-                  intelligence and artificial intelligence.
+                To use artificial intelligence, designers need first to
+                comprehend its potential, functionality, and limitations.
+                Basic AI literacy empowers designers to integrate these technologies
+                into the design process, optimising outcomes and establishing
+                a synergistic relationship between human intelligence and artificial intelligence.
                 </p>
                 <p className="flex-1">
                   To introduce AI literacy and support designers, we have
@@ -115,7 +113,7 @@ const CapabilitiesTab: TabElement = {
                   <>
                     Creating{" "}
                     <TextHighlight type="output">new data</TextHighlight> or
-                    contents based on{" "}
+                    content based on{" "}
                     <TextHighlight type="input">
                       given instructions
                     </TextHighlight>{" "}
@@ -200,7 +198,7 @@ const CapabilitiesTab: TabElement = {
                 desc={
                   <>
                     Suggesting{" "}
-                    <TextHighlight type="output">contents</TextHighlight>{" "}
+                    <TextHighlight type="output">content</TextHighlight>{" "}
                     based on{" "}
                     <TextHighlight type="input">
                       past behaviours, preferences,

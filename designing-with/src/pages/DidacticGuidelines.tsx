@@ -29,20 +29,19 @@ const DidacticGuidelines = () => {
         <i>Educational Objectives</i>{" "}
         <AdditionalInformations
           small={isMobile}
-          information="The Educational Objectives describe the knowledge and skills that students are intended to acquire"
+          information="describe the knowledge and skills that students are intended to acquire"
         />
         , <i>Instructional Activities</i>{" "}
         <AdditionalInformations
           small={isMobile}
-          information="The Instructional Activities illustrate tasks and exercises teachers must prepare and conduct during the module to facilitate student learning"
+          information=" illustrate tasks and exercises teachers must prepare and conduct during the module to facilitate student learning"
         />{" "}
         and <i>Recommendations</i>{" "}
         <AdditionalInformations
           small={isMobile}
-          information="Recommendations suggest the students' working modalities (individual or group) and details to carry the activity on."
+          information="suggest the students' working modalities (individual or group) and details to carry the activity on"
         />{" "}
-        for the autonomous implementation of teaching modules on AI in design
-        courses.
+        for the autonomous implementation of teaching modules on AI in design courses.
       </h2>
       <div className="w-full p-[30px] flex justify-center items-center rounded-xl">
         {isMobile ? <DidacticGuidelineSvgMobile /> : <DidacticGuidelineSvg />}
@@ -101,17 +100,26 @@ const DidacticGuidelines = () => {
                         students are suggested to <i>work individually</i>.
                         Teachers can arrange the duration of each activity based
                         on the level of in-depth study required {"["}
-                        example{"]"}. Sub-modules are not strictly related to
+                        <a
+                          className="underline inline"
+                          rel="noreferrer"
+                          href="https://www.notion.so/master-interaction-design/Schedule-Example-Download-1ca7fe70e0f042c4adfefef0242abf4b?pvs=4" 
+                          target="_blank"
+                        >example</a>{"]"}. Sub-modules are not strictly related to
                         each other.
                       </p>
                       <p className=" md:w-1/2">
-                        The application of all of them is not mandatory,
-                        teachers can make a selection based on needs and
-                        interests. The structure of the sub-modules is not
-                        designed based on the tool mentioned in the guideline.
-                        For a more complete list of tools, refer to the
-                        Designing With framework {"["}link
-                        {"]"}.
+                        The application of all of them is not mandatory, teachers 
+                        can make a selection based on needs and interests. The 
+                        structure of the sub-modules is not designed based on 
+                        the tool mentioned in the guideline. For a more complete 
+                        list of tools, refer to the Designing With framework {"["}
+                        <a
+                          className="underline inline"
+                          rel="noreferrer"
+                          href="https://designingwithai.ch/toolsviz/" 
+                          target="_blank"
+                        >link</a>{"]"}.
                       </p>
                     </div>
                     <a
@@ -137,6 +145,7 @@ const DidacticGuidelines = () => {
                           <TextHighlight2 color="bg-[#73EB14] bg-opacity-60 shadow-[#73EB14]">
                             create design artefacts
                           </TextHighlight2>
+                          {" "}[ML-Obj].
                         </h2>
                         <div className=" w-full flex flex-col md:flex-row gap-[30px] mt-[70px]">
                           <p className=" md:w-1/2">
@@ -149,8 +158,8 @@ const DidacticGuidelines = () => {
                             to a familiar task (e.g. creating a logo).
                           </p>
                         </div>
-                        <h1 className="mt-[40px]">Instructional Activities</h1>
-                        <div className=" flex flex-col md:flex-row gap-[30px] mt-[70px]">
+                        <h1 className="mt-[40px]">Instructional Activities:</h1>
+                        <div className=" flex flex-col md:flex-row gap-[30px] mt-[15px]">
                           <p className=" md:w-1/2">
                             Students are first provided with a basic literacy of
                             ML including technical vocabulary{" "}
@@ -171,12 +180,11 @@ const DidacticGuidelines = () => {
                             >
                               ML-Act2
                             </AdditionalInformations>
-                            . This activity is meant to promote factual and
-                            conceptual knowledge by teaching the basic elements
-                            of the discipline and their interrelationship to
-                            explain the functionality of ML tools. Once basic
-                            literacy is introduced, specific case studies are
-                            provided to contextualise the application of ML
+                            . This activity is meant to promote factual and conceptual 
+                            knowledge by teaching the basic elements of the discipline 
+                            and their interrelationship to explain the functionality of 
+                            ML tools. Once basic literacy is introduced, specific case 
+                            studies are provided to contextualise the application of ML 
                             within the design practice{" "}
                             <AdditionalInformations
                               small={true}
@@ -186,10 +194,9 @@ const DidacticGuidelines = () => {
                             >
                               ML-Act3
                             </AdditionalInformations>
-                            . At this point, the teaching moves from a
-                            theoretical to a procedural level. In this
-                            direction, students are first introduced to a guided
-                            tutorial{" "}
+                            . At this point, the teaching moves from a theoretical to a
+                            procedural level. In this direction, students are first introduced
+                            to a guided tutorial{" "}
                             <AdditionalInformations
                               small={true}
                               information={
@@ -198,8 +205,8 @@ const DidacticGuidelines = () => {
                             >
                               ML-Act4.3
                             </AdditionalInformations>{" "}
-                            on how to use an ML tool (e.g. runway) starting from
-                            setting a design goal{" "}
+                            on how to use an ML tool (e.g. runway)
+                            starting from setting a design goal{" "}
                             <AdditionalInformations
                               small={true}
                               information={
@@ -217,13 +224,12 @@ const DidacticGuidelines = () => {
                             >
                               ML-Act4.2
                             </AdditionalInformations>{" "}
-                            activities intended to introduce students in
-                            familiarising, collecting or creating data .
+                            .
                           </p>
                           <p className=" md:w-1/2">
-                            Then, to familiarise themselves with the procedure,
-                            students individually apply what they learned by
-                            training an ML model aligned with the design goal
+                          Then, to familiarise themselves with the procedure, 
+                          students individually apply what they learned by 
+                          training an ML model aligned with the design goal
                             <AdditionalInformations
                               small={true}
                               information={
@@ -232,10 +238,9 @@ const DidacticGuidelines = () => {
                             >
                               ML-Act5
                             </AdditionalInformations>
-                            . Lastly, moving the focus to meta-cognitive
-                            knowledge, students are asked to analyse and
-                            document the process by breaking down the steps and
-                            selecting the relevant results{" "}
+                            . Lastly, moving the focus to meta-cognitive knowledge, 
+                            students are asked to analyse and document the process 
+                            by breaking down the steps and selecting the relevant results{" "}
                             <AdditionalInformations
                               small={true}
                               information={
@@ -244,10 +249,9 @@ const DidacticGuidelines = () => {
                             >
                               ML-Act6
                             </AdditionalInformations>
-                            . This activity aims to create awareness and
-                            knowledge of cognition. To foster participation and
-                            sharing of results, students are asked to present
-                            their work and question others{" "}
+                            . This activity aims to create awareness and knowledge 
+                            of cognition. To foster participation and sharing of results, 
+                            students are asked to present their work and question others{" "}
                             <AdditionalInformations
                               small={true}
                               information={
@@ -295,8 +299,8 @@ const DidacticGuidelines = () => {
                             by nature).
                           </p>
                         </div>
-                        <h1 className="mt-[40px]">Instructional Activities</h1>
-                        <div className=" flex flex-col md:flex-row gap-[30px] mt-[70px]">
+                        <h1 className="mt-[40px]">Instructional Activities:</h1>
+                        <div className=" flex flex-col md:flex-row gap-[30px] mt-[15px]">
                           <p className=" md:w-1/2">
                             Students are first provided with a basic literacy of
                             AI including technical vocabulary{" "}
@@ -363,7 +367,10 @@ const DidacticGuidelines = () => {
                             >
                               GenAI-Act4.2
                             </AdditionalInformations>
-                            . Then, to familiarise themselves with the
+                            .
+                          </p>
+                          <p className=" md:w-1/2">
+                            Then, to familiarise themselves with the
                             procedure, students individually apply what they
                             learned by refining selected prompts and generating
                             content based on the design goal{" "}
@@ -401,19 +408,6 @@ const DidacticGuidelines = () => {
                             </AdditionalInformations>
                             .
                           </p>
-                          <p className=" md:w-1/2">
-                            Then, to familiarise themselves with the procedure,
-                            students individually apply what they learned by
-                            training an ML model aligned with the design goal
-                            ML-Act5. Lastly, moving the focus to meta-cognitive
-                            knowledge, students are asked to analyse and
-                            document the process by breaking down the steps and
-                            selecting the relevant results ML-Act6. This
-                            activity aims to create awareness and knowledge of
-                            cognition. To foster participation and sharing of
-                            results, students are asked to present their work
-                            and question others ML-Act7.
-                          </p>
                         </div>
                         <a
                           href="/assets/data/files/Download-Didactic-Guidelines/DesingingWith-Submodule1-GettingFamiliarWithGenAI/DesigningWith-Module1-GettingFamiliarWithGenAI.pdf"
@@ -450,8 +444,8 @@ const DidacticGuidelines = () => {
                             to a familiar task (e.g. creating an infographic).
                           </p>
                         </div>
-                        <h1 className="mt-[40px]">Instructional Activities</h1>
-                        <div className=" flex flex-col md:flex-row gap-[30px] mt-[70px]">
+                        <h1 className="mt-[40px]">Instructional Activities:</h1>
+                        <div className=" flex flex-col md:flex-row gap-[30px] mt-[15px]">
                           <p className=" md:w-1/2">
                             Students are first provided with a basic literacy of
                             CV algorithms and data visualisation (CV) techniques
@@ -534,7 +528,10 @@ const DidacticGuidelines = () => {
                             >
                               CV-Act5
                             </AdditionalInformations>
-                            . Lastly, moving the focus to meta-cognitive
+                            .
+                          </p>
+                          <p className=" md:w-1/2">
+                            Lastly, moving the focus to meta-cognitive
                             knowledge, students are asked to analyse and
                             document the process by breaking down the steps and
                             selecting the relevant results{" "}
@@ -560,30 +557,6 @@ const DidacticGuidelines = () => {
                             </AdditionalInformations>
                             .
                           </p>
-                          <p className=" md:w-1/2">
-                            [CV-Act1] activities intended to provide students
-                            with vocabulary knowledge of Computer Vision
-                            [CV-Act2] activities intended to provide students
-                            with a basic functionality of Computer Vision
-                            Algorithms and Data Visualization technniques
-                            [CV-Act3] activities intended to provide students
-                            with practical examples of computer vision applied
-                            to design research [CV-Act4] activities intended to
-                            explain the procedure of analyzing data with
-                            computer vision algorithms: [CV-Act4.1] activities
-                            intended to introduce students in familiarising,
-                            collecting or creating data [CV-Act4.2] activities
-                            intended to set or aligning with a research
-                            question; [CV-Act4.3] activities intended to provide
-                            a step-by-step tool tutorial, such as Memespecotor,
-                            Gephi.. [CV-Act5] activities intended to allow
-                            students to individually analyzes data with computer
-                            vision for a research goal [CV-Act6] activities
-                            intended to provide students with a structured
-                            template for process and results documentation;
-                            [CV-Act7] activities intended to make students
-                            explaining and questioning the process
-                          </p>
                         </div>
                         <a
                           href="/assets/data/files/Download-Didactic-Guidelines/DesingingWith-Submodule1-GettingFamiliarWithDV/DesingingWith-Submodule1-GettingFamiliarWithDV.pdf"
@@ -597,7 +570,7 @@ const DidacticGuidelines = () => {
                       </GuidelinesAccordeon>
                     </div>
                   </GuidelinesAccordeon>
-                  <GuidelinesAccordeon title="Get in Depth– Module 2">
+                  <GuidelinesAccordeon title="Get in Depth – Module 2">
                     <h1 className="mt-[40px]">Educational Objective</h1>
                     <h2 className="mt-[15px]">
                       <TextHighlight2>Students will learn</TextHighlight2> to{" "}
@@ -605,7 +578,8 @@ const DidacticGuidelines = () => {
                         choose and apply AI/ML/CV tools
                       </TextHighlight2>{" "}
                       for <TextHighlight2>specific activities</TextHighlight2>{" "}
-                      of the <TextHighlight2>design process.</TextHighlight2>
+                      of the <TextHighlight2>design process</TextHighlight2>
+                      {" "}[Module 2-Obj].
                     </h2>
                     {isMobile ? (
                       <DidacticGuidelineSvgModule2Mobile />
@@ -629,12 +603,13 @@ const DidacticGuidelines = () => {
                         perspectives to emerge.
                       </p>
                     </div>
-                    <h1 className="mt-[40px]">Instructional Activities</h1>
-                    <div className="flex flex-col md:flex-row gap-[30px] mt-[10px]">
+                    <h1 className="mt-[40px]">Instructional Activities:</h1>
+                    <div className="flex flex-col md:flex-row gap-[30px] mt-[15px]">
                       <p className=" md:w-1/2">
                         Students are first provided with a design challenge to
                         drive the activity{" "}
                         <AdditionalInformations
+                          small={true}
                           information={
                             "activities intended to provide students with a design challenge"
                           }
@@ -647,7 +622,12 @@ const DidacticGuidelines = () => {
                         challenges are designing for climate change and
                         designing for twin cities. A detailed description is
                         available from the Designing With Workshop repository [
-                        example ]. To help students understand the challenge,
+                        <a
+                          className="underline inline"
+                          rel="noreferrer"
+                          href="https://www.notion.so/master-interaction-design/PROJECTS-BRIEF-0924a285052d407c88de38ca3d2d8aba?pvs=4" 
+                          target="_blank"
+                        >example</a>]. To help students understand the challenge,
                         case studies are provided. Working on challenges
                         contributes to developing a knowledge dimension as
                         students are asked to understand the interrelationship
@@ -656,6 +636,7 @@ const DidacticGuidelines = () => {
                         context is set, tools are introduced through the
                         Designing With Framework
                         <AdditionalInformations
+                          small={true}
                           information={
                             "activities intended to support students in understanding, exploring and using the Framework (from a practical-application point of view, which implies that the literacy phase ref. module1 first occurs)"
                           }
@@ -677,8 +658,14 @@ const DidacticGuidelines = () => {
                       <p className=" md:w-1/2">
                         During the process, students are asked to document this
                         method. For this purpose, a structured template [
-                        example ] is introduced{" "}
+                        <a
+                          className="underline inline"
+                          rel="noreferrer"
+                          href="https://www.notion.so/master-interaction-design/Project-Title-Template-Example-259f57dd5d104ea1a5b3844134a219eb?pvs=4" 
+                          target="_blank"
+                        >example</a>] is introduced{" "}
                         <AdditionalInformations
+                          small={true}
                           information={
                             "activities intended to provide students with a structured template for the process and results documentation"
                           }
@@ -692,6 +679,7 @@ const DidacticGuidelines = () => {
                         During these activities, supervision from tutors and
                         experts in the field is useful for choosing{" "}
                         <AdditionalInformations
+                          small={true}
                           information={
                             "activities intended to supervise students in choosing AI tools for specific design phases (rev.1)"
                           }
@@ -700,6 +688,7 @@ const DidacticGuidelines = () => {
                         </AdditionalInformations>{" "}
                         and properly applying AI tools
                         <AdditionalInformations
+                          small={true}
                           information={
                             "activities intended to supervise students in applying AI tools for specific design phases (rev.2)"
                           }
@@ -710,6 +699,7 @@ const DidacticGuidelines = () => {
                         challenge. Two rounds of revisions are planned: the
                         first one{" "}
                         <AdditionalInformations
+                          small={true}
                           information={
                             "activities intended to supervise students in choosing AI tools for specific design phases (rev.1)"
                           }
@@ -720,6 +710,7 @@ const DidacticGuidelines = () => {
                         tools and refining the design concept; while the second
                         one{" "}
                         <AdditionalInformations
+                          small={true}
                           information={
                             "activities intended to supervise students in applying AI tools for specific design phases (rev.2)"
                           }
@@ -734,6 +725,7 @@ const DidacticGuidelines = () => {
                         implementation of the module, students are asked for
                         feedback.{" "}
                         <AdditionalInformations
+                          small={true}
                           information={
                             "activities intended to ask students for feedback on the teaching module"
                           }
@@ -746,6 +738,7 @@ const DidacticGuidelines = () => {
                         and sharing of results, students are asked to present
                         their work and question others{" "}
                         <AdditionalInformations
+                          small={true}
                           information={
                             "activities intended to make students explaining and questioning the process and results"
                           }
@@ -786,7 +779,7 @@ const DidacticGuidelines = () => {
                     </p>
                     <p className="flex-1">
                       The following sections explain the specific components of
-                      the taxonomy ( Krathwohl and Payne, 1971). and illustrate
+                      the taxonomy (Krathwohl and Payne, 1971) and illustrate
                       how these components are combined together to build the
                       didactic guidelines.
                     </p>
@@ -802,23 +795,16 @@ const DidacticGuidelines = () => {
                       <br />
                       <br />
                       <p className=" md:text-[29px]">
-                        (a) Factual knowledge refers to the basic elements
-                        students must know to be acquainted with a discipline or
-                        solve problems in itterminology and specific details; 
+                        (a) Factual knowledge refers to terminology and specific details; 
                       </p>
                       <p className=" md:text-[29px]">
-                        (b) Conceptual knowledge, refers to classification,
-                        categories, principles and to the interrelationships
-                        among the basic elements within a larger structure that
-                        enable them to function together.{" "}
+                        (b) Conceptual knowledge, refers to classification, categories, principles and theories;{" "}
                       </p>
                       <p className=" md:text-[29px]">
-                        (c) Procedural Knowledge, refers to skills algorithms,
-                        techniques and methods of inquiry; 
+                        (c) Procedural Knowledge, refers to skills algorithms, techniques and methods; 
                       </p>
                       <p className=" md:text-[29px]">
-                        (d) Metacognitive Knowledge, refers to a cognitive task,
-                        strategies and self-awareness.{" "}
+                        (d) Metacognitive Knowledge, refers to a cognitive task, strategies and self-awareness.{" "}
                       </p>
                     </div>
                     <div className=" md:w-1/2 flex flex-col">
@@ -876,9 +862,8 @@ const DidacticGuidelines = () => {
                   <div className="flex flex-col md:flex-row px-4 py-6 bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white rounded-2xl gap-[14px]">
                     <div className="flex flex-col md:w-1/2">
                       <p className=" md:text-[29px]">
-                        The cognitive process dimensions comprise six major
-                        categories, each associated with specific cognitive
-                        processes, totalling 19. 
+                        The cognitive process dimensions comprise six major categories, 
+                        each associated with specific cognitive processes, totalling 19. 
                       </p>
                       <br />
                       <br />
@@ -887,9 +872,8 @@ const DidacticGuidelines = () => {
                         complexity, are:  
                       </p>
                       <p className=" md:text-[29px]">
-                        (1) Remember, involves retrieving knowledge from
-                        long-term memory. Specific processes include recognizing
-                        and recalling.
+                        (1) Remember: involves retrieving knowledge from long-term memory. 
+                        Specific processes include recognizing and recalling.
                       </p>
                       <p className=" md:text-[29px]">
                         (2) Understand: It entails constructing meaning from
@@ -1416,7 +1400,7 @@ const DidacticGuidelines = () => {
                       objectives and the instructional activities that structure
                       the didactic guidelines. A table for each specific
                       teaching module is available to download from the
-                      “Didactic guidelines in practice” section.
+                      "Didactic Guidelines" section.
                     </p>
                   </div>
                 </div>
@@ -1461,7 +1445,7 @@ const DidacticGuidelines = () => {
       />
 
       <p className="text-[12px] md:text-[15px] mt-10">
-        © 2022. This project is licensed under CC BY 4.0. Supported by Movetia.
+        © 2024. This project is licensed under CC BY 4.0. Supported by Movetia.
         Exchange and mobility.
       </p>
     </Layout>

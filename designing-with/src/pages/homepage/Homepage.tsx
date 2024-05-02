@@ -7,13 +7,13 @@ const Homepage = () => {
         className={`${styles.box} ${styles.innerGlowMain} ${styles.innerGlowWhite} flex flex-col justify-between`}
         id={styles["box-1"]}
       >
-        <h1 className={styles.titleHome}>Designing With AI</h1>
+        <h1 className={styles.titleHome}>Designing With<span className={styles.hidden}> AI</span></h1>
         <h2 className={styles.subtitleHome}>
           A New Educational Module to Integrate Artificial Intelligence, Machine
           Learning and Data Visualization in Design Curricula
         </h2>
         <div className="mt-auto md:text-[15px]">
-          © 2022. This project is licensed under CC BY 4.0. Supported by
+          © 2024. This project is licensed under CC BY 4.0. Supported by
           Movetia. Exchange and mobility.
         </div>
       </div>

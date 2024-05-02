@@ -8,24 +8,21 @@ const DesignProcessTab: TabElement = {
     <div className="flex flex-col gap-2">
       <div className="bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white px-4 py-6 rounded-b-2xl">
         <h2>
-          The definition of a design model consisting of 6 design stages
-          suitable for bring new knowledge into the educational context
+          The definition of a design model consisting of 6 design stages.
         </h2>
         <div className="flex flex-col md:flex-row justify-between gap-[14px] mt-[50px] mb-[25px]">
           <p className="flex-1">
-            To integrate the new knowledge into the educational
-            environment and support teachers and students in integrating
-            AI during the design practice, we defined a new design model
-            based on six stages: Understand, define, ideate, prototype,
-            develop, and release.
+          To integrate the new knowledge into the educational environment
+          and support teachers and students in integrating AI during
+          the design practice, we defined a new design model based
+          on six stages: Understand, define, ideate, prototype, develop, and release.
           </p>
           <p className="flex-1">
-            The definition of these stages takes into account the
-            reference models produced by academic institutions,
-            professional organisations and design practices, such as the
-            Double Diamond model ( IDEO, 2009, 2012, 2015) and the
-            design thinking model proposed by Ideo ( Design Council,
-            n.d., 2021).
+          The definition of these stages takes into account the reference
+          models produced by academic institutions, professional organisations
+          and design practices, such as the Double Diamond
+          model (IDEO, 2009, 2012, 2015) and the design thinking model proposed
+          by Ideo (Design Council,n.d., 2021).
           </p>
         </div>
       </div>
