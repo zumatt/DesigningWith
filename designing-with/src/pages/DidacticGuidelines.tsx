@@ -13,7 +13,7 @@ import { useEffect, useState } from "react";
 import DidacticGuidelineSvgMobile from "../components/DidacticGuidelinesContent/DidacticGuidelineSvgMobile";
 import DidacticGuidelineSvgModule2Mobile from "../components/DidacticGuidelinesContent/DidacticGuidelineSvgModule2Mobile";
 import DidacticGuidelineSvgModule1Mobile from "../components/DidacticGuidelinesContent/DidacticGuidelineSvgModule1Mobile";
-import TextIncircle from "../components/TextIncirle";
+//import TextIncircle from "../components/TextIncirle";
 import TextHighlight3 from "../components/TextHighlight3";
 import TextHighlight4 from "../components/TextHighlight4";
 

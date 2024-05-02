@@ -86,6 +86,7 @@ const About = () => {
             <u>
               <a
                 href="https://www.supsi.ch/"
+                rel="noreferrer"
                 target="_blank"
                 className="inline"
               >
@@ -99,6 +100,7 @@ const About = () => {
             <u>
               <a
                 href="https://www.linkedin.com/in/massimo-botta"
+                rel="noreferrer"
                 target="_blank"
                 className="inline"
               >
@@ -110,6 +112,7 @@ const About = () => {
             <u>
               <a
                 href="https://www.linkedin.com/in/antonella-autuori/"
+                rel="noreferrer"
                 target="_blank"
                 className="inline"
               >
@@ -121,6 +124,7 @@ const About = () => {
             <u>
               <a
                 href="https://www.linkedin.com/in/zumat/"
+                rel="noreferrer"
                 target="_blank"
                 className="inline"
               >
@@ -132,6 +136,7 @@ const About = () => {
             <u>
               <a
                 href="https://www.linkedin.com/in/ginevra-terenghi-b530b21ab/"
+                rel="noreferrer"
                 target="_blank"
                 className="inline"
               >
@@ -143,6 +148,7 @@ const About = () => {
             <u>
               <a
                 href="https://www.linkedin.com/in/desir%C3%A9e-veschetti-098009b3/"
+                rel="noreferrer"
                 target="_blank"
                 className="inline"
               >
@@ -160,6 +166,7 @@ const About = () => {
             <u>
               <a
                 href="https://www.unl.pt/"
+                rel="noreferrer"
                 target="_blank"
                 className="inline"
               >
@@ -174,6 +181,7 @@ const About = () => {
             <u>
               <a
                 href="https://www.linkedin.com/in/jannajoceliomena/"
+                rel="noreferrer"
                 target="_blank"
                 className="inline"
               >
@@ -185,6 +193,7 @@ const About = () => {
             <u>
               <a
                 href="https://www.linkedin.com/in/eduardo-leite-3a3237232/"
+                rel="noreferrer"
                 target="_blank"
                 className="inline"
               >
@@ -204,6 +213,7 @@ const About = () => {
             <u>
               <a
                 href="https://www.epfl.ch/"
+                rel="noreferrer"
                 target="_blank"
                 className="inline"
               >
@@ -218,6 +228,7 @@ const About = () => {
             <u>
               <a
                 href="https://www.linkedin.com/in/huangjef/"
+                rel="noreferrer"
                 target="_blank"
                 className="inline"
               >
@@ -229,6 +240,7 @@ const About = () => {
             <u>
               <a
                 href="https://www.linkedin.com/in/frederick-kim-b2972922/"
+                rel="noreferrer"
                 target="_blank"
                 className="inline"
               >
@@ -240,6 +252,7 @@ const About = () => {
             <u>
               <a
                 href="https://www.linkedin.com/in/mikhael-johanes-8b55051a1/"
+                rel="noreferrer"
                 target="_blank"
                 className="inline"
               >
@@ -251,6 +264,7 @@ const About = () => {
             <u>
               <a
                 href="https://www.linkedin.com/in/ugo-balducci/"
+                rel="noreferrer"
                 target="_blank"
                 className="inline"
               >
@@ -262,6 +276,7 @@ const About = () => {
             <u>
               <a
                 href="https://www.linkedin.com/in/gregory-malyk-54714a253/"
+                rel="noreferrer"
                 target="_blank"
                 className="inline"
               >
@@ -276,6 +291,7 @@ const About = () => {
         <div className="flex md:w-1/4 ">
           <a
             href="https://www.movetia.ch/"
+            rel="noreferrer"
             target="_blank"
           >
             <img
