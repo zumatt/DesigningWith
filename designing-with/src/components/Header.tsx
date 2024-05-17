@@ -25,7 +25,7 @@ const Header = ({
           className="hidden md:flex justify-center bg-white rounded-xl px-3 z-10"
           href="/"
         >
-          <p className="md:text-[29px]">Designing With AI</p>
+          <p className="md:text-[29px]">Designing With</p>
         </a>
         <button
           onClick={onClick}

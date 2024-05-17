@@ -286,6 +286,7 @@ const RenderCards = ({
           boxShadow: "0px 0px 100px 5px #FFFFFF inset",
           background: "#D9D9D980",
           width: width,
+          textAlign: "left",
         }}
         onMouseEnter={() => {
           groupSelect(selectStroke(true, stage), [stage.name]);

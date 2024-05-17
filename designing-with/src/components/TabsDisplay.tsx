@@ -10,8 +10,8 @@ const TabDisplay = ({ tabs }: { tabs: TabElement[] }) => {
             <button
               key={index}
               className={` ${
-                activeTab === index ? "w-1/2" : "w-1/6"
-              }  md:flex-1  px-4 py-6 glassBox rounded-t-2xl`}
+                activeTab === index ? "w-1/2 shadow-[#72DAFB]" : "w-1/6 shadow-white"
+              }  shadow-[inset_0_0_35px_25px_rgba(1,1,1,0)] md:flex-1 md:max-w-[380px] px-4 py-6 rounded-t-2xl text-left`}
               onClick={() => setActiveTab(index)}
             >
               <p

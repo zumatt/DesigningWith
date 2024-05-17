@@ -768,8 +768,8 @@ const DidacticGuidelines = () => {
             elements: (
               <>
                 <div className="flex flex-col gap-2">
-                  <div className="flex flex-col bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_95px_60px_rgba(1,1,1,0)] shadow-[#8CD782] rounded-b-2xl md:rounded-tr-2xl md:flex-row justify-between px-4 py-6 gap-[14px]">
-                    <p className="flex-1">
+                  <div className="flex flex-col bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white rounded-b-2xl md:rounded-tr-2xl md:flex-row justify-between px-4 py-6 gap-[14px]">
+                    <p className="flex-1 mt-[20px]">
                       To build the didactic guidelines aimed to systematically
                       integrate AI tools into design curricula, we referred to
                       Bloom’s Taxonomy, which is one of the most recognized and
@@ -777,7 +777,7 @@ const DidacticGuidelines = () => {
                       specifically we considered the Anderson & Krathwohl (2001)
                       model revised for 21st-Century learners.
                     </p>
-                    <p className="flex-1">
+                    <p className="flex-1 mt-[20px]">
                       The following sections explain the specific components of
                       the taxonomy (Krathwohl and Payne, 1971) and illustrate
                       how these components are combined together to build the

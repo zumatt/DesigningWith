@@ -14,9 +14,9 @@ const About = () => {
         to integrate Artificial Intelligence (AI), Machine Learning (ML),
         and Computer Vision (CV) into Design curricula.
       </h2>
-      <br />
       <div className="flex flex-col gap-4 md:flex-row w-full">
         <div className=" w-full md:w-1/2">
+          <br />
           <p>
           This website collects and releases the generated knowledge and pedagogical guidelines of the research in open access to the design community, for autonomous implementation of teaching activities on AI.{" "}
             
@@ -29,6 +29,7 @@ const About = () => {
           </p>
         </div>
         <div className=" w-full md:w-1/2">
+          <br />
           <p>
             {" "}
             The research project was financially supported by the International Program of Movetia,
@@ -44,14 +45,10 @@ const About = () => {
               www.movetia.ch.
             </a>
           </p>
-          <br />
-          <br />
         </div>
       </div>
-      <div className="flex flex-col gap-4 md:flex-row w-full">
+      <div className="flex flex-col gap-4 md:w-1/2">
         <div className=" w-full">
-          <br />
-          <br />
           <br />
           <button
             onClick={() => {

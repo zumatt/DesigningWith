@@ -10,6 +10,10 @@
   gap: var(--gapGrid);
 }
 
+.wrapper a{
+  min-height: 20vh;
+}
+
 .box {
   padding: 5px 5px 5px 5px;
   padding-left: 11px;
@@ -221,6 +225,10 @@
       );
   }
 
+  .wrapper a{
+    min-height: 13vh;
+  }
+
   .box {
     width: 100%;
     padding: 5px 20px 5px 10px;
@@ -300,7 +308,7 @@
   }
 
   .box:hover span:first-of-type {
-    display: block;
+    display: inline-block;
     opacity: 1;
   }
 

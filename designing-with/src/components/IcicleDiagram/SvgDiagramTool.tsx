@@ -1,6 +1,18 @@
 import { useEffect, useRef } from "react";
 import * as d3 from "d3";
 
+interface Node {
+  id: string;
+  group: number;
+  x?: number;
+  y?: number;
+}
+
+interface Link {
+  source: string;
+  target: string;
+}
+
 export const SvgDiagram = ({
   jsonDiagramUrl,
   desiredWidth = 1200,
@@ -10,177 +22,124 @@ export const SvgDiagram = ({
   desiredWidth?: number;
   desiredHeight?: number;
 }) => {
-  const ref = useRef();
+  const ref = useRef<SVGSVGElement | null>(null);
 
   useEffect(() => {
-    // set the dimensions and margins of the graph
-    var margin = { top: 0, right: 0, bottom: 0, left: 0 },
+    const margin = { top: 0, right: 0, bottom: 0, left: 0 },
       width = desiredWidth - margin.left - margin.right;
 
-    // Modified JSON data to include column information and title of the column
+    const columns = 4;
+    const columnWidth = (width - 12) / columns - 30;
 
-    // Define the columns
-    var columns = 4;
+    const titles = ["Design Phase", "AI Capability", "Data Input (From)", "Data Output (To)"]; // Add your titles here
 
-    // Calculate column width
-    var columnWidth = (width - 12) / columns - 30;
-
-    // Upload json
-    // @ts-ignore
     fetch("/assets/data/json/" + jsonDiagramUrl)
-      .then(function (response) {
-        return response.json();
-      })
-      .then(function (data) {
+      .then(response => response.json())
+      .then((data: { nodes: Node[]; links: Link[] }) => {
         console.log(data);
 
-        // Count the number of occurrences of each group and take the maximum to determine the number of rows
         const numRow = Math.max(
           ...data.nodes.map(
-            // @ts-ignore
-            (node) => data.nodes.filter((n) => n.group === node.group).length
+            node => data.nodes.filter(n => n.group === node.group).length
           )
         );
 
-        // Calculate the height of the svg
-        var newHeight = numRow * 50 + 20;
+        const newHeight = numRow * 50 + 20;
 
-        // @ts-ignore
-        clearSvg(d3.select(ref.current));
+        if (ref.current) {
+          d3.select(ref.current).selectAll("*").remove();
 
-        // append the svg object to the body of the page
-        var svg = d3
-          // @ts-ignore
-          .select(ref.current)
-          .attr("width", width + margin.left + margin.right)
-          .attr("height", newHeight + margin.top + margin.bottom)
-          .append("g")
-          .attr(
-            "transform",
-            "translate(" + margin.left + "," + margin.top + ")"
-          );
+          const svg = d3
+            .select(ref.current)
+            .attr("width", width + margin.left + margin.right)
+            .attr("height", newHeight + margin.top + margin.bottom)
+            .append("g")
+            .attr("transform", `translate(${margin.left},${margin.top})`);
 
-        // Position nodes in columns and rows
-        // @ts-ignore
-        data.nodes.forEach(function (node) {
-          var column = node.group - 1.2;
-          var row = data.nodes
-            // @ts-ignore
-            .filter(function (n) {
-              return n.group === node.group;
-            })
-            .indexOf(node);
-          node.x = column * columnWidth + columnWidth / 2 + 12 * (1200 / width);
-          node.y = row * 50 + 10; // Row height
-        });
-
-        // Draw curved links
-        svg
-          .selectAll(".link")
-          .data(data.links)
-          .enter()
-          .append("path")
-          .attr("class", "link")
-          .attr("d", function (d) {
-            // @ts-ignore
-            var sourceX = data.nodes.find((node) => node.id === d.source).x;
-            // @ts-ignore
-            var sourceY = data.nodes.find((node) => node.id === d.source).y;
-            // @ts-ignore
-            var targetX = data.nodes.find((node) => node.id === d.target).x;
-            // @ts-ignore
-            var targetY = data.nodes.find((node) => node.id === d.target).y;
-
-            // Bezier curve control point
-            var controlX = sourceX + (targetX - sourceX) / 2;
-            var controlY = sourceY;
-
-            return (
-              "M" +
-              sourceX +
-              "," +
-              sourceY +
-              "C" +
-              controlX +
-              "," +
-              controlY +
-              " " +
-              controlX +
-              "," +
-              targetY +
-              " " +
-              targetX +
-              "," +
-              targetY
-            );
-          })
-          .style("fill", "none")
-          .style("stroke", "#B777F7"); //the color of the line equal to the color of the tool price legend
-
-        // Draw squares
-        svg
-          .selectAll(".square")
-          .data(data.nodes)
-          .enter()
-          .append("rect")
-          .attr("class", "square")
-          .attr("width", 20)
-          .attr("height", 20)
-          .attr("x", function (d) {
-            // @ts-ignore
-            return d.x - 10;
-          })
-          .attr("y", function (d) {
-            // @ts-ignore
-            return d.y - 10;
-          })
-          .style("fill", "#B777F7");
-
-        // Draw text labels
-        svg
-          .selectAll(".label")
-          .data(data.nodes)
-          .enter()
-          .append("text")
-          .attr("class", "label")
-          .attr("font-family", "Helvetica")
-          .attr("font-size", 15 * (width / 1200))
-          .attr("dx", function (d) {
-            // @ts-ignore
-            if (d.group === 1) return -85;
-            // @ts-ignore
-            return d.x > width / 2 ? 15 : -15;
-          })
-          .attr("dy", 5)
-          .attr("x", function (d) {
-            // @ts-ignore
-            return d.x;
-          })
-          .attr("y", function (d) {
-            // @ts-ignore
-            return d.y;
-          })
-          .style("text-anchor", function (d) {
-            // @ts-ignore
-            if (d.group === 1) return "start";
-            // @ts-ignore
-            return d.x > width / 2 ? "start" : "end";
-          })
-          .text(function (d) {
-            // @ts-ignore
-            return d.id;
+          // Add titles above columns
+          titles.forEach((title, index) => {
+            svg
+              .append("text")
+              .attr("class", "title")
+              .attr("font-family", "Helvetica")
+              .attr("font-size", 15)
+              .attr("x", index === 0 ? index * columnWidth + columnWidth / 2 - 135 : index === 1 ? index * columnWidth + columnWidth / 2 - 90 : index * columnWidth + columnWidth / 2 - 80)
+              .attr("y", +15)
+              .style("text-anchor", "start")
+              .text(title);
           });
+
+          data.nodes.forEach((node: Node) => {
+            const column = node.group - 1.2;
+            const row = data.nodes.filter(n => n.group === node.group).indexOf(node);
+            node.x = column * columnWidth + columnWidth / 2 + 12 * (1200 / width);
+            node.y = row * 50 + 30; // Row height
+          });
+
+          svg
+            .selectAll(".link")
+            .data(data.links)
+            .enter()
+            .append("path")
+            .attr("class", "link")
+            .attr("d", d => {
+              const source = data.nodes.find(node => node.id === d.source)!;
+              const target = data.nodes.find(node => node.id === d.target)!;
+              const sourceX = source.group === 1 ? source.x! + 20 : source.x! + 50;
+              const sourceY = source.y! + 20;
+              const targetX = source.group === 2 ? target.x! - 40 : source.group === 3 ? target.x! - 40 : target.x! - 50;
+              const targetY = target.y! + 20;
+
+              const controlX = sourceX + (targetX - sourceX) / 2;
+              const controlY = sourceY;
+
+              return `M${sourceX},${sourceY}C${controlX},${controlY} ${controlX},${targetY} ${targetX},${targetY}`;
+            })
+            .style("fill", "none")
+            .style("stroke", "#B777F7");
+
+          data.nodes.forEach((node: Node) => {
+            svg
+              .append("rect")
+              .attr("class", "square")
+              .attr("width", 10)
+              .attr("height", 10)
+              .attr("x", node.group === 1 ? node.x! + 20 : node.group === data.nodes[data.nodes.length - 2].group ? node.x! - 50 : node.group === data.nodes[data.nodes.length - 1].group ? node.x! - 50 : node.x! - 60)
+              .attr("y", node.y! + 15)
+              .style("fill", "#B777F7");
+            
+            if(node.group != 1){
+              svg
+                .append("rect")
+                .attr("class", "square")
+                .attr("width", 10)
+                .attr("height", 10)
+                .attr("x", node.x! + 50)
+                .attr("y", node.y! + 15)
+                .style("fill", "#B777F7");
+            }
+          });
+
+          data.nodes.forEach((node: Node) => {
+            svg
+              .append("text")
+              .attr("class", "label")
+              .attr("font-family", "Helvetica")
+              .attr("font-size", 20 * (width / 1200))
+              .attr("dx", node.group === 1 ? -93 : node.x! > width / 2 ? 5 : 0)
+              .attr("dy", 25)
+              .attr("x", node.x!)
+              .attr("y", node.y!)
+              .style("text-anchor", node.group === 1 ? "start" : "middle")
+              .text(node.group === data.nodes[data.nodes.length - 1].group ? node.id.slice(0, -4) : node.group === data.nodes[data.nodes.length - 2].group ? node.id.slice(0, -6) : node.id);
+          });
+        }
       });
   }, [jsonDiagramUrl, desiredWidth, desiredHeight]);
 
   return (
     <div className="w-full flex flex-row justify-start">
-      {/* @ts-ignore*/}
       <svg ref={ref} />
     </div>
   );
-};
-
-const clearSvg = (svg: any) => {
-  svg.selectAll("*").remove();
 };
