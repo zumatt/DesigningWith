@@ -108,7 +108,7 @@ export const SvgDiagram = ({
               .attr("y", node.y! + 15)
               .style("fill", "#B777F7");
             
-            if(node.group != 1){
+            if(node.group !== 1){
               svg
                 .append("rect")
                 .attr("class", "square")
