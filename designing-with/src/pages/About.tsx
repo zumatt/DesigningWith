@@ -85,15 +85,13 @@ const About = () => {
                 href="https://www.supsi.ch/"
                 rel="noreferrer"
                 target="_blank"
-                className="inline"
+                className="inline italic"
               >
                 SUPSI
               </a>
             </u>{" "}
-            - University of Applied Sciences and Arts of Southern Switzerland 
+            <span className="italic">- University of Applied Sciences and Arts of Southern Switzerland</span>
             <br />
-            <br />
-            <p className="flex md:hidden text-[12px]">People Involved</p>
             <u>
               <a
                 href="https://www.linkedin.com/in/massimo-botta"
@@ -101,7 +99,7 @@ const About = () => {
                 target="_blank"
                 className="inline"
               >
-                Massimo Botta
+                Prof. Dr. Massimo Botta
               </a>
             </u>{" "}
             - Project Coordinator
@@ -165,14 +163,12 @@ const About = () => {
                 href="https://www.unl.pt/"
                 rel="noreferrer"
                 target="_blank"
-                className="inline"
+                className="inline italic"
               >
                 NOVA
               </a>
             </u>{" "}
-            - Universidade NOVA de Lisboa
-            <br />
-            <br />
+            <span className="italic">- Universidade NOVA de Lisboa</span>
             <br />
             <p className="flex md:hidden text-[12px]">People Involved</p>
             <u>
@@ -182,7 +178,7 @@ const About = () => {
                 target="_blank"
                 className="inline"
               >
-                Janna Joceli Omena
+                Dr. Janna Joceli Omena
               </a>
             </u>{" "}
             - Researcher and Teacher
@@ -194,7 +190,7 @@ const About = () => {
                 target="_blank"
                 className="inline"
               >
-                Eduardo Leite
+                Dr. Eduardo Leite
               </a>
             </u>{" "}
             - Researcher and Teacher
@@ -212,14 +208,12 @@ const About = () => {
                 href="https://www.epfl.ch/"
                 rel="noreferrer"
                 target="_blank"
-                className="inline"
+                className="inline italic"
               >
                 EPFL
               </a>
             </u>{" "}
-            - École Polytechnique Fédérale de Lausanne
-            <br />
-            <br />
+            <span className="italic">- École Polytechnique Fédérale de Lausanne</span>
             <br />
             <p className="flex md:hidden text-[12px]">People Involved</p>
             <u>
@@ -229,10 +223,9 @@ const About = () => {
                 target="_blank"
                 className="inline"
               >
-                Jeffrey Huang
+                Prof. Dr. Jeffrey Huang
               </a>
             </u>{" "}
-            - Researcher
             <br />
             <u>
               <a

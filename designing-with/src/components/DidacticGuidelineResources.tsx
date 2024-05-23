@@ -35,9 +35,9 @@ const DidacticGuidelineResources = ({
           {type === "Resources" ? "Download" : "Go to link"}
         </a>
       </div>
-      <div className="flex md:hidden">
-        <div className="flex flex-col">
-          <div className="flex flex-row">
+      <div className="flex md:hidden w-full">
+        <div className="flex flex-col w-full">
+          <div className="flex flex-row items-center w-full">
             <p className="md:text-[29px]">{title}</p>
             <p className="text-sm mx-4 px-2 bg-[#ffffff88] border-white border-[1px] rounded-lg">
               {type}
@@ -51,7 +51,7 @@ const DidacticGuidelineResources = ({
           target={`${type === "Resources" ? "" : "_blank"}`}
           rel={`${type === "Resources" ? "" : "noreferrer"}`}
           download={`${type === "Resources" ? `${filename}` : ""}`}
-          className="text-[16px] md:text-[29px] underline ml-auto"
+          className="text-[16px] md:text-[29px] underline ml-auto whitespace-nowrap"
         >
           {type === "Resources" ? "Download" : "Go to link"}
         </a>

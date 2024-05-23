@@ -7,7 +7,7 @@ const AIToolTab: TabElement = {
     <div className="flex flex-col">
       <div className="bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white px-4 py-6 rounded-b-2xl">
         <h2>AI tool collection.</h2>
-        <div className="flex flex-col md:flex-row justify-between gap-[14px] mt-[50px]">
+        <div className="flex flex-col md:flex-row justify-between gap-[14px] mt-[33px] mb-[25px]">
           <p className="flex-1">
             To support teachers and students in familiarising with the framework
             and accessing the AI tools, we propose an interactive dendrogram. The
@@ -23,7 +23,7 @@ const AIToolTab: TabElement = {
         </div>
         <a
       href="/interactive-framework"
-      className="w-full md:hidden flex rounded-2xl p-[10px] mt-6 bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_35px_20px_rgba(1,1,1,0)] shadow-[#72DAFB]"
+      className="w-full md:hidden flex rounded-2xl p-[10px] mt-6 bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_35px_20px_rgba(1,1,1,0)] shadow-grey"
     >
       <p className="w-full text-center text-[25px] md:text-[50px]">
         Explore the interactive tool collection
@@ -35,7 +35,7 @@ const AIToolTab: TabElement = {
   extra: (
     <a
       href="/interactive-framework"
-      className="w-full hidden md:flex rounded-2xl p-[10px] bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_35px_20px_rgba(1,1,1,0)] shadow-[#72DAFB]"
+      className="w-full hidden md:flex rounded-2xl p-[10px] bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_35px_20px_rgba(1,1,1,0)] shadow-grey"
       
     >
       <p className="w-full text-center text-[25px] md:text-[50px]">

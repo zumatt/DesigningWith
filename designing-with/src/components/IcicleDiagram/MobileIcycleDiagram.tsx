@@ -170,11 +170,6 @@ const RenderToolCards = ({
           />
         </div>
         <h2 className="mb-10">{tool.description}</h2>
-        <SvgDiagram
-          jsonDiagramUrl={tool.tooldiagram}
-          desiredWidth={window.innerWidth}
-          desiredHeight={window.innerWidth * 0.25}
-        />
         <div className="flex flex-row w-full justify-end mt-5">
           <a href={tool.link}>
             <u style={{ fontSize: 15 }}>Check the tool</u>

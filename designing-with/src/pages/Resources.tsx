@@ -30,7 +30,7 @@ const Resources = () => {
               <>
                 <div className="flex flex-col gap-2">
                   <div className="flex flex-col bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white rounded-b-2xl md:rounded-tr-2xl  px-4 py-6 md:flex-row justify-between gap-[14px]">
-                    <p className="flex-1">
+                    <p className="flex-1 mt-[33px] mb-[25px]">
                       This section collects all the terms encountered during the
                       process and aims to unpack and clarify their meaning
                       within the specific context of this project and the
@@ -39,7 +39,7 @@ const Resources = () => {
                       and expert interviews to be adapted to combine design and
                       artificial intelligence fields of theory and practice.
                     </p>
-                    <p className="flex-1">
+                    <p className="flex-1 mt-[33px] mb-[25px]">
                       The glossary also works as a summary of the project,
                       providing a first overview of the contents touched and
                       faced during the process.   
@@ -169,7 +169,7 @@ const Resources = () => {
               <>
                 <div className="flex flex-col gap-2">
                   <div className="flex flex-col md:flex-row bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white rounded-b-2xl md:rounded-tr-2xl  px-4 py-6 justify-between gap-[14px]">
-                    <p className="flex-1">
+                    <p className="flex-1 mt-[33px] mb-[25px]">
                       This section serves as a comprehensive archive of the
                       scientific bibliography that was used as background for
                       this research work. The section brings together a
@@ -177,7 +177,7 @@ const Resources = () => {
                       of design education, machine learning and artificial
                       intelligence.
                     </p>
-                    <p className="flex-1">
+                    <p className="flex-1 mt-[33px] mb-[25px]">
                       This collection not only supports the theoretical
                       framework of the project, but also enriches our
                       understanding by providing a broad spectrum of
@@ -405,6 +405,49 @@ const Resources = () => {
               </>
             ),
           },
+          /*{
+            title: "Publications",
+            mobileTitle: "Publications",
+            elements: (
+              <>
+                <div className="flex flex-col gap-2">
+                  <div className="flex flex-col md:flex-row bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white rounded-b-2xl md:rounded-tr-2xl  px-4 py-6 justify-between gap-[14px]">
+                    <p className="flex-1 mt-[33px] mb-[25px]">
+                    This section provides a comprehensive archive of
+                    the academic bibliography that supports our research.
+                    It provides a curated selection of literature from the interrelated
+                    fields of design education, machine learning and artificial intelligence.
+                    </p>
+                    <p className="flex-1 mt-[33px] mb-[25px]">
+                    This collection not only supports the theoretical framework of our project,
+                    but also enriches the understanding by providing different perspectives and
+                    insights into these dynamic and evolving fields.
+                    </p>
+                  </div>
+                  <div className="flex flex-col w-full gap-2">
+                    <div className="flex flex-col md:flex-row gap-2 w-full">
+                      <Bibliography
+                        title="Autuori, A., Botta, M., Subet, M., & Terenghi, G. (2024). Designing With: AI, ML and DV - Didactic Guidelines. SUPSI University of Applied Sciences and Arts of Southern Switzerland. "
+                        link="http://dx.doi.org/10.5281/zenodo.10925622"
+                      />
+                      <Bibliography
+                        title="Autuori, A., Botta, M., Subet, M., Terenghi, G., & Joceli Omena, J. (2024). Designing With: AI, ML and DV - Workshop."
+                        link="http://dx.doi.org/10.5281/zenodo.10474142"
+                      />
+                      <Bibliography
+                        title="Botta, M., Autuori, A., Subet, M., Terenghi, G., & Joceli Omena, J. (2024). Designing With: A New Educational Module to Integrate Artificial Intelligence in Design Curricula."
+                        link="http://dx.doi.org/10.5281/zenodo.10474065"
+                      />
+                      <Bibliography
+                        title="Botta M., Autuori A., Terenghi G., Subet M. (In press). A Design-Stage-Oriented Framework to Introduce Artificial Intelligence and Machine Learning in Design Education. Proceedings of the DRS2024: Boston, 24th - 28th June, Boston, MA USA"
+                        link="https://doi.org/10.21606/drs.2024.535"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </>
+            ),
+          },*/
         ]}
       />
       <p className="text-[12px] md:text-[15px] mt-10">

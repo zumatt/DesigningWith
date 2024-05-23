@@ -12,7 +12,7 @@ const CapabilitiesTab: TabElement = {
               <h2>
                 A set of 12 AI capabilities structuring a basic AI literacy for designers.
               </h2>
-              <div className="flex flex-col md:flex-row justify-between md:gap-[14px] mt-[50px]">
+              <div className="flex flex-col md:flex-row justify-between md:gap-[14px] mt-[33px] mb-[25px]">
                 <p className="flex-1">
                 To use artificial intelligence, designers need first to
                 comprehend its potential, functionality, and limitations.

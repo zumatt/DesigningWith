@@ -55,7 +55,7 @@ const DidacticGuidelines = () => {
               <>
                 <div className="flex flex-col gap-2">
                   <div className="bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white px-4 py-6 rounded-b-2xl md:rounded-tr-2xl">
-                    <div className="flex flex-col md:flex-row justify-between gap-[14px] mt-[20px]">
+                    <div className="flex flex-col md:flex-row justify-between gap-[14px] mt-[33px]">
                       <p className="flex-1">
                         The didactic guidelines are based on the following
                         modular infrastructure which is composed of two main
@@ -75,7 +75,7 @@ const DidacticGuidelines = () => {
                     <a
                       href="/assets/data/files/Download-Didactic-Guidelines/Full-report/DesigningWith-DidacticGuidelines-Full-report.pdf"
                       download="Didactic-Guidelines-Full"
-                      className="w-full bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_35px_20px_rgba(1,1,1,0)] shadow-[#8CD782] rounded-2xl mt-4 md:mt-[50px] p-[10px]"
+                      className="w-full bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_35px_20px_rgba(1,1,1,0)] shadow-[#8CD782] rounded-2xl mt-4 md:mt-[33px] p-[10px]"
                     >
                       <p className="w-full text-center md:text-[50px]">
                         Download the Didactic Guidelines
@@ -83,8 +83,8 @@ const DidacticGuidelines = () => {
                     </a>
                   </div>
                   <GuidelinesAccordeon title="Getting Familiar with - Module 1">
-                    <h1 className="mt-[40px]">Overall Objective</h1>
-                    <h2 className="mt-[15px]">
+                    <h1 className="mt-[33px]">Overall Objective</h1>
+                    <h2 className="mt-[10px]">
                       Combining the three sub-modules (ML, GenAI, CV) students
                       will learn to employ AI to train, generate, analyze and
                       visualize data for specific design purposes.
@@ -94,7 +94,7 @@ const DidacticGuidelines = () => {
                     ) : (
                       <DidacticGuidelineSvgModule1 />
                     )}
-                    <div className="flex flex-col md:flex-row gap-[30px] mt-[70px]">
+                    <div className="flex flex-col md:flex-row gap-[30px] mt-[33px]">
                       <p className=" md:w-1/2">
                         To promote the development of <i>personal skills</i>,
                         students are suggested to <i>work individually</i>.
@@ -125,7 +125,7 @@ const DidacticGuidelines = () => {
                     <a
                       href="/assets/data/files/Download-Didactic-Guidelines/DesigningWith-Module1-GettingFamiliarWith/DesigningWith-Module1-GettingFamiliarWith.pdf"
                       download="Didactic-Guidelines-Module1"
-                      className="md:w-1/2 hidden md:flex bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_35px_20px_rgba(1,1,1,0)] shadow-[#8CD782] mb-24 rounded-2xl md:mt-[50px]"
+                      className="md:w-1/2 hidden md:flex bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_35px_20px_rgba(1,1,1,0)] shadow-[#8CD782] mb-[33px] rounded-2xl md:mt-[33px]"
                     >
                       <p className="w-full md:text-[29px] p-4">
                         Download the Didactic Guidelines - Module 1
@@ -133,8 +133,8 @@ const DidacticGuidelines = () => {
                     </a>
                     <div className="flex flex-col gap-2">
                       <GuidelinesAccordeon title="Getting Familiar with Machine Learning (ML) – Sub-module 1">
-                        <h1 className="mt-[40px]">Educational Objective</h1>
-                        <h2 className="mt-[15px] flex-1">
+                        <h1 className="mt-[33px]">Educational Objective</h1>
+                        <h2 className="mt-[10px] flex-1">
                           <TextHighlight2>Students will learn</TextHighlight2>{" "}
                           to{" "}
                           <TextHighlight2 color="bg-[#75D668] bg-opacity-50 shadow-[#75D668]" >
@@ -147,7 +147,7 @@ const DidacticGuidelines = () => {
                           </TextHighlight2>
                           {" "}[ML-Obj].
                         </h2>
-                        <div className=" w-full flex flex-col md:flex-row gap-[30px] mt-[70px]">
+                        <div className=" w-full flex flex-col md:flex-row gap-[30px] mt-[33px]">
                           <p className=" md:w-1/2">
                             Students develop procedural knowledge through
                             practical guided activities (e.g. RunwayML
@@ -158,8 +158,8 @@ const DidacticGuidelines = () => {
                             to a familiar task (e.g. creating a logo).
                           </p>
                         </div>
-                        <h1 className="mt-[40px]">Instructional Activities:</h1>
-                        <div className=" flex flex-col md:flex-row gap-[30px] mt-[15px]">
+                        <h1 className="mt-[33px]">Instructional Activities:</h1>
+                        <div className=" flex flex-col md:flex-row gap-[30px] mt-[10px]">
                           <p className=" md:w-1/2">
                             Students are first provided with a basic literacy of
                             ML including technical vocabulary{" "}
@@ -266,7 +266,7 @@ const DidacticGuidelines = () => {
                         <a
                           href="/assets/data/files/Download-Didactic-Guidelines/DesingingWith-Submodule1-GettingFamiliarWithML/DesingingWith-Submodule1-GettingFamiliarWithML.pdf"
                           download="Didactic-Guidelines-Submodule1-ML"
-                          className="w-1/2 hidden md:flex bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_35px_20px_rgba(1,1,1,0)] shadow-[#8CD782] rounded-2xl mt-[50px]"
+                          className="w-1/2 hidden md:flex bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_35px_20px_rgba(1,1,1,0)] shadow-[#8CD782] rounded-2xl mt-[33px]"
                         >
                           <p className="w-full md:text-[28px] p-4">
                             Download the Didactic Guidelines - Sub-module 1
@@ -274,20 +274,20 @@ const DidacticGuidelines = () => {
                         </a>
                       </GuidelinesAccordeon>
                       <GuidelinesAccordeon title="Getting Familiar with Machine Learning (ML) – Sub-module 2">
-                        <h1 className="mt-[40px]">Educational Objective</h1>
-                        <h2 className="mt-[15px]">
+                        <h1 className="mt-[33px]">Educational Objective</h1>
+                        <h2 className="mt-[10px]">
                           <TextHighlight2>Students will learn</TextHighlight2>{" "}
                           to{" "}
-                          <TextHighlight2>
+                          <TextHighlight2 color="bg-[#75D668] bg-opacity-50 shadow-[#75D668]" >
                             produce content with generative AI tools
                           </TextHighlight2>{" "}
                           to{" "}
-                          <TextHighlight2>
+                          <TextHighlight2 color="bg-[#73EB14] bg-opacity-60 shadow-[#73EB14]">
                             create design artefacts
                           </TextHighlight2>{" "}
                           [GenAI-Obj].
                         </h2>
-                        <div className=" w-full flex flex-col md:flex-row gap-[30px] mt-[70px]">
+                        <div className=" w-full flex flex-col md:flex-row gap-[30px] mt-[33px]">
                           <p className=" md:w-1/2">
                             Students develop procedural knowledge through
                             practical guided activities (e.g. Midjourney
@@ -299,8 +299,8 @@ const DidacticGuidelines = () => {
                             by nature).
                           </p>
                         </div>
-                        <h1 className="mt-[40px]">Instructional Activities:</h1>
-                        <div className=" flex flex-col md:flex-row gap-[30px] mt-[15px]">
+                        <h1 className="mt-[33px]">Instructional Activities:</h1>
+                        <div className=" flex flex-col md:flex-row gap-[30px] mt-[10px]">
                           <p className=" md:w-1/2">
                             Students are first provided with a basic literacy of
                             AI including technical vocabulary{" "}
@@ -412,7 +412,7 @@ const DidacticGuidelines = () => {
                         <a
                           href="/assets/data/files/Download-Didactic-Guidelines/DesingingWith-Submodule1-GettingFamiliarWithGenAI/DesigningWith-Module1-GettingFamiliarWithGenAI.pdf"
                           download="Didactic-Guidelines-Submodule2-GenAI"
-                          className="w-1/2 hidden md:flex bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_35px_20px_rgba(1,1,1,0)] shadow-[#8CD782] rounded-2xl mt-[50px]"
+                          className="w-1/2 hidden md:flex bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_35px_20px_rgba(1,1,1,0)] shadow-[#8CD782] rounded-2xl mt-[33px]"
                         >
                           <p className="w-full md:text-[28px] p-4">
                             Download the Didactic Guidelines - Sub-module 2
@@ -424,16 +424,16 @@ const DidacticGuidelines = () => {
                         <h2 className="mt-[15px]">
                           <TextHighlight2>Students will learn</TextHighlight2>{" "}
                           to{" "}
-                          <TextHighlight2>
+                          <TextHighlight2 color="bg-[#75D668] bg-opacity-50 shadow-[#75D668]" >
                             apply Computer Vision (CV) algorithms
                           </TextHighlight2>{" "}
                           to{" "}
-                          <TextHighlight2>
+                          <TextHighlight2 color="bg-[#73EB14] bg-opacity-60 shadow-[#73EB14]">
                             analyse and visualise data
                           </TextHighlight2>{" "}
                           [CV-Obj].
                         </h2>
-                        <div className=" w-full flex flex-col md:flex-row gap-[30px] mt-[70px]">
+                        <div className=" w-full flex flex-col md:flex-row gap-[30px] mt-[33px]">
                           <p className=" md:w-1/2">
                             Students develop procedural knowledge through
                             practical guided activities (e.g. Midjourney
@@ -444,8 +444,8 @@ const DidacticGuidelines = () => {
                             to a familiar task (e.g. creating an infographic).
                           </p>
                         </div>
-                        <h1 className="mt-[40px]">Instructional Activities:</h1>
-                        <div className=" flex flex-col md:flex-row gap-[30px] mt-[15px]">
+                        <h1 className="mt-[33px]">Instructional Activities:</h1>
+                        <div className=" flex flex-col md:flex-row gap-[30px] mt-[10px]">
                           <p className=" md:w-1/2">
                             Students are first provided with a basic literacy of
                             CV algorithms and data visualisation (CV) techniques
@@ -511,7 +511,7 @@ const DidacticGuidelines = () => {
                             <AdditionalInformations
                               small={true}
                               information={
-                                "aactivities intended to set or aligning with a research question"
+                                "activities intended to set or aligning with a research question"
                               }
                             >
                               CV-Act4.2
@@ -561,7 +561,7 @@ const DidacticGuidelines = () => {
                         <a
                           href="/assets/data/files/Download-Didactic-Guidelines/DesingingWith-Submodule1-GettingFamiliarWithDV/DesingingWith-Submodule1-GettingFamiliarWithDV.pdf"
                           download="Didactic-Guidelines-Submodule3-CV"
-                          className="w-1/2 hidden md:flex bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_35px_20px_rgba(1,1,1,0)] shadow-[#8CD782] rounded-2xl mt-[50px]"
+                          className="w-1/2 hidden md:flex bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_35px_20px_rgba(1,1,1,0)] shadow-[#8CD782] rounded-2xl mt-[33px]"
                         >
                           <p className="w-full md:text-[28px] p-4">
                             Download the Didactic Guidelines - Sub-module 3
@@ -571,14 +571,14 @@ const DidacticGuidelines = () => {
                     </div>
                   </GuidelinesAccordeon>
                   <GuidelinesAccordeon title="Get in Depth – Module 2">
-                    <h1 className="mt-[40px]">Educational Objective</h1>
-                    <h2 className="mt-[15px]">
+                    <h1 className="mt-[33px]">Educational Objective</h1>
+                    <h2 className="mt-[10px]">
                       <TextHighlight2>Students will learn</TextHighlight2> to{" "}
-                      <TextHighlight2>
+                      <TextHighlight2 color="bg-[#75D668] bg-opacity-50 shadow-[#75D668]">
                         choose and apply AI/ML/CV tools
                       </TextHighlight2>{" "}
-                      for <TextHighlight2>specific activities</TextHighlight2>{" "}
-                      of the <TextHighlight2>design process</TextHighlight2>
+                      for <TextHighlight2 color="bg-[#73EB14] bg-opacity-60 shadow-[#73EB14]">specific activities</TextHighlight2>{" "}
+                      of the <TextHighlight2 color="bg-[#73EB14] bg-opacity-60 shadow-[#73EB14]">design process</TextHighlight2>
                       {" "}[Module 2-Obj].
                     </h2>
                     {isMobile ? (
@@ -603,8 +603,8 @@ const DidacticGuidelines = () => {
                         perspectives to emerge.
                       </p>
                     </div>
-                    <h1 className="mt-[40px]">Instructional Activities:</h1>
-                    <div className="flex flex-col md:flex-row gap-[30px] mt-[15px]">
+                    <h1 className="mt-[33px]">Instructional Activities:</h1>
+                    <div className="flex flex-col md:flex-row gap-[30px] mt-[10px]">
                       <p className=" md:w-1/2">
                         Students are first provided with a design challenge to
                         drive the activity{" "}
@@ -751,7 +751,7 @@ const DidacticGuidelines = () => {
                     <a
                       href="/assets/data/files/Download-Didactic-Guidelines/DesigningWith-Module2-GethInDepth"
                       download="Didactic-Guidelines-Module2"
-                      className="w-1/2 hidden md:flex bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_35px_20px_rgba(1,1,1,0)] shadow-[#8CD782] rounded-2xl mt-[50px]"
+                      className="w-1/2 hidden md:flex bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_35px_20px_rgba(1,1,1,0)] shadow-[#8CD782] rounded-2xl mt-[33px]"
                     >
                       <p className="w-full md:text-[29px] p-4">
                         Download the Didactic Guidelines - Module 2
@@ -769,7 +769,7 @@ const DidacticGuidelines = () => {
               <>
                 <div className="flex flex-col gap-2">
                   <div className="flex flex-col bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white rounded-b-2xl md:rounded-tr-2xl md:flex-row justify-between px-4 py-6 gap-[14px]">
-                    <p className="flex-1 mt-[20px]">
+                    <p className="flex-1 mt-[33px] mb-[25px]">
                       To build the didactic guidelines aimed to systematically
                       integrate AI tools into design curricula, we referred to
                       Bloom’s Taxonomy, which is one of the most recognized and
@@ -777,7 +777,7 @@ const DidacticGuidelines = () => {
                       specifically we considered the Anderson & Krathwohl (2001)
                       model revised for 21st-Century learners.
                     </p>
-                    <p className="flex-1 mt-[20px]">
+                    <p className="flex-1 mt-[33px] mb-[25px]">
                       The following sections explain the specific components of
                       the taxonomy (Krathwohl and Payne, 1971) and illustrate
                       how these components are combined together to build the

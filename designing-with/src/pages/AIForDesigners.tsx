@@ -20,7 +20,7 @@ const AIForDesigners = () => {
         framework that combines taxonomies from various domains
         to create knowledge addressing both, design students and teachers.{" "}
       </h2>
-      <p className="mt-[50px]">
+      <p className="mt-[33px]">
         The framework includes the following components:
       </p>
       <TabDisplay
