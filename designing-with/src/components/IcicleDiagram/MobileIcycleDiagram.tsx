@@ -2,7 +2,6 @@ import { useState } from "react";
 import IcicleData from "./IcicleData";
 import dataJson from "../../assets/data/data.json";
 import Filter from "./Filter";
-import { SvgDiagram } from "./SvgDiagramTool";
 import { selectStroke, steps, toggleStage } from "./DiagramUtils";
 
 /**
