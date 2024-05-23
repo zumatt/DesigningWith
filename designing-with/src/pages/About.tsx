@@ -74,7 +74,7 @@ const About = () => {
           </p>
         </div>
       </div>
-      <div className="flex flex-col md:flex-row mt-12 md:my-[100px]">
+      <div className="flex flex-col md:flex-row mt-12">
         <div className="flex-1 md:w-1/4">
           <p className="text-[12px] md:text-[15px]">
             <span>Project Coordination</span>
@@ -152,6 +152,8 @@ const About = () => {
             </u>{" "}
             - Website Designer
           </p>
+          <br />
+          <br />
         </div>
         <div className="flex-1 md:w-1/4">
           <p className="text-[12px] md:text-[15px] ">
@@ -292,7 +294,7 @@ const About = () => {
           </a>
         </div>
       </div>
-      <p className="text-[12px] md:text-[15px] mt-12">
+      <p className="text-[12px] md:text-[15px]">
         © 2024. This project is licensed under CC BY 4.0. Supported by Movetia.
         Exchange and mobility.
       </p>

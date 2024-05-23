@@ -12,8 +12,8 @@ const AIToolTab: TabElement = {
             To support teachers and students in familiarising with the framework
             and accessing the AI tools, we propose an interactive dendrogram. The
             dendrogram collects about 130 tools which are organised based on the
-            four components of the framework: design stages, AI capabilities, data
-            types - input and output.
+            four components of the framework: <span className="italic">Design Stages</span>, <span className="italic">AI Capabilities</span>, <span className="italic">Data
+            Types</span> - input and output.
           </p>
           <p className="flex-1">
             <i>Tools</i> are selected based on their functionality and potential
