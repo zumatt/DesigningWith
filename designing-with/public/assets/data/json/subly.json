@@ -11,29 +11,14 @@
             "step": "AI Capability"
         },
         {
-            "id": "Translate",
-            "group": 2,
-            "step": "AI Capability"
-        },
-        {
-            "id": "Voice (From)",
-            "group": 3,
-            "step": "Data Input (From)"
-        },
-        {
             "id": "Video File (From)",
             "group": 3,
-            "step": "Data Input (From)"
-        },
-        {
-            "id": "Prompt (From)",
-            "group": 3,
-            "step": "Data Input (From)"
+            "step": "AI Input (From)"
         },
         {
             "id": "Text File (To)",
             "group": 4,
-            "step": "Data Output (To)"
+            "step": "AI Output (To)"
         }
     ],
     "links": [
@@ -43,30 +28,10 @@
         },
         {
             "source": "Generate",
-            "target": "Voice (From)"
-        },
-        {
-            "source": "Voice (From)",
-            "target": "Text File (To)"
-        },
-        {
-            "source": "Generate",
             "target": "Video File (From)"
         },
         {
             "source": "Video File (From)",
-            "target": "Text File (To)"
-        },
-        {
-            "source": "Release",
-            "target": "Translate"
-        },
-        {
-            "source": "Translate",
-            "target": "Prompt (From)"
-        },
-        {
-            "source": "Prompt (From)",
             "target": "Text File (To)"
         }
     ]

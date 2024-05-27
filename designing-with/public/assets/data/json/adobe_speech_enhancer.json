@@ -18,12 +18,12 @@
         {
             "id": "Voice (From)",
             "group": 3,
-            "step": "Data Input (From)"
+            "step": "AI Input (From)"
         },
         {
             "id": "Voice (To)",
             "group": 4,
-            "step": "Data Output (To)"
+            "step": "AI Output (To)"
         }
     ],
     "links": [

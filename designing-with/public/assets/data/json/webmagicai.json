@@ -1,9 +1,19 @@
 {
     "nodes": [
         {
+            "id": "Understand",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
             "id": "Define",
             "group": 1,
             "step": "Design Phase"
+        },
+        {
+            "id": "Collect",
+            "group": 2,
+            "step": "AI Capability"
         },
         {
             "id": "Summarise",
@@ -11,28 +21,40 @@
             "step": "AI Capability"
         },
         {
-            "id": "Prompt (From)",
+            "id": "Website (From)",
             "group": 3,
-            "step": "Data Input (From)"
+            "step": "AI Input (From)"
         },
         {
             "id": "Text File (To)",
             "group": 4,
-            "step": "Data Output (To)"
+            "step": "AI Output (To)"
         }
     ],
     "links": [
         {
-            "source": "Define",
+            "source": "Understand",
+            "target": "Collect"
+        },
+        {
+            "source": "Collect",
+            "target": "Website (From)"
+        },
+        {
+            "source": "Website (From)",
+            "target": "Text File (To)"
+        },
+        {
+            "source": "Understand",
             "target": "Summarise"
         },
         {
             "source": "Summarise",
-            "target": "Prompt (From)"
+            "target": "Website (From)"
         },
         {
-            "source": "Prompt (From)",
-            "target": "Text File (To)"
+            "source": "Define",
+            "target": "Summarise"
         }
     ]
 }

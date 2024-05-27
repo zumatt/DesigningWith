@@ -13,12 +13,12 @@
         {
             "id": "Image File (From)",
             "group": 3,
-            "step": "Data Input (From)"
+            "step": "AI Input (From)"
         },
         {
             "id": "Table (To)",
             "group": 4,
-            "step": "Data Output (To)"
+            "step": "AI Output (To)"
         }
     ],
     "links": [

@@ -1,6 +1,11 @@
 {
     "nodes": [
         {
+            "id": "Ideate",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
             "id": "Prototype",
             "group": 1,
             "step": "Design Phase"
@@ -13,17 +18,17 @@
         {
             "id": "Prompt (From)",
             "group": 3,
-            "step": "Data Input (From)"
+            "step": "AI Input (From)"
         },
         {
             "id": "3D (To)",
             "group": 4,
-            "step": "Data Output (To)"
+            "step": "AI Output (To)"
         }
     ],
     "links": [
         {
-            "source": "Prototype",
+            "source": "Ideate",
             "target": "Generate"
         },
         {
@@ -33,6 +38,10 @@
         {
             "source": "Prompt (From)",
             "target": "3D (To)"
+        },
+        {
+            "source": "Prototype",
+            "target": "Generate"
         }
     ]
 }

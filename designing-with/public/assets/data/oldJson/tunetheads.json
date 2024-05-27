@@ -1,0 +1,38 @@
+{
+    "nodes": [
+        {
+            "id": "Ideate",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Recommend",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
+            "id": "Prompt (From)",
+            "group": 3,
+            "step": "Data Input (From)"
+        },
+        {
+            "id": "Copy (To)",
+            "group": 4,
+            "step": "Data Output (To)"
+        }
+    ],
+    "links": [
+        {
+            "source": "Ideate",
+            "target": "Recommend"
+        },
+        {
+            "source": "Recommend",
+            "target": "Prompt (From)"
+        },
+        {
+            "source": "Prompt (From)",
+            "target": "Copy (To)"
+        }
+    ]
+}

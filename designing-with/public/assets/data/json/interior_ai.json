@@ -13,17 +13,12 @@
         {
             "id": "Image File (From)",
             "group": 3,
-            "step": "Data Input (From)"
-        },
-        {
-            "id": "Image (From)",
-            "group": 3,
-            "step": "Data Input (From)"
+            "step": "AI Input (From)"
         },
         {
             "id": "Render (To)",
             "group": 4,
-            "step": "Data Output (To)"
+            "step": "AI Output (To)"
         }
     ],
     "links": [
@@ -37,14 +32,6 @@
         },
         {
             "source": "Image File (From)",
-            "target": "Render (To)"
-        },
-        {
-            "source": "Generate",
-            "target": "Image (From)"
-        },
-        {
-            "source": "Image (From)",
             "target": "Render (To)"
         }
     ]

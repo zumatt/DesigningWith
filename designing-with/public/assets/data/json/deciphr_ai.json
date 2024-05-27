@@ -11,7 +11,17 @@
             "step": "Design Phase"
         },
         {
+            "id": "Summarise",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
             "id": "Generate",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
+            "id": "Recommend",
             "group": 2,
             "step": "AI Capability"
         },
@@ -21,22 +31,39 @@
             "step": "AI Capability"
         },
         {
+            "id": "Text File (From)",
+            "group": 3,
+            "step": "AI Input (From)"
+        },
+        {
             "id": "Voice (From)",
             "group": 3,
-            "step": "Data Input (From)"
+            "step": "AI Input (From)"
         },
         {
             "id": "Prompt (From)",
             "group": 3,
-            "step": "Data Input (From)"
+            "step": "AI Input (From)"
         },
         {
             "id": "Text File (To)",
             "group": 4,
-            "step": "Data Output (To)"
+            "step": "AI Output (To)"
         }
     ],
     "links": [
+        {
+            "source": "Define",
+            "target": "Summarise"
+        },
+        {
+            "source": "Summarise",
+            "target": "Text File (From)"
+        },
+        {
+            "source": "Text File (From)",
+            "target": "Text File (To)"
+        },
         {
             "source": "Define",
             "target": "Generate"
@@ -48,6 +75,14 @@
         {
             "source": "Voice (From)",
             "target": "Text File (To)"
+        },
+        {
+            "source": "Define",
+            "target": "Recommend"
+        },
+        {
+            "source": "Recommend",
+            "target": "Text File (From)"
         },
         {
             "source": "Release",

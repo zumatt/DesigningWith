@@ -1,38 +1,47 @@
 {
     "nodes": [
         {
-            "id": "Define",
+            "id": "Prototype",
             "group": 1,
             "step": "Design Phase"
         },
         {
-            "id": "Collect",
+            "id": "Develop",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Generate",
             "group": 2,
             "step": "AI Capability"
         },
         {
-            "id": "Text File (From)",
+            "id": "Table (From)",
             "group": 3,
-            "step": "Data Input (From)"
+            "step": "AI Input (From)"
         },
         {
-            "id": "Text File (To)",
+            "id": "Chatbot (To)",
             "group": 4,
-            "step": "Data Output (To)"
+            "step": "AI Output (To)"
         }
     ],
     "links": [
         {
-            "source": "Define",
-            "target": "Collect"
+            "source": "Prototype",
+            "target": "Generate"
         },
         {
-            "source": "Collect",
-            "target": "Text File (From)"
+            "source": "Generate",
+            "target": "Table (From)"
         },
         {
-            "source": "Text File (From)",
-            "target": "Text File (To)"
+            "source": "Table (From)",
+            "target": "Chatbot (To)"
+        },
+        {
+            "source": "Develop",
+            "target": "Generate"
         }
     ]
 }

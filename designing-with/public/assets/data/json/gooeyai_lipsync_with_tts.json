@@ -1,0 +1,81 @@
+{
+    "nodes": [
+        {
+            "id": "Prototype",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Generate",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
+            "id": "Prompt (From)",
+            "group": 3,
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Image File (From)",
+            "group": 3,
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Video File (From)",
+            "group": 3,
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Video File (To)",
+            "group": 4,
+            "step": "AI Output (To)"
+        },
+        {
+            "id": "Voice (To)",
+            "group": 4,
+            "step": "AI Output (To)"
+        }
+    ],
+    "links": [
+        {
+            "source": "Prototype",
+            "target": "Generate"
+        },
+        {
+            "source": "Generate",
+            "target": "Prompt (From)"
+        },
+        {
+            "source": "Prompt (From)",
+            "target": "Video File (To)"
+        },
+        {
+            "source": "Prompt (From)",
+            "target": "Voice (To)"
+        },
+        {
+            "source": "Generate",
+            "target": "Image File (From)"
+        },
+        {
+            "source": "Image File (From)",
+            "target": "Video File (To)"
+        },
+        {
+            "source": "Image File (From)",
+            "target": "Voice (To)"
+        },
+        {
+            "source": "Generate",
+            "target": "Video File (From)"
+        },
+        {
+            "source": "Video File (From)",
+            "target": "Video File (To)"
+        },
+        {
+            "source": "Video File (From)",
+            "target": "Voice (To)"
+        }
+    ]
+}

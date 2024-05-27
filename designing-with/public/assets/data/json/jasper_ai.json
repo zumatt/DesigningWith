@@ -28,22 +28,17 @@
         {
             "id": "Prompt (From)",
             "group": 3,
-            "step": "Data Input (From)"
+            "step": "AI Input (From)"
         },
         {
             "id": "Text File (To)",
             "group": 4,
-            "step": "Data Output (To)"
+            "step": "AI Output (To)"
         },
         {
             "id": "Image File (To)",
             "group": 4,
-            "step": "Data Output (To)"
-        },
-        {
-            "id": "Illustration (To)",
-            "group": 4,
-            "step": "Data Output (To)"
+            "step": "AI Output (To)"
         }
     ],
     "links": [
@@ -70,10 +65,6 @@
         {
             "source": "Prompt (From)",
             "target": "Image File (To)"
-        },
-        {
-            "source": "Prompt (From)",
-            "target": "Illustration (To)"
         },
         {
             "source": "Release",

@@ -21,34 +21,74 @@
             "step": "AI Capability"
         },
         {
+            "id": "Collect",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
+            "id": "Recommend",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
             "id": "Test",
             "group": 2,
             "step": "AI Capability"
         },
         {
-            "id": "Image File (From)",
+            "id": "Drawing (From)",
             "group": 3,
-            "step": "Data Input (From)"
+            "step": "AI Input (From)"
         },
         {
-            "id": "Interface Component (To)",
-            "group": 4,
-            "step": "Data Output (To)"
+            "id": "Image File (From)",
+            "group": 3,
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Prompt (From)",
+            "group": 3,
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Website (From)",
+            "group": 3,
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Text File (From)",
+            "group": 3,
+            "step": "AI Input (From)"
         },
         {
             "id": "Website (To)",
             "group": 4,
-            "step": "Data Output (To)"
-        },
-        {
-            "id": "Instructions (To)",
-            "group": 4,
-            "step": "Data Output (To)"
+            "step": "AI Output (To)"
         },
         {
             "id": "Mockup (To)",
             "group": 4,
-            "step": "Data Output (To)"
+            "step": "AI Output (To)"
+        },
+        {
+            "id": "Visualization (To)",
+            "group": 4,
+            "step": "AI Output (To)"
+        },
+        {
+            "id": "Instructions (To)",
+            "group": 4,
+            "step": "AI Output (To)"
+        },
+        {
+            "id": "Image File (To)",
+            "group": 4,
+            "step": "AI Output (To)"
+        },
+        {
+            "id": "Text File (To)",
+            "group": 4,
+            "step": "AI Output (To)"
         }
     ],
     "links": [
@@ -58,11 +98,15 @@
         },
         {
             "source": "Generate",
-            "target": "Image File (From)"
+            "target": "Drawing (From)"
         },
         {
-            "source": "Image File (From)",
-            "target": "Interface Component (To)"
+            "source": "Drawing (From)",
+            "target": "Website (To)"
+        },
+        {
+            "source": "Generate",
+            "target": "Image File (From)"
         },
         {
             "source": "Image File (From)",
@@ -70,23 +114,59 @@
         },
         {
             "source": "Prototype",
-            "target": "Test"
-        },
-        {
-            "source": "Test",
-            "target": "Image File (From)"
-        },
-        {
-            "source": "Image File (From)",
-            "target": "Instructions (To)"
-        },
-        {
-            "source": "Release",
             "target": "Generate"
+        },
+        {
+            "source": "Drawing (From)",
+            "target": "Mockup (To)"
+        },
+        {
+            "source": "Generate",
+            "target": "Prompt (From)"
+        },
+        {
+            "source": "Prompt (From)",
+            "target": "Visualization (To)"
         },
         {
             "source": "Image File (From)",
             "target": "Mockup (To)"
+        },
+        {
+            "source": "Prototype",
+            "target": "Collect"
+        },
+        {
+            "source": "Collect",
+            "target": "Website (From)"
+        },
+        {
+            "source": "Website (From)",
+            "target": "Instructions (To)"
+        },
+        {
+            "source": "Prototype",
+            "target": "Recommend"
+        },
+        {
+            "source": "Recommend",
+            "target": "Image File (From)"
+        },
+        {
+            "source": "Image File (From)",
+            "target": "Image File (To)"
+        },
+        {
+            "source": "Release",
+            "target": "Test"
+        },
+        {
+            "source": "Test",
+            "target": "Text File (From)"
+        },
+        {
+            "source": "Text File (From)",
+            "target": "Text File (To)"
         }
     ]
 }

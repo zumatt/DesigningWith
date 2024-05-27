@@ -11,32 +11,54 @@
             "step": "Design Phase"
         },
         {
+            "id": "Generate",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
             "id": "Optimise",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
+            "id": "Recognise",
             "group": 2,
             "step": "AI Capability"
         },
         {
             "id": "Voice (From)",
             "group": 3,
-            "step": "Data Input (From)"
+            "step": "AI Input (From)"
         },
         {
             "id": "Soundtrack (From)",
             "group": 3,
-            "step": "Data Input (From)"
+            "step": "AI Input (From)"
         },
         {
             "id": "Voice (To)",
             "group": 4,
-            "step": "Data Output (To)"
+            "step": "AI Output (To)"
         },
         {
             "id": "Soundtrack (To)",
             "group": 4,
-            "step": "Data Output (To)"
+            "step": "AI Output (To)"
         }
     ],
     "links": [
+        {
+            "source": "Prototype",
+            "target": "Generate"
+        },
+        {
+            "source": "Generate",
+            "target": "Voice (From)"
+        },
+        {
+            "source": "Voice (From)",
+            "target": "Voice (To)"
+        },
         {
             "source": "Prototype",
             "target": "Optimise"
@@ -46,15 +68,23 @@
             "target": "Voice (From)"
         },
         {
-            "source": "Voice (From)",
-            "target": "Voice (To)"
-        },
-        {
             "source": "Optimise",
             "target": "Soundtrack (From)"
         },
         {
             "source": "Soundtrack (From)",
+            "target": "Soundtrack (To)"
+        },
+        {
+            "source": "Prototype",
+            "target": "Recognise"
+        },
+        {
+            "source": "Recognise",
+            "target": "Voice (From)"
+        },
+        {
+            "source": "Voice (From)",
             "target": "Soundtrack (To)"
         },
         {

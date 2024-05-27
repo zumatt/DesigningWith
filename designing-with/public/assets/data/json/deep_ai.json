@@ -1,0 +1,96 @@
+{
+    "nodes": [
+        {
+            "id": "Ideate",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Prototype",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Develop",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Generate",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
+            "id": "Prompt (From)",
+            "group": 3,
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Image File (From)",
+            "group": 3,
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Text File (To)",
+            "group": 4,
+            "step": "AI Output (To)"
+        },
+        {
+            "id": "Image File (To)",
+            "group": 4,
+            "step": "AI Output (To)"
+        },
+        {
+            "id": "Video File (To)",
+            "group": 4,
+            "step": "AI Output (To)"
+        },
+        {
+            "id": "Code (To)",
+            "group": 4,
+            "step": "AI Output (To)"
+        }
+    ],
+    "links": [
+        {
+            "source": "Ideate",
+            "target": "Generate"
+        },
+        {
+            "source": "Generate",
+            "target": "Prompt (From)"
+        },
+        {
+            "source": "Prompt (From)",
+            "target": "Text File (To)"
+        },
+        {
+            "source": "Prompt (From)",
+            "target": "Image File (To)"
+        },
+        {
+            "source": "Prompt (From)",
+            "target": "Video File (To)"
+        },
+        {
+            "source": "Generate",
+            "target": "Image File (From)"
+        },
+        {
+            "source": "Image File (From)",
+            "target": "Video File (To)"
+        },
+        {
+            "source": "Prototype",
+            "target": "Generate"
+        },
+        {
+            "source": "Develop",
+            "target": "Generate"
+        },
+        {
+            "source": "Prompt (From)",
+            "target": "Code (To)"
+        }
+    ]
+}

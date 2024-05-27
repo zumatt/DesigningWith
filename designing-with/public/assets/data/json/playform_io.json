@@ -33,22 +33,27 @@
         {
             "id": "Prompt (From)",
             "group": 3,
-            "step": "Data Input (From)"
+            "step": "AI Input (From)"
         },
         {
             "id": "Image File (From)",
             "group": 3,
-            "step": "Data Input (From)"
+            "step": "AI Input (From)"
         },
         {
             "id": "Image File (To)",
             "group": 4,
-            "step": "Data Output (To)"
+            "step": "AI Output (To)"
         },
         {
             "id": "Illustration (To)",
             "group": 4,
-            "step": "Data Output (To)"
+            "step": "AI Output (To)"
+        },
+        {
+            "id": "Model (To)",
+            "group": 4,
+            "step": "AI Output (To)"
         }
     ],
     "links": [
@@ -81,12 +86,16 @@
             "target": "Image File (To)"
         },
         {
-            "source": "Image File (From)",
-            "target": "Illustration (To)"
-        },
-        {
             "source": "Prototype",
             "target": "Generate"
+        },
+        {
+            "source": "Generate",
+            "target": "Image File (From)"
+        },
+        {
+            "source": "Image File (From)",
+            "target": "Model (To)"
         },
         {
             "source": "Release",
@@ -95,6 +104,10 @@
         {
             "source": "Optimise",
             "target": "Image File (From)"
+        },
+        {
+            "source": "Image File (From)",
+            "target": "Illustration (To)"
         }
     ]
 }

@@ -1,0 +1,56 @@
+{
+    "nodes": [
+        {
+            "id": "Understand",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Define",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Prototype",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Test",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
+            "id": "Prompt (From)",
+            "group": 3,
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Text File (To)",
+            "group": 4,
+            "step": "AI Output (To)"
+        }
+    ],
+    "links": [
+        {
+            "source": "Understand",
+            "target": "Test"
+        },
+        {
+            "source": "Test",
+            "target": "Prompt (From)"
+        },
+        {
+            "source": "Prompt (From)",
+            "target": "Text File (To)"
+        },
+        {
+            "source": "Define",
+            "target": "Test"
+        },
+        {
+            "source": "Prototype",
+            "target": "Test"
+        }
+    ]
+}

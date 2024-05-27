@@ -21,33 +21,25 @@
             "step": "AI Capability"
         },
         {
-            "id": "Voice (From)",
-            "group": 3,
-            "step": "Data Input (From)"
-        },
-        {
             "id": "Video File (From)",
             "group": 3,
-            "step": "Data Input (From)"
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Voice (From)",
+            "group": 3,
+            "step": "AI Input (From)"
         },
         {
             "id": "Text File (To)",
             "group": 4,
-            "step": "Data Output (To)"
+            "step": "AI Output (To)"
         }
     ],
     "links": [
         {
             "source": "Understand",
             "target": "Collect"
-        },
-        {
-            "source": "Collect",
-            "target": "Voice (From)"
-        },
-        {
-            "source": "Voice (From)",
-            "target": "Text File (To)"
         },
         {
             "source": "Collect",
@@ -58,8 +50,12 @@
             "target": "Text File (To)"
         },
         {
-            "source": "Define",
-            "target": "Collect"
+            "source": "Collect",
+            "target": "Voice (From)"
+        },
+        {
+            "source": "Voice (From)",
+            "target": "Text File (To)"
         },
         {
             "source": "Define",
@@ -67,11 +63,15 @@
         },
         {
             "source": "Summarise",
-            "target": "Voice (From)"
+            "target": "Video File (From)"
         },
         {
             "source": "Summarise",
-            "target": "Video File (From)"
+            "target": "Voice (From)"
+        },
+        {
+            "source": "Define",
+            "target": "Collect"
         }
     ]
 }

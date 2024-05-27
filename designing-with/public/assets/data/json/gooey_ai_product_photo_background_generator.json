@@ -1,0 +1,69 @@
+{
+    "nodes": [
+        {
+            "id": "Prototype",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Generate",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
+            "id": "Optimise",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
+            "id": "Prompt (From)",
+            "group": 3,
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Image File (From)",
+            "group": 3,
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Image File (To)",
+            "group": 4,
+            "step": "AI Output (To)"
+        },
+        {
+            "id": "Mockup (To)",
+            "group": 4,
+            "step": "AI Output (To)"
+        }
+    ],
+    "links": [
+        {
+            "source": "Prototype",
+            "target": "Generate"
+        },
+        {
+            "source": "Generate",
+            "target": "Prompt (From)"
+        },
+        {
+            "source": "Prompt (From)",
+            "target": "Image File (To)"
+        },
+        {
+            "source": "Prompt (From)",
+            "target": "Mockup (To)"
+        },
+        {
+            "source": "Prototype",
+            "target": "Optimise"
+        },
+        {
+            "source": "Optimise",
+            "target": "Image File (From)"
+        },
+        {
+            "source": "Image File (From)",
+            "target": "Image File (To)"
+        }
+    ]
+}

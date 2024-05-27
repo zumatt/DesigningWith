@@ -6,6 +6,11 @@
             "step": "Design Phase"
         },
         {
+            "id": "Generate",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
             "id": "Recognise",
             "group": 2,
             "step": "AI Capability"
@@ -13,26 +18,82 @@
         {
             "id": "Image File (From)",
             "group": 3,
-            "step": "Data Input (From)"
+            "step": "AI Input (From)"
         },
         {
-            "id": "Label (To)",
+            "id": "Video File (From)",
+            "group": 3,
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Recording (From)",
+            "group": 3,
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Gesture (From)",
+            "group": 3,
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Voice (From)",
+            "group": 3,
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Model (To)",
             "group": 4,
-            "step": "Data Output (To)"
+            "step": "AI Output (To)"
         }
     ],
     "links": [
+        {
+            "source": "Prototype",
+            "target": "Generate"
+        },
+        {
+            "source": "Generate",
+            "target": "Image File (From)"
+        },
+        {
+            "source": "Image File (From)",
+            "target": "Model (To)"
+        },
+        {
+            "source": "Generate",
+            "target": "Video File (From)"
+        },
+        {
+            "source": "Video File (From)",
+            "target": "Model (To)"
+        },
+        {
+            "source": "Generate",
+            "target": "Recording (From)"
+        },
+        {
+            "source": "Recording (From)",
+            "target": "Model (To)"
+        },
+        {
+            "source": "Generate",
+            "target": "Gesture (From)"
+        },
+        {
+            "source": "Gesture (From)",
+            "target": "Model (To)"
+        },
         {
             "source": "Prototype",
             "target": "Recognise"
         },
         {
             "source": "Recognise",
-            "target": "Image File (From)"
+            "target": "Voice (From)"
         },
         {
-            "source": "Image File (From)",
-            "target": "Label (To)"
+            "source": "Voice (From)",
+            "target": "Model (To)"
         }
     ]
 }

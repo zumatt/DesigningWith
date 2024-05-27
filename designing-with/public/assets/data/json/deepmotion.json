@@ -13,12 +13,22 @@
         {
             "id": "Video File (From)",
             "group": 3,
-            "step": "Data Input (From)"
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Text File (From)",
+            "group": 3,
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Animation (To)",
+            "group": 4,
+            "step": "AI Output (To)"
         },
         {
             "id": "3D (To)",
             "group": 4,
-            "step": "Data Output (To)"
+            "step": "AI Output (To)"
         }
     ],
     "links": [
@@ -32,7 +42,23 @@
         },
         {
             "source": "Video File (From)",
+            "target": "Animation (To)"
+        },
+        {
+            "source": "Video File (From)",
             "target": "3D (To)"
+        },
+        {
+            "source": "Recognise",
+            "target": "Text File (From)"
+        },
+        {
+            "source": "Text File (From)",
+            "target": "3D (To)"
+        },
+        {
+            "source": "Text File (From)",
+            "target": "Animation (To)"
         }
     ]
 }

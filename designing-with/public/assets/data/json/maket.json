@@ -1,7 +1,17 @@
 {
     "nodes": [
         {
+            "id": "Define",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
             "id": "Ideate",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Prototype",
             "group": 1,
             "step": "Design Phase"
         },
@@ -11,34 +21,39 @@
             "step": "AI Capability"
         },
         {
-            "id": "Translate",
+            "id": "Generate",
             "group": 2,
             "step": "AI Capability"
         },
         {
             "id": "Prompt (From)",
             "group": 3,
-            "step": "Data Input (From)"
+            "step": "AI Input (From)"
         },
         {
             "id": "Image File (From)",
             "group": 3,
-            "step": "Data Input (From)"
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Instructions (To)",
+            "group": 4,
+            "step": "AI Output (To)"
         },
         {
             "id": "FloorPlans (To)",
             "group": 4,
-            "step": "Data Output (To)"
+            "step": "AI Output (To)"
         },
         {
             "id": "Render (To)",
             "group": 4,
-            "step": "Data Output (To)"
+            "step": "AI Output (To)"
         }
     ],
     "links": [
         {
-            "source": "Ideate",
+            "source": "Define",
             "target": "Recommend"
         },
         {
@@ -47,14 +62,22 @@
         },
         {
             "source": "Prompt (From)",
-            "target": "FloorPlans (To)"
+            "target": "Instructions (To)"
         },
         {
             "source": "Ideate",
-            "target": "Translate"
+            "target": "Recommend"
         },
         {
-            "source": "Translate",
+            "source": "Prompt (From)",
+            "target": "FloorPlans (To)"
+        },
+        {
+            "source": "Prototype",
+            "target": "Generate"
+        },
+        {
+            "source": "Generate",
             "target": "Image File (From)"
         },
         {

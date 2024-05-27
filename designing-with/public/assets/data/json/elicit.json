@@ -16,24 +16,24 @@
             "step": "AI Capability"
         },
         {
-            "id": "Classify",
+            "id": "Summarise",
             "group": 2,
             "step": "AI Capability"
         },
         {
-            "id": "Summarise",
+            "id": "Classify",
             "group": 2,
             "step": "AI Capability"
         },
         {
             "id": "Prompt (From)",
             "group": 3,
-            "step": "Data Input (From)"
+            "step": "AI Input (From)"
         },
         {
             "id": "Literature Reference (To)",
             "group": 4,
-            "step": "Data Output (To)"
+            "step": "AI Output (To)"
         }
     ],
     "links": [
@@ -51,18 +51,18 @@
         },
         {
             "source": "Define",
-            "target": "Classify"
-        },
-        {
-            "source": "Classify",
-            "target": "Prompt (From)"
-        },
-        {
-            "source": "Define",
             "target": "Summarise"
         },
         {
             "source": "Summarise",
+            "target": "Prompt (From)"
+        },
+        {
+            "source": "Define",
+            "target": "Classify"
+        },
+        {
+            "source": "Classify",
             "target": "Prompt (From)"
         }
     ]

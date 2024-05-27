@@ -18,12 +18,22 @@
         {
             "id": "Prompt (From)",
             "group": 3,
-            "step": "Data Input (From)"
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Image File (From)",
+            "group": 3,
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Image File (To)",
+            "group": 4,
+            "step": "AI Output (To)"
         },
         {
             "id": "Video File (To)",
             "group": 4,
-            "step": "Data Output (To)"
+            "step": "AI Output (To)"
         }
     ],
     "links": [
@@ -37,6 +47,18 @@
         },
         {
             "source": "Prompt (From)",
+            "target": "Image File (To)"
+        },
+        {
+            "source": "Prompt (From)",
+            "target": "Video File (To)"
+        },
+        {
+            "source": "Generate",
+            "target": "Image File (From)"
+        },
+        {
+            "source": "Image File (From)",
             "target": "Video File (To)"
         },
         {

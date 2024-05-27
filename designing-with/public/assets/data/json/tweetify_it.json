@@ -6,19 +6,29 @@
             "step": "Design Phase"
         },
         {
+            "id": "Release",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
             "id": "Summarise",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
+            "id": "Generate",
             "group": 2,
             "step": "AI Capability"
         },
         {
             "id": "Prompt (From)",
             "group": 3,
-            "step": "Data Input (From)"
+            "step": "AI Input (From)"
         },
         {
             "id": "Copy (To)",
             "group": 4,
-            "step": "Data Output (To)"
+            "step": "AI Output (To)"
         }
     ],
     "links": [
@@ -33,6 +43,14 @@
         {
             "source": "Prompt (From)",
             "target": "Copy (To)"
+        },
+        {
+            "source": "Release",
+            "target": "Generate"
+        },
+        {
+            "source": "Generate",
+            "target": "Prompt (From)"
         }
     ]
 }

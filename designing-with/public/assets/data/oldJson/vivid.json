@@ -1,0 +1,38 @@
+{
+    "nodes": [
+        {
+            "id": "Develop",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Generate",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
+            "id": "Interface Component (From)",
+            "group": 3,
+            "step": "Data Input (From)"
+        },
+        {
+            "id": "Code (To)",
+            "group": 4,
+            "step": "Data Output (To)"
+        }
+    ],
+    "links": [
+        {
+            "source": "Develop",
+            "target": "Generate"
+        },
+        {
+            "source": "Generate",
+            "target": "Interface Component (From)"
+        },
+        {
+            "source": "Interface Component (From)",
+            "target": "Code (To)"
+        }
+    ]
+}

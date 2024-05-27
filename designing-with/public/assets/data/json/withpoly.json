@@ -6,11 +6,6 @@
             "step": "Design Phase"
         },
         {
-            "id": "Prototype",
-            "group": 1,
-            "step": "Design Phase"
-        },
-        {
             "id": "Generate",
             "group": 2,
             "step": "AI Capability"
@@ -18,12 +13,12 @@
         {
             "id": "Prompt (From)",
             "group": 3,
-            "step": "Data Input (From)"
+            "step": "AI Input (From)"
         },
         {
             "id": "Texture (To)",
             "group": 4,
-            "step": "Data Output (To)"
+            "step": "AI Output (To)"
         }
     ],
     "links": [
@@ -38,10 +33,6 @@
         {
             "source": "Prompt (From)",
             "target": "Texture (To)"
-        },
-        {
-            "source": "Prototype",
-            "target": "Generate"
         }
     ]
 }

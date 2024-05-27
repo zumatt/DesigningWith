@@ -1,0 +1,131 @@
+{
+    "nodes": [
+        {
+            "id": "Ideate",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Prototype",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Release",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Generate",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
+            "id": "Optimise",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
+            "id": "Recording (From)",
+            "group": 3,
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Drawing (From)",
+            "group": 3,
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Prompt (From)",
+            "group": 3,
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Image File (From)",
+            "group": 3,
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Image File (To)",
+            "group": 4,
+            "step": "AI Output (To)"
+        },
+        {
+            "id": "Icon (To)",
+            "group": 4,
+            "step": "AI Output (To)"
+        },
+        {
+            "id": "Texture (To)",
+            "group": 4,
+            "step": "AI Output (To)"
+        },
+        {
+            "id": "Video File (To)",
+            "group": 4,
+            "step": "AI Output (To)"
+        }
+    ],
+    "links": [
+        {
+            "source": "Ideate",
+            "target": "Generate"
+        },
+        {
+            "source": "Generate",
+            "target": "Recording (From)"
+        },
+        {
+            "source": "Recording (From)",
+            "target": "Image File (To)"
+        },
+        {
+            "source": "Generate",
+            "target": "Drawing (From)"
+        },
+        {
+            "source": "Drawing (From)",
+            "target": "Image File (To)"
+        },
+        {
+            "source": "Generate",
+            "target": "Prompt (From)"
+        },
+        {
+            "source": "Prompt (From)",
+            "target": "Icon (To)"
+        },
+        {
+            "source": "Prompt (From)",
+            "target": "Image File (To)"
+        },
+        {
+            "source": "Prompt (From)",
+            "target": "Texture (To)"
+        },
+        {
+            "source": "Prompt (From)",
+            "target": "Video File (To)"
+        },
+        {
+            "source": "Generate",
+            "target": "Image File (From)"
+        },
+        {
+            "source": "Image File (From)",
+            "target": "Image File (To)"
+        },
+        {
+            "source": "Prototype",
+            "target": "Generate"
+        },
+        {
+            "source": "Release",
+            "target": "Optimise"
+        },
+        {
+            "source": "Optimise",
+            "target": "Image File (From)"
+        }
+    ]
+}

@@ -1,11 +1,6 @@
 {
     "nodes": [
         {
-            "id": "Develop",
-            "group": 1,
-            "step": "Design Phase"
-        },
-        {
             "id": "Release",
             "group": 1,
             "step": "Design Phase"
@@ -18,32 +13,27 @@
         {
             "id": "Image File (From)",
             "group": 3,
-            "step": "Data Input (From)"
+            "step": "AI Input (From)"
         },
         {
             "id": "Video File (From)",
             "group": 3,
-            "step": "Data Input (From)"
+            "step": "AI Input (From)"
         },
         {
             "id": "Image File (To)",
             "group": 4,
-            "step": "Data Output (To)"
-        },
-        {
-            "id": "Illustration (To)",
-            "group": 4,
-            "step": "Data Output (To)"
+            "step": "AI Output (To)"
         },
         {
             "id": "Video File (To)",
             "group": 4,
-            "step": "Data Output (To)"
+            "step": "AI Output (To)"
         }
     ],
     "links": [
         {
-            "source": "Develop",
+            "source": "Release",
             "target": "Optimise"
         },
         {
@@ -55,20 +45,12 @@
             "target": "Image File (To)"
         },
         {
-            "source": "Image File (From)",
-            "target": "Illustration (To)"
-        },
-        {
             "source": "Optimise",
             "target": "Video File (From)"
         },
         {
             "source": "Video File (From)",
             "target": "Video File (To)"
-        },
-        {
-            "source": "Release",
-            "target": "Optimise"
         }
     ]
 }

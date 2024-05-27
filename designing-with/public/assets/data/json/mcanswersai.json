@@ -1,0 +1,77 @@
+{
+    "nodes": [
+        {
+            "id": "Develop",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Debug",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
+            "id": "Test",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
+            "id": "Recommend",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
+            "id": "Optimise",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
+            "id": "Code (From)",
+            "group": 3,
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Code (To)",
+            "group": 4,
+            "step": "AI Output (To)"
+        }
+    ],
+    "links": [
+        {
+            "source": "Develop",
+            "target": "Debug"
+        },
+        {
+            "source": "Debug",
+            "target": "Code (From)"
+        },
+        {
+            "source": "Code (From)",
+            "target": "Code (To)"
+        },
+        {
+            "source": "Develop",
+            "target": "Test"
+        },
+        {
+            "source": "Test",
+            "target": "Code (From)"
+        },
+        {
+            "source": "Develop",
+            "target": "Recommend"
+        },
+        {
+            "source": "Recommend",
+            "target": "Code (From)"
+        },
+        {
+            "source": "Develop",
+            "target": "Optimise"
+        },
+        {
+            "source": "Optimise",
+            "target": "Code (From)"
+        }
+    ]
+}

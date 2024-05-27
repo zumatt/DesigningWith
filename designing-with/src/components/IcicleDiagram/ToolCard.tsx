@@ -63,11 +63,11 @@ const RenderToolCards = ({
               Close X
             </button>
           </div>
-          <h2 className="mb-10">{stage.description}</h2>
+          <h2 className="mb-10">{stage.description === undefined ? "No description": stage.description.length > 300 ? stage.description.substring(0, 300).split('.').slice(0, -1).join('.') + '.' : stage.description}</h2>
           <SvgDiagram jsonDiagramUrl={stage.tooldiagram} />
           <div className="flex flex-row w-full justify-end mt-5">
-            <a href={stage.link}>
-              <u>Check the tool</u>
+            <a href={stage.link} target="_blank">
+              <u>Go to the tool</u>
             </a>
           </div>
         </div>

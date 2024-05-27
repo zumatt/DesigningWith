@@ -1,0 +1,47 @@
+{
+    "nodes": [
+        {
+            "id": "Define",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Prototype",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Recognise",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
+            "id": "Prompt (From)",
+            "group": 3,
+            "step": "Data Input (From)"
+        },
+        {
+            "id": "Label (To)",
+            "group": 4,
+            "step": "Data Output (To)"
+        }
+    ],
+    "links": [
+        {
+            "source": "Define",
+            "target": "Recognise"
+        },
+        {
+            "source": "Recognise",
+            "target": "Prompt (From)"
+        },
+        {
+            "source": "Prompt (From)",
+            "target": "Label (To)"
+        },
+        {
+            "source": "Prototype",
+            "target": "Recognise"
+        }
+    ]
+}

@@ -1,7 +1,7 @@
 {
     "nodes": [
         {
-            "id": "Develop",
+            "id": "Prototype",
             "group": 1,
             "step": "Design Phase"
         },
@@ -16,27 +16,27 @@
             "step": "AI Capability"
         },
         {
-            "id": "Prompt (From)",
+            "id": "Video File (From)",
             "group": 3,
-            "step": "Data Input (From)"
+            "step": "AI Input (From)"
         },
         {
             "id": "Video File (To)",
             "group": 4,
-            "step": "Data Output (To)"
+            "step": "AI Output (To)"
         }
     ],
     "links": [
         {
-            "source": "Develop",
+            "source": "Prototype",
             "target": "Optimise"
         },
         {
             "source": "Optimise",
-            "target": "Prompt (From)"
+            "target": "Video File (From)"
         },
         {
-            "source": "Prompt (From)",
+            "source": "Video File (From)",
             "target": "Video File (To)"
         },
         {

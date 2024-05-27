@@ -36,12 +36,22 @@
             "step": "AI Capability"
         },
         {
-            "id": "Translate",
+            "id": "Recommend",
             "group": 2,
             "step": "AI Capability"
         },
         {
             "id": "Summarise",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
+            "id": "Translate",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
+            "id": "Recognise",
             "group": 2,
             "step": "AI Capability"
         },
@@ -56,29 +66,64 @@
             "step": "AI Capability"
         },
         {
-            "id": "Text File (From)",
-            "group": 3,
-            "step": "Data Input (From)"
+            "id": "Optimise",
+            "group": 2,
+            "step": "AI Capability"
         },
         {
             "id": "Prompt (From)",
             "group": 3,
-            "step": "Data Input (From)"
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Text File (From)",
+            "group": 3,
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Voice (From)",
+            "group": 3,
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Image File (From)",
+            "group": 3,
+            "step": "AI Input (From)"
         },
         {
             "id": "Code (From)",
             "group": 3,
-            "step": "Data Input (From)"
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Table (To)",
+            "group": 4,
+            "step": "AI Output (To)"
         },
         {
             "id": "Text File (To)",
             "group": 4,
-            "step": "Data Output (To)"
+            "step": "AI Output (To)"
+        },
+        {
+            "id": "Literature Reference (To)",
+            "group": 4,
+            "step": "AI Output (To)"
+        },
+        {
+            "id": "Voice (To)",
+            "group": 4,
+            "step": "AI Output (To)"
+        },
+        {
+            "id": "Image File (To)",
+            "group": 4,
+            "step": "AI Output (To)"
         },
         {
             "id": "Code (To)",
             "group": 4,
-            "step": "Data Output (To)"
+            "step": "AI Output (To)"
         }
     ],
     "links": [
@@ -88,6 +133,54 @@
         },
         {
             "source": "Collect",
+            "target": "Prompt (From)"
+        },
+        {
+            "source": "Prompt (From)",
+            "target": "Table (To)"
+        },
+        {
+            "source": "Prompt (From)",
+            "target": "Text File (To)"
+        },
+        {
+            "source": "Prompt (From)",
+            "target": "Literature Reference (To)"
+        },
+        {
+            "source": "Collect",
+            "target": "Text File (From)"
+        },
+        {
+            "source": "Text File (From)",
+            "target": "Table (To)"
+        },
+        {
+            "source": "Collect",
+            "target": "Voice (From)"
+        },
+        {
+            "source": "Voice (From)",
+            "target": "Voice (To)"
+        },
+        {
+            "source": "Understand",
+            "target": "Recommend"
+        },
+        {
+            "source": "Recommend",
+            "target": "Image File (From)"
+        },
+        {
+            "source": "Image File (From)",
+            "target": "Voice (To)"
+        },
+        {
+            "source": "Understand",
+            "target": "Summarise"
+        },
+        {
+            "source": "Summarise",
             "target": "Text File (From)"
         },
         {
@@ -103,12 +196,20 @@
             "target": "Prompt (From)"
         },
         {
-            "source": "Prompt (From)",
-            "target": "Text File (To)"
-        },
-        {
             "source": "Translate",
             "target": "Text File (From)"
+        },
+        {
+            "source": "Define",
+            "target": "Recognise"
+        },
+        {
+            "source": "Recognise",
+            "target": "Image File (From)"
+        },
+        {
+            "source": "Image File (From)",
+            "target": "Text File (To)"
         },
         {
             "source": "Define",
@@ -120,7 +221,7 @@
         },
         {
             "source": "Summarise",
-            "target": "Text File (From)"
+            "target": "Image File (From)"
         },
         {
             "source": "Ideate",
@@ -131,15 +232,35 @@
             "target": "Prompt (From)"
         },
         {
-            "source": "Generate",
-            "target": "Text File (From)"
+            "source": "Prompt (From)",
+            "target": "Image File (To)"
         },
         {
-            "source": "Ideate",
-            "target": "Translate"
+            "source": "Generate",
+            "target": "Image File (From)"
+        },
+        {
+            "source": "Image File (From)",
+            "target": "Image File (To)"
         },
         {
             "source": "Prototype",
+            "target": "Generate"
+        },
+        {
+            "source": "Generate",
+            "target": "Voice (From)"
+        },
+        {
+            "source": "Develop",
+            "target": "Generate"
+        },
+        {
+            "source": "Prompt (From)",
+            "target": "Code (To)"
+        },
+        {
+            "source": "Develop",
             "target": "Debug"
         },
         {
@@ -151,20 +272,16 @@
             "target": "Code (To)"
         },
         {
-            "source": "Prototype",
-            "target": "Generate"
-        },
-        {
-            "source": "Develop",
-            "target": "Debug"
-        },
-        {
             "source": "Release",
             "target": "Generate"
         },
         {
             "source": "Release",
-            "target": "Translate"
+            "target": "Optimise"
+        },
+        {
+            "source": "Optimise",
+            "target": "Prompt (From)"
         }
     ]
 }

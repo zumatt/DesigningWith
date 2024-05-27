@@ -23,12 +23,17 @@
         {
             "id": "Prompt (From)",
             "group": 3,
-            "step": "Data Input (From)"
+            "step": "AI Input (From)"
         },
         {
             "id": "3D (To)",
             "group": 4,
-            "step": "Data Output (To)"
+            "step": "AI Output (To)"
+        },
+        {
+            "id": "Text File (To)",
+            "group": 4,
+            "step": "AI Output (To)"
         }
     ],
     "links": [
@@ -43,6 +48,10 @@
         {
             "source": "Prompt (From)",
             "target": "3D (To)"
+        },
+        {
+            "source": "Prompt (From)",
+            "target": "Text File (To)"
         },
         {
             "source": "Ideate",

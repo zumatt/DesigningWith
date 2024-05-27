@@ -13,12 +13,17 @@
         {
             "id": "Prompt (From)",
             "group": 3,
-            "step": "Data Input (From)"
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Mockup (To)",
+            "group": 4,
+            "step": "AI Output (To)"
         },
         {
             "id": "Presentation (To)",
             "group": 4,
-            "step": "Data Output (To)"
+            "step": "AI Output (To)"
         }
     ],
     "links": [
@@ -29,6 +34,10 @@
         {
             "source": "Generate",
             "target": "Prompt (From)"
+        },
+        {
+            "source": "Prompt (From)",
+            "target": "Mockup (To)"
         },
         {
             "source": "Prompt (From)",

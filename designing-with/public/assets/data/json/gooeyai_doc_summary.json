@@ -1,0 +1,86 @@
+{
+    "nodes": [
+        {
+            "id": "Understand",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Define",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Summarise",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
+            "id": "Text File (From)",
+            "group": 3,
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Literature Reference (From)",
+            "group": 3,
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Table (From)",
+            "group": 3,
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Voice (From)",
+            "group": 3,
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Text File (To)",
+            "group": 4,
+            "step": "AI Output (To)"
+        }
+    ],
+    "links": [
+        {
+            "source": "Understand",
+            "target": "Summarise"
+        },
+        {
+            "source": "Summarise",
+            "target": "Text File (From)"
+        },
+        {
+            "source": "Text File (From)",
+            "target": "Text File (To)"
+        },
+        {
+            "source": "Summarise",
+            "target": "Literature Reference (From)"
+        },
+        {
+            "source": "Literature Reference (From)",
+            "target": "Text File (To)"
+        },
+        {
+            "source": "Summarise",
+            "target": "Table (From)"
+        },
+        {
+            "source": "Table (From)",
+            "target": "Text File (To)"
+        },
+        {
+            "source": "Summarise",
+            "target": "Voice (From)"
+        },
+        {
+            "source": "Voice (From)",
+            "target": "Text File (To)"
+        },
+        {
+            "source": "Define",
+            "target": "Summarise"
+        }
+    ]
+}

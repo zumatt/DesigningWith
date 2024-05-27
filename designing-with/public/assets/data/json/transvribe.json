@@ -1,6 +1,11 @@
 {
     "nodes": [
         {
+            "id": "Understand",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
             "id": "Define",
             "group": 1,
             "step": "Design Phase"
@@ -13,17 +18,17 @@
         {
             "id": "Video File (From)",
             "group": 3,
-            "step": "Data Input (From)"
+            "step": "AI Input (From)"
         },
         {
             "id": "Text File (To)",
             "group": 4,
-            "step": "Data Output (To)"
+            "step": "AI Output (To)"
         }
     ],
     "links": [
         {
-            "source": "Define",
+            "source": "Understand",
             "target": "Collect"
         },
         {
@@ -33,6 +38,10 @@
         {
             "source": "Video File (From)",
             "target": "Text File (To)"
+        },
+        {
+            "source": "Define",
+            "target": "Collect"
         }
     ]
 }

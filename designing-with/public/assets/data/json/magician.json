@@ -18,17 +18,37 @@
         {
             "id": "Prompt (From)",
             "group": 3,
-            "step": "Data Input (From)"
+            "step": "AI Input (From)"
         },
         {
-            "id": "Text File (To)",
+            "id": "Code (From)",
+            "group": 3,
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Copy (To)",
             "group": 4,
-            "step": "Data Output (To)"
+            "step": "AI Output (To)"
+        },
+        {
+            "id": "Icon (To)",
+            "group": 4,
+            "step": "AI Output (To)"
+        },
+        {
+            "id": "Image File (To)",
+            "group": 4,
+            "step": "AI Output (To)"
         },
         {
             "id": "Interface Component (To)",
             "group": 4,
-            "step": "Data Output (To)"
+            "step": "AI Output (To)"
+        },
+        {
+            "id": "Code (To)",
+            "group": 4,
+            "step": "AI Output (To)"
         }
     ],
     "links": [
@@ -42,7 +62,15 @@
         },
         {
             "source": "Prompt (From)",
-            "target": "Text File (To)"
+            "target": "Copy (To)"
+        },
+        {
+            "source": "Prompt (From)",
+            "target": "Icon (To)"
+        },
+        {
+            "source": "Prompt (From)",
+            "target": "Image File (To)"
         },
         {
             "source": "Prototype",
@@ -51,6 +79,14 @@
         {
             "source": "Prompt (From)",
             "target": "Interface Component (To)"
+        },
+        {
+            "source": "Generate",
+            "target": "Code (From)"
+        },
+        {
+            "source": "Code (From)",
+            "target": "Code (To)"
         }
     ]
 }

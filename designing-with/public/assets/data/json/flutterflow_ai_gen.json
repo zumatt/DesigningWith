@@ -11,19 +11,39 @@
             "step": "Design Phase"
         },
         {
+            "id": "Develop",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
             "id": "Generate",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
+            "id": "Debug",
             "group": 2,
             "step": "AI Capability"
         },
         {
             "id": "Prompt (From)",
             "group": 3,
-            "step": "Data Input (From)"
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Code (From)",
+            "group": 3,
+            "step": "AI Input (From)"
         },
         {
             "id": "Interface Component (To)",
             "group": 4,
-            "step": "Data Output (To)"
+            "step": "AI Output (To)"
+        },
+        {
+            "id": "Code (To)",
+            "group": 4,
+            "step": "AI Output (To)"
         }
     ],
     "links": [
@@ -42,6 +62,26 @@
         {
             "source": "Prototype",
             "target": "Generate"
+        },
+        {
+            "source": "Prompt (From)",
+            "target": "Code (To)"
+        },
+        {
+            "source": "Develop",
+            "target": "Generate"
+        },
+        {
+            "source": "Develop",
+            "target": "Debug"
+        },
+        {
+            "source": "Debug",
+            "target": "Code (From)"
+        },
+        {
+            "source": "Code (From)",
+            "target": "Code (To)"
         }
     ]
 }

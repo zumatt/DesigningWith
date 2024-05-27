@@ -1,0 +1,60 @@
+{
+    "nodes": [
+        {
+            "id": "Ideate",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Generate",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
+            "id": "Recommend",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
+            "id": "Instructions (From)",
+            "group": 3,
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Model (To)",
+            "group": 4,
+            "step": "AI Output (To)"
+        },
+        {
+            "id": "Color palette (To)",
+            "group": 4,
+            "step": "AI Output (To)"
+        }
+    ],
+    "links": [
+        {
+            "source": "Ideate",
+            "target": "Generate"
+        },
+        {
+            "source": "Generate",
+            "target": "Instructions (From)"
+        },
+        {
+            "source": "Instructions (From)",
+            "target": "Model (To)"
+        },
+        {
+            "source": "Ideate",
+            "target": "Recommend"
+        },
+        {
+            "source": "Recommend",
+            "target": "Instructions (From)"
+        },
+        {
+            "source": "Instructions (From)",
+            "target": "Color palette (To)"
+        }
+    ]
+}

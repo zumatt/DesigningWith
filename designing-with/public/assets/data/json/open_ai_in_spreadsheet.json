@@ -21,17 +21,17 @@
             "step": "Design Phase"
         },
         {
-            "id": "Develop",
-            "group": 1,
-            "step": "Design Phase"
-        },
-        {
             "id": "Release",
             "group": 1,
             "step": "Design Phase"
         },
         {
-            "id": "Translate",
+            "id": "Collect",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
+            "id": "Optimise",
             "group": 2,
             "step": "AI Capability"
         },
@@ -41,37 +41,65 @@
             "step": "AI Capability"
         },
         {
-            "id": "Debug",
+            "id": "Translate",
             "group": 2,
             "step": "AI Capability"
         },
         {
+            "id": "Prompt (From)",
+            "group": 3,
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Table (From)",
+            "group": 3,
+            "step": "AI Input (From)"
+        },
+        {
             "id": "Text File (From)",
             "group": 3,
-            "step": "Data Input (From)"
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Table (To)",
+            "group": 4,
+            "step": "AI Output (To)"
+        },
+        {
+            "id": "Copy (To)",
+            "group": 4,
+            "step": "AI Output (To)"
         },
         {
             "id": "Text File (To)",
             "group": 4,
-            "step": "Data Output (To)"
+            "step": "AI Output (To)"
         }
     ],
     "links": [
         {
             "source": "Understand",
-            "target": "Translate"
+            "target": "Collect"
         },
         {
-            "source": "Translate",
-            "target": "Text File (From)"
+            "source": "Collect",
+            "target": "Prompt (From)"
         },
         {
-            "source": "Text File (From)",
-            "target": "Text File (To)"
+            "source": "Prompt (From)",
+            "target": "Table (To)"
         },
         {
             "source": "Define",
-            "target": "Translate"
+            "target": "Collect"
+        },
+        {
+            "source": "Define",
+            "target": "Optimise"
+        },
+        {
+            "source": "Optimise",
+            "target": "Prompt (From)"
         },
         {
             "source": "Ideate",
@@ -79,27 +107,19 @@
         },
         {
             "source": "Generate",
-            "target": "Text File (From)"
+            "target": "Table (From)"
         },
         {
-            "source": "Ideate",
-            "target": "Translate"
+            "source": "Table (From)",
+            "target": "Copy (To)"
         },
         {
-            "source": "Prototype",
-            "target": "Debug"
-        },
-        {
-            "source": "Debug",
-            "target": "Text File (From)"
+            "source": "Table (From)",
+            "target": "Text File (To)"
         },
         {
             "source": "Prototype",
             "target": "Generate"
-        },
-        {
-            "source": "Develop",
-            "target": "Debug"
         },
         {
             "source": "Release",
@@ -107,7 +127,23 @@
         },
         {
             "source": "Release",
+            "target": "Optimise"
+        },
+        {
+            "source": "Optimise",
+            "target": "Text File (From)"
+        },
+        {
+            "source": "Text File (From)",
+            "target": "Text File (To)"
+        },
+        {
+            "source": "Release",
             "target": "Translate"
+        },
+        {
+            "source": "Translate",
+            "target": "Text File (From)"
         }
     ]
 }

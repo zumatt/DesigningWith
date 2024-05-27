@@ -13,12 +13,12 @@
         {
             "id": "Gesture (From)",
             "group": 3,
-            "step": "Data Input (From)"
+            "step": "AI Input (From)"
         },
         {
-            "id": "Instructions (To)",
+            "id": "Model (To)",
             "group": 4,
-            "step": "Data Output (To)"
+            "step": "AI Output (To)"
         }
     ],
     "links": [
@@ -32,7 +32,7 @@
         },
         {
             "source": "Gesture (From)",
-            "target": "Instructions (To)"
+            "target": "Model (To)"
         }
     ]
 }

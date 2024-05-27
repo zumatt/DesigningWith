@@ -1,0 +1,60 @@
+{
+    "nodes": [
+        {
+            "id": "Prototype",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Develop",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Generate",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
+            "id": "Video File (From)",
+            "group": 3,
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Voice (From)",
+            "group": 3,
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Video File (To)",
+            "group": 4,
+            "step": "AI Output (To)"
+        }
+    ],
+    "links": [
+        {
+            "source": "Prototype",
+            "target": "Generate"
+        },
+        {
+            "source": "Generate",
+            "target": "Video File (From)"
+        },
+        {
+            "source": "Video File (From)",
+            "target": "Video File (To)"
+        },
+        {
+            "source": "Generate",
+            "target": "Voice (From)"
+        },
+        {
+            "source": "Voice (From)",
+            "target": "Video File (To)"
+        },
+        {
+            "source": "Develop",
+            "target": "Generate"
+        }
+    ]
+}

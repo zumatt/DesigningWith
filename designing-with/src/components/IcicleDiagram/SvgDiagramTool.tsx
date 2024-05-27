@@ -63,7 +63,7 @@ export const SvgDiagram = ({
               .attr("class", "title")
               .attr("font-family", "Helvetica")
               .attr("font-size", 15)
-              .attr("x", index === 0 ? index * columnWidth + columnWidth / 2 - 135 : index === 1 ? index * columnWidth + columnWidth / 2 - 90 : index * columnWidth + columnWidth / 2 - 80)
+              .attr("x", index === 0 ? index * columnWidth + columnWidth / 2 - 135 : index === 1 ? index * columnWidth + columnWidth / 2 - 80 : index === 2 ? index * columnWidth + columnWidth / 2 - 95 : index * columnWidth + columnWidth / 2 - 25)
               .attr("y", +15)
               .style("text-anchor", "start")
               .text(title);
@@ -85,9 +85,9 @@ export const SvgDiagram = ({
             .attr("d", d => {
               const source = data.nodes.find(node => node.id === d.source)!;
               const target = data.nodes.find(node => node.id === d.target)!;
-              const sourceX = source.group === 1 ? source.x! + 20 : source.x! + 50;
+              const sourceX = source.group === 1 ? source.x! + 20 : source.x! + 80;
               const sourceY = source.y! + 20;
-              const targetX = source.group === 2 ? target.x! - 40 : source.group === 3 ? target.x! - 40 : target.x! - 50;
+              const targetX = source.group === 2 ? target.x! - 80 : source.group === 3 ? target.x! - 40 : target.x! - 80;
               const targetY = target.y! + 20;
 
               const controlX = sourceX + (targetX - sourceX) / 2;
@@ -99,12 +99,13 @@ export const SvgDiagram = ({
             .style("stroke", "#B777F7");
 
           data.nodes.forEach((node: Node) => {
+            console.log(node);
             svg
               .append("rect")
               .attr("class", "square")
               .attr("width", 10)
               .attr("height", 10)
-              .attr("x", node.group === 1 ? node.x! + 20 : node.group === data.nodes[data.nodes.length - 2].group ? node.x! - 50 : node.group === data.nodes[data.nodes.length - 1].group ? node.x! - 50 : node.x! - 60)
+              .attr("x", node.group === 1 ? node.x! + 20 : node.group === 3 ? node.x! - 80 : node.group === 4 ? node.x! - 50 : node.x! - 80)
               .attr("y", node.y! + 15)
               .style("fill", "#B777F7");
             
@@ -114,7 +115,7 @@ export const SvgDiagram = ({
                 .attr("class", "square")
                 .attr("width", 10)
                 .attr("height", 10)
-                .attr("x", node.x! + 50)
+                .attr("x", node.x! + 80)
                 .attr("y", node.y! + 15)
                 .style("fill", "#B777F7");
             }
@@ -125,13 +126,14 @@ export const SvgDiagram = ({
               .append("text")
               .attr("class", "label")
               .attr("font-family", "Helvetica")
-              .attr("font-size", 20 * (width / 1200))
-              .attr("dx", node.group === 1 ? -93 : node.x! > width / 2 ? 5 : 0)
+              .attr("font-size", 18 * (width / 1200))
+              .attr("dx", node.group === 1 ? -93 : node.group === 2 ? 0 : node.group === 3 ? 0 : 70)
+              //node.x! > width / 2 ? 40 : 0)
               .attr("dy", 25)
               .attr("x", node.x!)
               .attr("y", node.y!)
               .style("text-anchor", node.group === 1 ? "start" : "middle")
-              .text(node.group === data.nodes[data.nodes.length - 1].group ? node.id.slice(0, -4) : node.group === data.nodes[data.nodes.length - 2].group ? node.id.slice(0, -6) : node.id);
+              .text(node.id.replace("(From)", "").replace("(To)", ""));
           });
         }
       });

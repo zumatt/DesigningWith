@@ -405,7 +405,7 @@ const Resources = () => {
               </>
             ),
           },
-          /*{
+          {
             title: "Publications",
             mobileTitle: "Publications",
             elements: (
@@ -447,7 +447,7 @@ const Resources = () => {
                 </div>
               </>
             ),
-          },*/
+          },
         ]}
       />
       <p className="text-[12px] md:text-[15px] mt-10">
