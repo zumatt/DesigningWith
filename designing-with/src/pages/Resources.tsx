@@ -413,15 +413,17 @@ const Resources = () => {
                 <div className="flex flex-col gap-2">
                   <div className="flex flex-col md:flex-row bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white rounded-b-2xl md:rounded-tr-2xl  px-4 py-6 justify-between gap-[14px]">
                     <p className="flex-1 mt-[33px] mb-[25px]">
-                    This section provides a comprehensive archive of
-                    the academic bibliography that supports our research.
-                    It provides a curated selection of literature from the interrelated
-                    fields of design education, machine learning and artificial intelligence.
+                    This section collects the dissemination activities undertaken by the
+                    research: academic papers, conferences and presentations.
+                    The following publications have been developed to share the
+                    project’s findings and insights with the academic community and
+                    beyond.
                     </p>
                     <p className="flex-1 mt-[33px] mb-[25px]">
-                    This collection not only supports the theoretical framework of our project,
-                    but also enriches the understanding by providing different perspectives and
-                    insights into these dynamic and evolving fields.
+                    Sharing these publications is a way to contribute to the
+                    advancement of knowledge in the field of design education and
+                    artificial intelligence, as well as to foster dialogue and
+                    collaboration with other researchers and practitioners.
                     </p>
                   </div>
                   <div className="flex flex-col w-full gap-2">
