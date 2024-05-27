@@ -273,13 +273,13 @@ const DidacticGuidelines = () => {
                           </p>
                         </a>
                       </GuidelinesAccordeon>
-                      <GuidelinesAccordeon title="Getting Familiar with Machine Learning (ML) – Sub-module 2">
+                      <GuidelinesAccordeon title="Getting Familiar with Generative AI (GenAI) – Sub-module 2">
                         <h1 className="mt-[33px]">Educational Objective</h1>
                         <h2 className="mt-[10px]">
                           <TextHighlight2>Students will learn</TextHighlight2>{" "}
                           to{" "}
                           <TextHighlight2 color="bg-[#75D668] bg-opacity-50 shadow-[#75D668]" >
-                            produce content with generative AI tools
+                            produce content with GenAI tools
                           </TextHighlight2>{" "}
                           to{" "}
                           <TextHighlight2 color="bg-[#73EB14] bg-opacity-60 shadow-[#73EB14]">
@@ -419,7 +419,7 @@ const DidacticGuidelines = () => {
                           </p>
                         </a>
                       </GuidelinesAccordeon>
-                      <GuidelinesAccordeon title="Getting Familiar with Machine Learning (ML) – Sub-module 3">
+                      <GuidelinesAccordeon title="Getting Familiar with Data Visualization (DV) – Sub-module 3">
                         <h1 className="mt-[40px]">Educational Objective</h1>
                         <h2 className="mt-[15px]">
                           <TextHighlight2>Students will learn</TextHighlight2>{" "}
