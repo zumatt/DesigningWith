@@ -286,7 +286,7 @@ const Resources = () => {
                       Explore more
                     </button>
                   ) : (
-                    <div>
+                    <div className="flex flex-col gap-2">
                       <div className="flex flex-col md:flex-row gap-2 w-full">
                         <Bibliography
                           title="Iyengar, S. S., & Lepper, M. R. (2000). When choice is demotivating: Can one desire too much of a good thing? Journal of Personality and Social Psychology, 79(6), 995–1006. "
