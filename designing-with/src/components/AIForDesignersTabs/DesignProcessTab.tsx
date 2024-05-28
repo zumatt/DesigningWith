@@ -1,5 +1,6 @@
 import { TabElement } from "../TabsDisplay";
 import DesignProcessTable from "../DesignProcessTable";
+import DesignPhaseSvg from "../AIForDesignersContent/DesignPhaseSvg";
 
 const DesignProcessTab: TabElement = {
   title: "(a) Design process",
@@ -25,6 +26,9 @@ const DesignProcessTab: TabElement = {
           by Ideo (Design Council, n.d., 2021).
           </p>
         </div>
+      </div>
+      <div className="bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white px-4 py-6 rounded-b-2xl">
+          <DesignPhaseSvg />
       </div>
     </div>),
       extra: (

@@ -3,6 +3,7 @@ import AiForDesignersSvg from "../AiForDesignersSvg";
 import AdditionalInformations from "../AdditionalInformations";
 
 const DataTypesTab: TabElement = {
+  
   title: "(c) Data types",
   mobileTitle: "(c)",
   elements: (
