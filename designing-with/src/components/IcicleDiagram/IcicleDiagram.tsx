@@ -105,9 +105,14 @@ const IcicleDiagram = ({
           <button
             key={stage.name}
             onClick={() => toggleStageDiagram(stage, [])}
-            className="hidden md:flex bg-white rounded justify-center item-center [writing-mode:vertical-rl] rotate-180 w-6 min-h-[80vh] left-0 m-1 p-1"
+            className="hidden md:flex bg-white rounded justify-center item-center rotate-180 w-6 min-h-[80vh] left-0 m-1 p-1"
           >
-            {stage.name}
+            <p style={{
+              fontSize: "15px",
+              rotate: "90deg",
+              marginTop: "auto",
+              marginBottom: "auto",
+              }}>{stage.name}</p>
           </button>
         ))}
 
