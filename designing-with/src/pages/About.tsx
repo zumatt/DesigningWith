@@ -153,12 +153,11 @@ const About = () => {
             - Website Designer
           </p>
           <br />
-          <br />
         </div>
         <div className="flex-1 md:w-1/4">
           <p className="text-[12px] md:text-[15px] ">
-            <span>Project Partners</span>
-            <br />
+            <span className="hidden md:block">Project Partners</span>
+            <p className="flex md:hidden text-[12px]">Project Partner</p>
             <br />
             <u>
               <a
@@ -172,7 +171,6 @@ const About = () => {
             </u>{" "}
             <span className="italic">- Universidade NOVA de Lisboa</span>
             <br />
-            <p className="flex md:hidden text-[12px]">People Involved</p>
             <u>
               <a
                 href="https://www.linkedin.com/in/jannajoceliomena/"
@@ -197,14 +195,13 @@ const About = () => {
             </u>{" "}
             - Researcher and Teacher
             <br />
-            <br />
           </p>
         </div>
         <div className="flex-1 md:w-1/4">
           <p className=" text-[12px] md:text-[15px] ">
             <br />
-            <br />
             <p className="flex md:hidden text-[12px]">Project Partner</p>
+            <br />
             <u>
               <a
                 href="https://www.epfl.ch/"
@@ -217,7 +214,6 @@ const About = () => {
             </u>{" "}
             <span className="italic">- École Polytechnique Fédérale de Lausanne</span>
             <br />
-            <p className="flex md:hidden text-[12px]">People Involved</p>
             <u>
               <a
                 href="https://www.linkedin.com/in/huangjef/"
