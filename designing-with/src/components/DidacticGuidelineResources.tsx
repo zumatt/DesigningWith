@@ -32,7 +32,7 @@ const DidacticGuidelineResources = ({
           download={`${type === "Resources" ? `${filename}` : ""}`}
           className="text-[16px] md:text-[29px] underline ml-auto"
         >
-          {type === "Resources" ? "Download" : "Go to link"}
+          {type === "Resources" ? "Download" : "Open link"}
         </a>
       </div>
       <div className="flex md:hidden w-full">
@@ -53,7 +53,7 @@ const DidacticGuidelineResources = ({
           download={`${type === "Resources" ? `${filename}` : ""}`}
           className="text-[16px] md:text-[29px] underline ml-auto whitespace-nowrap"
         >
-          {type === "Resources" ? "Download" : "Go to link"}
+          {type === "Resources" ? "Download" : "Open link"}
         </a>
       </div>
     </div>

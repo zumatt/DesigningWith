@@ -67,7 +67,7 @@ const RenderToolCards = ({
           <SvgDiagram jsonDiagramUrl={stage.tooldiagram} />
           <div className="flex flex-row w-full justify-end mt-5">
             <a href={stage.link} target="_blank" rel="noreferrer">
-              <u>Go to the tool</u>
+              <u>Open the tool</u>
             </a>
           </div>
         </div>
