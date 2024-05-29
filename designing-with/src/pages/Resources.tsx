@@ -429,8 +429,8 @@ const Resources = () => {
                   <div className="flex flex-col w-full gap-2">
                     <div className="flex flex-col md:flex-row gap-2 w-full">
                       <Bibliography
-                        title="Autuori, A., Botta, M., Subet, M., & Terenghi, G. (2024). Designing With: AI, ML and DV - Didactic Guidelines. SUPSI University of Applied Sciences and Arts of Southern Switzerland. "
-                        link="http://dx.doi.org/10.5281/zenodo.10925622"
+                        title="Autuori, A., Botta, M., Subet, M., & Terenghi, G. (2024). Designing With: A New Educational Module to Integrate Artificial Intelligence, Machine Learning and Data Visualization in Design Curricula. Didactic Guidelines. SUPSI University of Applied Sciences and Arts of Southern Switzerland. "
+                        link="https://doi.org/10.5281/zenodo.11355679"
                       />
                       <Bibliography
                         title="Autuori, A., Botta, M., Subet, M., Terenghi, G., & Joceli Omena, J. (2024). Designing With: AI, ML and DV - Workshop."

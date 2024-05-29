@@ -1113,7 +1113,7 @@ const DidacticGuidelines = () => {
                         <TextHighlight3 color="bg-[#75D668] ">
                           provide students
                         </TextHighlight3>
-                        with{" "}
+                        {" "}with{" "}
                         <TextHighlight3 color="bg-[#73EB14] ">
                           vocabulary knowledge of ML;
                         </TextHighlight3>
@@ -1127,7 +1127,7 @@ const DidacticGuidelines = () => {
                         <TextHighlight3 color="bg-[#75D668] ">
                           provide students
                         </TextHighlight3>
-                        with{" "}
+                        {" "}with{" "}
                         <TextHighlight3 color="bg-[#73EB14] ">
                           a basic functionality of ML;
                         </TextHighlight3>
@@ -1141,7 +1141,7 @@ const DidacticGuidelines = () => {
                         <TextHighlight3 color="bg-[#75D668] ">
                           provide students
                         </TextHighlight3>
-                        with{" "}
+                        {" "}with{" "}
                         <TextHighlight3 color="bg-[#73EB14] ">
                           practical examples of machine learning applied to
                           design;
@@ -1156,7 +1156,7 @@ const DidacticGuidelines = () => {
                         <TextHighlight3 color="bg-[#75D668] ">
                           explain
                         </TextHighlight3>{" "}
-                        the
+                        the{" "}
                         <TextHighlight3 color="bg-[#73EB14] ">
                           procedure of training a simplified machine learning
                           model;
@@ -1172,7 +1172,7 @@ const DidacticGuidelines = () => {
                         <TextHighlight3 color="bg-[#75D668] ">
                           set or align
                         </TextHighlight3>
-                        with{" "}
+                        {" "}with{" "}
                         <TextHighlight3 color="bg-[#73EB14] ">
                           a design goal;
                         </TextHighlight3>
@@ -1200,7 +1200,7 @@ const DidacticGuidelines = () => {
                         <TextHighlight3 color="bg-[#75D668]">
                           provide
                         </TextHighlight3>{" "}
-                        a
+                        a{" "}
                         <TextHighlight3 color="bg-[#73EB14]">
                           step-by-step tool tutorial, such as RunwayML;
                         </TextHighlight3>
@@ -1214,7 +1214,7 @@ const DidacticGuidelines = () => {
                         <TextHighlight3 color="bg-[#75D668]">
                           allow students
                         </TextHighlight3>{" "}
-                        to
+                        to{" "}
                         <TextHighlight3 color="bg-[#73EB14]">
                           individually train a simplified machine learning model
                           for a design goal;
@@ -1229,7 +1229,7 @@ const DidacticGuidelines = () => {
                         <TextHighlight3 color="bg-[#75D668]">
                           provide students
                         </TextHighlight3>
-                        with a{" "}
+                        {" "}with a{" "}
                         <TextHighlight3 color="bg-[#73EB14]">
                           structured template for process and results
                           documentation;
