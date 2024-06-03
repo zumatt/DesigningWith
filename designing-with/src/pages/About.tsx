@@ -53,7 +53,7 @@ const About = () => {
           <button
             onClick={() => {
               navigator.clipboard.writeText(
-                "Botta, M., Autuori, A., Subet, M., Terenghi, G., (2024). Designing With: A New Educational Module to Integrate Artificial Intelligence, Machine Learning, and Data Visualization in Design Curricula. designingwithai.ch"
+                "Botta, M., Autuori, A., Subet, M., Terenghi, G., Omena, J.J., Leite, E., Kim, F.C., (2024). Designing With: A New Educational Module to Integrate Artificial Intelligence, Machine Learning, and Data Visualization in Design Curricula. designingwithai.ch"
               );
               alert("Reference has been copied to the clipboard!");
             }}
@@ -63,7 +63,7 @@ const About = () => {
           </button>
           <p>
             {" "}
-            Botta, M., Autuori, A., Subet, M., Terenghi, G., (2024).
+            Botta, M., Autuori, A., Subet, M., Terenghi, G., Omena, J.J., Leite, E., Kim, F.C., (2024).
             <i>
               {" "}
               Designing With: A New Educational Module to Integrate Artificial
