@@ -22,7 +22,7 @@ const FilterAICapability: React.FC<FilterAICapabilityProps> = (props) => {
         (f) => f.values.includes(props.name) && f.depth === props.depth
       ).length > 0
     );
-  }, [props.filters]);
+  }, [props.filters, props.name, props.depth]);
   return (
     <div>
       <button
