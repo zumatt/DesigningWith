@@ -81,7 +81,10 @@ const InteractiveFrameworkDesktop = () => {
           },
         ];
       } else {
-        return [{ depth: depth, values: [...prev[index].values, name] }];
+        return [
+          ...prev.filter((filter) => filter.depth !== depth),
+          { depth: depth, values: [...prev[index].values, name] },
+        ];
       }
     });
   };
@@ -106,22 +109,22 @@ const InteractiveFrameworkDesktop = () => {
         } `}
       >
         <button onClick={onClick}>Filter by ({showResults ? "-" : "+"})</button>
-        <div className="flex flex-row gap-2 overflow-hidden">
-          {filters.map((filter, index) => (
-            <button
-              key={index}
-              onClick={() =>
-                changeFilter(filter.values[0], filter.depth, false)
-              }
-              className="bg-black text-white rounded-xl px-2"
-            >
-              {filter.values[0]} ⨯
-            </button>
-          ))}
+        <div className="flex flex-row gap-2 overflow-scroll max-w-[80%]">
+          {filters.map((filter, index) =>
+            filter.values.map((value) => (
+              <button
+                key={index}
+                onClick={() => changeFilter(value, filter.depth, false)}
+                className="bg-black text-white rounded-xl px-2 w-auto inline-block"
+              >
+                {value} ⨯
+              </button>
+            ))
+          )}
           {filters.length > 0 && (
             <button
               onClick={() => setFilters([])}
-              className="bg-black text-white rounded-xl px-2"
+              className="bg-black text-white rounded-xl px-2 w-auto inline-block"
             >
               Clear all filters ⨯
             </button>

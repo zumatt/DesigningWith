@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { FilterArg } from "./FilterUtils";
 import { filter } from "d3";
 
@@ -10,16 +10,19 @@ interface FilterAICapabilityProps {
 }
 
 const FilterAICapability: React.FC<FilterAICapabilityProps> = (props) => {
-  const [showResults, setShowResults] = React.useState(
-    filter(
-      props.filters,
-      (f) => f.values.includes(props.name) && f.depth === props.depth
-    ).length > 0
-  );
+  const [showResults, setShowResults] = React.useState(false);
   const onClick = () => {
     props.onFilter(props.name, props.depth, !showResults);
     setShowResults(!showResults);
   };
+  useEffect(() => {
+    setShowResults(
+      filter(
+        props.filters,
+        (f) => f.values.includes(props.name) && f.depth === props.depth
+      ).length > 0
+    );
+  }, [props.filters]);
   return (
     <div>
       <button
