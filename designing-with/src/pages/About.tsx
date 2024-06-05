@@ -12,7 +12,7 @@ const About = () => {
         Curricula, is a research project that aims to develop and define a
         new educational module suitable for multidisciplinary environments
         to integrate Artificial Intelligence (AI), Machine Learning (ML),
-        and Computer Vision (CV) into Design curricula.
+        and Data Visualization (DV) into Design curricula.
       </h2>
       <div className="flex flex-col gap-4 md:flex-row w-full">
         <div className=" w-full md:w-1/2">
