@@ -29,6 +29,9 @@ const DesignProcessTab: TabElement = {
       </div>
       <div className="bg-[#D9D9D9] bg-opacity-50 shadow-[inset_0_0_20px_5px_rgba(1,1,1,0)] shadow-white px-4 py-6 rounded-b-2xl">
           <DesignPhaseSvg />
+          <p className="mt-[33px] mb-[25px]">
+          © Botta, M., Autuori, A., Subet, M., Terenghi, G. (2024). Design Process Model for Education.
+          </p>
       </div>
     </div>),
       extra: (

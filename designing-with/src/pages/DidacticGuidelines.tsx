@@ -1443,6 +1443,12 @@ const DidacticGuidelines = () => {
         link="/assets/data/files/Download-Didactic-Guidelines/DesigningWithAI-IcebreakingPlot/DesigningWithAI-IcebreakingPlot.pdf"
         filename="DidacticResource-IcebreakingTool"
       />
+      <DidacticGuidelineResources
+        title="Design Process Model for Education"
+        type="Resources"  
+        link="/assets/data/files/Download-Didactic-Guidelines/©_Botta,_M_,_Autuori,_A_,_Subet,_M_,_Terenghi,_G_2024_Design_Process_Model_for_Education/©_Botta,_M_,_Autuori,_A_,_Subet,_M_,_Terenghi,_G_2024_Design_Process_Model_for_Education.pdf"
+        filename="©_Botta,_M_,_Autuori,_A_,_Subet,_M_,_Terenghi,_G_2024_Design_Process_Model_for_Education"
+      />
 
       <p className="text-[12px] md:text-[15px] mt-10">
         © 2024. This project is licensed under CC BY 4.0. Supported by Movetia.
