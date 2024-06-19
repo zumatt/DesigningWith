@@ -441,7 +441,7 @@ const Resources = () => {
                         link="http://dx.doi.org/10.5281/zenodo.10474065"
                       />
                       <Bibliography
-                        title="Botta M., Autuori A., Terenghi G., Subet M. (In press). A Design-Stage-Oriented Framework to Introduce Artificial Intelligence and Machine Learning in Design Education. Proceedings of the DRS2024: Boston, 24th - 28th June, Boston, MA USA"
+                        title="Botta, M., Autuori, A., Terenghi, G., and Subet, M. (2024) A Design-Stage-Oriented Framework to Introduce Artificial Intelligence and Machine Learning in Design Education, in Gray, C., Hekkert, P., Forlano, L., Ciuccarelli, P. (eds.), DRS2024: Boston, 23–28 June, Boston, USA."
                         link="https://doi.org/10.21606/drs.2024.535"
                       />
                     </div>
