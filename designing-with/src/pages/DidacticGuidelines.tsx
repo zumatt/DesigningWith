@@ -1444,10 +1444,10 @@ const DidacticGuidelines = () => {
         filename="DidacticResource-IcebreakingTool"
       />
       <DidacticGuidelineResources
-        title="Design Process Model for Education"
+        title="Six-Stage Design Process Model for Education"
         type="Resources"  
-        link="/assets/data/files/Download-Didactic-Guidelines/©_Botta,_M_,_Autuori,_A_,_Subet,_M_,_Terenghi,_G_2024_Design_Process_Model_for_Education/©_Botta,_M_,_Autuori,_A_,_Subet,_M_,_Terenghi,_G_2024_Design_Process_Model_for_Education.pdf"
-        filename="©_Botta,_M_,_Autuori,_A_,_Subet,_M_,_Terenghi,_G_2024_Design_Process_Model_for_Education"
+        link="/assets/data/files/Download-Didactic-Guidelines/©_Botta,_M_,_Autuori,_A_,_Subet,_M_,_Terenghi,_G_2024_Six-Stage_Design_Process_Model_for_Education/©_Botta,_M_,_Autuori,_A_,_Subet,_M_,_Terenghi,_G_2024_Six-Stage_Design_Process_Model_for_Education.pdf"
+        filename="©_Botta,_M_,_Autuori,_A_,_Subet,_M_,_Terenghi,_G_2024_Six-Stage_Design_Process_Model_for_Education"
       />
 
       <p className="text-[12px] md:text-[15px] mt-10">
