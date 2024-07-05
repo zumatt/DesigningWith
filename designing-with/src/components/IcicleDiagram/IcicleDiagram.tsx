@@ -112,6 +112,7 @@ const IcicleDiagram = ({
               rotate: "90deg",
               marginTop: "auto",
               marginBottom: "auto",
+              whiteSpace: "nowrap",
               }}>{stage.name}</p>
           </button>
         ))}
