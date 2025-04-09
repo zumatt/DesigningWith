@@ -1,36 +1,6 @@
 {
     "nodes": [
         {
-            "id": "Video File (To)",
-            "group": 4,
-            "step": "AI Output (To)"
-        },
-        {
-            "id": "Image File (To)",
-            "group": 4,
-            "step": "AI Output (To)"
-        },
-        {
-            "id": "Prompt (From)",
-            "group": 3,
-            "step": "AI Input (From)"
-        },
-        {
-            "id": "Ideate",
-            "group": 1,
-            "step": "Design Phase"
-        },
-        {
-            "id": "ComfyUI",
-            "group": 1,
-            "step": "Design Phase"
-        },
-        {
-            "id": "Prototype",
-            "group": 1,
-            "step": "Design Phase"
-        },
-        {
             "id": "Generate",
             "group": 2,
             "step": "AI Capability"
@@ -39,6 +9,31 @@
             "id": "Soundtrack (To)",
             "group": 4,
             "step": "AI Output (To)"
+        },
+        {
+            "id": "Prototype",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Ideate",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Elevelabs",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Voice (To)",
+            "group": 4,
+            "step": "AI Output (To)"
+        },
+        {
+            "id": "Prompt (From)",
+            "group": 3,
+            "step": "AI Input (From)"
         }
     ],
     "links": [
@@ -53,14 +48,6 @@
         {
             "source": "Prompt (From)",
             "target": "Soundtrack (To)"
-        },
-        {
-            "source": "Prompt (From)",
-            "target": "Image File (To)"
-        },
-        {
-            "source": "Prompt (From)",
-            "target": "Video File (To)"
         },
         {
             "source": "Prototype",

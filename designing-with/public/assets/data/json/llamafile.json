@@ -6,17 +6,17 @@
             "step": "AI Capability"
         },
         {
-            "id": "Release",
-            "group": 1,
-            "step": "Design Phase"
-        },
-        {
-            "id": "Image File (From)",
+            "id": "Prompt (From)",
             "group": 3,
             "step": "AI Input (From)"
         },
         {
-            "id": "Generate",
+            "id": "Understand",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Debug",
             "group": 2,
             "step": "AI Capability"
         },
@@ -26,77 +26,12 @@
             "step": "Design Phase"
         },
         {
-            "id": "Gemini",
-            "group": 1,
-            "step": "Design Phase"
-        },
-        {
-            "id": "Prompt (From)",
-            "group": 3,
-            "step": "AI Input (From)"
-        },
-        {
-            "id": "Table (To)",
-            "group": 4,
-            "step": "AI Output (To)"
-        },
-        {
-            "id": "Ideate",
-            "group": 1,
-            "step": "Design Phase"
-        },
-        {
-            "id": "Define",
-            "group": 1,
-            "step": "Design Phase"
-        },
-        {
-            "id": "Recognise",
-            "group": 2,
-            "step": "AI Capability"
-        },
-        {
-            "id": "Collect",
-            "group": 2,
-            "step": "AI Capability"
-        },
-        {
-            "id": "Debug",
-            "group": 2,
-            "step": "AI Capability"
-        },
-        {
-            "id": "Understand",
-            "group": 1,
-            "step": "Design Phase"
-        },
-        {
-            "id": "Recommend",
-            "group": 2,
-            "step": "AI Capability"
-        },
-        {
-            "id": "Prototype",
-            "group": 1,
-            "step": "Design Phase"
-        },
-        {
             "id": "Translate",
             "group": 2,
             "step": "AI Capability"
         },
         {
-            "id": "Voice (To)",
-            "group": 4,
-            "step": "AI Output (To)"
-        },
-        {
-            "id": "Literature Reference (To)",
-            "group": 4,
-            "step": "AI Output (To)"
-        },
-        {
-            "id": "Optimise",
+            "id": "Generate",
             "group": 2,
             "step": "AI Capability"
         },
@@ -106,9 +41,74 @@
             "step": "AI Output (To)"
         },
         {
+            "id": "Collect",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
+            "id": "Optimise",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
+            "id": "Define",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Prototype",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Recommend",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
+            "id": "Llamafile",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
             "id": "Code (To)",
             "group": 4,
             "step": "AI Output (To)"
+        },
+        {
+            "id": "Literature Reference (To)",
+            "group": 4,
+            "step": "AI Output (To)"
+        },
+        {
+            "id": "Ideate",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Table (To)",
+            "group": 4,
+            "step": "AI Output (To)"
+        },
+        {
+            "id": "Voice (To)",
+            "group": 4,
+            "step": "AI Output (To)"
+        },
+        {
+            "id": "Recognise",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
+            "id": "Image File (From)",
+            "group": 3,
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Release",
+            "group": 1,
+            "step": "Design Phase"
         }
     ],
     "links": [

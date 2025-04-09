@@ -1,0 +1,61 @@
+{
+    "nodes": [
+        {
+            "id": "Generate",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
+            "id": "Vizcom",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Image File (To)",
+            "group": 4,
+            "step": "AI Output (To)"
+        },
+        {
+            "id": "3D (To)",
+            "group": 4,
+            "step": "AI Output (To)"
+        },
+        {
+            "id": "Ideate",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Drawing (From)",
+            "group": 3,
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Prototype",
+            "group": 1,
+            "step": "Design Phase"
+        }
+    ],
+    "links": [
+        {
+            "source": "Ideate",
+            "target": "Generate"
+        },
+        {
+            "source": "Generate",
+            "target": "Drawing (From)"
+        },
+        {
+            "source": "Drawing (From)",
+            "target": "Image File (To)"
+        },
+        {
+            "source": "Drawing (From)",
+            "target": "3D (To)"
+        },
+        {
+            "source": "Prototype",
+            "target": "Generate"
+        }
+    ]
+}

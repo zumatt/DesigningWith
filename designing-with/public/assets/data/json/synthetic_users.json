@@ -6,32 +6,22 @@
             "step": "AI Output (To)"
         },
         {
-            "id": "Optimise",
-            "group": 2,
-            "step": "AI Capability"
-        },
-        {
             "id": "Prompt (From)",
             "group": 3,
             "step": "AI Input (From)"
         },
         {
-            "id": "Collect",
+            "id": "Generate",
             "group": 2,
             "step": "AI Capability"
         },
         {
-            "id": "Release",
+            "id": "Prototype",
             "group": 1,
             "step": "Design Phase"
         },
         {
-            "id": "Website (From)",
-            "group": 3,
-            "step": "AI Input (From)"
-        },
-        {
-            "id": "Gooey.ai SEO Booster",
+            "id": "Synthetic Users",
             "group": 1,
             "step": "Design Phase"
         },
@@ -44,10 +34,10 @@
     "links": [
         {
             "source": "Understand",
-            "target": "Collect"
+            "target": "Generate"
         },
         {
-            "source": "Collect",
+            "source": "Generate",
             "target": "Prompt (From)"
         },
         {
@@ -55,16 +45,8 @@
             "target": "Text File (To)"
         },
         {
-            "source": "Release",
-            "target": "Optimise"
-        },
-        {
-            "source": "Optimise",
-            "target": "Website (From)"
-        },
-        {
-            "source": "Website (From)",
-            "target": "Text File (To)"
+            "source": "Prototype",
+            "target": "Generate"
         }
     ]
 }

@@ -1,44 +1,9 @@
 {
     "nodes": [
         {
-            "id": "Summarise",
-            "group": 2,
-            "step": "AI Capability"
-        },
-        {
-            "id": "Release",
-            "group": 1,
-            "step": "Design Phase"
-        },
-        {
-            "id": "Image File (From)",
-            "group": 3,
-            "step": "AI Input (From)"
-        },
-        {
             "id": "Generate",
             "group": 2,
             "step": "AI Capability"
-        },
-        {
-            "id": "Develop",
-            "group": 1,
-            "step": "Design Phase"
-        },
-        {
-            "id": "Gemini",
-            "group": 1,
-            "step": "Design Phase"
-        },
-        {
-            "id": "Prompt (From)",
-            "group": 3,
-            "step": "AI Input (From)"
-        },
-        {
-            "id": "Table (To)",
-            "group": 4,
-            "step": "AI Output (To)"
         },
         {
             "id": "Ideate",
@@ -46,7 +11,7 @@
             "step": "Design Phase"
         },
         {
-            "id": "Define",
+            "id": "Understand",
             "group": 1,
             "step": "Design Phase"
         },
@@ -56,29 +21,9 @@
             "step": "AI Capability"
         },
         {
-            "id": "Collect",
-            "group": 2,
-            "step": "AI Capability"
-        },
-        {
-            "id": "Debug",
-            "group": 2,
-            "step": "AI Capability"
-        },
-        {
-            "id": "Understand",
-            "group": 1,
-            "step": "Design Phase"
-        },
-        {
-            "id": "Recommend",
-            "group": 2,
-            "step": "AI Capability"
-        },
-        {
-            "id": "Prototype",
-            "group": 1,
-            "step": "Design Phase"
+            "id": "Image File (From)",
+            "group": 3,
+            "step": "AI Input (From)"
         },
         {
             "id": "Translate",
@@ -86,12 +31,52 @@
             "step": "AI Capability"
         },
         {
-            "id": "Voice (To)",
+            "id": "Release",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Literature Reference (To)",
             "group": 4,
             "step": "AI Output (To)"
         },
         {
-            "id": "Literature Reference (To)",
+            "id": "Text File (To)",
+            "group": 4,
+            "step": "AI Output (To)"
+        },
+        {
+            "id": "Collect",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
+            "id": "Develop",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Define",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Debug",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
+            "id": "Summarise",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
+            "id": "Deepseek",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Code (To)",
             "group": 4,
             "step": "AI Output (To)"
         },
@@ -101,14 +86,9 @@
             "step": "AI Capability"
         },
         {
-            "id": "Text File (To)",
-            "group": 4,
-            "step": "AI Output (To)"
-        },
-        {
-            "id": "Code (To)",
-            "group": 4,
-            "step": "AI Output (To)"
+            "id": "Prompt (From)",
+            "group": 3,
+            "step": "AI Input (From)"
         }
     ],
     "links": [
@@ -122,27 +102,11 @@
         },
         {
             "source": "Prompt (From)",
-            "target": "Table (To)"
-        },
-        {
-            "source": "Prompt (From)",
             "target": "Text File (To)"
         },
         {
             "source": "Prompt (From)",
             "target": "Literature Reference (To)"
-        },
-        {
-            "source": "Understand",
-            "target": "Recommend"
-        },
-        {
-            "source": "Recommend",
-            "target": "Image File (From)"
-        },
-        {
-            "source": "Image File (From)",
-            "target": "Voice (To)"
         },
         {
             "source": "Understand",
@@ -187,14 +151,6 @@
         {
             "source": "Generate",
             "target": "Prompt (From)"
-        },
-        {
-            "source": "Generate",
-            "target": "Image File (From)"
-        },
-        {
-            "source": "Prototype",
-            "target": "Generate"
         },
         {
             "source": "Develop",

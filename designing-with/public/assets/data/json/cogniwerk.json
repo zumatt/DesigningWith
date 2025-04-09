@@ -1,47 +1,17 @@
 {
     "nodes": [
         {
+            "id": "Optimise",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
             "id": "Ideate",
             "group": 1,
             "step": "Design Phase"
         },
         {
-            "id": "Prompt (From)",
-            "group": 3,
-            "step": "AI Input (From)"
-        },
-        {
-            "id": "Midjourney",
-            "group": 1,
-            "step": "Design Phase"
-        },
-        {
-            "id": "Image (From)",
-            "group": 3,
-            "step": "AI Input (From)"
-        },
-        {
             "id": "Prototype",
-            "group": 1,
-            "step": "Design Phase"
-        },
-        {
-            "id": "Image File (To)",
-            "group": 4,
-            "step": "AI Output (To)"
-        },
-        {
-            "id": "Illustration (To)",
-            "group": 4,
-            "step": "AI Output (To)"
-        },
-        {
-            "id": "ML model (To)",
-            "group": 4,
-            "step": "AI Output (To)"
-        },
-        {
-            "id": "Release",
             "group": 1,
             "step": "Design Phase"
         },
@@ -51,9 +21,34 @@
             "step": "Design Phase"
         },
         {
+            "id": "Prompt (From)",
+            "group": 3,
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Image File (To)",
+            "group": 4,
+            "step": "AI Output (To)"
+        },
+        {
+            "id": "Cogniwerk",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "ML model (To)",
+            "group": 4,
+            "step": "AI Output (To)"
+        },
+        {
             "id": "Generate",
             "group": 2,
             "step": "AI Capability"
+        },
+        {
+            "id": "Release",
+            "group": 1,
+            "step": "Design Phase"
         }
     ],
     "links": [
@@ -70,18 +65,6 @@
             "target": "Image File (To)"
         },
         {
-            "source": "Prompt (From)",
-            "target": "Illustration (To)"
-        },
-        {
-            "source": "Generate",
-            "target": "Image (From)"
-        },
-        {
-            "source": "Image (From)",
-            "target": "ML model (To)"
-        },
-        {
             "source": "Prototype",
             "target": "Generate"
         },
@@ -91,7 +74,7 @@
         },
         {
             "source": "Release",
-            "target": "Generate"
+            "target": "Optimise"
         }
     ]
 }

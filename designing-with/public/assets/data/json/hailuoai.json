@@ -1,14 +1,9 @@
 {
     "nodes": [
         {
-            "id": "Video File (To)",
-            "group": 4,
-            "step": "AI Output (To)"
-        },
-        {
-            "id": "Image File (To)",
-            "group": 4,
-            "step": "AI Output (To)"
+            "id": "Ideate",
+            "group": 1,
+            "step": "Design Phase"
         },
         {
             "id": "Prompt (From)",
@@ -16,14 +11,14 @@
             "step": "AI Input (From)"
         },
         {
-            "id": "Ideate",
-            "group": 1,
-            "step": "Design Phase"
+            "id": "Generate",
+            "group": 2,
+            "step": "AI Capability"
         },
         {
-            "id": "ComfyUI",
-            "group": 1,
-            "step": "Design Phase"
+            "id": "Video File (To)",
+            "group": 4,
+            "step": "AI Output (To)"
         },
         {
             "id": "Prototype",
@@ -31,14 +26,14 @@
             "step": "Design Phase"
         },
         {
-            "id": "Generate",
-            "group": 2,
-            "step": "AI Capability"
+            "id": "Image File (From)",
+            "group": 3,
+            "step": "AI Input (From)"
         },
         {
-            "id": "Soundtrack (To)",
-            "group": 4,
-            "step": "AI Output (To)"
+            "id": "Hailuoai",
+            "group": 1,
+            "step": "Design Phase"
         }
     ],
     "links": [
@@ -52,14 +47,14 @@
         },
         {
             "source": "Prompt (From)",
-            "target": "Soundtrack (To)"
+            "target": "Video File (To)"
         },
         {
-            "source": "Prompt (From)",
-            "target": "Image File (To)"
+            "source": "Generate",
+            "target": "Image File (From)"
         },
         {
-            "source": "Prompt (From)",
+            "source": "Image File (From)",
             "target": "Video File (To)"
         },
         {

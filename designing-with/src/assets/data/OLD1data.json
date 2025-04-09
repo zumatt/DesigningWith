@@ -82,56 +82,6 @@
                       "skills": "Medium",
                       "tooldiagram": "youtube_data_tools.json",
                       "value": 19
-                    },
-                    {
-                      "name": "LM Studio",
-                      "description": "LM Studio is a free, open-source desktop application that enables users to run large language models (LLMs) locally on their computers, ensuring privacy and control over data. Designed for macOS (M1/M2/M3) and Windows systems with AVX2 support, it also offers a Linux version in beta.",
-                      "payment": "Free",
-                      "link": "https://lmstudio.ai/",
-                      "type": "Offline tool",
-                      "skills": "Low",
-                      "tooldiagram": "lm_studio.json",
-                      "value": 570
-                    },
-                    {
-                      "name": "Replicate",
-                      "description": "Replicate is a platform that enables developers to run and fine-tune open-source machine learning models, as well as deploy custom models at scale, all through a simple API. It abstracts the complexities of machine learning infrastructure, allowing users to integrate AI capabilities into their applications with minimal effort",
-                      "payment": "Premium",
-                      "link": "https://replicate.com/home",
-                      "type": "Online tool",
-                      "skills": "High",
-                      "tooldiagram": "replicate.json",
-                      "value": 592
-                    },
-                    {
-                      "name": "Gemini",
-                      "description": "Google Gemini is an advanced AI assistant designed to enhance productivity and creativity across various tasks. It offers assistance in writing, planning, learning, and more.",
-                      "payment": "Freemium",
-                      "link": "https://gemini.google.com/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "gemini.json",
-                      "value": 616
-                    },
-                    {
-                      "name": "Claude",
-                      "description": "Claude is an advanced AI assistant developed by Anthropic, designed to assist users with a variety of tasks, including drafting and iterating on websites, graphics, documents, and code. It offers a chat interface that allows for seamless interaction and collaboration.",
-                      "payment": "Freemium",
-                      "link": "https://claude.ai/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "claude.json",
-                      "value": 641
-                    },
-                    {
-                      "name": "Llamafile",
-                      "description": "Llamafile is an open-source tool developed by Mozilla Ocho that simplifies the distribution and execution of large language models (LLMs) by packaging them into a single-file executable. This approach enhances accessibility for both developers and end-users, allowing LLMs to run locally on various platforms without the need for complex installations.",
-                      "payment": "Free",
-                      "link": "https://github.com/Mozilla-Ocho/llamafile",
-                      "type": "Offline tool",
-                      "skills": "Advanced",
-                      "tooldiagram": "llamafile.json",
-                      "value": 678
                     }
                   ]
                 },
@@ -197,66 +147,6 @@
                       "skills": "Medium",
                       "tooldiagram": "gooeyai_seo_booster.json",
                       "value": 39
-                    },
-                    {
-                      "name": "Deepseek",
-                      "description": "DeepSeek is an advanced AI platform that offers a suite of tools and models designed to enhance various tasks, including coding assistance, content creation, and complex problem-solving. At its core is DeepSeek-V3, a state-of-the-art large language model boasting 671 billion parameters, with 37 billion activated per token. This architecture enables efficient processing and superior performance across a range of applications.",
-                      "payment": "Free",
-                      "link": "https://chat.deepseek.com/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "deepseek.json",
-                      "value": 538
-                    },
-                    {
-                      "name": "LM Studio",
-                      "description": "LM Studio is a free, open-source desktop application that enables users to run large language models (LLMs) locally on their computers, ensuring privacy and control over data. Designed for macOS (M1/M2/M3) and Windows systems with AVX2 support, it also offers a Linux version in beta.",
-                      "payment": "Free",
-                      "link": "https://lmstudio.ai/",
-                      "type": "Offline tool",
-                      "skills": "Low",
-                      "tooldiagram": "lm_studio.json",
-                      "value": 568
-                    },
-                    {
-                      "name": "Replicate",
-                      "description": "Replicate is a platform that enables developers to run and fine-tune open-source machine learning models, as well as deploy custom models at scale, all through a simple API. It abstracts the complexities of machine learning infrastructure, allowing users to integrate AI capabilities into their applications with minimal effort",
-                      "payment": "Premium",
-                      "link": "https://replicate.com/home",
-                      "type": "Online tool",
-                      "skills": "High",
-                      "tooldiagram": "replicate.json",
-                      "value": 590
-                    },
-                    {
-                      "name": "Gemini",
-                      "description": "Google Gemini is an advanced AI assistant designed to enhance productivity and creativity across various tasks. It offers assistance in writing, planning, learning, and more.",
-                      "payment": "Freemium",
-                      "link": "https://gemini.google.com/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "gemini.json",
-                      "value": 614
-                    },
-                    {
-                      "name": "Claude",
-                      "description": "Claude is an advanced AI assistant developed by Anthropic, designed to assist users with a variety of tasks, including drafting and iterating on websites, graphics, documents, and code. It offers a chat interface that allows for seamless interaction and collaboration.",
-                      "payment": "Freemium",
-                      "link": "https://claude.ai/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "claude.json",
-                      "value": 639
-                    },
-                    {
-                      "name": "Llamafile",
-                      "description": "Llamafile is an open-source tool developed by Mozilla Ocho that simplifies the distribution and execution of large language models (LLMs) by packaging them into a single-file executable. This approach enhances accessibility for both developers and end-users, allowing LLMs to run locally on various platforms without the need for complex installations.",
-                      "payment": "Free",
-                      "link": "https://github.com/Mozilla-Ocho/llamafile",
-                      "type": "Offline tool",
-                      "skills": "Advanced",
-                      "tooldiagram": "llamafile.json",
-                      "value": 676
                     }
                   ]
                 },
@@ -314,74 +204,14 @@
                       "value": 16
                     },
                     {
-                      "name": "\nGooey.ai Google GPT",
+                      "name": "Gooey.ai Google GPT",
                       "description": "Gooey.ai Google GPT revolutionize web searching with the power of GPT. This tool finds answers, summarizes articles, writes essays, translates languages, and more, using the latest information from Google with complete citations. Like Bing + ChatGPT or perplexity.ai, it queries Google and summarizes results (with citations) using an editable GPT script. Additionally, it can filter results to your website, allowing users to get answers based solely on your site's content, enhancing engagement and SEO.",
                       "payment": "Freemium",
                       "link": "https://gooey.ai/google-gpt/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "\ngooeyai_google_gpt.json",
+                      "tooldiagram": "gooeyai_google_gpt.json",
                       "value": 40
-                    },
-                    {
-                      "name": "Deepseek",
-                      "description": "DeepSeek is an advanced AI platform that offers a suite of tools and models designed to enhance various tasks, including coding assistance, content creation, and complex problem-solving. At its core is DeepSeek-V3, a state-of-the-art large language model boasting 671 billion parameters, with 37 billion activated per token. This architecture enables efficient processing and superior performance across a range of applications.",
-                      "payment": "Free",
-                      "link": "https://chat.deepseek.com/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "deepseek.json",
-                      "value": 539
-                    },
-                    {
-                      "name": "LM Studio",
-                      "description": "LM Studio is a free, open-source desktop application that enables users to run large language models (LLMs) locally on their computers, ensuring privacy and control over data. Designed for macOS (M1/M2/M3) and Windows systems with AVX2 support, it also offers a Linux version in beta.",
-                      "payment": "Free",
-                      "link": "https://lmstudio.ai/",
-                      "type": "Offline tool",
-                      "skills": "Low",
-                      "tooldiagram": "lm_studio.json",
-                      "value": 569
-                    },
-                    {
-                      "name": "Replicate",
-                      "description": "Replicate is a platform that enables developers to run and fine-tune open-source machine learning models, as well as deploy custom models at scale, all through a simple API. It abstracts the complexities of machine learning infrastructure, allowing users to integrate AI capabilities into their applications with minimal effort",
-                      "payment": "Premium",
-                      "link": "https://replicate.com/home",
-                      "type": "Online tool",
-                      "skills": "High",
-                      "tooldiagram": "replicate.json",
-                      "value": 591
-                    },
-                    {
-                      "name": "Gemini",
-                      "description": "Google Gemini is an advanced AI assistant designed to enhance productivity and creativity across various tasks. It offers assistance in writing, planning, learning, and more.",
-                      "payment": "Freemium",
-                      "link": "https://gemini.google.com/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "gemini.json",
-                      "value": 615
-                    },
-                    {
-                      "name": "Claude",
-                      "description": "Claude is an advanced AI assistant developed by Anthropic, designed to assist users with a variety of tasks, including drafting and iterating on websites, graphics, documents, and code. It offers a chat interface that allows for seamless interaction and collaboration.",
-                      "payment": "Freemium",
-                      "link": "https://claude.ai/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "claude.json",
-                      "value": 640
-                    },
-                    {
-                      "name": "Llamafile",
-                      "description": "Llamafile is an open-source tool developed by Mozilla Ocho that simplifies the distribution and execution of large language models (LLMs) by packaging them into a single-file executable. This approach enhances accessibility for both developers and end-users, allowing LLMs to run locally on various platforms without the need for complex installations.",
-                      "payment": "Free",
-                      "link": "https://github.com/Mozilla-Ocho/llamafile",
-                      "type": "Offline tool",
-                      "skills": "Advanced",
-                      "tooldiagram": "llamafile.json",
-                      "value": 677
                     }
                   ]
                 },
@@ -437,56 +267,6 @@
                       "skills": "Medium",
                       "tooldiagram": "gooeyai_synthetic_data_maker_for_videos_&_pdfs.json",
                       "value": 36
-                    },
-                    {
-                      "name": "LM Studio",
-                      "description": "LM Studio is a free, open-source desktop application that enables users to run large language models (LLMs) locally on their computers, ensuring privacy and control over data. Designed for macOS (M1/M2/M3) and Windows systems with AVX2 support, it also offers a Linux version in beta.",
-                      "payment": "Free",
-                      "link": "https://lmstudio.ai/",
-                      "type": "Offline tool",
-                      "skills": "Low",
-                      "tooldiagram": "lm_studio.json",
-                      "value": 571
-                    },
-                    {
-                      "name": "Replicate",
-                      "description": "Replicate is a platform that enables developers to run and fine-tune open-source machine learning models, as well as deploy custom models at scale, all through a simple API. It abstracts the complexities of machine learning infrastructure, allowing users to integrate AI capabilities into their applications with minimal effort",
-                      "payment": "Premium",
-                      "link": "https://replicate.com/home",
-                      "type": "Online tool",
-                      "skills": "High",
-                      "tooldiagram": "replicate.json",
-                      "value": 593
-                    },
-                    {
-                      "name": "Gemini",
-                      "description": "Google Gemini is an advanced AI assistant designed to enhance productivity and creativity across various tasks. It offers assistance in writing, planning, learning, and more.",
-                      "payment": "Freemium",
-                      "link": "https://gemini.google.com/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "gemini.json",
-                      "value": 617
-                    },
-                    {
-                      "name": "Claude",
-                      "description": "Claude is an advanced AI assistant developed by Anthropic, designed to assist users with a variety of tasks, including drafting and iterating on websites, graphics, documents, and code. It offers a chat interface that allows for seamless interaction and collaboration.",
-                      "payment": "Freemium",
-                      "link": "https://claude.ai/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "claude.json",
-                      "value": 642
-                    },
-                    {
-                      "name": "Llamafile",
-                      "description": "Llamafile is an open-source tool developed by Mozilla Ocho that simplifies the distribution and execution of large language models (LLMs) by packaging them into a single-file executable. This approach enhances accessibility for both developers and end-users, allowing LLMs to run locally on various platforms without the need for complex installations.",
-                      "payment": "Free",
-                      "link": "https://github.com/Mozilla-Ocho/llamafile",
-                      "type": "Offline tool",
-                      "skills": "Advanced",
-                      "tooldiagram": "llamafile.json",
-                      "value": 679
                     }
                   ]
                 },
@@ -577,56 +357,6 @@
                       "skills": "Low",
                       "tooldiagram": "chatgpt.json",
                       "value": 24
-                    },
-                    {
-                      "name": "LM Studio",
-                      "description": "LM Studio is a free, open-source desktop application that enables users to run large language models (LLMs) locally on their computers, ensuring privacy and control over data. Designed for macOS (M1/M2/M3) and Windows systems with AVX2 support, it also offers a Linux version in beta.",
-                      "payment": "Free",
-                      "link": "https://lmstudio.ai/",
-                      "type": "Offline tool",
-                      "skills": "Low",
-                      "tooldiagram": "lm_studio.json",
-                      "value": 572
-                    },
-                    {
-                      "name": "Replicate",
-                      "description": "Replicate is a platform that enables developers to run and fine-tune open-source machine learning models, as well as deploy custom models at scale, all through a simple API. It abstracts the complexities of machine learning infrastructure, allowing users to integrate AI capabilities into their applications with minimal effort",
-                      "payment": "Premium",
-                      "link": "https://replicate.com/home",
-                      "type": "Online tool",
-                      "skills": "High",
-                      "tooldiagram": "replicate.json",
-                      "value": 594
-                    },
-                    {
-                      "name": "Gemini",
-                      "description": "Google Gemini is an advanced AI assistant designed to enhance productivity and creativity across various tasks. It offers assistance in writing, planning, learning, and more.",
-                      "payment": "Freemium",
-                      "link": "https://gemini.google.com/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "gemini.json",
-                      "value": 618
-                    },
-                    {
-                      "name": "Claude",
-                      "description": "Claude is an advanced AI assistant developed by Anthropic, designed to assist users with a variety of tasks, including drafting and iterating on websites, graphics, documents, and code. It offers a chat interface that allows for seamless interaction and collaboration.",
-                      "payment": "Freemium",
-                      "link": "https://claude.ai/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "claude.json",
-                      "value": 643
-                    },
-                    {
-                      "name": "Llamafile",
-                      "description": "Llamafile is an open-source tool developed by Mozilla Ocho that simplifies the distribution and execution of large language models (LLMs) by packaging them into a single-file executable. This approach enhances accessibility for both developers and end-users, allowing LLMs to run locally on various platforms without the need for complex installations.",
-                      "payment": "Free",
-                      "link": "https://github.com/Mozilla-Ocho/llamafile",
-                      "type": "Offline tool",
-                      "skills": "Advanced",
-                      "tooldiagram": "llamafile.json",
-                      "value": 680
                     }
                   ]
                 },
@@ -752,56 +482,6 @@
                       "skills": "Low",
                       "tooldiagram": "chatgpt.json",
                       "value": 29
-                    },
-                    {
-                      "name": "LM Studio",
-                      "description": "LM Studio is a free, open-source desktop application that enables users to run large language models (LLMs) locally on their computers, ensuring privacy and control over data. Designed for macOS (M1/M2/M3) and Windows systems with AVX2 support, it also offers a Linux version in beta.",
-                      "payment": "Free",
-                      "link": "https://lmstudio.ai/",
-                      "type": "Offline tool",
-                      "skills": "Low",
-                      "tooldiagram": "lm_studio.json",
-                      "value": 573
-                    },
-                    {
-                      "name": "Replicate",
-                      "description": "Replicate is a platform that enables developers to run and fine-tune open-source machine learning models, as well as deploy custom models at scale, all through a simple API. It abstracts the complexities of machine learning infrastructure, allowing users to integrate AI capabilities into their applications with minimal effort",
-                      "payment": "Premium",
-                      "link": "https://replicate.com/home",
-                      "type": "Online tool",
-                      "skills": "High",
-                      "tooldiagram": "replicate.json",
-                      "value": 595
-                    },
-                    {
-                      "name": "Gemini",
-                      "description": "Google Gemini is an advanced AI assistant designed to enhance productivity and creativity across various tasks. It offers assistance in writing, planning, learning, and more.",
-                      "payment": "Freemium",
-                      "link": "https://gemini.google.com/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "gemini.json",
-                      "value": 619
-                    },
-                    {
-                      "name": "Claude",
-                      "description": "Claude is an advanced AI assistant developed by Anthropic, designed to assist users with a variety of tasks, including drafting and iterating on websites, graphics, documents, and code. It offers a chat interface that allows for seamless interaction and collaboration.",
-                      "payment": "Freemium",
-                      "link": "https://claude.ai/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "claude.json",
-                      "value": 644
-                    },
-                    {
-                      "name": "Llamafile",
-                      "description": "Llamafile is an open-source tool developed by Mozilla Ocho that simplifies the distribution and execution of large language models (LLMs) by packaging them into a single-file executable. This approach enhances accessibility for both developers and end-users, allowing LLMs to run locally on various platforms without the need for complex installations.",
-                      "payment": "Free",
-                      "link": "https://github.com/Mozilla-Ocho/llamafile",
-                      "type": "Offline tool",
-                      "skills": "Advanced",
-                      "tooldiagram": "llamafile.json",
-                      "value": 681
                     }
                   ]
                 }
@@ -847,66 +527,6 @@
                       "skills": "Medium",
                       "tooldiagram": "gooeyai_doc_summary.json",
                       "value": 52
-                    },
-                    {
-                      "name": "Deepseek",
-                      "description": "DeepSeek is an advanced AI platform that offers a suite of tools and models designed to enhance various tasks, including coding assistance, content creation, and complex problem-solving. At its core is DeepSeek-V3, a state-of-the-art large language model boasting 671 billion parameters, with 37 billion activated per token. This architecture enables efficient processing and superior performance across a range of applications.",
-                      "payment": "Free",
-                      "link": "https://chat.deepseek.com/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "deepseek.json",
-                      "value": 540
-                    },
-                    {
-                      "name": "LM Studio",
-                      "description": "LM Studio is a free, open-source desktop application that enables users to run large language models (LLMs) locally on their computers, ensuring privacy and control over data. Designed for macOS (M1/M2/M3) and Windows systems with AVX2 support, it also offers a Linux version in beta.",
-                      "payment": "Free",
-                      "link": "https://lmstudio.ai/",
-                      "type": "Offline tool",
-                      "skills": "Low",
-                      "tooldiagram": "lm_studio.json",
-                      "value": 574
-                    },
-                    {
-                      "name": "Replicate",
-                      "description": "Replicate is a platform that enables developers to run and fine-tune open-source machine learning models, as well as deploy custom models at scale, all through a simple API. It abstracts the complexities of machine learning infrastructure, allowing users to integrate AI capabilities into their applications with minimal effort",
-                      "payment": "Premium",
-                      "link": "https://replicate.com/home",
-                      "type": "Online tool",
-                      "skills": "High",
-                      "tooldiagram": "replicate.json",
-                      "value": 596
-                    },
-                    {
-                      "name": "Gemini",
-                      "description": "Google Gemini is an advanced AI assistant designed to enhance productivity and creativity across various tasks. It offers assistance in writing, planning, learning, and more.",
-                      "payment": "Freemium",
-                      "link": "https://gemini.google.com/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "gemini.json",
-                      "value": 620
-                    },
-                    {
-                      "name": "Claude",
-                      "description": "Claude is an advanced AI assistant developed by Anthropic, designed to assist users with a variety of tasks, including drafting and iterating on websites, graphics, documents, and code. It offers a chat interface that allows for seamless interaction and collaboration.",
-                      "payment": "Freemium",
-                      "link": "https://claude.ai/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "claude.json",
-                      "value": 645
-                    },
-                    {
-                      "name": "Llamafile",
-                      "description": "Llamafile is an open-source tool developed by Mozilla Ocho that simplifies the distribution and execution of large language models (LLMs) by packaging them into a single-file executable. This approach enhances accessibility for both developers and end-users, allowing LLMs to run locally on various platforms without the need for complex installations.",
-                      "payment": "Free",
-                      "link": "https://github.com/Mozilla-Ocho/llamafile",
-                      "type": "Offline tool",
-                      "skills": "Advanced",
-                      "tooldiagram": "llamafile.json",
-                      "value": 682
                     }
                   ]
                 }
@@ -949,13 +569,13 @@
                   "name": "Literature Reference",
                   "children": [
                     {
-                      "name": "\nGooey.ai Google GPT",
+                      "name": "Gooey.ai Google GPT",
                       "description": "Gooey.ai Google GPT revolutionize web searching with the power of GPT. This tool finds answers, summarizes articles, writes essays, translates languages, and more, using the latest information from Google with complete citations. Like Bing + ChatGPT or perplexity.ai, it queries Google and summarizes results (with citations) using an editable GPT script. Additionally, it can filter results to your website, allowing users to get answers based solely on your site's content, enhancing engagement and SEO.",
                       "payment": "Freemium",
                       "link": "https://gooey.ai/google-gpt/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "\ngooeyai_google_gpt.json",
+                      "tooldiagram": "gooeyai_google_gpt.json",
                       "value": 41
                     }
                   ]
@@ -1072,66 +692,6 @@
                       "skills": "Advanced",
                       "tooldiagram": "notion_ai.json",
                       "value": 34
-                    },
-                    {
-                      "name": "Deepseek",
-                      "description": "DeepSeek is an advanced AI platform that offers a suite of tools and models designed to enhance various tasks, including coding assistance, content creation, and complex problem-solving. At its core is DeepSeek-V3, a state-of-the-art large language model boasting 671 billion parameters, with 37 billion activated per token. This architecture enables efficient processing and superior performance across a range of applications.",
-                      "payment": "Free",
-                      "link": "https://chat.deepseek.com/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "deepseek.json",
-                      "value": 541
-                    },
-                    {
-                      "name": "LM Studio",
-                      "description": "LM Studio is a free, open-source desktop application that enables users to run large language models (LLMs) locally on their computers, ensuring privacy and control over data. Designed for macOS (M1/M2/M3) and Windows systems with AVX2 support, it also offers a Linux version in beta.",
-                      "payment": "Free",
-                      "link": "https://lmstudio.ai/",
-                      "type": "Offline tool",
-                      "skills": "Low",
-                      "tooldiagram": "lm_studio.json",
-                      "value": 575
-                    },
-                    {
-                      "name": "Replicate",
-                      "description": "Replicate is a platform that enables developers to run and fine-tune open-source machine learning models, as well as deploy custom models at scale, all through a simple API. It abstracts the complexities of machine learning infrastructure, allowing users to integrate AI capabilities into their applications with minimal effort",
-                      "payment": "Premium",
-                      "link": "https://replicate.com/home",
-                      "type": "Online tool",
-                      "skills": "High",
-                      "tooldiagram": "replicate.json",
-                      "value": 597
-                    },
-                    {
-                      "name": "Gemini",
-                      "description": "Google Gemini is an advanced AI assistant designed to enhance productivity and creativity across various tasks. It offers assistance in writing, planning, learning, and more.",
-                      "payment": "Freemium",
-                      "link": "https://gemini.google.com/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "gemini.json",
-                      "value": 621
-                    },
-                    {
-                      "name": "Claude",
-                      "description": "Claude is an advanced AI assistant developed by Anthropic, designed to assist users with a variety of tasks, including drafting and iterating on websites, graphics, documents, and code. It offers a chat interface that allows for seamless interaction and collaboration.",
-                      "payment": "Freemium",
-                      "link": "https://claude.ai/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "claude.json",
-                      "value": 646
-                    },
-                    {
-                      "name": "Llamafile",
-                      "description": "Llamafile is an open-source tool developed by Mozilla Ocho that simplifies the distribution and execution of large language models (LLMs) by packaging them into a single-file executable. This approach enhances accessibility for both developers and end-users, allowing LLMs to run locally on various platforms without the need for complex installations.",
-                      "payment": "Free",
-                      "link": "https://github.com/Mozilla-Ocho/llamafile",
-                      "type": "Offline tool",
-                      "skills": "Advanced",
-                      "tooldiagram": "llamafile.json",
-                      "value": 683
                     }
                   ]
                 }
@@ -1152,66 +712,6 @@
                       "skills": "Low",
                       "tooldiagram": "chatgpt.json",
                       "value": 35
-                    },
-                    {
-                      "name": "Deepseek",
-                      "description": "DeepSeek is an advanced AI platform that offers a suite of tools and models designed to enhance various tasks, including coding assistance, content creation, and complex problem-solving. At its core is DeepSeek-V3, a state-of-the-art large language model boasting 671 billion parameters, with 37 billion activated per token. This architecture enables efficient processing and superior performance across a range of applications.",
-                      "payment": "Free",
-                      "link": "https://chat.deepseek.com/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "deepseek.json",
-                      "value": 542
-                    },
-                    {
-                      "name": "LM Studio",
-                      "description": "LM Studio is a free, open-source desktop application that enables users to run large language models (LLMs) locally on their computers, ensuring privacy and control over data. Designed for macOS (M1/M2/M3) and Windows systems with AVX2 support, it also offers a Linux version in beta.",
-                      "payment": "Free",
-                      "link": "https://lmstudio.ai/",
-                      "type": "Offline tool",
-                      "skills": "Low",
-                      "tooldiagram": "lm_studio.json",
-                      "value": 576
-                    },
-                    {
-                      "name": "Replicate",
-                      "description": "Replicate is a platform that enables developers to run and fine-tune open-source machine learning models, as well as deploy custom models at scale, all through a simple API. It abstracts the complexities of machine learning infrastructure, allowing users to integrate AI capabilities into their applications with minimal effort",
-                      "payment": "Premium",
-                      "link": "https://replicate.com/home",
-                      "type": "Online tool",
-                      "skills": "High",
-                      "tooldiagram": "replicate.json",
-                      "value": 598
-                    },
-                    {
-                      "name": "Gemini",
-                      "description": "Google Gemini is an advanced AI assistant designed to enhance productivity and creativity across various tasks. It offers assistance in writing, planning, learning, and more.",
-                      "payment": "Freemium",
-                      "link": "https://gemini.google.com/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "gemini.json",
-                      "value": 622
-                    },
-                    {
-                      "name": "Claude",
-                      "description": "Claude is an advanced AI assistant developed by Anthropic, designed to assist users with a variety of tasks, including drafting and iterating on websites, graphics, documents, and code. It offers a chat interface that allows for seamless interaction and collaboration.",
-                      "payment": "Freemium",
-                      "link": "https://claude.ai/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "claude.json",
-                      "value": 647
-                    },
-                    {
-                      "name": "Llamafile",
-                      "description": "Llamafile is an open-source tool developed by Mozilla Ocho that simplifies the distribution and execution of large language models (LLMs) by packaging them into a single-file executable. This approach enhances accessibility for both developers and end-users, allowing LLMs to run locally on various platforms without the need for complex installations.",
-                      "payment": "Free",
-                      "link": "https://github.com/Mozilla-Ocho/llamafile",
-                      "type": "Offline tool",
-                      "skills": "Advanced",
-                      "tooldiagram": "llamafile.json",
-                      "value": 684
                     }
                   ]
                 }
@@ -1229,7 +729,7 @@
                   "name": "Text File",
                   "children": [
                     {
-                      "name": "Gooey.ai Compare Large Language Models",
+                      "name": "Gooey.ai Compare LLMs",
                       "description": "Discover which language model works best for your prompt by comparing top models like LLaMA2, Gemini, Mistral, and OpenAI GPT-4. This tool analyzes the strengths, biases, and performance of each model, providing insights to help you choose the most suitable one for your needs. With new models added monthly, stay updated on the latest advancements and make informed decisions for your projects. Perfect for developers and researchers looking to optimize their use of large language models.",
                       "payment": "Freemium",
                       "link": "https://gooey.ai/compare-large-language-models/",
@@ -1237,136 +737,6 @@
                       "skills": "Medium",
                       "tooldiagram": "gooeyai_compare_large_language_models.json",
                       "value": 42
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Generate",
-          "children": [
-            {
-              "name": "Prompt",
-              "children": [
-                {
-                  "name": "Text File",
-                  "children": [
-                    {
-                      "name": "Synthetic Users",
-                      "description": "Synthetic Users are AI-generated personas designed to simulate real human behaviors, preferences, and interactions. Leveraging advanced artificial intelligence and natural language processing, these virtual participants provide valuable insights for user research, product development, and market analysis without the need to engage actual users.",
-                      "payment": "Freemium",
-                      "link": "https://www.syntheticusers.com/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "synthetic_users.json",
-                      "value": 638
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Visualise",
-          "children": [
-            {
-              "name": "Table",
-              "children": [
-                {
-                  "name": "Graph",
-                  "children": [
-                    {
-                      "name": "Claude",
-                      "description": "Claude is an advanced AI assistant developed by Anthropic, designed to assist users with a variety of tasks, including drafting and iterating on websites, graphics, documents, and code. It offers a chat interface that allows for seamless interaction and collaboration.",
-                      "payment": "Freemium",
-                      "link": "https://claude.ai/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "claude.json",
-                      "value": 648
-                    },
-                    {
-                      "name": "Chatgpt",
-                      "description": "ChatGPT is an AI-powered chatbot by OpenAI, utilizing advanced natural language processing to engage in interactive conversations. ChatGPT understands and responds to a wide range of queries, providing helpful and informative answers. It simulates human-like conversations and can be used for customer support, virtual assistants, and interactive storytelling, enhancing user interactions.",
-                      "payment": "Freemium",
-                      "link": "https://openai.com/chatgpt",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
-                      "value": 670
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Optimise",
-          "children": [
-            {
-              "name": "Table",
-              "children": [
-                {
-                  "name": "Table",
-                  "children": [
-                    {
-                      "name": "Claude",
-                      "description": "Claude is an advanced AI assistant developed by Anthropic, designed to assist users with a variety of tasks, including drafting and iterating on websites, graphics, documents, and code. It offers a chat interface that allows for seamless interaction and collaboration.",
-                      "payment": "Freemium",
-                      "link": "https://claude.ai/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "claude.json",
-                      "value": 649
-                    },
-                    {
-                      "name": "Chatgpt",
-                      "description": "ChatGPT is an AI-powered chatbot by OpenAI, utilizing advanced natural language processing to engage in interactive conversations. ChatGPT understands and responds to a wide range of queries, providing helpful and informative answers. It simulates human-like conversations and can be used for customer support, virtual assistants, and interactive storytelling, enhancing user interactions.",
-                      "payment": "Freemium",
-                      "link": "https://openai.com/chatgpt",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
-                      "value": 671
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Recognise",
-          "children": [
-            {
-              "name": "Table",
-              "children": [
-                {
-                  "name": "Text File",
-                  "children": [
-                    {
-                      "name": "Claude",
-                      "description": "Claude is an advanced AI assistant developed by Anthropic, designed to assist users with a variety of tasks, including drafting and iterating on websites, graphics, documents, and code. It offers a chat interface that allows for seamless interaction and collaboration.",
-                      "payment": "Freemium",
-                      "link": "https://claude.ai/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "claude.json",
-                      "value": 650
-                    },
-                    {
-                      "name": "Chatgpt",
-                      "description": "ChatGPT is an AI-powered chatbot by OpenAI, utilizing advanced natural language processing to engage in interactive conversations. ChatGPT understands and responds to a wide range of queries, providing helpful and informative answers. It simulates human-like conversations and can be used for customer support, virtual assistants, and interactive storytelling, enhancing user interactions.",
-                      "payment": "Freemium",
-                      "link": "https://openai.com/chatgpt",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
-                      "value": 672
                     }
                   ]
                 }
@@ -1462,66 +832,6 @@
                       "skills": "Low",
                       "tooldiagram": "chatgpt.json",
                       "value": 59
-                    },
-                    {
-                      "name": "Deepseek",
-                      "description": "DeepSeek is an advanced AI platform that offers a suite of tools and models designed to enhance various tasks, including coding assistance, content creation, and complex problem-solving. At its core is DeepSeek-V3, a state-of-the-art large language model boasting 671 billion parameters, with 37 billion activated per token. This architecture enables efficient processing and superior performance across a range of applications.",
-                      "payment": "Free",
-                      "link": "https://chat.deepseek.com/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "deepseek.json",
-                      "value": 546
-                    },
-                    {
-                      "name": "LM Studio",
-                      "description": "LM Studio is a free, open-source desktop application that enables users to run large language models (LLMs) locally on their computers, ensuring privacy and control over data. Designed for macOS (M1/M2/M3) and Windows systems with AVX2 support, it also offers a Linux version in beta.",
-                      "payment": "Free",
-                      "link": "https://lmstudio.ai/",
-                      "type": "Offline tool",
-                      "skills": "Low",
-                      "tooldiagram": "lm_studio.json",
-                      "value": 580
-                    },
-                    {
-                      "name": "Replicate",
-                      "description": "Replicate is a platform that enables developers to run and fine-tune open-source machine learning models, as well as deploy custom models at scale, all through a simple API. It abstracts the complexities of machine learning infrastructure, allowing users to integrate AI capabilities into their applications with minimal effort",
-                      "payment": "Premium",
-                      "link": "https://replicate.com/home",
-                      "type": "Online tool",
-                      "skills": "High",
-                      "tooldiagram": "replicate.json",
-                      "value": 602
-                    },
-                    {
-                      "name": "Gemini",
-                      "description": "Google Gemini is an advanced AI assistant designed to enhance productivity and creativity across various tasks. It offers assistance in writing, planning, learning, and more.",
-                      "payment": "Freemium",
-                      "link": "https://gemini.google.com/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "gemini.json",
-                      "value": 626
-                    },
-                    {
-                      "name": "Claude",
-                      "description": "Claude is an advanced AI assistant developed by Anthropic, designed to assist users with a variety of tasks, including drafting and iterating on websites, graphics, documents, and code. It offers a chat interface that allows for seamless interaction and collaboration.",
-                      "payment": "Freemium",
-                      "link": "https://claude.ai/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "claude.json",
-                      "value": 654
-                    },
-                    {
-                      "name": "Llamafile",
-                      "description": "Llamafile is an open-source tool developed by Mozilla Ocho that simplifies the distribution and execution of large language models (LLMs) by packaging them into a single-file executable. This approach enhances accessibility for both developers and end-users, allowing LLMs to run locally on various platforms without the need for complex installations.",
-                      "payment": "Free",
-                      "link": "https://github.com/Mozilla-Ocho/llamafile",
-                      "type": "Offline tool",
-                      "skills": "Advanced",
-                      "tooldiagram": "llamafile.json",
-                      "value": 688
                     }
                   ]
                 },
@@ -1662,66 +972,6 @@
                       "skills": "Advanced",
                       "tooldiagram": "notion_ai.json",
                       "value": 104
-                    },
-                    {
-                      "name": "Deepseek",
-                      "description": "DeepSeek is an advanced AI platform that offers a suite of tools and models designed to enhance various tasks, including coding assistance, content creation, and complex problem-solving. At its core is DeepSeek-V3, a state-of-the-art large language model boasting 671 billion parameters, with 37 billion activated per token. This architecture enables efficient processing and superior performance across a range of applications.",
-                      "payment": "Free",
-                      "link": "https://chat.deepseek.com/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "deepseek.json",
-                      "value": 544
-                    },
-                    {
-                      "name": "LM Studio",
-                      "description": "LM Studio is a free, open-source desktop application that enables users to run large language models (LLMs) locally on their computers, ensuring privacy and control over data. Designed for macOS (M1/M2/M3) and Windows systems with AVX2 support, it also offers a Linux version in beta.",
-                      "payment": "Free",
-                      "link": "https://lmstudio.ai/",
-                      "type": "Offline tool",
-                      "skills": "Low",
-                      "tooldiagram": "lm_studio.json",
-                      "value": 578
-                    },
-                    {
-                      "name": "Replicate",
-                      "description": "Replicate is a platform that enables developers to run and fine-tune open-source machine learning models, as well as deploy custom models at scale, all through a simple API. It abstracts the complexities of machine learning infrastructure, allowing users to integrate AI capabilities into their applications with minimal effort",
-                      "payment": "Premium",
-                      "link": "https://replicate.com/home",
-                      "type": "Online tool",
-                      "skills": "High",
-                      "tooldiagram": "replicate.json",
-                      "value": 600
-                    },
-                    {
-                      "name": "Gemini",
-                      "description": "Google Gemini is an advanced AI assistant designed to enhance productivity and creativity across various tasks. It offers assistance in writing, planning, learning, and more.",
-                      "payment": "Freemium",
-                      "link": "https://gemini.google.com/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "gemini.json",
-                      "value": 624
-                    },
-                    {
-                      "name": "Claude",
-                      "description": "Claude is an advanced AI assistant developed by Anthropic, designed to assist users with a variety of tasks, including drafting and iterating on websites, graphics, documents, and code. It offers a chat interface that allows for seamless interaction and collaboration.",
-                      "payment": "Freemium",
-                      "link": "https://claude.ai/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "claude.json",
-                      "value": 652
-                    },
-                    {
-                      "name": "Llamafile",
-                      "description": "Llamafile is an open-source tool developed by Mozilla Ocho that simplifies the distribution and execution of large language models (LLMs) by packaging them into a single-file executable. This approach enhances accessibility for both developers and end-users, allowing LLMs to run locally on various platforms without the need for complex installations.",
-                      "payment": "Free",
-                      "link": "https://github.com/Mozilla-Ocho/llamafile",
-                      "type": "Offline tool",
-                      "skills": "Advanced",
-                      "tooldiagram": "llamafile.json",
-                      "value": 686
                     }
                   ]
                 },
@@ -1812,66 +1062,6 @@
                       "skills": "Medium",
                       "tooldiagram": "gooeyai_doc_summary.json",
                       "value": 144
-                    },
-                    {
-                      "name": "Deepseek",
-                      "description": "DeepSeek is an advanced AI platform that offers a suite of tools and models designed to enhance various tasks, including coding assistance, content creation, and complex problem-solving. At its core is DeepSeek-V3, a state-of-the-art large language model boasting 671 billion parameters, with 37 billion activated per token. This architecture enables efficient processing and superior performance across a range of applications.",
-                      "payment": "Free",
-                      "link": "https://chat.deepseek.com/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "deepseek.json",
-                      "value": 543
-                    },
-                    {
-                      "name": "LM Studio",
-                      "description": "LM Studio is a free, open-source desktop application that enables users to run large language models (LLMs) locally on their computers, ensuring privacy and control over data. Designed for macOS (M1/M2/M3) and Windows systems with AVX2 support, it also offers a Linux version in beta.",
-                      "payment": "Free",
-                      "link": "https://lmstudio.ai/",
-                      "type": "Offline tool",
-                      "skills": "Low",
-                      "tooldiagram": "lm_studio.json",
-                      "value": 577
-                    },
-                    {
-                      "name": "Replicate",
-                      "description": "Replicate is a platform that enables developers to run and fine-tune open-source machine learning models, as well as deploy custom models at scale, all through a simple API. It abstracts the complexities of machine learning infrastructure, allowing users to integrate AI capabilities into their applications with minimal effort",
-                      "payment": "Premium",
-                      "link": "https://replicate.com/home",
-                      "type": "Online tool",
-                      "skills": "High",
-                      "tooldiagram": "replicate.json",
-                      "value": 599
-                    },
-                    {
-                      "name": "Gemini",
-                      "description": "Google Gemini is an advanced AI assistant designed to enhance productivity and creativity across various tasks. It offers assistance in writing, planning, learning, and more.",
-                      "payment": "Freemium",
-                      "link": "https://gemini.google.com/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "gemini.json",
-                      "value": 623
-                    },
-                    {
-                      "name": "Claude",
-                      "description": "Claude is an advanced AI assistant developed by Anthropic, designed to assist users with a variety of tasks, including drafting and iterating on websites, graphics, documents, and code. It offers a chat interface that allows for seamless interaction and collaboration.",
-                      "payment": "Freemium",
-                      "link": "https://claude.ai/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "claude.json",
-                      "value": 651
-                    },
-                    {
-                      "name": "Llamafile",
-                      "description": "Llamafile is an open-source tool developed by Mozilla Ocho that simplifies the distribution and execution of large language models (LLMs) by packaging them into a single-file executable. This approach enhances accessibility for both developers and end-users, allowing LLMs to run locally on various platforms without the need for complex installations.",
-                      "payment": "Free",
-                      "link": "https://github.com/Mozilla-Ocho/llamafile",
-                      "type": "Offline tool",
-                      "skills": "Advanced",
-                      "tooldiagram": "llamafile.json",
-                      "value": 685
                     }
                   ]
                 },
@@ -1907,66 +1097,6 @@
                       "skills": "Low",
                       "tooldiagram": "chatgpt.json",
                       "value": 58
-                    },
-                    {
-                      "name": "Deepseek",
-                      "description": "DeepSeek is an advanced AI platform that offers a suite of tools and models designed to enhance various tasks, including coding assistance, content creation, and complex problem-solving. At its core is DeepSeek-V3, a state-of-the-art large language model boasting 671 billion parameters, with 37 billion activated per token. This architecture enables efficient processing and superior performance across a range of applications.",
-                      "payment": "Free",
-                      "link": "https://chat.deepseek.com/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "deepseek.json",
-                      "value": 545
-                    },
-                    {
-                      "name": "LM Studio",
-                      "description": "LM Studio is a free, open-source desktop application that enables users to run large language models (LLMs) locally on their computers, ensuring privacy and control over data. Designed for macOS (M1/M2/M3) and Windows systems with AVX2 support, it also offers a Linux version in beta.",
-                      "payment": "Free",
-                      "link": "https://lmstudio.ai/",
-                      "type": "Offline tool",
-                      "skills": "Low",
-                      "tooldiagram": "lm_studio.json",
-                      "value": 579
-                    },
-                    {
-                      "name": "Replicate",
-                      "description": "Replicate is a platform that enables developers to run and fine-tune open-source machine learning models, as well as deploy custom models at scale, all through a simple API. It abstracts the complexities of machine learning infrastructure, allowing users to integrate AI capabilities into their applications with minimal effort",
-                      "payment": "Premium",
-                      "link": "https://replicate.com/home",
-                      "type": "Online tool",
-                      "skills": "High",
-                      "tooldiagram": "replicate.json",
-                      "value": 601
-                    },
-                    {
-                      "name": "Gemini",
-                      "description": "Google Gemini is an advanced AI assistant designed to enhance productivity and creativity across various tasks. It offers assistance in writing, planning, learning, and more.",
-                      "payment": "Freemium",
-                      "link": "https://gemini.google.com/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "gemini.json",
-                      "value": 625
-                    },
-                    {
-                      "name": "Claude",
-                      "description": "Claude is an advanced AI assistant developed by Anthropic, designed to assist users with a variety of tasks, including drafting and iterating on websites, graphics, documents, and code. It offers a chat interface that allows for seamless interaction and collaboration.",
-                      "payment": "Freemium",
-                      "link": "https://claude.ai/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "claude.json",
-                      "value": 653
-                    },
-                    {
-                      "name": "Llamafile",
-                      "description": "Llamafile is an open-source tool developed by Mozilla Ocho that simplifies the distribution and execution of large language models (LLMs) by packaging them into a single-file executable. This approach enhances accessibility for both developers and end-users, allowing LLMs to run locally on various platforms without the need for complex installations.",
-                      "payment": "Free",
-                      "link": "https://github.com/Mozilla-Ocho/llamafile",
-                      "type": "Offline tool",
-                      "skills": "Advanced",
-                      "tooldiagram": "llamafile.json",
-                      "value": 687
                     }
                   ]
                 }
@@ -2079,13 +1209,13 @@
                       "value": 109
                     },
                     {
-                      "name": "\nGooey.ai Doc Summary",
+                      "name": "Gooey.ai Doc Summary",
                       "description": "Gooey.ai Doc Summary allow to upload collections of PDFs, DOCs, and audio files for transcription and processing. Using GPT-based instructions, this tool performs a map-reduce operation to return summarized results. Ideal for summarizing large datasets into structured data, it enhances research, reporting, and data analysis. Perfect for researchers, students, and professionals who need to efficiently extract and condense information from extensive document collections. Check out the examples for more insights.",
                       "payment": "Freemium",
                       "link": "https://gooey.ai/doc-summary/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "\ngooeyai_doc_summary.json",
+                      "tooldiagram": "gooeyai_doc_summary.json",
                       "value": 142
                     }
                   ]
@@ -2174,13 +1304,13 @@
                       "value": 139
                     },
                     {
-                      "name": "\nGooey.ai Doc Summary",
+                      "name": "Gooey.ai Doc Summary",
                       "description": "Gooey.ai Doc Summary allow to upload collections of PDFs, DOCs, and audio files for transcription and processing. Using GPT-based instructions, this tool performs a map-reduce operation to return summarized results. Ideal for summarizing large datasets into structured data, it enhances research, reporting, and data analysis. Perfect for researchers, students, and professionals who need to efficiently extract and condense information from extensive document collections. Check out the examples for more insights.",
                       "payment": "Freemium",
                       "link": "https://gooey.ai/doc-summary/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "\ngooeyai_doc_summary.json",
+                      "tooldiagram": "gooeyai_doc_summary.json",
                       "value": 143
                     }
                   ]
@@ -2364,13 +1494,13 @@
                   "name": "Text File",
                   "children": [
                     {
-                      "name": "\nGooey.ai Google GPT",
+                      "name": "Gooey.ai Google GPT",
                       "description": "Gooey.ai Google GPT revolutionize web searching with the power of GPT. This tool finds answers, summarizes articles, writes essays, translates languages, and more, using the latest information from Google with complete citations. Like Bing + ChatGPT or perplexity.ai, it queries Google and summarizes results (with citations) using an editable GPT script. Additionally, it can filter results to your website, allowing users to get answers based solely on your site's content, enhancing engagement and SEO.",
                       "payment": "Freemium",
                       "link": "https://gooey.ai/google-gpt/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "\ngooeyai_google_gpt.json",
+                      "tooldiagram": "gooeyai_google_gpt.json",
                       "value": 136
                     }
                   ]
@@ -2959,13 +2089,13 @@
                   "name": "Text File",
                   "children": [
                     {
-                      "name": "\nGooey.ai Google GPT",
+                      "name": "Gooey.ai Google GPT",
                       "description": "Gooey.ai Google GPT revolutionize web searching with the power of GPT. This tool finds answers, summarizes articles, writes essays, translates languages, and more, using the latest information from Google with complete citations. Like Bing + ChatGPT or perplexity.ai, it queries Google and summarizes results (with citations) using an editable GPT script. Additionally, it can filter results to your website, allowing users to get answers based solely on your site's content, enhancing engagement and SEO.",
                       "payment": "Freemium",
                       "link": "https://gooey.ai/google-gpt/",
                       "type": "Online tool",
                       "skills": "Medium",
-                      "tooldiagram": "\ngooeyai_google_gpt.json",
+                      "tooldiagram": "gooeyai_google_gpt.json",
                       "value": 135
                     }
                   ]
@@ -2984,7 +2114,7 @@
                   "name": "Text File",
                   "children": [
                     {
-                      "name": "Gooey.ai Compare Large Language Models",
+                      "name": "Gooey.ai Compare LLMs",
                       "description": "Discover which language model works best for your prompt by comparing top models like LLaMA2, Gemini, Mistral, and OpenAI GPT-4. This tool analyzes the strengths, biases, and performance of each model, providing insights to help you choose the most suitable one for your needs. With new models added monthly, stay updated on the latest advancements and make informed decisions for your projects. Perfect for developers and researchers looking to optimize their use of large language models.",
                       "payment": "Freemium",
                       "link": "https://gooey.ai/compare-large-language-models/",
@@ -3122,31 +2252,6 @@
                       "skills": "Low",
                       "tooldiagram": "kreaai.json",
                       "value": 253
-                    },
-                    {
-                      "name": "Vizcom",
-                      "description": "Vizcom is an AI-powered creative tool designed for design and creative professionals. It offers a transformative approach to concept drawing, enabling users to turn their sketches into impressive realistic renderings quickly and efficiently.",
-                      "payment": "Freemium",
-                      "link": "https://www.vizcom.ai/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "vizcom.json",
-                      "value": 704
-                    }
-                  ]
-                },
-                {
-                  "name": "3D",
-                  "children": [
-                    {
-                      "name": "Vizcom",
-                      "description": "Vizcom is an AI-powered creative tool designed for design and creative professionals. It offers a transformative approach to concept drawing, enabling users to turn their sketches into impressive realistic renderings quickly and efficiently.",
-                      "payment": "Freemium",
-                      "link": "https://www.vizcom.ai/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "vizcom.json",
-                      "value": 705
                     }
                   ]
                 }
@@ -3312,66 +2417,6 @@
                       "skills": "Low",
                       "tooldiagram": "gemini.json",
                       "value": 244
-                    },
-                    {
-                      "name": "Deepseek",
-                      "description": "DeepSeek is an advanced AI platform that offers a suite of tools and models designed to enhance various tasks, including coding assistance, content creation, and complex problem-solving. At its core is DeepSeek-V3, a state-of-the-art large language model boasting 671 billion parameters, with 37 billion activated per token. This architecture enables efficient processing and superior performance across a range of applications.",
-                      "payment": "Free",
-                      "link": "https://chat.deepseek.com/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "deepseek.json",
-                      "value": 547
-                    },
-                    {
-                      "name": "LM Studio",
-                      "description": "LM Studio is a free, open-source desktop application that enables users to run large language models (LLMs) locally on their computers, ensuring privacy and control over data. Designed for macOS (M1/M2/M3) and Windows systems with AVX2 support, it also offers a Linux version in beta.",
-                      "payment": "Free",
-                      "link": "https://lmstudio.ai/",
-                      "type": "Offline tool",
-                      "skills": "Low",
-                      "tooldiagram": "lm_studio.json",
-                      "value": 581
-                    },
-                    {
-                      "name": "Replicate",
-                      "description": "Replicate is a platform that enables developers to run and fine-tune open-source machine learning models, as well as deploy custom models at scale, all through a simple API. It abstracts the complexities of machine learning infrastructure, allowing users to integrate AI capabilities into their applications with minimal effort",
-                      "payment": "Premium",
-                      "link": "https://replicate.com/home",
-                      "type": "Online tool",
-                      "skills": "High",
-                      "tooldiagram": "replicate.json",
-                      "value": 603
-                    },
-                    {
-                      "name": "Gemini",
-                      "description": "Google Gemini is an advanced AI assistant designed to enhance productivity and creativity across various tasks. It offers assistance in writing, planning, learning, and more.",
-                      "payment": "Freemium",
-                      "link": "https://gemini.google.com/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "gemini.json",
-                      "value": 627
-                    },
-                    {
-                      "name": "Claude",
-                      "description": "Claude is an advanced AI assistant developed by Anthropic, designed to assist users with a variety of tasks, including drafting and iterating on websites, graphics, documents, and code. It offers a chat interface that allows for seamless interaction and collaboration.",
-                      "payment": "Freemium",
-                      "link": "https://claude.ai/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "claude.json",
-                      "value": 655
-                    },
-                    {
-                      "name": "Llamafile",
-                      "description": "Llamafile is an open-source tool developed by Mozilla Ocho that simplifies the distribution and execution of large language models (LLMs) by packaging them into a single-file executable. This approach enhances accessibility for both developers and end-users, allowing LLMs to run locally on various platforms without the need for complex installations.",
-                      "payment": "Free",
-                      "link": "https://github.com/Mozilla-Ocho/llamafile",
-                      "type": "Offline tool",
-                      "skills": "Advanced",
-                      "tooldiagram": "llamafile.json",
-                      "value": 689
                     }
                   ]
                 },
@@ -3397,36 +2442,6 @@
                       "skills": "Medium",
                       "tooldiagram": "gooey_text_2_audio.json",
                       "value": 225
-                    },
-                    {
-                      "name": "Elevelabs",
-                      "description": "ElevenLabs is an AI-powered audio technology company specializing in text-to-speech and voice cloning. It enables lifelike speech synthesis for audiobooks, voiceovers, gaming, and accessibility, making content universally available in any language and voice.",
-                      "payment": "Freemium",
-                      "link": "https://elevenlabs.io/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "elevelabs.json",
-                      "value": 673
-                    },
-                    {
-                      "name": "ComfyUI",
-                      "description": "ComfyUI is a customizable user interface library for Python applications, ideal for designers looking to create bespoke UI elements. It simplifies the process of building interactive and visually appealing interfaces with easy-to-use components and extensive customization options, enhancing the user experience in desktop and web applications.",
-                      "payment": "Freemium",
-                      "link": "https://www.comfy.org/",
-                      "type": "Offline tool",
-                      "skills": "High",
-                      "tooldiagram": "comfyui.json",
-                      "value": 699
-                    },
-                    {
-                      "name": "Suno",
-                      "description": "Suno is an AI-powered music generation platform that enables users to create original songs by providing text prompts. By describing the desired genre, mood, or specific themes, users can generate complete tracks featuring both vocals and instrumentation.",
-                      "payment": "",
-                      "link": "https://suno.com/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "suno.json",
-                      "value": 723
                     }
                   ]
                 },
@@ -3727,8 +2742,8 @@
                       "name": "ComfyUI",
                       "description": "ComfyUI is a customizable user interface library for Python applications, ideal for designers looking to create bespoke UI elements. It simplifies the process of building interactive and visually appealing interfaces with easy-to-use components and extensive customization options, enhancing the user experience in desktop and web applications.",
                       "payment": "Freemium",
-                      "link": "https://www.comfy.org/",
-                      "type": "Offline tool",
+                      "link": "https://github.com/comfyanonymous/ComfyUI",
+                      "type": "Online Tool",
                       "skills": "High",
                       "tooldiagram": "comfyui.json",
                       "value": 232
@@ -3782,76 +2797,6 @@
                       "skills": "Low",
                       "tooldiagram": "kreaai.json",
                       "value": 250
-                    },
-                    {
-                      "name": "LM Studio",
-                      "description": "LM Studio is a free, open-source desktop application that enables users to run large language models (LLMs) locally on their computers, ensuring privacy and control over data. Designed for macOS (M1/M2/M3) and Windows systems with AVX2 support, it also offers a Linux version in beta.",
-                      "payment": "Free",
-                      "link": "https://lmstudio.ai/",
-                      "type": "Offline tool",
-                      "skills": "Low",
-                      "tooldiagram": "lm_studio.json",
-                      "value": 582
-                    },
-                    {
-                      "name": "Replicate",
-                      "description": "Replicate is a platform that enables developers to run and fine-tune open-source machine learning models, as well as deploy custom models at scale, all through a simple API. It abstracts the complexities of machine learning infrastructure, allowing users to integrate AI capabilities into their applications with minimal effort",
-                      "payment": "Premium",
-                      "link": "https://replicate.com/home",
-                      "type": "Online tool",
-                      "skills": "High",
-                      "tooldiagram": "replicate.json",
-                      "value": 604
-                    },
-                    {
-                      "name": "Gemini",
-                      "description": "Google Gemini is an advanced AI assistant designed to enhance productivity and creativity across various tasks. It offers assistance in writing, planning, learning, and more.",
-                      "payment": "Freemium",
-                      "link": "https://gemini.google.com/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "gemini.json",
-                      "value": 628
-                    },
-                    {
-                      "name": "Claude",
-                      "description": "Claude is an advanced AI assistant developed by Anthropic, designed to assist users with a variety of tasks, including drafting and iterating on websites, graphics, documents, and code. It offers a chat interface that allows for seamless interaction and collaboration.",
-                      "payment": "Freemium",
-                      "link": "https://claude.ai/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "claude.json",
-                      "value": 656
-                    },
-                    {
-                      "name": "Llamafile",
-                      "description": "Llamafile is an open-source tool developed by Mozilla Ocho that simplifies the distribution and execution of large language models (LLMs) by packaging them into a single-file executable. This approach enhances accessibility for both developers and end-users, allowing LLMs to run locally on various platforms without the need for complex installations.",
-                      "payment": "Free",
-                      "link": "https://github.com/Mozilla-Ocho/llamafile",
-                      "type": "Offline tool",
-                      "skills": "Advanced",
-                      "tooldiagram": "llamafile.json",
-                      "value": 690
-                    },
-                    {
-                      "name": "Cogniwerk",
-                      "description": "CogniWerk is a browser-based platform offering advanced generative AI models for creative professionals. It provides tools for text-to-image generation, image editing, and model training, enabling users to create and refine visual content efficiently. Features include Text-to-Image, Image-to-Image, Inpainting, ControlNet, and the ability to train custom models.",
-                      "payment": "Freemium",
-                      "link": "https://cogniwerk.ai/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "cogniwerk.json",
-                      "value": 711
-                    },
-                    {
-                      "name": "KlingAI",
-                      "description": "KlingAI is an advanced AI-driven platform developed by Kuaishou Technology that transforms text and images into high-quality, dynamic videos. Leveraging state-of-the-art AI models, KlingAI enables users to create realistic and engaging video content with ease.",
-                      "payment": "Freemium",
-                      "link": "https://www.klingai.com/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "klingai.json",
-                      "value": 715
                     }
                   ]
                 },
@@ -4147,46 +3092,6 @@
                       "skills": "Medium",
                       "tooldiagram": "text2video_zero.json",
                       "value": 261
-                    },
-                    {
-                      "name": "Sora",
-                      "description": "Sora is OpenAI's advanced video generation model that transforms text, image, and video inputs into dynamic video content. Designed to democratize video creation, Sora enables users to produce high-quality videos through intuitive prompts and editing tools.",
-                      "payment": "Premium",
-                      "link": "https://sora.com/library",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "sora.json",
-                      "value": 535
-                    },
-                    {
-                      "name": "ComfyUI",
-                      "description": "ComfyUI is a customizable user interface library for Python applications, ideal for designers looking to create bespoke UI elements. It simplifies the process of building interactive and visually appealing interfaces with easy-to-use components and extensive customization options, enhancing the user experience in desktop and web applications.",
-                      "payment": "Freemium",
-                      "link": "https://www.comfy.org/",
-                      "type": "Offline tool",
-                      "skills": "High",
-                      "tooldiagram": "comfyui.json",
-                      "value": 698
-                    },
-                    {
-                      "name": "KlingAI",
-                      "description": "KlingAI is an advanced AI-driven platform developed by Kuaishou Technology that transforms text and images into high-quality, dynamic videos. Leveraging state-of-the-art AI models, KlingAI enables users to create realistic and engaging video content with ease.",
-                      "payment": "Freemium",
-                      "link": "https://www.klingai.com/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "klingai.json",
-                      "value": 716
-                    },
-                    {
-                      "name": "Hailuoai",
-                      "description": "Hailuo AI transforms text and images into high-quality videos with diverse styles like hyper-realistic, fantasy, and anime. It offers ultra-realistic motion, fast generation, and an intuitive interface",
-                      "payment": "",
-                      "link": "https://hailuoai.video/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "hailuoai.json",
-                      "value": 726
                     }
                   ]
                 },
@@ -4202,56 +3107,6 @@
                       "skills": "Low",
                       "tooldiagram": "chatgpt.json",
                       "value": 230
-                    },
-                    {
-                      "name": "LM Studio",
-                      "description": "LM Studio is a free, open-source desktop application that enables users to run large language models (LLMs) locally on their computers, ensuring privacy and control over data. Designed for macOS (M1/M2/M3) and Windows systems with AVX2 support, it also offers a Linux version in beta.",
-                      "payment": "Free",
-                      "link": "https://lmstudio.ai/",
-                      "type": "Offline tool",
-                      "skills": "Low",
-                      "tooldiagram": "lm_studio.json",
-                      "value": 583
-                    },
-                    {
-                      "name": "Replicate",
-                      "description": "Replicate is a platform that enables developers to run and fine-tune open-source machine learning models, as well as deploy custom models at scale, all through a simple API. It abstracts the complexities of machine learning infrastructure, allowing users to integrate AI capabilities into their applications with minimal effort",
-                      "payment": "Premium",
-                      "link": "https://replicate.com/home",
-                      "type": "Online tool",
-                      "skills": "High",
-                      "tooldiagram": "replicate.json",
-                      "value": 606
-                    },
-                    {
-                      "name": "Gemini",
-                      "description": "Google Gemini is an advanced AI assistant designed to enhance productivity and creativity across various tasks. It offers assistance in writing, planning, learning, and more.",
-                      "payment": "Freemium",
-                      "link": "https://gemini.google.com/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "gemini.json",
-                      "value": 629
-                    },
-                    {
-                      "name": "Claude",
-                      "description": "Claude is an advanced AI assistant developed by Anthropic, designed to assist users with a variety of tasks, including drafting and iterating on websites, graphics, documents, and code. It offers a chat interface that allows for seamless interaction and collaboration.",
-                      "payment": "Freemium",
-                      "link": "https://claude.ai/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "claude.json",
-                      "value": 657
-                    },
-                    {
-                      "name": "Llamafile",
-                      "description": "Llamafile is an open-source tool developed by Mozilla Ocho that simplifies the distribution and execution of large language models (LLMs) by packaging them into a single-file executable. This approach enhances accessibility for both developers and end-users, allowing LLMs to run locally on various platforms without the need for complex installations.",
-                      "payment": "Free",
-                      "link": "https://github.com/Mozilla-Ocho/llamafile",
-                      "type": "Offline tool",
-                      "skills": "Advanced",
-                      "tooldiagram": "llamafile.json",
-                      "value": 691
                     }
                   ]
                 }
@@ -4322,36 +3177,6 @@
                       "skills": "Low",
                       "tooldiagram": "kreaai.json",
                       "value": 251
-                    },
-                    {
-                      "name": "Replicate",
-                      "description": "Replicate is a platform that enables developers to run and fine-tune open-source machine learning models, as well as deploy custom models at scale, all through a simple API. It abstracts the complexities of machine learning infrastructure, allowing users to integrate AI capabilities into their applications with minimal effort",
-                      "payment": "Premium",
-                      "link": "https://replicate.com/home",
-                      "type": "Online tool",
-                      "skills": "High",
-                      "tooldiagram": "replicate.json",
-                      "value": 605
-                    },
-                    {
-                      "name": "Cogniwerk",
-                      "description": "CogniWerk is a browser-based platform offering advanced generative AI models for creative professionals. It provides tools for text-to-image generation, image editing, and model training, enabling users to create and refine visual content efficiently. Features include Text-to-Image, Image-to-Image, Inpainting, ControlNet, and the ability to train custom models.",
-                      "payment": "Freemium",
-                      "link": "https://cogniwerk.ai/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "cogniwerk.json",
-                      "value": 713
-                    },
-                    {
-                      "name": "KlingAI",
-                      "description": "KlingAI is an advanced AI-driven platform developed by Kuaishou Technology that transforms text and images into high-quality, dynamic videos. Leveraging state-of-the-art AI models, KlingAI enables users to create realistic and engaging video content with ease.",
-                      "payment": "Freemium",
-                      "link": "https://www.klingai.com/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "klingai.json",
-                      "value": 717
                     }
                   ]
                 },
@@ -4437,61 +3262,6 @@
                       "skills": "Low",
                       "tooldiagram": "deep_ai.json",
                       "value": 239
-                    },
-                    {
-                      "name": "Sora",
-                      "description": "Sora is OpenAI's advanced video generation model that transforms text, image, and video inputs into dynamic video content. Designed to democratize video creation, Sora enables users to produce high-quality videos through intuitive prompts and editing tools.",
-                      "payment": "Premium",
-                      "link": "https://sora.com/library",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "sora.json",
-                      "value": 534
-                    },
-                    {
-                      "name": "KlingAI",
-                      "description": "KlingAI is an advanced AI-driven platform developed by Kuaishou Technology that transforms text and images into high-quality, dynamic videos. Leveraging state-of-the-art AI models, KlingAI enables users to create realistic and engaging video content with ease.",
-                      "payment": "Freemium",
-                      "link": "https://www.klingai.com/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "klingai.json",
-                      "value": 718
-                    },
-                    {
-                      "name": "Hailuoai",
-                      "description": "Hailuo AI transforms text and images into high-quality videos with diverse styles like hyper-realistic, fantasy, and anime. It offers ultra-realistic motion, fast generation, and an intuitive interface",
-                      "payment": "",
-                      "link": "https://hailuoai.video/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "hailuoai.json",
-                      "value": 729
-                    }
-                  ]
-                },
-                {
-                  "name": "ML model",
-                  "children": [
-                    {
-                      "name": "Krea",
-                      "description": "Krea AI is an innovative platform that leverages artificial intelligence to facilitate the creation and enhancement of images and videos in real-time. Designed for artists, designers, and content creators, Krea AI offers a suite of tools that transform creative ideas into stunning visuals with minimal effort.",
-                      "payment": "Freemium",
-                      "link": "https://www.krea.ai/",
-                      "type": "Online tool",
-                      "skills": "",
-                      "tooldiagram": "krea.json",
-                      "value": 553
-                    },
-                    {
-                      "name": "Cogniwerk",
-                      "description": "CogniWerk is a browser-based platform offering advanced generative AI models for creative professionals. It provides tools for text-to-image generation, image editing, and model training, enabling users to create and refine visual content efficiently. Features include Text-to-Image, Image-to-Image, Inpainting, ControlNet, and the ability to train custom models.",
-                      "payment": "Freemium",
-                      "link": "https://cogniwerk.ai/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "cogniwerk.json",
-                      "value": 708
                     }
                   ]
                 }
@@ -4567,21 +3337,6 @@
                       "skills": "Medium",
                       "tooldiagram": "stable_video_diffusion.json",
                       "value": 260
-                    }
-                  ]
-                },
-                {
-                  "name": "ML model",
-                  "children": [
-                    {
-                      "name": "Midjourney",
-                      "description": "Midjourney is a design tool for creating and editing visual content. With advanced capabilities and a user-friendly interface, it empowers designers, artists, and developers to bring creative ideas to life. Offering tools for graphics, photo editing, and animations, Midjourney enhances creative workflows and achieves professional results.",
-                      "payment": "Premium",
-                      "link": "https://www.midjourney.com/app/",
-                      "type": "Online tool",
-                      "skills": "Medium",
-                      "tooldiagram": "midjourney.json",
-                      "value": 565
                     }
                   ]
                 }
@@ -4747,7 +3502,7 @@
                       "name": "Pix2Pix",
                       "description": "Pix2Pix is an image-to-image translation model using deep learning. It generates realistic images by learning mappings between input and output images. Transforming sketches into realistic images or converting black-and-white to color, Pix2Pix has applications in computer vision, graphics, and image editing, enhancing creative possibilities.",
                       "payment": "Free",
-                      "link": "https://www.tensorflow.org/tutorials/generative/pix2pix?hl=it",
+                      "link": "https://affinelayer.com/pixsrv/",
                       "type": "Online tool",
                       "skills": "Advanced",
                       "tooldiagram": "pix2pix.json",
@@ -4937,31 +3692,6 @@
                       "skills": "Low",
                       "tooldiagram": "kreaai.json",
                       "value": 410
-                    },
-                    {
-                      "name": "Vizcom",
-                      "description": "Vizcom is an AI-powered creative tool designed for design and creative professionals. It offers a transformative approach to concept drawing, enabling users to turn their sketches into impressive realistic renderings quickly and efficiently.",
-                      "payment": "Freemium",
-                      "link": "https://www.vizcom.ai/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "vizcom.json",
-                      "value": 702
-                    }
-                  ]
-                },
-                {
-                  "name": "3D",
-                  "children": [
-                    {
-                      "name": "Vizcom",
-                      "description": "Vizcom is an AI-powered creative tool designed for design and creative professionals. It offers a transformative approach to concept drawing, enabling users to turn their sketches into impressive realistic renderings quickly and efficiently.",
-                      "payment": "Freemium",
-                      "link": "https://www.vizcom.ai/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "vizcom.json",
-                      "value": 703
                     }
                   ]
                 }
@@ -5127,46 +3857,6 @@
                       "skills": "Medium",
                       "tooldiagram": "text2video_zero.json",
                       "value": 434
-                    },
-                    {
-                      "name": "Sora",
-                      "description": "Sora is OpenAI's advanced video generation model that transforms text, image, and video inputs into dynamic video content. Designed to democratize video creation, Sora enables users to produce high-quality videos through intuitive prompts and editing tools.",
-                      "payment": "Premium",
-                      "link": "https://sora.com/library",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "sora.json",
-                      "value": 536
-                    },
-                    {
-                      "name": "ComfyUI",
-                      "description": "ComfyUI is a customizable user interface library for Python applications, ideal for designers looking to create bespoke UI elements. It simplifies the process of building interactive and visually appealing interfaces with easy-to-use components and extensive customization options, enhancing the user experience in desktop and web applications.",
-                      "payment": "Freemium",
-                      "link": "https://www.comfy.org/",
-                      "type": "Offline tool",
-                      "skills": "High",
-                      "tooldiagram": "comfyui.json",
-                      "value": 700
-                    },
-                    {
-                      "name": "KlingAI",
-                      "description": "KlingAI is an advanced AI-driven platform developed by Kuaishou Technology that transforms text and images into high-quality, dynamic videos. Leveraging state-of-the-art AI models, KlingAI enables users to create realistic and engaging video content with ease.",
-                      "payment": "Freemium",
-                      "link": "https://www.klingai.com/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "klingai.json",
-                      "value": 720
-                    },
-                    {
-                      "name": "Hailuoai",
-                      "description": "Hailuo AI transforms text and images into high-quality videos with diverse styles like hyper-realistic, fantasy, and anime. It offers ultra-realistic motion, fast generation, and an intuitive interface",
-                      "payment": "",
-                      "link": "https://hailuoai.video/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "hailuoai.json",
-                      "value": 727
                     }
                   ]
                 },
@@ -5307,8 +3997,8 @@
                       "name": "ComfyUI",
                       "description": "ComfyUI is a customizable user interface library for Python applications, ideal for designers looking to create bespoke UI elements. It simplifies the process of building interactive and visually appealing interfaces with easy-to-use components and extensive customization options, enhancing the user experience in desktop and web applications.",
                       "payment": "Free",
-                      "link": "https://www.comfy.org/",
-                      "type": "Offline tool",
+                      "link": "https://github.com/comfyanonymous/ComfyUI",
+                      "type": "Online Tool",
                       "skills": "High",
                       "tooldiagram": "comfyui.json",
                       "value": 394
@@ -5372,36 +4062,6 @@
                       "skills": "Low",
                       "tooldiagram": "runway.json",
                       "value": 423
-                    },
-                    {
-                      "name": "Replicate",
-                      "description": "Replicate is a platform that enables developers to run and fine-tune open-source machine learning models, as well as deploy custom models at scale, all through a simple API. It abstracts the complexities of machine learning infrastructure, allowing users to integrate AI capabilities into their applications with minimal effort",
-                      "payment": "Premium",
-                      "link": "https://replicate.com/home",
-                      "type": "Online tool",
-                      "skills": "High",
-                      "tooldiagram": "replicate.json",
-                      "value": 608
-                    },
-                    {
-                      "name": "Cogniwerk",
-                      "description": "CogniWerk is a browser-based platform offering advanced generative AI models for creative professionals. It provides tools for text-to-image generation, image editing, and model training, enabling users to create and refine visual content efficiently. Features include Text-to-Image, Image-to-Image, Inpainting, ControlNet, and the ability to train custom models.",
-                      "payment": "Freemium",
-                      "link": "https://cogniwerk.ai/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "cogniwerk.json",
-                      "value": 710
-                    },
-                    {
-                      "name": "KlingAI",
-                      "description": "KlingAI is an advanced AI-driven platform developed by Kuaishou Technology that transforms text and images into high-quality, dynamic videos. Leveraging state-of-the-art AI models, KlingAI enables users to create realistic and engaging video content with ease.",
-                      "payment": "Freemium",
-                      "link": "https://www.klingai.com/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "klingai.json",
-                      "value": 719
                     }
                   ]
                 },
@@ -5667,16 +4327,6 @@
                       "skills": "Advanced",
                       "tooldiagram": "flutterflow_ai_gen.json",
                       "value": 303
-                    },
-                    {
-                      "name": "Cursor",
-                      "description": "DeepSeek is an advanced AI platform that offers a suite of tools and models designed to enhance various tasks, including coding assistance, content creation, and complex problem-solving. At its core is DeepSeek-V3, a state-of-the-art large language model boasting 671 billion parameters, with 37 billion activated per token. This architecture enables efficient processing and superior performance across a range of applications.",
-                      "payment": "Freemium",
-                      "link": "https://www.cursor.com/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "cursor.json",
-                      "value": 555
                     }
                   ]
                 },
@@ -5962,36 +4612,6 @@
                       "skills": "Medium",
                       "tooldiagram": "xtts.json",
                       "value": 440
-                    },
-                    {
-                      "name": "Elevelabs",
-                      "description": "ElevenLabs is an AI-powered audio technology company specializing in text-to-speech and voice cloning. It enables lifelike speech synthesis for audiobooks, voiceovers, gaming, and accessibility, making content universally available in any language and voice.",
-                      "payment": "Freemium",
-                      "link": "https://elevenlabs.io/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "elevelabs.json",
-                      "value": 674
-                    },
-                    {
-                      "name": "ComfyUI",
-                      "description": "ComfyUI is a customizable user interface library for Python applications, ideal for designers looking to create bespoke UI elements. It simplifies the process of building interactive and visually appealing interfaces with easy-to-use components and extensive customization options, enhancing the user experience in desktop and web applications.",
-                      "payment": "Freemium",
-                      "link": "https://www.comfy.org/",
-                      "type": "Offline tool",
-                      "skills": "High",
-                      "tooldiagram": "comfyui.json",
-                      "value": 701
-                    },
-                    {
-                      "name": "Suno",
-                      "description": "Suno is an AI-powered music generation platform that enables users to create original songs by providing text prompts. By describing the desired genre, mood, or specific themes, users can generate complete tracks featuring both vocals and instrumentation.",
-                      "payment": "",
-                      "link": "https://suno.com/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "suno.json",
-                      "value": 724
                     }
                   ]
                 },
@@ -6037,56 +4657,6 @@
                       "skills": "Low",
                       "tooldiagram": "chatgpt.json",
                       "value": 390
-                    },
-                    {
-                      "name": "LM Studio",
-                      "description": "LM Studio is a free, open-source desktop application that enables users to run large language models (LLMs) locally on their computers, ensuring privacy and control over data. Designed for macOS (M1/M2/M3) and Windows systems with AVX2 support, it also offers a Linux version in beta.",
-                      "payment": "Free",
-                      "link": "https://lmstudio.ai/",
-                      "type": "Offline tool",
-                      "skills": "Low",
-                      "tooldiagram": "lm_studio.json",
-                      "value": 584
-                    },
-                    {
-                      "name": "Replicate",
-                      "description": "Replicate is a platform that enables developers to run and fine-tune open-source machine learning models, as well as deploy custom models at scale, all through a simple API. It abstracts the complexities of machine learning infrastructure, allowing users to integrate AI capabilities into their applications with minimal effort",
-                      "payment": "Premium",
-                      "link": "https://replicate.com/home",
-                      "type": "Online tool",
-                      "skills": "High",
-                      "tooldiagram": "replicate.json",
-                      "value": 607
-                    },
-                    {
-                      "name": "Gemini",
-                      "description": "Google Gemini is an advanced AI assistant designed to enhance productivity and creativity across various tasks. It offers assistance in writing, planning, learning, and more.",
-                      "payment": "Freemium",
-                      "link": "https://gemini.google.com/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "gemini.json",
-                      "value": 630
-                    },
-                    {
-                      "name": "Claude",
-                      "description": "Claude is an advanced AI assistant developed by Anthropic, designed to assist users with a variety of tasks, including drafting and iterating on websites, graphics, documents, and code. It offers a chat interface that allows for seamless interaction and collaboration.",
-                      "payment": "Freemium",
-                      "link": "https://claude.ai/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "claude.json",
-                      "value": 658
-                    },
-                    {
-                      "name": "Llamafile",
-                      "description": "Llamafile is an open-source tool developed by Mozilla Ocho that simplifies the distribution and execution of large language models (LLMs) by packaging them into a single-file executable. This approach enhances accessibility for both developers and end-users, allowing LLMs to run locally on various platforms without the need for complex installations.",
-                      "payment": "Free",
-                      "link": "https://github.com/Mozilla-Ocho/llamafile",
-                      "type": "Offline tool",
-                      "skills": "Advanced",
-                      "tooldiagram": "llamafile.json",
-                      "value": 692
                     }
                   ]
                 },
@@ -6102,26 +4672,6 @@
                       "skills": "Low",
                       "tooldiagram": "deep_ai.json",
                       "value": 396
-                    },
-                    {
-                      "name": "Cursor",
-                      "description": "DeepSeek is an advanced AI platform that offers a suite of tools and models designed to enhance various tasks, including coding assistance, content creation, and complex problem-solving. At its core is DeepSeek-V3, a state-of-the-art large language model boasting 671 billion parameters, with 37 billion activated per token. This architecture enables efficient processing and superior performance across a range of applications.",
-                      "payment": "Freemium",
-                      "link": "https://www.cursor.com/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "cursor.json",
-                      "value": 557
-                    },
-                    {
-                      "name": "Synthetic Users",
-                      "description": "Synthetic Users are AI-generated personas designed to simulate real human behaviors, preferences, and interactions. Leveraging advanced artificial intelligence and natural language processing, these virtual participants provide valuable insights for user research, product development, and market analysis without the need to engage actual users.",
-                      "payment": "Freemium",
-                      "link": "https://www.syntheticusers.com/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "synthetic_users.json",
-                      "value": 637
                     }
                   ]
                 }
@@ -6202,36 +4752,6 @@
                       "skills": "Low",
                       "tooldiagram": "runway.json",
                       "value": 424
-                    },
-                    {
-                      "name": "Vizcom",
-                      "description": "Vizcom is an AI-powered creative tool designed for design and creative professionals. It offers a transformative approach to concept drawing, enabling users to turn their sketches into impressive realistic renderings quickly and efficiently.",
-                      "payment": "Freemium",
-                      "link": "https://www.vizcom.ai/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "vizcom.json",
-                      "value": 706
-                    },
-                    {
-                      "name": "Cogniwerk",
-                      "description": "CogniWerk is a browser-based platform offering advanced generative AI models for creative professionals. It provides tools for text-to-image generation, image editing, and model training, enabling users to create and refine visual content efficiently. Features include Text-to-Image, Image-to-Image, Inpainting, ControlNet, and the ability to train custom models.",
-                      "payment": "Freemium",
-                      "link": "https://cogniwerk.ai/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "cogniwerk.json",
-                      "value": 712
-                    },
-                    {
-                      "name": "KlingAI",
-                      "description": "KlingAI is an advanced AI-driven platform developed by Kuaishou Technology that transforms text and images into high-quality, dynamic videos. Leveraging state-of-the-art AI models, KlingAI enables users to create realistic and engaging video content with ease.",
-                      "payment": "Freemium",
-                      "link": "https://www.klingai.com/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "klingai.json",
-                      "value": 721
                     }
                   ]
                 },
@@ -6287,36 +4807,6 @@
                       "skills": "Low",
                       "tooldiagram": "tokkinghaeds.json",
                       "value": 435
-                    },
-                    {
-                      "name": "Sora",
-                      "description": "Sora is OpenAI's advanced video generation model that transforms text, image, and video inputs into dynamic video content. Designed to democratize video creation, Sora enables users to produce high-quality videos through intuitive prompts and editing tools.",
-                      "payment": "Premium",
-                      "link": "https://sora.com/library",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "sora.json",
-                      "value": 537
-                    },
-                    {
-                      "name": "KlingAI",
-                      "description": "KlingAI is an advanced AI-driven platform developed by Kuaishou Technology that transforms text and images into high-quality, dynamic videos. Leveraging state-of-the-art AI models, KlingAI enables users to create realistic and engaging video content with ease.",
-                      "payment": "Freemium",
-                      "link": "https://www.klingai.com/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "klingai.json",
-                      "value": 722
-                    },
-                    {
-                      "name": "Hailuoai",
-                      "description": "Hailuo AI transforms text and images into high-quality videos with diverse styles like hyper-realistic, fantasy, and anime. It offers ultra-realistic motion, fast generation, and an intuitive interface",
-                      "payment": "",
-                      "link": "https://hailuoai.video/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "hailuoai.json",
-                      "value": 728
                     }
                   ]
                 },
@@ -6367,16 +4857,6 @@
                       "skills": "Low",
                       "tooldiagram": "meshy.json",
                       "value": 385
-                    },
-                    {
-                      "name": "TRELLIS",
-                      "description": "Trellis tool represents an innovative approach to creating high-quality 3D assets through a novel method involving Structured LATent (SLAT) representation. The SLAT model efficiently captures both structural and textural information, enabling versatile output formats such as Radiance Fields, 3D Gaussians, and meshes.",
-                      "payment": "Free",
-                      "link": "https://huggingface.co/spaces/JeffreyXiang/TRELLIS",
-                      "type": "Online tool",
-                      "skills": "Medium",
-                      "tooldiagram": "trellis.json",
-                      "value": 532
                     }
                   ]
                 },
@@ -6472,31 +4952,6 @@
                       "skills": "Medium",
                       "tooldiagram": "frontly.json",
                       "value": 403
-                    }
-                  ]
-                },
-                {
-                  "name": "ML model",
-                  "children": [
-                    {
-                      "name": "Krea",
-                      "description": "Krea AI is an innovative platform that leverages artificial intelligence to facilitate the creation and enhancement of images and videos in real-time. Designed for artists, designers, and content creators, Krea AI offers a suite of tools that transform creative ideas into stunning visuals with minimal effort.",
-                      "payment": "Freemium",
-                      "link": "https://www.krea.ai/",
-                      "type": "Online tool",
-                      "skills": "",
-                      "tooldiagram": "krea.json",
-                      "value": 552
-                    },
-                    {
-                      "name": "Cogniwerk",
-                      "description": "CogniWerk is a browser-based platform offering advanced generative AI models for creative professionals. It provides tools for text-to-image generation, image editing, and model training, enabling users to create and refine visual content efficiently. Features include Text-to-Image, Image-to-Image, Inpainting, ControlNet, and the ability to train custom models.",
-                      "payment": "Freemium",
-                      "link": "https://cogniwerk.ai/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "cogniwerk.json",
-                      "value": 707
                     }
                   ]
                 }
@@ -6772,66 +5227,6 @@
                       "skills": "Low",
                       "tooldiagram": "runway.json",
                       "value": 429
-                    },
-                    {
-                      "name": "LM Studio",
-                      "description": "LM Studio is a free, open-source desktop application that enables users to run large language models (LLMs) locally on their computers, ensuring privacy and control over data. Designed for macOS (M1/M2/M3) and Windows systems with AVX2 support, it also offers a Linux version in beta.",
-                      "payment": "Free",
-                      "link": "https://lmstudio.ai/",
-                      "type": "Offline tool",
-                      "skills": "Low",
-                      "tooldiagram": "lm_studio.json",
-                      "value": 585
-                    },
-                    {
-                      "name": "Replicate",
-                      "description": "Replicate is a platform that enables developers to run and fine-tune open-source machine learning models, as well as deploy custom models at scale, all through a simple API. It abstracts the complexities of machine learning infrastructure, allowing users to integrate AI capabilities into their applications with minimal effort",
-                      "payment": "Premium",
-                      "link": "https://replicate.com/home",
-                      "type": "Online tool",
-                      "skills": "High",
-                      "tooldiagram": "replicate.json",
-                      "value": 609
-                    },
-                    {
-                      "name": "Gemini",
-                      "description": "Google Gemini is an advanced AI assistant designed to enhance productivity and creativity across various tasks. It offers assistance in writing, planning, learning, and more.",
-                      "payment": "Freemium",
-                      "link": "https://gemini.google.com/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "gemini.json",
-                      "value": 631
-                    },
-                    {
-                      "name": "Claude",
-                      "description": "Claude is an advanced AI assistant developed by Anthropic, designed to assist users with a variety of tasks, including drafting and iterating on websites, graphics, documents, and code. It offers a chat interface that allows for seamless interaction and collaboration.",
-                      "payment": "Freemium",
-                      "link": "https://claude.ai/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "claude.json",
-                      "value": 659
-                    },
-                    {
-                      "name": "Elevelabs",
-                      "description": "ElevenLabs is an AI-driven audio technology company specializing in advanced text-to-speech (TTS) and voice cloning solutions. The company aims to make content universally accessible in any language and voice, providing lifelike speech synthesis for applications such as audiobooks, video voiceovers, gaming, and accessibility tools. With innovative features like voice cloning, custom voice design, and AI-powered dubbing, ElevenLabs enhances digital communication by delivering natural and expressive speech.",
-                      "payment": "Freemium",
-                      "link": "https://elevenlabs.io/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "elevelabs.json",
-                      "value": 675
-                    },
-                    {
-                      "name": "Llamafile",
-                      "description": "Llamafile is an open-source tool developed by Mozilla Ocho that simplifies the distribution and execution of large language models (LLMs) by packaging them into a single-file executable. This approach enhances accessibility for both developers and end-users, allowing LLMs to run locally on various platforms without the need for complex installations.",
-                      "payment": "Free",
-                      "link": "https://github.com/Mozilla-Ocho/llamafile",
-                      "type": "Offline tool",
-                      "skills": "Advanced",
-                      "tooldiagram": "llamafile.json",
-                      "value": 693
                     }
                   ]
                 },
@@ -6867,31 +5262,6 @@
                       "skills": "Medium",
                       "tooldiagram": "magician.json",
                       "value": 304
-                    },
-                    {
-                      "name": "Cursor",
-                      "description": "DeepSeek is an advanced AI platform that offers a suite of tools and models designed to enhance various tasks, including coding assistance, content creation, and complex problem-solving. At its core is DeepSeek-V3, a state-of-the-art large language model boasting 671 billion parameters, with 37 billion activated per token. This architecture enables efficient processing and superior performance across a range of applications.",
-                      "payment": "Freemium",
-                      "link": "https://www.cursor.com/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "cursor.json",
-                      "value": 556
-                    }
-                  ]
-                },
-                {
-                  "name": "Text File",
-                  "children": [
-                    {
-                      "name": "Cursor",
-                      "description": "DeepSeek is an advanced AI platform that offers a suite of tools and models designed to enhance various tasks, including coding assistance, content creation, and complex problem-solving. At its core is DeepSeek-V3, a state-of-the-art large language model boasting 671 billion parameters, with 37 billion activated per token. This architecture enables efficient processing and superior performance across a range of applications.",
-                      "payment": "Freemium",
-                      "link": "https://www.cursor.com/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "cursor.json",
-                      "value": 558
                     }
                   ]
                 }
@@ -6957,26 +5327,6 @@
                       "skills": "Low",
                       "tooldiagram": "runway.json",
                       "value": 430
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Image",
-              "children": [
-                {
-                  "name": "ML model",
-                  "children": [
-                    {
-                      "name": "Midjourney",
-                      "description": "Midjourney is a design tool for creating and editing visual content. With advanced capabilities and a user-friendly interface, it empowers designers, artists, and developers to bring creative ideas to life. Offering tools for graphics, photo editing, and animations, Midjourney enhances creative workflows and achieves professional results.",
-                      "payment": "Premium",
-                      "link": "https://www.midjourney.com/app/",
-                      "type": "Online tool",
-                      "skills": "Medium",
-                      "tooldiagram": "midjourney.json",
-                      "value": 566
                     }
                   ]
                 }
@@ -7216,36 +5566,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "name": "Table",
-              "children": [
-                {
-                  "name": "Table",
-                  "children": [
-                    {
-                      "name": "Claude",
-                      "description": "Claude is an advanced AI assistant developed by Anthropic, designed to assist users with a variety of tasks, including drafting and iterating on websites, graphics, documents, and code. It offers a chat interface that allows for seamless interaction and collaboration.",
-                      "payment": "Freemium",
-                      "link": "https://claude.ai/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "claude.json",
-                      "value": 661
-                    },
-                    {
-                      "name": "Chatgpt",
-                      "description": "ChatGPT is an AI-powered chatbot by OpenAI, utilizing advanced natural language processing to engage in interactive conversations. ChatGPT understands and responds to a wide range of queries, providing helpful and informative answers. It simulates human-like conversations and can be used for customer support, virtual assistants, and interactive storytelling, enhancing user interactions.",
-                      "payment": "Freemium",
-                      "link": "https://openai.com/chatgpt",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
-                      "value": 668
-                    }
-                  ]
-                }
-              ]
             }
           ]
         },
@@ -7481,36 +5801,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "name": "Table",
-              "children": [
-                {
-                  "name": "Text File",
-                  "children": [
-                    {
-                      "name": "Claude",
-                      "description": "Claude is an advanced AI assistant developed by Anthropic, designed to assist users with a variety of tasks, including drafting and iterating on websites, graphics, documents, and code. It offers a chat interface that allows for seamless interaction and collaboration.",
-                      "payment": "Freemium",
-                      "link": "https://claude.ai/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "claude.json",
-                      "value": 662
-                    },
-                    {
-                      "name": "Chatgpt",
-                      "description": "ChatGPT is an AI-powered chatbot by OpenAI, utilizing advanced natural language processing to engage in interactive conversations. ChatGPT understands and responds to a wide range of queries, providing helpful and informative answers. It simulates human-like conversations and can be used for customer support, virtual assistants, and interactive storytelling, enhancing user interactions.",
-                      "payment": "Freemium",
-                      "link": "https://openai.com/chatgpt",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
-                      "value": 669
-                    }
-                  ]
-                }
-              ]
             }
           ]
         },
@@ -7527,7 +5817,7 @@
                       "name": "Pix2Pix",
                       "description": "Pix2Pix is an image-to-image translation model using deep learning. It generates realistic images by learning mappings between input and output images. Transforming sketches into realistic images or converting black-and-white to color, Pix2Pix has applications in computer vision, graphics, and image editing, enhancing creative possibilities.",
                       "payment": "Free",
-                      "link": "https://www.tensorflow.org/tutorials/generative/pix2pix?hl=it",
+                      "link": "https://affinelayer.com/pixsrv/",
                       "type": "Online tool",
                       "skills": "Advanced",
                       "tooldiagram": "pix2pix.json",
@@ -7644,7 +5934,7 @@
                   "name": "Text File",
                   "children": [
                     {
-                      "name": "Gooey.ai Compare Large Language Models",
+                      "name": "Gooey.ai Compare LLMs",
                       "description": "Discover which language model works best for your prompt by comparing top models like LLaMA2, Gemini, Mistral, and OpenAI GPT-4. This tool analyzes the strengths, biases, and performance of each model, providing insights to help you choose the most suitable one for your needs. With new models added monthly, stay updated on the latest advancements and make informed decisions for your projects. Perfect for developers and researchers looking to optimize their use of large language models.",
                       "payment": "Freemium",
                       "link": "https://gooey.ai/compare-large-language-models/",
@@ -7652,41 +5942,6 @@
                       "skills": "Medium",
                       "tooldiagram": "gooeyai_compare_large_language_models.json",
                       "value": 366
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Visualise",
-          "children": [
-            {
-              "name": "Table",
-              "children": [
-                {
-                  "name": "Graph",
-                  "children": [
-                    {
-                      "name": "Claude",
-                      "description": "Claude is an advanced AI assistant developed by Anthropic, designed to assist users with a variety of tasks, including drafting and iterating on websites, graphics, documents, and code. It offers a chat interface that allows for seamless interaction and collaboration.",
-                      "payment": "Freemium",
-                      "link": "https://claude.ai/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "claude.json",
-                      "value": 660
-                    },
-                    {
-                      "name": "Chatgpt",
-                      "description": "ChatGPT is an AI-powered chatbot by OpenAI, utilizing advanced natural language processing to engage in interactive conversations. ChatGPT understands and responds to a wide range of queries, providing helpful and informative answers. It simulates human-like conversations and can be used for customer support, virtual assistants, and interactive storytelling, enhancing user interactions.",
-                      "payment": "Freemium",
-                      "link": "https://openai.com/chatgpt",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "chatgpt.json",
-                      "value": 667
                     }
                   ]
                 }
@@ -7777,16 +6032,6 @@
                       "skills": "Medium",
                       "tooldiagram": "gooey_text_2_audio.json",
                       "value": 470
-                    },
-                    {
-                      "name": "Suno",
-                      "description": "Suno is an AI-powered music generation platform that enables users to create original songs by providing text prompts. By describing the desired genre, mood, or specific themes, users can generate complete tracks featuring both vocals and instrumentation.",
-                      "payment": "",
-                      "link": "https://suno.com/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "suno.json",
-                      "value": 725
                     }
                   ]
                 },
@@ -7852,76 +6097,6 @@
                       "skills": "High",
                       "tooldiagram": "figma_to_react_from_quest.json",
                       "value": 472
-                    },
-                    {
-                      "name": "Deepseek",
-                      "description": "DeepSeek is an advanced AI platform that offers a suite of tools and models designed to enhance various tasks, including coding assistance, content creation, and complex problem-solving. At its core is DeepSeek-V3, a state-of-the-art large language model boasting 671 billion parameters, with 37 billion activated per token. This architecture enables efficient processing and superior performance across a range of applications.",
-                      "payment": "Free",
-                      "link": "https://chat.deepseek.com/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "deepseek.json",
-                      "value": 549
-                    },
-                    {
-                      "name": "Cursor",
-                      "description": "DeepSeek is an advanced AI platform that offers a suite of tools and models designed to enhance various tasks, including coding assistance, content creation, and complex problem-solving. At its core is DeepSeek-V3, a state-of-the-art large language model boasting 671 billion parameters, with 37 billion activated per token. This architecture enables efficient processing and superior performance across a range of applications.",
-                      "payment": "Freemium",
-                      "link": "https://www.cursor.com/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "cursor.json",
-                      "value": 559
-                    },
-                    {
-                      "name": "LM Studio",
-                      "description": "LM Studio is a free, open-source desktop application that enables users to run large language models (LLMs) locally on their computers, ensuring privacy and control over data. Designed for macOS (M1/M2/M3) and Windows systems with AVX2 support, it also offers a Linux version in beta.",
-                      "payment": "Free",
-                      "link": "https://lmstudio.ai/",
-                      "type": "Offline tool",
-                      "skills": "Low",
-                      "tooldiagram": "lm_studio.json",
-                      "value": 587
-                    },
-                    {
-                      "name": "Replicate",
-                      "description": "Replicate is a platform that enables developers to run and fine-tune open-source machine learning models, as well as deploy custom models at scale, all through a simple API. It abstracts the complexities of machine learning infrastructure, allowing users to integrate AI capabilities into their applications with minimal effort",
-                      "payment": "Premium",
-                      "link": "https://replicate.com/home",
-                      "type": "Online tool",
-                      "skills": "High",
-                      "tooldiagram": "replicate.json",
-                      "value": 611
-                    },
-                    {
-                      "name": "Gemini",
-                      "description": "Google Gemini is an advanced AI assistant designed to enhance productivity and creativity across various tasks. It offers assistance in writing, planning, learning, and more.",
-                      "payment": "Freemium",
-                      "link": "https://gemini.google.com/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "gemini.json",
-                      "value": 633
-                    },
-                    {
-                      "name": "Claude",
-                      "description": "Claude is an advanced AI assistant developed by Anthropic, designed to assist users with a variety of tasks, including drafting and iterating on websites, graphics, documents, and code. It offers a chat interface that allows for seamless interaction and collaboration.",
-                      "payment": "Freemium",
-                      "link": "https://claude.ai/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "claude.json",
-                      "value": 664
-                    },
-                    {
-                      "name": "Llamafile",
-                      "description": "Llamafile is an open-source tool developed by Mozilla Ocho that simplifies the distribution and execution of large language models (LLMs) by packaging them into a single-file executable. This approach enhances accessibility for both developers and end-users, allowing LLMs to run locally on various platforms without the need for complex installations.",
-                      "payment": "Free",
-                      "link": "https://github.com/Mozilla-Ocho/llamafile",
-                      "type": "Offline tool",
-                      "skills": "Advanced",
-                      "tooldiagram": "llamafile.json",
-                      "value": 695
                     }
                   ]
                 },
@@ -7972,21 +6147,6 @@
                       "skills": "Medium",
                       "tooldiagram": "gooeyai_render_image.json",
                       "value": 466
-                    }
-                  ]
-                },
-                {
-                  "name": "Text File",
-                  "children": [
-                    {
-                      "name": "Cursor",
-                      "description": "DeepSeek is an advanced AI platform that offers a suite of tools and models designed to enhance various tasks, including coding assistance, content creation, and complex problem-solving. At its core is DeepSeek-V3, a state-of-the-art large language model boasting 671 billion parameters, with 37 billion activated per token. This architecture enables efficient processing and superior performance across a range of applications.",
-                      "payment": "Freemium",
-                      "link": "https://www.cursor.com/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "cursor.json",
-                      "value": 561
                     }
                   ]
                 }
@@ -8059,21 +6219,6 @@
                       "value": 458
                     }
                   ]
-                },
-                {
-                  "name": "ML model",
-                  "children": [
-                    {
-                      "name": "Midjourney",
-                      "description": "Midjourney is a design tool for creating and editing visual content. With advanced capabilities and a user-friendly interface, it empowers designers, artists, and developers to bring creative ideas to life. Offering tools for graphics, photo editing, and animations, Midjourney enhances creative workflows and achieves professional results.",
-                      "payment": "Premium",
-                      "link": "https://www.midjourney.com/app/",
-                      "type": "Online tool",
-                      "skills": "Medium",
-                      "tooldiagram": "midjourney.json",
-                      "value": 567
-                    }
-                  ]
                 }
               ]
             },
@@ -8124,46 +6269,6 @@
                       "value": 463
                     }
                   ]
-                },
-                {
-                  "name": "3D",
-                  "children": [
-                    {
-                      "name": "TRELLIS",
-                      "description": "Trellis tool represents an innovative approach to creating high-quality 3D assets through a novel method involving Structured LATent (SLAT) representation. The SLAT model efficiently captures both structural and textural information, enabling versatile output formats such as Radiance Fields, 3D Gaussians, and meshes.",
-                      "payment": "Free",
-                      "link": "https://huggingface.co/spaces/JeffreyXiang/TRELLIS",
-                      "type": "Online tool",
-                      "skills": "Medium",
-                      "tooldiagram": "trellis.json",
-                      "value": 533
-                    }
-                  ]
-                },
-                {
-                  "name": "ML model",
-                  "children": [
-                    {
-                      "name": "Krea",
-                      "description": "Krea AI is an innovative platform that leverages artificial intelligence to facilitate the creation and enhancement of images and videos in real-time. Designed for artists, designers, and content creators, Krea AI offers a suite of tools that transform creative ideas into stunning visuals with minimal effort.",
-                      "payment": "Freemium",
-                      "link": "https://www.krea.ai/",
-                      "type": "Online tool",
-                      "skills": "",
-                      "tooldiagram": "krea.json",
-                      "value": 554
-                    },
-                    {
-                      "name": "Cogniwerk",
-                      "description": "CogniWerk is a browser-based platform offering advanced generative AI models for creative professionals. It provides tools for text-to-image generation, image editing, and model training, enabling users to create and refine visual content efficiently. Features include Text-to-Image, Image-to-Image, Inpainting, ControlNet, and the ability to train custom models.",
-                      "payment": "Freemium",
-                      "link": "https://cogniwerk.ai/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "cogniwerk.json",
-                      "value": 709
-                    }
-                  ]
                 }
               ]
             },
@@ -8182,41 +6287,6 @@
                       "skills": "Medium",
                       "tooldiagram": "gooeyai_lipsync.json",
                       "value": 464
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Code",
-              "children": [
-                {
-                  "name": "Code",
-                  "children": [
-                    {
-                      "name": "Cursor",
-                      "description": "DeepSeek is an advanced AI platform that offers a suite of tools and models designed to enhance various tasks, including coding assistance, content creation, and complex problem-solving. At its core is DeepSeek-V3, a state-of-the-art large language model boasting 671 billion parameters, with 37 billion activated per token. This architecture enables efficient processing and superior performance across a range of applications.",
-                      "payment": "Freemium",
-                      "link": "https://www.cursor.com/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "cursor.json",
-                      "value": 560
-                    }
-                  ]
-                },
-                {
-                  "name": "Text File",
-                  "children": [
-                    {
-                      "name": "Cursor",
-                      "description": "DeepSeek is an advanced AI platform that offers a suite of tools and models designed to enhance various tasks, including coding assistance, content creation, and complex problem-solving. At its core is DeepSeek-V3, a state-of-the-art large language model boasting 671 billion parameters, with 37 billion activated per token. This architecture enables efficient processing and superior performance across a range of applications.",
-                      "payment": "Freemium",
-                      "link": "https://www.cursor.com/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "cursor.json",
-                      "value": 562
                     }
                   ]
                 }
@@ -8262,66 +6332,6 @@
                       "skills": "High",
                       "tooldiagram": "mcanswersai.json",
                       "value": 474
-                    },
-                    {
-                      "name": "Deepseek",
-                      "description": "DeepSeek is an advanced AI platform that offers a suite of tools and models designed to enhance various tasks, including coding assistance, content creation, and complex problem-solving. At its core is DeepSeek-V3, a state-of-the-art large language model boasting 671 billion parameters, with 37 billion activated per token. This architecture enables efficient processing and superior performance across a range of applications.",
-                      "payment": "Free",
-                      "link": "https://chat.deepseek.com/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "deepseek.json",
-                      "value": 548
-                    },
-                    {
-                      "name": "LM Studio",
-                      "description": "LM Studio is a free, open-source desktop application that enables users to run large language models (LLMs) locally on their computers, ensuring privacy and control over data. Designed for macOS (M1/M2/M3) and Windows systems with AVX2 support, it also offers a Linux version in beta.",
-                      "payment": "Free",
-                      "link": "https://lmstudio.ai/",
-                      "type": "Offline tool",
-                      "skills": "Low",
-                      "tooldiagram": "lm_studio.json",
-                      "value": 586
-                    },
-                    {
-                      "name": "Replicate",
-                      "description": "Replicate is a platform that enables developers to run and fine-tune open-source machine learning models, as well as deploy custom models at scale, all through a simple API. It abstracts the complexities of machine learning infrastructure, allowing users to integrate AI capabilities into their applications with minimal effort",
-                      "payment": "Premium",
-                      "link": "https://replicate.com/home",
-                      "type": "Online tool",
-                      "skills": "High",
-                      "tooldiagram": "replicate.json",
-                      "value": 610
-                    },
-                    {
-                      "name": "Gemini",
-                      "description": "Google Gemini is an advanced AI assistant designed to enhance productivity and creativity across various tasks. It offers assistance in writing, planning, learning, and more.",
-                      "payment": "Freemium",
-                      "link": "https://gemini.google.com/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "gemini.json",
-                      "value": 632
-                    },
-                    {
-                      "name": "Claude",
-                      "description": "Claude is an advanced AI assistant developed by Anthropic, designed to assist users with a variety of tasks, including drafting and iterating on websites, graphics, documents, and code. It offers a chat interface that allows for seamless interaction and collaboration.",
-                      "payment": "Freemium",
-                      "link": "https://claude.ai/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "claude.json",
-                      "value": 663
-                    },
-                    {
-                      "name": "Llamafile",
-                      "description": "Llamafile is an open-source tool developed by Mozilla Ocho that simplifies the distribution and execution of large language models (LLMs) by packaging them into a single-file executable. This approach enhances accessibility for both developers and end-users, allowing LLMs to run locally on various platforms without the need for complex installations.",
-                      "payment": "Free",
-                      "link": "https://github.com/Mozilla-Ocho/llamafile",
-                      "type": "Offline tool",
-                      "skills": "Advanced",
-                      "tooldiagram": "llamafile.json",
-                      "value": 694
                     }
                   ]
                 }
@@ -8622,16 +6632,6 @@
                       "skills": "Advanced",
                       "tooldiagram": "codex.json",
                       "value": 490
-                    },
-                    {
-                      "name": "Cursor",
-                      "description": "DeepSeek is an advanced AI platform that offers a suite of tools and models designed to enhance various tasks, including coding assistance, content creation, and complex problem-solving. At its core is DeepSeek-V3, a state-of-the-art large language model boasting 671 billion parameters, with 37 billion activated per token. This architecture enables efficient processing and superior performance across a range of applications.",
-                      "payment": "Freemium",
-                      "link": "https://www.cursor.com/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "cursor.json",
-                      "value": 563
                     }
                   ]
                 },
@@ -8712,66 +6712,6 @@
                       "skills": "Low",
                       "tooldiagram": "chatgpt.json",
                       "value": 530
-                    },
-                    {
-                      "name": "Deepseek",
-                      "description": "DeepSeek is an advanced AI platform that offers a suite of tools and models designed to enhance various tasks, including coding assistance, content creation, and complex problem-solving. At its core is DeepSeek-V3, a state-of-the-art large language model boasting 671 billion parameters, with 37 billion activated per token. This architecture enables efficient processing and superior performance across a range of applications.",
-                      "payment": "Free",
-                      "link": "https://chat.deepseek.com/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "deepseek.json",
-                      "value": 551
-                    },
-                    {
-                      "name": "LM Studio",
-                      "description": "LM Studio is a free, open-source desktop application that enables users to run large language models (LLMs) locally on their computers, ensuring privacy and control over data. Designed for macOS (M1/M2/M3) and Windows systems with AVX2 support, it also offers a Linux version in beta.",
-                      "payment": "Free",
-                      "link": "https://lmstudio.ai/",
-                      "type": "Offline tool",
-                      "skills": "Low",
-                      "tooldiagram": "lm_studio.json",
-                      "value": 589
-                    },
-                    {
-                      "name": "Replicate",
-                      "description": "Replicate is a platform that enables developers to run and fine-tune open-source machine learning models, as well as deploy custom models at scale, all through a simple API. It abstracts the complexities of machine learning infrastructure, allowing users to integrate AI capabilities into their applications with minimal effort",
-                      "payment": "Premium",
-                      "link": "https://replicate.com/home",
-                      "type": "Online tool",
-                      "skills": "High",
-                      "tooldiagram": "replicate.json",
-                      "value": 613
-                    },
-                    {
-                      "name": "Gemini",
-                      "description": "Google Gemini is an advanced AI assistant designed to enhance productivity and creativity across various tasks. It offers assistance in writing, planning, learning, and more.",
-                      "payment": "Freemium",
-                      "link": "https://gemini.google.com/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "gemini.json",
-                      "value": 635
-                    },
-                    {
-                      "name": "Claude",
-                      "description": "Claude is an advanced AI assistant developed by Anthropic, designed to assist users with a variety of tasks, including drafting and iterating on websites, graphics, documents, and code. It offers a chat interface that allows for seamless interaction and collaboration.",
-                      "payment": "Freemium",
-                      "link": "https://claude.ai/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "claude.json",
-                      "value": 666
-                    },
-                    {
-                      "name": "Llamafile",
-                      "description": "Llamafile is an open-source tool developed by Mozilla Ocho that simplifies the distribution and execution of large language models (LLMs) by packaging them into a single-file executable. This approach enhances accessibility for both developers and end-users, allowing LLMs to run locally on various platforms without the need for complex installations.",
-                      "payment": "Free",
-                      "link": "https://github.com/Mozilla-Ocho/llamafile",
-                      "type": "Offline tool",
-                      "skills": "Advanced",
-                      "tooldiagram": "llamafile.json",
-                      "value": 697
                     }
                   ]
                 }
@@ -8902,26 +6842,6 @@
                       "skills": "Medium",
                       "tooldiagram": "generated_photos.json",
                       "value": 488
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Code",
-              "children": [
-                {
-                  "name": "Code",
-                  "children": [
-                    {
-                      "name": "Cursor",
-                      "description": "DeepSeek is an advanced AI platform that offers a suite of tools and models designed to enhance various tasks, including coding assistance, content creation, and complex problem-solving. At its core is DeepSeek-V3, a state-of-the-art large language model boasting 671 billion parameters, with 37 billion activated per token. This architecture enables efficient processing and superior performance across a range of applications.",
-                      "payment": "Freemium",
-                      "link": "https://www.cursor.com/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "cursor.json",
-                      "value": 564
                     }
                   ]
                 }
@@ -9117,16 +7037,6 @@
                       "skills": "Low",
                       "tooldiagram": "kreaai.json",
                       "value": 531
-                    },
-                    {
-                      "name": "Cogniwerk",
-                      "description": "CogniWerk is a browser-based platform offering advanced generative AI models for creative professionals. It provides tools for text-to-image generation, image editing, and model training, enabling users to create and refine visual content efficiently. Features include Text-to-Image, Image-to-Image, Inpainting, ControlNet, and the ability to train custom models.",
-                      "payment": "Freemium",
-                      "link": "https://cogniwerk.ai/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "cogniwerk.json",
-                      "value": 714
                     }
                   ]
                 },
@@ -9247,66 +7157,6 @@
                       "skills": "Low",
                       "tooldiagram": "chatgpt.json",
                       "value": 529
-                    },
-                    {
-                      "name": "Deepseek",
-                      "description": "DeepSeek is an advanced AI platform that offers a suite of tools and models designed to enhance various tasks, including coding assistance, content creation, and complex problem-solving. At its core is DeepSeek-V3, a state-of-the-art large language model boasting 671 billion parameters, with 37 billion activated per token. This architecture enables efficient processing and superior performance across a range of applications.",
-                      "payment": "Free",
-                      "link": "https://chat.deepseek.com/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "deepseek.json",
-                      "value": 550
-                    },
-                    {
-                      "name": "LM Studio",
-                      "description": "LM Studio is a free, open-source desktop application that enables users to run large language models (LLMs) locally on their computers, ensuring privacy and control over data. Designed for macOS (M1/M2/M3) and Windows systems with AVX2 support, it also offers a Linux version in beta.",
-                      "payment": "Free",
-                      "link": "https://lmstudio.ai/",
-                      "type": "Offline tool",
-                      "skills": "Low",
-                      "tooldiagram": "lm_studio.json",
-                      "value": 588
-                    },
-                    {
-                      "name": "Replicate",
-                      "description": "Replicate is a platform that enables developers to run and fine-tune open-source machine learning models, as well as deploy custom models at scale, all through a simple API. It abstracts the complexities of machine learning infrastructure, allowing users to integrate AI capabilities into their applications with minimal effort",
-                      "payment": "Premium",
-                      "link": "https://replicate.com/home",
-                      "type": "Online tool",
-                      "skills": "High",
-                      "tooldiagram": "replicate.json",
-                      "value": 612
-                    },
-                    {
-                      "name": "Gemini",
-                      "description": "Google Gemini is an advanced AI assistant designed to enhance productivity and creativity across various tasks. It offers assistance in writing, planning, learning, and more.",
-                      "payment": "Freemium",
-                      "link": "https://gemini.google.com/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "gemini.json",
-                      "value": 634
-                    },
-                    {
-                      "name": "Claude",
-                      "description": "Claude is an advanced AI assistant developed by Anthropic, designed to assist users with a variety of tasks, including drafting and iterating on websites, graphics, documents, and code. It offers a chat interface that allows for seamless interaction and collaboration.",
-                      "payment": "Freemium",
-                      "link": "https://claude.ai/",
-                      "type": "Online tool",
-                      "skills": "Low",
-                      "tooldiagram": "claude.json",
-                      "value": 665
-                    },
-                    {
-                      "name": "Llamafile",
-                      "description": "Llamafile is an open-source tool developed by Mozilla Ocho that simplifies the distribution and execution of large language models (LLMs) by packaging them into a single-file executable. This approach enhances accessibility for both developers and end-users, allowing LLMs to run locally on various platforms without the need for complex installations.",
-                      "payment": "Free",
-                      "link": "https://github.com/Mozilla-Ocho/llamafile",
-                      "type": "Offline tool",
-                      "skills": "Advanced",
-                      "tooldiagram": "llamafile.json",
-                      "value": 696
                     }
                   ]
                 }

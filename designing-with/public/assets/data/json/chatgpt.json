@@ -1,97 +1,7 @@
 {
     "nodes": [
         {
-            "id": "Understand",
-            "group": 1,
-            "step": "Design Phase"
-        },
-        {
-            "id": "Define",
-            "group": 1,
-            "step": "Design Phase"
-        },
-        {
-            "id": "Ideate",
-            "group": 1,
-            "step": "Design Phase"
-        },
-        {
-            "id": "Prototype",
-            "group": 1,
-            "step": "Design Phase"
-        },
-        {
-            "id": "Develop",
-            "group": 1,
-            "step": "Design Phase"
-        },
-        {
-            "id": "Release",
-            "group": 1,
-            "step": "Design Phase"
-        },
-        {
-            "id": "Collect",
-            "group": 2,
-            "step": "AI Capability"
-        },
-        {
-            "id": "Recommend",
-            "group": 2,
-            "step": "AI Capability"
-        },
-        {
-            "id": "Summarise",
-            "group": 2,
-            "step": "AI Capability"
-        },
-        {
-            "id": "Translate",
-            "group": 2,
-            "step": "AI Capability"
-        },
-        {
-            "id": "Recognise",
-            "group": 2,
-            "step": "AI Capability"
-        },
-        {
-            "id": "Generate",
-            "group": 2,
-            "step": "AI Capability"
-        },
-        {
-            "id": "Debug",
-            "group": 2,
-            "step": "AI Capability"
-        },
-        {
-            "id": "Optimise",
-            "group": 2,
-            "step": "AI Capability"
-        },
-        {
-            "id": "Prompt (From)",
-            "group": 3,
-            "step": "AI Input (From)"
-        },
-        {
-            "id": "Text File (From)",
-            "group": 3,
-            "step": "AI Input (From)"
-        },
-        {
-            "id": "Voice (From)",
-            "group": 3,
-            "step": "AI Input (From)"
-        },
-        {
             "id": "Image File (From)",
-            "group": 3,
-            "step": "AI Input (From)"
-        },
-        {
-            "id": "Code (From)",
             "group": 3,
             "step": "AI Input (From)"
         },
@@ -101,9 +11,54 @@
             "step": "AI Output (To)"
         },
         {
+            "id": "Visualise",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
+            "id": "Recommend",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
+            "id": "Develop",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Ideate",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Debug",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
             "id": "Text File (To)",
             "group": 4,
             "step": "AI Output (To)"
+        },
+        {
+            "id": "Collect",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
+            "id": "Translate",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
+            "id": "Graph (To)",
+            "group": 4,
+            "step": "AI Output (To)"
+        },
+        {
+            "id": "Optimise",
+            "group": 2,
+            "step": "AI Capability"
         },
         {
             "id": "Literature Reference (To)",
@@ -111,19 +66,59 @@
             "step": "AI Output (To)"
         },
         {
+            "id": "Prototype",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Recognise",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
+            "id": "Define",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
             "id": "Voice (To)",
             "group": 4,
             "step": "AI Output (To)"
         },
         {
-            "id": "Image File (To)",
-            "group": 4,
-            "step": "AI Output (To)"
+            "id": "Prompt (From)",
+            "group": 3,
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Chatgpt",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Generate",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
+            "id": "Understand",
+            "group": 1,
+            "step": "Design Phase"
         },
         {
             "id": "Code (To)",
             "group": 4,
             "step": "AI Output (To)"
+        },
+        {
+            "id": "Release",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Summarise",
+            "group": 2,
+            "step": "AI Capability"
         }
     ],
     "links": [
@@ -148,22 +143,6 @@
             "target": "Literature Reference (To)"
         },
         {
-            "source": "Collect",
-            "target": "Text File (From)"
-        },
-        {
-            "source": "Text File (From)",
-            "target": "Table (To)"
-        },
-        {
-            "source": "Collect",
-            "target": "Voice (From)"
-        },
-        {
-            "source": "Voice (From)",
-            "target": "Voice (To)"
-        },
-        {
             "source": "Understand",
             "target": "Recommend"
         },
@@ -180,14 +159,6 @@
             "target": "Summarise"
         },
         {
-            "source": "Summarise",
-            "target": "Text File (From)"
-        },
-        {
-            "source": "Text File (From)",
-            "target": "Text File (To)"
-        },
-        {
             "source": "Understand",
             "target": "Translate"
         },
@@ -196,8 +167,16 @@
             "target": "Prompt (From)"
         },
         {
-            "source": "Translate",
-            "target": "Text File (From)"
+            "source": "Understand",
+            "target": "Visualise"
+        },
+        {
+            "source": "Understand",
+            "target": "Optimise"
+        },
+        {
+            "source": "Understand",
+            "target": "Recognise"
         },
         {
             "source": "Define",
@@ -232,24 +211,24 @@
             "target": "Prompt (From)"
         },
         {
-            "source": "Prompt (From)",
-            "target": "Image File (To)"
-        },
-        {
             "source": "Generate",
             "target": "Image File (From)"
-        },
-        {
-            "source": "Image File (From)",
-            "target": "Image File (To)"
         },
         {
             "source": "Prototype",
             "target": "Generate"
         },
         {
-            "source": "Generate",
-            "target": "Voice (From)"
+            "source": "Prototype",
+            "target": "Optimise"
+        },
+        {
+            "source": "Prototype",
+            "target": "Recognise"
+        },
+        {
+            "source": "Prototype",
+            "target": "Visualise"
         },
         {
             "source": "Develop",
@@ -262,14 +241,6 @@
         {
             "source": "Develop",
             "target": "Debug"
-        },
-        {
-            "source": "Debug",
-            "target": "Code (From)"
-        },
-        {
-            "source": "Code (From)",
-            "target": "Code (To)"
         },
         {
             "source": "Release",

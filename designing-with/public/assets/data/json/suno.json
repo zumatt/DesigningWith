@@ -1,14 +1,24 @@
 {
     "nodes": [
         {
-            "id": "Video File (To)",
+            "id": "Soundtrack (To)",
             "group": 4,
             "step": "AI Output (To)"
         },
         {
-            "id": "Image File (To)",
-            "group": 4,
-            "step": "AI Output (To)"
+            "id": "Prototype",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Develop",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Suno",
+            "group": 1,
+            "step": "Design Phase"
         },
         {
             "id": "Prompt (From)",
@@ -21,24 +31,9 @@
             "step": "Design Phase"
         },
         {
-            "id": "ComfyUI",
-            "group": 1,
-            "step": "Design Phase"
-        },
-        {
-            "id": "Prototype",
-            "group": 1,
-            "step": "Design Phase"
-        },
-        {
             "id": "Generate",
             "group": 2,
             "step": "AI Capability"
-        },
-        {
-            "id": "Soundtrack (To)",
-            "group": 4,
-            "step": "AI Output (To)"
         }
     ],
     "links": [
@@ -55,15 +50,11 @@
             "target": "Soundtrack (To)"
         },
         {
-            "source": "Prompt (From)",
-            "target": "Image File (To)"
-        },
-        {
-            "source": "Prompt (From)",
-            "target": "Video File (To)"
-        },
-        {
             "source": "Prototype",
+            "target": "Generate"
+        },
+        {
+            "source": "Develop",
             "target": "Generate"
         }
     ]

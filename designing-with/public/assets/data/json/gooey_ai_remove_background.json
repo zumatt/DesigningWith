@@ -1,7 +1,7 @@
 {
     "nodes": [
         {
-            "id": "Prototype",
+            "id": "Gooey AI Remove Background",
             "group": 1,
             "step": "Design Phase"
         },
@@ -16,28 +16,20 @@
             "step": "AI Capability"
         },
         {
-            "id": "Image File (From)",
-            "group": 3,
-            "step": "AI Input (From)"
-        },
-        {
             "id": "Image File (To)",
             "group": 4,
             "step": "AI Output (To)"
+        },
+        {
+            "id": "Prototype",
+            "group": 1,
+            "step": "Design Phase"
         }
     ],
     "links": [
         {
             "source": "Prototype",
             "target": "Optimise"
-        },
-        {
-            "source": "Optimise",
-            "target": "Image File (From)"
-        },
-        {
-            "source": "Image File (From)",
-            "target": "Image File (To)"
         },
         {
             "source": "Release",

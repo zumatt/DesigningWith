@@ -1,19 +1,9 @@
 {
     "nodes": [
         {
-            "id": "Video File (To)",
+            "id": "ML model (To)",
             "group": 4,
             "step": "AI Output (To)"
-        },
-        {
-            "id": "Image File (To)",
-            "group": 4,
-            "step": "AI Output (To)"
-        },
-        {
-            "id": "Prompt (From)",
-            "group": 3,
-            "step": "AI Input (From)"
         },
         {
             "id": "Ideate",
@@ -21,12 +11,12 @@
             "step": "Design Phase"
         },
         {
-            "id": "ComfyUI",
+            "id": "Develop",
             "group": 1,
             "step": "Design Phase"
         },
         {
-            "id": "Prototype",
+            "id": "Krea",
             "group": 1,
             "step": "Design Phase"
         },
@@ -36,9 +26,14 @@
             "step": "AI Capability"
         },
         {
-            "id": "Soundtrack (To)",
-            "group": 4,
-            "step": "AI Output (To)"
+            "id": "Prototype",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Image File (From)",
+            "group": 3,
+            "step": "AI Input (From)"
         }
     ],
     "links": [
@@ -48,22 +43,18 @@
         },
         {
             "source": "Generate",
-            "target": "Prompt (From)"
+            "target": "Image File (From)"
         },
         {
-            "source": "Prompt (From)",
-            "target": "Soundtrack (To)"
-        },
-        {
-            "source": "Prompt (From)",
-            "target": "Image File (To)"
-        },
-        {
-            "source": "Prompt (From)",
-            "target": "Video File (To)"
+            "source": "Image File (From)",
+            "target": "ML model (To)"
         },
         {
             "source": "Prototype",
+            "target": "Generate"
+        },
+        {
+            "source": "Develop",
             "target": "Generate"
         }
     ]

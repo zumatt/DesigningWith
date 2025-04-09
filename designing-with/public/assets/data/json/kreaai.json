@@ -1,6 +1,21 @@
 {
     "nodes": [
         {
+            "id": "Icon (To)",
+            "group": 4,
+            "step": "AI Output (To)"
+        },
+        {
+            "id": "Optimise",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
+            "id": "Drawing (From)",
+            "group": 3,
+            "step": "AI Input (From)"
+        },
+        {
             "id": "Ideate",
             "group": 1,
             "step": "Design Phase"
@@ -11,29 +26,14 @@
             "step": "Design Phase"
         },
         {
-            "id": "Release",
-            "group": 1,
-            "step": "Design Phase"
-        },
-        {
             "id": "Generate",
             "group": 2,
             "step": "AI Capability"
         },
         {
-            "id": "Optimise",
-            "group": 2,
-            "step": "AI Capability"
-        },
-        {
-            "id": "Recording (From)",
-            "group": 3,
-            "step": "AI Input (From)"
-        },
-        {
-            "id": "Drawing (From)",
-            "group": 3,
-            "step": "AI Input (From)"
+            "id": "Video File (To)",
+            "group": 4,
+            "step": "AI Output (To)"
         },
         {
             "id": "Prompt (From)",
@@ -41,9 +41,19 @@
             "step": "AI Input (From)"
         },
         {
-            "id": "Image File (From)",
-            "group": 3,
-            "step": "AI Input (From)"
+            "id": "Texture (To)",
+            "group": 4,
+            "step": "AI Output (To)"
+        },
+        {
+            "id": "Release",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Krea.ai",
+            "group": 1,
+            "step": "Design Phase"
         },
         {
             "id": "Image File (To)",
@@ -51,19 +61,9 @@
             "step": "AI Output (To)"
         },
         {
-            "id": "Icon (To)",
-            "group": 4,
-            "step": "AI Output (To)"
-        },
-        {
-            "id": "Texture (To)",
-            "group": 4,
-            "step": "AI Output (To)"
-        },
-        {
-            "id": "Video File (To)",
-            "group": 4,
-            "step": "AI Output (To)"
+            "id": "Recording (From)",
+            "group": 3,
+            "step": "AI Input (From)"
         }
     ],
     "links": [
@@ -108,24 +108,12 @@
             "target": "Video File (To)"
         },
         {
-            "source": "Generate",
-            "target": "Image File (From)"
-        },
-        {
-            "source": "Image File (From)",
-            "target": "Image File (To)"
-        },
-        {
             "source": "Prototype",
             "target": "Generate"
         },
         {
             "source": "Release",
             "target": "Optimise"
-        },
-        {
-            "source": "Optimise",
-            "target": "Image File (From)"
         }
     ]
 }

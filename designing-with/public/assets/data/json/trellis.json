@@ -6,43 +6,47 @@
             "step": "Design Phase"
         },
         {
-            "id": "Image File (To)",
+            "id": "3D (To)",
             "group": 4,
             "step": "AI Output (To)"
         },
         {
-            "id": "Recommend",
+            "id": "Generate",
             "group": 2,
             "step": "AI Capability"
         },
         {
-            "id": "Gooey Compare AI Upscalers",
+            "id": "Develop",
             "group": 1,
             "step": "Design Phase"
         },
         {
-            "id": "Release",
+            "id": "TRELLIS",
             "group": 1,
             "step": "Design Phase"
         },
         {
-            "id": "Optimise",
-            "group": 2,
-            "step": "AI Capability"
+            "id": "Image File (From)",
+            "group": 3,
+            "step": "AI Input (From)"
         }
     ],
     "links": [
         {
             "source": "Prototype",
-            "target": "Optimise"
+            "target": "Generate"
         },
         {
-            "source": "Prototype",
-            "target": "Recommend"
+            "source": "Generate",
+            "target": "Image File (From)"
         },
         {
-            "source": "Release",
-            "target": "Optimise"
+            "source": "Image File (From)",
+            "target": "3D (To)"
+        },
+        {
+            "source": "Develop",
+            "target": "Generate"
         }
     ]
 }

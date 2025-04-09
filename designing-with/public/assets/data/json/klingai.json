@@ -1,12 +1,12 @@
 {
     "nodes": [
         {
-            "id": "Video File (To)",
-            "group": 4,
-            "step": "AI Output (To)"
+            "id": "KlingAI",
+            "group": 1,
+            "step": "Design Phase"
         },
         {
-            "id": "Image File (To)",
+            "id": "Video File (To)",
             "group": 4,
             "step": "AI Output (To)"
         },
@@ -21,24 +21,19 @@
             "step": "Design Phase"
         },
         {
-            "id": "ComfyUI",
-            "group": 1,
-            "step": "Design Phase"
-        },
-        {
-            "id": "Prototype",
-            "group": 1,
-            "step": "Design Phase"
-        },
-        {
             "id": "Generate",
             "group": 2,
             "step": "AI Capability"
         },
         {
-            "id": "Soundtrack (To)",
+            "id": "Image File (To)",
             "group": 4,
             "step": "AI Output (To)"
+        },
+        {
+            "id": "Prototype",
+            "group": 1,
+            "step": "Design Phase"
         }
     ],
     "links": [
@@ -49,10 +44,6 @@
         {
             "source": "Generate",
             "target": "Prompt (From)"
-        },
-        {
-            "source": "Prompt (From)",
-            "target": "Soundtrack (To)"
         },
         {
             "source": "Prompt (From)",

@@ -1,52 +1,12 @@
 {
     "nodes": [
         {
-            "id": "Summarise",
-            "group": 2,
-            "step": "AI Capability"
-        },
-        {
-            "id": "Release",
+            "id": "Understand",
             "group": 1,
             "step": "Design Phase"
-        },
-        {
-            "id": "Image File (From)",
-            "group": 3,
-            "step": "AI Input (From)"
-        },
-        {
-            "id": "Generate",
-            "group": 2,
-            "step": "AI Capability"
-        },
-        {
-            "id": "Develop",
-            "group": 1,
-            "step": "Design Phase"
-        },
-        {
-            "id": "Gemini",
-            "group": 1,
-            "step": "Design Phase"
-        },
-        {
-            "id": "Prompt (From)",
-            "group": 3,
-            "step": "AI Input (From)"
-        },
-        {
-            "id": "Table (To)",
-            "group": 4,
-            "step": "AI Output (To)"
         },
         {
             "id": "Ideate",
-            "group": 1,
-            "step": "Design Phase"
-        },
-        {
-            "id": "Define",
             "group": 1,
             "step": "Design Phase"
         },
@@ -56,34 +16,19 @@
             "step": "AI Capability"
         },
         {
-            "id": "Collect",
+            "id": "Optimise",
             "group": 2,
             "step": "AI Capability"
         },
         {
-            "id": "Debug",
+            "id": "Generate",
             "group": 2,
             "step": "AI Capability"
         },
         {
-            "id": "Understand",
+            "id": "Release",
             "group": 1,
             "step": "Design Phase"
-        },
-        {
-            "id": "Recommend",
-            "group": 2,
-            "step": "AI Capability"
-        },
-        {
-            "id": "Prototype",
-            "group": 1,
-            "step": "Design Phase"
-        },
-        {
-            "id": "Translate",
-            "group": 2,
-            "step": "AI Capability"
         },
         {
             "id": "Voice (To)",
@@ -91,17 +36,42 @@
             "step": "AI Output (To)"
         },
         {
+            "id": "Translate",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
             "id": "Literature Reference (To)",
             "group": 4,
             "step": "AI Output (To)"
         },
         {
-            "id": "Optimise",
+            "id": "Debug",
             "group": 2,
             "step": "AI Capability"
         },
         {
-            "id": "Text File (To)",
+            "id": "Visualise",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
+            "id": "Graph (To)",
+            "group": 4,
+            "step": "AI Output (To)"
+        },
+        {
+            "id": "Recommend",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
+            "id": "Define",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Table (To)",
             "group": 4,
             "step": "AI Output (To)"
         },
@@ -109,6 +79,46 @@
             "id": "Code (To)",
             "group": 4,
             "step": "AI Output (To)"
+        },
+        {
+            "id": "Collect",
+            "group": 2,
+            "step": "AI Capability"
+        },
+        {
+            "id": "Develop",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Prototype",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Text File (To)",
+            "group": 4,
+            "step": "AI Output (To)"
+        },
+        {
+            "id": "Image File (From)",
+            "group": 3,
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Claude",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Prompt (From)",
+            "group": 3,
+            "step": "AI Input (From)"
+        },
+        {
+            "id": "Summarise",
+            "group": 2,
+            "step": "AI Capability"
         }
     ],
     "links": [
@@ -157,6 +167,18 @@
             "target": "Prompt (From)"
         },
         {
+            "source": "Understand",
+            "target": "Visualise"
+        },
+        {
+            "source": "Understand",
+            "target": "Optimise"
+        },
+        {
+            "source": "Understand",
+            "target": "Recognise"
+        },
+        {
             "source": "Define",
             "target": "Recognise"
         },
@@ -195,6 +217,18 @@
         {
             "source": "Prototype",
             "target": "Generate"
+        },
+        {
+            "source": "Prototype",
+            "target": "Optimise"
+        },
+        {
+            "source": "Prototype",
+            "target": "Recognise"
+        },
+        {
+            "source": "Prototype",
+            "target": "Visualise"
         },
         {
             "source": "Develop",

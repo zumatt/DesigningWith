@@ -1,14 +1,14 @@
 {
     "nodes": [
         {
-            "id": "Video File (To)",
+            "id": "Code (To)",
             "group": 4,
             "step": "AI Output (To)"
         },
         {
-            "id": "Image File (To)",
-            "group": 4,
-            "step": "AI Output (To)"
+            "id": "Generate",
+            "group": 2,
+            "step": "AI Capability"
         },
         {
             "id": "Prompt (From)",
@@ -16,12 +16,7 @@
             "step": "AI Input (From)"
         },
         {
-            "id": "Ideate",
-            "group": 1,
-            "step": "Design Phase"
-        },
-        {
-            "id": "ComfyUI",
+            "id": "Cursor",
             "group": 1,
             "step": "Design Phase"
         },
@@ -31,19 +26,24 @@
             "step": "Design Phase"
         },
         {
-            "id": "Generate",
-            "group": 2,
-            "step": "AI Capability"
-        },
-        {
-            "id": "Soundtrack (To)",
+            "id": "Text File (To)",
             "group": 4,
             "step": "AI Output (To)"
+        },
+        {
+            "id": "Release",
+            "group": 1,
+            "step": "Design Phase"
+        },
+        {
+            "id": "Develop",
+            "group": 1,
+            "step": "Design Phase"
         }
     ],
     "links": [
         {
-            "source": "Ideate",
+            "source": "Prototype",
             "target": "Generate"
         },
         {
@@ -52,18 +52,18 @@
         },
         {
             "source": "Prompt (From)",
-            "target": "Soundtrack (To)"
+            "target": "Code (To)"
         },
         {
             "source": "Prompt (From)",
-            "target": "Image File (To)"
+            "target": "Text File (To)"
         },
         {
-            "source": "Prompt (From)",
-            "target": "Video File (To)"
+            "source": "Develop",
+            "target": "Generate"
         },
         {
-            "source": "Prototype",
+            "source": "Release",
             "target": "Generate"
         }
     ]
